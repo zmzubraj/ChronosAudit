@@ -2,6 +2,10 @@
 
 > **Human-review draft — concept only.** Novelty is `UNRESOLVED`; feasibility is `PILOT_FIRST`; the protocol is not independently schema-v4 verified or preregistered; detector-performance and prospective results are `NOT RUN`; no submission is authorized.
 
+Draft author and repository public-release authority: **Zubaer Mahmood Zubraj**
+([`@zmzubraj`](https://github.com/zmzubraj)). Final publication byline order,
+affiliations, CRediT roles, declarations, and submission approval remain open.
+
 ## Abstract
 
 Smart-contract exploit-detection benchmarks can overstate capability when evaluation cases share time-dependent information, protocol lineage, source or bytecode clones, proxy implementations, attacker infrastructure, or exploit mechanisms with training and retrieval material. ChronosAudit is a proposed measurement protocol for asking how much apparent capability survives when these dependencies are controlled jointly rather than one at a time. The protocol defines case-level prediction-time admissibility manifests, a split ladder from random evaluation to joint independence control, an open-population outcome model that preserves unresolved contracts as right-censored, and selective-prediction summaries tied to frozen alert budgets. The central object is a capability-survival profile, not a new detector. Existing design-stage work shows that restricted pilot plumbing can be rerun, but it has not established a complete representative real-case manifest, an admissible cohort, a mature-negative example, a strong baseline portfolio, or operational usefulness. The proposed study therefore remains a preregistration blueprint. A sealed prospective shadow deployment is excluded until separate authority, disclosure governance, adjudication, follow-up, and partner requirements are met. [claim:C001] [evidence:E-LOCAL-PROBLEM,E-LOCAL-VIABILITY]
@@ -72,11 +76,11 @@ Current activity is public-source, non-interventional computational methods work
 
 ## Data, code, and materials availability
 
-The versioned research case preserves local governance, novelty, feasibility, and design-draft artifacts. It is not a public release package. Redistribution rights, repository destination, long-term preservation, executable environment, and independent replication remain unresolved.
+The versioned research case is publicly hosted in the owner-authorized ChronosAudit repository. Repository-wide reuse rights, long-term archival preservation, executable-environment capture, and independent replication remain unresolved.
 
 ## Authorship, funding, conflicts, and AI use
 
-Human authorship, CRediT roles, funding, sponsor role, conflicts, acknowledgements, and permissions are unresolved and must not be inferred. AI systems assisted with evidence organization, protocol drafting, and adversarial review; accountable humans must verify all affected content and prepare the venue-specific disclosure. AI is not an author.
+Zubaer Mahmood Zubraj is identified as the draft author and repository owner. Final publication byline order, CRediT roles, funding, sponsor role, conflicts, acknowledgements, and permissions remain unresolved and must not be inferred. AI systems assisted with evidence organization, protocol drafting, and adversarial review; accountable humans must verify all affected content and prepare the venue-specific disclosure. AI is not an author.
 
 ## Conclusion
 

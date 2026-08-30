@@ -2,10 +2,10 @@
 
 ## Dual-Provider Historical State Reconstruction of 417 Smart-Contract Incidents
 
-**Author:** Pending accountable-author confirmation  
+**Draft author:** Zubaer Mahmood Zubraj
 **Draft date:** 29 August 2026
 
-> **Accountability notice.** This is a mechanically checked submission-ready draft. Author identity, affiliations, declarations, downstream redistribution rights, and independent scientific reproduction require accountable human completion before upload.
+> **Accountability notice.** This is a mechanically checked draft, not a submission-ready manuscript. The draft author and public repository authority are identified; final affiliations, CRediT roles, declarations, downstream reuse rights, independent scientific reproduction, and submission approval remain open.
 
 ## Abstract
 
@@ -361,8 +361,9 @@ pending source-rights review; aggregate tables and code are prepared in
 the local bundle.\
 **Code availability:** Analysis code and tests are prepared in the local
 reproducibility bundle; public repository/DOI pending author approval.\
-**Author contributions:** Pending named human authors and CRediT
-confirmation.\
+**Author contributions:** Zubaer Mahmood Zubraj is the named draft author and
+repository owner; final CRediT roles and any additional eligible authors require
+accountable confirmation.\
 **AI-use disclosure:** Generative AI assisted planning, code generation,
 drafting, and internal checking. Human authors must take responsibility
 for the final work.
