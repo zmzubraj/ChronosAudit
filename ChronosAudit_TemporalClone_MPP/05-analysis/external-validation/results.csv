@@ -1,0 +1,5 @@
+validation_id,claim_id,disposition,evidence,limitation,next_action
+EV-001,CLAIM-TEMPORAL,N/A,finite frozen cohort census,does not generalize beyond the cohort,keep claim cohort-bounded
+EV-002,CLAIM-IDENTITY,N/A,finite frozen cohort census,equality is not semantic cloning,keep claim abstraction-bounded
+EV-003,CLAIM-PROXY,N/A,finite frozen cohort census,indicator set is incomplete,keep result as lower-bound indicator count
+EV-004,CLAIM-REPRODUCIBILITY,BLOCKED,root tests passed,no distinct reproducer,obtain independent clean-room rerun

@@ -1,0 +1,74 @@
+version: 1.4.0-local-test
+providers:
+  - provider_id: publicnode-ethereum
+    chain: ethereum
+    endpoint: https://ethereum-rpc.publicnode.com
+    operator_family: publicnode
+    discovery_source: https://ethereum.publicnode.com/
+    tracking_enabled: true
+    operator_evidence_url: https://ethereum.publicnode.com/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: blockreq-ethereum
+    chain: ethereum
+    endpoint: https://ethereum-rpc.blockreq.com/v1/rpc/public
+    operator_family: blockreq
+    discovery_source: https://docs.blockreq.com/build/public-endpoints/
+    tracking_enabled: true
+    operator_evidence_url: https://docs.blockreq.com/build/public-endpoints/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: bnb-official-bsc
+    chain: bsc
+    endpoint: https://bsc-dataseed.bnbchain.org
+    operator_family: bnb-official
+    discovery_source: https://docs.bnbchain.org/bnb-smart-chain/developers/json_rpc/json-rpc-endpoint/
+    tracking_enabled: true
+    operator_evidence_url: https://docs.bnbchain.org/bnb-smart-chain/developers/json_rpc/json-rpc-endpoint/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: drpc-bsc
+    chain: bsc
+    endpoint: https://bsc.drpc.org
+    operator_family: drpc
+    discovery_source: https://drpc.org/docs/bsc-api
+    tracking_enabled: true
+    operator_evidence_url: https://drpc.org/docs/bsc-api
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: base-official-base
+    chain: base
+    endpoint: https://mainnet.base.org
+    operator_family: base-official
+    discovery_source: https://docs.base.org/base-chain/quickstart/connecting-to-base
+    tracking_enabled: true
+    operator_evidence_url: https://docs.base.org/base-chain/quickstart/connecting-to-base
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: blockreq-base
+    chain: base
+    endpoint: https://base-rpc.blockreq.com/v1/rpc/public
+    operator_family: blockreq
+    discovery_source: https://docs.blockreq.com/build/public-endpoints/
+    tracking_enabled: true
+    operator_evidence_url: https://docs.blockreq.com/build/public-endpoints/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: arbitrum-official-arbitrum
+    chain: arbitrum
+    endpoint: https://arb1.arbitrum.io/rpc
+    operator_family: arbitrum-official
+    discovery_source: https://docs.arbitrum.io/for-devs/dev-tools-and-resources/chain-info
+    tracking_enabled: true
+    operator_evidence_url: https://docs.arbitrum.io/for-devs/dev-tools-and-resources/chain-info
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: drpc-arbitrum
+    chain: arbitrum
+    endpoint: https://arbitrum.drpc.org
+    operator_family: drpc
+    discovery_source: https://drpc.org/docs/arbitrum-api
+    tracking_enabled: true
+    operator_evidence_url: https://drpc.org/docs/arbitrum-api
+    operator_evidence_sha256:
+    operator_verified: false

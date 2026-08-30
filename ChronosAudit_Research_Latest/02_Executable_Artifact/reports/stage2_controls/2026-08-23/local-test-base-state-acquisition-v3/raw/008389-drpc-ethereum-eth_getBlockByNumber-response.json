@@ -1,0 +1,19 @@
+{
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "http_status": 429,
+  "method": "eth_getBlockByNumber",
+  "observed_at_unix": 1787428168,
+  "observed_at_utc": "2026-08-22T19:49:28Z",
+  "operator_family": "drpc",
+  "params": [
+    "0x14165df",
+    false
+  ],
+  "provider_id": "drpc-ethereum",
+  "result": null,
+  "schema_version": "stage2_control_cutoff_state_rpc_response.v1",
+  "sequence": 8389,
+  "target_id": "base-state:d6e622307cbcc95f46f960475fbaeebde0c4eb4889e5b9d56b58c542cdd7cbf3",
+  "transport_request_sha256": "438eac6c183a409208c601afe3f3fc25d1eb9aec86921e0f02247336167d968d",
+  "transport_response_sha256": null
+}

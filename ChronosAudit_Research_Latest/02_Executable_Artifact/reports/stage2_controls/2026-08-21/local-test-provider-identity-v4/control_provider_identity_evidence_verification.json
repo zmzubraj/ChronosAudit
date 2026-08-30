@@ -1,0 +1,12 @@
+{
+  "decision": "PROVIDER_IDENTITY_EVIDENCE_REVIEW_VERIFIED_NON_AUTHORIZING",
+  "provider_count": 8,
+  "provider_identity_verified": false,
+  "recovery3_mutation_authorized": false,
+  "review_payload_sha256": "574e811056dbd778d23fe6c2cef271560fedf49acdab86f5822ac71188b4ae5e",
+  "review_sha256": "af367c9383c5ba4f114b374a921d6339aaaacf95edb1510414a4e1192cdd09a4",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_evidence_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

@@ -1,0 +1,400 @@
+{
+  "chain_count": 1,
+  "chains": [
+    {
+      "chain": "bsc",
+      "complete": false,
+      "errors": [
+        "bsc:bnb-official-bsc:trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32000, \\\"message\\\": \\\"missing trie node\\\"}\",\"trace_transaction\":\"{\\\"code\\\": -32002, \\\"message\\\": \\\"the resource trace_transaction is not available.\\\"}\"}"
+      ],
+      "known_creation_recovered_by_both": false,
+      "provider_count": 2,
+      "providers": [
+        {
+          "complete": false,
+          "errors": [
+            "trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32000, \\\"message\\\": \\\"missing trie node\\\"}\",\"trace_transaction\":\"{\\\"code\\\": -32002, \\\"message\\\": \\\"the resource trace_transaction is not available.\\\"}\"}"
+          ],
+          "provider_family": "bnb-official",
+          "provider_id": "bnb-official-bsc"
+        },
+        {
+          "beacon_implementation": null,
+          "block_hash": "0x7e3df2044a0d0e82d23a5ef91945d28e5f85d33d539f1e2afd0dd44075e8e976",
+          "block_number": 91716206,
+          "block_timestamp": 1775822579,
+          "chain_id": "0x38",
+          "creation_set": [
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x06d532adf67274c217386dfa0b4e722d438850ba",
+              "internal_create",
+              "0x7a70e4812f0a4bab8e009abd86f1eeed3f1dcb57",
+              "[1,0,1,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x267e404f4978f9c171ecc36cc62adee12ec734b6",
+              "internal_create",
+              "0x83219a335951da1758907868e1406034380123a3",
+              "[0,0,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x3befbc6ed7f2639f4168de898845cfed1b8f1021",
+              "internal_create",
+              "0xab4be815efcd9c27852f191f5fb4a464a4ffcca1",
+              "[1,0,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x4122fd4262343b94abdec24308a3485fa4dcdf47",
+              "internal_create",
+              "0x1366e354c39747cf66f3ccfba6908e5d230c41ef",
+              "[2,0,1]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x4a482c4960c4ca859220c046e2155248fad07ce3",
+              "internal_create",
+              "0x0ec97061549e31d75bc95c32b5b03cf2c187128b",
+              "[3,0,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x4c9b174c577960af81a44e87deb294b6a9d24137",
+              "internal_create",
+              "0x83219a335951da1758907868e1406034380123a3",
+              "[0,0,1]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x64494779ecdc35f9130c112c57b1734ce1a996e6",
+              "internal_create",
+              "0x4122fd4262343b94abdec24308a3485fa4dcdf47",
+              "[2,0,1,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x7a70e4812f0a4bab8e009abd86f1eeed3f1dcb57",
+              "internal_create",
+              "0xab4be815efcd9c27852f191f5fb4a464a4ffcca1",
+              "[1,0,1]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x82d56e4d35d42ea2488ebf90bd8b6579e1af6eed",
+              "internal_create",
+              "0x0ec97061549e31d75bc95c32b5b03cf2c187128b",
+              "[3,0,1]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0xb6037b6f2e46a130bd7fa51f10be3e27cad738c0",
+              "internal_create",
+              "0x1366e354c39747cf66f3ccfba6908e5d230c41ef",
+              "[2,0,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0xb72c11537b9c2b5d58a1ba49c4c8f05917d74f26",
+              "internal_create",
+              "0x4c9b174c577960af81a44e87deb294b6a9d24137",
+              "[0,0,1,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0xdb54339a5e75749c75d268e67c8cea66d426a0e7",
+              "internal_create",
+              "0x82d56e4d35d42ea2488ebf90bd8b6579e1af6eed",
+              "[3,0,1,0]"
+            ]
+          ],
+          "known_creation_recovered": true,
+          "provider_family": "nodereal",
+          "provider_id": "nodereal-bsc",
+          "runtime_code": "0x6080604052337f000000000000000000000000db54339a5e75749c75d268e67c8cea66d426a0e76001600160a01b031603610069576000356001600160e01b03191663278f794360e11b1461005f576334ad5dbb60e21b60005260046000fd5b610067610113565b005b7f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc5460009081906001600160a01b0316368280378136915af43d6000803e156100b1573d6000f35b3d6000fd5b634e487b7160e01b600052604160045260246000fd5b6040519190601f01601f1916820167ffffffffffffffff8111838210176100f257604052565b6100b6565b67ffffffffffffffff81116100f257601f01601f191660200190565b3660041161019d57604036600319011261019d576004356001600160a01b0381169081900361019d576024359067ffffffffffffffff821161019d573660238301121561019d5781600401359061017161016c836100f7565b6100cc565b91808352366024828601011161019d57602081600092602461019b970183870137840101526101a2565b565b600080fd5b90813b15610239577f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc80546001600160a01b0319166001600160a01b0384169081179091557fbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b600080a280511561021f5761021c9161025b565b50565b50503461022857565b63b398979f60e01b60005260046000fd5b50634c9c8ce360e01b60009081526001600160a01b0391909116600452602490fd5b60008061028f93602081519101845af43d15610292573d9161027f61016c846100f7565b9283523d6000602085013e610296565b90565b6060915b906102bc57508051156102ab57602081519101fd5b63d6bda27560e01b60005260046000fd5b815115806102ee575b6102cd575090565b639996b31560e01b60009081526001600160a01b0391909116600452602490fd5b50803b156102c556fea2646970667358221220202fe99aaa89cd90f9bcdeb7ca809a19477b94c0b8483a68766f3dd35d27019564736f6c634300081a0033",
+          "storage_slots": {
+            "admin": "0x000000000000000000000000db54339a5e75749c75d268e67c8cea66d426a0e7",
+            "beacon": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "implementation": "0x0000000000000000000000004a482c4960c4ca859220c046e2155248fad07ce3"
+          },
+          "trace_method": "trace_transaction",
+          "transaction_hash": "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be"
+        }
+      ],
+      "verified_operator_families": [
+        "bnb-official",
+        "nodereal"
+      ]
+    }
+  ],
+  "complete": false,
+  "errors": [
+    "bsc:bnb-official-bsc:trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32000, \\\"message\\\": \\\"missing trie node\\\"}\",\"trace_transaction\":\"{\\\"code\\\": -32002, \\\"message\\\": \\\"the resource trace_transaction is not available.\\\"}\"}"
+  ],
+  "fixture_count": 1,
+  "raw_evidence": [
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00001-bnb-official-bsc-eth_chainId-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 1,
+      "sha256": "a48e4f18c866304b6fee07d183ecac116cd46c27f043c815b0b6d2ff13805e5e"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00001-bnb-official-bsc-eth_chainId-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 1,
+      "sha256": "42d73345945ee519b44b90b0943db0588e3b6f7b2f87ffadc9bc17792dd02087"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-bnb-official-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 2,
+      "sha256": "27f4c95db7cf19fa766b8227cfa4017eb818db9fc0773ac13645e7b7586e9216"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-bnb-official-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 2,
+      "sha256": "e0c6f0592e2e9807080bd7a5f8899799c7e20eeb7dadc2b834005d9a7a3edafa"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00003-bnb-official-bsc-eth_getBlockByHash-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 3,
+      "sha256": "690ccff951c0c89161858d1046d136c9d9de95c065b31e5b1d0cceb9f78c4cfc"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00003-bnb-official-bsc-eth_getBlockByHash-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 3,
+      "sha256": "3d8622c318346581e830addc85304d019c158d95e0e70c8a13713b18137f6864"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00004-bnb-official-bsc-eth_getTransactionReceipt-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 4,
+      "sha256": "86b1b456eac70ac9911d8405e9c6829488af1f194e1ff84d246c3c9530f4102a"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00004-bnb-official-bsc-eth_getTransactionReceipt-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 4,
+      "sha256": "0aca7eb7de379befb8bd132000590079d879bcbb546fdc09df36c7cef4352e08"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00005-bnb-official-bsc-trace_transaction-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 5,
+      "sha256": "bc03dcd177b6318075504437b27ef467f0ce27c61a3fe5cd4d1892dc4832604f"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00005-bnb-official-bsc-trace_transaction-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 5,
+      "sha256": "dcefa7853b06c4bf1ef7e5299d13bad646db124a2ca13bbf621dcc2cf324eec1"
+    },
+    {
+      "kind": "request",
+      "method": "debug_traceTransaction",
+      "path": "00006-bnb-official-bsc-debug_traceTransaction-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 6,
+      "sha256": "962e9fa286a60eed02a86c6f9b0fa0a08d0cbd9c9e19db2da67fdff7078edad8"
+    },
+    {
+      "kind": "response",
+      "method": "debug_traceTransaction",
+      "path": "00006-bnb-official-bsc-debug_traceTransaction-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 6,
+      "sha256": "31fa35511c66f37f9a6da7317e7a61c27f2bf04dc9faba864fe54f10eea9fc33"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00007-nodereal-bsc-eth_chainId-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 7,
+      "sha256": "651e5b9e01e8ff95a2e7fd06e3ae618136838b2c92dd438a33a580d8993e4282"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00007-nodereal-bsc-eth_chainId-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 7,
+      "sha256": "3d9ef96ec83ee8ee19e6a72e962b91fd0ec6ddd22a4e3de7cd35fb00873c5913"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00008-nodereal-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 8,
+      "sha256": "929e8dd2962c3bc73b8b8fa44ee28234fb4ab38edc6cbeedaa689ba43bb2fd53"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00008-nodereal-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 8,
+      "sha256": "2d79cc2908f441eb31518863454f4d3ec64b161071afed63b42a84d5964f3fa6"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00009-nodereal-bsc-eth_getBlockByHash-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 9,
+      "sha256": "dff6af8d8d94001db714fd8e37c589ad30d99ce6f97c872b2b50d0868593b403"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00009-nodereal-bsc-eth_getBlockByHash-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 9,
+      "sha256": "4354cd8585a0fb9d55513919e6b62670c7432b6e4cba878b12d2f61444eb11ed"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00010-nodereal-bsc-eth_getTransactionReceipt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 10,
+      "sha256": "e92545b81dd3d5f54bf19332b76970597e20d4d40999ff51ef11ccfb1923532d"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00010-nodereal-bsc-eth_getTransactionReceipt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 10,
+      "sha256": "912ea2c7979ff4bfec151206fb93e531cd01204638d095b2e5881eed6569bf8e"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00011-nodereal-bsc-trace_transaction-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 11,
+      "sha256": "70e432578eebd7d8dab4d172588e0f4e8a5ab57e9f90287a43330522b6c82df1"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00011-nodereal-bsc-trace_transaction-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 11,
+      "sha256": "82f657200b44d8814aeec39bf1988ea2779be00ebd7e9bbc22f9733f6d6e5e46"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00012-nodereal-bsc-eth_getCode-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 12,
+      "sha256": "2e6e2a31781d23d2c3f3d8d7d95159024ae0c409e5aa3692e97af6be924fa03d"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00012-nodereal-bsc-eth_getCode-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 12,
+      "sha256": "dbc51e15bfc1ef47da8c2d8daeca77a287dc9ec96328cbe27ca1ea861e6fd6e2"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00013-nodereal-bsc-eth_getStorageAt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 13,
+      "sha256": "fc9db3de149e2fca08c6edd21d8589e355d7217df6f660d4c2779cd54223f319"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00013-nodereal-bsc-eth_getStorageAt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 13,
+      "sha256": "9cf299a7b59bd046841739e5376c264b62264b02f8107aef5c64c792f32743c7"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00014-nodereal-bsc-eth_getStorageAt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 14,
+      "sha256": "43c7817653e0764a3c44ad48f86c7e936dc21bf147cf47476a775ad1c3ca44cc"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00014-nodereal-bsc-eth_getStorageAt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 14,
+      "sha256": "ef5641ffe040da9d061e6650b8306be7a780e430a17095a7d3a81c1b2f94f7f2"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00015-nodereal-bsc-eth_getStorageAt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 15,
+      "sha256": "3ffb060674e9e6040835d4b6117b70ee14f00d13c0905447454e3590c2382915"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00015-nodereal-bsc-eth_getStorageAt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 15,
+      "sha256": "401519647e44737c873a146121b21125378265804f82b02b70ff37960712dab6"
+    }
+  ],
+  "raw_evidence_count": 30,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "b4eb53346d9691eb75a9028818feba2269720f31e3530c644b2cea8c60ef0389",
+  "required_methods": [
+    "eth_chainId",
+    "eth_getBlockByHash",
+    "eth_getBlockByNumber",
+    "eth_getTransactionReceipt",
+    "eth_getCode",
+    "eth_getStorageAt"
+  ],
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "trace_method_candidates": [
+    "trace_transaction",
+    "debug_traceTransaction",
+    "trace_block",
+    "debug_traceBlockByNumber"
+  ]
+}

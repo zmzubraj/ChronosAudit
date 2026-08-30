@@ -1,0 +1,142 @@
+{
+  "analysis_version": "temporalclone-mpp-v1",
+  "cohort": {
+    "chains": {
+      "arbitrum": 1,
+      "base": 9,
+      "bsc": 226,
+      "ethereum": 181
+    },
+    "n_cases": 417,
+    "provider_families": [
+      "alchemy",
+      "infura"
+    ],
+    "status_verified": 417,
+    "strict_snapshot_closed": 417
+  },
+  "cutoff_lead_hours": {
+    "maximum": 55406.258888888886,
+    "median": 2301.7144444444443,
+    "minimum": 1.4808333333333332,
+    "p10": 64.32566666666668,
+    "p25": 377.9086111111111,
+    "p75": 11014.845833333333,
+    "p90": 22340.97316666667
+  },
+  "deployment_to_incident_hours": {
+    "maximum": 55430.26,
+    "median": 2325.714722222222,
+    "minimum": 25.48138888888889
+  },
+  "identity_abstractions": {
+    "address_only": {
+      "cross_address_duplicate_groups": 0,
+      "cross_address_duplicate_rows": 0,
+      "cross_chain_duplicate_groups": 0,
+      "cross_chain_duplicate_rows": 0,
+      "duplicate_groups": 7,
+      "duplicate_rows": 14,
+      "maximum_group_size": 2,
+      "unique_identities": 410
+    },
+    "chain_address": {
+      "cross_address_duplicate_groups": 0,
+      "cross_address_duplicate_rows": 0,
+      "cross_chain_duplicate_groups": 0,
+      "cross_chain_duplicate_rows": 0,
+      "duplicate_groups": 7,
+      "duplicate_rows": 14,
+      "maximum_group_size": 2,
+      "unique_identities": 410
+    },
+    "metadata_stripped_bytecode": {
+      "cross_address_duplicate_groups": 14,
+      "cross_address_duplicate_rows": 42,
+      "cross_chain_duplicate_groups": 3,
+      "cross_chain_duplicate_rows": 17,
+      "duplicate_groups": 21,
+      "duplicate_rows": 56,
+      "maximum_group_size": 9,
+      "unique_identities": 382
+    },
+    "runtime_bytecode": {
+      "cross_address_duplicate_groups": 10,
+      "cross_address_duplicate_rows": 32,
+      "cross_chain_duplicate_groups": 3,
+      "cross_chain_duplicate_rows": 16,
+      "duplicate_groups": 17,
+      "duplicate_rows": 46,
+      "maximum_group_size": 9,
+      "unique_identities": 388
+    }
+  },
+  "interpretation_boundary": "Descriptive benchmark-validity audit; no prediction, causal risk, or matched-control inference.",
+  "proxy_linkage": {
+    "admin_slot": {
+      "denominator": 417,
+      "n": 38,
+      "proportion": 0.09112709832134293,
+      "wilson_95_high": 0.12260711504838881,
+      "wilson_95_low": 0.06711150023355228
+    },
+    "any_proxy_indicator": {
+      "denominator": 417,
+      "n": 67,
+      "proportion": 0.1606714628297362,
+      "wilson_95_high": 0.19899054569614805,
+      "wilson_95_low": 0.12854719074018428
+    },
+    "beacon_slot": {
+      "denominator": 417,
+      "n": 1,
+      "proportion": 0.002398081534772182,
+      "wilson_95_high": 0.013456980445623217,
+      "wilson_95_low": 0.00042344577726697273
+    },
+    "eip1167_target": {
+      "denominator": 417,
+      "n": 12,
+      "proportion": 0.02877697841726619,
+      "wilson_95_high": 0.04961978485241447,
+      "wilson_95_low": 0.016536859739382733
+    },
+    "implementation_slot": {
+      "denominator": 417,
+      "n": 54,
+      "proportion": 0.12949640287769784,
+      "wilson_95_high": 0.16513384615125498,
+      "wilson_95_low": 0.10062290494000536
+    }
+  },
+  "temporal_eligibility": {
+    "eligible_1h": {
+      "denominator": 417,
+      "n": 417,
+      "proportion": 1.0,
+      "wilson_95_high": 0.9999999999999999,
+      "wilson_95_low": 0.9908719572651922
+    },
+    "eligible_24h": {
+      "denominator": 417,
+      "n": 417,
+      "proportion": 1.0,
+      "wilson_95_high": 0.9999999999999999,
+      "wilson_95_low": 0.9908719572651922
+    },
+    "eligible_30d": {
+      "denominator": 417,
+      "n": 275,
+      "proportion": 0.6594724220623501,
+      "wilson_95_high": 0.7033156501770271,
+      "wilson_95_low": 0.6127178517804562
+    },
+    "eligible_7d": {
+      "denominator": 417,
+      "n": 352,
+      "proportion": 0.8441247002398081,
+      "wilson_95_high": 0.8757817679639119,
+      "wilson_95_low": 0.8061852625759205
+    }
+  }
+}

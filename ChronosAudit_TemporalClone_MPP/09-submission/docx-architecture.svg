@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="230" viewBox="0 0 1400 230">
+<rect width="100%" height="100%" fill="white"/>
+<text x="700.0" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#172033">Analysis architecture</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#46526A"/></marker></defs>
+<rect x="35.0" y="72" width="171.1" height="105" rx="12" fill="#EAF3FF" stroke="#334155" stroke-width="2"/>
+<text x="120.6" y="124.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">417-case index</text>
+<line x1="210.14285714285714" y1="124.5" x2="222.14285714285714" y2="124.5" stroke="#46526A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="228.1" y="72" width="171.1" height="105" rx="12" fill="#EAF3FF" stroke="#334155" stroke-width="2"/>
+<text x="313.7" y="113.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">Closed historical</text>
+<text x="313.7" y="136.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">envelopes</text>
+<line x1="403.2857142857143" y1="124.5" x2="415.2857142857143" y2="124.5" stroke="#46526A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="421.3" y="72" width="171.1" height="105" rx="12" fill="#FFF3D6" stroke="#334155" stroke-width="2"/>
+<text x="506.9" y="113.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">Fail-closed</text>
+<text x="506.9" y="136.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">evidence gate</text>
+<line x1="596.4285714285714" y1="124.5" x2="608.4285714285714" y2="124.5" stroke="#46526A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="614.4" y="72" width="171.1" height="105" rx="12" fill="#E8F7EE" stroke="#334155" stroke-width="2"/>
+<text x="700.0" y="113.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">Canonical</text>
+<text x="700.0" y="136.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">analysis rows</text>
+<line x1="789.5714285714286" y1="124.5" x2="801.5714285714286" y2="124.5" stroke="#46526A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="807.6" y="72" width="171.1" height="105" rx="12" fill="#EEF0FF" stroke="#334155" stroke-width="2"/>
+<text x="893.1" y="113.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">Temporal identity</text>
+<text x="893.1" y="136.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">proxy audits</text>
+<line x1="982.7142857142857" y1="124.5" x2="994.7142857142857" y2="124.5" stroke="#46526A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1000.7" y="72" width="171.1" height="105" rx="12" fill="#EEF0FF" stroke="#334155" stroke-width="2"/>
+<text x="1086.3" y="113.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">T1-T8 figures</text>
+<text x="1086.3" y="136.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">manuscript</text>
+<line x1="1175.857142857143" y1="124.5" x2="1187.857142857143" y2="124.5" stroke="#46526A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1193.9" y="72" width="171.1" height="105" rx="12" fill="#FDECEC" stroke="#334155" stroke-width="2"/>
+<text x="1279.4" y="113.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">Human and</text>
+<text x="1279.4" y="136.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#172033">independent gates</text>
+</svg>

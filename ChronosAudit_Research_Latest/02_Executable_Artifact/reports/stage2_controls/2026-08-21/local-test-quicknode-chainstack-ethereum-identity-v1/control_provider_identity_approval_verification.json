@@ -1,0 +1,25 @@
+{
+  "acquisition_authorized": false,
+  "allowed_signers_sha256": "71368416e721b0bc500d8af5b44adc9063d1c3689b5dc25dee1f1202411df089",
+  "approval_sha256": "b26356f089470fd31434b9fe19f93a36be80f8b263a3664b9ae1a5b86565d1ac",
+  "archive_capability_limit": "NOT_ASSESSED_BY_IDENTITY_REVIEW",
+  "decision": "PROVIDER_IDENTITY_APPROVAL_VERIFIED",
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_REVIEWER_IDENTITY",
+  "identity_report_projection_authorized": true,
+  "operator_families": [
+    "chainstack",
+    "quicknode"
+  ],
+  "provider_count": 2,
+  "recovery3_mutation_authorized": false,
+  "registry_projection_authorized": true,
+  "request_sha256": "854e05159328d6984af4a9cf13fbb282d74dced49c713e10c3b1d9af92d3d9e7",
+  "review_expires_utc": "2026-08-27T22:15:00Z",
+  "reviewer_principal": "zmzubraj-local-test",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_approval_verification.v1",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-provider-identity-review-v1",
+  "signature_sha256": "65d86c3a69a754343640ec402dfd83180e481195b12a34edbc9db2bbf485f012",
+  "stage_promotion_authorized": false
+}

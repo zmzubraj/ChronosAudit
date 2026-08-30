@@ -1,0 +1,156 @@
+{
+  "all_receipt_content_addresses_valid": true,
+  "amendment_id": "evidence-grade-pilot-amendment-a1",
+  "archive_access_blocked_cases": [],
+  "canonical_program_case_count_unchanged": true,
+  "cases": [
+    {
+      "blockers": [],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/futureswap.json",
+      "case_artifact_sha256": "1bb625f1f796f66b0c9c0d38ab91ed5601d6bda83e0236bb0c7a68cb0637e2ff",
+      "case_id": "ca2-40ca8a9aca77ecfbfe71",
+      "case_name": "futureswap",
+      "chain": "arbitrum",
+      "cutoff_lead_hours": 37167.06527777778,
+      "prediction_cutoff_block": 2221847,
+      "prediction_cutoff_block_hash": "0x21b4bb9df0d3da20ec55f13b74037284ed1e6eff023ef7dfbb689d95eff1fe6f",
+      "strict_snapshot_closed": true
+    },
+    {
+      "blockers": [
+        "insufficient_incident_lead_time"
+      ],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/leetswap.json",
+      "case_artifact_sha256": "951515097fb5ffecd3d202d3e900013c9a2a133388310077b12f5266f3d16976",
+      "case_id": "ca2-d5e2d826f6d08f10011e",
+      "case_name": "leetswap",
+      "chain": "base",
+      "cutoff_lead_hours": 0.805,
+      "prediction_cutoff_block": 2030297,
+      "prediction_cutoff_block_hash": "0xd941a36a59bc305ccabcd0841319903d5c42cce4905add0f5419245fa33f6d7c",
+      "strict_snapshot_closed": false
+    },
+    {
+      "blockers": [],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/carolprotocol.json",
+      "case_artifact_sha256": "74fe9751997ff06322230c5d6485b939ffc95ca3b3154209eeca24db755f4dd7",
+      "case_id": "ca2-e726d15fcadb675a6a84",
+      "case_name": "carolprotocol",
+      "chain": "base",
+      "cutoff_lead_hours": 1972.6622222222222,
+      "prediction_cutoff_block": 3695288,
+      "prediction_cutoff_block_hash": "0xff6d6f671672b3b8c9aae293a426d4286a3b56f64bdb6210c1080ea8ea84abf1",
+      "strict_snapshot_closed": true
+    },
+    {
+      "blockers": [],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/shadowfi.json",
+      "case_artifact_sha256": "345ffa65634caa005ff8a1212109107a6bdc2ec2c02106fbe31398a25d02995e",
+      "case_id": "ca2-742774bf4edd46ad6f87",
+      "case_name": "shadowfi",
+      "chain": "bsc",
+      "cutoff_lead_hours": 140.70583333333335,
+      "prediction_cutoff_block": 20800530,
+      "prediction_cutoff_block_hash": "0xede956bbd2a0fbea12fe9c4f9da9ef494e0f874c783d68bfd53de6576bc6dc11",
+      "strict_snapshot_closed": true
+    },
+    {
+      "blockers": [],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/bbox.json",
+      "case_artifact_sha256": "38d372283d60b882d29e06b8956114f02aebaa7650c36831f4576f6bfaf86010",
+      "case_id": "ca2-7063be755a02e6e0df10",
+      "case_name": "bbox",
+      "chain": "bsc",
+      "cutoff_lead_hours": 5568.434166666667,
+      "prediction_cutoff_block": 16482224,
+      "prediction_cutoff_block_hash": "0x085180970fe6a32ba0789278035bbdaceeab0d4d8371f3ceb371638910557dad",
+      "strict_snapshot_closed": true
+    },
+    {
+      "blockers": [],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/vtf.json",
+      "case_artifact_sha256": "6a0b981fa4e3a23643b51f4288c06ccee003d1f7656b1a313a2e3bdeb7a2ef58",
+      "case_id": "ca2-83e922a7f39b2bc4b4b1",
+      "case_name": "vtf",
+      "chain": "bsc",
+      "cutoff_lead_hours": 403.9477777777778,
+      "prediction_cutoff_block": 22056590,
+      "prediction_cutoff_block_hash": "0xf806d7572aa6b55d1be42ef50e1f29ebc8e00b95a400f66a1327e3503ab1a56a",
+      "strict_snapshot_closed": true
+    },
+    {
+      "blockers": [],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/saddle.json",
+      "case_artifact_sha256": "a4433ec316c7de12cfce8f96f55c21414f8f405d2ed0216b957780ac12d467b6",
+      "case_id": "ca2-c9253cf4e2d235460157",
+      "case_name": "saddle",
+      "chain": "ethereum",
+      "cutoff_lead_hours": 3246.6905555555554,
+      "prediction_cutoff_block": 13813120,
+      "prediction_cutoff_block_hash": "0x92c3ea00014fdb0ade98848359ec0a2fa441e10f72490e4dc285b2f016e17b1f",
+      "strict_snapshot_closed": true
+    },
+    {
+      "blockers": [],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/uerii.json",
+      "case_artifact_sha256": "c7b38249ef5e5509076e783e3f807b9ea970e43fba48215a6ef4301eb23c2447",
+      "case_id": "ca2-5d74bde6e71788f42085",
+      "case_name": "uerii",
+      "chain": "ethereum",
+      "cutoff_lead_hours": 8051.0858333333335,
+      "prediction_cutoff_block": 13623750,
+      "prediction_cutoff_block_hash": "0xc1b36205305f0a3e204b5015c195c1b5404b93f31fd39b6b4924f04fdbccc59a",
+      "strict_snapshot_closed": true
+    },
+    {
+      "blockers": [],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/88mph.json",
+      "case_artifact_sha256": "0d6a004ef895350724793ee3c36bd572f9701edbd78b6afa31642a91696a1bb8",
+      "case_id": "ca2-c9c1817a98610ef26f01",
+      "case_name": "88mph",
+      "chain": "ethereum",
+      "cutoff_lead_hours": 2365.898888888889,
+      "prediction_cutoff_block": 11877437,
+      "prediction_cutoff_block_hash": "0xfdf4fd71056ee4b96b76aec1c997797f1752e8c7678f671dadc7cdb767683868",
+      "strict_snapshot_closed": true
+    },
+    {
+      "blockers": [],
+      "case_artifact_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/cases/treasuredao.json",
+      "case_artifact_sha256": "893467a7de63b0d4f96dda61b69faf1857e74cae878d7e52fa1e02df9f2b582e",
+      "case_id": "supplement-treasuredao-2022",
+      "case_name": "treasuredao",
+      "chain": "arbitrum",
+      "cutoff_lead_hours": 726.2641666666667,
+      "prediction_cutoff_block": 5289888,
+      "prediction_cutoff_block_hash": "0x94797fe44d003add00e88d1bfb9c48c51ca863981046bb627707dd6f616b04b9",
+      "strict_snapshot_closed": true
+    }
+  ],
+  "cases_attempted": 10,
+  "disposition": "BLOCKED_PROTOCOL",
+  "pilot_case_count": 10,
+  "protocol_ineligible_cases": [
+    "leetswap"
+  ],
+  "provider_identity_complete": true,
+  "receipt_count": 363,
+  "receipt_manifest_path": "reports/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipt_manifest.json",
+  "receipt_manifest_sha256": "d975600d6c4bf5ecb2ec9f48820d342a0a68ca1fa56e989c89384947766a3608",
+  "release_eligible": false,
+  "report_sha256_without_self_hash": "5eeee346b324a03fe8e40f1ac6a68bca93933cf8ae09ab8f3ef968c44fa99c14",
+  "required_state_cells": [
+    "block_capability",
+    "runtime_code",
+    "eip1967_implementation_slot",
+    "eip1967_beacon_slot",
+    "eip1967_admin_slot",
+    "beacon_implementation_call",
+    "implementation_runtime_code"
+  ],
+  "schema_version": "chronosaudit-evidence-grade-pilot-closure-v1",
+  "scientific_counter_rule": "Section 6 strict historical-snapshot evidence contract",
+  "status": "partial",
+  "strict_snapshots_closed": 9,
+  "updated_at_utc": "2026-08-08T18:27:57Z"
+}

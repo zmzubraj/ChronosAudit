@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "gate": "two independent archive provider families per represented chain",
+      "observed": {
+        "arbitrum": 0,
+        "base": 0,
+        "bsc": 0,
+        "ethereum": 0
+      },
+      "passed": false,
+      "required": "2 verified families per chain"
+    },
+    {
+      "gate": "historical identity snapshots",
+      "observed": 0,
+      "passed": false,
+      "required": 417
+    },
+    {
+      "gate": "source/deployment-history observations",
+      "observed": 0,
+      "passed": false,
+      "required": 417
+    },
+    {
+      "gate": "complete independent review/adjudication",
+      "observed": 0,
+      "passed": false,
+      "required": 417
+    },
+    {
+      "gate": "real deployment stream",
+      "observed": 0,
+      "passed": false,
+      "required": 20000
+    },
+    {
+      "gate": "cutoff-safe matched controls",
+      "observed": 0,
+      "passed": false,
+      "required": 4170
+    },
+    {
+      "gate": "longitudinal/censor-aware outcomes",
+      "observed": 0,
+      "passed": false,
+      "required": "frozen horizon + adjudicated outcomes"
+    },
+    {
+      "gate": "release cohort passes all R0-R5 leakage gates",
+      "observed": {
+        "r5_blocks": 0,
+        "release_rows": 0
+      },
+      "passed": false,
+      "required": ">0 cases and R5 >=120 independent blocks"
+    }
+  ],
+  "empirical_evidence_completion_score": 31,
+  "qualification_semantics": "operational evidence required; configuration alone never satisfies a live gate",
+  "qualified": false,
+  "software_workflow_completion_score": 94
+}

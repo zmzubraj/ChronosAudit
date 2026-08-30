@@ -1,0 +1,77 @@
+version: 1.1.0
+managed_archive_templates:
+  path: managed_archive_provider_templates.yaml
+  identity_basis: exact_hostname_template_and_operator_family
+providers:
+  - provider_id: publicnode-ethereum
+    chain: ethereum
+    endpoint: https://ethereum-rpc.publicnode.com
+    operator_family: publicnode
+    discovery_source: https://ethereum-rpc.publicnode.com/
+    tracking_enabled: true
+    operator_evidence_url: https://www.publicnode.com/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: one-rpc-ethereum
+    chain: ethereum
+    endpoint: https://public.1rpc.io/eth
+    operator_family: 1rpc
+    discovery_source: https://docs.1rpc.io/using-the-web3-api/networks
+    tracking_enabled: true
+    operator_evidence_url: https://www.1rpc.io/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: publicnode-bsc
+    chain: bsc
+    endpoint: https://bsc-rpc.publicnode.com
+    operator_family: publicnode
+    discovery_source: https://bsc-rpc.publicnode.com/
+    tracking_enabled: true
+    operator_evidence_url: https://www.publicnode.com/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: one-rpc-bsc
+    chain: bsc
+    endpoint: https://public.1rpc.io/bnb
+    operator_family: 1rpc
+    discovery_source: https://docs.1rpc.io/using-the-web3-api/networks
+    tracking_enabled: true
+    operator_evidence_url: https://www.1rpc.io/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: publicnode-base
+    chain: base
+    endpoint: https://base-rpc.publicnode.com
+    operator_family: publicnode
+    discovery_source: https://base-rpc.publicnode.com/
+    tracking_enabled: true
+    operator_evidence_url: https://www.publicnode.com/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: one-rpc-base
+    chain: base
+    endpoint: https://public.1rpc.io/base
+    operator_family: 1rpc
+    discovery_source: https://docs.1rpc.io/using-the-web3-api/networks
+    tracking_enabled: true
+    operator_evidence_url: https://www.1rpc.io/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: publicnode-arbitrum
+    chain: arbitrum
+    endpoint: https://arbitrum-one-rpc.publicnode.com
+    operator_family: publicnode
+    discovery_source: https://arbitrum-one-rpc.publicnode.com/
+    tracking_enabled: true
+    operator_evidence_url: https://www.publicnode.com/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: one-rpc-arbitrum
+    chain: arbitrum
+    endpoint: https://public.1rpc.io/arb
+    operator_family: 1rpc
+    discovery_source: https://docs.1rpc.io/using-the-web3-api/networks
+    tracking_enabled: true
+    operator_evidence_url: https://www.1rpc.io/
+    operator_evidence_sha256:
+    operator_verified: false

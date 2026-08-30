@@ -1,0 +1,96 @@
+{
+  "blockers": [],
+  "chains": [
+    {
+      "chain": "arbitrum",
+      "fully_matching_operator_families": [
+        "arbitrum-official",
+        "blockreq"
+      ],
+      "fully_matching_provider_ids": [
+        "arbitrum-official-arbitrum",
+        "blockreq-arbitrum"
+      ],
+      "identity_report_provider_ids": [
+        "arbitrum-official-arbitrum",
+        "blockreq-arbitrum"
+      ],
+      "registry_provider_ids": [
+        "arbitrum-official-arbitrum",
+        "blockreq-arbitrum"
+      ]
+    },
+    {
+      "chain": "base",
+      "fully_matching_operator_families": [
+        "base-official",
+        "blockreq"
+      ],
+      "fully_matching_provider_ids": [
+        "base-official-base",
+        "blockreq-base"
+      ],
+      "identity_report_provider_ids": [
+        "base-official-base",
+        "blockreq-base"
+      ],
+      "registry_provider_ids": [
+        "base-official-base",
+        "blockreq-base"
+      ]
+    },
+    {
+      "chain": "bsc",
+      "fully_matching_operator_families": [
+        "blockreq",
+        "bnb-official"
+      ],
+      "fully_matching_provider_ids": [
+        "blockreq-bsc",
+        "bnb-official-bsc"
+      ],
+      "identity_report_provider_ids": [
+        "blockreq-bsc",
+        "bnb-official-bsc"
+      ],
+      "registry_provider_ids": [
+        "blockreq-bsc",
+        "bnb-official-bsc"
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "fully_matching_operator_families": [
+        "blockreq",
+        "publicnode"
+      ],
+      "fully_matching_provider_ids": [
+        "blockreq-ethereum",
+        "publicnode-ethereum"
+      ],
+      "identity_report_provider_ids": [
+        "blockreq-ethereum",
+        "publicnode-ethereum"
+      ],
+      "registry_provider_ids": [
+        "blockreq-ethereum",
+        "publicnode-ethereum"
+      ]
+    }
+  ],
+  "decision": "RPC_PROVIDER_IDENTITY_READY_NON_AUTHORIZING",
+  "provider_identity_verification_sha256": "c52153502b588039d3a64c2e03b7fcbf60ac2aef60f6882cff22acf1cb441d05",
+  "provider_registry_sha256": "b16985b04a14f381975b122d92c9044b53fd68748cf0d06001c46318270e46d5",
+  "readiness_report_sha256": "c9ed820384640f6c1858843495c94aafb61c894b5a57d570716b516e6c757871",
+  "recovery3_mutation_authorized": false,
+  "required_chains": [
+    "arbitrum",
+    "base",
+    "bsc",
+    "ethereum"
+  ],
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_candidate_rpc_provider_readiness.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

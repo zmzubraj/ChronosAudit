@@ -1,0 +1,41 @@
+{
+  "chain_count": 1,
+  "chains": [
+    {
+      "chain": "ethereum",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain": "ethereum",
+          "complete": true,
+          "endpoint_template_sha256": "d0ee66fa0ef6ef64223a51ca55fb6435a41dc5c0e3e1e05491c0e2425b034338",
+          "identity_evidence_sha256": "aba41775c9ee9fbd6cd98906e41d151e03bc628072ae5a95bbe290bfb1f211af",
+          "provider_id": "chainstack-ethereum",
+          "public_endpoint_identity_id": "d0ee66fa0ef6ef64223a51ca55fb6435a41dc5c0e3e1e05491c0e2425b034338",
+          "public_endpoint_identity_sha256": "d0f7e82541eca5901d4fb7f45608d3830bde3e971a50ca549aae9de005430ad3",
+          "verified_operator_family": "chainstack"
+        },
+        {
+          "chain": "ethereum",
+          "complete": true,
+          "endpoint_template_sha256": "7bf448bc7def61e82096fd61a4d9eee23adbc8cff2263df8d7b2b2aa582a969c",
+          "identity_evidence_sha256": "0dfbe9b45e5947b573cc04fec817446a860f4450dfc1d3695b66b074a43b13cd",
+          "provider_id": "quicknode-ethereum",
+          "public_endpoint_identity_id": "7bf448bc7def61e82096fd61a4d9eee23adbc8cff2263df8d7b2b2aa582a969c",
+          "public_endpoint_identity_sha256": "881b61a3db585c9cc004fe7b017e350474ce79f1dd0779f386fdebcfd20d9f66",
+          "verified_operator_family": "quicknode"
+        }
+      ],
+      "verified_operator_families": [
+        "chainstack",
+        "quicknode"
+      ]
+    }
+  ],
+  "complete": true,
+  "errors": [],
+  "report_sha256": "8ca7c5f581689c49cc30305f05c22fedd6f1c2960d8a8a3942a94cddc97e0265",
+  "schema_version": "historical_snapshot_provider_identity_verification.v1"
+}

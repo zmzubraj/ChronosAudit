@@ -1,0 +1,34 @@
+{
+  "chain_count": 1,
+  "chains": [],
+  "complete": false,
+  "errors": [
+    "rpc_error:eth_getBlockByNumber"
+  ],
+  "fixture_count": 1,
+  "raw_evidence": [
+    {
+      "path": "00001-chainstack-ethereum-eth_chainId-request.json",
+      "sha256": "f8fdf35ed590a672dbb2377ec9b5c7bbd212a378e95d7002a0e521dc758834e2"
+    },
+    {
+      "path": "00001-chainstack-ethereum-eth_chainId-response.json",
+      "sha256": "169c43a095645fd14a64a31abd778f632cc9a8d4fe25ba7305850c8a3e7d4624"
+    },
+    {
+      "path": "00002-chainstack-ethereum-eth_getBlockByNumber-request.json",
+      "sha256": "9a1b1ebbe6db5cf2e82ad196abb4560ca36286ff9f4d1be42f589983e26172c7"
+    },
+    {
+      "path": "00002-chainstack-ethereum-eth_getBlockByNumber-response.json",
+      "sha256": "742059a4699a0548b053e8867581a8b040d88623877f3f8c7a1deb71f61be847"
+    }
+  ],
+  "raw_evidence_count": 4,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "994a0f41c7a64acdd3efdc08d5258c51f667d982e42b5a98085c393dbd85f203",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

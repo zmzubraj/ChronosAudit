@@ -1,0 +1,21 @@
+version: 1.3.0-local-test-quicknode-drpc-ethereum
+providers:
+  - provider_id: quicknode-ethereum
+    chain: ethereum
+    endpoint: https://quiknode.pro/
+    endpoint_env: CHRONOS_QUICKNODE_ETHEREUM_URL
+    operator_family: quicknode
+    discovery_source: https://www.quicknode.com/docs/ethereum/endpoints.md
+    tracking_enabled: true
+    operator_evidence_url: null
+    operator_evidence_sha256: null
+    operator_verified: false
+  - provider_id: drpc-ethereum
+    chain: ethereum
+    endpoint: https://eth.drpc.org
+    operator_family: drpc
+    discovery_source: https://drpc.org/chainlist/ethereum-mainnet-rpc
+    tracking_enabled: true
+    operator_evidence_url: null
+    operator_evidence_sha256: null
+    operator_verified: false

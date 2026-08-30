@@ -1,0 +1,17 @@
+{
+  "audit_decision": "IMPLEMENTATION_COMPLETE_EVIDENCE_GATES_BLOCKED_FAIL_CLOSED",
+  "checks": {
+    "cases_417": true,
+    "exact_identity_leakage_zero": true,
+    "fail_closed_release": true,
+    "incident_metadata_417": true,
+    "killer_questions_100": true,
+    "public_acquisition_cli_files_present": true,
+    "public_acquisition_structure_valid": true,
+    "registry_hash_chain_valid": true,
+    "registry_populated": true,
+    "terminal_hash_matches": true
+  },
+  "pass": true,
+  "registry_records": 1264
+}

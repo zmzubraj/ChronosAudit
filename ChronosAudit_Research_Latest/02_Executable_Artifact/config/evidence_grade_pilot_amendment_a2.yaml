@@ -1,0 +1,66 @@
+schema_version: chronosaudit-evidence-grade-pilot-amendment-v2
+amendment_id: evidence-grade-pilot-amendment-a2
+created_date: '2026-08-09'
+parent_config: config/evidence_grade_pilot_amendment_a1.yaml
+parent_config_sha256: afad3ef2b6adadc3d79d4bddedf3d0aee12cc321cd260e0910df32f751f7c2bc
+parent_amendment_id: evidence-grade-pilot-amendment-a1
+parent_pilot_manifest_sha256: 3420ed525a824c798684ce02514fc0aebf5420ee1eb5bd387dda3085e9939945
+canonical_program_case_count_unchanged: true
+selection:
+  replacement_rule: >-
+    Following the accountable decision to replace the protocol-ineligible
+    LeetSwap row, select the user-nominated GMX V1 incident only from preserved
+    incident, PoC, transaction, target-contract and creation evidence. Freeze
+    the candidate before keyed RPC acquisition. Do not select a substitute if
+    GMX fails its historical-state or cutoff checks.
+  replacement_seed: chronosaudit-evidence-grade-pilot-amendment-a2-gmxv1
+  replacement_observed_provider_results_before_selection: false
+  no_reselection_after_provider_observation: true
+  frozen_incident_index: raw/external/defihacklabs/2025.md
+  frozen_incident_index_sha256: d3b80fe4ed7198fc900616b269408c1d0485ef8f000f46d37adb75be862a4a9c
+  screened_before_freeze:
+    - case_name: paribus
+      candidate_source_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a2/candidate_sources/Paribus_exp.sol
+      candidate_source_sha256: abff26ba6e9c417836998d7f664d7494e6d7ed74c4c1a18e6ce6973a3f135f23
+      disposition: superseded_by_explicit_user_nominated_gmx_before_rpc_acquisition
+replacement:
+  failed_case_name: leetswap
+  failure_reason: insufficient_incident_lead_time
+  case_id: replacement-gmx-v1-2025
+  case_name: gmxv1
+  chain: arbitrum
+  chain_id: 42161
+  address: '0x489ee077994b6658eafa855c308275ead8097c4a'
+  incident_block: 355880237
+  poc_fork_block: 355878384
+  exploit_tx_hash: '0x03182d3f0956a91c4e4c8f225bbc7975f9434fab042228c7acdc5ec9a32626ef'
+  poc_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a2/candidate_sources/gmx_exp.sol
+  poc_sha256: e5e92db0258766a014848c80508e6f7e456ef558b4c00d6ed76f240ee0542c30
+  deployment_block: 227091
+  creation_tx_hash: '0xde0ad28ec2da4556ac71a70a489fd98ec69773f465351373a06bcb8e141cdeba'
+  creation_evidence_type: blockscout_creation_record_to_be_cross_checked_on_chain
+  primary_target_role: gmx_v1_vault_global_short_size_and_pool_asset_contract
+  mechanism_family: cross_contract_reentrancy_state_desynchronization
+  related_contracts:
+    position_manager: '0x75e42e6f01baf1d6022bea862a28774a9f8a4a0c'
+    order_book: '0x09f77e8a13de9a35a7231028187e9fd5db8a2acb'
+    shorts_tracker: '0xf58eec83ba28ddd79390b9e90c4d3ebff1d434da'
+    glp_manager: '0x3963ffc9dff443c2a94f21b129d429891e32ec18'
+  incident_evidence:
+    attack_transaction:
+      path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a2/incident_evidence/attack_transaction.json
+      sha256: 5ef83d13f550ccbc795b2fe1bb175415386645577f77862777a072ca671b79ce
+    vault_address:
+      path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a2/incident_evidence/vault_address.json
+      sha256: 1dcef51847004cd88e256deb9a3c25786acf1678e81bce9adcfc246e1c4952a8
+    vault_creation_transaction:
+      path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a2/incident_evidence/vault_creation_transaction.json
+      sha256: 1363f24442b0f4086da01f10e0d1540aae8d5999fb7076d5826d2799695f765c
+    independent_incident_analysis:
+      path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a2/incident_evidence/certik_gmx_incident_analysis.html
+      sha256: 0a433fd07d13cb031ad570427a5a2f02cc5fe78b2e30f68038deac78ef56ed43
+deployment_evidence:
+  gmxv1:
+    deployment_block: 227091
+    creation_tx_hash: '0xde0ad28ec2da4556ac71a70a489fd98ec69773f465351373a06bcb8e141cdeba'
+    creation_evidence_type: blockscout_creation_record_to_be_cross_checked_on_chain

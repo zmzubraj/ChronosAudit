@@ -1,0 +1,30 @@
+{
+  "acquisition_authorized": false,
+  "allowed_signers_sha256": "90c71679b39b079344c7521803e93c70bbe1566eab62fa8796a00b19a9f8eaf2",
+  "approval_sha256": "0f7fcce959128c317c2a9df54f207d41c79d0188d966663906b58f81664b2d1e",
+  "archive_capability_limit": "NOT_ASSESSED_BY_IDENTITY_REVIEW",
+  "decision": "PROVIDER_IDENTITY_APPROVAL_VERIFIED",
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_REVIEWER_IDENTITY",
+  "identity_report_projection_authorized": true,
+  "operator_families": [
+    "arbitrum-official",
+    "base-official",
+    "bnb-official",
+    "drpc",
+    "nodereal",
+    "publicnode",
+    "quicknode"
+  ],
+  "provider_count": 8,
+  "recovery3_mutation_authorized": false,
+  "registry_projection_authorized": true,
+  "request_sha256": "c63928d15655607b18e7fe0ef17e863ce42c04bb89a64a90ee13a1163f83b742",
+  "review_expires_utc": "2026-08-28T00:36:00Z",
+  "reviewer_principal": "zmzubraj-local-test",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_approval_verification.v1",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-provider-identity-review-v1",
+  "signature_sha256": "ba97b9dcec83ee3cc2c678d39bcfc573d7f4e8ffb4a670ffa9e2802a47459906",
+  "stage_promotion_authorized": false
+}

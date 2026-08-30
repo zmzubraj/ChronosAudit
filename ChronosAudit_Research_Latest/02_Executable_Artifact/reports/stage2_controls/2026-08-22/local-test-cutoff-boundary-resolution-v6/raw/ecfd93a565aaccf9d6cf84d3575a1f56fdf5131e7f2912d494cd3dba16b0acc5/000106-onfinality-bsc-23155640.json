@@ -1,0 +1,24 @@
+{
+  "authorization": {
+    "authorized": true,
+    "range_scope_sha256": "326c81de4738929137768a2ec97e962207ee2347721d0bcf38cdd7e366c9cd58",
+    "remaining_request_count_after_call": 36884,
+    "remaining_scope_request_count_after_call": 53,
+    "request_sha256": "7d1012d9619a81ed6d0584f8b2be2cf87e11c20d210ab036ef33dbcb75e2ee8c",
+    "sequence_number": 106
+  },
+  "chain": "bsc",
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "method": "eth_getBlockByNumber",
+  "observed_at_unix": 1787421098,
+  "operator_family": "onfinality",
+  "params": [
+    "0x16153b8",
+    false
+  ],
+  "provider_id": "onfinality-bsc",
+  "result": null,
+  "schema_version": "stage2_control_cutoff_boundary_raw_rpc.v1",
+  "sequence_number": 106,
+  "target_id": "cutoff-boundary:026a698e2c516a83356a6f08eb25713175feea1b563f32923bbb1d2f6b6d0d76"
+}

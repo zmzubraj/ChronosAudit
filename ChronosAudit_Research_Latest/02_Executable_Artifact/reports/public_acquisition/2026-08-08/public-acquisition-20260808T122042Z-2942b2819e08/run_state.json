@@ -1,0 +1,21 @@
+{
+  "cells": {
+    "plan": {
+      "details": {
+        "offline": true,
+        "pilot_rows": 9,
+        "pilot_shortfall_audit_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition/2026-08-08/public-acquisition-20260808T122042Z-2942b2819e08/pilot_shortfall_audit.json",
+        "queue_manifest_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition/2026-08-08/public-acquisition-20260808T122042Z-2942b2819e08/case_queue_manifest.json",
+        "queue_rows": 417
+      },
+      "status": "complete",
+      "updated_at_utc": "2026-08-08T12:20:42Z"
+    }
+  },
+  "created_at_utc": "2026-08-08T12:20:42Z",
+  "input_sha256": "2942b2819e08d00d8eb23bee9815e9c644757421e92e3c1307a45b057e264cf1",
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122042Z-2942b2819e08",
+  "scientific_ledger_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/raw/public_acquisition/2026-08-08/public-acquisition-20260808T122042Z-2942b2819e08/acquisition_events.jsonl",
+  "updated_at_utc": "2026-08-08T12:20:42Z"
+}

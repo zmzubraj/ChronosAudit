@@ -1,0 +1,66 @@
+{
+  "chain_count": 3,
+  "chains": [],
+  "complete": false,
+  "errors": [
+    "trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 403: Forbidden\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}"
+  ],
+  "fixture_count": 3,
+  "raw_evidence": [
+    {
+      "path": "00001-base-official-base-eth_chainId-request.json",
+      "sha256": "bd8c012a334174cee82ee9261a4184ffa7b68b3508ba3dba5128b400c6361176"
+    },
+    {
+      "path": "00001-base-official-base-eth_chainId-response.json",
+      "sha256": "19d50f8cf3cb63d1245ca9f7e0ab0bcb53320137ab60fe5bf8a8b5c353037895"
+    },
+    {
+      "path": "00002-base-official-base-eth_getBlockByNumber-request.json",
+      "sha256": "1ab558641935a1239e4ada0d55a37815bea3768a7f5f5f56ac4ab0e95be46679"
+    },
+    {
+      "path": "00002-base-official-base-eth_getBlockByNumber-response.json",
+      "sha256": "a93c1c72d39ff4c59abe7d33e6391d8f7bbab18b30f97a0c7d5c65e6faa6d7ec"
+    },
+    {
+      "path": "00003-base-official-base-eth_getBlockByHash-request.json",
+      "sha256": "68c9b9f6ba85c0fc8a0fe9848e8333da29f1846c6f956a561f5bc92d31d44466"
+    },
+    {
+      "path": "00003-base-official-base-eth_getBlockByHash-response.json",
+      "sha256": "0d81c12f08793a1b6f6893e5f6eb500a69da1f96b18892618f646b946b749b5e"
+    },
+    {
+      "path": "00004-base-official-base-eth_getTransactionReceipt-request.json",
+      "sha256": "af9fa9154539aaa9c5ed90cc3488ab7fb9ef6b95790d592ec54c82c5a4576e2b"
+    },
+    {
+      "path": "00004-base-official-base-eth_getTransactionReceipt-response.json",
+      "sha256": "2af76c8137f0b729edb1b4fcee7827df4073450247caf3ea8cded61c3b3379bd"
+    },
+    {
+      "path": "00005-base-official-base-trace_transaction-request.json",
+      "sha256": "5e48a5ae6ba8d0aaffe1dfe213c37328c544eb3bc7eaffb0a6449998fcf4ea92"
+    },
+    {
+      "path": "00005-base-official-base-trace_transaction-response.json",
+      "sha256": "208797cbbe96105c339754a0ffee582703ea537cef41746c45492d980f4e454a"
+    },
+    {
+      "path": "00006-base-official-base-debug_traceTransaction-request.json",
+      "sha256": "c8db1e7c02308cf332cb709f7f3d1e8bed2faf1dbbce6b96f5e504c3c7d91743"
+    },
+    {
+      "path": "00006-base-official-base-debug_traceTransaction-response.json",
+      "sha256": "30f8ef8b287303a9038758fe31195022696fe5f6ca9e3bbda159adfa4bd506c6"
+    }
+  ],
+  "raw_evidence_count": 12,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "2bd48895dfc00c049934939554bf990cf24cda35a2f5ac62471da9e10a69d345",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

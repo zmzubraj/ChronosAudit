@@ -1,0 +1,118 @@
+{
+  "acquisition_authorized": false,
+  "archive_capability_attestation": "NOT_ASSESSED_BY_IDENTITY_REVIEW",
+  "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+  "decision": "AWAITING_ACCOUNTABLE_PROVIDER_IDENTITY_SIGNATURE",
+  "identity_report_projection_authorized": false,
+  "operator_families": [
+    "arbitrum-official",
+    "base-official",
+    "blockreq",
+    "bnb-official",
+    "publicnode"
+  ],
+  "provider_bindings": [
+    {
+      "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+      "chain": "arbitrum",
+      "endpoint": "https://arb1.arbitrum.io/rpc",
+      "operator_evidence_sha256": "e242303c90cb8e8b99b9450cf83379a08e049c33879bd21fb2e368b3cec7ed4d",
+      "operator_evidence_url": "https://docs.arbitrum.io/for-devs/dev-tools-and-resources/chain-info",
+      "operator_family": "arbitrum-official",
+      "provider_id": "arbitrum-official-arbitrum",
+      "public_endpoint_id": "75dae0a9fdf900f37bfd5781d118014d8e7fd536bd7ea0f7abdcd740ea847202",
+      "source_id": "arbitrum-official-chain-info-doc-2026-08-21"
+    },
+    {
+      "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+      "chain": "base",
+      "endpoint": "https://mainnet.base.org",
+      "operator_evidence_sha256": "12e85f3d1a499d0f8741dbed9cf8c967a044315b17397cea003aab9b92e255e0",
+      "operator_evidence_url": "https://docs.base.org/base-chain/quickstart/connecting-to-base",
+      "operator_family": "base-official",
+      "provider_id": "base-official-base",
+      "public_endpoint_id": "da1e4a0b726081a615f3a070f91579a54a9a7deb09de13f8c5f6687d4079cf27",
+      "source_id": "base-official-connection-doc-2026-08-21"
+    },
+    {
+      "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+      "chain": "arbitrum",
+      "endpoint": "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public",
+      "operator_evidence_sha256": "9f11899c5f9d4f63080b9c75135086b8a471dcd221773d2137dfe1af5c0e8341",
+      "operator_evidence_url": "https://docs.blockreq.com/build/public-endpoints/",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-arbitrum",
+      "public_endpoint_id": "b7cbaed0f509c2c15f8f65e9cf40368bdf70b4d2204b32b524995fda71f962f6",
+      "source_id": "blockreq-public-endpoints-doc-2026-08-21"
+    },
+    {
+      "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+      "chain": "base",
+      "endpoint": "https://base-rpc.blockreq.com/v1/rpc/public",
+      "operator_evidence_sha256": "9f11899c5f9d4f63080b9c75135086b8a471dcd221773d2137dfe1af5c0e8341",
+      "operator_evidence_url": "https://docs.blockreq.com/build/public-endpoints/",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-base",
+      "public_endpoint_id": "9725f76be0e39ec0a6357d2c978f49aab60da2ac81b88d6b207e3dd406424bfe",
+      "source_id": "blockreq-public-endpoints-doc-2026-08-21"
+    },
+    {
+      "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+      "chain": "bsc",
+      "endpoint": "https://bsc-rpc.blockreq.com/v1/rpc/public",
+      "operator_evidence_sha256": "9f11899c5f9d4f63080b9c75135086b8a471dcd221773d2137dfe1af5c0e8341",
+      "operator_evidence_url": "https://docs.blockreq.com/build/public-endpoints/",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-bsc",
+      "public_endpoint_id": "24c562d7bf48e723fbc228bb78887cf4c71247edcf9e608bf73e49a077903de0",
+      "source_id": "blockreq-public-endpoints-doc-2026-08-21"
+    },
+    {
+      "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+      "chain": "ethereum",
+      "endpoint": "https://ethereum-rpc.blockreq.com/v1/rpc/public",
+      "operator_evidence_sha256": "9f11899c5f9d4f63080b9c75135086b8a471dcd221773d2137dfe1af5c0e8341",
+      "operator_evidence_url": "https://docs.blockreq.com/build/public-endpoints/",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-ethereum",
+      "public_endpoint_id": "6f14fe92d9f49650515871e797fc5500e128b4f0d754c6172485ca92a8c2dfab",
+      "source_id": "blockreq-public-endpoints-doc-2026-08-21"
+    },
+    {
+      "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+      "chain": "bsc",
+      "endpoint": "https://bsc-dataseed.bnbchain.org",
+      "operator_evidence_sha256": "6f1a4dbf407ba8c48706c373f563c5ac7fd770cdcec83949194a22b9224c7f16",
+      "operator_evidence_url": "https://docs.bnbchain.org/bnb-smart-chain/developers/json_rpc/json-rpc-endpoint/",
+      "operator_family": "bnb-official",
+      "provider_id": "bnb-official-bsc",
+      "public_endpoint_id": "2e478f4aa04134232f6ffd08cd94d1363cef63adc5f796c4a5dc0ec9db9034b9",
+      "source_id": "bnb-official-json-rpc-doc-2026-08-21"
+    },
+    {
+      "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+      "chain": "ethereum",
+      "endpoint": "https://ethereum-rpc.publicnode.com",
+      "operator_evidence_sha256": "1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf",
+      "operator_evidence_url": "https://ethereum.publicnode.com/",
+      "operator_family": "publicnode",
+      "provider_id": "publicnode-ethereum",
+      "public_endpoint_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082",
+      "source_id": "publicnode-ethereum-doc-2026-08-20"
+    }
+  ],
+  "provider_count": 8,
+  "provider_registry_sha256": "c6d9233e7035765b2a1a3bbeb60d2c4dc53d03f02c9399155755a9840616805e",
+  "purpose": "CONTROL_RPC_PROVIDER_IDENTITY_AND_INDEPENDENCE_REVIEW_ONLY",
+  "recovery3_mutation_authorized": false,
+  "registry_projection_authorized": false,
+  "request_sha256": "04ec12c2693cdff7e409d614ac9b375bb10c59f942280b851787f16276a58340",
+  "required_independence_attestation": "AT_LEAST_TWO_DISTINCT_VERIFIED_OPERATOR_FAMILIES_PER_CHAIN",
+  "required_operator_identity_attestation": "ACCOUNTABLE_REVIEW_VERIFIED_OFFICIAL_OPERATOR_BINDING",
+  "review_file_sha256": "e7c8728a0f6d78f4e3d1b40a12cdcfcda44e2febccd5052de294fcf3be76102f",
+  "review_payload_sha256": "3bf11acc03354665bdc81e71a432959239c075d7523027e3894d2224e4675ccf",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_approval_request.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

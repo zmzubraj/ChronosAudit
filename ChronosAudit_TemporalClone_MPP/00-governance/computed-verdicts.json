@@ -1,0 +1,73 @@
+{
+  "schema_version": 4,
+  "solution_viability": {
+    "status": "ASSERTED_ONLY",
+    "basis": "Solution-viability evidence is not independently signed and verified: 02-feasibility/evidence-maturity-ladder.csv, 02-feasibility/solution-viability-case.md, 04-data/evidence-status.csv"
+  },
+  "postdoctoral_audit": {
+    "status": "UNASSESSED",
+    "basis": "Structured postdoctoral audit inputs are not independently signed and verified: 08-validation/postdoctoral-standards-audit.md, 08-validation/killer-question-ledger.csv"
+  },
+  "acceptance_readiness": {
+    "status": "NOT_ASSESSABLE",
+    "basis": "Acceptance readiness is blocked until the structured postdoctoral audit passes."
+  },
+  "maturity_ceiling_summary": {
+    "C001": {
+      "required_maturity": "V4 EXTERNAL",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": true,
+      "refuted": false,
+      "supports_claim": false
+    },
+    "C002": {
+      "required_maturity": "V3 INTERNAL",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": true,
+      "refuted": false,
+      "supports_claim": false
+    },
+    "C003": {
+      "required_maturity": "V4 EXTERNAL",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": true,
+      "refuted": false,
+      "supports_claim": false
+    },
+    "C004": {
+      "required_maturity": "V3 INTERNAL",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false,
+      "refuted": false,
+      "supports_claim": false
+    },
+    "C005": {
+      "required_maturity": "V3 INTERNAL",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false,
+      "refuted": false,
+      "supports_claim": false
+    },
+    "C006": {
+      "required_maturity": "V3 INTERNAL",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false,
+      "refuted": false,
+      "supports_claim": false
+    },
+    "C007": {
+      "required_maturity": "V4 EXTERNAL",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": true,
+      "refuted": false,
+      "supports_claim": false
+    }
+  }
+}

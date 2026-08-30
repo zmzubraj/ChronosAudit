@@ -1,0 +1,101 @@
+{
+  "adjudicator_run": {
+    "blind_to_peer_decisions": false,
+    "model_id": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_id": "stage2-root-cause-adjudicator-v1",
+    "prompt_sha256": "dba7ad5fffd3586badad77e9c8887af99be988734b9ca6d1c8d0a8e5a0a3ffa6",
+    "prompt_text": "Review the packet evidence and the two already frozen primary AI decisions. Resolve only genuine protocol-family or primary-root-cause disagreement, explain the evidence basis, preserve uncertainty, and return high, medium, or low confidence. Do not treat model agreement as proof of truth.",
+    "provider": "openai",
+    "role": "adjudicator",
+    "run_id": "stage2-ai-adjudicator-c-v1",
+    "run_spec_sha256": "f3cb821e0fac7ace6859d0c1bf08fdab9ab21ffdac0dfd4cc68d9b5b33ac282f",
+    "seed": 41703,
+    "temperature": 0
+  },
+  "agreement_rules": {
+    "consensus": "Both frozen primary decisions match on protocol_family and primary_root_cause.",
+    "disagreement": "A distinct frozen adjudicator model/run resolves the disagreement after both primary decisions are frozen.",
+    "minimum_reliability": 0.8
+  },
+  "artifact_schema_version": "2026-08-17.ai-only-adjudication.v1",
+  "case_count": 417,
+  "claim_authority": "ANALYTIC_ONLY_NON_HUMAN",
+  "codebook_sha256": "dfae866e8ef2e4534ed9bf883bb52e8242aa580dc1d64918553921b88193ae05",
+  "evidence_sufficiency": "PINNED_DIRECT_SOURCE_357_OF_417;REMAINDER_MUST_USE_UNKNOWN_IF_PACKET_EVIDENCE_IS_INADEQUATE",
+  "human_independent_adjudication_counter_effect": "NONE",
+  "internal_progression_authority": {
+    "author_signoff_required": true,
+    "not_permitted": [
+      "human_adjudication_claim",
+      "external_release_claim",
+      "submission_readiness_claim"
+    ],
+    "permitted_after_gate_pass": [
+      "internal_analysis",
+      "engineering",
+      "manuscript_draft_preparation"
+    ]
+  },
+  "limitations": [
+    "AI outputs are not human adjudications and cannot increment the independent-human-adjudication counter.",
+    "Model diversity does not establish institutional, disciplinary, or real-world reviewer independence.",
+    "Agreement can reflect shared training data, shared blind spots, prompt anchoring, or correlated model error.",
+    "Internal progression does not establish external release, publication readiness, or venue compliance.",
+    "The protocol and limitation must be disclosed in any external manuscript or submission package."
+  ],
+  "primary_runs": [
+    {
+      "blind_to_peer_decisions": true,
+      "model_id": "gpt-5.6-sol",
+      "model_version": "gpt-5.6-sol",
+      "prompt_id": "stage2-root-cause-baseline-v1",
+      "prompt_sha256": "129b26a07b157c68d284c200866ab8938e21ba38571b6ac485a31eea04a61ab4",
+      "prompt_text": "Using only the supplied packet evidence and reviewer codebook, return one protocol family and one primary root cause, a concise evidence-bound rationale, evidence references, and high, medium, or low confidence. Do not infer from another model, detector prediction, final benchmark label, or post-incident model output. Preserve unknown when evidence is inadequate.",
+      "provider": "openai",
+      "role": "primary_a",
+      "run_id": "stage2-ai-primary-a-v1",
+      "run_spec_sha256": "9d6bdfffeeb4e840b5dd6fa47e8046df6cff03db1643b36e713aace9398c6b82",
+      "seed": 41701,
+      "temperature": 0
+    },
+    {
+      "blind_to_peer_decisions": true,
+      "model_id": "gpt-5.6-terra",
+      "model_version": "gpt-5.6-terra",
+      "prompt_id": "stage2-root-cause-baseline-v1",
+      "prompt_sha256": "129b26a07b157c68d284c200866ab8938e21ba38571b6ac485a31eea04a61ab4",
+      "prompt_text": "Using only the supplied packet evidence and reviewer codebook, return one protocol family and one primary root cause, a concise evidence-bound rationale, evidence references, and high, medium, or low confidence. Do not infer from another model, detector prediction, final benchmark label, or post-incident model output. Preserve unknown when evidence is inadequate.",
+      "provider": "openai",
+      "role": "primary_b",
+      "run_id": "stage2-ai-primary-b-v1",
+      "run_spec_sha256": "b5244f420cda5befe0b19810f763dae0ff1761fc00742de90a77561424193d9c",
+      "seed": 41702,
+      "temperature": 0
+    }
+  ],
+  "protocol_amendment_sha256": "7c5a4a9127267ddddfb1e55bad8d4f1d3cd4fffdc3570ff77e19bf7f475970e9",
+  "protocol_sha256": "c694b1ae2dac73e2ee9648b26b361ed0578e77acda83e7dc11b5882539b4f175",
+  "sensitivity_requirements": [
+    "report all-case agreement and chance-corrected reliability",
+    "report high-confidence-only agreement",
+    "report alternate-prompt label stability",
+    "preserve unresolved and low-confidence cases"
+  ],
+  "sensitivity_run": {
+    "blind_to_peer_decisions": true,
+    "model_id": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_id": "stage2-root-cause-alternate-v1",
+    "prompt_sha256": "783adf8188fdbe2dd87d8f3a20000021eb3d3f841efe592867505b34e928c40a",
+    "prompt_text": "Independently regenerate the classification using only the supplied packet. First identify the earliest evidenced causal failure and distinguish it from downstream exploit actions; then return one protocol family, one primary root cause, rationale, evidence references, and confidence. Preserve UNKNOWN_INSUFFICIENT_EVIDENCE when the packet cannot support a label.",
+    "provider": "openai",
+    "role": "sensitivity",
+    "run_id": "stage2-ai-sensitivity-c-v1",
+    "run_spec_sha256": "ebe30f77728fc112803877c7f0d86b7785e70aee791f8ae567a296d20d5197e8",
+    "seed": 41704,
+    "temperature": 0
+  },
+  "track_name": "AI_ONLY_TRIANGULATION_V1",
+  "track_type": "INDEPENDENT_AI_ONLY_ADJUDICATION"
+}

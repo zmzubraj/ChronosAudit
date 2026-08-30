@@ -1,0 +1,15 @@
+{
+  "chain_count": 1,
+  "complete": true,
+  "errors": [],
+  "provider_registry_sha256": "befe951e86291ebd5bd71979fd26f343d89906cfbf208005b2fb4980f95c434a",
+  "raw_evidence_count": 6,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "48017e3f5ff01ed54d5991f54139d60f3ee6b79d90b94d17b3badfc3139bd433",
+  "report_sha256": "fc9e825bce2c125b9c329bf1bca0a9fc23e9fb59a4edccf229ef9a117ac780d2",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_candidate_rpc_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "df4c301b338e4747e9bd0fa9c412e390562b7e1a8d8251af7fbacf92b2655039"
+}

@@ -1,0 +1,29 @@
+version: 1.0.0
+chains:
+  ethereum: {chain_id: 1}
+  bsc: {chain_id: 56}
+  base: {chain_id: 8453}
+  arbitrum: {chain_id: 42161}
+providers:
+  - id: sourcify_v2
+    role: primary_source_history
+    endpoint: https://sourcify.dev/server/v2/contract/{chain_id}/{address}?fields=all
+    evidence:
+      - verifiedAt
+      - exact_match_status
+      - source_artifacts
+    caveat: A Sourcify timestamp proves availability there by that time; a later or absent timestamp does not prove non-availability elsewhere.
+  - id: etherscan_v2
+    role: independent_current_source_crosscheck
+    endpoint: https://api.etherscan.io/v2/api
+    evidence:
+      - source_code
+      - compiler_version
+      - proxy_and_implementation_fields
+    caveat: getsourcecode is not treated as first-publication-time evidence.
+policy:
+  source_is_detector_admissible_only_if:
+    - positive availability evidence exists at or before case cutoff
+    - source bytes are content-hashed
+    - source license or lawful research-use status is recorded
+  fail_closed_on_missing_availability: true

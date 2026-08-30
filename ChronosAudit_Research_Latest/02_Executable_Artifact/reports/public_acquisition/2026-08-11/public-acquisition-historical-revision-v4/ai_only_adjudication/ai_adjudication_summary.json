@@ -1,0 +1,65 @@
+{
+  "ai_adjudications": {
+    "observed": 417,
+    "passed": true,
+    "required": 417
+  },
+  "claim_limitations": [
+    "AI outputs are not human adjudications and cannot increment the independent-human-adjudication counter.",
+    "Model diversity does not establish institutional, disciplinary, or real-world reviewer independence.",
+    "Agreement can reflect shared training data, shared blind spots, prompt anchoring, or correlated model error.",
+    "Internal progression does not establish external release, publication readiness, or venue compliance.",
+    "The protocol and limitation must be disclosed in any external manuscript or submission package."
+  ],
+  "disagreements": 143,
+  "evidence_sufficiency": "PINNED_DIRECT_SOURCE_357_OF_417;REMAINDER_MUST_USE_UNKNOWN_IF_PACKET_EVIDENCE_IS_INADEQUATE",
+  "human_independent_adjudications": {
+    "counter_effect": "NONE",
+    "observed": 0,
+    "passed": false,
+    "required": 417
+  },
+  "independently_ai_adjudicated": {
+    "observed": 417,
+    "passed": true,
+    "required": 417
+  },
+  "internal_progression_gate": {
+    "author_signoff_verified": true,
+    "does_not_permit": [
+      "human_adjudication_claim",
+      "external_release_claim",
+      "submission_readiness_claim"
+    ],
+    "passed": false,
+    "permits": [],
+    "status": "FAIL_RELIABILITY_THRESHOLD"
+  },
+  "reliability": {
+    "mechanism_cohen_kappa": 0.19731082372064518,
+    "mechanism_gwet_ac1": 0.6710706601806713,
+    "mechanism_krippendorff_alpha_nominal": 0.17902013256429528,
+    "mechanism_raw_agreement": 0.6762589928057554,
+    "protocol_cohen_kappa": 0.1666474969088766,
+    "protocol_gwet_ac1": 0.6577220641511551,
+    "protocol_krippendorff_alpha_nominal": 0.14963506326792597,
+    "protocol_raw_agreement": 0.6666666666666666
+  },
+  "reliability_gate_passed": false,
+  "sensitivity": {
+    "alternate_prompt_evaluated_cases": 417,
+    "alternate_prompt_stability": 0.7865707434052758,
+    "high_confidence_case_count": 0,
+    "high_confidence_fraction": 0.0
+  },
+  "sensitivity_gate_passed": true,
+  "signoff_binding_inputs": {
+    "protocol_sha256": "c694b1ae2dac73e2ee9648b26b361ed0578e77acda83e7dc11b5882539b4f175",
+    "reliability_and_sensitivity_sha256": "d2458b92fd9e4ed1b9e3aa244fb2a86df2116c9950f8c5b765f3854db9de33b5",
+    "results_sha256": "22e8a4838b994071b9037925e4ce33ffc0d4aefe1f65a77752b83f88d6d70c4a"
+  },
+  "status": "COMPLETE",
+  "track_name": "AI_ONLY_TRIANGULATION_V1",
+  "valid_completed_cases": 417,
+  "validation_errors": []
+}

@@ -1,0 +1,129 @@
+{
+  "rows": 417,
+  "levels": {
+    "R0": {
+      "executed": true,
+      "crossing_identity_groups": 8,
+      "basis": "balanced row-level K-fold"
+    },
+    "R1": {
+      "executed": true,
+      "crossing_identity_groups": 0,
+      "basis": "chain+address identity groups"
+    },
+    "R2": {
+      "executed": true,
+      "crossing_identity_groups": 1,
+      "basis": "incident-date chronological folds",
+      "strict_certified": false,
+      "warning": "incident chronology is outcome-known and cannot substitute for deployment+landmark prediction cutoff"
+    },
+    "R3": {
+      "executed": true,
+      "groups": 395,
+      "group_crossings": 0,
+      "basis": "protocol_candidate",
+      "strict_certified": false,
+      "warning": "candidate/entity labels are not independent reviewer-final protocol families"
+    },
+    "R4": {
+      "executed": true,
+      "groups": 408,
+      "group_crossings": 0,
+      "basis": "exact_identity_lower_bound",
+      "strict_certified": false,
+      "warning": "exact identity under-approximates shared implementation/proxy families"
+    },
+    "R5": {
+      "executed": true,
+      "groups": 16,
+      "group_crossings": 0,
+      "basis": "mechanism_candidate",
+      "strict_certified": false,
+      "lomo": [
+        {
+          "held_out": "arithmetic_or_precision_failure",
+          "train_rows": 379,
+          "test_rows": 38
+        },
+        {
+          "held_out": "authorization_failure",
+          "train_rows": 372,
+          "test_rows": 45
+        },
+        {
+          "held_out": "availability_failure",
+          "train_rows": 415,
+          "test_rows": 2
+        },
+        {
+          "held_out": "business_logic_failure",
+          "train_rows": 313,
+          "test_rows": 104
+        },
+        {
+          "held_out": "cross_domain_validation_failure",
+          "train_rows": 416,
+          "test_rows": 1
+        },
+        {
+          "held_out": "economic_constraint_failure",
+          "train_rows": 406,
+          "test_rows": 11
+        },
+        {
+          "held_out": "economic_state_manipulation",
+          "train_rows": 403,
+          "test_rows": 14
+        },
+        {
+          "held_out": "oracle_or_market_manipulation",
+          "train_rows": 345,
+          "test_rows": 72
+        },
+        {
+          "held_out": "randomness_failure",
+          "train_rows": 414,
+          "test_rows": 3
+        },
+        {
+          "held_out": "reentrancy",
+          "train_rows": 389,
+          "test_rows": 28
+        },
+        {
+          "held_out": "signature_or_replay_failure",
+          "train_rows": 416,
+          "test_rows": 1
+        },
+        {
+          "held_out": "storage_or_upgrade_failure",
+          "train_rows": 416,
+          "test_rows": 1
+        },
+        {
+          "held_out": "token_semantics_mismatch",
+          "train_rows": 392,
+          "test_rows": 25
+        },
+        {
+          "held_out": "transaction_ordering_or_mev",
+          "train_rows": 414,
+          "test_rows": 3
+        },
+        {
+          "held_out": "unclassified_public_label",
+          "train_rows": 385,
+          "test_rows": 32
+        },
+        {
+          "held_out": "validation_failure",
+          "train_rows": 380,
+          "test_rows": 37
+        }
+      ],
+      "warning": "public-label candidates are not independent adjudicated mechanism families"
+    }
+  },
+  "certification": "PROVISIONAL_NOT_STRICT"
+}

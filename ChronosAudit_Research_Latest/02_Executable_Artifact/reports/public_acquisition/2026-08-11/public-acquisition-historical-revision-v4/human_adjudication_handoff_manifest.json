@@ -1,0 +1,25 @@
+{
+  "artifact_schema_version": "2026-08-17.human-adjudication-handoff-manifest.v1",
+  "artifacts": {
+    "human_adjudication_protocol": {
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/human_adjudication_protocol.json",
+      "sha256": "864c81b2244407984fc230728829da2148afd4fbc0780eb4899a2145109c15ec"
+    },
+    "positive_case_review_packets": {
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/positive_case_review_packets.json",
+      "sha256": "845c4b8ed1d8ec4a51a6e27399a191126199f1e7aeb61275b90691aafd4512af"
+    },
+    "reviewer_a_response_template": {
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/reviewer_a_response_template.json",
+      "sha256": "dcf74f99e10d15570eb29e6e261936383cf3780503662c6725bc0bbfb2eb20f6"
+    },
+    "reviewer_b_response_template": {
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/reviewer_b_response_template.json",
+      "sha256": "8afb43cbe3d2dbc1377c845e2b2b7008cc79cf746987524d8c88aa40a822d939"
+    }
+  },
+  "case_count": 417,
+  "counter_effect": "none_until_valid_finalized_rows_are_imported",
+  "external_dependency": "Assign two eligible human reviewers per case and a third human adjudicator for every disagreement.",
+  "status": "ready_for_external_human_assignment"
+}

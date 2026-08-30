@@ -1,0 +1,93 @@
+{
+  "chain_count": 3,
+  "chains": [
+    {
+      "chain": "base",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "complete": true,
+          "endpoint_template_sha256": "a3b19db19ae00facfd632cdba27ae7b7a2ed985d999168a60c2c4e20e7b28b29",
+          "identity_basis": "SIGNED_LOCAL_TEST_LEGACY_ALIAS_REVISION",
+          "provider_id": "merkle-base",
+          "verified_operator_family": "merkle",
+          "verified_operator_identity_family": "merkle_blink"
+        },
+        {
+          "complete": true,
+          "identity_basis": "SEPARATE_EXACT_PUBLICATION_EVIDENCE_BOUND_IN_REVISION",
+          "provider_id": "drpc-base",
+          "verified_operator_family": "drpc"
+        }
+      ],
+      "verified_operator_families": [
+        "drpc",
+        "merkle"
+      ]
+    },
+    {
+      "chain": "bsc",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "complete": true,
+          "endpoint_template_sha256": "c48f7ab856707cccb318dd965cc172759cde78998f507512500789f7d95e4782",
+          "identity_basis": "SIGNED_LOCAL_TEST_LEGACY_ALIAS_REVISION",
+          "provider_id": "merkle-bsc",
+          "verified_operator_family": "merkle",
+          "verified_operator_identity_family": "merkle_blink"
+        },
+        {
+          "complete": true,
+          "identity_basis": "SEPARATE_EXACT_PUBLICATION_EVIDENCE_BOUND_IN_REVISION",
+          "provider_id": "nodereal-bsc",
+          "verified_operator_family": "nodereal"
+        }
+      ],
+      "verified_operator_families": [
+        "merkle",
+        "nodereal"
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "complete": true,
+          "endpoint_template_sha256": "dba2d6bf58efcecbcc3e1e49412db682d89d3cf17bef4c2ac96c997b704f8850",
+          "identity_basis": "SIGNED_LOCAL_TEST_LEGACY_ALIAS_REVISION",
+          "provider_id": "merkle-ethereum",
+          "verified_operator_family": "merkle",
+          "verified_operator_identity_family": "merkle_blink"
+        },
+        {
+          "complete": true,
+          "identity_basis": "SEPARATE_EXACT_PUBLICATION_EVIDENCE_BOUND_IN_REVISION",
+          "provider_id": "quicknode-ethereum",
+          "verified_operator_family": "quicknode"
+        }
+      ],
+      "verified_operator_families": [
+        "merkle",
+        "quicknode"
+      ]
+    }
+  ],
+  "complete": true,
+  "counter_authority": false,
+  "decision": "LEGACY_ALIAS_PROVIDER_IDENTITY_VERIFIED_LOCAL_TEST_ONLY",
+  "errors": [],
+  "provider_identity_verified": true,
+  "report_sha256": "819837bbfdce1fcf0ea9a1611a02ed592b2d2a2a0c8ffafc3c8a1cffcfd4997c",
+  "revision_request_sha256": "26dd2120f823d97bfa60112949eba678d386aaac696a818df4f89cac3c7a2cb0",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_legacy_alias_verification.v1",
+  "selection_authorized": false
+}

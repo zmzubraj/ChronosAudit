@@ -1,0 +1,60 @@
+{
+  "artifact_schema_version": "2026-08-17.ai-only-adjudication-manifest.v1",
+  "artifacts": {
+    "adjudicator_request": {
+      "path": "adjudicator_request.json",
+      "sha256": "ad5176e524a5cd0ff56846726b3f83d23fb722b129e58ed066a647db988e7eae"
+    },
+    "adjudicator_results": {
+      "path": "adjudicator_results.json",
+      "sha256": "62c8d1c3dc1af054f51dd83ebe388050dd92a9eae866267498944e848dfec626"
+    },
+    "author_signoff": {
+      "path": "accountable_author_signoff.json",
+      "sha256": "9a09bb5846624e6d1a5b32b8c5df4cf2f3df8e95e9b64bdfc3c493d3d62e2a18"
+    },
+    "evidence_packets": {
+      "path": "ai_evidence_packets.json",
+      "sha256": "03688c982ab40cd1396ca90356910fa4d3253ba325f9e4392568d0cc04ba0ffd"
+    },
+    "primary_a_results": {
+      "path": "primary_a_results.json",
+      "sha256": "3af75f24824a2b5502f52ee3c2bf8732be8f57e9dbd0766fd65af97ce95c7158"
+    },
+    "primary_b_results": {
+      "path": "primary_b_results.json",
+      "sha256": "ad2b98c5f16b6864bd6806e19dc23f15cfac67251b5a04153dcdf0a73aeef042"
+    },
+    "protocol": {
+      "path": "ai_adjudication_protocol.json",
+      "sha256": "3d528310d2b497904665a3ea104f39d6ce662de21ccceffdd68e52aa33d0744c"
+    },
+    "protocol_amendment": {
+      "path": "ai_adjudication_protocol_amendment_v1.yaml",
+      "sha256": "7c5a4a9127267ddddfb1e55bad8d4f1d3cd4fffdc3570ff77e19bf7f475970e9"
+    },
+    "results": {
+      "path": "ai_adjudication_results.json",
+      "sha256": "8df048b5437c02a587259bdd935a44c7d5faf987e40ee5152bc4c717db008847"
+    },
+    "run_templates": {
+      "path": "ai_adjudication_run_templates.json",
+      "sha256": "eba1f5395ccbee06a353d78e54f7f18a297181e6538cf76061dcdc9162e6b3f6"
+    },
+    "sensitivity_results": {
+      "path": "sensitivity_results.json",
+      "sha256": "1f4b33ed0bf6250a335e0b26149b3466ff34d2f57a71041d39cecaf58b79adf4"
+    },
+    "summary": {
+      "path": "ai_adjudication_summary.json",
+      "sha256": "cfa340d8d5c3aea76291eef8694bd3ceb8940e42c9035f0b6c6246b7ff35a4fb"
+    }
+  },
+  "case_count": 417,
+  "claim_authority": "ANALYTIC_ONLY_NON_HUMAN",
+  "human_independent_adjudication_counter_effect": "NONE",
+  "internal_progression_gate_status": "FAIL_RELIABILITY_THRESHOLD",
+  "manifest_sha256": "a1c11c6c9a883063a05aa435b6dcc204a9ac8cf83d1f974b8efe67cebd1cf6e3",
+  "status": "COMPLETE",
+  "track_name": "AI_ONLY_TRIANGULATION_V1"
+}

@@ -1,0 +1,17 @@
+{
+  "allowed_signers_sha256": "90c71679b39b079344c7521803e93c70bbe1566eab62fa8796a00b19a9f8eaf2",
+  "checkpoint_file_sha256": "90838482ebf0c9fa81695b7f47d50461daff947950adcc97c74601647b4c4c4f",
+  "checkpoint_sha256": "d38eee8089857ea7562492ca963d17ac16c19db80a4e1d91e50addc9c5a9402b",
+  "complete": true,
+  "errors": [],
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_IDENTITY",
+  "recovery3_mutation_authorized": false,
+  "schema_version": "stage2_control_derived_state_checkpoint_verification.v1",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-derived-state-acquisition-local-test-v1",
+  "signature_sha256": "467d0e31fb779a788dda7d004650bf885951b3a8358db9ef16d546cbc5503b03",
+  "signer_principal": "zmzubraj-local-test",
+  "stage_promotion_authorized": false,
+  "status": "COMPLETE",
+  "verification_sha256": "1d13a5af3905fe635b1963659ab54bb88588023ca5c9a109bfb885d2f817a70b"
+}

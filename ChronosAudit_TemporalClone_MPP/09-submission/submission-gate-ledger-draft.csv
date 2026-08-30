@@ -1,0 +1,12 @@
+gate,critical,status,evidence,required_resolution
+Scientific scope,yes,PASS,Claim-evidence matrix and bounded conclusion,Preserve through author edits
+Numeric reconciliation,yes,PASS,Canonical JSON tables and PDF values agree,Repeat after any data change
+Code and local replay,yes,PASS,Seven tests and deterministic scripts pass,Independent replay still separate
+Independent reproduction,yes,FAIL,No independently owned execution event,Qualified independent executor reproduces hashes and results
+Novelty challenge,yes,FAIL,Independent search challenge blocked,Differently owned search and reconciliation
+Rights,yes,PARTIAL,Upstream repository public but derivative row-level release unreviewed,Human legal/source-rights review
+Author metadata,yes,FAIL,Placeholders remain,Accountable authors complete title page
+Declarations,yes,FAIL,Funding COI contributions and institutional determination pending,Accountable authors complete and verify
+Mechanical PDF,yes,PASS,Eight-page render fonts and reference checks pass,Repeat on final author revision
+Venue rules,yes,PASS,Official arXiv and EMSE rules checked 2026-08-29,Recheck at submission time
+Human package approval,yes,FAIL,No signed approval,Human reviews exact hashes and portal preview

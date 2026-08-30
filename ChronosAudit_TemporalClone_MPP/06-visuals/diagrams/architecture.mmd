@@ -1,0 +1,14 @@
+flowchart LR
+  A[SCONE-bench 417-case index] --> B[Closed historical envelopes]
+  B --> C{Fail-closed evidence gate}
+  C -->|dual provider + block hash + verified status| D[Canonical analysis rows]
+  C -->|missing or inconsistent| X[Stop; exclude no rows silently]
+  D --> E[Temporal eligibility]
+  D --> F[Identity fingerprints]
+  D --> G[Proxy indicators]
+  E --> H[Editable T1-T8 tables]
+  F --> H
+  G --> H
+  H --> I[Figures and manuscript]
+  I --> J[Reproducibility and PDF QA]
+  J --> K[Human and independent-review gates]

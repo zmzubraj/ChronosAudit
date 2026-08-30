@@ -1,0 +1,14 @@
+.DS_Store
+.env
+*.pem
+*.key
+id_rsa
+id_ed25519
+.worktrees/
+.superpowers/
+**/.venv/
+**/.pytest_cache/
+**/__pycache__/
+**/*.py[cod]
+**/.coverage
+ChronosAudit_Research_Latest/02_Executable_Artifact/raw/

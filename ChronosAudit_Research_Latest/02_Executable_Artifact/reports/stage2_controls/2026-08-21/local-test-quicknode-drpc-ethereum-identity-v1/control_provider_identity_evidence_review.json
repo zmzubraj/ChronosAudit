@@ -1,0 +1,73 @@
+{
+  "capture_index_sha256": "b33fc710d9dc7da59390cd89357a73ccdcea461783e4003563a64d8d63045adc",
+  "captures": [
+    {
+      "captured_at_utc": "2026-08-20T22:21:53Z",
+      "captured_path": "drpc_ethereum_mainnet.html",
+      "content_sha256": "91437f6e40fe6e0be3ae81f2d07894ad954c192eb012617b52bd86453385a47c",
+      "final_url": "https://drpc.org/chainlist/ethereum-mainnet-rpc",
+      "http_status": 200,
+      "operator_family": "drpc",
+      "source_id": "drpc-ethereum-mainnet-chainlist",
+      "source_url": "https://drpc.org/chainlist/ethereum-mainnet-rpc",
+      "supported_provider_ids": [
+        "drpc-ethereum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T22:21:53Z",
+      "captured_path": "quicknode_ethereum_endpoints.md",
+      "content_sha256": "fb5619b49be135eb0dbd6539d3db8d457a01bad95e2751c90dce618605e608e4",
+      "final_url": "https://www.quicknode.com/docs/ethereum/endpoints.md",
+      "http_status": 200,
+      "operator_family": "quicknode",
+      "source_id": "quicknode-ethereum-endpoints-doc",
+      "source_url": "https://www.quicknode.com/docs/ethereum/endpoints.md",
+      "supported_provider_ids": [
+        "quicknode-ethereum"
+      ]
+    }
+  ],
+  "decision": "EVIDENCE_CAPTURED_AWAITING_ACCOUNTABLE_PROVIDER_IDENTITY_REVIEW",
+  "operator_verified": false,
+  "provider_count": 2,
+  "provider_identity_verified": false,
+  "provider_ids": [
+    "drpc-ethereum",
+    "quicknode-ethereum"
+  ],
+  "provider_registry_sha256": "1427d72d17ebb57d682a119e72311493421c8275ed1999469243a4d5e938c573",
+  "providers": [
+    {
+      "api_key_env": null,
+      "chain": "ethereum",
+      "endpoint_env": null,
+      "operator_family": "drpc",
+      "provider_id": "drpc-ethereum",
+      "public_endpoint": "https://eth.drpc.org",
+      "public_endpoint_id": "078ddbb63a6abd3c9a5eb951895223315b3d0ba63d4f4c0c588ab34306bf6d79",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "drpc-ethereum-mainnet-chainlist"
+    },
+    {
+      "api_key_env": null,
+      "chain": "ethereum",
+      "endpoint_env": "CHRONOS_QUICKNODE_ETHEREUM_URL",
+      "operator_family": "quicknode",
+      "provider_id": "quicknode-ethereum",
+      "public_endpoint": "https://quiknode.pro/",
+      "public_endpoint_id": "7bf448bc7def61e82096fd61a4d9eee23adbc8cff2263df8d7b2b2aa582a969c",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "quicknode-ethereum-endpoints-doc"
+    }
+  ],
+  "recovery3_mutation_authorized": false,
+  "review_payload_sha256": "bbdbaf65bd43b9c4935d24ccc2bf24457fb05226e51073b161c0ae2117909179",
+  "reviewer_signature_required": true,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_evidence_review.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

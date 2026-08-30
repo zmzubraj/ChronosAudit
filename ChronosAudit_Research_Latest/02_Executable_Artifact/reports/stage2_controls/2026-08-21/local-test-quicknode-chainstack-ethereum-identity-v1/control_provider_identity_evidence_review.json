@@ -1,0 +1,73 @@
+{
+  "capture_index_sha256": "39bdd42a22c0070c7b3df56f7472aa5a03e3a11698054170d9a47de43867891d",
+  "captures": [
+    {
+      "captured_at_utc": "2026-08-20T22:12:40Z",
+      "captured_path": "chainstack_authentication_methods.md",
+      "content_sha256": "6ce399da50bbef3265a67d6931a4702bd9da9469f23307ddbe9c184c43a31a51",
+      "final_url": "https://docs.chainstack.com/docs/authentication-methods-for-different-scenarios.md",
+      "http_status": 200,
+      "operator_family": "chainstack",
+      "source_id": "chainstack-authentication-methods-doc",
+      "source_url": "https://docs.chainstack.com/docs/authentication-methods-for-different-scenarios.md",
+      "supported_provider_ids": [
+        "chainstack-ethereum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T22:12:40Z",
+      "captured_path": "quicknode_ethereum_endpoints.md",
+      "content_sha256": "fb5619b49be135eb0dbd6539d3db8d457a01bad95e2751c90dce618605e608e4",
+      "final_url": "https://www.quicknode.com/docs/ethereum/endpoints.md",
+      "http_status": 200,
+      "operator_family": "quicknode",
+      "source_id": "quicknode-ethereum-endpoints-doc",
+      "source_url": "https://www.quicknode.com/docs/ethereum/endpoints.md",
+      "supported_provider_ids": [
+        "quicknode-ethereum"
+      ]
+    }
+  ],
+  "decision": "EVIDENCE_CAPTURED_AWAITING_ACCOUNTABLE_PROVIDER_IDENTITY_REVIEW",
+  "operator_verified": false,
+  "provider_count": 2,
+  "provider_identity_verified": false,
+  "provider_ids": [
+    "chainstack-ethereum",
+    "quicknode-ethereum"
+  ],
+  "provider_registry_sha256": "84b913d3f2a0b3379f9d97d05ff73cd72c023647d3efc7a548e8bd4e21e22d55",
+  "providers": [
+    {
+      "api_key_env": null,
+      "chain": "ethereum",
+      "endpoint_env": "CHRONOS_CHAINSTACK_ETHEREUM_URL",
+      "operator_family": "chainstack",
+      "provider_id": "chainstack-ethereum",
+      "public_endpoint": "https://ethereum-mainnet.core.chainstack.com/",
+      "public_endpoint_id": "d0ee66fa0ef6ef64223a51ca55fb6435a41dc5c0e3e1e05491c0e2425b034338",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "chainstack-authentication-methods-doc"
+    },
+    {
+      "api_key_env": null,
+      "chain": "ethereum",
+      "endpoint_env": "CHRONOS_QUICKNODE_ETHEREUM_URL",
+      "operator_family": "quicknode",
+      "provider_id": "quicknode-ethereum",
+      "public_endpoint": "https://quiknode.pro/",
+      "public_endpoint_id": "7bf448bc7def61e82096fd61a4d9eee23adbc8cff2263df8d7b2b2aa582a969c",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "quicknode-ethereum-endpoints-doc"
+    }
+  ],
+  "recovery3_mutation_authorized": false,
+  "review_payload_sha256": "d036443d599bed4ad8ee696dd2c2d9c02b3eb6dc449721e54e901fb227454e5a",
+  "reviewer_signature_required": true,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_evidence_review.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

@@ -1,0 +1,14 @@
+{
+  "checkpoint_sha256": "32382eee03138a0a1df4d38123da3f85c4932fbf02df771888b1cae86aab867f",
+  "completed_target_count": 6,
+  "dispositions": {
+    "complete": 6
+  },
+  "recovery3_mutation_authorized": false,
+  "schema_version": "stage2_control_cutoff_state_acquisition_summary.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "status": "COMPLETE",
+  "summary_sha256": "acfcbb5a5a8472680a6492de87e5e4d4066ba2671f2b053e2a87a62f03de6c7f",
+  "target_count": 6
+}

@@ -1,0 +1,14 @@
+flowchart LR
+  R[Benchmark row] --> T{Contract existed at landmark?}
+  T -->|No| X[Structurally ineligible]
+  T -->|Yes| A[Chain-address identity]
+  A --> B[Exact runtime identity]
+  B --> M[Metadata-stripped identity]
+  M --> P[Observable proxy linkage]
+  A --> N[Nominal row count]
+  B --> D[Code-family dependence]
+  M --> D
+  P --> D
+  X --> C[Landmark-specific coverage]
+  D --> I[Interpretation boundary]
+  C --> I

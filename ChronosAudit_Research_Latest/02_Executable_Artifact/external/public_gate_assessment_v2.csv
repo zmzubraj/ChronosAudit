@@ -1,0 +1,10 @@
+gate,target,public_evidence,status,can_generate
+dual_provider_historical_snapshots,417 cases x >=2 independent provider families,PublicNode/1RPC endpoints + Sourcify/CyberChainBench historical-state evidence,LIVE_RECORD_LEVEL_EXECUTION_REQUIRED,False
+independent_reviewer_labels,834 blinded labels,CyberChainBench independent curator taxonomy/manual verification,EXTERNAL_CORROBORATION_AVAILABLE_INTERNAL_834_STILL_REQUIRED,False
+third_party_adjudication,417 final case decisions,CyberChainBench curated root-cause/localization labels,PARTIAL_EXTERNAL_ADJUDICATION_CORROBORATION_NOT_CASEWISE_COMPLETE,False
+deployment_denominator,">=20,000 real contracts","DIVE 22,330; Smart-Contract-Benchmark-Suites 46,186; Slither corpus >100k",PUBLIC_DENOMINATOR_CORPORA_EXIST_RECORD_LEVEL_ASSIMILATION_REQUIRED,False
+matched_controls,">=4,170 cutoff-safe controls",Candidate controls can be sampled from public denominators after deployment/cutoff fields are available,CANNOT_SYNTHESIZE_REAL_CONTROLS_WITHOUT_RECORD_LEVEL_RISK_SET,False
+longitudinal_outcomes,event/censoring follow-up for positives and controls,Incident dates available for 417 positives; control non-events require prospective/public follow-up,POSITIVE_EVENTS_AVAILABLE_CONTROL_FOLLOWUP_REQUIRED,False
+r5_blocks,>=120 independent mechanism blocks,CyberChainBench five-type taxonomy; ChronosAudit preliminary candidate labels,REQUIRES_FINAL_ADJUDICATED_MECHANISM_AND_CONTROLS,False
+independent_external_reproduction,independent regeneration of ChronosAudit partitions,ReEVMbench/CyberChainBench independently reproduce historical benchmark concepts,EXTERNAL_TRIANGULATION_AVAILABLE_EXACT_REGENERATION_NOT_DONE,False
+detector_r0_r5,>=3 detector families across R0-R5,DIVE multi-tool labels; CyberChainBench agent results; published detector benchmarks,PUBLIC_DETECTOR_EVIDENCE_AVAILABLE_BUT_NO_SAME_DETECTOR_R0_R5_CURVE_YET,False

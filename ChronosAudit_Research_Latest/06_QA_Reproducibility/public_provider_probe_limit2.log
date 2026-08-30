@@ -1,0 +1,7 @@
+{
+  "cases": 2,
+  "planned_observations": 4,
+  "provider_families_per_chain": 2,
+  "mode": "plan_only",
+  "plan_sha256": "2330cab1e84f22331f263a4a47bfb94cf438be094ba6b4a6770a7ed436d90ed8"
+}

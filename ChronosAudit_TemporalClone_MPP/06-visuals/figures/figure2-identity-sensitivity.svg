@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="850" viewBox="0 0 2200 850" role="img" aria-labelledby="title desc">
+  <title id="title">Identity abstraction sensitivity</title>
+  <desc id="desc">Two-panel bar chart showing rows assigned to duplicate groups and unique identity counts under chain-address, address-only, exact runtime bytecode, and metadata-stripped runtime bytecode identities.</desc>
+  <rect width="100%" height="100%" fill="white"/>
+  <style>text{font-family:Arial,Helvetica,sans-serif;fill:#111} .axis{stroke:#111;stroke-width:2} .grid{stroke:#ddd;stroke-width:1} .tick{font-size:20px} .label{font-size:23px} .title{font-size:28px;font-weight:700} .value{font-size:20px;font-weight:700}</style>
+  <text x="1100.0" y="48.0" class="title" text-anchor="middle">Identity abstraction sensitivity</text>
+  <text x="570.0" y="86.0" class="label" text-anchor="middle">A. Rows in duplicate groups</text>
+  <line x1="165" y1="105" x2="165" y2="715" class="axis"/>
+  <line x1="165" y1="715" x2="1060" y2="715" class="axis"/>
+  <line x1="165" y1="715.0" x2="1060" y2="715.0" class="grid"/>
+  <text x="150.0" y="722.0" class="tick" text-anchor="end">0</text>
+  <line x1="165" y1="562.5" x2="1060" y2="562.5" class="grid"/>
+  <text x="150.0" y="569.5" class="tick" text-anchor="end">16</text>
+  <line x1="165" y1="410.0" x2="1060" y2="410.0" class="grid"/>
+  <text x="150.0" y="417.0" class="tick" text-anchor="end">32</text>
+  <line x1="165" y1="257.5" x2="1060" y2="257.5" class="grid"/>
+  <text x="150.0" y="264.5" class="tick" text-anchor="end">49</text>
+  <line x1="165" y1="105.0" x2="1060" y2="105.0" class="grid"/>
+  <text x="150.0" y="112.0" class="tick" text-anchor="end">65</text>
+  <rect x="228.4" y="583.6" width="123.2" height="131.4" fill="#666666" stroke="#111" stroke-width="2"/>
+  <text x="290.0" y="571.6" class="value" text-anchor="middle">14</text>
+  <text x="290.0" y="749.0" class="tick" text-anchor="middle" transform="rotate(-22 290.0 749.0)">Chain-address</text>
+  <rect x="448.4" y="583.6" width="123.2" height="131.4" fill="#666666" stroke="#111" stroke-width="2"/>
+  <text x="510.0" y="571.6" class="value" text-anchor="middle">14</text>
+  <text x="510.0" y="749.0" class="tick" text-anchor="middle" transform="rotate(-22 510.0 749.0)">Address only</text>
+  <rect x="668.4" y="283.3" width="123.2" height="431.7" fill="#E69F00" stroke="#111" stroke-width="2"/>
+  <text x="730.0" y="271.3" class="value" text-anchor="middle">46</text>
+  <text x="730.0" y="749.0" class="tick" text-anchor="middle" transform="rotate(-22 730.0 749.0)">Exact runtime</text>
+  <rect x="888.4" y="189.5" width="123.2" height="525.5" fill="#009E73" stroke="#111" stroke-width="2"/>
+  <text x="950.0" y="177.5" class="value" text-anchor="middle">56</text>
+  <text x="950.0" y="749.0" class="tick" text-anchor="middle" transform="rotate(-22 950.0 749.0)">Metadata-stripped</text>
+  <text x="1650.0" y="86.0" class="label" text-anchor="middle">B. Unique identities</text>
+  <line x1="1245" y1="105" x2="1245" y2="715" class="axis"/>
+  <line x1="1245" y1="715" x2="2140" y2="715" class="axis"/>
+  <line x1="1245" y1="715.0" x2="2140" y2="715.0" class="grid"/>
+  <text x="1230.0" y="722.0" class="tick" text-anchor="end">0</text>
+  <line x1="1245" y1="562.5" x2="2140" y2="562.5" class="grid"/>
+  <text x="1230.0" y="569.5" class="tick" text-anchor="end">110</text>
+  <line x1="1245" y1="410.0" x2="2140" y2="410.0" class="grid"/>
+  <text x="1230.0" y="417.0" class="tick" text-anchor="end">221</text>
+  <line x1="1245" y1="257.5" x2="2140" y2="257.5" class="grid"/>
+  <text x="1230.0" y="264.5" class="tick" text-anchor="end">332</text>
+  <line x1="1245" y1="105.0" x2="2140" y2="105.0" class="grid"/>
+  <text x="1230.0" y="112.0" class="tick" text-anchor="end">442</text>
+  <rect x="1308.4" y="149.2" width="123.2" height="565.8" fill="#666666" stroke="#111" stroke-width="2"/>
+  <text x="1370.0" y="137.2" class="value" text-anchor="middle">410</text>
+  <text x="1370.0" y="749.0" class="tick" text-anchor="middle" transform="rotate(-22 1370.0 749.0)">Chain-address</text>
+  <rect x="1528.4" y="149.2" width="123.2" height="565.8" fill="#666666" stroke="#111" stroke-width="2"/>
+  <text x="1590.0" y="137.2" class="value" text-anchor="middle">410</text>
+  <text x="1590.0" y="749.0" class="tick" text-anchor="middle" transform="rotate(-22 1590.0 749.0)">Address only</text>
+  <rect x="1748.4" y="179.5" width="123.2" height="535.5" fill="#E69F00" stroke="#111" stroke-width="2"/>
+  <text x="1810.0" y="167.5" class="value" text-anchor="middle">388</text>
+  <text x="1810.0" y="749.0" class="tick" text-anchor="middle" transform="rotate(-22 1810.0 749.0)">Exact runtime</text>
+  <rect x="1968.4" y="187.8" width="123.2" height="527.2" fill="#009E73" stroke="#111" stroke-width="2"/>
+  <text x="2030.0" y="175.8" class="value" text-anchor="middle">382</text>
+  <text x="2030.0" y="749.0" class="tick" text-anchor="middle" transform="rotate(-22 2030.0 749.0)">Metadata-stripped</text>
+</svg>

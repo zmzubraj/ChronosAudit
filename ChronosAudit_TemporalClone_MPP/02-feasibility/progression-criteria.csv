@@ -1,0 +1,8 @@
+criterion,green,amber,red,current,action
+input_count,417 unique verified cases,repairable mismatch,unresolved provenance failure,GREEN,proceed
+provider_evidence,alchemy and infura for every case,documented bounded exception,unknown or single-provider evidence,GREEN,proceed
+determinism,identical outputs on rerun,nondeterminism localized,unexplained result drift,GREEN,proceed
+novelty,no direct same-cohort joint audit,substantial overlap but material differentiator remains,direct predecessor defeats contribution,AMBER,independent challenge required
+rights,aggregate/code release approved,raw-row release pending,no defensible release scope,AMBER,withhold row-level public bundle pending review
+scientific_review,qualified independent pass,review scheduled,critical unknown unreviewed,RED,block readiness claim
+human_approval,author checklist signed,draft under review,no accountable author,RED,block submission

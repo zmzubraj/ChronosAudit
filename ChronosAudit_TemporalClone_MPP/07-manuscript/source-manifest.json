@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "bytes": 22642,
+      "path": "07-manuscript/main.tex",
+      "sha256": "532978d0b4155d872e6afed1b47b03a45c28d5e66c51d44a4fb883d62ca0326c"
+    },
+    {
+      "bytes": 4090,
+      "path": "07-manuscript/references.bib",
+      "sha256": "b2d7888123ddd5243f187c94be32bb8e7084c41358d217af0e8b12122999146a"
+    },
+    {
+      "bytes": 1524,
+      "path": "07-manuscript/algorithms.tex",
+      "sha256": "41624bd1426d67f3f936d9141700334457419f367f6d96f2cb16a0098285b589"
+    },
+    {
+      "bytes": 4459,
+      "path": "07-manuscript/main.bbl",
+      "sha256": "df2eaea388e6b77fb7255fd467d7aa8a30b6979057779e3bc3a6ce18c7a025f4"
+    },
+    {
+      "bytes": 23734,
+      "path": "07-manuscript/manuscript.md",
+      "sha256": "5b2ecfcde43b280036ad2a7af006cf89a1ca87229f23623b2185addad27c34ed"
+    },
+    {
+      "bytes": 1406,
+      "path": "07-manuscript/claim-evidence-matrix.csv",
+      "sha256": "c63b0ee126e9901980ae73f9f93b64019980d727049bd37f510477ca644e156d"
+    },
+    {
+      "bytes": 52869,
+      "path": "07-manuscript/figure1-temporal-eligibility.png",
+      "sha256": "0cc747c0f4bf85ec599202328eb73a123db44e06f2a6e48ea728f4a50c79607f"
+    },
+    {
+      "bytes": 81088,
+      "path": "07-manuscript/figure2-identity-sensitivity.png",
+      "sha256": "ab7dc3224a45ae84028a82c405f312243c917b24b28555725e844d2954ab484e"
+    },
+    {
+      "bytes": 74609,
+      "path": "07-manuscript/figure3-deployment-age-ecdf.png",
+      "sha256": "db33b980845368b23808a98a5540efcdd37b76280115c3f2214ec7951d568297"
+    },
+    {
+      "bytes": 534644,
+      "path": "07-manuscript/main.pdf",
+      "sha256": "326f7c65b00dba8f98b816d83c7a03f2aad595843e5fcf9dab4dc8face25f909"
+    }
+  ],
+  "generated_at_utc": "2026-08-28T20:12:47.528567+00:00",
+  "sources": [
+    {
+      "bytes": 22642,
+      "path": "07-manuscript/main.tex",
+      "sha256": "532978d0b4155d872e6afed1b47b03a45c28d5e66c51d44a4fb883d62ca0326c"
+    },
+    {
+      "bytes": 4090,
+      "path": "07-manuscript/references.bib",
+      "sha256": "b2d7888123ddd5243f187c94be32bb8e7084c41358d217af0e8b12122999146a"
+    },
+    {
+      "bytes": 1524,
+      "path": "07-manuscript/algorithms.tex",
+      "sha256": "41624bd1426d67f3f936d9141700334457419f367f6d96f2cb16a0098285b589"
+    },
+    {
+      "bytes": 4459,
+      "path": "07-manuscript/main.bbl",
+      "sha256": "df2eaea388e6b77fb7255fd467d7aa8a30b6979057779e3bc3a6ce18c7a025f4"
+    },
+    {
+      "bytes": 23734,
+      "path": "07-manuscript/manuscript.md",
+      "sha256": "5b2ecfcde43b280036ad2a7af006cf89a1ca87229f23623b2185addad27c34ed"
+    },
+    {
+      "bytes": 1406,
+      "path": "07-manuscript/claim-evidence-matrix.csv",
+      "sha256": "c63b0ee126e9901980ae73f9f93b64019980d727049bd37f510477ca644e156d"
+    },
+    {
+      "bytes": 52869,
+      "path": "07-manuscript/figure1-temporal-eligibility.png",
+      "sha256": "0cc747c0f4bf85ec599202328eb73a123db44e06f2a6e48ea728f4a50c79607f"
+    },
+    {
+      "bytes": 81088,
+      "path": "07-manuscript/figure2-identity-sensitivity.png",
+      "sha256": "ab7dc3224a45ae84028a82c405f312243c917b24b28555725e844d2954ab484e"
+    },
+    {
+      "bytes": 74609,
+      "path": "07-manuscript/figure3-deployment-age-ecdf.png",
+      "sha256": "db33b980845368b23808a98a5540efcdd37b76280115c3f2214ec7951d568297"
+    },
+    {
+      "bytes": 534644,
+      "path": "07-manuscript/main.pdf",
+      "sha256": "326f7c65b00dba8f98b816d83c7a03f2aad595843e5fcf9dab4dc8face25f909"
+    }
+  ]
+}

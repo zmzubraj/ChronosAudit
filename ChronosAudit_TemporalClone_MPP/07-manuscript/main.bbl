@@ -1,0 +1,100 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alsunaidi et~al.(2026)Alsunaidi, Aljamaan, and
+  Hammoudeh]{alsunaidi2026dive}
+Shikah~J. Alsunaidi, Hamoud Aljamaan, and Mohammad Hammoudeh.
+\newblock {DIVE}: A multi-label smart contract vulnerability dataset.
+\newblock \emph{Scientific Data}, 13:\penalty0 664, 2026.
+\newblock \doi{10.1038/s41597-026-07025-5}.
+\newblock URL \url{https://doi.org/10.1038/s41597-026-07025-5}.
+
+\bibitem[{Anthropic}(2025)]{anthropic2025smartcontracts}
+{Anthropic}.
+\newblock Ai agents find \$4.6m in blockchain smart contract exploits, 2025.
+\newblock URL \url{https://www.anthropic.com/research/smart-contracts}.
+\newblock Official research report; accessed 2026-08-29.
+
+\bibitem[{Anthropic}(2026)]{scone2026}
+{Anthropic}.
+\newblock {SCONE-bench}: Smart contract on-chain exploit benchmark.
+\newblock GitHub repository, 2026.
+\newblock URL \url{https://github.com/anthropics/scone-bench}.
+\newblock Accessed 2026-08-29.
+
+\bibitem[di~Angelo et~al.(2023)di~Angelo, Durieux, Ferreira, and
+  Salzer]{diangelo2023smartbugs}
+Monika di~Angelo, Thomas Durieux, Jo{\~a}o~F. Ferreira, and Gernot Salzer.
+\newblock {SmartBugs 2.0}: An execution framework for weakness detection in
+  ethereum smart contracts.
+\newblock \emph{arXiv preprint arXiv:2306.05057}, 2023.
+\newblock \doi{10.48550/arXiv.2306.05057}.
+\newblock URL \url{https://arxiv.org/abs/2306.05057}.
+
+\bibitem[{Ethereum Improvement Proposals}(2018)]{erc1167}
+{Ethereum Improvement Proposals}.
+\newblock {ERC-1167}: Minimal proxy contract, 2018.
+\newblock URL \url{https://eips.ethereum.org/EIPS/eip-1167}.
+\newblock Accessed 2026-08-29.
+
+\bibitem[{Ethereum Improvement Proposals}(2019{\natexlab{a}})]{eip1898}
+{Ethereum Improvement Proposals}.
+\newblock {EIP-1898}: Add blockhash to defaultblock methods,
+  2019{\natexlab{a}}.
+\newblock URL \url{https://eips.ethereum.org/EIPS/eip-1898}.
+\newblock Accessed 2026-08-29.
+
+\bibitem[{Ethereum Improvement Proposals}(2019{\natexlab{b}})]{erc1967}
+{Ethereum Improvement Proposals}.
+\newblock {ERC-1967}: Proxy storage slots, 2019{\natexlab{b}}.
+\newblock URL \url{https://eips.ethereum.org/EIPS/eip-1967}.
+\newblock Accessed 2026-08-29.
+
+\bibitem[Huang et~al.(2026)Huang, Jiang, Poovendran, and
+  Lin]{huang2026cyberchainbench}
+Jintao Huang, Fengqing Jiang, Radha Poovendran, and Zhiqiang Lin.
+\newblock {CyberChainBench}: Can ai agents secure smart contracts against
+  real-world on-chain vulnerabilities?
+\newblock \emph{arXiv preprint arXiv:2606.26216}, 2026.
+\newblock \doi{10.48550/arXiv.2606.26216}.
+\newblock URL \url{https://arxiv.org/abs/2606.26216}.
+
+\bibitem[Khan et~al.(2023)Khan, David, Varr{\'o}, and
+  McIntosh]{khan2023cloning}
+Faizan Khan, Istvan David, D{\'a}niel Varr{\'o}, and Shane McIntosh.
+\newblock Code cloning in smart contracts on the ethereum platform: An extended
+  replication study.
+\newblock \emph{IEEE Transactions on Software Engineering}, 49\penalty0
+  (4):\penalty0 2006--2019, 2023.
+\newblock \doi{10.1109/TSE.2022.3207428}.
+\newblock URL \url{https://doi.org/10.1109/TSE.2022.3207428}.
+
+\bibitem[Peng et~al.(2026)Peng, Wu, and Zhou]{peng2026reevaluating}
+Chaoyuan Peng, Lei Wu, and Yajin Zhou.
+\newblock Re-evaluating {EVMBench}: Are ai agents ready for smart contract
+  security?
+\newblock \emph{arXiv preprint arXiv:2603.10795}, 2026.
+\newblock \doi{10.48550/arXiv.2603.10795}.
+\newblock URL \url{https://arxiv.org/abs/2603.10795}.
+
+\bibitem[Wang et~al.(2026)Wang, Bigger, Xu, Lin, Applebaum, Patwardhan,
+  Yukseloglu, and Watkins]{wang2026evmbench}
+Justin Wang, Andreas Bigger, Xiaohai Xu, Justin~W. Lin, Andy Applebaum, Tejal
+  Patwardhan, Alpin Yukseloglu, and Olivia Watkins.
+\newblock {EVMbench}: Evaluating ai agents on smart contract security.
+\newblock \emph{arXiv preprint arXiv:2603.04915}, 2026.
+\newblock \doi{10.48550/arXiv.2603.04915}.
+\newblock URL \url{https://arxiv.org/abs/2603.04915}.
+
+\bibitem[Xia et~al.(2025)Xia, He, Song, and Zhang]{xia2025scbench}
+Shihao Xia, Mengting He, Linhai Song, and Yiying Zhang.
+\newblock {SC-Bench}: A large-scale dataset for smart contract auditing.
+\newblock \emph{arXiv preprint arXiv:2410.06176}, 2025.
+\newblock \doi{10.48550/arXiv.2410.06176}.
+\newblock URL \url{https://arxiv.org/abs/2410.06176}.
+
+\end{thebibliography}

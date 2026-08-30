@@ -1,0 +1,12 @@
+{
+  "cases_planned": 417,
+  "cases_processed": 417,
+  "command": "rpc",
+  "deadline_seconds": 21600,
+  "execute": true,
+  "ledger_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/raw/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/acquisition_events.jsonl",
+  "receipt_count": 0,
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "status": "partial"
+}

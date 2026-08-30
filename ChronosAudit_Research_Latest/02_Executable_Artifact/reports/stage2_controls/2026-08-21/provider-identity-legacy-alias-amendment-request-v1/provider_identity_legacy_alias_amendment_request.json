@@ -1,0 +1,147 @@
+{
+  "schema_version": "chronosaudit.control_provider_identity_legacy_alias_amendment_request.v1",
+  "created_at_utc": "2026-08-20T22:55:37Z",
+  "decision": "AWAITING_EXPLICIT_METHOD_APPROVAL",
+  "decision_owner": "zmzubraj",
+  "decision_requested": "Choose exactly one option: PRESERVE_EXACT_PUBLICATION_REQUIRE_DOCUMENTED_RUNTIME_ENDPOINTS, or APPROVE_LEGACY_ENDPOINT_ALIAS_EVIDENCE_V1_FOR_LOCAL_TEST_ONLY.",
+  "current_rule": {
+    "status": "FROZEN_AND_UNCHANGED",
+    "summary": "Each configured provider endpoint must appear exactly in a hash-bound capture fetched from an HTTPS official provider-family host; redirect, cache, DNS, TLS, runtime behavior, or third-party publication alone is insufficient.",
+    "review_kit_path": "02_Executable_Artifact/docs/stage2_control_provider_identity_review_kit.md",
+    "review_kit_sha256": "e46fcd57acc6f308540aec2a751d409bd91e3b22d8d2f403b07d89806279af21"
+  },
+  "triggering_transport_evidence": {
+    "capability_report_path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-unverified-merkle-dual-provider-capability-v2/control_trace_state_capability.json",
+    "capability_report_sha256": "00147f4e7b4fff075500a4a3d0aed3304a6cf1ff1a3d997462a53450fea0d342",
+    "verification_path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-unverified-merkle-dual-provider-capability-v2/control_trace_state_capability_verification.json",
+    "verification_sha256": "50b167ae053c6d7af5d9b4e745969a5ffd193f4bc6549f93f80a4bd2deb4acf4",
+    "complete_chains": [
+      "base",
+      "bsc",
+      "ethereum"
+    ],
+    "paired_families": {
+      "base": [
+        "drpc",
+        "merkle"
+      ],
+      "bsc": [
+        "nodereal",
+        "merkle"
+      ],
+      "ethereum": [
+        "quicknode",
+        "merkle"
+      ]
+    },
+    "provider_registry_verified": false,
+    "interpretation": "Transport capability and semantic agreement are established for the frozen fixtures, but provider identity and independence are not established by this report."
+  },
+  "current_source_check": {
+    "checked_at_utc": "2026-08-20T22:55:37Z",
+    "official_sources": [
+      {
+        "url": "https://www.merkle.io/blog/improving-reth-with-our-free-ethereum-rpc-service",
+        "status": "CURRENT_FIRST_PARTY_EXACT_ETHEREUM_ENDPOINT_AND_SELF_OPERATION_CLAIM",
+        "endpoint": "https://eth.merkle.io",
+        "qualifier": "This supports the Ethereum endpoint-to-operator link, subject to accountable identity and independence review."
+      },
+      {
+        "url": "https://www.merkle.io/bsc-rpc",
+        "status": "CURRENT_FIRST_PARTY_DIFFERENT_BSC_ENDPOINT",
+        "endpoint": "https://bsc.blink.io",
+        "qualifier": "The published endpoint did not resolve during the same check and is not the transport-tested https://bsc.merkle.io endpoint."
+      },
+      {
+        "url": "https://docs.blinklabs.xyz/blink/base/api-reference",
+        "status": "CURRENT_FIRST_PARTY_KEYED_BASE_ENDPOINT",
+        "endpoint": "https://base.blinklabs.xyz/v1/{$API_KEY}",
+        "qualifier": "This is not the transport-tested https://base.merkle.io endpoint and cannot be exercised without a Blink API key."
+      },
+      {
+        "url": "https://docs.merkle.io/",
+        "status": "LIVE_REDIRECTS_TO_BLINK_DOCUMENTATION",
+        "endpoint": null,
+        "qualifier": "Search indexes retain an older page naming eth.merkle.io and bsc.merkle.io, but the live source redirects; cached search content is not accepted as a current capture."
+      }
+    ],
+    "search_coverage": {
+      "current_blink_documentation_pages_scanned": 64,
+      "exact_merkle_io_endpoint_matches": 0,
+      "sourcegraph_exact_eth_merkle_io_third_party_matches": 3,
+      "sourcegraph_exact_base_merkle_io_matches": 0,
+      "sourcegraph_exact_bsc_merkle_io_matches": 0,
+      "third_party_sources_qualify": false
+    },
+    "conclusion": "The frozen exact-publication rule can presently bind eth.merkle.io from a current first-party page, but it cannot bind the transport-tested base.merkle.io or bsc.merkle.io endpoints from a current exact first-party publication."
+  },
+  "options": [
+    {
+      "option_id": "PRESERVE_EXACT_PUBLICATION_REQUIRE_DOCUMENTED_RUNTIME_ENDPOINTS",
+      "method_change": false,
+      "recommended_for_canonical_scientific_track": true,
+      "requirements": [
+        "Supply CHRONOS_ALCHEMY_API_KEY and CHRONOS_INFURA_API_KEY, a Blink API key for the documented endpoints, or another two-family set with current exact official endpoint publication.",
+        "Rebuild and independently verify the provider identity revision.",
+        "Rerun the frozen known-creation trace and cutoff-state capability probe before any activation."
+      ],
+      "consequence": "No provider-identity exception is introduced; canonical RPC activation remains blocked until documented runtime endpoints are available."
+    },
+    {
+      "option_id": "APPROVE_LEGACY_ENDPOINT_ALIAS_EVIDENCE_V1_FOR_LOCAL_TEST_ONLY",
+      "method_change": true,
+      "recommended_for_canonical_scientific_track": false,
+      "scope": {
+        "environment": "LOCAL_TEST_ONLY",
+        "operator_family": "merkle_blink",
+        "chains": [
+          "base",
+          "bsc",
+          "ethereum"
+        ],
+        "exact_endpoints": [
+          "https://base.merkle.io",
+          "https://bsc.merkle.io",
+          "https://eth.merkle.io"
+        ]
+      },
+      "required_conjunctive_evidence": [
+        "A current first-party merkle.io page binds the Merkle domain to Blink Labs branding and current official Blink documentation or portal links.",
+        "A current first-party Blink source establishes support for the relevant chain, even when it publishes a replacement endpoint rather than the legacy endpoint.",
+        "The exact legacy endpoint remains under the merkle.io registrable domain and passes live DNS, TLS-hostname, HTTPS, and expected eth_chainId checks at freeze time.",
+        "The exact legacy endpoint passes the frozen historical block, receipt, trace, EIP-1898 runtime-code, and three proxy-slot fixture checks with hash-bound raw request and response envelopes.",
+        "The paired non-Merkle family has separately exact-published endpoint evidence and no identified common operator ownership with Blink Labs.",
+        "An accountable reviewer signs the exact endpoint, operator-family, chain, evidence hashes, limitations, and expiry after reviewing identity and independence; local key possession alone is not identity proof."
+      ],
+      "fail_closed_rules": [
+        "Any failed or unavailable conjunct is INSUFFICIENT_EVIDENCE.",
+        "The rule does not generalize to another hostname, chain, provider family, date, or production track.",
+        "The rule does not establish archive capability beyond the exact frozen probes.",
+        "The rule cannot authorize selection, qualification, counters, stage promotion, Recovery3 mutation, release eligibility, or independent review.",
+        "Canonical scientific activation remains false unless the existing accountable provider-identity and separate RPC-activation gates also pass."
+      ],
+      "consequence": "If explicitly approved and implemented, the legacy endpoints may be used only to continue a labeled local-test trace/cutoff-state run; canonical counters remain fail-closed."
+    }
+  ],
+  "authority": {
+    "method_approved": false,
+    "provider_identity_verified": false,
+    "provider_registry_verified": false,
+    "rpc_authorized": false,
+    "selection_authorized": false,
+    "qualification_authorized": false,
+    "counter_authorized": false,
+    "stage_promotion_authorized": false,
+    "recovery3_mutation_authorized": false,
+    "release_authorized": false
+  },
+  "counter_projection": {
+    "control_candidates_current": 0,
+    "control_candidates_required": 4170,
+    "qualified_controls_current": 0,
+    "qualified_controls_required": 4170,
+    "changed_by_this_request": false
+  },
+  "control_selection_policy_sha256": "e2ec1673827d4b30245a11eb70e665e4a5ad6ad2a423283a84c8186f0d0f1e19",
+  "request_sha256": "c8f4870d2ca6733ab8d0f47e4a43577605432019fc7a005b3909800fbb776595"
+}

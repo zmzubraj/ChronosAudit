@@ -1,0 +1,38 @@
+{
+  "schema_version": "stage2_control_trace_state_capability_fixtures.v1",
+  "selection_rule": "For each chain represented in the frozen 558-row INTERNAL_OR_FACTORY_CREATE_UNRESOLVED_TRACE_REQUIRED set, select the lexicographically earliest reserve_assignment_sha256.",
+  "source_candidate_root": "02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/candidates",
+  "fixtures": [
+    {
+      "chain": "base",
+      "chain_id": "0x2105",
+      "block_number": 22872356,
+      "block_hash": "0xa794af5bd141e73f370afdb271aee998539a791afd60904ce9641d74e5995e89",
+      "transaction_hash": "0x0a37d237118ec6fc8d6f562074fef307db207e5b44040fe6b112373fafe0ec33",
+      "created_address": "0x83cb4349a796528cab56f536d6f9ad8f1cddd43a",
+      "reserve_assignment_sha256": "02525a549ce1887ae185b18c0bd00061a93f84b3b15558561ced5cf6484e2f2a"
+    },
+    {
+      "chain": "bsc",
+      "chain_id": "0x38",
+      "block_number": 91716206,
+      "block_hash": "0x7e3df2044a0d0e82d23a5ef91945d28e5f85d33d539f1e2afd0dd44075e8e976",
+      "transaction_hash": "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+      "created_address": "0x82d56e4d35d42ea2488ebf90bd8b6579e1af6eed",
+      "reserve_assignment_sha256": "0128fef8f1b807201486c18713d738ccd8683010bc767fd35f7d236da9f1a411"
+    },
+    {
+      "chain": "ethereum",
+      "chain_id": "0x1",
+      "block_number": 14267406,
+      "block_hash": "0x43f11f546eff9cafb300f4de836812743ff4d02d228f85a789711302f3f60e8c",
+      "transaction_hash": "0xf87a5b1e3c6c0f8808996ac3f9113c80928d7dc57e39024618beafdc3a450c27",
+      "created_address": "0x1fa61c33522ba3e393ed7cc279e22fa462ab3927",
+      "reserve_assignment_sha256": "004f2176c0c87135d3a52228fb19fbe0a69fa55306140e8245b368c4d5302a06"
+    }
+  ],
+  "rpc_authorized": false,
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "recovery3_mutation_authorized": false
+}

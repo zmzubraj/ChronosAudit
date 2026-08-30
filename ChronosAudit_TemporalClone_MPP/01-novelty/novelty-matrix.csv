@@ -1,0 +1,6 @@
+claim_id,predecessor_id,material_difference,defeating_evidence,residual_uncertainty
+C001,PA-SCONE,Audits cohort validity rather than agent exploit performance,A same-cohort joint audit,The repository may change after cutoff
+C001,PA-ANTHROPIC-2025,Fixed landmark eligibility rather than deployment-age correlation,A landmark audit on the current cohort,Earlier report used 405 cases
+C001,PA-CYBERCHAIN,Joint temporal and identity/proxy dependence audit,Equivalent joint benchmark audit,Recent preprint search may be incomplete
+C001,PA-CLONES,Same-cohort runtime fingerprint sensitivity,Same-cohort bytecode-family audit,Semantic clone literature remains broader
+C001,PA-DIVE,Exploit-benchmark-specific temporal and identity audit,Equivalent multi-axis audit,Different task and cohort

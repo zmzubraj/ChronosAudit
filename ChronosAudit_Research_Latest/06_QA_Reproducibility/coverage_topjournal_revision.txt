@@ -1,0 +1,22 @@
+...........................                                              [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.5-final-0 ________________
+
+Name                                            Stmts   Miss  Cover
+-------------------------------------------------------------------
+src/chronosaudit_stage2/__init__.py                 2      0   100%
+src/chronosaudit_stage2/control_matching.py        65      4    94%
+src/chronosaudit_stage2/cutoff_policy.py           19      0   100%
+src/chronosaudit_stage2/deployment_stream.py       92      6    93%
+src/chronosaudit_stage2/evidence_sources.py       155      7    95%
+src/chronosaudit_stage2/killer_catalog.py         108      0   100%
+src/chronosaudit_stage2/mechanism_taxonomy.py      26      0   100%
+src/chronosaudit_stage2/onchain.py                175     59    66%
+src/chronosaudit_stage2/pipeline.py               267     67    75%
+src/chronosaudit_stage2/review_workflow.py        144     29    80%
+src/chronosaudit_stage2/source_history.py         108     13    88%
+src/chronosaudit_stage2/split_audit.py             43      0   100%
+src/chronosaudit_stage2/statistics.py              27     14    48%
+-------------------------------------------------------------------
+TOTAL                                            1231    199    84%
+27 passed in 3.54s

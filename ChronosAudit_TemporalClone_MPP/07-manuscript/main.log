@@ -1,0 +1,1055 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.1)  29 AUG 2026 02:01
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count284
+\Gm@cntv=\count285
+\c@Gm@tempcnt=\count286
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks18
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.st
+y
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+\MT@toks=\toks20
+\MT@tempbox=\box53
+\MT@count=\count288
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks21
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen159
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count289
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pd
+ftex.def
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip51
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cf
+g
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.de
+f
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count290
+\@cmidlb=\count291
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count292
+\@lastruleclass=\count293
+\@thisrulewidth=\dimen174
+) (/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
+\col@sep=\dimen175
+\ar@mcellbox=\box54
+\extrarowheight=\dimen176
+\NC@list=\toks22
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen177
+\TX@old@table=\dimen178
+\TX@old@col=\dimen179
+\TX@target=\dimen180
+\TX@delta=\dimen181
+\TX@cols=\count294
+\TX@ftn=\toks23
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2026-01-28 v4.27 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count295
+\LTcapwidth=\dimen182
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count296
+\LT@rows=\count297
+\c@LT@tables=\count298
+\c@LT@chunks=\count299
+\LT@p@ftn=\toks24
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+
+new hooks used!!
+\minrowclearance=\skip58
+\rownum=\count300
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz
+.sty
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.s
+ty
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfuti
+l-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen183
+\pgfutil@tempdimb=\dimen184
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfuti
+l-latex.def
+\pgfutil@abb=\box61
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs
+.code.tex
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex
+)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore
+.sty
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys
+.sty
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+ys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkey
+s.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkey
+slibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen185
+\pgf@y=\dimen186
+\pgf@xa=\dimen187
+\pgf@ya=\dimen188
+\pgf@xb=\dimen189
+\pgf@yb=\dimen190
+\pgf@xc=\dimen191
+\pgf@yc=\dimen192
+\pgf@xd=\dimen193
+\pgf@yd=\dimen194
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count301
+\c@pgf@countb=\count302
+\c@pgf@countc=\count303
+\c@pgf@countd=\count304
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count305
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.
+cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+ys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+ys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+yssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count306
+\pgfsyssoftpath@bigbuffer@items=\count307
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfs
+ysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+re.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.cod
+e.tex
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil
+.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathpars
+er.code.tex
+\pgfmath@dimen=\dimen195
+\pgfmath@count=\count308
+\pgfmath@box=\box62
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.basic.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.trigonometric.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.random.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.comparison.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.base.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.round.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.misc.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunc
+tions.integerarithmetics.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc
+.code.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloa
+t.code.tex
+\c@pgfmathroundto@lastzeros=\count309
+))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code
+.tex)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen196
+\pgf@picmaxx=\dimen197
+\pgf@picminy=\dimen198
+\pgf@picmaxy=\dimen199
+\pgf@pathminx=\dimen256
+\pgf@pathmaxx=\dimen257
+\pgf@pathminy=\dimen258
+\pgf@pathmaxy=\dimen259
+\pgf@xx=\dimen260
+\pgf@xy=\dimen261
+\pgf@yx=\dimen262
+\pgf@yy=\dimen263
+\pgf@zx=\dimen264
+\pgf@zy=\dimen265
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen266
+\pgf@path@lasty=\dimen267
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen268
+\pgf@shorten@start@additional=\dimen269
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+rescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count310
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+regraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen270
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+retransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen271
+\pgf@pt@y=\dimen272
+\pgf@pt@temp=\dimen273
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+requick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+reobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+rearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen274
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+reshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen275
+\pgf@sys@shading@range@num=\count311
+\pgf@shadingcount=\count312
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+reimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+reexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box66
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+relayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+retransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+repatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfco
+rerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodul
+eshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box67
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodul
+eplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfc
+omp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen276
+\pgf@nodesepend=\dimen277
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfc
+omp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.s
+ty
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.
+sty
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkey
+s.code.tex))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.cod
+e.tex))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor
+.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen278
+\pgffor@skip=\dimen279
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/ti
+kz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflib
+raryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count313
+\pgfplotmarksize=\dimen280
+)
+\tikz@lastx=\dimen281
+\tikz@lasty=\dimen282
+\tikz@lastxsaved=\dimen283
+\tikz@lastysaved=\dimen284
+\tikz@lastmovetox=\dimen285
+\tikz@lastmovetoy=\dimen286
+\tikzleveldistance=\dimen287
+\tikzsiblingdistance=\dimen288
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count314
+\tikznumberofchildren=\count315
+\tikznumberofcurrentchild=\count316
+\tikz@fig@count=\count317
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodul
+ematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count318
+\pgfmatrixcurrentcolumn=\count319
+\pgf@matrix@numberofcolumns=\count320
+)
+\tikz@expandcount=\count321
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/ti
+kz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflib
+raryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen289
+\pgfarrowlength=\dimen290
+\pgfarrowwidth=\dimen291
+\pgfarrowlinewidth=\dimen292
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/ti
+kz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/ti
+kz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/shapes
+/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip59
+\bibsep=\skip60
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count322
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-06-17 v7.01r Hypertext links for LaTeX
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.st
+y
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefin
+ekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.
+sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmd
+s.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.
+sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/gettitlestring/getti
+tlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.st
+y
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count323
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.
+sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen293
+\Hy@linkcounter=\count324
+\Hy@pagecounter=\count325
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-06-17 v7.01r Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count326
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-06-17 v7.01r Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count327
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen294
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcal
+c.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count328
+\Field@Width=\dimen295
+\Fld@charsize=\dimen296
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count329
+\c@Item=\count330
+\c@Hfootnote=\count331
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2026-06-17 v7.01r Hyperref driver for pdfTeX
+\Fld@listcount=\count332
+\c@bookmark@seq@number=\count333
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfi
+lecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/generic/uniquecounter/unique
+counter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip61
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 27
+.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count334
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 27.
+Package microtype Info: Applying patch `item' on input line 27.
+Package microtype Info: Applying patch `toc' on input line 27.
+Package microtype Info: Applying patch `eqnum' on input line 27.
+Package microtype Info: Applying patch `footnote' on input line 27.
+Package microtype Info: Applying patch `verbatim' on input line 27.
+LaTeX Info: Redefining \microtypesetup on input line 27.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count335
+\scratchdimen=\dimen297
+\scratchbox=\box72
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen298
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks38
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-s
+ys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring ON on input line 27.
+ (./main.out) (./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+9.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+9.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+29.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+29.
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+
+
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+[1
+
+{/Users/rainbow/.local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
+p}{/Users/rainbow/.local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+
+Underfull \hbox (badness 1087) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/9 (+20) Historical in-ci-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/9 (+20) Evaluation de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/9 (+20) Contamination
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/9 (+20) Proxy sub-set
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/9 (+20) Lifecycle fea-
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/9 (+20) Duplicates re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/9 (+20) Dual-provider,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\T1/lmr/m/n/9 (+20) block-hash-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\T1/lmr/m/n/9 (+20) pinned up-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\T1/lmr/m/n/9 (+20) stream ev-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/9 (+20) Four ab-strac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/9 (+20) Specified
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\T1/lmr/m/n/9 (+20) ob-serv-able
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
+0.
+(/Users/rainbow/.local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [2{/Users/rainbow/.local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.
+enc}{/Users/rainbow/.local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+}{/Users/rainbow/.local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.en
+c}]
+(./algorithms.tex)
+<figure1-temporal-eligibility.png, id=142, 1204.5pt x 803.0pt>
+File: figure1-temporal-eligibility.png Graphic file (type png)
+<use figure1-temporal-eligibility.png>
+Package pdftex.def Info: figure1-temporal-eligibility.png  used on input line 1
+27.
+(pdftex.def)             Requested size: 455.24411pt x 303.5013pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figure3-deployment-age-ecdf.png, id=144, 1204.5pt x 803.0pt>
+File: figure3-deployment-age-ecdf.png Graphic file (type png)
+<use figure3-deployment-age-ecdf.png>
+Package pdftex.def Info: figure3-deployment-age-ecdf.png  used on input line 15
+4.
+(pdftex.def)             Requested size: 455.24411pt x 303.5013pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3{/Users/rainbow/.local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.e
+nc}]
+<figure2-identity-sensitivity.png, id=156, 2208.25pt x 853.1875pt>
+File: figure2-identity-sensitivity.png Graphic file (type png)
+<use figure2-identity-sensitivity.png>
+Package pdftex.def Info: figure2-identity-sensitivity.png  used on input line 1
+81.
+(pdftex.def)             Requested size: 455.24411pt x 175.88097pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./figure1-temporal-eligibility.png>] [5] [6 <./figure3-deployment-age-ecdf.
+png>] (./main.bbl) [7 <./figure2-identity-sensitivity.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
+[]|\T1/lmr/m/n/8 (+20) Misses cross-address
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 250--250
+[]|\T1/lmr/m/n/8 (+20) Metadata and proxy
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 265--265
+[]|\T1/lmr/m/n/9 (+20) Qualified in-de-pen-dent re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+[]|\T1/lmr/m/n/9 (+20) Author/declarations un-re-
+ []
+
+[8
+
+] (./main.aux)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 23962647D0E5920D3BA0F177350B7311;2807.
+ ) 
+Here is how much of TeX's memory you used:
+ 24390 strings out of 468649
+ 457398 string characters out of 5444018
+ 895831 words of memory out of 5000000
+ 52791 multiletter control sequences out of 15000+600000
+ 698888 words of font info for 179 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 84i,10n,94p,1588b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.p
+fb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.
+pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx9.
+pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmex10
+.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi1
+0.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi
+7.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmmi
+9.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr1
+0.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr1
+2.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr1
+7.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr7
+.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.
+pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr9.p
+fb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri9.p
+fb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.
+pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10
+.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt9
+.pfb></Users/rainbow/.local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb>
+Output written on main.pdf (8 pages, 534644 bytes).
+PDF statistics:
+ 313 PDF objects out of 1000 (max. 8388607)
+ 257 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 38052 words of extra memory for PDF output out of 42996 (max. 10000000)
+

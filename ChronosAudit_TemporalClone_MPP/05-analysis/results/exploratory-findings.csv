@@ -1,0 +1,11 @@
+variable,statistic,value_hours,status
+cutoff_lead_hours,maximum,55406.258889,DESCRIPTIVE
+cutoff_lead_hours,median,2301.714444,DESCRIPTIVE
+cutoff_lead_hours,minimum,1.480833,DESCRIPTIVE
+cutoff_lead_hours,p10,64.325667,DESCRIPTIVE
+cutoff_lead_hours,p25,377.908611,DESCRIPTIVE
+cutoff_lead_hours,p75,11014.845833,DESCRIPTIVE
+cutoff_lead_hours,p90,22340.973167,DESCRIPTIVE
+deployment_to_incident_hours,maximum,55430.260000,DESCRIPTIVE
+deployment_to_incident_hours,median,2325.714722,DESCRIPTIVE
+deployment_to_incident_hours,minimum,25.481389,DESCRIPTIVE

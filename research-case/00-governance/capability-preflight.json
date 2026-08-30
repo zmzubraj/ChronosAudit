@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-02T03:40:09Z",
+  "phase": "INTAKE",
+  "cell_id": "intake_integration",
+  "agent_type": "root-integration-owner",
+  "available_agent_types": [
+    "data-scientist",
+    "docs-researcher",
+    "research-analyst",
+    "reviewer",
+    "search-specialist"
+  ],
+  "available_tools": [
+    "collaboration.spawn_agent",
+    "exec_command",
+    "web.open",
+    "web.search_query"
+  ],
+  "delegation_allowed": true,
+  "required_channels": [],
+  "egress_policy": {
+    "policy_version": 1,
+    "external_processing": "allow-approved",
+    "allowed_channels": [
+      "public_web"
+    ],
+    "notes": "Fail closed for every channel not explicitly listed. Image generation, proprietary databases, authenticated private sources, disclosure coordination, and external submission are not authorized by this policy."
+  },
+  "capability_source": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/research-case/00-governance/capability-preflight.json",
+  "issues": [],
+  "ready_for_delegation": true,
+  "notes": "Python control-plane code cannot call Codex collaboration tools. Only the root model may choose a model-only collaboration action or direct root execution."
+}

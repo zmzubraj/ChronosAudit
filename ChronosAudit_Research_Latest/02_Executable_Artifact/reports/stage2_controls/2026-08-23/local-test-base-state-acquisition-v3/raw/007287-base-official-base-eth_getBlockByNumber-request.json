@@ -1,0 +1,13 @@
+{
+  "call_scope_sha256": "81de27235e73bb7caf62045a5f918f3848bf4faff780bb54d829a93ca58c27e6",
+  "method": "eth_getBlockByNumber",
+  "operator_family": "base-official",
+  "params": [
+    "0x16da1a7",
+    false
+  ],
+  "provider_id": "base-official-base",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 7287,
+  "target_id": "base-state:b716ce5210a89684e001660cdd8fd0676e699ba9a8ef19575fa4cd1861e9a8e1"
+}

@@ -1,0 +1,2189 @@
+{
+  "all_content_addresses_valid": true,
+  "created_at_utc": "2026-08-08T18:27:57Z",
+  "entries": [
+    {
+      "bytes": 10134,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/00/00b21cccb06b1193361ecbaae645123d17c86f8d28f57d89ca1c85c378342051.json",
+      "sha256": "00b21cccb06b1193361ecbaae645123d17c86f8d28f57d89ca1c85c378342051"
+    },
+    {
+      "bytes": 233,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/00/00f9427d3ab52bd4b5a48810b3611b6ec4581f46caa7e4efae8b1b267b097bac.json",
+      "sha256": "00f9427d3ab52bd4b5a48810b3611b6ec4581f46caa7e4efae8b1b267b097bac"
+    },
+    {
+      "bytes": 8132,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/01/01e26803eb7c8f3fc4779ba9042bee7c26de489222f13332b3a2070b7173d798.json",
+      "sha256": "01e26803eb7c8f3fc4779ba9042bee7c26de489222f13332b3a2070b7173d798"
+    },
+    {
+      "bytes": 14918,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/02/0222bb46e1c9eddf9423ecd1ece6fb2dfa9c24e5cdcad177b2974d5a6cb8fc15.json",
+      "sha256": "0222bb46e1c9eddf9423ecd1ece6fb2dfa9c24e5cdcad177b2974d5a6cb8fc15"
+    },
+    {
+      "bytes": 2058,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/02/023b101594000da50d9af3825cf33dbeda4c330a8a81df7f5f6b442b5d70d455.json",
+      "sha256": "023b101594000da50d9af3825cf33dbeda4c330a8a81df7f5f6b442b5d70d455"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/03/03165b821643f7fd50536dde484feef32be0c397fa43d79da85b3162af08d96c.json",
+      "sha256": "03165b821643f7fd50536dde484feef32be0c397fa43d79da85b3162af08d96c"
+    },
+    {
+      "bytes": 102,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/03/03eeba832ea35e4ad5f8f6f5ee499c42ca9440322d561dfea607806e95cb508f.json",
+      "sha256": "03eeba832ea35e4ad5f8f6f5ee499c42ca9440322d561dfea607806e95cb508f"
+    },
+    {
+      "bytes": 1888,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/04/041e4a73d7724a5da40466a2e654ed93c8a8fa0c52787793beade4aee31e3481.json",
+      "sha256": "041e4a73d7724a5da40466a2e654ed93c8a8fa0c52787793beade4aee31e3481"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/04/049f0079f5e335d9ddfa8852eb18998cc3240b0aef7f16bd14dc562381fd0091.json",
+      "sha256": "049f0079f5e335d9ddfa8852eb18998cc3240b0aef7f16bd14dc562381fd0091"
+    },
+    {
+      "bytes": 17655,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/05/059f8bc9f8a97ec094f69ee72e72c66fdc110176ca347b82cbd135eaec2aed88.json",
+      "sha256": "059f8bc9f8a97ec094f69ee72e72c66fdc110176ca347b82cbd135eaec2aed88"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/05/05abac53c9fa17f5fdcf611dab9b88c964e0b03e76417ebf364e8b80fb382470.json",
+      "sha256": "05abac53c9fa17f5fdcf611dab9b88c964e0b03e76417ebf364e8b80fb382470"
+    },
+    {
+      "bytes": 2174,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/05/05ded4c0128b2a45e1b0f3f14e1ea24cb4148e057c8610b304b13c43c41af26b.json",
+      "sha256": "05ded4c0128b2a45e1b0f3f14e1ea24cb4148e057c8610b304b13c43c41af26b"
+    },
+    {
+      "bytes": 20918,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/07/07c08863d1503a8ae3c167906b4ed0689f1563a87c51f3339ce8b381b8159776.json",
+      "sha256": "07c08863d1503a8ae3c167906b4ed0689f1563a87c51f3339ce8b381b8159776"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/0a/0a0d4e5b61fcec3d344b7919fd0a5e3bd621ce20902f5d85cf50343bc1476fa4.json",
+      "sha256": "0a0d4e5b61fcec3d344b7919fd0a5e3bd621ce20902f5d85cf50343bc1476fa4"
+    },
+    {
+      "bytes": 236,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/0a/0a90d08570f400ef117525ff3284c53b8a9d02d73cbe039bb459a5f57d93cb36.json",
+      "sha256": "0a90d08570f400ef117525ff3284c53b8a9d02d73cbe039bb459a5f57d93cb36"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/0a/0aa889a17fb31e27bf49381c4fa6fd0cfea164c967ac0039eb4c4a0f43696669.json",
+      "sha256": "0aa889a17fb31e27bf49381c4fa6fd0cfea164c967ac0039eb4c4a0f43696669"
+    },
+    {
+      "bytes": 23895,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/0c/0c15ac4508647d9256bba8eb05c4d405aa9766bba760147ad2f953e8de48286d.json",
+      "sha256": "0c15ac4508647d9256bba8eb05c4d405aa9766bba760147ad2f953e8de48286d"
+    },
+    {
+      "bytes": 20200,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/0c/0cbe50f9f41da88ab6739c914e43316dd02c125f3f7471cdfb11f3adc502d9cc.json",
+      "sha256": "0cbe50f9f41da88ab6739c914e43316dd02c125f3f7471cdfb11f3adc502d9cc"
+    },
+    {
+      "bytes": 11101,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/0e/0ef0cfbcee0b255079bf540dcc7a47e46ebaeec64ff7f78da71535c882f9c9d6.json",
+      "sha256": "0ef0cfbcee0b255079bf540dcc7a47e46ebaeec64ff7f78da71535c882f9c9d6"
+    },
+    {
+      "bytes": 4287,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/0f/0fd1f2e0934f3720d9aadc972214e05c156b36108bf306be8e5cc750c88d887e.json",
+      "sha256": "0fd1f2e0934f3720d9aadc972214e05c156b36108bf306be8e5cc750c88d887e"
+    },
+    {
+      "bytes": 1575,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/10/10332a07506cb70b9fd7ce3ee8ec3875df17a395e94846b250f48a495d1f3b8d.json",
+      "sha256": "10332a07506cb70b9fd7ce3ee8ec3875df17a395e94846b250f48a495d1f3b8d"
+    },
+    {
+      "bytes": 9604,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/11/1180b1f774fd59a46757f2b9fa92dd2fc8acd3d3188d29969b8adafb7d0ca3eb.json",
+      "sha256": "1180b1f774fd59a46757f2b9fa92dd2fc8acd3d3188d29969b8adafb7d0ca3eb"
+    },
+    {
+      "bytes": 29615,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/13/1365681467512888a2130928b1fc2667a9517cbd750a20638ee0f4d6b1e1a5cc.json",
+      "sha256": "1365681467512888a2130928b1fc2667a9517cbd750a20638ee0f4d6b1e1a5cc"
+    },
+    {
+      "bytes": 6891,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/14/1412be7a336fe40bec05560835bceed2755c061388bb5b7bdf78d794307762f5.json",
+      "sha256": "1412be7a336fe40bec05560835bceed2755c061388bb5b7bdf78d794307762f5"
+    },
+    {
+      "bytes": 233,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/16/160db2590abede2b7c57ea0c3c9b1761f7e052d5684fdf8de46ffa00d00e0350.json",
+      "sha256": "160db2590abede2b7c57ea0c3c9b1761f7e052d5684fdf8de46ffa00d00e0350"
+    },
+    {
+      "bytes": 13713,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/16/165deb98208e77ff9b32a6b407d8d92b57db2fd84f2aee7b0dbd06297d4f6064.json",
+      "sha256": "165deb98208e77ff9b32a6b407d8d92b57db2fd84f2aee7b0dbd06297d4f6064"
+    },
+    {
+      "bytes": 2102,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/16/16878336c77c474443e23b8771f836e48a385b4190dc0010d25ab9e5abd64015.json",
+      "sha256": "16878336c77c474443e23b8771f836e48a385b4190dc0010d25ab9e5abd64015"
+    },
+    {
+      "bytes": 1968,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/16/16e65a289830e4417be3bf64c487cc0de09a78ad5d06d1af830fc1689dbd0ada.json",
+      "sha256": "16e65a289830e4417be3bf64c487cc0de09a78ad5d06d1af830fc1689dbd0ada"
+    },
+    {
+      "bytes": 24438,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/18/18828a0cb165b94b5e89d4a35b2e926877f265b842565b21d1c5c76fdae35f31.json",
+      "sha256": "18828a0cb165b94b5e89d4a35b2e926877f265b842565b21d1c5c76fdae35f31"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/18/18a5f0ab92ad220edafffd7b9838adda59025d87cf01710234f7ecaa19f2aa5b.json",
+      "sha256": "18a5f0ab92ad220edafffd7b9838adda59025d87cf01710234f7ecaa19f2aa5b"
+    },
+    {
+      "bytes": 13523,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/18/18ef8ba876cdf764ed24441b6ae1c01e5fbd0f9ca2b8444757829a2aa9b4db83.json",
+      "sha256": "18ef8ba876cdf764ed24441b6ae1c01e5fbd0f9ca2b8444757829a2aa9b4db83"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/19/19476a9f5c2650ea991c0bc484dec6aec4b7eccd5b531898b39242516f3e40b6.json",
+      "sha256": "19476a9f5c2650ea991c0bc484dec6aec4b7eccd5b531898b39242516f3e40b6"
+    },
+    {
+      "bytes": 9236,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1a/1a79347186d0a398772a8254a98af3d8a3d3b7132c81b4cf8e95075bf6fde240.json",
+      "sha256": "1a79347186d0a398772a8254a98af3d8a3d3b7132c81b4cf8e95075bf6fde240"
+    },
+    {
+      "bytes": 15585,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1b/1b8c209f5074df77ba9d06fd5bc7da7cfea9fadb0db348f8d1e33e5fb252396d.json",
+      "sha256": "1b8c209f5074df77ba9d06fd5bc7da7cfea9fadb0db348f8d1e33e5fb252396d"
+    },
+    {
+      "bytes": 1656,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1c/1c37d4cab00e6e4d26009496a55ca76697b63ed086bc1fd6eec90db81a087e43.json",
+      "sha256": "1c37d4cab00e6e4d26009496a55ca76697b63ed086bc1fd6eec90db81a087e43"
+    },
+    {
+      "bytes": 1503,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1d/1d006859616085b4593c861373f2d7df4dbd8ebdebe92588b2457250bcb16636.json",
+      "sha256": "1d006859616085b4593c861373f2d7df4dbd8ebdebe92588b2457250bcb16636"
+    },
+    {
+      "bytes": 28933,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1d/1d84ba2d629199275d87d92da078dc4f5912efa2390d19d774bc6c5a7f89595f.json",
+      "sha256": "1d84ba2d629199275d87d92da078dc4f5912efa2390d19d774bc6c5a7f89595f"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1d/1d932e0e292d58738350d83b08124a483b87d5793148a874b15500068674de89.json",
+      "sha256": "1d932e0e292d58738350d83b08124a483b87d5793148a874b15500068674de89"
+    },
+    {
+      "bytes": 18760,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1d/1dd076a30af02050c80c2cea3167b00b51c0d09502cdd3b327b2cd46a91e07e8.json",
+      "sha256": "1dd076a30af02050c80c2cea3167b00b51c0d09502cdd3b327b2cd46a91e07e8"
+    },
+    {
+      "bytes": 94,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1d/1de67390786d2937af6f3b1a3e0ef02cfaf082ab3d45e8778a1a85b43ee597d2.json",
+      "sha256": "1de67390786d2937af6f3b1a3e0ef02cfaf082ab3d45e8778a1a85b43ee597d2"
+    },
+    {
+      "bytes": 3384,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1e/1e1f8897899907c9e0e78d9f1fe2614849f8520b68ba10882c1678b9d157404f.json",
+      "sha256": "1e1f8897899907c9e0e78d9f1fe2614849f8520b68ba10882c1678b9d157404f"
+    },
+    {
+      "bytes": 1617,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1f/1f8a4db4517473003bd7ddfb9b9bb1cd0ea66435572dce707d6dd62a93c88ecb.json",
+      "sha256": "1f8a4db4517473003bd7ddfb9b9bb1cd0ea66435572dce707d6dd62a93c88ecb"
+    },
+    {
+      "bytes": 2309,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/1f/1fa1f637137c4a8f6c48b639e2552c26ff86ae9fa3f13c31b2486857ac30cd31.json",
+      "sha256": "1fa1f637137c4a8f6c48b639e2552c26ff86ae9fa3f13c31b2486857ac30cd31"
+    },
+    {
+      "bytes": 16483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/20/20ed46eb391546c1d4884ab946551e3218e471236b19eb29aba35dc8e44de0da.json",
+      "sha256": "20ed46eb391546c1d4884ab946551e3218e471236b19eb29aba35dc8e44de0da"
+    },
+    {
+      "bytes": 14528,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/21/212e506514d9e619366c9eb39bf9235512b11eebb756877305b26c2b0e3ce623.json",
+      "sha256": "212e506514d9e619366c9eb39bf9235512b11eebb756877305b26c2b0e3ce623"
+    },
+    {
+      "bytes": 1467,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/22/2298d76c769b43704708c28dd73e66e6ca5aa0eec408a5f2a93a2e84b17eeaed.json",
+      "sha256": "2298d76c769b43704708c28dd73e66e6ca5aa0eec408a5f2a93a2e84b17eeaed"
+    },
+    {
+      "bytes": 16154,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/22/22caec7d399b19f92a9ca9b57b689206c0e8d5e30323315dd2a9c3a9b6497bca.json",
+      "sha256": "22caec7d399b19f92a9ca9b57b689206c0e8d5e30323315dd2a9c3a9b6497bca"
+    },
+    {
+      "bytes": 2244,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/22/22f799239940547d1daa26d6ac2d1a34b3c50f71af1dd9588939b39029bdfe2f.json",
+      "sha256": "22f799239940547d1daa26d6ac2d1a34b3c50f71af1dd9588939b39029bdfe2f"
+    },
+    {
+      "bytes": 2244,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/24/241683bee98f25c0d8c9c6dc6ba9f5c48d2d39badb90112b1fcb358839a7bbe0.json",
+      "sha256": "241683bee98f25c0d8c9c6dc6ba9f5c48d2d39badb90112b1fcb358839a7bbe0"
+    },
+    {
+      "bytes": 9859,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/24/24aed5be161e6be36bf5e29af9ab1aa38527a910baba92a4a5144ff5686f8bc2.json",
+      "sha256": "24aed5be161e6be36bf5e29af9ab1aa38527a910baba92a4a5144ff5686f8bc2"
+    },
+    {
+      "bytes": 1760,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/24/24b710c7f6dcc393f1a4f207b2246295168ff359191ebc9e9a1d582247cb35db.json",
+      "sha256": "24b710c7f6dcc393f1a4f207b2246295168ff359191ebc9e9a1d582247cb35db"
+    },
+    {
+      "bytes": 1824,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/26/265611b3d870e7830313a22e6b60704fbdf7e7cec8d62ff9499b13eec9b12581.json",
+      "sha256": "265611b3d870e7830313a22e6b60704fbdf7e7cec8d62ff9499b13eec9b12581"
+    },
+    {
+      "bytes": 15793,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/26/26ba150e4c9a91dabf239c2bbd6094516c328b4e73f052d177cd2ef331b014c6.json",
+      "sha256": "26ba150e4c9a91dabf239c2bbd6094516c328b4e73f052d177cd2ef331b014c6"
+    },
+    {
+      "bytes": 1657,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/27/276bb9d53b2aceeb8389e50e08453b8435f7de3177d7774fc4395834cfe0b22b.json",
+      "sha256": "276bb9d53b2aceeb8389e50e08453b8435f7de3177d7774fc4395834cfe0b22b"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/28/280899d0f65c87823bb0c3df7e5a0c0c5a4606a7083ff356248d3da72c895d54.json",
+      "sha256": "280899d0f65c87823bb0c3df7e5a0c0c5a4606a7083ff356248d3da72c895d54"
+    },
+    {
+      "bytes": 1888,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/28/283d623551896066fc6fbd3228b25ff5a2286360fc3f0158c5e5e1885852ee42.json",
+      "sha256": "283d623551896066fc6fbd3228b25ff5a2286360fc3f0158c5e5e1885852ee42"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/29/29a24d82889cad1ead2cdb892840e2f6961ad80b69da05ee0387b6b46bd8c8c3.json",
+      "sha256": "29a24d82889cad1ead2cdb892840e2f6961ad80b69da05ee0387b6b46bd8c8c3"
+    },
+    {
+      "bytes": 103,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/29/29e9e2984794042a7b032aaced108b942d1809d049bfe9e0e2be92749d7bbe17.json",
+      "sha256": "29e9e2984794042a7b032aaced108b942d1809d049bfe9e0e2be92749d7bbe17"
+    },
+    {
+      "bytes": 2374,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/2b/2b80a3ed84166891a9c4772d78c9043c0ca69f0a2044c57a44fc436c7122433b.json",
+      "sha256": "2b80a3ed84166891a9c4772d78c9043c0ca69f0a2044c57a44fc436c7122433b"
+    },
+    {
+      "bytes": 11031,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/2c/2c4f5bf3edebd9bda65e73974a1000a0883221837795400ca48c35351e130bbc.json",
+      "sha256": "2c4f5bf3edebd9bda65e73974a1000a0883221837795400ca48c35351e130bbc"
+    },
+    {
+      "bytes": 45325,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/2d/2d5537fa81961bf81688297d4d5d7cc7ad6e24110411f10e169a8c5bc2447a87.json",
+      "sha256": "2d5537fa81961bf81688297d4d5d7cc7ad6e24110411f10e169a8c5bc2447a87"
+    },
+    {
+      "bytes": 11806,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/2d/2dfa7e0e4b6a025d46c3a966f7e8704a7eef185614635f23470e362100cf1c8d.json",
+      "sha256": "2dfa7e0e4b6a025d46c3a966f7e8704a7eef185614635f23470e362100cf1c8d"
+    },
+    {
+      "bytes": 2450,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/2e/2e4763d6cd7af2bf11b140c5e47a0fa0ccf7ed9ee82c0fe969143508464b9f3b.json",
+      "sha256": "2e4763d6cd7af2bf11b140c5e47a0fa0ccf7ed9ee82c0fe969143508464b9f3b"
+    },
+    {
+      "bytes": 33608,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/2e/2e5c065d7198f8334067f294144b7225f46e3f67ca9183b3bb20bcae83809b26.json",
+      "sha256": "2e5c065d7198f8334067f294144b7225f46e3f67ca9183b3bb20bcae83809b26"
+    },
+    {
+      "bytes": 3319,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/2e/2e5dc867e3d9ccddc1a461088a9d106f917af67868e247ae758b1cd6e2bcae9f.json",
+      "sha256": "2e5dc867e3d9ccddc1a461088a9d106f917af67868e247ae758b1cd6e2bcae9f"
+    },
+    {
+      "bytes": 1686,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/2f/2f587119a43c6202dc64d112847c796eb545088470da5a429edd9d98ef0601da.json",
+      "sha256": "2f587119a43c6202dc64d112847c796eb545088470da5a429edd9d98ef0601da"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/30/3042d6f19d981c06deb6cde3846cdc84898b32997b887c34a01fc156d2527395.json",
+      "sha256": "3042d6f19d981c06deb6cde3846cdc84898b32997b887c34a01fc156d2527395"
+    },
+    {
+      "bytes": 128,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/31/312d5906d87bf8cb49653b13954a310009d5af0dcfaa23f06f3bcc92c6e74c46.json",
+      "sha256": "312d5906d87bf8cb49653b13954a310009d5af0dcfaa23f06f3bcc92c6e74c46"
+    },
+    {
+      "bytes": 26656,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/32/325c6c2b44cfa478d8cbbf78f6d416e3d47a8a9b13845ca2299e293b8642a073.json",
+      "sha256": "325c6c2b44cfa478d8cbbf78f6d416e3d47a8a9b13845ca2299e293b8642a073"
+    },
+    {
+      "bytes": 21790,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/32/326e2939c60c0d73d28b7f5948b8244aeb5dfa277fe1f4bc61897137ca7b74bb.json",
+      "sha256": "326e2939c60c0d73d28b7f5948b8244aeb5dfa277fe1f4bc61897137ca7b74bb"
+    },
+    {
+      "bytes": 10446,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/33/3377a3a1ac14c2d84c560145e38090af55571311f920095a9762384d099bfd43.json",
+      "sha256": "3377a3a1ac14c2d84c560145e38090af55571311f920095a9762384d099bfd43"
+    },
+    {
+      "bytes": 2037,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/36/368c3246089c2f15edcdebb3d4c3a7f0d02b95b50440c1ec2b55c0bf5b4bd969.json",
+      "sha256": "368c3246089c2f15edcdebb3d4c3a7f0d02b95b50440c1ec2b55c0bf5b4bd969"
+    },
+    {
+      "bytes": 22325,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/36/36b97b970aff9fae423f2728407d0b65a30259c7ca04f227907b608470b2e3e0.json",
+      "sha256": "36b97b970aff9fae423f2728407d0b65a30259c7ca04f227907b608470b2e3e0"
+    },
+    {
+      "bytes": 10271,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/38/38375a98d2983b51f04f16a369b57d9ecf0b2dc15c0a44589d2e3d8d7f0139b7.json",
+      "sha256": "38375a98d2983b51f04f16a369b57d9ecf0b2dc15c0a44589d2e3d8d7f0139b7"
+    },
+    {
+      "bytes": 7235,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/38/38ad6b8038a78ec58988c79c4fadef1f4ef3166ec7771d35c6c6af4904772d9d.json",
+      "sha256": "38ad6b8038a78ec58988c79c4fadef1f4ef3166ec7771d35c6c6af4904772d9d"
+    },
+    {
+      "bytes": 1479,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/38/38bc1a9452c6d7b29c251a030fcb903da57a4748ee829e8f2a06d051326adbd1.json",
+      "sha256": "38bc1a9452c6d7b29c251a030fcb903da57a4748ee829e8f2a06d051326adbd1"
+    },
+    {
+      "bytes": 8271,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/39/393ceccc6f988c349322bf96d9099bb2d8b657115caa2d94b06e39511a4c73d1.json",
+      "sha256": "393ceccc6f988c349322bf96d9099bb2d8b657115caa2d94b06e39511a4c73d1"
+    },
+    {
+      "bytes": 1865,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/3a/3a97093411fc57df963190c27883d71d0e0e861fb4ad2e0404d659205b1f27b3.json",
+      "sha256": "3a97093411fc57df963190c27883d71d0e0e861fb4ad2e0404d659205b1f27b3"
+    },
+    {
+      "bytes": 2312,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/3a/3aace5f865361eb349a387a6a4c775ba85b2fa72ad73919713c108d7d4eb0344.json",
+      "sha256": "3aace5f865361eb349a387a6a4c775ba85b2fa72ad73919713c108d7d4eb0344"
+    },
+    {
+      "bytes": 1897,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/3b/3b8079c56354d899f65da4a30d5f1294779dc1598cd4c71876af420a856e653b.json",
+      "sha256": "3b8079c56354d899f65da4a30d5f1294779dc1598cd4c71876af420a856e653b"
+    },
+    {
+      "bytes": 10781,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/3c/3c51d74259fce771e150ada041b34ba495d9389f8a04a1dbaa2fc8b98cc17883.json",
+      "sha256": "3c51d74259fce771e150ada041b34ba495d9389f8a04a1dbaa2fc8b98cc17883"
+    },
+    {
+      "bytes": 2244,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/3d/3d86144fcea245043a5c663f8b596180e761e3e73c3cec1dfa491df8acb41e6c.json",
+      "sha256": "3d86144fcea245043a5c663f8b596180e761e3e73c3cec1dfa491df8acb41e6c"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/3d/3debae0b37103420e9b735328d60067c042ebbbd025e690a00eabadc4c545eb2.json",
+      "sha256": "3debae0b37103420e9b735328d60067c042ebbbd025e690a00eabadc4c545eb2"
+    },
+    {
+      "bytes": 1963,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/3e/3e96cf18aeb48c32891c2d961f0a10ea6bc98d3430dee43391647ab7f14a4738.json",
+      "sha256": "3e96cf18aeb48c32891c2d961f0a10ea6bc98d3430dee43391647ab7f14a4738"
+    },
+    {
+      "bytes": 11162,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/3f/3f6fce87eddfcc070ce83909fec5e7119372816647bd3669b5534c081c90819e.json",
+      "sha256": "3f6fce87eddfcc070ce83909fec5e7119372816647bd3669b5534c081c90819e"
+    },
+    {
+      "bytes": 1898,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/3f/3fedb538deee98cd6bc2e3e5bda83ff0ee0c5e77342aa62f237b99f68247bc41.json",
+      "sha256": "3fedb538deee98cd6bc2e3e5bda83ff0ee0c5e77342aa62f237b99f68247bc41"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/40/40c2f9ebb25c8f5db5d7c353c6bb38c78fc6294e20118faa3efdec9de2432a29.json",
+      "sha256": "40c2f9ebb25c8f5db5d7c353c6bb38c78fc6294e20118faa3efdec9de2432a29"
+    },
+    {
+      "bytes": 233,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/40/40d2b4643267969e467e6b99e10ed0d6823fa42d9697a5588a36ea7ab0f0580b.json",
+      "sha256": "40d2b4643267969e467e6b99e10ed0d6823fa42d9697a5588a36ea7ab0f0580b"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/41/41f26b70e4c2bd27f8849125ba045f7e3ef5fe10d56349acf34187b7ce0811d1.json",
+      "sha256": "41f26b70e4c2bd27f8849125ba045f7e3ef5fe10d56349acf34187b7ce0811d1"
+    },
+    {
+      "bytes": 2309,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/42/4218de0ac0f8be235fab30a369a010dbbc461edd2065358ebc043e136fc8aded.json",
+      "sha256": "4218de0ac0f8be235fab30a369a010dbbc461edd2065358ebc043e136fc8aded"
+    },
+    {
+      "bytes": 26655,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/42/422ebcc737594c647229c4dd7117196487f04c24542315a93a553097bf06d492.json",
+      "sha256": "422ebcc737594c647229c4dd7117196487f04c24542315a93a553097bf06d492"
+    },
+    {
+      "bytes": 1824,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/42/4235d6cc45441b71e4eb81b6256c671202fcf54c562b71cf4369a75f46c1ce4e.json",
+      "sha256": "4235d6cc45441b71e4eb81b6256c671202fcf54c562b71cf4369a75f46c1ce4e"
+    },
+    {
+      "bytes": 17587,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/43/4355ba95359cef65c963a31964531bbd4d9ba410e489875ed2e7c09576d6e5e4.json",
+      "sha256": "4355ba95359cef65c963a31964531bbd4d9ba410e489875ed2e7c09576d6e5e4"
+    },
+    {
+      "bytes": 1781,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/43/436a4651f61e9f02a7691610608b1c5d8997650f7c4ff0b82a4a54a37644d851.json",
+      "sha256": "436a4651f61e9f02a7691610608b1c5d8997650f7c4ff0b82a4a54a37644d851"
+    },
+    {
+      "bytes": 11653,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/44/443b1d1dc47dd9f0c2e25edf0d961c2e55fd27a50a95babf3374169f08c5f608.json",
+      "sha256": "443b1d1dc47dd9f0c2e25edf0d961c2e55fd27a50a95babf3374169f08c5f608"
+    },
+    {
+      "bytes": 7612,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/44/44f727755c1d166ea64671a43fcab8bf6b8dbd811601307387ec82392ac05464.json",
+      "sha256": "44f727755c1d166ea64671a43fcab8bf6b8dbd811601307387ec82392ac05464"
+    },
+    {
+      "bytes": 24212,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/45/4512a9933feb6e6aabc110761bb8472477567f4d43b3a580571998884e44b56b.json",
+      "sha256": "4512a9933feb6e6aabc110761bb8472477567f4d43b3a580571998884e44b56b"
+    },
+    {
+      "bytes": 10340,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/45/45aa5ef88114ec82a8501dc0c0dc672985c03548eb4f56617a9d6a4a01dba936.json",
+      "sha256": "45aa5ef88114ec82a8501dc0c0dc672985c03548eb4f56617a9d6a4a01dba936"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/46/4655afbd4077576248c127c7939a6ee3e500a2ea845ea9a3f4710903a892af62.json",
+      "sha256": "4655afbd4077576248c127c7939a6ee3e500a2ea845ea9a3f4710903a892af62"
+    },
+    {
+      "bytes": 11957,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/46/466d92a54521107d544a946a1d2046a0be6d16046926661760ad7e62a56c2bf0.json",
+      "sha256": "466d92a54521107d544a946a1d2046a0be6d16046926661760ad7e62a56c2bf0"
+    },
+    {
+      "bytes": 6497,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/46/46dbf4bef63f19249410ae13d20e20be815f183836bd8fdc630b0cdb62246a64.json",
+      "sha256": "46dbf4bef63f19249410ae13d20e20be815f183836bd8fdc630b0cdb62246a64"
+    },
+    {
+      "bytes": 1478,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/47/47315c84628d16a5802ab05c08a93cd522802e6fcdc410e0c1a6a17b4c409b86.json",
+      "sha256": "47315c84628d16a5802ab05c08a93cd522802e6fcdc410e0c1a6a17b4c409b86"
+    },
+    {
+      "bytes": 11307,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/48/48515b5fe74046978fff7249190b85993c8ab11aad29508b4c023e75b9f87689.json",
+      "sha256": "48515b5fe74046978fff7249190b85993c8ab11aad29508b4c023e75b9f87689"
+    },
+    {
+      "bytes": 2798,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/48/489ab0bf9892e06e529a136332a8fc3b77ffb6b8262a1cb68d43c8e04b680772.json",
+      "sha256": "489ab0bf9892e06e529a136332a8fc3b77ffb6b8262a1cb68d43c8e04b680772"
+    },
+    {
+      "bytes": 13032,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/49/490d79dfd292174e08115e47c202e5ab5fbb943f0e2134693b6c637fcecbd5b8.json",
+      "sha256": "490d79dfd292174e08115e47c202e5ab5fbb943f0e2134693b6c637fcecbd5b8"
+    },
+    {
+      "bytes": 1934,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/49/49375a3b765165659d5e74aff461e8d4698bd1f0c304a2f923fd7cb346e5a5e0.json",
+      "sha256": "49375a3b765165659d5e74aff461e8d4698bd1f0c304a2f923fd7cb346e5a5e0"
+    },
+    {
+      "bytes": 27604,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/4a/4a6278008f83e01998514e17ef98fb9971181b54c11ab7aebd839a728e1d2006.json",
+      "sha256": "4a6278008f83e01998514e17ef98fb9971181b54c11ab7aebd839a728e1d2006"
+    },
+    {
+      "bytes": 1657,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/4a/4ab76d38dc6866ab7163b595a47d88a168fedbe9463a84fd714fc296286f36e9.json",
+      "sha256": "4ab76d38dc6866ab7163b595a47d88a168fedbe9463a84fd714fc296286f36e9"
+    },
+    {
+      "bytes": 15577,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/4a/4ac40777a1048e7ad03c045dab655c6747e7b7515ebf2372cd2e84e1133ed622.json",
+      "sha256": "4ac40777a1048e7ad03c045dab655c6747e7b7515ebf2372cd2e84e1133ed622"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/4c/4c1a3bb8ef59e1cecfed3c7de1329166460669f1f1adb83506d1f6db63406242.json",
+      "sha256": "4c1a3bb8ef59e1cecfed3c7de1329166460669f1f1adb83506d1f6db63406242"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/4d/4d331d75e13efdd3b66bc6cbd6b7f2120bd85b2ff859bcca78451357dfc46649.json",
+      "sha256": "4d331d75e13efdd3b66bc6cbd6b7f2120bd85b2ff859bcca78451357dfc46649"
+    },
+    {
+      "bytes": 38,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/50/50c7abcbd8f873bde61c32040c695eadd9cb43d5c9be9c1111721057ddfe1d29.json",
+      "sha256": "50c7abcbd8f873bde61c32040c695eadd9cb43d5c9be9c1111721057ddfe1d29"
+    },
+    {
+      "bytes": 2723,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/50/50cb31cb08c7790e9c957eda4ef4c2161c3dc417f52d77edae193efbe39de09b.json",
+      "sha256": "50cb31cb08c7790e9c957eda4ef4c2161c3dc417f52d77edae193efbe39de09b"
+    },
+    {
+      "bytes": 28932,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/51/513cb904c675e130324565179ee4a1e2f13cf9d19cc301fe4e80fbdc4a262002.json",
+      "sha256": "513cb904c675e130324565179ee4a1e2f13cf9d19cc301fe4e80fbdc4a262002"
+    },
+    {
+      "bytes": 14779,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/53/5375bf58111ef1991aef2a427b961b4c852aa534c4d0669a199c8026ca54a34f.json",
+      "sha256": "5375bf58111ef1991aef2a427b961b4c852aa534c4d0669a199c8026ca54a34f"
+    },
+    {
+      "bytes": 9605,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/54/546709cf78371ad9788cd6593568feebfa9fae7e2065c1e013d1d52d8c6a2b22.json",
+      "sha256": "546709cf78371ad9788cd6593568feebfa9fae7e2065c1e013d1d52d8c6a2b22"
+    },
+    {
+      "bytes": 12693,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/54/54dc8f5b7ecffe7e01e494c12111e23fc794c5f4f580e2c83eb7710457f04223.json",
+      "sha256": "54dc8f5b7ecffe7e01e494c12111e23fc794c5f4f580e2c83eb7710457f04223"
+    },
+    {
+      "bytes": 2380,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/56/56a98300e39215cbc1ac0d731c8752f54ab2733a0dad9346ce5b7b3d7d88d2fe.json",
+      "sha256": "56a98300e39215cbc1ac0d731c8752f54ab2733a0dad9346ce5b7b3d7d88d2fe"
+    },
+    {
+      "bytes": 15922,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/56/56b9b5cf2c22fbfb381994b3e2cbb8ddfa5085164f9a07a04e6dc2dffc2cae0a.json",
+      "sha256": "56b9b5cf2c22fbfb381994b3e2cbb8ddfa5085164f9a07a04e6dc2dffc2cae0a"
+    },
+    {
+      "bytes": 102,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/57/57a884ff56f2f1681af22bb51bdbe7553d562c06b968c7270dfeb3e209e0f526.json",
+      "sha256": "57a884ff56f2f1681af22bb51bdbe7553d562c06b968c7270dfeb3e209e0f526"
+    },
+    {
+      "bytes": 6795,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/58/584cd3144706041187093ce3471b86b0b6b19ed8887159906629e538290e836e.json",
+      "sha256": "584cd3144706041187093ce3471b86b0b6b19ed8887159906629e538290e836e"
+    },
+    {
+      "bytes": 12549,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/58/589ba4e6bd3193cedcbf627985aa44d022b0fe92e72c78e50ad17103526ab239.json",
+      "sha256": "589ba4e6bd3193cedcbf627985aa44d022b0fe92e72c78e50ad17103526ab239"
+    },
+    {
+      "bytes": 9444,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/59/5954fb37928cb14921656c37a2cb8e70d23108d9d2fe5a601ce141a1cc8b83c7.json",
+      "sha256": "5954fb37928cb14921656c37a2cb8e70d23108d9d2fe5a601ce141a1cc8b83c7"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/59/596a3b78e88359515238e65058d360d8dd8a4dbcc113508dd88276ea627dea5b.json",
+      "sha256": "596a3b78e88359515238e65058d360d8dd8a4dbcc113508dd88276ea627dea5b"
+    },
+    {
+      "bytes": 22946,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/5a/5af502a073d3568fdac41eb710b9711797104fdbb764bd1c57366ff9f92e6b83.json",
+      "sha256": "5af502a073d3568fdac41eb710b9711797104fdbb764bd1c57366ff9f92e6b83"
+    },
+    {
+      "bytes": 2520,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/5c/5c3376c57905bd10d892d5f217b2c351133c032a120f552bfb2bf1a61ae644dc.json",
+      "sha256": "5c3376c57905bd10d892d5f217b2c351133c032a120f552bfb2bf1a61ae644dc"
+    },
+    {
+      "bytes": 1967,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/5c/5c44ae2dbc0ca31e0f182ab4040f2dd9727686dafe33c9b6ffc3ac5891113422.json",
+      "sha256": "5c44ae2dbc0ca31e0f182ab4040f2dd9727686dafe33c9b6ffc3ac5891113422"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/5d/5ded81a38df6003a665c4c433410c63217abffef71e82174f03dbc399caf94c8.json",
+      "sha256": "5ded81a38df6003a665c4c433410c63217abffef71e82174f03dbc399caf94c8"
+    },
+    {
+      "bytes": 14136,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/5e/5e33588d61f83add091f82e5d6e2c76a7b02cc0214f4feab7007a96bddebff28.json",
+      "sha256": "5e33588d61f83add091f82e5d6e2c76a7b02cc0214f4feab7007a96bddebff28"
+    },
+    {
+      "bytes": 2451,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/5e/5e6b7ff7ba80f505cb18846fee766be0a054b2d7b4e300b3cdfe4db34aa5a338.json",
+      "sha256": "5e6b7ff7ba80f505cb18846fee766be0a054b2d7b4e300b3cdfe4db34aa5a338"
+    },
+    {
+      "bytes": 1962,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/61/61436449e726cd29c0c9af72d0a5823b62e1a14d87649e70e23eb1f8c594a774.json",
+      "sha256": "61436449e726cd29c0c9af72d0a5823b62e1a14d87649e70e23eb1f8c594a774"
+    },
+    {
+      "bytes": 16622,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/61/618574bddebfc1db15de028841ef4ed6a3c06db2016706a93f3b6c047c5a1be6.json",
+      "sha256": "618574bddebfc1db15de028841ef4ed6a3c06db2016706a93f3b6c047c5a1be6"
+    },
+    {
+      "bytes": 8064,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/61/6192030865d4fc3b3ae6f480a92c4f2d3843e56142dc9885ec9b5d0f4fa62438.json",
+      "sha256": "6192030865d4fc3b3ae6f480a92c4f2d3843e56142dc9885ec9b5d0f4fa62438"
+    },
+    {
+      "bytes": 2173,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/61/61afdad169b7cf9d26341dfd8e0fc567ef3d65ed1dd078fed09e370fe57c1daf.json",
+      "sha256": "61afdad169b7cf9d26341dfd8e0fc567ef3d65ed1dd078fed09e370fe57c1daf"
+    },
+    {
+      "bytes": 13714,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/62/6244be541c37033d51fecc4bb00660cbb420cdb0d3deaf5ae0231a063cd5771f.json",
+      "sha256": "6244be541c37033d51fecc4bb00660cbb420cdb0d3deaf5ae0231a063cd5771f"
+    },
+    {
+      "bytes": 33391,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/63/636a0584e80cddffe80f12c031a5cb6d7e18fca573ac863a9f82db61e98d589c.json",
+      "sha256": "636a0584e80cddffe80f12c031a5cb6d7e18fca573ac863a9f82db61e98d589c"
+    },
+    {
+      "bytes": 17039,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/63/637ab5eb9b48eb618bc9d78dfeec94e7ee8cd6d9b41e99c314c0ca2582e67586.json",
+      "sha256": "637ab5eb9b48eb618bc9d78dfeec94e7ee8cd6d9b41e99c314c0ca2582e67586"
+    },
+    {
+      "bytes": 15921,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/64/646c218a2944a8fc4eebfd63f350d5e4011a95d6e67455ce3bce16e4c4491dac.json",
+      "sha256": "646c218a2944a8fc4eebfd63f350d5e4011a95d6e67455ce3bce16e4c4491dac"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/64/64f5b295fe113f8fee7c9ddd481f3785edb747c5ea29e54d24bcce93af163405.json",
+      "sha256": "64f5b295fe113f8fee7c9ddd481f3785edb747c5ea29e54d24bcce93af163405"
+    },
+    {
+      "bytes": 39,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/65/656254440c28512a72ff80afa27e5cd8669c5df940e00ee605f06ef0eef567e2.json",
+      "sha256": "656254440c28512a72ff80afa27e5cd8669c5df940e00ee605f06ef0eef567e2"
+    },
+    {
+      "bytes": 9306,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/67/67153221b5049e33d7a97bbcf2d5171aebadedb46f66156d5cc94f429157da4a.json",
+      "sha256": "67153221b5049e33d7a97bbcf2d5171aebadedb46f66156d5cc94f429157da4a"
+    },
+    {
+      "bytes": 2243,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/67/6774e9477e32857ee94b79887e469cbb78ed57a462722727d448f77578f2dd9c.json",
+      "sha256": "6774e9477e32857ee94b79887e469cbb78ed57a462722727d448f77578f2dd9c"
+    },
+    {
+      "bytes": 167,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/68/682dd2c3b59013ecff67f6a1c2bc5d3441d4d8e41ba8d27038cf66732c81671c.json",
+      "sha256": "682dd2c3b59013ecff67f6a1c2bc5d3441d4d8e41ba8d27038cf66732c81671c"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/68/68395893f69f5063e6e4381fc22d895ac1609150b4414312ff5097a7ed1360fe.json",
+      "sha256": "68395893f69f5063e6e4381fc22d895ac1609150b4414312ff5097a7ed1360fe"
+    },
+    {
+      "bytes": 18761,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/68/68f1e3535272f3745f62f1192701e61a867ec03bc743461e64005b72bc75abb1.json",
+      "sha256": "68f1e3535272f3745f62f1192701e61a867ec03bc743461e64005b72bc75abb1"
+    },
+    {
+      "bytes": 8064,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/69/692d834402b6802585075773ab82efe294126a86a8505178b9c5ec51dbb1bb98.json",
+      "sha256": "692d834402b6802585075773ab82efe294126a86a8505178b9c5ec51dbb1bb98"
+    },
+    {
+      "bytes": 103,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/69/6938b755f9a00ba9ab9022fb5dba25e60fbc908aee6590ccfead2ea9416cb24d.json",
+      "sha256": "6938b755f9a00ba9ab9022fb5dba25e60fbc908aee6590ccfead2ea9416cb24d"
+    },
+    {
+      "bytes": 38,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/69/693e8930e72658ce36bc3e1df09149339c713fea3a1175042642cd57d690de71.json",
+      "sha256": "693e8930e72658ce36bc3e1df09149339c713fea3a1175042642cd57d690de71"
+    },
+    {
+      "bytes": 9160,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/69/698bea79d94d6ea879cefd684c6e46494b6217d56b6925daf2f4ddc6bcf0efe6.json",
+      "sha256": "698bea79d94d6ea879cefd684c6e46494b6217d56b6925daf2f4ddc6bcf0efe6"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/69/69a4463cea0265b58522d285e91a68ea37b3049e1d845d6fdaa698e9009d9a6a.json",
+      "sha256": "69a4463cea0265b58522d285e91a68ea37b3049e1d845d6fdaa698e9009d9a6a"
+    },
+    {
+      "bytes": 1617,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/69/69b3918c37583096bef6797260beb344b4e6cec10df634f93efa27103850fe85.json",
+      "sha256": "69b3918c37583096bef6797260beb344b4e6cec10df634f93efa27103850fe85"
+    },
+    {
+      "bytes": 12894,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6a/6a2ea78ddc136ed7dc0efd5bacb0ef1ad8fc44e7222cbfb5bac4617912fc1041.json",
+      "sha256": "6a2ea78ddc136ed7dc0efd5bacb0ef1ad8fc44e7222cbfb5bac4617912fc1041"
+    },
+    {
+      "bytes": 21589,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6b/6b28ad9a2ed8808aedad274ddaf5279d93da378853f6425328e1f456a445e8f3.json",
+      "sha256": "6b28ad9a2ed8808aedad274ddaf5279d93da378853f6425328e1f456a445e8f3"
+    },
+    {
+      "bytes": 1505,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6b/6b5c4eb3a6507aa43dcd67475ec3958dc74c8b728867fac48e319372c7a6dc4f.json",
+      "sha256": "6b5c4eb3a6507aa43dcd67475ec3958dc74c8b728867fac48e319372c7a6dc4f"
+    },
+    {
+      "bytes": 2313,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6b/6b66c15a6945c9af796f1b6f1e0d481d9d12c78e5f72c08bc935c2f1066bde8a.json",
+      "sha256": "6b66c15a6945c9af796f1b6f1e0d481d9d12c78e5f72c08bc935c2f1066bde8a"
+    },
+    {
+      "bytes": 1968,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6c/6c08af991353043ddac01f33c350b3c8c04e7dc04aca4c957e7b8ab953056334.json",
+      "sha256": "6c08af991353043ddac01f33c350b3c8c04e7dc04aca4c957e7b8ab953056334"
+    },
+    {
+      "bytes": 1897,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6c/6c18296d5e3b48e152692cb0789548c0738875ffe7444fb3eb14e41254a355f6.json",
+      "sha256": "6c18296d5e3b48e152692cb0789548c0738875ffe7444fb3eb14e41254a355f6"
+    },
+    {
+      "bytes": 12991,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6c/6c38fbf687795434f6065813e5303ba70e8cf9c795f049468581bb5379a4f20b.json",
+      "sha256": "6c38fbf687795434f6065813e5303ba70e8cf9c795f049468581bb5379a4f20b"
+    },
+    {
+      "bytes": 19617,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6c/6c758d85069dfae674964a7756ba66387fba938cb0f81c862de61f0eee314001.json",
+      "sha256": "6c758d85069dfae674964a7756ba66387fba938cb0f81c862de61f0eee314001"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6c/6c879fbd8cd93b5b54a22868a90bae7effc8e5c086264fb27216994dbe7479e1.json",
+      "sha256": "6c879fbd8cd93b5b54a22868a90bae7effc8e5c086264fb27216994dbe7479e1"
+    },
+    {
+      "bytes": 10064,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6c/6ccddc5997722954b53e1ecf285f524ec8393d619afecf2c8635ab6b179e13f5.json",
+      "sha256": "6ccddc5997722954b53e1ecf285f524ec8393d619afecf2c8635ab6b179e13f5"
+    },
+    {
+      "bytes": 13844,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6d/6d4b5bf3258d8da0f537a50ff5e58be3cc1b442c619692d091e2fc5cc22a03b1.json",
+      "sha256": "6d4b5bf3258d8da0f537a50ff5e58be3cc1b442c619692d091e2fc5cc22a03b1"
+    },
+    {
+      "bytes": 14412,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6d/6dbce8475040f4bcd5c615edc4bad2b6b16d043b63535997bed308f5665a671c.json",
+      "sha256": "6dbce8475040f4bcd5c615edc4bad2b6b16d043b63535997bed308f5665a671c"
+    },
+    {
+      "bytes": 1479,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/6e/6e589e28d723a3348c13bd78137a84299fd4034fb3aeadbd0bd5c2c97c51ea85.json",
+      "sha256": "6e589e28d723a3348c13bd78137a84299fd4034fb3aeadbd0bd5c2c97c51ea85"
+    },
+    {
+      "bytes": 1893,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/70/705eb7613eaef96a464c471d58065efa455b8b9c8742899440ecb372156d0be2.json",
+      "sha256": "705eb7613eaef96a464c471d58065efa455b8b9c8742899440ecb372156d0be2"
+    },
+    {
+      "bytes": 6753,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/70/70aa7da7d4872351c30a46bd526b3a02555148cdd480e2cbfdd2303d573d2324.json",
+      "sha256": "70aa7da7d4872351c30a46bd526b3a02555148cdd480e2cbfdd2303d573d2324"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/70/70af072361be51c5237158bdaefd8e4d55a44132e9447e9069ca3bbf54749807.json",
+      "sha256": "70af072361be51c5237158bdaefd8e4d55a44132e9447e9069ca3bbf54749807"
+    },
+    {
+      "bytes": 1657,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/72/7293061056b2b632f13bca1c9a6b030f3663a7c1e8ae2a0ff5f67c9ac9f83ab8.json",
+      "sha256": "7293061056b2b632f13bca1c9a6b030f3663a7c1e8ae2a0ff5f67c9ac9f83ab8"
+    },
+    {
+      "bytes": 8063,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/73/734c3fffc90fb06f99ca34e733db53052f6869bbca50f5df44f915abf6ea22af.json",
+      "sha256": "734c3fffc90fb06f99ca34e733db53052f6869bbca50f5df44f915abf6ea22af"
+    },
+    {
+      "bytes": 1505,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/73/7379248f700475a7ed09577e8d2a11e922adbb308887a3c857f837c0ebbc5dee.json",
+      "sha256": "7379248f700475a7ed09577e8d2a11e922adbb308887a3c857f837c0ebbc5dee"
+    },
+    {
+      "bytes": 2313,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/74/7418cb453518d31b67ee181330dda784ad7387babc0de853d5392c9e03be310f.json",
+      "sha256": "7418cb453518d31b67ee181330dda784ad7387babc0de853d5392c9e03be310f"
+    },
+    {
+      "bytes": 379261,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/75/754dc9e8bedba3706b8ea1d0415072320879e0b1e1d3b2a06a969116bc5dd7d8.json",
+      "sha256": "754dc9e8bedba3706b8ea1d0415072320879e0b1e1d3b2a06a969116bc5dd7d8"
+    },
+    {
+      "bytes": 233,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/75/75567f014547312ebaa871ef673ab5f4020d005c0791ae409533f4db4ef1bafb.json",
+      "sha256": "75567f014547312ebaa871ef673ab5f4020d005c0791ae409533f4db4ef1bafb"
+    },
+    {
+      "bytes": 2175,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/75/75f960193967fe87480fb08969955fa28e194817252c34a956fbf137b0367c9c.json",
+      "sha256": "75f960193967fe87480fb08969955fa28e194817252c34a956fbf137b0367c9c"
+    },
+    {
+      "bytes": 10065,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/78/78aaac700074ef307f4f9898aa24f9be9a1591bb8a51511812a2812fe2b5f675.json",
+      "sha256": "78aaac700074ef307f4f9898aa24f9be9a1591bb8a51511812a2812fe2b5f675"
+    },
+    {
+      "bytes": 14625,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/78/78bbeaeccc82acac07e12ee79e0ddc3ee29f6e4289dbcda6b1e8ba4a58812e8b.json",
+      "sha256": "78bbeaeccc82acac07e12ee79e0ddc3ee29f6e4289dbcda6b1e8ba4a58812e8b"
+    },
+    {
+      "bytes": 2211,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/79/799d72b15a9d9e7aad9d1f035f73f74d4fbd520f7b5878aff836f38353e0f105.json",
+      "sha256": "799d72b15a9d9e7aad9d1f035f73f74d4fbd520f7b5878aff836f38353e0f105"
+    },
+    {
+      "bytes": 13721,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/79/79e3076dff5e4f35a7a77c7bbc83885ec642de7471e9e7de1dd37e6b163b56b2.json",
+      "sha256": "79e3076dff5e4f35a7a77c7bbc83885ec642de7471e9e7de1dd37e6b163b56b2"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/7a/7a25c0b5896f03e2bc1067c4e029a00ed26b07a1d5bb88c80bfa1b2fae76bc2d.json",
+      "sha256": "7a25c0b5896f03e2bc1067c4e029a00ed26b07a1d5bb88c80bfa1b2fae76bc2d"
+    },
+    {
+      "bytes": 20919,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/7b/7b05f6f53b02b38603de6eec5c8e3410fef361258ec3d03a0d64393de76aacf4.json",
+      "sha256": "7b05f6f53b02b38603de6eec5c8e3410fef361258ec3d03a0d64393de76aacf4"
+    },
+    {
+      "bytes": 1656,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/7c/7c5c3783e2098038bf3605393eeed878ffc231b3079d537f2895d5b538be3846.json",
+      "sha256": "7c5c3783e2098038bf3605393eeed878ffc231b3079d537f2895d5b538be3846"
+    },
+    {
+      "bytes": 19657,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/7c/7c5d03e7790bfaa9697b40cd38d81d47651aef53b220181736d1bec6680143b8.json",
+      "sha256": "7c5d03e7790bfaa9697b40cd38d81d47651aef53b220181736d1bec6680143b8"
+    },
+    {
+      "bytes": 26091,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/7c/7c76be42a44230495099c030e50920c3431f911cf8290b6b42a42c7d606c6dca.json",
+      "sha256": "7c76be42a44230495099c030e50920c3431f911cf8290b6b42a42c7d606c6dca"
+    },
+    {
+      "bytes": 1657,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/7d/7daeabf2160956d6920abb6aa50e40e32b2ec9b3946452275408514b8dec3d0d.json",
+      "sha256": "7daeabf2160956d6920abb6aa50e40e32b2ec9b3946452275408514b8dec3d0d"
+    },
+    {
+      "bytes": 5786,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/7f/7f52ae448662e11e6808d106a4e313513b389f8e28e44cf5ab343352ced1f542.json",
+      "sha256": "7f52ae448662e11e6808d106a4e313513b389f8e28e44cf5ab343352ced1f542"
+    },
+    {
+      "bytes": 2103,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/80/8040bf532dcc0e2232fa2addc1d7081ad545191352617dd8fd9ee7d4d43cc9f7.json",
+      "sha256": "8040bf532dcc0e2232fa2addc1d7081ad545191352617dd8fd9ee7d4d43cc9f7"
+    },
+    {
+      "bytes": 6496,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/82/8201091156f834289aa0471ee54ab8e0936b3954620ee7217e8618363d86a655.json",
+      "sha256": "8201091156f834289aa0471ee54ab8e0936b3954620ee7217e8618363d86a655"
+    },
+    {
+      "bytes": 2243,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/82/82a941b3f2d0dec2bb4203bd18c66e6d282ea1509da4dd83ed1bee98f2ceae01.json",
+      "sha256": "82a941b3f2d0dec2bb4203bd18c66e6d282ea1509da4dd83ed1bee98f2ceae01"
+    },
+    {
+      "bytes": 1890,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/84/842471ebc7ca0941d9a6691a58adaf932fe4d9efeac8d7130ffe4276ec464a97.json",
+      "sha256": "842471ebc7ca0941d9a6691a58adaf932fe4d9efeac8d7130ffe4276ec464a97"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/84/84ad81f5a47c3c39be2d5beac82cde99ba34029d3e60ae9033f7392bd089e88d.json",
+      "sha256": "84ad81f5a47c3c39be2d5beac82cde99ba34029d3e60ae9033f7392bd089e88d"
+    },
+    {
+      "bytes": 11582,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/85/852071e69160d2bd45d7edf4c5f20868623ef628f87fcc1ec6c7c0270825183a.json",
+      "sha256": "852071e69160d2bd45d7edf4c5f20868623ef628f87fcc1ec6c7c0270825183a"
+    },
+    {
+      "bytes": 2238,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/85/85ed67fb51c0f7c3c7d3450dc142f48ade9046c17454340aadf602cf94b087eb.json",
+      "sha256": "85ed67fb51c0f7c3c7d3450dc142f48ade9046c17454340aadf602cf94b087eb"
+    },
+    {
+      "bytes": 4506,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/85/85f0bd94cbe55bd64f77a17833c1a32d6b7e141df1baadb52c1e3d92a27b37a1.json",
+      "sha256": "85f0bd94cbe55bd64f77a17833c1a32d6b7e141df1baadb52c1e3d92a27b37a1"
+    },
+    {
+      "bytes": 1968,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/86/8670a00b40333280f40103c1f43aafc610faac6ed7beb3c4cb3cfaa40776d2c1.json",
+      "sha256": "8670a00b40333280f40103c1f43aafc610faac6ed7beb3c4cb3cfaa40776d2c1"
+    },
+    {
+      "bytes": 26981,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/87/87f368c7cbf05f6161b1f900bcb3c5956ae6730b443863463017ccb3c83dd6d2.json",
+      "sha256": "87f368c7cbf05f6161b1f900bcb3c5956ae6730b443863463017ccb3c83dd6d2"
+    },
+    {
+      "bytes": 9651,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/87/87fd4a511233b2b8247f366192a904dd0cb31630e352fb7cff319a48f1126a87.json",
+      "sha256": "87fd4a511233b2b8247f366192a904dd0cb31630e352fb7cff319a48f1126a87"
+    },
+    {
+      "bytes": 7945,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/88/8844238a0179bb01a4c6a3579dd9c7ba2fce52e360719fef8785f171c0977bbf.json",
+      "sha256": "8844238a0179bb01a4c6a3579dd9c7ba2fce52e360719fef8785f171c0977bbf"
+    },
+    {
+      "bytes": 1899,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/88/886f90b0623407aebe203da1e7fcdde389e89c87c88394bd866b702b687ba526.json",
+      "sha256": "886f90b0623407aebe203da1e7fcdde389e89c87c88394bd866b702b687ba526"
+    },
+    {
+      "bytes": 16569,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/89/895e2480ae21a20279a590d7bc45f90287285cf26de871fe574927dc722385f7.json",
+      "sha256": "895e2480ae21a20279a590d7bc45f90287285cf26de871fe574927dc722385f7"
+    },
+    {
+      "bytes": 12541,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/89/89dc98d26a8fb363e655a4f13c1ba3c11622bf19e437e12a3b9c26461249bf6e.json",
+      "sha256": "89dc98d26a8fb363e655a4f13c1ba3c11622bf19e437e12a3b9c26461249bf6e"
+    },
+    {
+      "bytes": 13722,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/8a/8a6540ea186e503d926f3e70fa2ca7083844ebeb75ef00e8d0fb6878fb6b4d50.json",
+      "sha256": "8a6540ea186e503d926f3e70fa2ca7083844ebeb75ef00e8d0fb6878fb6b4d50"
+    },
+    {
+      "bytes": 17038,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/8a/8a83c6bf264715d6b207c14051ef4fdfe18ebe2d763edbb97b433f5d49a91eda.json",
+      "sha256": "8a83c6bf264715d6b207c14051ef4fdfe18ebe2d763edbb97b433f5d49a91eda"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/8a/8ad4cc350ab0db63ecda1806fe622801b1349ae77ccb50e4517147c216c723b3.json",
+      "sha256": "8ad4cc350ab0db63ecda1806fe622801b1349ae77ccb50e4517147c216c723b3"
+    },
+    {
+      "bytes": 2105,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/8b/8be13c54f6dea746e89ea52052e802eac8f31ed907b005f04230c0cfeab77b4d.json",
+      "sha256": "8be13c54f6dea746e89ea52052e802eac8f31ed907b005f04230c0cfeab77b4d"
+    },
+    {
+      "bytes": 2106,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/8c/8c96837cf9431cd0d40d7611e699bbeb3745bbf06f53a6af9cb27b3f9a5ab846.json",
+      "sha256": "8c96837cf9431cd0d40d7611e699bbeb3745bbf06f53a6af9cb27b3f9a5ab846"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/90/90401cdaa69724d93005291b1098bd2bd862494f915fa155bcc555069fc17938.json",
+      "sha256": "90401cdaa69724d93005291b1098bd2bd862494f915fa155bcc555069fc17938"
+    },
+    {
+      "bytes": 6546,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/92/9219156bd7b044f48f7f0420dd669956684a9fa391178ef000b523d81ec9764c.json",
+      "sha256": "9219156bd7b044f48f7f0420dd669956684a9fa391178ef000b523d81ec9764c"
+    },
+    {
+      "bytes": 2367,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/95/958fce2101211fa3684967bd261579bec687307bdd4bb5c402a1fa830440fc99.json",
+      "sha256": "958fce2101211fa3684967bd261579bec687307bdd4bb5c402a1fa830440fc99"
+    },
+    {
+      "bytes": 17517,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/96/965d62604ebc0c24ff6ae1f981bc240c248f3835333b08c13310fea26ffd7f7c.json",
+      "sha256": "965d62604ebc0c24ff6ae1f981bc240c248f3835333b08c13310fea26ffd7f7c"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/96/96a990b37b65eb4471b058cfa3aff724b054a849889b7aadff36e4bff5a49286.json",
+      "sha256": "96a990b37b65eb4471b058cfa3aff724b054a849889b7aadff36e4bff5a49286"
+    },
+    {
+      "bytes": 1685,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/98/982e9495eb7e2ca15637bbe695a31e89843c55d7480d15a7a9a3139367aa0ca5.json",
+      "sha256": "982e9495eb7e2ca15637bbe695a31e89843c55d7480d15a7a9a3139367aa0ca5"
+    },
+    {
+      "bytes": 11163,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/98/98fe75048da088bc8a70ae79f9cb8d6462fda1c0f0775af6c9294584837623a5.json",
+      "sha256": "98fe75048da088bc8a70ae79f9cb8d6462fda1c0f0775af6c9294584837623a5"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/99/992054fed3e78e03d9582ac285894f0165901521eadfa016195fcfe01ace4717.json",
+      "sha256": "992054fed3e78e03d9582ac285894f0165901521eadfa016195fcfe01ace4717"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/99/992628d9004655fc7a01975274d1054269d51948f48194afa068e032be161352.json",
+      "sha256": "992628d9004655fc7a01975274d1054269d51948f48194afa068e032be161352"
+    },
+    {
+      "bytes": 34492,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/99/99f4846b9ca1fc0fd1d07d726f186243b54f50deaf5ed6e619e4d88bdcd1bd5c.json",
+      "sha256": "99f4846b9ca1fc0fd1d07d726f186243b54f50deaf5ed6e619e4d88bdcd1bd5c"
+    },
+    {
+      "bytes": 2243,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9a/9a3132c4c83e9e15fcf523581a84321eba4f0c239b9c9c2dbbb679028132ef17.json",
+      "sha256": "9a3132c4c83e9e15fcf523581a84321eba4f0c239b9c9c2dbbb679028132ef17"
+    },
+    {
+      "bytes": 9444,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9a/9abefe8085542369bb2886f801a3b3de7ff6ad35b9afedff81b0316c1ededb34.json",
+      "sha256": "9abefe8085542369bb2886f801a3b3de7ff6ad35b9afedff81b0316c1ededb34"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9b/9b68d20234ceb3898a90c8adf63a2d0803698bec1b7277acadb1276179c537dc.json",
+      "sha256": "9b68d20234ceb3898a90c8adf63a2d0803698bec1b7277acadb1276179c537dc"
+    },
+    {
+      "bytes": 1468,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9b/9be39d8b1dfb0c35920208a40dfec6f354b6da74138d413a1d594ac0156bcb3e.json",
+      "sha256": "9be39d8b1dfb0c35920208a40dfec6f354b6da74138d413a1d594ac0156bcb3e"
+    },
+    {
+      "bytes": 33390,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9c/9c780d9bb7ddd0291090932bb7878430a8131d16b24cea4db6531ce914e45a3f.json",
+      "sha256": "9c780d9bb7ddd0291090932bb7878430a8131d16b24cea4db6531ce914e45a3f"
+    },
+    {
+      "bytes": 20902,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9e/9e43ba404d2f80f1c29aa79734cb081b9c8b19763a02239e70bf5fbb31300497.json",
+      "sha256": "9e43ba404d2f80f1c29aa79734cb081b9c8b19763a02239e70bf5fbb31300497"
+    },
+    {
+      "bytes": 22141,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9e/9ecf6b7d0640054e0a919cdf3a0fc9bb8b0245e787834ebe06246b4de3fdfbae.json",
+      "sha256": "9ecf6b7d0640054e0a919cdf3a0fc9bb8b0245e787834ebe06246b4de3fdfbae"
+    },
+    {
+      "bytes": 1482,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9f/9f000d0848e57b29a5a2da7849240b0a3f7f2d5a4ecdd7c482cee7c4dfc54156.json",
+      "sha256": "9f000d0848e57b29a5a2da7849240b0a3f7f2d5a4ecdd7c482cee7c4dfc54156"
+    },
+    {
+      "bytes": 3898,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9f/9f4453add81d3359790363e60cfe857b7d19f5675521819d49d80b44a1695ca7.json",
+      "sha256": "9f4453add81d3359790363e60cfe857b7d19f5675521819d49d80b44a1695ca7"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/9f/9ff42ab6c5ed522dcda6c8b8c9c0c4c7c57076e9214cd387f323058451bb13bf.json",
+      "sha256": "9ff42ab6c5ed522dcda6c8b8c9c0c4c7c57076e9214cd387f323058451bb13bf"
+    },
+    {
+      "bytes": 2175,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/a2/a21ab859851de3c0f366b508022c8c1137b9a54b1376a6952c7a98a25b5e8ed6.json",
+      "sha256": "a21ab859851de3c0f366b508022c8c1137b9a54b1376a6952c7a98a25b5e8ed6"
+    },
+    {
+      "bytes": 6566,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/a2/a26e94ff266f0243b44eab808bad8240860e3b6a4b2447ee7393a6e98d1a3675.json",
+      "sha256": "a26e94ff266f0243b44eab808bad8240860e3b6a4b2447ee7393a6e98d1a3675"
+    },
+    {
+      "bytes": 12931,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/a3/a318cc788df2551dfef1f2bb26189c7d385c4537a9a143a4a3f4ce27ace30f9f.json",
+      "sha256": "a318cc788df2551dfef1f2bb26189c7d385c4537a9a143a4a3f4ce27ace30f9f"
+    },
+    {
+      "bytes": 7719,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/a4/a4b47c3b181a99024b228ff819db0d24bab16e62b3a64316cdf234ebfc6d15f8.json",
+      "sha256": "a4b47c3b181a99024b228ff819db0d24bab16e62b3a64316cdf234ebfc6d15f8"
+    },
+    {
+      "bytes": 19410,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/a5/a5e51a45d6152234cfae929bfa175f8cf95028030288f49cc48522e17c3acabf.json",
+      "sha256": "a5e51a45d6152234cfae929bfa175f8cf95028030288f49cc48522e17c3acabf"
+    },
+    {
+      "bytes": 13005,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/a5/a5f502394e5fd0584fef2a5ddc15c97a09651258c87a64c55f7f03114049749f.json",
+      "sha256": "a5f502394e5fd0584fef2a5ddc15c97a09651258c87a64c55f7f03114049749f"
+    },
+    {
+      "bytes": 17103,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/a7/a7c1ed8d61d5bd18773e19d2b838d982a60f59b29a259ea913d9b7aa3f911139.json",
+      "sha256": "a7c1ed8d61d5bd18773e19d2b838d982a60f59b29a259ea913d9b7aa3f911139"
+    },
+    {
+      "bytes": 2381,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/a8/a8dd2d1c3a3e9ee0c04a8bc85819eaeecb50daa8a7335e95a03693e07280d240.json",
+      "sha256": "a8dd2d1c3a3e9ee0c04a8bc85819eaeecb50daa8a7335e95a03693e07280d240"
+    },
+    {
+      "bytes": 1657,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/a8/a8f3dd47eae6aa51af277653f23b4f4032dd1aa510652de4a6d671fa50571e7b.json",
+      "sha256": "a8f3dd47eae6aa51af277653f23b4f4032dd1aa510652de4a6d671fa50571e7b"
+    },
+    {
+      "bytes": 21732,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/aa/aa7f361df414bfaf4ff99fbb6ad8ee90cff87659135d212cadcc245e102fcc63.json",
+      "sha256": "aa7f361df414bfaf4ff99fbb6ad8ee90cff87659135d212cadcc245e102fcc63"
+    },
+    {
+      "bytes": 233,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/aa/aadbe41d7958bfd15b325672d814c4d98905b715898837def0d247b231f88d44.json",
+      "sha256": "aadbe41d7958bfd15b325672d814c4d98905b715898837def0d247b231f88d44"
+    },
+    {
+      "bytes": 2032,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ab/ab20158fdd140c6fd62d0ef11d83c6a44543316632375d54c9190f24647d3c4d.json",
+      "sha256": "ab20158fdd140c6fd62d0ef11d83c6a44543316632375d54c9190f24647d3c4d"
+    },
+    {
+      "bytes": 10972,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ab/ab893112702e432d47ddbfddc757db8247ad1e1b54f7456e8754f57752c4c859.json",
+      "sha256": "ab893112702e432d47ddbfddc757db8247ad1e1b54f7456e8754f57752c4c859"
+    },
+    {
+      "bytes": 9306,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ab/abc90a024bda099f7ea3d0c18069c1eb2363e5c79108203e889a8139dd092878.json",
+      "sha256": "abc90a024bda099f7ea3d0c18069c1eb2363e5c79108203e889a8139dd092878"
+    },
+    {
+      "bytes": 9238,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ab/abedc73d24fa141771816f6f22771e55c60f17e2c85c3785b76be9de3aa3e51a.json",
+      "sha256": "abedc73d24fa141771816f6f22771e55c60f17e2c85c3785b76be9de3aa3e51a"
+    },
+    {
+      "bytes": 22711,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ac/acd5f80bdfab3e88de1dff12d2ed177b0dcdc2980a2cd8eedc760b306cb8df34.json",
+      "sha256": "acd5f80bdfab3e88de1dff12d2ed177b0dcdc2980a2cd8eedc760b306cb8df34"
+    },
+    {
+      "bytes": 11805,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ac/acec2774c706173654c00f0fdbd1272b592fe0b564a704881552011984855a01.json",
+      "sha256": "acec2774c706173654c00f0fdbd1272b592fe0b564a704881552011984855a01"
+    },
+    {
+      "bytes": 56158,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ad/ad18b7a8a77fa1f2c64f88bee22f070dd07f39aa059d6c675008d3b39efd22d9.json",
+      "sha256": "ad18b7a8a77fa1f2c64f88bee22f070dd07f39aa059d6c675008d3b39efd22d9"
+    },
+    {
+      "bytes": 2176,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b0/b05b224c4cfd52274581b66d21594c13059f988f1f8fdf6cf0fd5bddd8a8398d.json",
+      "sha256": "b05b224c4cfd52274581b66d21594c13059f988f1f8fdf6cf0fd5bddd8a8398d"
+    },
+    {
+      "bytes": 3441,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b0/b0af53d9e1cbbe03ac1b41591a6a57c1f132b85a828305140d2cff4c14a9985a.json",
+      "sha256": "b0af53d9e1cbbe03ac1b41591a6a57c1f132b85a828305140d2cff4c14a9985a"
+    },
+    {
+      "bytes": 23544,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b1/b11f190d0b20f7f7bcaa7d34b2aabda077e8adf1b0f62a2c45aced9e417dadb0.json",
+      "sha256": "b11f190d0b20f7f7bcaa7d34b2aabda077e8adf1b0f62a2c45aced9e417dadb0"
+    },
+    {
+      "bytes": 1686,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b1/b152b35465f7272b87cbc3eb86c5e5656d1673937db695f6f0f71df78edbc540.json",
+      "sha256": "b152b35465f7272b87cbc3eb86c5e5656d1673937db695f6f0f71df78edbc540"
+    },
+    {
+      "bytes": 1479,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b1/b1ace60cf7d5b8013646a968b0ddff7f49bb740f766003e37adf9e10bac0ecf8.json",
+      "sha256": "b1ace60cf7d5b8013646a968b0ddff7f49bb740f766003e37adf9e10bac0ecf8"
+    },
+    {
+      "bytes": 7374,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b1/b1bb609b7c702633ff96e2e6b1dabc89d964f64eee31141c1833f9a46fca2f52.json",
+      "sha256": "b1bb609b7c702633ff96e2e6b1dabc89d964f64eee31141c1833f9a46fca2f52"
+    },
+    {
+      "bytes": 2172,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b1/b1ff770f23f5c860413db542b1728e90d44a043edc101af1ef3bd5177316e76f.json",
+      "sha256": "b1ff770f23f5c860413db542b1728e90d44a043edc101af1ef3bd5177316e76f"
+    },
+    {
+      "bytes": 15675,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b2/b223d8056c7b19226cd0ba6e2992f174380a692745e7a2225297558610701c23.json",
+      "sha256": "b223d8056c7b19226cd0ba6e2992f174380a692745e7a2225297558610701c23"
+    },
+    {
+      "bytes": 2381,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b2/b2912eeb847b993d4ec30a06ebb73d280cb1799cce4b83a2b49ed605bfdae0f4.json",
+      "sha256": "b2912eeb847b993d4ec30a06ebb73d280cb1799cce4b83a2b49ed605bfdae0f4"
+    },
+    {
+      "bytes": 8616,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b2/b2e7e0783a596d52de3dac460b7b949823fadc2ee4ca53720b4e2a09981d9ebe.json",
+      "sha256": "b2e7e0783a596d52de3dac460b7b949823fadc2ee4ca53720b4e2a09981d9ebe"
+    },
+    {
+      "bytes": 18282,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b3/b3df45adaa136934bd9538de655b2dfda42d837570f9043b0a9878ead2dac71c.json",
+      "sha256": "b3df45adaa136934bd9538de655b2dfda42d837570f9043b0a9878ead2dac71c"
+    },
+    {
+      "bytes": 8065,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b4/b41d2ea5fe54c60e093eaa336360d955136b2e77a131919cdfd076bda47166ea.json",
+      "sha256": "b41d2ea5fe54c60e093eaa336360d955136b2e77a131919cdfd076bda47166ea"
+    },
+    {
+      "bytes": 1896,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b4/b4fce33dc74826617c9629930d9ce43f3f10010e1bfc42ca1e7b3fcd384479b1.json",
+      "sha256": "b4fce33dc74826617c9629930d9ce43f3f10010e1bfc42ca1e7b3fcd384479b1"
+    },
+    {
+      "bytes": 2969,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b6/b65a571e9342da8da01665b24707a86389b16cff350dd71b45b15449b0e8b76f.json",
+      "sha256": "b65a571e9342da8da01665b24707a86389b16cff350dd71b45b15449b0e8b76f"
+    },
+    {
+      "bytes": 7166,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b6/b6afc616c782ff2192f02be88290985275ec6029e6652750ed05b2b430366ed1.json",
+      "sha256": "b6afc616c782ff2192f02be88290985275ec6029e6652750ed05b2b430366ed1"
+    },
+    {
+      "bytes": 2107,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b6/b6e98cc8e300742f31ed5d64c48287fd741fff1849a15bd116387704610b4bb6.json",
+      "sha256": "b6e98cc8e300742f31ed5d64c48287fd741fff1849a15bd116387704610b4bb6"
+    },
+    {
+      "bytes": 9858,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b6/b6f2746ee67f5fa15a7b9a1e8190e81c0d8333f7a135da8b50fb7b7d6ff2eff0.json",
+      "sha256": "b6f2746ee67f5fa15a7b9a1e8190e81c0d8333f7a135da8b50fb7b7d6ff2eff0"
+    },
+    {
+      "bytes": 2104,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b7/b7d4c9480ee0453817c021d4716fbd2cd3e4e6fb4e01fc48dfbb124108e9f560.json",
+      "sha256": "b7d4c9480ee0453817c021d4716fbd2cd3e4e6fb4e01fc48dfbb124108e9f560"
+    },
+    {
+      "bytes": 14873,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b8/b8ee32ea49db3609ac2c2ec6bff1d28d8faf5b7e47949562676f96e1300a42b6.json",
+      "sha256": "b8ee32ea49db3609ac2c2ec6bff1d28d8faf5b7e47949562676f96e1300a42b6"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b9/b989e1aaf7fc32f3790a3d31d82124870de794edda7db2bb373a63a30f86e08a.json",
+      "sha256": "b989e1aaf7fc32f3790a3d31d82124870de794edda7db2bb373a63a30f86e08a"
+    },
+    {
+      "bytes": 1828,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/b9/b9cbe8aceca309114fbd27c563e6640ae6e56a3cd997444163cd76a821349374.json",
+      "sha256": "b9cbe8aceca309114fbd27c563e6640ae6e56a3cd997444163cd76a821349374"
+    },
+    {
+      "bytes": 2990,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ba/ba0301a039a9e74d301f3270db149b9bca4eb0dc3e604c3f46dc59403f130c97.json",
+      "sha256": "ba0301a039a9e74d301f3270db149b9bca4eb0dc3e604c3f46dc59403f130c97"
+    },
+    {
+      "bytes": 10065,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ba/ba2fdea7b3105a09974f8477715ea2bcde8630788aed9c508581e906fe3fdb52.json",
+      "sha256": "ba2fdea7b3105a09974f8477715ea2bcde8630788aed9c508581e906fe3fdb52"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ba/bae0e0c508b3887f435688d22b755adbcd2f184ddeadaa84176761f666acabee.json",
+      "sha256": "bae0e0c508b3887f435688d22b755adbcd2f184ddeadaa84176761f666acabee"
+    },
+    {
+      "bytes": 21478,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/bc/bcd05d35784290230a3e4245a345230df15790efea2201a02b8e3eeb4cfd38d8.json",
+      "sha256": "bcd05d35784290230a3e4245a345230df15790efea2201a02b8e3eeb4cfd38d8"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/bf/bf670f97672769ea75723975cc2fab3a097a52532814610c805c7381251d67c5.json",
+      "sha256": "bf670f97672769ea75723975cc2fab3a097a52532814610c805c7381251d67c5"
+    },
+    {
+      "bytes": 21789,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c0/c0104e06e68c4093866a6bf3d481059f3b41933e07ddc995e841db210aefd050.json",
+      "sha256": "c0104e06e68c4093866a6bf3d481059f3b41933e07ddc995e841db210aefd050"
+    },
+    {
+      "bytes": 21588,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c0/c024392bc0d31d1a74709f9fe5d5ef45605bbc86c69bb8046e2288db394dcf63.json",
+      "sha256": "c024392bc0d31d1a74709f9fe5d5ef45605bbc86c69bb8046e2288db394dcf63"
+    },
+    {
+      "bytes": 1657,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c1/c1a1a57327a9e4f636ee21541cb80937f01ebb3576f04d1b0be599c66b7419b1.json",
+      "sha256": "c1a1a57327a9e4f636ee21541cb80937f01ebb3576f04d1b0be599c66b7419b1"
+    },
+    {
+      "bytes": 1505,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c1/c1e5ffe621ba22fc150467a1a74504464aae7083a6902ae36aebbd9e40bfa243.json",
+      "sha256": "c1e5ffe621ba22fc150467a1a74504464aae7083a6902ae36aebbd9e40bfa243"
+    },
+    {
+      "bytes": 20841,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c3/c3258b90452f5a79cfce45ac4642c2df3fab9fb9f28036beaafccf4364e7cef5.json",
+      "sha256": "c3258b90452f5a79cfce45ac4642c2df3fab9fb9f28036beaafccf4364e7cef5"
+    },
+    {
+      "bytes": 13877,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c3/c3ed22e1801f2471c0f6c3a9bb409fb95e7dcfd0e2c83d6039d983065c7610bc.json",
+      "sha256": "c3ed22e1801f2471c0f6c3a9bb409fb95e7dcfd0e2c83d6039d983065c7610bc"
+    },
+    {
+      "bytes": 10368,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c5/c514c38d30a72a11ed0e505930c66a4b6ff915b13bf7e070c99973a37c802ad0.json",
+      "sha256": "c514c38d30a72a11ed0e505930c66a4b6ff915b13bf7e070c99973a37c802ad0"
+    },
+    {
+      "bytes": 8271,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c6/c675a4bc545d24817ad614293ee26b1839abd9aebdcb2f1d5f42d8a005ffffac.json",
+      "sha256": "c675a4bc545d24817ad614293ee26b1839abd9aebdcb2f1d5f42d8a005ffffac"
+    },
+    {
+      "bytes": 1481,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c6/c6d4ef62db7d83526cc0b926de06625f9dad008e374309af2d0db060c9189ce6.json",
+      "sha256": "c6d4ef62db7d83526cc0b926de06625f9dad008e374309af2d0db060c9189ce6"
+    },
+    {
+      "bytes": 1657,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c7/c7246a5ab25bc3350df4828cbea30440aee3f8148d616c9c8e7b76622c97b5d4.json",
+      "sha256": "c7246a5ab25bc3350df4828cbea30440aee3f8148d616c9c8e7b76622c97b5d4"
+    },
+    {
+      "bytes": 1759,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c7/c7397817b5919248c796d7e5d19ee50d526b8fd8b57425e3a4fa5202a6d69a71.json",
+      "sha256": "c7397817b5919248c796d7e5d19ee50d526b8fd8b57425e3a4fa5202a6d69a71"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c8/c80ce2ac3b70f3821d80bfb99c17ded74f1b134fb4511db7f2b4511179296555.json",
+      "sha256": "c80ce2ac3b70f3821d80bfb99c17ded74f1b134fb4511db7f2b4511179296555"
+    },
+    {
+      "bytes": 7030,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/c8/c8b342e7f67797a2438ab15db7f81f6318aae4eb8a7cfb17c6199acd86b1b7f3.json",
+      "sha256": "c8b342e7f67797a2438ab15db7f81f6318aae4eb8a7cfb17c6199acd86b1b7f3"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ca/ca617bb430a853ca29bc8aec6b81f25d0602122c44bd207d66bcedd4bf0c07a3.json",
+      "sha256": "ca617bb430a853ca29bc8aec6b81f25d0602122c44bd207d66bcedd4bf0c07a3"
+    },
+    {
+      "bytes": 2629,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ca/caac8fd16cbe3605dc5682ffb954159ed60f857ec885b2eb2ab3217b25e1223f.json",
+      "sha256": "caac8fd16cbe3605dc5682ffb954159ed60f857ec885b2eb2ab3217b25e1223f"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/cc/cc14efd282c3abac5c234589505cdaaac6d0bf8601ed5ae61f25cadc4702200a.json",
+      "sha256": "cc14efd282c3abac5c234589505cdaaac6d0bf8601ed5ae61f25cadc4702200a"
+    },
+    {
+      "bytes": 18613,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/cd/cd2f67c4e30914e9d6de33faf3a811df8dc10b749afed4eab7dd0d6bed1d61ad.json",
+      "sha256": "cd2f67c4e30914e9d6de33faf3a811df8dc10b749afed4eab7dd0d6bed1d61ad"
+    },
+    {
+      "bytes": 1686,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ce/ce2bc7839bd26e626aa1863bfe29c9b9a3f9b5a3f3e7371bb6db54e94a1885f9.json",
+      "sha256": "ce2bc7839bd26e626aa1863bfe29c9b9a3f9b5a3f3e7371bb6db54e94a1885f9"
+    },
+    {
+      "bytes": 13100,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/cf/cf159782ebcb9ccc69aad3bfbfb5e8a3b077f1267e4915dad0998a76db76d505.json",
+      "sha256": "cf159782ebcb9ccc69aad3bfbfb5e8a3b077f1267e4915dad0998a76db76d505"
+    },
+    {
+      "bytes": 16691,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/cf/cf87a7bec2006f53a3d50e01f50f6eb4b537c85aad87b766b216d2babeaeaa11.json",
+      "sha256": "cf87a7bec2006f53a3d50e01f50f6eb4b537c85aad87b766b216d2babeaeaa11"
+    },
+    {
+      "bytes": 1893,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d0/d0e36509e60a077b21cec7f92a5ddc6533add50ea35cd11927755c668655693a.json",
+      "sha256": "d0e36509e60a077b21cec7f92a5ddc6533add50ea35cd11927755c668655693a"
+    },
+    {
+      "bytes": 34493,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d1/d1436224c182ae557601fc75553e56b5fa2db422734de8562ce29b2becc16431.json",
+      "sha256": "d1436224c182ae557601fc75553e56b5fa2db422734de8562ce29b2becc16431"
+    },
+    {
+      "bytes": 15113,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d1/d1bb6f3f12f13cac35ca060327b3299ac674b4aad2f63bece12e5832aeb79276.json",
+      "sha256": "d1bb6f3f12f13cac35ca060327b3299ac674b4aad2f63bece12e5832aeb79276"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d1/d1e2cabcfbbeb6e959b7a89819d3ca03476bc1ea51e7cef260c7633bdf7d8fee.json",
+      "sha256": "d1e2cabcfbbeb6e959b7a89819d3ca03476bc1ea51e7cef260c7633bdf7d8fee"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d1/d1f31f2e5385f00a1e0ac5d1a4a07e6ec03d10315eb0e85f8625ab5791d4292b.json",
+      "sha256": "d1f31f2e5385f00a1e0ac5d1a4a07e6ec03d10315eb0e85f8625ab5791d4292b"
+    },
+    {
+      "bytes": 3410,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d3/d3557ac9828587e5ce0c8ce4b6b3008a408d2de729cb1423df7f83647741e93e.json",
+      "sha256": "d3557ac9828587e5ce0c8ce4b6b3008a408d2de729cb1423df7f83647741e93e"
+    },
+    {
+      "bytes": 1554,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d3/d36feb33cc61b66dcef87ddaaeb0fe7c4020b9a1e1631fddd72cdd5ca954059c.json",
+      "sha256": "d36feb33cc61b66dcef87ddaaeb0fe7c4020b9a1e1631fddd72cdd5ca954059c"
+    },
+    {
+      "bytes": 13065,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d4/d417b899d8493bac53bed0d4b9f13970effe27a60b385184e52173f6cc11b8e2.json",
+      "sha256": "d417b899d8493bac53bed0d4b9f13970effe27a60b385184e52173f6cc11b8e2"
+    },
+    {
+      "bytes": 1505,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d4/d4186acff5cfd6735a8cc97ae8b411ad003a0eba8a8eb784de20bc4cdc758537.json",
+      "sha256": "d4186acff5cfd6735a8cc97ae8b411ad003a0eba8a8eb784de20bc4cdc758537"
+    },
+    {
+      "bytes": 19618,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d6/d60aceeaab4caf58e7b491992a5f943f6b3dc94c7e74476fe1a1498b19ba06a1.json",
+      "sha256": "d60aceeaab4caf58e7b491992a5f943f6b3dc94c7e74476fe1a1498b19ba06a1"
+    },
+    {
+      "bytes": 1505,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d6/d60dd43b5c3d9f0ac02245e8bb315d1c71b9bf3f9108e0535dd891581774655f.json",
+      "sha256": "d60dd43b5c3d9f0ac02245e8bb315d1c71b9bf3f9108e0535dd891581774655f"
+    },
+    {
+      "bytes": 102,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d6/d6270a96c74e698681cb7c0012a25d17a018228bca3a631fd19a384e561ca22a.json",
+      "sha256": "d6270a96c74e698681cb7c0012a25d17a018228bca3a631fd19a384e561ca22a"
+    },
+    {
+      "bytes": 33609,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d6/d677653a6103ff2568a0bc8c810bffca315488dbebf9927891f8300810ec06fa.json",
+      "sha256": "d677653a6103ff2568a0bc8c810bffca315488dbebf9927891f8300810ec06fa"
+    },
+    {
+      "bytes": 1481,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d6/d67c7189faa0efca4dbc0b26bf63c8bebf00e7818a3755caa7d653d2f53981a4.json",
+      "sha256": "d67c7189faa0efca4dbc0b26bf63c8bebf00e7818a3755caa7d653d2f53981a4"
+    },
+    {
+      "bytes": 11721,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d7/d75ef0c3e795fa93b5f76809128464e14093e55c45a8370b9b0c82fee0e76683.json",
+      "sha256": "d75ef0c3e795fa93b5f76809128464e14093e55c45a8370b9b0c82fee0e76683"
+    },
+    {
+      "bytes": 14413,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d8/d84e222ccbbf40db05d119dab919f60ab738863f55d261d0dae9cd5e43aa80ce.json",
+      "sha256": "d84e222ccbbf40db05d119dab919f60ab738863f55d261d0dae9cd5e43aa80ce"
+    },
+    {
+      "bytes": 2799,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d9/d922c86224bc63515b690261e7951846dcbfce8ac89f04e6e8603d17134528a1.json",
+      "sha256": "d922c86224bc63515b690261e7951846dcbfce8ac89f04e6e8603d17134528a1"
+    },
+    {
+      "bytes": 8617,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/d9/d97c0d4c5ebe54d83850568e836e61fbaae94e8b5e46e4895e4122d699371fbd.json",
+      "sha256": "d97c0d4c5ebe54d83850568e836e61fbaae94e8b5e46e4895e4122d699371fbd"
+    },
+    {
+      "bytes": 8753,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/da/da503a59431c02e3af2900c21984c28bf667b85a305446d1f9d18b92b6480b13.json",
+      "sha256": "da503a59431c02e3af2900c21984c28bf667b85a305446d1f9d18b92b6480b13"
+    },
+    {
+      "bytes": 1728,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/db/db768339445625551578223b2adffbcd38b9153f5cad4ff649c3b248a485a109.json",
+      "sha256": "db768339445625551578223b2adffbcd38b9153f5cad4ff649c3b248a485a109"
+    },
+    {
+      "bytes": 426,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/dd/dd1924e6c996cb176a831ddef5a2dd9eb0cdd7d28b306b78d61223154c237c34.json",
+      "sha256": "dd1924e6c996cb176a831ddef5a2dd9eb0cdd7d28b306b78d61223154c237c34"
+    },
+    {
+      "bytes": 103,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/dd/dd71a063e5f02ebb2635dc8f59173ff0dca748f5db3747f16f11aa31aa91dcfc.json",
+      "sha256": "dd71a063e5f02ebb2635dc8f59173ff0dca748f5db3747f16f11aa31aa91dcfc"
+    },
+    {
+      "bytes": 11720,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/dd/ddbe547fc33a2e1eb3e2a549bb5f0c83abd688d06a02e99c016f0e891ba7c76b.json",
+      "sha256": "ddbe547fc33a2e1eb3e2a549bb5f0c83abd688d06a02e99c016f0e891ba7c76b"
+    },
+    {
+      "bytes": 2102,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/de/de7f2a8eaeabf47ade6f990e8566454593fe26c948e5148f3e249ca003a512f1.json",
+      "sha256": "de7f2a8eaeabf47ade6f990e8566454593fe26c948e5148f3e249ca003a512f1"
+    },
+    {
+      "bytes": 1759,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/df/df0e418474a2336c12479727415d44d39d18b1fb112f89947a60627bf872cd8f.json",
+      "sha256": "df0e418474a2336c12479727415d44d39d18b1fb112f89947a60627bf872cd8f"
+    },
+    {
+      "bytes": 8133,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/df/df8b655e6bf67f0f6064122ce5811ab97702534be523bbb192e0febb74866794.json",
+      "sha256": "df8b655e6bf67f0f6064122ce5811ab97702534be523bbb192e0febb74866794"
+    },
+    {
+      "bytes": 27384,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e1/e1c289028f789bd451291692877bb32c02d2104368bcb01d59f034663e3e4eb6.json",
+      "sha256": "e1c289028f789bd451291692877bb32c02d2104368bcb01d59f034663e3e4eb6"
+    },
+    {
+      "bytes": 20346,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e1/e1d56116b0fb0b314b6f73e888b187af1f0efaf6aaef6a3934de70d45ae1b4ca.json",
+      "sha256": "e1d56116b0fb0b314b6f73e888b187af1f0efaf6aaef6a3934de70d45ae1b4ca"
+    },
+    {
+      "bytes": 2239,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e2/e21f915b2c0cbb5a2dc86499305a002096c26f9e27473d0fd021b4ee490fc2b8.json",
+      "sha256": "e21f915b2c0cbb5a2dc86499305a002096c26f9e27473d0fd021b4ee490fc2b8"
+    },
+    {
+      "bytes": 23245,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e2/e23084c316d058319b137eeb131dd97b07408fbf71290bf537a9404bbf6cca86.json",
+      "sha256": "e23084c316d058319b137eeb131dd97b07408fbf71290bf537a9404bbf6cca86"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e4/e4260106d9deaf4f69f6dfa0c358c0cd9f27201a25b4d7add302be912feb2c29.json",
+      "sha256": "e4260106d9deaf4f69f6dfa0c358c0cd9f27201a25b4d7add302be912feb2c29"
+    },
+    {
+      "bytes": 12251,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e4/e44d3eefdfa74c6a5cfd0fd2c5dfba0930234b415152a186039b6d937f6d920b.json",
+      "sha256": "e44d3eefdfa74c6a5cfd0fd2c5dfba0930234b415152a186039b6d937f6d920b"
+    },
+    {
+      "bytes": 1685,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e4/e49fd2b2cc177c71603aa94de07527185499c79bbc6b043bf370b34fe33c82fd.json",
+      "sha256": "e49fd2b2cc177c71603aa94de07527185499c79bbc6b043bf370b34fe33c82fd"
+    },
+    {
+      "bytes": 9099,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e5/e5b68aa1616d73a0a6b097b2541fdd43cf80b87ac41d418210463a3f3b665505.json",
+      "sha256": "e5b68aa1616d73a0a6b097b2541fdd43cf80b87ac41d418210463a3f3b665505"
+    },
+    {
+      "bytes": 26980,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e5/e5b72b0e1a5d56b1c39ef9e2c37d5495c63ae83f60075c01ea04c27a7da81c35.json",
+      "sha256": "e5b72b0e1a5d56b1c39ef9e2c37d5495c63ae83f60075c01ea04c27a7da81c35"
+    },
+    {
+      "bytes": 1685,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e5/e5faa6d84b14ceabf10ff69cad24ece9fcca050d62a65a846d6198a8b5bc2b5c.json",
+      "sha256": "e5faa6d84b14ceabf10ff69cad24ece9fcca050d62a65a846d6198a8b5bc2b5c"
+    },
+    {
+      "bytes": 7788,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e6/e69c86fafd2bc23cd704ce33657f17db10a4be846193888ab834066836498f1f.json",
+      "sha256": "e69c86fafd2bc23cd704ce33657f17db10a4be846193888ab834066836498f1f"
+    },
+    {
+      "bytes": 13876,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e6/e6d6d36e076c11d1c6612a70103e4abc1bd7a9c9c891e3c53dedae5cc982403d.json",
+      "sha256": "e6d6d36e076c11d1c6612a70103e4abc1bd7a9c9c891e3c53dedae5cc982403d"
+    },
+    {
+      "bytes": 1888,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e9/e96f9d806fd19806af7cff612166abd031647c4cc849880e15a1c53050212305.json",
+      "sha256": "e96f9d806fd19806af7cff612166abd031647c4cc849880e15a1c53050212305"
+    },
+    {
+      "bytes": 1893,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/e9/e9c2ee32b4a8133f7d27d468f42d9111c8405f1605c9ae9d342798b2ac03f519.json",
+      "sha256": "e9c2ee32b4a8133f7d27d468f42d9111c8405f1605c9ae9d342798b2ac03f519"
+    },
+    {
+      "bytes": 1898,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ec/ec404a5d31aeb4f126f356bcf9bd83016b12c24218ce897c1ab5504dd578213a.json",
+      "sha256": "ec404a5d31aeb4f126f356bcf9bd83016b12c24218ce897c1ab5504dd578213a"
+    },
+    {
+      "bytes": 9899,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ed/ed891333cfb19598b529ddc381bd022318a6075a2e9541950c717dbf874cc129.json",
+      "sha256": "ed891333cfb19598b529ddc381bd022318a6075a2e9541950c717dbf874cc129"
+    },
+    {
+      "bytes": 15674,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ed/ed9b5731b022079ca8925a0d159d07c53300b15dd0b47925b2ae9acf0671aad1.json",
+      "sha256": "ed9b5731b022079ca8925a0d159d07c53300b15dd0b47925b2ae9acf0671aad1"
+    },
+    {
+      "bytes": 2210,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ed/edfa3786d9e7679d937c1020eb23ddbf96761d152e358554267be64c0479fa0c.json",
+      "sha256": "edfa3786d9e7679d937c1020eb23ddbf96761d152e358554267be64c0479fa0c"
+    },
+    {
+      "bytes": 17892,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ef/efb60b75079fa150cfa1bace310c3084e396f5791223853a638af06b16ffabd0.json",
+      "sha256": "efb60b75079fa150cfa1bace310c3084e396f5791223853a638af06b16ffabd0"
+    },
+    {
+      "bytes": 1658,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f0/f0a0f92c994a2c1ed2fbc78f5d42900c221d63c2914a0a6805763b0c6ae38c9b.json",
+      "sha256": "f0a0f92c994a2c1ed2fbc78f5d42900c221d63c2914a0a6805763b0c6ae38c9b"
+    },
+    {
+      "bytes": 5050,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f0/f0d59d571d7633dfa14a049a4ed68ac104c153d47ab7ad76be036dbeb2ea2cc9.json",
+      "sha256": "f0d59d571d7633dfa14a049a4ed68ac104c153d47ab7ad76be036dbeb2ea2cc9"
+    },
+    {
+      "bytes": 2308,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f2/f22ae4bb1c57959500fb849c78c1045bd743ee8d067f41c54b658eedf1d251b7.json",
+      "sha256": "f22ae4bb1c57959500fb849c78c1045bd743ee8d067f41c54b658eedf1d251b7"
+    },
+    {
+      "bytes": 2795,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f2/f2796014dbfaa6139aafe2812c163611dbbc2ddc9bdec109e6ac6d47431d51ea.json",
+      "sha256": "f2796014dbfaa6139aafe2812c163611dbbc2ddc9bdec109e6ac6d47431d51ea"
+    },
+    {
+      "bytes": 39377,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f3/f3ff68dafdca50824a6d9f9c7f5455fa3cc36ccebdc5e06b2ede0847ee6d3b89.json",
+      "sha256": "f3ff68dafdca50824a6d9f9c7f5455fa3cc36ccebdc5e06b2ede0847ee6d3b89"
+    },
+    {
+      "bytes": 11260,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f5/f591ffffff05d60423ded32cd0a4997fb841737e51b5983645d9d7be83617029.json",
+      "sha256": "f591ffffff05d60423ded32cd0a4997fb841737e51b5983645d9d7be83617029"
+    },
+    {
+      "bytes": 129,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f5/f5e6d6d6c6947560a80d4e3fc87c7392516aea3622122c6efcf73ba186c8ebf8.json",
+      "sha256": "f5e6d6d6c6947560a80d4e3fc87c7392516aea3622122c6efcf73ba186c8ebf8"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f7/f723dc2a03e2aa7f8ffcd2e14b93f984acee859aa0229e41e99b644495e44798.json",
+      "sha256": "f723dc2a03e2aa7f8ffcd2e14b93f984acee859aa0229e41e99b644495e44798"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f7/f72745d305ae4ef3519ad9c7d37b73844693eaeb60218672f6540d244e4fdcf8.json",
+      "sha256": "f72745d305ae4ef3519ad9c7d37b73844693eaeb60218672f6540d244e4fdcf8"
+    },
+    {
+      "bytes": 1654,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f9/f961bb057b94988509feb856775575a050fddd932a9b75b0d99df8d9ba6601d3.json",
+      "sha256": "f961bb057b94988509feb856775575a050fddd932a9b75b0d99df8d9ba6601d3"
+    },
+    {
+      "bytes": 20903,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/f9/f9eeca196340a4caef86a2f63a86a5782495e7119ce33eb85fc68674c0047cc1.json",
+      "sha256": "f9eeca196340a4caef86a2f63a86a5782495e7119ce33eb85fc68674c0047cc1"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fa/fa3333fc8af69456d1a6d7aba97cac24bf669e9569d484046e961cae77ae7297.json",
+      "sha256": "fa3333fc8af69456d1a6d7aba97cac24bf669e9569d484046e961cae77ae7297"
+    },
+    {
+      "bytes": 1967,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fa/fa404ecb36fcb130b9db57ea3497ff6f1e32942478da53f313825d0afc93c405.json",
+      "sha256": "fa404ecb36fcb130b9db57ea3497ff6f1e32942478da53f313825d0afc93c405"
+    },
+    {
+      "bytes": 14896,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fa/fa5513cdd7d5a872d5f8d4b65ab644777d3492bb176930dd1ae1021f1ce36075.json",
+      "sha256": "fa5513cdd7d5a872d5f8d4b65ab644777d3492bb176930dd1ae1021f1ce36075"
+    },
+    {
+      "bytes": 168,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fa/fa9fc39de591c482dcf0ba600c958adc23ec78365d44ba830003afec35934bba.json",
+      "sha256": "fa9fc39de591c482dcf0ba600c958adc23ec78365d44ba830003afec35934bba"
+    },
+    {
+      "bytes": 222098,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fa/fadd0b6a0b2bfcbe8a6c1a4b6d8b7250c43fb87432da879831f727375481ef50.json",
+      "sha256": "fadd0b6a0b2bfcbe8a6c1a4b6d8b7250c43fb87432da879831f727375481ef50"
+    },
+    {
+      "bytes": 7028,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fa/fae3d6e1d2b993675f3ef494437e357471f10235aeb0a972ce06aa56a123a2cc.json",
+      "sha256": "fae3d6e1d2b993675f3ef494437e357471f10235aeb0a972ce06aa56a123a2cc"
+    },
+    {
+      "bytes": 1967,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fb/fbd8808e848b9fabdc97f5dc0eb98058b836d76e61fad576a73c760746962a6d.json",
+      "sha256": "fbd8808e848b9fabdc97f5dc0eb98058b836d76e61fad576a73c760746962a6d"
+    },
+    {
+      "bytes": 1827,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fc/fc3a4d12a75321939f8e11111beaba392f25422606a995b59dcfef4be74e77af.json",
+      "sha256": "fc3a4d12a75321939f8e11111beaba392f25422606a995b59dcfef4be74e77af"
+    },
+    {
+      "bytes": 2519,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fc/fccdbfc9e0347b2820a7e6287fe873b1c13abd90170f37af637f7e54116eb6f3.json",
+      "sha256": "fccdbfc9e0347b2820a7e6287fe873b1c13abd90170f37af637f7e54116eb6f3"
+    },
+    {
+      "bytes": 2238,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fd/fd7f4fbf3dc816fc4f550be28ffa8cb5492b2b9245dfb3647bff7d53289897ab.json",
+      "sha256": "fd7f4fbf3dc816fc4f550be28ffa8cb5492b2b9245dfb3647bff7d53289897ab"
+    },
+    {
+      "bytes": 29041,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fd/fde43f5b9f42c7a5825d47fd64773f928a2a56a16745dc4bdc8ffc2fe1c9dde0.json",
+      "sha256": "fde43f5b9f42c7a5825d47fd64773f928a2a56a16745dc4bdc8ffc2fe1c9dde0"
+    },
+    {
+      "bytes": 2312,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fe/fe2f5fde28f544992b4f97beb319318c55725c4deb5287d0d5e559f33eb7e228.json",
+      "sha256": "fe2f5fde28f544992b4f97beb319318c55725c4deb5287d0d5e559f33eb7e228"
+    },
+    {
+      "bytes": 1483,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fe/fe38ae00d3cbe33f330448b9886de8716e1f605e52a0904b22cbf5c8ad6fd9e7.json",
+      "sha256": "fe38ae00d3cbe33f330448b9886de8716e1f605e52a0904b22cbf5c8ad6fd9e7"
+    },
+    {
+      "bytes": 9507,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fe/feb22c523d75746c340a6aebeace2b4d2c56bba35b15e1f44bd99be0bf168580.json",
+      "sha256": "feb22c523d75746c340a6aebeace2b4d2c56bba35b15e1f44bd99be0bf168580"
+    },
+    {
+      "bytes": 23005,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/fe/feda9c1a1f30233bdc97d0982b6e58fd71030b9bb0c4e46fcfed7dbd1b7201e6.json",
+      "sha256": "feda9c1a1f30233bdc97d0982b6e58fd71030b9bb0c4e46fcfed7dbd1b7201e6"
+    },
+    {
+      "bytes": 16827,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ff/ff57f583a6607934611d3f3af725db7b0854d6ac9e54a924f85ae26e4d89bd7c.json",
+      "sha256": "ff57f583a6607934611d3f3af725db7b0854d6ac9e54a924f85ae26e4d89bd7c"
+    },
+    {
+      "bytes": 37041,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ff/ffe16246d2e157c6106ca6a74b5c39466e7cab0aa73e07b6ff2b504aa4c1ee7c.json",
+      "sha256": "ffe16246d2e157c6106ca6a74b5c39466e7cab0aa73e07b6ff2b504aa4c1ee7c"
+    },
+    {
+      "bytes": 2382,
+      "content_address_valid": true,
+      "path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/rpc_receipts/ff/fffdf53a949be314a3f49164c5eaa44c6f64f87f4080d24956be37c9e3696e9b.json",
+      "sha256": "fffdf53a949be314a3f49164c5eaa44c6f64f87f4080d24956be37c9e3696e9b"
+    }
+  ],
+  "invalid_paths": [],
+  "manifest_sha256_without_self_hash": "e7a5b78f67380c2e1569f0b76270e96981e3efc33e0b27dd215f4c75684185f0",
+  "receipt_count": 363,
+  "schema_version": "chronosaudit-rpc-receipt-manifest-v1",
+  "total_bytes": 3622826
+}

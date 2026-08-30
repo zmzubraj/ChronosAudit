@@ -1,0 +1,339 @@
+{
+  "chain_count": 1,
+  "chains": [
+    {
+      "chain": "ethereum",
+      "complete": false,
+      "errors": [
+        "ethereum:drpc-ethereum:rpc_error:eth_getStorageAt"
+      ],
+      "known_creation_recovered_by_both": false,
+      "provider_count": 2,
+      "providers": [
+        {
+          "complete": false,
+          "errors": [
+            "rpc_error:eth_getStorageAt"
+          ],
+          "provider_family": "drpc",
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "beacon_implementation": null,
+          "block_hash": "0x43f11f546eff9cafb300f4de836812743ff4d02d228f85a789711302f3f60e8c",
+          "block_number": 14267406,
+          "block_timestamp": 1645687131,
+          "chain_id": "0x1",
+          "creation_set": [
+            [
+              "0xf87a5b1e3c6c0f8808996ac3f9113c80928d7dc57e39024618beafdc3a450c27",
+              "0x1fa61c33522ba3e393ed7cc279e22fa462ab3927",
+              "internal_create",
+              "0xa5409ec958c83c3f309868babaca7c86dcb077c1",
+              "[0]"
+            ]
+          ],
+          "known_creation_recovered": true,
+          "provider_family": "quicknode",
+          "provider_id": "quicknode-ethereum",
+          "runtime_code": "0x6080604052600436106100825763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663025313a281146100c85780633659cfe6146100f95780634555d5c91461011c5780634f1ef286146101435780635c60da1b1461019d5780636fde8202146101b2578063f1739cae146101c7575b600061008c6101e8565b9050600160a060020a03811615156100a357600080fd5b60405136600082376000803683855af43d806000843e8180156100c4578184f35b8184fd5b3480156100d457600080fd5b506100dd6101f7565b60408051600160a060020a039092168252519081900360200190f35b34801561010557600080fd5b5061011a600160a060020a0360043516610206565b005b34801561012857600080fd5b50610131610239565b60408051918252519081900360200190f35b60408051602060046024803582810135601f810185900485028601850190965285855261011a958335600160a060020a031695369560449491939091019190819084018382808284375094975061023e9650505050505050565b3480156101a957600080fd5b506100dd6101e8565b3480156101be57600080fd5b506100dd6102f2565b3480156101d357600080fd5b5061011a600160a060020a0360043516610301565b600054600160a060020a031690565b60006102016102f2565b905090565b61020e6101f7565b600160a060020a031633600160a060020a031614151561022d57600080fd5b61023681610391565b50565b600290565b6102466101f7565b600160a060020a031633600160a060020a031614151561026557600080fd5b61026e82610206565b30600160a060020a03168160405180828051906020019080838360005b838110156102a357818101518382015260200161028b565b50505050905090810190601f1680156102d05780820380516001836020036101000a031916815260200191505b50915050600060405180830381855af491505015156102ee57600080fd5b5050565b600154600160a060020a031690565b6103096101f7565b600160a060020a031633600160a060020a031614151561032857600080fd5b600160a060020a038116151561033d57600080fd5b7f5a3e66efaa1e445ebd894728a69d6959842ea1e97bd79b892797106e270efcd96103666101f7565b60408051600160a060020a03928316815291841660208301528051918290030190a161023681610401565b600054600160a060020a03828116911614156103ac57600080fd5b6000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a038316908117825560405190917fbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b91a250565b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a723058205f26049bbc794226b505f589b2ee1130db54310d79dd8a635c6f6c61e305a7770029",
+          "storage_slots": {
+            "admin": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "beacon": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "implementation": "0x0000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "trace_method": "trace_transaction",
+          "transaction_hash": "0xf87a5b1e3c6c0f8808996ac3f9113c80928d7dc57e39024618beafdc3a450c27"
+        }
+      ],
+      "verified_operator_families": [
+        "drpc",
+        "quicknode"
+      ]
+    }
+  ],
+  "complete": false,
+  "errors": [
+    "ethereum:drpc-ethereum:rpc_error:eth_getStorageAt"
+  ],
+  "fixture_count": 1,
+  "raw_evidence": [
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00001-drpc-ethereum-eth_chainId-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 1,
+      "sha256": "664b5daebd52bdb19d17c0aea0742d7a108490b357f9a15490d431448c2f84fa"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00001-drpc-ethereum-eth_chainId-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 1,
+      "sha256": "ecd7dc4842843d1da08ad2d0ac16db96c6f9123369e4ae8653590afadd59cd37"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-drpc-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 2,
+      "sha256": "7e5151389985ba5c54ea883c28004f0d00b1305dafd12be7e656e5e26d2c308e"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-drpc-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 2,
+      "sha256": "f281a7361e9d2c06e76ee49fd10bd129d1ad73e7f4d45b7c60fb233597023f44"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00003-drpc-ethereum-eth_getBlockByHash-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 3,
+      "sha256": "680f68bf640239b0cacf952f08770de15e1c8716818846c2296d66166a6a8d83"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00003-drpc-ethereum-eth_getBlockByHash-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 3,
+      "sha256": "b72f65d81b65fa0c1c6eb50e8b0603e7b01c4a8909a80c2a1ba66378886a639b"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00004-drpc-ethereum-eth_getTransactionReceipt-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 4,
+      "sha256": "e090b773cfd7717ab67e461a5bdf57f5f1380df9e80e3898fbad934f4afbb1ce"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00004-drpc-ethereum-eth_getTransactionReceipt-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 4,
+      "sha256": "12ece23cf601db91b6b6d667140e77355d5defc302e52c6e79343f88f8800031"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00005-drpc-ethereum-trace_transaction-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 5,
+      "sha256": "55ba1f37b51ea1bd53c93a47da61b530894cb90dea259ac3e244fae4c440b3ec"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00005-drpc-ethereum-trace_transaction-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 5,
+      "sha256": "d85374f04810139865555d3b6f0da6c5e14ad4a3a995ebc365df5f263993f02a"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00006-drpc-ethereum-eth_getCode-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 6,
+      "sha256": "51fff54314c45ac791f1054a1131de2c6b4274b7d67c07c58ade88e718217115"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00006-drpc-ethereum-eth_getCode-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 6,
+      "sha256": "0d64904cd9de67d05e7dea6e5019e4141cd09601394dca6e6c1d5ae5c815d3df"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00007-drpc-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 7,
+      "sha256": "e051f38327d345ade949e74092c6e66410f867f6c66891406cd5c2d1f5d28d87"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00007-drpc-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 7,
+      "sha256": "762ff229c2e26f7d8b21e3e96859fa3590e65ab5694400a84433b60d477a25a6"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00008-quicknode-ethereum-eth_chainId-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 8,
+      "sha256": "cdbd61cdc0d83c62f35e98fa9510d647c2821c14c52986fd9d148e262dc38670"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00008-quicknode-ethereum-eth_chainId-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 8,
+      "sha256": "a261a02b007e4c1094ba09592918c443bdacefe021eaaf1a043e7d507e94fcf7"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00009-quicknode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 9,
+      "sha256": "95a3a57a3985c60572298d066b261ece8c5730b920d4a6cfc7609f7c30215e6f"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00009-quicknode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 9,
+      "sha256": "7fb7b3fd5f2bbc3c01858b616441b66bffa3e888dff84fc55897082ad0d12479"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00010-quicknode-ethereum-eth_getBlockByHash-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 10,
+      "sha256": "4a6677cd812f53113682e989d472968b575169071cd901a1165747e2d29616c6"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00010-quicknode-ethereum-eth_getBlockByHash-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 10,
+      "sha256": "7ab598f1e6209f8d841940e659ca7c063e3ee182ddcd9f2b44ab3653e9dcf958"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00011-quicknode-ethereum-eth_getTransactionReceipt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 11,
+      "sha256": "f8b5017511b9a0fb77dc2bbabf8722a1a6e8924e8a63dc954fac96cb4f4fa586"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00011-quicknode-ethereum-eth_getTransactionReceipt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 11,
+      "sha256": "ef9a7ffeefa67c10ebb0749dc2681a7ce2e0a67878d2234a5cbc17355c113ff5"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00012-quicknode-ethereum-trace_transaction-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 12,
+      "sha256": "6b12cfcd64bd4c6da401a6faccd42ee3ecbeddffc686cc443b2d62c758aa2f96"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00012-quicknode-ethereum-trace_transaction-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 12,
+      "sha256": "e480869d8a51810aa6bf2321e2df756fbb607a4eb3b45057b0a91a8b9f06ea63"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00013-quicknode-ethereum-eth_getCode-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 13,
+      "sha256": "8ce702523539ddb94f4cd3d9859bea1eea9fdd24147c4b52e3a61f7a1b44aff3"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00013-quicknode-ethereum-eth_getCode-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 13,
+      "sha256": "0d3e354020f3a1220caa126c1cd7412fa4a4661835dc0ac9d983eb8a1ebf9fcd"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00014-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 14,
+      "sha256": "fc28d8cd75a86d9c3fce4b500a02be3b4061b01ac0b0e37ee826d8029d574b2f"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00014-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 14,
+      "sha256": "34ee3f62f7c8974e3d58679e5a6e70b1fa22afe480e95a6da35cc980c0730a8e"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00015-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 15,
+      "sha256": "d5ebbcfdcfb4ae51c8225ffa36c49d3b34435af87f1e235d17abdae0020086c5"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00015-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 15,
+      "sha256": "0d03c7b93f604fc1fc1d5439d3fad481c57553ee3e8ee71ce9c5bb83e02e601e"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00016-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 16,
+      "sha256": "da4d80276496f014ca1fcb2d39ec2e79d60f4897cb7ba93e9ed8a15a39bb21cb"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00016-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 16,
+      "sha256": "5f5800cafee01911d4aa99a0d9f24796ebda13cac599349125bdf3fe36c23e59"
+    }
+  ],
+  "raw_evidence_count": 32,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "ddc1996877df79eab2a8cf2a8cd8bf1eca2d162359f0d327483ecedb540356bd",
+  "required_methods": [
+    "eth_chainId",
+    "eth_getBlockByHash",
+    "eth_getBlockByNumber",
+    "eth_getTransactionReceipt",
+    "eth_getCode",
+    "eth_getStorageAt"
+  ],
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "trace_method_candidates": [
+    "trace_transaction",
+    "debug_traceTransaction",
+    "trace_block",
+    "debug_traceBlockByNumber"
+  ]
+}

@@ -1,0 +1,1 @@
+{"method":"eth_getBlockByNumber","params":["0x23127a5",false],"provider_family":"drpc","provider_id":"drpc-base","schema_version":"stage2_control_cutoff_boundary_capability_request.v1"}

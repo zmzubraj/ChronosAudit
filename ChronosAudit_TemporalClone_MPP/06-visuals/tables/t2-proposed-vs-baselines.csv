@@ -1,0 +1,5 @@
+approach,temporal_eligibility,code_family_dependence,proxy_linkage,historical_read_evidence,main_failure
+row count only,no,no,no,not required,can overstate usable independent units
+chain-address deduplication,no,address only,no,optional,misses cross-address clones
+exact bytecode deduplication,no,exact runtime,partial,snapshot dependent,metadata and implementation layers remain
+TemporalClone MPP,four landmarks,address exact and stripped runtime,specified observable indicators,two providers; block-hash pinned upstream,still a lower bound on semantic dependence

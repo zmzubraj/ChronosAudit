@@ -1,0 +1,50 @@
+{
+  "acquisition_authorized": false,
+  "activation_expires_utc": "2026-08-29T23:00:00Z",
+  "allowed_signers_sha256": "90c71679b39b079344c7521803e93c70bbe1566eab62fa8796a00b19a9f8eaf2",
+  "approval_sha256": "9fdfa0bcf38c55055d2ab228ecb2db1317652006ef9f88e44b53586e42eda3a4",
+  "candidate_retry_manifest_sha256": "c7ce2fb49877e43ecb0989a35eee97b37b5046c48415422d65881d66c2b2bd9b",
+  "candidate_rpc_capability_verification_sha256": "016e5ca2d144c6a77b9501e48d2bcd185cee4726e0a1654de80cd1b4596521f1",
+  "decision": "RPC_ACTIVATION_VERIFIED",
+  "hash_chained_no_repeat_ledger_required": true,
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_IDENTITY",
+  "maximum_rpc_requests": 910,
+  "provider_bindings": [
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "28273ebfce495a97c0075a0a6bea18b49a66bd9df91c420c2367ad9629023bb4",
+      "operator_evidence_sha256": "91437f6e40fe6e0be3ae81f2d07894ad954c192eb012617b52bd86453385a47c",
+      "operator_family": "drpc",
+      "provider_id": "drpc-ethereum",
+      "public_endpoint_identity_id": "078ddbb63a6abd3c9a5eb951895223315b3d0ba63d4f4c0c588ab34306bf6d79"
+    },
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "0aa30cd46fed972383066fe285d7377394d167d99cace7659aae08047adb0d8d",
+      "operator_evidence_sha256": "1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf",
+      "operator_family": "publicnode",
+      "provider_id": "publicnode-ethereum",
+      "public_endpoint_identity_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082"
+    }
+  ],
+  "provider_registry_sha256": "f18c5146c76acf19edd8edc03fbe70d47e2fd0764c1b3be87b234a3a73e0371b",
+  "queue_row_count": 227,
+  "queue_sha256": "45aceca1482fd95bb1e0547c93bad485c48eb80b00f47dbfb0e478fcdef8632a",
+  "raw_request_response_receipts_required": true,
+  "recovery3_mutation_authorized": false,
+  "request_sha256": "e02efe12d8555c7314dc12be9517ffa33b3426140e97ab34239c6f9b7d34bbc3",
+  "rpc_authorized": true,
+  "rpc_methods": [
+    "eth_chainId",
+    "eth_getTransactionReceipt",
+    "eth_getBlockByHash"
+  ],
+  "schema_version": "chronosaudit.control_candidate_rpc_activation_verification.v1",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-candidate-rpc-activation-v1",
+  "signature_sha256": "ad578e04f8f9189a56b87335b67e07c231c3567369eec5e22b67e3a425db91b8",
+  "signer_principal": "zmzubraj-local-test",
+  "source_request_ledger_sha256": "fca6398dc2418378c4910ec3bc5e9af4f9494ab573d24d8bbed64472c78278b6",
+  "source_request_ledger_terminal_hash": "687244a1c883718e12ffe6910a1f8b2d9228cd18c18e0449294292587c1c561b",
+  "stage_promotion_authorized": false
+}

@@ -1,0 +1,213 @@
+{
+  "approval_file_sha256": "390fc22b47013335c954c39735e9964ea00166d55f865ba3a5b05f6d421071cf",
+  "approval_record_sha256": "0df65b1f2ffe926c6bcdf6372e0290d5befbe86e1466b8a4edc70d8b44f95302",
+  "approval_verification_file_sha256": "bbc97a5a5bb70cd27d8172d3da290afa5e5cd8571f3f57f88fcb8592bf1afd39",
+  "approval_verification_sha256": "3c37dd601ce5879eb9b93bd35bfa3ae44535dd227187a651fcb01938fe430473",
+  "counter_authority": false,
+  "created_at_utc": "2026-08-23T02:05:00Z",
+  "decision": "AWAITING_ACCOUNTABLE_PROVIDER_IDENTITY_REVISION_SIGNATURE",
+  "denominator_admission_authorized": false,
+  "evidence_conjuncts": [
+    {
+      "chains": [
+        "base",
+        "bsc",
+        "ethereum"
+      ],
+      "conjunct_id": "chain_support",
+      "endpoints": [],
+      "evidence_files": [
+        {
+          "file_sha256": "b5db5414f4d2209c2da1e7a64db75452296729a7b3bedb5aacceba6081d41f54",
+          "path": "02_Executable_Artifact/raw/public_provider_identity/2026-08-23-legacy-alias-v2/merkle_home.html"
+        },
+        {
+          "file_sha256": "70fa54ef9461cadd71a97b2bacf4309f22c73849ee1e41b496906a60e0343446",
+          "path": "02_Executable_Artifact/raw/public_provider_identity/2026-08-23-legacy-alias-v2/merkle_bsc_rpc.html"
+        },
+        {
+          "file_sha256": "f2ba9349bb9814c10dfd7d25e918f5efdb539d7e1f6eba1c9bc3acb014bf101f",
+          "path": "02_Executable_Artifact/raw/public_provider_identity/2026-08-23-legacy-alias-v2/blink_base_api.html"
+        }
+      ],
+      "status": "PRESENT_FOR_ACCOUNTABLE_REVIEW"
+    },
+    {
+      "chains": [
+        "base",
+        "bsc",
+        "ethereum"
+      ],
+      "conjunct_id": "endpoint_transport_identity",
+      "endpoints": [
+        "https://base.merkle.io",
+        "https://bsc.merkle.io",
+        "https://eth.merkle.io"
+      ],
+      "evidence_files": [
+        {
+          "file_sha256": "d9dab4abd6fe3b75ae8cd1072875657783f3df65edbe0be705a425bbad9b5698",
+          "path": "02_Executable_Artifact/raw/public_provider_identity/2026-08-23-legacy-alias-v2/legacy_alias_live_endpoint_probe.json"
+        }
+      ],
+      "status": "PRESENT_FOR_ACCOUNTABLE_REVIEW"
+    },
+    {
+      "chains": [
+        "base",
+        "bsc",
+        "ethereum"
+      ],
+      "conjunct_id": "frozen_runtime_capability",
+      "endpoints": [
+        "https://base.merkle.io",
+        "https://bsc.merkle.io",
+        "https://eth.merkle.io"
+      ],
+      "evidence_files": [
+        {
+          "file_sha256": "00147f4e7b4fff075500a4a3d0aed3304a6cf1ff1a3d997462a53450fea0d342",
+          "path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-unverified-merkle-dual-provider-capability-v2/control_trace_state_capability.json"
+        },
+        {
+          "file_sha256": "50b167ae053c6d7af5d9b4e745969a5ffd193f4bc6549f93f80a4bd2deb4acf4",
+          "path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-unverified-merkle-dual-provider-capability-v2/control_trace_state_capability_verification.json"
+        }
+      ],
+      "status": "PRESENT_FOR_ACCOUNTABLE_REVIEW"
+    },
+    {
+      "chains": [],
+      "conjunct_id": "operator_domain_bridge",
+      "endpoints": [],
+      "evidence_files": [
+        {
+          "file_sha256": "b5db5414f4d2209c2da1e7a64db75452296729a7b3bedb5aacceba6081d41f54",
+          "path": "02_Executable_Artifact/raw/public_provider_identity/2026-08-23-legacy-alias-v2/merkle_home.html"
+        },
+        {
+          "file_sha256": "c4abdb76c1264ddfa6f9cd8d6f4bf4193f1b514cb41bb28df000d3575774341d",
+          "path": "02_Executable_Artifact/raw/public_provider_identity/2026-08-23-legacy-alias-v2/merkle_home.headers.txt"
+        }
+      ],
+      "status": "PRESENT_FOR_ACCOUNTABLE_REVIEW"
+    },
+    {
+      "chains": [
+        "base",
+        "bsc",
+        "ethereum"
+      ],
+      "conjunct_id": "paired_family_independence",
+      "endpoints": [],
+      "evidence_files": [
+        {
+          "file_sha256": "6a27bad05f7e1c4759913898e817cb18406061974e72f26bfb545a87e4f30470",
+          "path": "02_Executable_Artifact/raw/public_provider_identity/2026-08-23-legacy-alias-v2/paired_family_independence_review.json"
+        },
+        {
+          "file_sha256": "b3c4e1608e0b968b396f6aa4ab6e279bbaee0d94ec65c7f964d3f25e9e8de878",
+          "path": "02_Executable_Artifact/raw/public_provider_identity/2026-08-21-capability-v7/capture-index.json"
+        },
+        {
+          "file_sha256": "dd2147cb502123c5b55757c2e0c484626ce24c6bf8c42932ecddb0faf4041ff4",
+          "path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-provider-identity-v7/control_provider_identity_evidence_review.json"
+        },
+        {
+          "file_sha256": "76aeed58c405d395ad8d1eb87883a656d796fe4766b9eee94de0a114aba5ff62",
+          "path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-provider-identity-v7/control_provider_identity_evidence_verification.json"
+        },
+        {
+          "file_sha256": "1a4def8b5c938858d71a81136bbf043e5c5d24d978e98860237e79439c904557",
+          "path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-provider-identity-v7/control_provider_identity_approval_verification.json"
+        },
+        {
+          "file_sha256": "4364eb6fa74118f02b648d970e0baf6804d99549a7c25d56ffea7140f68ac3cb",
+          "path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-provider-identity-v7/public_provider_registry.projected.yaml"
+        }
+      ],
+      "status": "PRESENT_FOR_ACCOUNTABLE_REVIEW"
+    }
+  ],
+  "evidence_manifest_file_sha256": "c6e4d5df91f1c3bb865e755950cbb87c172b073a7a89d5d54c0616687a118526",
+  "evidence_packet_sha256": "6b25ea9037d82b9b94d10d75501c3dadc914d5dfde870be36b7da1244bba4576",
+  "expires_at_utc": "2026-08-30T02:05:00Z",
+  "independent_review_established": false,
+  "legacy_provider_bindings": [
+    {
+      "chain": "base",
+      "endpoint": "https://base.merkle.io",
+      "endpoint_template_sha256": "a3b19db19ae00facfd632cdba27ae7b7a2ed985d999168a60c2c4e20e7b28b29",
+      "environment": "LOCAL_TEST_ONLY",
+      "identity_status": "AWAITING_ACCOUNTABLE_REVISION_SIGNATURE",
+      "operator_family": "merkle",
+      "operator_identity_family": "merkle_blink",
+      "provider_id": "merkle-base"
+    },
+    {
+      "chain": "bsc",
+      "endpoint": "https://bsc.merkle.io",
+      "endpoint_template_sha256": "c48f7ab856707cccb318dd965cc172759cde78998f507512500789f7d95e4782",
+      "environment": "LOCAL_TEST_ONLY",
+      "identity_status": "AWAITING_ACCOUNTABLE_REVISION_SIGNATURE",
+      "operator_family": "merkle",
+      "operator_identity_family": "merkle_blink",
+      "provider_id": "merkle-bsc"
+    },
+    {
+      "chain": "ethereum",
+      "endpoint": "https://eth.merkle.io",
+      "endpoint_template_sha256": "dba2d6bf58efcecbcc3e1e49412db682d89d3cf17bef4c2ac96c997b704f8850",
+      "environment": "LOCAL_TEST_ONLY",
+      "identity_status": "AWAITING_ACCOUNTABLE_REVISION_SIGNATURE",
+      "operator_family": "merkle",
+      "operator_identity_family": "merkle_blink",
+      "provider_id": "merkle-ethereum"
+    }
+  ],
+  "legacy_provider_count": 3,
+  "method_approved": true,
+  "paired_provider_bindings": [
+    {
+      "chain": "base",
+      "identity_status": "SEPARATE_EXACT_PUBLICATION_REVIEW_REQUIRED",
+      "operator_family": "drpc",
+      "provider_id": "drpc-base"
+    },
+    {
+      "chain": "bsc",
+      "identity_status": "SEPARATE_EXACT_PUBLICATION_REVIEW_REQUIRED",
+      "operator_family": "nodereal",
+      "provider_id": "nodereal-bsc"
+    },
+    {
+      "chain": "ethereum",
+      "identity_status": "SEPARATE_EXACT_PUBLICATION_REVIEW_REQUIRED",
+      "operator_family": "quicknode",
+      "provider_id": "quicknode-ethereum"
+    }
+  ],
+  "paired_provider_count": 3,
+  "provider_identity_revision_authorized": false,
+  "provider_identity_verified": false,
+  "provider_registry_verified": false,
+  "publication_authorized": false,
+  "purpose": "LOCAL_TEST_LEGACY_ALIAS_PROVIDER_IDENTITY_REVISION_ONLY",
+  "qualification_authorized": false,
+  "r5_authorized": false,
+  "recovery3_mutation_authorized": false,
+  "release_authorized": false,
+  "request_file_sha256": "5a5b60452cd1ce2024a730eb5d6e6d46f36e5e4e560cd077f16963be126f7fc7",
+  "request_sha256": "b1a5d55ced44afb153aee9f9f257e973b9c4f2236a20ceae77dda3305602a806",
+  "reviewer_principal": "zmzubraj",
+  "revision_request_sha256": "26dd2120f823d97bfa60112949eba678d386aaac696a818df4f89cac3c7a2cb0",
+  "row_admission_authorized": false,
+  "rpc_authorized": false,
+  "rpc_call_count": 3536,
+  "schema_version": "chronosaudit.control_provider_identity_legacy_alias_revision_request.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "target_count": 1768,
+  "target_identities_sha256": "971f0ddaf3251327dcb790875923007269954cfc69220fe663664f0d06b9d8de",
+  "trace_targets_sha256": "19605da2e7ebf8e82d54938b3e060aec870de773ec02c637effea99e20dd00e9"
+}

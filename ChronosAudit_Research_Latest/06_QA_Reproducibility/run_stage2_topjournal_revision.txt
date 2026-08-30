@@ -1,0 +1,91 @@
+{
+  "built_at_utc": "2026-08-07T12:56:33+00:00",
+  "decision": "IMPLEMENTATION_COMPLETE_EVIDENCE_GATES_BLOCKED_FAIL_CLOSED",
+  "empirical_evidence_completion_score": 31,
+  "incident_evidence_source": "incident_evidence_enriched.csv",
+  "killer_questions": {
+    "pass_rate": 0.56,
+    "passed_or_design_resolved": 56,
+    "status_counts": {
+      "BLOCKED": 41,
+      "PARTIAL": 3,
+      "PASS": 20,
+      "PASS_BY_DESIGN": 36
+    },
+    "total": 100
+  },
+  "registry": {
+    "append_only": true,
+    "records": 1264,
+    "terminal_hash": "527ecac598bff46510caa428c20a71457b1c6a01385ce0c46da7326e0ab350ab"
+  },
+  "software_workflow_completion_score": 94,
+  "source_sha256": {
+    "incident_evidence_enriched.csv": "d210481076df2d6db940c517325872bfbee1aaa0adb15f011f42587e02fe020c",
+    "scone_bench.csv": "b5132a87b761edacc83903cf2588e87c933d657fbd648ebf07b8eb669f9aaf59"
+  },
+  "stage2_release_qualified": false,
+  "stages": {
+    "2A": {
+      "cases": 417,
+      "certified_preincident_cases": 0,
+      "decision": "BLOCKED_REQUIRES_ARCHIVE_RPC_EXPLORER_AND_INDEPENDENT_EVIDENCE",
+      "incident_metadata_rate": 1.0,
+      "incident_metadata_seeded": 417,
+      "missing_bytecode_hash": 417,
+      "missing_deployment_block": 417,
+      "missing_source_availability": 417
+    },
+    "2B": {
+      "cases": 417,
+      "decision": "EXACT_IDENTITY_COMPLETE_CODE_AND_PROXY_LINEAGE_BLOCKED",
+      "exact_duplicate_groups": 9,
+      "proxy_lineage_resolved": 0,
+      "rows_in_duplicate_groups": 18,
+      "runtime_bytecode_resolved": 0,
+      "unique_exact_identities": 408
+    },
+    "2C": {
+      "decision": "BLOCKED_REQUIRES_TWO_INDEPENDENT_REVIEWERS_AND_CODEBOOK",
+      "dual_review_completed": 0,
+      "kappa_mechanism": null,
+      "kappa_protocol": null,
+      "mechanism_seed_rate": 1.0,
+      "mechanism_seeded": 417,
+      "protocol_candidates": 395
+    },
+    "2D": {
+      "decision": "BLOCKED_REQUIRES_DEPLOYMENT_STREAM_AND_OUTCOME_FOLLOWUP",
+      "matched_controls_collected": 0,
+      "matched_controls_required": 4170,
+      "positive_seed_rows": 417,
+      "prevalence_stream_collected": 0,
+      "prevalence_stream_required": 20000,
+      "property_bounded_negatives": 0,
+      "right_censored_controls": 0
+    },
+    "2E": {
+      "certified_clone_leakage": null,
+      "certified_mechanism_leakage": null,
+      "certified_protocol_leakage": null,
+      "certified_proxy_leakage": null,
+      "decision": "FAIL_CLOSED_NO_STAGE2_RELEASE",
+      "exact_identity_grouped_fold_sizes": {
+        "0": 84,
+        "1": 84,
+        "2": 83,
+        "3": 83,
+        "4": 83
+      },
+      "exact_identity_leakage": 0,
+      "independent_r5_blocks": 0,
+      "mean_crossing_identity_groups_random": 7.227,
+      "random_split_leakage_rate": 1.0,
+      "random_split_leakage_wilson_lower_95": 0.9961732415144449,
+      "random_split_simulations": 1000,
+      "random_splits_with_exact_identity_leakage": 1000,
+      "release_eligible_cases": 0
+    }
+  },
+  "version": "0.4.0"
+}

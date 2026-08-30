@@ -1,0 +1,16 @@
+{
+  "call_scope_sha256": "d889758479e427710e9dbe182e94d9d69b479f83fbc3d4ffb5c799d6aea3c604",
+  "method": "eth_getCode",
+  "operator_family": "quicknode",
+  "params": [
+    "0x4443533406c23747cee4868521c829c641c5ecd8",
+    {
+      "blockHash": "0xedf8e1da763477a95c1ce34ff65f2272ae6c716c1f52009aa9f7c661a6e7971f",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "quicknode-bsc-docs-demo",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 7086,
+  "target_id": "base-state:b3c1d43d598ad2ee856415e4f18f3ffdc250983096b24dc4fd5b778e319044c3"
+}

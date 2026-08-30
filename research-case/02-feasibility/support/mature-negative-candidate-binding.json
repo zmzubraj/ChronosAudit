@@ -1,0 +1,57 @@
+{
+  "run_id": "chronosaudit-20260801T105039Z-e7e2c21c-64e42a",
+  "pilot_cycle": 3,
+  "case_id": "CA-P09",
+  "retrieved_at_utc": "2026-08-01T19:28:31Z",
+  "selection_result": {
+    "protocol": "Uniswap v4",
+    "chain_id": "1",
+    "contract_name": "PoolManager",
+    "address": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+    "selection_source": "https://developers.uniswap.org/docs/protocols/v4/deployments"
+  },
+  "source_revision": {
+    "repository": "https://github.com/Uniswap/v4-core",
+    "ref": "refs/heads/main",
+    "observed_commit": "46c6834698c48bc4a463a86d8420f4eb1d7f3b75",
+    "method": "git ls-remote metadata only; no clone or code execution"
+  },
+  "sourcify_minimal_response": {
+    "matchId": "6376919",
+    "creationMatch": "match",
+    "runtimeMatch": "match",
+    "verifiedAt": "2025-05-22T08:41:50Z",
+    "match": "match",
+    "chainId": "1",
+    "address": "0x000000000004444c5dc75cB358380D2e3dE08A90"
+  },
+  "sourcify_derived_binding": {
+    "language": "Solidity",
+    "compiler": "solc",
+    "compilerVersion": "0.8.26+commit.8a97fa7a",
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizerEnabled": true,
+    "optimizerRuns": 44444444,
+    "fullyQualifiedName": "lib/v4-core/src/PoolManager.sol:PoolManager",
+    "isProxy": false,
+    "implementationAddresses": [],
+    "deploymentTransactionHash": "0x747e0e02b7590eed32cface28e83260884e0b80675f5ae223c6888053aa68528",
+    "deploymentBlockNumber": "21688329",
+    "deployer": "0x6B93E3bB9C0780C0f9042346Ffc379530a5882c1",
+    "runtimeBytecodeStringLength": 48020,
+    "runtimeBytecodeStringSha256": "62b338e5f430128dbf37a22c4214de64225c45e34cc2b6eed340f6d7d2238e72",
+    "hash_note": "SHA-256 of the exact 0x-prefixed onchainBytecode string returned by Sourcify, without a trailing newline"
+  },
+  "lookup_urls": [
+    "https://sourcify.dev/server/v2/contract/1/0x000000000004444c5dc75cB358380D2e3dE08A90",
+    "https://sourcify.dev/server/v2/contract/1/0x000000000004444c5dc75cB358380D2e3dE08A90?fields=compilation,runtimeBytecode,proxyResolution,deployment",
+    "https://docs.sourcify.dev/docs/api/index.html"
+  ],
+  "rights_disposition": "Store metadata, hashes, citations, and derived fields only; do not redistribute third-party source or audit contents in this pilot package.",
+  "limitations": [
+    "Sourcify reports match rather than exact_match.",
+    "The repository head is a retrieval-time revision and is not by itself proof that every file equals the deployed source bundle.",
+    "A mature-negative status is impossible before the frozen follow-up window closes and independent adjudication completes."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "python",
+    "verify_public_evidence_acquisition.py",
+    "--run-id",
+    "public-acquisition-20260808T122104Z-2942b2819e08",
+    "--revision",
+    "2026-08-08"
+  ],
+  "cwd": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact",
+  "exit_code": 1,
+  "finished_at_utc": "2026-08-08T14:40:11Z",
+  "started_at_utc": "2026-08-08T14:40:11Z",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "60c2579469ee06c2ecdf372d1fd83cb404a60d54f2527f73eb93026ae9648624"
+}

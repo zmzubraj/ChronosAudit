@@ -1,0 +1,18 @@
+{
+  "schema_version": 4,
+  "adapter_id": "benchmark_prospective_v1",
+  "field": "smart-contract security benchmark methodology and exploit-detection measurement science",
+  "study_type": "computational_benchmark",
+  "jurisdiction": "current phase limited to public-source computational research with no live-chain intervention or human-participant activity; deployment-specific jurisdiction is outside current authority",
+  "jurisdiction_basis": "The authorized novelty recovery uses public scholarly, patent-discovery, and standards records only. Archive/RPC access, live target testing, external disclosure operations, partner data, analyst-participant studies, and prospective deployment require separate authorization plus the applicable institutional and legal determination before execution.",
+  "ethics_category": "public_data_non_interventional_cybersecurity_dual_use",
+  "reporting_guidelines": [
+    "DOMAIN_BENCHMARK_REPORTING_STANDARD_REQUIRED",
+    "current target-venue benchmark, dataset, leakage, compute, and reproducibility checklist once a venue is selected"
+  ],
+  "evidence_standard": "claim-matched, provenance-audited, machine-verifiable benchmark evidence; operational, generality, or deployment claims require preregistered sealed prospective validation and independent adjudication",
+  "article_type": "public-evidence methods and preregistration draft; target venue undecided; not submission-authorized",
+  "manuscript_source": "auto",
+  "status": "REQUIRES_INDEPENDENT_SCHEMA_V4_REVALIDATION",
+  "notes": "REC-7601a088ae72 narrows autonomous delivery to a public-evidence methods and preregistration draft. The external verifier and institutional-authority dependency remains unresolved and is excluded, not bypassed. Novelty remains UNRESOLVED; empirical and prospective results are NOT RUN. The prospective shadow deployment is a later extension blocked pending separate institutional, legal, ethics, data-access, disclosure, partner, and independent-adjudication authority. The reporting route remains provisional until a governing benchmark checklist and target venue are selected. This profile does not authorize archive/RPC access, prospective deployment, human-participant workload studies, private vulnerability handling, or submission."
+}

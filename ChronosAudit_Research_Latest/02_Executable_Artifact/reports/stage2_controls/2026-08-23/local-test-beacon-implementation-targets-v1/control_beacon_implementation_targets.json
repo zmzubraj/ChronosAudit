@@ -1,0 +1,18 @@
+{
+  "call_count": 0,
+  "complete": true,
+  "counter_authority": false,
+  "decision": "NO_BEACON_IMPLEMENTATION_TARGETS_REQUIRED",
+  "derived_state_results_file_sha256": "5c68eba475758fbb8ff90a2fc3330f745b354c93a4c2f658fa3d7a45d41b1364",
+  "derived_state_results_sha256": "ff113a33b285668bcea26da6cbcdaf9de534734f2a77549ac35db6f5ff630cda",
+  "provider_registry_file_sha256": "9788ad91ed55746ffff9144d3d79bf7077fa8618cc3ad810d63c9f183a8d5643",
+  "recovery3_mutation_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_beacon_implementation_targets.v1",
+  "selection_authorized": false,
+  "source_derived_state_target_count": 28,
+  "stage_promotion_authorized": false,
+  "target_count": 0,
+  "targets": [],
+  "targets_sha256": "42f5fc26fcf8ca935baf3efe58d6520cd03d7f22e263b22d55404419daab4fff"
+}

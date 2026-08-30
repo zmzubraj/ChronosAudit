@@ -1,0 +1,5 @@
+chain,inventory_rows,parsed_rows,verified_rows,duplicates,exclusions,available,selected,shortfall
+arbitrum,34795,34795,34655,0,140,34655,5000,0
+base,455042,455042,445122,0,9920,445122,5000,0
+bsc,12691,12691,12625,0,66,12625,5000,0
+ethereum,45802,45802,45373,0,429,45373,5000,0

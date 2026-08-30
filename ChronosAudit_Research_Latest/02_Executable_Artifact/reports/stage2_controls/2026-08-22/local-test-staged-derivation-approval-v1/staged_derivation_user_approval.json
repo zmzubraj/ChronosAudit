@@ -1,0 +1,23 @@
+{
+  "schema_version": "chronosaudit.control_cutoff_state_staged_derivation_user_approval.v1",
+  "decision": "APPROVE_CUTOFF_STATE_STAGED_DERIVATION_V1_FOR_LOCAL_TEST_ONLY",
+  "approval_text": "APPROVE_CUTOFF_STATE_STAGED_DERIVATION_V1_FOR_LOCAL_TEST_ONLY",
+  "approval_source": "codex_thread_user_message",
+  "approved_by_principal": "zmzubraj",
+  "approved_at_date": "2026-08-22",
+  "specification_path": "docs/superpowers/specs/2026-08-21-stage2-cutoff-state-staged-derivation-v1.md",
+  "specification_preapproval_sha256": "07bb511ab000e2d7d89418a83937c7b55dd31c42ba7411980af8aab766b60fe0",
+  "scope": "LOCAL_TEST_STAGED_EXACT_READ_IMPLEMENTATION_AND_EXECUTION_ONLY",
+  "identity_binding_limit": "USER_CHAT_AUTHORITY_IS_NOT_CRYPTOGRAPHIC_REAL_WORLD_IDENTITY_PROOF",
+  "rpc_authorized": false,
+  "selection_authorized": false,
+  "qualification_authorized": false,
+  "counter_authority": false,
+  "stage_promotion_authorized": false,
+  "recovery3_mutation_authorized": false,
+  "independent_adjudication_authorized": false,
+  "r5_authorized": false,
+  "release_authorized": false,
+  "publication_claims_authorized": false,
+  "record_sha256": "ba8c5e5e563320e5b3dd89ed806c01e5bb8e62b0a8e190190388e995791f2362"
+}

@@ -1,0 +1,66 @@
+{
+  "control_candidates": {
+    "observed": 0,
+    "passed": false,
+    "required": 4170
+  },
+  "control_review_packets": {
+    "observed": 0,
+    "passed": true,
+    "required": 0
+  },
+  "deployment_denominator": {
+    "observed": 0,
+    "passed": false,
+    "required": 20000
+  },
+  "eligible_case_names": [],
+  "finalized_positive_adjudications": {
+    "observed": 0,
+    "passed": true,
+    "required": 0
+  },
+  "historical_snapshots": {
+    "observed": 360,
+    "passed": false,
+    "required": 417
+  },
+  "independent_adjudications": {
+    "observed": 0,
+    "passed": false,
+    "required": 417
+  },
+  "independent_r5_blocks": {
+    "observed": 0,
+    "passed": false,
+    "required": 120
+  },
+  "positive_case_review_packets": {
+    "observed": 417,
+    "passed": true,
+    "required": 0
+  },
+  "production_qualification": {
+    "core_counter_keys": [
+      "historical_snapshots",
+      "independent_adjudications",
+      "deployment_denominator",
+      "control_candidates",
+      "qualified_controls",
+      "independent_r5_blocks",
+      "release_eligible_cases"
+    ],
+    "packet_counter_keys": [
+      "positive_case_review_packets",
+      "control_review_packets",
+      "finalized_positive_adjudications"
+    ],
+    "qualified": false
+  },
+  "qualified_controls": {
+    "observed": 0,
+    "passed": false,
+    "required": 4170
+  },
+  "release_eligible_cases": 0
+}

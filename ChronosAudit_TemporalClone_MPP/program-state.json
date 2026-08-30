@@ -1,0 +1,367 @@
+{
+  "schema_version": 4,
+  "run_id": "chronosaudit-temporalclone-mpp-20260828T193046Z-5c71be2f-7ac55a",
+  "system_name": "ChronosAudit TemporalClone MPP",
+  "research_topic_name": "Outcome-independent historical on-chain state reconstruction, temporal landmark eligibility, and clone/proxy linkage auditing in a benchmark of 417 real-world EVM smart-contract exploit incidents across Ethereum, BSC, Base, and Arbitrum.",
+  "input_revision": 1,
+  "input_sha256": "5c71be2f9037ceb1a2c7c26af8cf9def6d5528cbd2058b2ebb82e29d2213ef20",
+  "status": "ACTIVE",
+  "current_phase": "INTAKE",
+  "resume_from": "INTAKE",
+  "integration_owner": "root-integration-owner",
+  "novelty_status": "UNRESOLVED",
+  "feasibility_decision": "UNASSESSED",
+  "solution_viability_status": "ASSERTED_ONLY",
+  "acceptance_readiness": "NOT_ASSESSABLE",
+  "postdoctoral_ai_audit": "UNASSESSED",
+  "claim_graph_revision": 1,
+  "verifier_registry_revision": 1,
+  "provenance_anchor_revision": 1,
+  "semantic_schema_revision": 1,
+  "legacy_inference_flags": [],
+  "assurance_policy": {
+    "novelty": {
+      "mode": "EVIDENCE_BOUNDED",
+      "independent_search_challenge_required": true,
+      "known_item_and_citation_chaining_required": true,
+      "cross_surface_search_required": true,
+      "submission_refresh_required": true,
+      "universal_proof_allowed": false
+    },
+    "solution_viability": {
+      "claim_matched_evidence_ladder_required": true,
+      "failure_envelope_required": true,
+      "external_evidence_required_for_real_world_claims": true,
+      "simulation_may_support_only_matching_claim_scope": true
+    },
+    "acceptance": {
+      "readiness_audit_required": true,
+      "calibrated_forecast_allowed": true,
+      "forecast_requires_target_matched_data_and_uncertainty": true,
+      "guarantee_allowed": false,
+      "editorial_decision_is_external": true
+    },
+    "substitution": {
+      "simulation_and_synthetic_acceleration_allowed": true,
+      "ai_may_replace_empirical_evidence": false,
+      "ai_may_replace_ethics_authority": false,
+      "ai_may_replace_accountable_human": false,
+      "synthetic_or_simulated_evidence_must_be_labeled": true
+    },
+    "review": {
+      "postdoctoral_standard_ai_audit_required": true,
+      "independent_domain_human_disposition_required": true,
+      "universal_postdoctoral_acceptance_claim_allowed": false
+    }
+  },
+  "parallel_runtime": {
+    "phase_limits": {
+      "INTAKE": 1,
+      "NOVELTY_AUDIT": 3,
+      "FEASIBILITY_GATE": 2,
+      "STUDY_DESIGN": 2,
+      "AUTHORIZED_EXECUTION": 1,
+      "ANALYSIS": 3,
+      "MANUSCRIPT": 3,
+      "ADVERSARIAL_QA": 3,
+      "SUBMISSION_QA": 3,
+      "HUMAN_APPROVAL": 1
+    },
+    "default_max_parallel": 3,
+    "dependency_closure_required": true,
+    "disjoint_write_scope_required": true,
+    "first_valid_result_scope": "REDUNDANT_CANDIDATE_RETRIEVAL_ONLY",
+    "positive_novelty_requires_full_coverage_and_independent_challenge": true
+  },
+  "autonomy_policy": {
+    "identity_mode": "RUN_SCOPED_PSEUDONYM_WITH_ROOT_TRACEABILITY",
+    "root_may_auto_dispatch_dependency_ready_cells": true,
+    "root_may_auto_select_lower_cost_valid_strategy": true,
+    "root_may_auto_request_race_sibling_interrupt": true,
+    "root_may_auto_checkpoint_and_replan_internal_blocks": true,
+    "root_may_not_self_approve": [
+      "scientific_verification",
+      "novelty_survival",
+      "ethics_or_irb",
+      "data_or_participant_authority",
+      "accountable_human_approval",
+      "editorial_acceptance"
+    ]
+  },
+  "maturity_stage": "CONCEPT",
+  "validation_stage": "NOT_ASSESSABLE",
+  "computed_verdicts": {
+    "schema_version": 4,
+    "solution_viability": {
+      "status": "ASSERTED_ONLY",
+      "basis": "Solution-viability evidence is not independently signed and verified: 02-feasibility/evidence-maturity-ladder.csv, 02-feasibility/solution-viability-case.md, 04-data/evidence-status.csv"
+    },
+    "postdoctoral_audit": {
+      "status": "UNASSESSED",
+      "basis": "Structured postdoctoral audit inputs are not independently signed and verified: 08-validation/postdoctoral-standards-audit.md, 08-validation/killer-question-ledger.csv"
+    },
+    "acceptance_readiness": {
+      "status": "NOT_ASSESSABLE",
+      "basis": "Acceptance readiness is blocked until the structured postdoctoral audit passes."
+    },
+    "maturity_ceiling_summary": {
+      "C001": {
+        "required_maturity": "V4 EXTERNAL",
+        "current_maturity": "V0 ASSERTED",
+        "maturity_ceiling": "V0 ASSERTED",
+        "external_validation_required": true,
+        "refuted": false,
+        "supports_claim": false
+      },
+      "C002": {
+        "required_maturity": "V3 INTERNAL",
+        "current_maturity": "V0 ASSERTED",
+        "maturity_ceiling": "V0 ASSERTED",
+        "external_validation_required": true,
+        "refuted": false,
+        "supports_claim": false
+      },
+      "C003": {
+        "required_maturity": "V4 EXTERNAL",
+        "current_maturity": "V0 ASSERTED",
+        "maturity_ceiling": "V0 ASSERTED",
+        "external_validation_required": true,
+        "refuted": false,
+        "supports_claim": false
+      },
+      "C004": {
+        "required_maturity": "V3 INTERNAL",
+        "current_maturity": "V0 ASSERTED",
+        "maturity_ceiling": "V0 ASSERTED",
+        "external_validation_required": false,
+        "refuted": false,
+        "supports_claim": false
+      },
+      "C005": {
+        "required_maturity": "V3 INTERNAL",
+        "current_maturity": "V0 ASSERTED",
+        "maturity_ceiling": "V0 ASSERTED",
+        "external_validation_required": false,
+        "refuted": false,
+        "supports_claim": false
+      },
+      "C006": {
+        "required_maturity": "V3 INTERNAL",
+        "current_maturity": "V0 ASSERTED",
+        "maturity_ceiling": "V0 ASSERTED",
+        "external_validation_required": false,
+        "refuted": false,
+        "supports_claim": false
+      },
+      "C007": {
+        "required_maturity": "V4 EXTERNAL",
+        "current_maturity": "V0 ASSERTED",
+        "maturity_ceiling": "V0 ASSERTED",
+        "external_validation_required": true,
+        "refuted": false,
+        "supports_claim": false
+      }
+    }
+  },
+  "last_gate_outcome": null,
+  "pilot_cycle": 0,
+  "phases": {
+    "INTAKE": {
+      "status": "IN_PROGRESS",
+      "attempt": 1,
+      "owner": "root-integration-owner",
+      "required_artifacts": [
+        "00-governance/intake-original.md",
+        "00-governance/intake.json",
+        "00-governance/program-charter.md",
+        "00-governance/study-profile.json"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": "2026-08-28T19:30:46Z",
+      "completed_at": null
+    },
+    "NOVELTY_AUDIT": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "01-novelty/problem-investigation.md",
+        "01-novelty/novelty-claim-specification.md",
+        "01-novelty/search-protocol.md",
+        "01-novelty/prior-art-query-log.json",
+        "01-novelty/prior-art-raw-snapshots.json",
+        "01-novelty/prior-art-dedup-report.json",
+        "01-novelty/search-coverage.csv",
+        "01-novelty/evidence-ledger.csv",
+        "01-novelty/independent-search-challenge.md",
+        "01-novelty/novelty-matrix.csv",
+        "01-novelty/citation-audit.md",
+        "01-novelty/causal-model.mmd",
+        "01-novelty/candidate-portfolio.md"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "FEASIBILITY_GATE": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "02-feasibility/solution-viability-case.md",
+        "02-feasibility/evidence-maturity-ladder.csv",
+        "02-feasibility/feasibility-report.md",
+        "02-feasibility/risk-register.csv",
+        "02-feasibility/progression-criteria.csv"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "STUDY_DESIGN": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "03-design/protocol.md",
+        "03-design/analysis-plan.md",
+        "03-design/power-or-precision.md",
+        "03-design/preregistration-and-deviations.md"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "AUTHORIZED_EXECUTION": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "04-data/provenance-manifest.csv",
+        "04-data/evidence-status.csv"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "ANALYSIS": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "05-analysis/results/exploratory-findings.csv",
+        "05-analysis/results/primary-results.csv",
+        "05-analysis/results/robustness-and-boundaries.csv",
+        "05-analysis/results/negative-findings.csv",
+        "05-analysis/external-validation/protocol.md",
+        "05-analysis/external-validation/results.csv",
+        "05-analysis/external-validation/real-world-validation-report.md",
+        "05-analysis/external-validation/challenge.md",
+        "05-analysis/reproducibility-report.md",
+        "06-visuals/tables/t2-proposed-vs-baselines.csv",
+        "06-visuals/tables/t3-data-or-conditions.csv",
+        "06-visuals/tables/t7-real-world-feasibility.csv"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "MANUSCRIPT": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "06-visuals/visual-ledger.csv",
+        "06-visuals/figures/figure-manifest.csv",
+        "06-visuals/diagrams/architecture.mmd",
+        "06-visuals/diagrams/workflow.mmd",
+        "07-manuscript/manuscript.md",
+        "07-manuscript/claim-evidence-matrix.csv",
+        "07-manuscript/source-manifest.json"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "ADVERSARIAL_QA": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "08-validation/reviews/editor.md",
+        "08-validation/reviews/novelty-domain.md",
+        "08-validation/reviews/methods-statistics.md",
+        "08-validation/reviews/real-world-ethics.md",
+        "08-validation/reviews/visual-reproducibility.md",
+        "08-validation/reviews/clarity-coherence.md",
+        "08-validation/postdoctoral-standards-audit.md",
+        "08-validation/killer-question-ledger.csv",
+        "08-validation/remediation-log.csv"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "SUBMISSION_QA": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "09-submission/venue-portfolio.csv",
+        "09-submission/venue-rules.md",
+        "09-submission/reporting-checklist.md",
+        "09-submission/submission-audit.md",
+        "09-submission/submission-gate-ledger.csv",
+        "09-submission/novelty-refresh.md",
+        "09-submission/acceptance-readiness.md"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "HUMAN_APPROVAL": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "09-submission/human-approval.md"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    }
+  },
+  "phase_history": [
+    {
+      "phase": "INTAKE",
+      "event": "STARTED",
+      "at": "2026-08-28T19:30:46Z",
+      "owner": "root-integration-owner"
+    }
+  ],
+  "blockers": [],
+  "invalidation_queue": [],
+  "recovery_policy": {
+    "continue_until": "RESOLVED_OR_RESPONSIBLE_STOP",
+    "same_strategy_retry_limit": 1,
+    "strategy_change_required_after_failure": true,
+    "external_wait_requires_verified_resolution_evidence": true,
+    "busy_loop_prohibited": true
+  },
+  "recovery_queue": [],
+  "next_action": "Verify intake, authority, confidentiality, and claim boundaries before novelty work.",
+  "created_at": "2026-08-28T19:30:46Z",
+  "updated_at": "2026-08-28T19:30:46Z",
+  "migration_signed_revalidation_required": false,
+  "latest_anchor_hash": "13c0ccce62a8081fed4cd7c93675470a636f5bc657c0141e2a73e53edf6d990c"
+}

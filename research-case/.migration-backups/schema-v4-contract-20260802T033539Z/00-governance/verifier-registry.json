@@ -1,0 +1,17 @@
+{
+  "schema_version": 4,
+  "registry_revision": 1,
+  "trust_mode": "CASE_LOCAL_MECHANICAL_ONLY",
+  "registry_signing_key_id": "runtime-governance",
+  "trust_root_fingerprint": "",
+  "entries": [
+    {
+      "registry_id": "runtime-mechanical-attestor",
+      "identity_pattern": "^runtime-governance$",
+      "verifier_type": "ROOT_MECHANICAL_CHECK",
+      "signing_key_id": "runtime-governance",
+      "authority_tier": "MECHANICAL_RUNTIME_ONLY",
+      "active": true
+    }
+  ]
+}

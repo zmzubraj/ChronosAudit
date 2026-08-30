@@ -1,0 +1,5 @@
+query_id,surface,query,searched_at,result_count,screened_count,access_status
+Q001,arXiv and web,smart contract exploit benchmark historical state reconstruction EVM benchmark bytecode clone proxy,2026-08-29,3,3,BOUNDED_PUBLIC_ACCESS
+Q002,Anthropic and GitHub,SCONE-bench 417 historical incidents dataset,2026-08-29,2,2,BOUNDED_PUBLIC_ACCESS
+Q003,publisher and scholarly web,smart contract benchmark duplicate contracts bytecode metadata stripping dataset leakage,2026-08-29,2,2,BOUNDED_PUBLIC_ACCESS
+Q004,EIP repository,EIP-1898 EIP-1967 EIP-1167,2026-08-29,3,3,BOUNDED_PUBLIC_ACCESS

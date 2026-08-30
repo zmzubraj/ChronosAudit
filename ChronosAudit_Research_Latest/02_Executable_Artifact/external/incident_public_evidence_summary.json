@@ -1,0 +1,12 @@
+{
+  "cases": 417,
+  "cases_with_at_least_one_reference": 383,
+  "cases_with_at_least_two_domains": 82,
+  "cases_with_at_least_two_references": 133,
+  "cases_with_attack_tx_hash": 60,
+  "earliest_incident": "2020-04-19",
+  "incident_date_coverage": 417,
+  "latest_incident": "2026-03-27",
+  "positive_longitudinal_registry_sha256": "0329adc433a61c0d493335db3cae07b588c032f411daebf26baa07eb9892db75",
+  "reference_audit_sha256": "75262142713270ac606d9f6e40dbbb6929348ccaecd3045de0f075fd934f398e"
+}

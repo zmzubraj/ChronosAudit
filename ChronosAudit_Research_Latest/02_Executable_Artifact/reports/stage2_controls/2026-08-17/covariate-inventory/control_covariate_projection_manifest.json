@@ -1,0 +1,94 @@
+{
+  "decision": "PARTIAL_COVARIATE_PROJECTION",
+  "denominator_projection": {
+    "complete_fields": [
+      "identity_group"
+    ],
+    "coverage": {
+      "clone_family": 0,
+      "code_size": 0,
+      "identity_group": 20000,
+      "protocol_family": 0,
+      "proxy_family": 0,
+      "proxy_status": 0,
+      "source_verified_at_cutoff": 0
+    },
+    "decision": "PARTIAL_COVARIATE_PROJECTION",
+    "incomplete_fields": [
+      "clone_family",
+      "code_size",
+      "protocol_family",
+      "proxy_family",
+      "proxy_status",
+      "source_verified_at_cutoff"
+    ],
+    "input": {
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/processed/stage2_controls/2026-08-17/recovery3-authority-bridge/control_denominator_authority_projection.csv",
+      "sha256": "a574b5a865b02d4628b0f35768c7e7cb78878b1bd051260f3c787a320cbbf870"
+    },
+    "records_sha256": "a34ae2850df7141a323d0f2f4f733f1edef1b1c0d53894e491eebc2a22c515d6",
+    "row_count": 20000,
+    "schema_version": "chronosaudit.denominator_control_covariate_projection.v1",
+    "selection_authorized": false
+  },
+  "outputs": {
+    "denominator_projection": {
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/processed/stage2_controls/2026-08-17/covariate-inventory/denominator_control_covariate_projection.csv",
+      "sha256": "d553fb0be59538306b0eb6d76393838371fafa97e450ea8b05fe288a289c975e"
+    },
+    "positive_projection": {
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/processed/stage2_controls/2026-08-17/covariate-inventory/positive_control_covariate_projection.csv",
+      "sha256": "412e3ad2681ebf54f2c2cd9f6a5bf4f088c09171c9cf70a1eec4795edc40161d"
+    }
+  },
+  "positive_projection": {
+    "complete_fields": [
+      "clone_family",
+      "code_size",
+      "deployment_time",
+      "identity_group",
+      "positive_record_sha256",
+      "prediction_cutoff_time"
+    ],
+    "coverage": {
+      "clone_family": 417,
+      "code_size": 417,
+      "deployment_time": 417,
+      "follow_up_horizon": 0,
+      "identity_group": 417,
+      "mechanism_family": 0,
+      "positive_record_sha256": 417,
+      "prediction_cutoff_time": 417,
+      "protocol_family": 0,
+      "proxy_family": 67,
+      "proxy_status": 67,
+      "source_verified_at_cutoff": 0
+    },
+    "decision": "PARTIAL_COVARIATE_PROJECTION",
+    "incomplete_fields": [
+      "follow_up_horizon",
+      "mechanism_family",
+      "protocol_family",
+      "proxy_family",
+      "proxy_status",
+      "source_verified_at_cutoff"
+    ],
+    "inputs": {
+      "positives": {
+        "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/inputs/positive_cases_snapshot.csv",
+        "sha256": "5164a40ccdef04f3edb1555758b133cc28fec89571858c1bdacbba542962e824"
+      },
+      "snapshot_root": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/raw/historical_snapshots/2026-08-11/historical-snapshots-417-revised-v4",
+      "verified_projection": {
+        "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/historical_snapshot_verification/historical_snapshot_verified_projection.csv",
+        "sha256": "e41c648e8d9da468fac357ef1edf9da5cf08ea533938e87de9bff4010c643d9e"
+      }
+    },
+    "records_sha256": "7020ac720e79e982107eb0580a1e72c0ef4b243aced8aa59a17d5c2be28c2dd4",
+    "row_count": 417,
+    "schema_version": "chronosaudit.positive_control_covariate_projection.v1",
+    "selection_authorized": false
+  },
+  "schema_version": "chronosaudit.control_covariate_projection_bundle.v1",
+  "selection_authorized": false
+}

@@ -1,0 +1,99 @@
+{
+  "adapter_id": "MANUAL_PUBLIC_WEB_V1",
+  "may_assert_novelty": false,
+  "offline_only": false,
+  "records": [
+    {
+      "published_at": "unknown",
+      "query_id": "Q002",
+      "record_id": "PA-SCONE",
+      "salient_fact": "The current dataset contains 417 historical incidents and is licensed Apache-2.0.",
+      "source": "official benchmark repository",
+      "title": "scone-bench",
+      "url": "https://github.com/anthropics/scone-bench"
+    },
+    {
+      "published_at": "unknown",
+      "query_id": "Q002",
+      "record_id": "PA-ANTHROPIC-2025",
+      "salient_fact": "The 2025 evaluation used a 405-contract snapshot, historical local forks, and a benchmark derived largely from DeFiHackLabs.",
+      "source": "official research report",
+      "title": "AI agents find $4.6M in blockchain smart contract exploits",
+      "url": "https://www.anthropic.com/research/smart-contracts"
+    },
+    {
+      "published_at": "unknown",
+      "query_id": "Q001",
+      "record_id": "PA-EVMBENCH",
+      "salient_fact": "Evaluates 117 curated vulnerabilities from 40 repositories in a local Ethereum environment.",
+      "source": "preprint",
+      "title": "EVMbench: Evaluating AI Agents on Smart Contract Security",
+      "url": "https://arxiv.org/abs/2603.04915"
+    },
+    {
+      "published_at": "unknown",
+      "query_id": "Q001",
+      "record_id": "PA-REEVMBENCH",
+      "salient_fact": "Challenges benchmark stability and training-data contamination using 22 post-cutoff incidents.",
+      "source": "preprint",
+      "title": "Re-Evaluating EVMBench: Are AI Agents Ready for Smart Contract Security?",
+      "url": "https://arxiv.org/abs/2603.10795"
+    },
+    {
+      "published_at": "unknown",
+      "query_id": "Q001",
+      "record_id": "PA-CYBERCHAIN",
+      "salient_fact": "Uses 541 DeFiHackLabs incidents across nine chains with historical-state evaluation.",
+      "source": "preprint",
+      "title": "CyberChainBench: Can AI Agents Secure Smart Contracts Against Real-World On-Chain Vulnerabilities?",
+      "url": "https://arxiv.org/abs/2606.26216"
+    },
+    {
+      "published_at": "unknown",
+      "query_id": "Q003",
+      "record_id": "PA-DIVE",
+      "salient_fact": "Reports 22,330 Ethereum contracts, lifecycle-specific features, and systematic removal of duplicate entries.",
+      "source": "peer-reviewed dataset paper",
+      "title": "DIVE: A Multi-Label Smart Contract Vulnerability Dataset",
+      "url": "https://doi.org/10.1038/s41597-026-07025-5"
+    },
+    {
+      "published_at": "unknown",
+      "query_id": "Q003",
+      "record_id": "PA-CLONES",
+      "salient_fact": "Analyzes 33,073 contracts and reports substantial exact and near-clone prevalence at source/function granularity.",
+      "source": "peer-reviewed empirical study",
+      "title": "Code Cloning in Smart Contracts on the Ethereum Platform: An Extended Replication Study",
+      "url": "https://doi.org/10.1109/TSE.2022.3207428"
+    },
+    {
+      "published_at": "unknown",
+      "query_id": "Q004",
+      "record_id": "PA-EIP1898",
+      "salient_fact": "Defines block-hash selectors and requireCanonical for historical JSON-RPC reads.",
+      "source": "standard",
+      "title": "EIP-1898: Add blockHash to defaultBlock methods",
+      "url": "https://eips.ethereum.org/EIPS/eip-1898"
+    },
+    {
+      "published_at": "unknown",
+      "query_id": "Q004",
+      "record_id": "PA-ERC1967",
+      "salient_fact": "Defines implementation, beacon, and admin storage slots for proxies.",
+      "source": "standard",
+      "title": "ERC-1967: Proxy Storage Slots",
+      "url": "https://eips.ethereum.org/EIPS/eip-1967"
+    },
+    {
+      "published_at": "unknown",
+      "query_id": "Q004",
+      "record_id": "PA-ERC1167",
+      "salient_fact": "Defines recognizable minimal-proxy runtime bytecode delegating to a fixed target.",
+      "source": "standard",
+      "title": "ERC-1167: Minimal Proxy Contract",
+      "url": "https://eips.ethereum.org/EIPS/eip-1167"
+    }
+  ],
+  "run_id": "chronosaudit-temporalclone-mpp-20260828T193046Z-5c71be2f-7ac55a",
+  "schema_version": 4
+}

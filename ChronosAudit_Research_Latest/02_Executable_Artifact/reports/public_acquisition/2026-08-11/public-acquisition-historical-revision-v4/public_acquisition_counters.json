@@ -1,0 +1,66 @@
+{
+  "artifact_schema_version": "2026-08-08.task5",
+  "counters": {
+    "control_candidates": {
+      "observed": 0,
+      "passed": false,
+      "required": 4170
+    },
+    "control_review_packets": {
+      "observed": 0,
+      "passed": true,
+      "required": 0
+    },
+    "deployment_denominator": {
+      "details": {
+        "per_chain_observed": {
+          "arbitrum": 5000,
+          "base": 5000,
+          "bsc": 5000,
+          "ethereum": 5000
+        },
+        "per_chain_required": {
+          "arbitrum": 5000,
+          "base": 5000,
+          "bsc": 5000,
+          "ethereum": 5000
+        }
+      },
+      "observed": 20000,
+      "passed": true,
+      "required": 20000
+    },
+    "finalized_positive_adjudications": {
+      "observed": 0,
+      "passed": true,
+      "required": 0
+    },
+    "historical_snapshots": {
+      "observed": 417,
+      "passed": true,
+      "required": 417
+    },
+    "independent_adjudications": {
+      "observed": 0,
+      "passed": false,
+      "required": 417
+    },
+    "independent_r5_blocks": {
+      "observed": 0,
+      "passed": false,
+      "required": 120
+    },
+    "positive_case_review_packets": {
+      "observed": 417,
+      "passed": true,
+      "required": 0
+    },
+    "qualified_controls": {
+      "observed": 0,
+      "passed": false,
+      "required": 4170
+    },
+    "release_eligible_cases": 0
+  },
+  "input_manifest_sha256": "f7ef60ab55def4f7c4cb13d13e1fef567e0ab4f6037f0eb713fe0184aad5ad0f"
+}

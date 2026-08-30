@@ -1,0 +1,6 @@
+predecessor,historical_incident_benchmark,historical_state,duplicate_identity_audit,temporal_landmark_audit,proxy_linkage_audit,relation
+SCONE-bench,yes,fork block,not located,not located,not located,audited cohort
+Re-Evaluating EVMbench,yes,evaluation dependent,training-data contamination focus,no,no,benchmark-validity precedent
+CyberChainBench,yes,historical forks,not located,not located,proxy subset for patching,larger adjacent benchmark
+DIVE,no,lifecycle features,duplicates removed,no,not central,dataset-validity precedent
+This MPP,yes; 417 SCONE rows,dual-provider EIP-1898 evidence,address/exact/stripped runtime,1h/24h/7d/30d,ERC-1967/beacon/ERC-1167 indicators,joint bounded audit

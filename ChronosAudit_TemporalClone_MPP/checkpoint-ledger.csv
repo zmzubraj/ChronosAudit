@@ -1,0 +1,2 @@
+checkpoint_id,run_id,phase,cell_id,lease_id,status,artifact_hashes,summary,resume_instruction,created_at
+CP-INTAKE-001,chronosaudit-temporalclone-mpp-20260828T193046Z-5c71be2f-7ac55a,INTAKE,intake_integration,ROOT-OWNED,OPEN,5c71be2f9037ceb1a2c7c26af8cf9def6d5528cbd2058b2ebb82e29d2213ef20,Atomic kickoff completed; scientific and authority gates remain open.,Resume at INTAKE and verify governance boundaries.,2026-08-28T19:30:46Z

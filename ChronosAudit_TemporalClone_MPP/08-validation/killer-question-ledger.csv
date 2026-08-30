@@ -1,0 +1,11 @@
+question_id,critical,judgment,claim_ids,evidence_ids,action,question,consequence
+KQ001,yes,PASS,C003|C004|C005|C006,E003|E004|E006,Retain bounded operational framing.,Is the central question important enough to report?,Supports a narrow benchmark-validity contribution.
+KQ002,yes,UNKNOWN,C001,E005,Run a qualified independent search challenge.,Has novelty survived an independent search?,Universal novelty language is prohibited.
+KQ003,yes,PASS,C004|C005|C006,E001|E003|E004,Preserve claim boundary.,Can the design answer the stated questions?,Descriptive cohort conclusions only.
+KQ004,yes,PARTIAL,C003|C007,E001|E002|E006,Obtain clean-machine independent replay.,Are central results independently reproducible?,No independent certification.
+KQ005,yes,PASS,C004|C005|C006,E003|E004,Retain explicit exclusions.,Do conclusions exceed evidence maturity?,No scope inflation identified.
+KQ006,yes,PARTIAL,C002|C003,E001|E006,Complete human rights and institutional review.,Are rights and ethics resolved?,Row-level release remains gated.
+KQ007,yes,FAIL,C003,E006,Accountable authors complete metadata and declarations.,Are author identity and declarations complete?,Upload is blocked.
+KQ008,no,PASS,C003,E006,Run final venue-specific sizing.,Are figures tables and algorithms complete?,All planned explanatory artifacts exist.
+KQ009,no,PASS,C003,E006,Repeat after author edits.,Does the PDF pass mechanical QA?,Mechanically usable draft.
+KQ010,yes,FAIL,C003,E006,Human reviews exact package and platform preview.,Has a human approved the upload package?,No submission authority.

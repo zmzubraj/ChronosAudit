@@ -1,0 +1,13 @@
+{
+  "call_scope_sha256": "14f04eef98e4638edfa4bba611bdd58aa232f4f209d1a9afa5e1195033ec9041",
+  "method": "eth_getBlockByNumber",
+  "operator_family": "nodereal",
+  "params": [
+    "0x26f1cbf",
+    false
+  ],
+  "provider_id": "nodereal-bsc",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 3315,
+  "target_id": "base-state:5a29472e4b57ee2731fb18c225a19465ee316f769d6916a2793ff639bdbc18a2"
+}

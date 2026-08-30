@@ -1,0 +1,16 @@
+{
+  "accountable_author_identity": "current_workspace_user_as_accountable_author",
+  "artifact_schema_version": "2026-08-17.accountable-author-ai-gate-signoff.v1",
+  "attestation_type": "HASH_BOUND_CURRENT_TASK_DIRECTIVE",
+  "author_decision": "AUTHORIZE_INTERNAL_PROGRESSION",
+  "authorization_basis": "ACCOUNTABLE_AUTHOR_DIRECTIVE_IN_CURRENT_CODEX_TASK",
+  "authorization_source_sha256": "c7a54beefd4a46b853f77063005d412eb4bf9c9ca4102075a7c77b79834f402a",
+  "identity_binding_limit": "The role identifier is bound to the current workspace user directive; it is not an external cryptographic or institutional identity proof.",
+  "protocol_sha256": "c694b1ae2dac73e2ee9648b26b361ed0578e77acda83e7dc11b5882539b4f175",
+  "reliability_and_sensitivity_sha256": "d2458b92fd9e4ed1b9e3aa244fb2a86df2116c9950f8c5b765f3854db9de33b5",
+  "results_sha256": "22e8a4838b994071b9037925e4ce33ffc0d4aefe1f65a77752b83f88d6d70c4a",
+  "signature_or_attestation_sha256": "ff1231ac7582681a5d14b170a8513ed4bb3ea453c7b541ab7ecc5b3cea52c491",
+  "signed_at_utc": "2026-08-17T06:09:56Z",
+  "status": "SIGNED_INTERNAL_PROGRESSION_AUTHORIZATION",
+  "track_name": "AI_ONLY_TRIANGULATION_V1"
+}

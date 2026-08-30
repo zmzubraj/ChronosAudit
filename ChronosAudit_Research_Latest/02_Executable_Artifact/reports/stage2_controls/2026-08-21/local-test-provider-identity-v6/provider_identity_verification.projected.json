@@ -1,0 +1,137 @@
+{
+  "chain_count": 4,
+  "chains": [
+    {
+      "chain": "arbitrum",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain": "arbitrum",
+          "complete": true,
+          "endpoint_template_sha256": "75dae0a9fdf900f37bfd5781d118014d8e7fd536bd7ea0f7abdcd740ea847202",
+          "identity_evidence_sha256": "a412c7b383ed8e7570768bbb1077d9144a3df95ed06d1197c245f06f1b7e3618",
+          "provider_id": "arbitrum-official-arbitrum",
+          "public_endpoint_identity_id": "75dae0a9fdf900f37bfd5781d118014d8e7fd536bd7ea0f7abdcd740ea847202",
+          "public_endpoint_identity_sha256": "39cfe30c7997f7b66194e49761666d4059758fb0a630694202f929285470f07e",
+          "verified_operator_family": "arbitrum-official"
+        },
+        {
+          "chain": "arbitrum",
+          "complete": true,
+          "endpoint_template_sha256": "c0eba922677da2d734ba833cc433f70871367497512dba49a9dee240d4facc7d",
+          "identity_evidence_sha256": "6176b81dadd3def806327735116b272a2e9587d8ae07ae38b7f49bfecf84264d",
+          "provider_id": "drpc-arbitrum",
+          "public_endpoint_identity_id": "c0eba922677da2d734ba833cc433f70871367497512dba49a9dee240d4facc7d",
+          "public_endpoint_identity_sha256": "e7e92293acc1a42d95524fb62e282175dc6f8994b51b471a02d5ea8e33db49fa",
+          "verified_operator_family": "drpc"
+        }
+      ],
+      "verified_operator_families": [
+        "arbitrum-official",
+        "drpc"
+      ]
+    },
+    {
+      "chain": "base",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain": "base",
+          "complete": true,
+          "endpoint_template_sha256": "da1e4a0b726081a615f3a070f91579a54a9a7deb09de13f8c5f6687d4079cf27",
+          "identity_evidence_sha256": "eb1a94a1460e56b604cfd32ca109b087bfbf5216d947ecf460acc5bffb5e596a",
+          "provider_id": "base-official-base",
+          "public_endpoint_identity_id": "da1e4a0b726081a615f3a070f91579a54a9a7deb09de13f8c5f6687d4079cf27",
+          "public_endpoint_identity_sha256": "2480a909c5432cb8cfdf8134cea804db24e07b283165e27a798b5e23876df789",
+          "verified_operator_family": "base-official"
+        },
+        {
+          "chain": "base",
+          "complete": true,
+          "endpoint_template_sha256": "7d4aef4df75bf0e762be8812ce377b88579c81f7ee898eb5595ee9c7e16e0b9e",
+          "identity_evidence_sha256": "7b66e0268dcae45a9b012ce5d79693b30db798f652f3a151ebaa72478dbf94ec",
+          "provider_id": "publicnode-base",
+          "public_endpoint_identity_id": "7d4aef4df75bf0e762be8812ce377b88579c81f7ee898eb5595ee9c7e16e0b9e",
+          "public_endpoint_identity_sha256": "f2c8ae6d7e9e1515570cdb304a3733eb9859261d1836c03f72601338a0162c15",
+          "verified_operator_family": "publicnode"
+        }
+      ],
+      "verified_operator_families": [
+        "base-official",
+        "publicnode"
+      ]
+    },
+    {
+      "chain": "bsc",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain": "bsc",
+          "complete": true,
+          "endpoint_template_sha256": "2e478f4aa04134232f6ffd08cd94d1363cef63adc5f796c4a5dc0ec9db9034b9",
+          "identity_evidence_sha256": "107b28f502f1dfcaeb7c761454ef21be176e964eb83fe342a59fe244b52862ad",
+          "provider_id": "bnb-official-bsc",
+          "public_endpoint_identity_id": "2e478f4aa04134232f6ffd08cd94d1363cef63adc5f796c4a5dc0ec9db9034b9",
+          "public_endpoint_identity_sha256": "0309edd880e5e3053c3d994786a6d2ff6d6f935574a9513e0672018bb3db0de7",
+          "verified_operator_family": "bnb-official"
+        },
+        {
+          "chain": "bsc",
+          "complete": true,
+          "endpoint_template_sha256": "c09f8c4270313cade4929fe441dcb8d173095240917e70637231b904192e7792",
+          "identity_evidence_sha256": "943523c78c1308e0b72207887a5782e74c4ff3e3222de61d02eefce6db964076",
+          "provider_id": "nodereal-bsc",
+          "public_endpoint_identity_id": "c09f8c4270313cade4929fe441dcb8d173095240917e70637231b904192e7792",
+          "public_endpoint_identity_sha256": "28a83a27045df8f291cd82ad6f19dfec66800711a5e40e0d3dc9ea1ae28acab6",
+          "verified_operator_family": "nodereal"
+        }
+      ],
+      "verified_operator_families": [
+        "bnb-official",
+        "nodereal"
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain": "ethereum",
+          "complete": true,
+          "endpoint_template_sha256": "52702e0c8575501615f1efd7131401b6a1f2183acc7bc2fd97b5d3922b864460",
+          "identity_evidence_sha256": "eda843fdb1959274d49feffa84c002790ba7a6992cfb3301922cb79f7fcecffe",
+          "provider_id": "one-rpc-ethereum",
+          "public_endpoint_identity_id": "52702e0c8575501615f1efd7131401b6a1f2183acc7bc2fd97b5d3922b864460",
+          "public_endpoint_identity_sha256": "94dca2a81d47249b0bc1b177ca63577bcec6a14412605605c78b7536fccbd170",
+          "verified_operator_family": "1rpc"
+        },
+        {
+          "chain": "ethereum",
+          "complete": true,
+          "endpoint_template_sha256": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082",
+          "identity_evidence_sha256": "0aa30cd46fed972383066fe285d7377394d167d99cace7659aae08047adb0d8d",
+          "provider_id": "publicnode-ethereum",
+          "public_endpoint_identity_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082",
+          "public_endpoint_identity_sha256": "c8bafb1bf3fd8c8d466f1c52be815f9f7dce4a2c77b20499f5439895c4297300",
+          "verified_operator_family": "publicnode"
+        }
+      ],
+      "verified_operator_families": [
+        "1rpc",
+        "publicnode"
+      ]
+    }
+  ],
+  "complete": true,
+  "errors": [],
+  "report_sha256": "d738ac8c45e3b29d73b5f0ae5cd30ff5b76009b9cf1a5af89a44b1213a0cbdfe",
+  "schema_version": "historical_snapshot_provider_identity_verification.v1"
+}

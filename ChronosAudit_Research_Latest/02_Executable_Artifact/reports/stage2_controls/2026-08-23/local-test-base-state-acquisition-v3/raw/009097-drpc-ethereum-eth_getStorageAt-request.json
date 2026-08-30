@@ -1,0 +1,17 @@
+{
+  "call_scope_sha256": "da3a18abd07fbc4cd56e081863a222d5a1cc3932bfd19482f73036ac1816481d",
+  "method": "eth_getStorageAt",
+  "operator_family": "drpc",
+  "params": [
+    "0x2e7840d0bbc49555a2a43a5e0bc8e02b3e845982",
+    "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103",
+    {
+      "blockHash": "0xc1691c5517fc694b03ef0b5467e50bdeb1cb63c99518e9ffe4c3e44b3f4ea691",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "drpc-ethereum",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 9097,
+  "target_id": "base-state:eed9585e15b2a810ad058fe2bac8cb973622b1d834726089fec9659429b0634c"
+}

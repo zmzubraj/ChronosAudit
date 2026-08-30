@@ -1,0 +1,17 @@
+{
+  "call_scope_sha256": "7a445afd5d1a73a4bed2649c1b37e0f6c44e846a7fa8485026b6887e3d868ef9",
+  "method": "eth_getStorageAt",
+  "operator_family": "base-official",
+  "params": [
+    "0xfceb988173f80124ef1f1e9786a4cd76b24a65b4",
+    "0xa3f0ad74e5423aebfd80d3ef4346578335a9a72aeaee59ff6cb3582b35133d50",
+    {
+      "blockHash": "0x27cd005df4823121f894ce9407bbbfda6872e43ac30a910d5a5203d17c9ceaca",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "base-official-base",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 8313,
+  "target_id": "base-state:d5147bfbcb41f7c4876816ba9099b66899a0b918764b3386f5358e24ea5b9999"
+}

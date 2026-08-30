@@ -1,0 +1,23 @@
+{
+  "error": null,
+  "http_status": 200,
+  "method": "eth_getStorageAt",
+  "observed_at_unix": 1787424284,
+  "observed_at_utc": "2026-08-22T18:44:44Z",
+  "operator_family": "base-official",
+  "params": [
+    "0x29e4373fab84e83248842d8ef8668ee207212377",
+    "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+    {
+      "blockHash": "0x299a9d90a266d6ab5f5521558c1ec3fd11679a0727b674e4dae1fd25a32797f2",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "base-official-base",
+  "result": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "schema_version": "stage2_control_cutoff_state_rpc_response.v1",
+  "sequence": 1003,
+  "target_id": "base-state:18c03a68411e23a2cc79e92a4f861fe3797b37aa38769c0a490b5a575898584c",
+  "transport_request_sha256": "34f5cf4d648302a986b43423c452579c965525e3d014827f56c58c36c2c57e70",
+  "transport_response_sha256": "55ba97afa8356e432f56e986f6cf0b730fe5f22f4872d13937895c072f0a6bae"
+}

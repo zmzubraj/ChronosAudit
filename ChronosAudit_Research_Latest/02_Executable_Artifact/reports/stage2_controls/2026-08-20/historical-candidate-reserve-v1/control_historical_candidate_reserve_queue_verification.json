@@ -1,0 +1,14 @@
+{
+  "decision": "RESERVE_QUEUE_VERIFIED_NON_AUTHORIZING",
+  "global_no_reuse_verified": true,
+  "manifest_sha256": "7c86f3747dc381eba9b31934d2c76f5f3f6dfed30b796725b45e90e61b588978",
+  "queue_row_count": 34900,
+  "queue_sha256": "89057a27cb2fbaeba93cf74ba55b2133ab816b2d0b66d6a89e8a596ca1d21ec9",
+  "recovery3_mutation_authorized": false,
+  "reserve_shortfall": 0,
+  "reserve_target": 34900,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_historical_candidate_reserve_queue_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

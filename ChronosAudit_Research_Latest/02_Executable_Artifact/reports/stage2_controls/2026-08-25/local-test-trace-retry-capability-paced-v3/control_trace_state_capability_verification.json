@@ -1,0 +1,18 @@
+{
+  "chain_count": 3,
+  "complete": false,
+  "errors": [
+    "base:drpc-base:trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 408: Request Timeout\",\"trace_transaction\":\"HTTPError: HTTP Error 408: Request Timeout\"}",
+    "ethereum:merkle-ethereum:rpc_error:eth_getBlockByHash"
+  ],
+  "provider_registry_verified": false,
+  "raw_evidence_count": 90,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "a9cb8941fe990e507eb0945c5f7c455c633cfc3e54b899f3223bbd0ef1b25e3a",
+  "report_sha256": "fee78de97f2297c88f75b08892ee913afa7a456ddef681f2daed5686c0c5b8fa",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "90bf3f1166855aa20120b10c14faed58632e0f28e9595d470893e19867741147"
+}

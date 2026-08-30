@@ -1,0 +1,1000 @@
+{
+  "schema_version": 4,
+  "run_id": "chronosaudit-temporalclone-mpp-20260828T193046Z-5c71be2f-7ac55a",
+  "created_at": "2026-08-28T19:30:46Z",
+  "integration_owner": "root-integration-owner",
+  "serial_phase_order": [
+    "INTAKE",
+    "NOVELTY_AUDIT",
+    "FEASIBILITY_GATE",
+    "STUDY_DESIGN",
+    "AUTHORIZED_EXECUTION",
+    "ANALYSIS",
+    "MANUSCRIPT",
+    "ADVERSARIAL_QA",
+    "SUBMISSION_QA",
+    "HUMAN_APPROVAL"
+  ],
+  "advance_decisions": {
+    "INTAKE": "PROCEED",
+    "NOVELTY_AUDIT": "NOVELTY_SURVIVES",
+    "FEASIBILITY_GATE": "GO",
+    "STUDY_DESIGN": "DESIGN_APPROVED",
+    "AUTHORIZED_EXECUTION": "EXECUTION_COMPLETE",
+    "ANALYSIS": "EVIDENCE_READY",
+    "MANUSCRIPT": "MANUSCRIPT_READY",
+    "ADVERSARIAL_QA": "CRITICAL_GATES_PASS",
+    "SUBMISSION_QA": "SUBMISSION_PACKAGE_READY"
+  },
+  "loop_outcomes": {
+    "NOVELTY_AUDIT": {
+      "NOVELTY_UNRESOLVED": {
+        "action": "RETRY",
+        "target": "NOVELTY_AUDIT",
+        "next_action": "Extend the reproducible prior-art search or obtain missing sources, then rerun the novelty audit."
+      },
+      "REFRAME": {
+        "action": "INVALIDATE",
+        "target": "NOVELTY_AUDIT",
+        "next_action": "Reframe or narrow the contribution within the recorded intake; revise the intake and invalidate INTAKE if the research question changes materially."
+      },
+      "STOP": {
+        "action": "STOP",
+        "target": "NOVELTY_AUDIT",
+        "next_action": "Preserve the defeated novelty case and negative evidence; do not continue toward a manuscript claim."
+      }
+    },
+    "FEASIBILITY_GATE": {
+      "PILOT_FIRST": {
+        "action": "RETRY",
+        "target": "FEASIBILITY_GATE",
+        "next_action": "Freeze pilot authority, protocol, and green/amber/red criteria; run only the authorized feasibility pilot, then reassess feasibility."
+      },
+      "REDESIGN": {
+        "action": "INVALIDATE",
+        "target": "NOVELTY_AUDIT",
+        "next_action": "Redesign the proposal from the novelty and causal-model stage, then rerun feasibility."
+      },
+      "BLOCKED": {
+        "action": "BLOCK",
+        "target": "FEASIBILITY_GATE",
+        "next_action": "Resolve the named authority, ethics, safety, access, validity, resource, or value blocker before resuming."
+      },
+      "RESUME": {
+        "action": "RESUME",
+        "target": "FEASIBILITY_GATE",
+        "next_action": "Reassess feasibility using verified evidence that the recorded blockers are resolved."
+      },
+      "STOP": {
+        "action": "STOP",
+        "target": "FEASIBILITY_GATE",
+        "next_action": "Preserve the feasibility failure and stop the research program."
+      }
+    },
+    "ADVERSARIAL_QA": {
+      "REMEDIATE": {
+        "action": "INVALIDATE",
+        "target": "ADVERSARIAL_QA",
+        "next_action": "Apply the smallest evidence-bound remediation and rerun every affected killer question."
+      },
+      "STOP": {
+        "action": "STOP",
+        "target": "ADVERSARIAL_QA",
+        "next_action": "Preserve the fatal review findings and do not promote the submission package."
+      }
+    }
+  },
+  "parallelism_policy": "Only dependency-clear, non-overlapping cells within a phase. The root may dispatch up to the per-phase parallel limit and may use first-valid-candidate race groups only for duplicate retrieval work with cooperative cancellation.",
+  "parallel_defaults": {
+    "phase_limits": {
+      "INTAKE": 1,
+      "NOVELTY_AUDIT": 3,
+      "FEASIBILITY_GATE": 2,
+      "STUDY_DESIGN": 2,
+      "AUTHORIZED_EXECUTION": 1,
+      "ANALYSIS": 3,
+      "MANUSCRIPT": 3,
+      "ADVERSARIAL_QA": 3,
+      "SUBMISSION_QA": 3,
+      "HUMAN_APPROVAL": 1
+    },
+    "requires_disjoint_write_scopes": true,
+    "race_groups_require_dispatch_local_candidates": true,
+    "race_groups_do_not_promote_scientific_gates": true
+  },
+  "autonomy_policy": {
+    "root_may_auto_dispatch_ready_cells": true,
+    "root_may_auto_cancel_race_siblings_after_valid_winner": true,
+    "root_may_not_self_certify": [
+      "novelty",
+      "scientific_verification",
+      "ethics_approval",
+      "human_approval",
+      "acceptance_readiness"
+    ]
+  },
+  "verdict_policy": "Evidence-bound gate decisions; no voting or aggregate score may override a blocker.",
+  "assurance_policy": {
+    "novelty": {
+      "mode": "EVIDENCE_BOUNDED",
+      "independent_search_challenge_required": true,
+      "known_item_and_citation_chaining_required": true,
+      "cross_surface_search_required": true,
+      "submission_refresh_required": true,
+      "universal_proof_allowed": false
+    },
+    "solution_viability": {
+      "claim_matched_evidence_ladder_required": true,
+      "failure_envelope_required": true,
+      "external_evidence_required_for_real_world_claims": true,
+      "simulation_may_support_only_matching_claim_scope": true
+    },
+    "acceptance": {
+      "readiness_audit_required": true,
+      "calibrated_forecast_allowed": true,
+      "forecast_requires_target_matched_data_and_uncertainty": true,
+      "guarantee_allowed": false,
+      "editorial_decision_is_external": true
+    },
+    "substitution": {
+      "simulation_and_synthetic_acceleration_allowed": true,
+      "ai_may_replace_empirical_evidence": false,
+      "ai_may_replace_ethics_authority": false,
+      "ai_may_replace_accountable_human": false,
+      "synthetic_or_simulated_evidence_must_be_labeled": true
+    },
+    "review": {
+      "postdoctoral_standard_ai_audit_required": true,
+      "independent_domain_human_disposition_required": true,
+      "universal_postdoctoral_acceptance_claim_allowed": false
+    }
+  },
+  "cells": [
+    {
+      "cell_id": "intake_integration",
+      "phase": "INTAKE",
+      "agent_type": "root-integration-owner",
+      "access": "write",
+      "owned_scope": [
+        "program-state.json",
+        "artifact-registry.csv",
+        "00-governance/*"
+      ],
+      "dependencies": [],
+      "skill_focus": [
+        "orchestrate-top-journal-research"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "READY",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "problem_investigation",
+      "phase": "NOVELTY_AUDIT",
+      "agent_type": "research-analyst",
+      "access": "write",
+      "owned_scope": [
+        "01-novelty/problem-investigation.md",
+        "01-novelty/novelty-claim-specification.md",
+        "01-novelty/causal-model.mmd"
+      ],
+      "dependencies": [
+        "intake_integration"
+      ],
+      "skill_focus": [
+        "solve-novel-problems",
+        "scientific-brainstorming",
+        "hypothesis-generation"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "prior_art_retrieval_race",
+      "phase": "NOVELTY_AUDIT",
+      "agent_type": "search-specialist",
+      "access": "write",
+      "owned_scope": [
+        ".control/novelty-candidates/*"
+      ],
+      "dependencies": [
+        "problem_investigation"
+      ],
+      "skill_focus": [
+        "paper-lookup",
+        "literature-review",
+        "reproducible-live-adapters",
+        "candidate-only-retrieval"
+      ],
+      "dispatch_policy": {
+        "mode": "race_group",
+        "fanout": 2,
+        "winner_rule": "FIRST_VALID_CANDIDATE",
+        "success_predicate": "VALID_PRIOR_ART_RETRIEVAL_CANDIDATE_V1",
+        "winner_effect": "A race winner shortens duplicate retrieval work only. It does not prove novelty, replace independent search challenge, or bypass strongest-predecessor reconciliation.",
+        "replica_write_mode": "dispatch_local_candidates_only",
+        "cancellation_mode": "SUPERSEDE_AND_REQUEST_PLATFORM_INTERRUPT",
+        "strategies": [
+          {
+            "replica_id": "adapter_first",
+            "label": "Adapter-first retrieval",
+            "focus": "Execute the same frozen query contract through the approved deterministic metadata adapters."
+          },
+          {
+            "replica_id": "search_specialist_first",
+            "label": "Search-specialist retrieval",
+            "focus": "Execute the identical frozen query contract using an independent retrieval path and return the same candidate schema."
+          }
+        ]
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "prior_art_search",
+      "phase": "NOVELTY_AUDIT",
+      "agent_type": "search-specialist",
+      "access": "write",
+      "owned_scope": [
+        "01-novelty/search-protocol.md",
+        "01-novelty/prior-art-*.json",
+        "01-novelty/prior-art-raw/*",
+        "01-novelty/search-coverage.csv",
+        "01-novelty/evidence-ledger.csv"
+      ],
+      "dependencies": [
+        "prior_art_retrieval_race"
+      ],
+      "skill_focus": [
+        "paper-lookup",
+        "literature-review",
+        "citation-management",
+        "reproducible-live-adapters",
+        "candidate-reconciliation"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "prior_art_search_challenge",
+      "phase": "NOVELTY_AUDIT",
+      "agent_type": "docs-researcher",
+      "access": "write",
+      "owned_scope": [
+        "01-novelty/independent-search-challenge.md"
+      ],
+      "dependencies": [
+        "problem_investigation"
+      ],
+      "skill_focus": [
+        "paper-lookup",
+        "literature-review",
+        "citation-management",
+        "independent-search"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "novelty_synthesis",
+      "phase": "NOVELTY_AUDIT",
+      "agent_type": "research-analyst",
+      "access": "write",
+      "owned_scope": [
+        "01-novelty/novelty-matrix.csv",
+        "01-novelty/candidate-portfolio.md"
+      ],
+      "dependencies": [
+        "problem_investigation",
+        "prior_art_search",
+        "prior_art_search_challenge"
+      ],
+      "skill_focus": [
+        "solve-novel-problems",
+        "scientific-critical-thinking"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "citation_challenge",
+      "phase": "NOVELTY_AUDIT",
+      "agent_type": "docs-researcher",
+      "access": "write",
+      "owned_scope": [
+        "01-novelty/citation-audit.md"
+      ],
+      "dependencies": [
+        "prior_art_search",
+        "novelty_synthesis"
+      ],
+      "skill_focus": [
+        "citation-management"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "solution_viability",
+      "phase": "FEASIBILITY_GATE",
+      "agent_type": "research-analyst",
+      "access": "write",
+      "owned_scope": [
+        "02-feasibility/solution-viability-case.md",
+        "02-feasibility/evidence-maturity-ladder.csv"
+      ],
+      "dependencies": [
+        "novelty_synthesis",
+        "citation_challenge"
+      ],
+      "skill_focus": [
+        "solve-novel-problems",
+        "research-feasibility-gate",
+        "falsification",
+        "evidence-maturity"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "feasibility_science",
+      "phase": "FEASIBILITY_GATE",
+      "agent_type": "research-analyst",
+      "access": "write",
+      "owned_scope": [
+        "02-feasibility/feasibility-report.md",
+        "02-feasibility/progression-criteria.csv",
+        "02-feasibility/pilot-plan.md",
+        "02-feasibility/pilot-results.md"
+      ],
+      "dependencies": [
+        "solution_viability"
+      ],
+      "skill_focus": [
+        "research-feasibility-gate"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "feasibility_risk",
+      "phase": "FEASIBILITY_GATE",
+      "agent_type": "risk-manager",
+      "access": "write",
+      "owned_scope": [
+        "02-feasibility/risk-register.csv"
+      ],
+      "dependencies": [
+        "solution_viability"
+      ],
+      "skill_focus": [
+        "research-feasibility-gate",
+        "ethics",
+        "safety"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "methods_design",
+      "phase": "STUDY_DESIGN",
+      "agent_type": "data-scientist",
+      "access": "write",
+      "owned_scope": [
+        "03-design/protocol.md",
+        "03-design/analysis-plan.md",
+        "03-design/preregistration-and-deviations.md"
+      ],
+      "dependencies": [
+        "feasibility_science",
+        "feasibility_risk"
+      ],
+      "skill_focus": [
+        "experimental-design"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "power_challenge",
+      "phase": "STUDY_DESIGN",
+      "agent_type": "quant-analyst",
+      "access": "write",
+      "owned_scope": [
+        "03-design/power-or-precision.md"
+      ],
+      "dependencies": [
+        "methods_design"
+      ],
+      "skill_focus": [
+        "statistical-power"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "authorized_execution",
+      "phase": "AUTHORIZED_EXECUTION",
+      "agent_type": "data-engineer",
+      "access": "write",
+      "owned_scope": [
+        "04-data/*"
+      ],
+      "dependencies": [
+        "methods_design",
+        "power_challenge"
+      ],
+      "skill_focus": [
+        "provenance",
+        "authorization",
+        "evidence-origin-labeling"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "exploratory_analysis",
+      "phase": "ANALYSIS",
+      "agent_type": "data-analyst",
+      "access": "write",
+      "owned_scope": [
+        "05-analysis/results/exploratory-findings.csv"
+      ],
+      "dependencies": [
+        "authorized_execution"
+      ],
+      "skill_focus": [
+        "exploratory-data-analysis",
+        "post-hoc-labeling"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "confirmatory_analysis",
+      "phase": "ANALYSIS",
+      "agent_type": "quant-analyst",
+      "access": "write",
+      "owned_scope": [
+        "05-analysis/results/primary-results.csv",
+        "05-analysis/results/robustness-and-boundaries.csv",
+        "05-analysis/results/negative-findings.csv",
+        "06-visuals/tables/t2-proposed-vs-baselines.csv",
+        "06-visuals/tables/t5-ablation-or-mechanism.csv"
+      ],
+      "dependencies": [
+        "authorized_execution"
+      ],
+      "skill_focus": [
+        "statistical-analysis"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "data_conditions",
+      "phase": "ANALYSIS",
+      "agent_type": "data-analyst",
+      "access": "write",
+      "owned_scope": [
+        "06-visuals/tables/t3-data-or-conditions.csv"
+      ],
+      "dependencies": [
+        "authorized_execution"
+      ],
+      "skill_focus": [
+        "exploratory-data-analysis",
+        "data-conditions"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "external_validation",
+      "phase": "ANALYSIS",
+      "agent_type": "research-analyst",
+      "access": "write",
+      "owned_scope": [
+        "05-analysis/external-validation/protocol.md",
+        "05-analysis/external-validation/results.csv",
+        "05-analysis/external-validation/real-world-validation-report.md",
+        "06-visuals/tables/t7-real-world-feasibility.csv"
+      ],
+      "dependencies": [
+        "exploratory_analysis",
+        "confirmatory_analysis",
+        "data_conditions"
+      ],
+      "skill_focus": [
+        "external-validation",
+        "research-feasibility-gate",
+        "statistical-analysis"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "external_validation_challenge",
+      "phase": "ANALYSIS",
+      "agent_type": "reviewer",
+      "access": "write",
+      "owned_scope": [
+        "05-analysis/external-validation/challenge.md"
+      ],
+      "dependencies": [
+        "external_validation"
+      ],
+      "skill_focus": [
+        "generalizability",
+        "transportability",
+        "real-world-boundaries"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "reproducibility_challenge",
+      "phase": "ANALYSIS",
+      "agent_type": "reviewer",
+      "access": "write",
+      "owned_scope": [
+        "05-analysis/reproducibility-report.md"
+      ],
+      "dependencies": [
+        "exploratory_analysis",
+        "confirmatory_analysis",
+        "data_conditions",
+        "external_validation_challenge"
+      ],
+      "skill_focus": [
+        "reproducibility",
+        "statistical-analysis"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "manuscript_integration",
+      "phase": "MANUSCRIPT",
+      "agent_type": "technical-writer",
+      "access": "write",
+      "owned_scope": [
+        "07-manuscript/*"
+      ],
+      "dependencies": [
+        "confirmatory_analysis",
+        "data_conditions",
+        "external_validation_challenge",
+        "reproducibility_challenge"
+      ],
+      "skill_focus": [
+        "scientific-writing",
+        "venue-templates"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "quantitative_visuals",
+      "phase": "MANUSCRIPT",
+      "agent_type": "data-scientist",
+      "access": "write",
+      "owned_scope": [
+        "06-visuals/figures/*",
+        "06-visuals/visual-ledger.csv"
+      ],
+      "dependencies": [
+        "confirmatory_analysis"
+      ],
+      "skill_focus": [
+        "matplotlib",
+        "seaborn",
+        "scientific-visualization"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "research_diagrams",
+      "phase": "MANUSCRIPT",
+      "agent_type": "mermaid-expert",
+      "access": "write",
+      "owned_scope": [
+        "06-visuals/diagrams/*",
+        "06-visuals/schematics/*"
+      ],
+      "dependencies": [
+        "methods_design",
+        "novelty_synthesis"
+      ],
+      "skill_focus": [
+        "mermaid-skill",
+        "scientific-schematics"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "research_images",
+      "phase": "MANUSCRIPT",
+      "agent_type": "image-generator",
+      "access": "write",
+      "owned_scope": [
+        "06-visuals/images/*"
+      ],
+      "dependencies": [
+        "manuscript_integration"
+      ],
+      "skill_focus": [
+        "imagegen",
+        "disclosure",
+        "non-evidentiary only"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "editor_challenge",
+      "phase": "ADVERSARIAL_QA",
+      "agent_type": "reviewer",
+      "access": "write",
+      "owned_scope": [
+        "08-validation/reviews/editor.md"
+      ],
+      "dependencies": [
+        "manuscript_integration",
+        "quantitative_visuals",
+        "research_diagrams"
+      ],
+      "skill_focus": [
+        "top-journal-paper-validator"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "novelty_domain_challenge",
+      "phase": "ADVERSARIAL_QA",
+      "agent_type": "research-analyst",
+      "access": "write",
+      "owned_scope": [
+        "08-validation/reviews/novelty-domain.md"
+      ],
+      "dependencies": [
+        "manuscript_integration",
+        "novelty_synthesis",
+        "citation_challenge"
+      ],
+      "skill_focus": [
+        "top-journal-paper-validator",
+        "solve-novel-problems"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "methods_stats_challenge",
+      "phase": "ADVERSARIAL_QA",
+      "agent_type": "quant-analyst",
+      "access": "write",
+      "owned_scope": [
+        "08-validation/reviews/methods-statistics.md"
+      ],
+      "dependencies": [
+        "manuscript_integration"
+      ],
+      "skill_focus": [
+        "top-journal-paper-validator",
+        "statistical-analysis"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "real_world_ethics_challenge",
+      "phase": "ADVERSARIAL_QA",
+      "agent_type": "risk-manager",
+      "access": "write",
+      "owned_scope": [
+        "08-validation/reviews/real-world-ethics.md"
+      ],
+      "dependencies": [
+        "manuscript_integration"
+      ],
+      "skill_focus": [
+        "top-journal-paper-validator",
+        "ethics",
+        "feasibility"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "visual_repro_challenge",
+      "phase": "ADVERSARIAL_QA",
+      "agent_type": "reviewer",
+      "access": "write",
+      "owned_scope": [
+        "08-validation/reviews/visual-reproducibility.md"
+      ],
+      "dependencies": [
+        "quantitative_visuals",
+        "research_diagrams",
+        "research_images"
+      ],
+      "skill_focus": [
+        "top-journal-paper-validator",
+        "scientific-visualization"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "clarity_coherence_challenge",
+      "phase": "ADVERSARIAL_QA",
+      "agent_type": "reviewer",
+      "access": "write",
+      "owned_scope": [
+        "08-validation/reviews/clarity-coherence.md"
+      ],
+      "dependencies": [
+        "manuscript_integration",
+        "quantitative_visuals"
+      ],
+      "skill_focus": [
+        "top-journal-paper-validator",
+        "scientific-writing"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "postdoctoral_standards_challenge",
+      "phase": "ADVERSARIAL_QA",
+      "agent_type": "reviewer",
+      "access": "write",
+      "owned_scope": [
+        "08-validation/postdoctoral-standards-audit.md"
+      ],
+      "dependencies": [
+        "manuscript_integration",
+        "quantitative_visuals",
+        "research_diagrams",
+        "methods_stats_challenge",
+        "editor_challenge"
+      ],
+      "skill_focus": [
+        "top-journal-paper-validator",
+        "scientific-writing",
+        "scientific-visualization",
+        "postdoctoral-standard-rubric"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "validation_integration",
+      "phase": "ADVERSARIAL_QA",
+      "agent_type": "root-integration-owner",
+      "access": "write",
+      "owned_scope": [
+        "08-validation/killer-question-ledger.csv",
+        "08-validation/remediation-log.csv"
+      ],
+      "dependencies": [
+        "editor_challenge",
+        "novelty_domain_challenge",
+        "methods_stats_challenge",
+        "real_world_ethics_challenge",
+        "visual_repro_challenge",
+        "clarity_coherence_challenge",
+        "postdoctoral_standards_challenge"
+      ],
+      "skill_focus": [
+        "top-journal-paper-validator"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "venue_compliance",
+      "phase": "SUBMISSION_QA",
+      "agent_type": "docs-researcher",
+      "access": "write",
+      "owned_scope": [
+        "09-submission/venue-portfolio.csv",
+        "09-submission/venue-rules.md",
+        "09-submission/reporting-checklist.md",
+        "09-submission/submission-audit.md",
+        "09-submission/submission-gate-ledger.csv"
+      ],
+      "dependencies": [
+        "validation_integration"
+      ],
+      "skill_focus": [
+        "venue-templates",
+        "citation-management",
+        "current official rules",
+        "reporting-guidelines",
+        "structured-gate-rules"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "acceptance_readiness",
+      "phase": "SUBMISSION_QA",
+      "agent_type": "docs-researcher",
+      "access": "write",
+      "owned_scope": [
+        "09-submission/novelty-refresh.md",
+        "09-submission/acceptance-readiness.md",
+        "09-submission/acceptance-forecast.csv"
+      ],
+      "dependencies": [
+        "venue_compliance",
+        "postdoctoral_standards_challenge"
+      ],
+      "skill_focus": [
+        "paper-lookup",
+        "literature-review",
+        "top-journal-paper-validator",
+        "calibrated-forecasting"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    },
+    {
+      "cell_id": "human_approval",
+      "phase": "HUMAN_APPROVAL",
+      "agent_type": "accountable-human",
+      "access": "human-only",
+      "owned_scope": [
+        "09-submission/human-approval.md"
+      ],
+      "dependencies": [
+        "acceptance_readiness"
+      ],
+      "skill_focus": [
+        "authorship",
+        "ethics",
+        "institutional authority",
+        "submission"
+      ],
+      "dispatch_policy": {
+        "mode": "single"
+      },
+      "status": "PENDING",
+      "lease_id": null,
+      "checkpoint_id": null
+    }
+  ]
+}

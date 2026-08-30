@@ -1,0 +1,12 @@
+gate,requested_threshold,strict_qualified_now,separate_developmental_evidence,status
+Historical snapshot authority,417,417,"360 retained authoritative rows plus 57 deterministic replacements; verifier counter_authority=true",CLOSED_STRICT
+ChronosAudit-qualified deployment denominator,20000,20000,"5000 verified rows each for ethereum bsc base arbitrum",CLOSED_STRICT
+Two blinded same-case human reviewer labels,834,0,"AI-only primaries completed 834 model decisions but have no human-counter effect",OPEN_STRICT
+Same-case independent human adjudications,417,0,"AI-only final decisions completed 417 cases; not human adjudication",OPEN_STRICT
+AI-only internal adjudications,417,417,"143 disagreements resolved by distinct model run; reliability threshold failed",COMPLETE_FAIL_RELIABILITY
+Cutoff-safe matched controls,4170,0,"dual-provider trace and EIP-1898 cutoff-state pipeline implemented; deterministic cutoff-safe pair-feature and final-horizon binding implemented; all-or-nothing global freeze writes no cohort on shortfall and forbids post-freeze replacement; no production pair-feature package or frozen cohort exists",OPEN_STRICT
+Qualified controls with frozen follow-up,4170,0,"exact eight-check evidence and portable approval bundle implemented; local-test keys are mechanical and non-authorizing; accountable human identity binding and complete live evidence remain absent",OPEN_STRICT
+Certified R5 independent blocks,120,0,"exact-identity grouping is clean; broader R5 dependencies incomplete",OPEN_STRICT
+Independent third-party regeneration,1,0,"internal deterministic verification exists",OPEN_STRICT
+Release-eligible cases,">0 after full case-level conjunction",0,"release predicates remain unsatisfied",OPEN_STRICT
+Public-RPC append-only ledger and raw receipts,complete,0,"local-test control-reserve ledger has 1366 complete observations plus content-addressed raw request/response envelopes; acquisition is partial and non-authorizing, with 558 internal/factory rows requiring trace evidence",PARTIAL_OPEN

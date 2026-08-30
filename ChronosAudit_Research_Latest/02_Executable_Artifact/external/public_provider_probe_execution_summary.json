@@ -1,0 +1,10 @@
+{
+  "cases": 2,
+  "planned_observations": 4,
+  "provider_families_per_chain": 2,
+  "mode": "execute",
+  "plan_sha256": "2330cab1e84f22331f263a4a47bfb94cf438be094ba6b4a6770a7ed436d90ed8",
+  "executed": 4,
+  "ok": 0,
+  "output_sha256": "0ac1cc088e57f46f8542fe6844ff86747bb458040324aaa62644cae7e8500c8d"
+}

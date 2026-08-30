@@ -1,0 +1,6 @@
+evidence_id,claim_ids,origin,maturity,scope,status,authorized,independent,source_artifact
+E-LOCAL-PROBLEM,C001,ANALYTIC,V0 ASSERTED,ASSERTED,PARTIAL,true,false,01-novelty/problem-investigation.md
+E-LOCAL-NOVELTY,C001,EXPERT_JUDGMENT,V0 ASSERTED,ASSERTED,UNKNOWN,true,false,01-novelty/novelty-matrix.csv
+E-LOCAL-FEASIBILITY,C002,REAL_OBSERVED,V0 ASSERTED,ASSERTED,PARTIAL,true,false,02-feasibility/feasibility-report.md
+E-LOCAL-PILOT,C002,REAL_EXPERIMENTAL,V0 ASSERTED,ASSERTED,PARTIAL,true,false,02-feasibility/pilot-results.md
+E-LOCAL-VIABILITY,C001|C002,EXPERT_JUDGMENT,V0 ASSERTED,ASSERTED,UNSUPPORTED,true,false,02-feasibility/solution-viability-case.md

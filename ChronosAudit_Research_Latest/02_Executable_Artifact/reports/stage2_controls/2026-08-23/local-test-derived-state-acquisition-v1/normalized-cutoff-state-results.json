@@ -1,0 +1,1305 @@
+{
+  "activation_verification_sha256": "a167370a42c08c8a6696714b2adc08dbd96ccfe3917a09b51df4577e2d9332bd",
+  "completed_target_count": 28,
+  "dispositions": {
+    "complete": 28
+  },
+  "processed_target_count": 28,
+  "recovery3_mutation_authorized": false,
+  "results_sha256": "ff113a33b285668bcea26da6cbcdaf9de534734f2a77549ac35db6f5ff630cda",
+  "schema_version": "stage2_control_cutoff_state_results.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "state_targets_sha256": "09fb450d6152facd03159e84d4312e725a74e2bc822da60a11d331fb67b3daeb",
+  "target_count": 28,
+  "targets": [
+    {
+      "base_state_result_sha256": "60e150bbf2c50d059f102c0299c1f5210076455f684ffd41aff156037e1c7b61",
+      "case_id": "MEVBOTa47b",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x33a5308e8831ef208a0ac4dc583ac900f0f9e413",
+      "derived_address": "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x5bbf83f319fac8be18aef03546c0809fe4a40da6ad717052d927057ad136e037",
+      "evidence_block_number": 14506342,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "e94e4539c6f8854b8260680952b7b6ff416b9ffee8ff5db988716af6b2017c88",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000001-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "c58bbb77233c621d1607e52f66d6f8508936779210f6018478b37a4130e5ff1f"
+        },
+        {
+          "path": "000002-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "e0ba653bbbc6ac6bad4e13bc515ed317e592404074487f26cb308c573256d0ba"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "c58bbb77233c621d1607e52f66d6f8508936779210f6018478b37a4130e5ff1f",
+        "e0ba653bbbc6ac6bad4e13bc515ed317e592404074487f26cb308c573256d0ba"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "5aa8a323b2a08f92b049927c2d3eabf452c1cc1a617369bca92139657dea432c",
+      "runtime_code_hash": "83865f68ccb3922f537cd4122d9250abade39fb5fbd2d56a6313ecada5344b15",
+      "runtime_code_size": 24502,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:b5ab0968ae88782bb3aefef8f307b720494e4f3b53d7880f0d2d2240ae916a36",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:0aeefbe4551e66afe6a18647e95b7c75b93e1f62992b1c5e20e48969579c58d0",
+      "target_sha256": "52683af77b9325c63870786dbb6c5d0c8d782facaea2bdcdf0d0f1faad1025fc"
+    },
+    {
+      "base_state_result_sha256": "bced88c7e74a110715f40814cea4637065899229eb00b39672a31221153a5e4a",
+      "case_id": "DLMC",
+      "chain": "bsc",
+      "chain_address": "bsc:0x9cdd2e39e72a207c1b961b0937501f563a40da07",
+      "derived_address": "0xd4eb7d0664f16225faeeb746e5eb753f0b64dd15",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xb26d6da7ad91354a9946f6b01a094d1db9578ad395e3689eb9d7b33b2a0a34b6",
+      "evidence_block_number": 95177359,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "3a865d670f2c02d4ea78c6f134541f3a2ca568e13aa5facd27ee747227b1696a",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "nodereal",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000003-nodereal-bsc-eth_getCode-response.json",
+          "sha256": "44a6e61b8d5f840177e5b0abc4f1e97e123f89a0bfc19c2593f758ee140f6a81"
+        },
+        {
+          "path": "000004-quicknode-bsc-docs-demo-eth_getCode-response.json",
+          "sha256": "1eede3ce6e9934362be09033e55a18de50a360b4c88c3e80fdcc6d0c312dfb4d"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "44a6e61b8d5f840177e5b0abc4f1e97e123f89a0bfc19c2593f758ee140f6a81",
+        "1eede3ce6e9934362be09033e55a18de50a360b4c88c3e80fdcc6d0c312dfb4d"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "eabf2c30265bb10528ecefaf1caaa8f8ad5524d4937a7f5c2d5a35a74357b45a",
+      "runtime_code_hash": "62f939e628c913a2f243dfa79c9d13236667a685b3b7fe4c8ecfe41a45541602",
+      "runtime_code_size": 16885,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:f849fc177620e79dbdc641a917eef0346df6bd09d08539d8ca43681d8e4c913c",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:128c390ba6e778dd3bc547ede1e25e5296955d73c40d38c6ddacdb6dcc512f06",
+      "target_sha256": "5113ad1bfaf255eff8f1bea32f546bb108110aea8d0b6bb30db354deabe6a16e"
+    },
+    {
+      "base_state_result_sha256": "6ff01c6be109ab1833ac6c37569cbca2300f6e736756a5e271f8b835020c0b2f",
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0xb23d47c81449ae42e3286cb914df52b52a3a9230",
+      "derived_address": "0x5f1747499199e5720029bd49ec6a7188d221b31e",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+      "evidence_block_number": 87487255,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "8e7ef600898a715100b15f95626068c94e299d81a071bc03d2f2aca4845d1edc",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "nodereal",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000005-nodereal-bsc-eth_getCode-response.json",
+          "sha256": "542118771441ad4caf1973cd85e46293cfa76c45852150452d8288f33ea74a29"
+        },
+        {
+          "path": "000006-quicknode-bsc-docs-demo-eth_getCode-response.json",
+          "sha256": "06e6ac306067ccc8b4b40649c3cc39b9cdc397a9dabf6d47432be571fbca9f74"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "542118771441ad4caf1973cd85e46293cfa76c45852150452d8288f33ea74a29",
+        "06e6ac306067ccc8b4b40649c3cc39b9cdc397a9dabf6d47432be571fbca9f74"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "d1cf778410d985bb38304ac513b5617a2c420ea76ca6c4136b9de3a1c1ea7a4e",
+      "runtime_code_hash": "ab27ccf4be4280b4c7dba715406b5b893ca1d18823d22ad42cd1b1f5318aae3a",
+      "runtime_code_size": 7414,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:1eacfd52474028ffb0090fa34b2b1bc5aff0841802c00fb4e1cdc267fbbec63b",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:1d58378cbc92f305554f9cc095619ea85045ced87e160f99317a92d084c50a90",
+      "target_sha256": "1060d2e904f7ec79dfd30a862956502f2498809e36b3a75473d9f862bcf81803"
+    },
+    {
+      "base_state_result_sha256": "63d75423f5978eef69274c2ff9a57d01116ec323bca640b101c840152e9b8498",
+      "case_id": "penpiexyzio",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x2f167f26f2b92ba6f58237eea26504a52ed86a3b",
+      "derived_address": "0xc1e97d3fc2810577289ee35e895a4f0e59481700",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x625b2e0d0cdf6f7d33ec8eadc85f376efc49d9dfb80bda00e9796f0078ba36c7",
+      "evidence_block_number": 17413840,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "fa1cf41edc36ec870851f5a9ae9a146a3aadb0393b30d77355b7a84137023c3e",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000007-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "b0031f34ba350f25873a67e7b8dce4668e73de11512d71b741744d602b49e006"
+        },
+        {
+          "path": "000008-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "f5d813988660df04b4ff610ea19b4dbaf2b673d8cd8f49e01b3c854f2bcf6545"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "b0031f34ba350f25873a67e7b8dce4668e73de11512d71b741744d602b49e006",
+        "f5d813988660df04b4ff610ea19b4dbaf2b673d8cd8f49e01b3c854f2bcf6545"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "076ff87f1c34aeb93738452844589628b991b2ecdd32ea1d63f781c4169a4b4a",
+      "runtime_code_hash": "e34b9046460ffd8aa43284d359cee6c68455063b5d281c61f420132757eee323",
+      "runtime_code_size": 9899,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:8095b94a8bdf66139491fa3a6ee5c4801ad6c35c6ee848e0f56a07d6c31da380",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:1daee581754f6ddff455160fdb64ab2d73a1a41c9740ce79cd92073629448431",
+      "target_sha256": "e2c365f93ef3d3c53e9bf31bea4c29cfe178ab9dde534b3a407b9d99d7f49111"
+    },
+    {
+      "base_state_result_sha256": "71f275931627078d5f139a7f85bb5d6cababef65fda9641250b352499af0ad88",
+      "case_id": "ZeroExSettler",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xcebf1a54a9ce703fc80967760b5a6cbdb4111099",
+      "derived_address": "0x45e039fa10c9540a6323f654484329775e7476fb",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x2c977398383676d9c49423f94810b6f9347230078e2cecbcc5494018d2ddc43e",
+      "evidence_block_number": 21748676,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "33fe42b923d63553b2510b49a0608499d43a66b80511c5078a950fb2450663a0",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000009-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "dcc285ce61a6d55df02ed84ef5f76896753b1e31e59c41f0f31f97f386d6e83e"
+        },
+        {
+          "path": "000010-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "d09ea059f7d7f7bde43697af31391cfea69b4c810c6d279ea1b115a44c7d1de4"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "dcc285ce61a6d55df02ed84ef5f76896753b1e31e59c41f0f31f97f386d6e83e",
+        "d09ea059f7d7f7bde43697af31391cfea69b4c810c6d279ea1b115a44c7d1de4"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "3c44c703edb237931f1e3275e3dd5edb6d0f51e931a45e4ad699ce167293bd28",
+      "runtime_code_hash": "2b7f503b7c723ad5828d5a49d860fe5ae967563ea75c34683c9f5af1f3266d1a",
+      "runtime_code_size": 17082,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:5102d41642ff8dd6afd6c261fc436723b292dac0426b96bc894cff96413cb094",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:3c19a86b8544b924c9bbee0e788ee6c38cdf82bb9226eda0a8fada558b4e6b4a",
+      "target_sha256": "736d031ee69411feae1ea1e48661db0a7435afbc42e0a50f9031c61b97a603de"
+    },
+    {
+      "base_state_result_sha256": "27f40df8ac79b57ae5759c33b9b06c927cd92f5a906c8c7633f770f1356a1353",
+      "case_id": "affinedefi",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xe3a6f8aedc857c810ff3bcc70ae37da670e282b4",
+      "derived_address": "0x5c67531524201d0a774405827ba4c2de15781dd0",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x919c350b9bcc04569c7b3e5cd6a8bbcca3add8ea61323b3747c01dd2fedb1608",
+      "evidence_block_number": 18705149,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "f6975802be642d4597f333125a4c7b1627dd093541790d6381e812381fd9028f",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000011-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "b1ef9de15c2e0b145f07f9fbdb97892f4decd1ee655a5705e92c2bd5796f369d"
+        },
+        {
+          "path": "000012-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "b4be841e801e53e00b9d5a1a3c08036b45cb97a4c382668fa60f540c7651fc45"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "b1ef9de15c2e0b145f07f9fbdb97892f4decd1ee655a5705e92c2bd5796f369d",
+        "b4be841e801e53e00b9d5a1a3c08036b45cb97a4c382668fa60f540c7651fc45"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "59cae9e94526617f1cf54c1cf291e4042f0c9230e4127523c03437dbccdc1a02",
+      "runtime_code_hash": "6f9d2f928370b65a35d309c594cae909aa363b5b48fa2fd3fed9fc172669cd05",
+      "runtime_code_size": 7449,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:ac8063c7299ef62b5019b1ad2344a0a9ebeaa091d95dadc4022fc48f3cc71425",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:4b1eed3f31dfda12dfbdce5441df5a877b8eb8e08e4b9978fc89957e2cd2058a",
+      "target_sha256": "d365221829c462d6bbe28a2e33f106457762202319758afe2ded36d4d0c1738b"
+    },
+    {
+      "base_state_result_sha256": "328a5e6c779f245e27dd8095af5e7e6004c50556280fca518d7b7773f95a560f",
+      "case_id": "dfx",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd92c2f734f6c25e2a3f1cc6a918080dd514e1c8a",
+      "derived_address": "0xe4e4003afe3765aca8149a82fc064c0b125b9e5a",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xad5597626ba0916841f8a8cd06d39cb63ba6606a9d651c917dc5f9b79d35f860",
+      "evidence_block_number": 15754794,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "90b148acac26a03ca2f02e3cd11279d4547f0b8a5b01ead5cf872dda8f594032",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000013-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "812a880e16ab00efa25598416133d551228c827c3cee7c089f504b4fd33bf61f"
+        },
+        {
+          "path": "000014-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "2f89362e4bc1a0e340b86dd56c57108f8ee6185c0f5e8befb94beea51451bd07"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "812a880e16ab00efa25598416133d551228c827c3cee7c089f504b4fd33bf61f",
+        "2f89362e4bc1a0e340b86dd56c57108f8ee6185c0f5e8befb94beea51451bd07"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "56a7bffe697c8d88ab68c8c31402a032ca13189fe3138b5044fd47203ef82b68",
+      "runtime_code_hash": "0b3a8bb5e6a69d8577d3876b9ce270a8ced0d41c5498d187649fd2c8f015283e",
+      "runtime_code_size": 21767,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:130742614ea86d4287e432367bc208171163e405dbec8a29a43e0ce3420f79f8",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:55a432de5a97af64e224ca3c52f4f0df308f0a5722e366852dd3100efe580ea2",
+      "target_sha256": "2578b32de4107f2c470d955b21a361401d974a7b3d068b5bd755c85df3e0a6c6"
+    },
+    {
+      "base_state_result_sha256": "c4fa9391f0ccef5b3695c61fb3054c895f38d4ddcb4160955ffb1487b245cea1",
+      "case_id": "BaseBebopSettlement",
+      "chain": "base",
+      "chain_address": "base:0xa7a32ad53653efd60f435303151ce6e9c5e9266b",
+      "derived_address": "0x7071afcb26ee389681c0d9245ed11d670506aa24",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x27cd005df4823121f894ce9407bbbfda6872e43ac30a910d5a5203d17c9ceaca",
+      "evidence_block_number": 23962022,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "3ff05d6bd71a3d2483b28cbafb4beb21f595388cd1199aeda94b70125f1de26a",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "base-official",
+        "tenderly"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000015-base-official-base-eth_getCode-response.json",
+          "sha256": "8289a5dcbb3d5c01a084df3042e3c1af36997dab521c675771a5d7b7fb72a012"
+        },
+        {
+          "path": "000016-tenderly-base-eth_getCode-response.json",
+          "sha256": "2e82fe4a14ac0cc7165e15341401ba67debeefc26a17c233fc8d4fd7f34722da"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "8289a5dcbb3d5c01a084df3042e3c1af36997dab521c675771a5d7b7fb72a012",
+        "2e82fe4a14ac0cc7165e15341401ba67debeefc26a17c233fc8d4fd7f34722da"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "a509b28dd31426721482bfd691ada19fdc0aeb4cc5122f26e58af6320c8aade5",
+      "runtime_code_hash": "c9c383f9c70c81b682338b2dfde9a5c954f10a6bdc5dd60b411f9bcd3d7be8a5",
+      "runtime_code_size": 6447,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:5963af213b48d13c59cadfa7a04c68bde32f91a51f4dc93f64a0119bb8f4bfd0",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:588149b1b6d05090d70b5f0fc1109d3a04f50780c91a3e37f100dbc5ce188b0b",
+      "target_sha256": "3ae5262d4ade9fe40d6ed5dc38212318dca51cdc5432ac61570702cd12556dd9"
+    },
+    {
+      "base_state_result_sha256": "2edb8c4d4fb6b8a7101ee794020f4ab2bcd77cc5497e738c1a64da9d6dba1069",
+      "case_id": "uwerx",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x80191508eb8113fe1320043c871dde0a5abc4633",
+      "derived_address": "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xaebcf1e44fa1774e2effaf182d9a7ca54ae9185d7f2b87c9f36621163319e8e9",
+      "evidence_block_number": 16585205,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "621218ed4bf0e215b3d477cd52aa2a62d13065f19ac247fca487b423b9a0bcce",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000017-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "d10d0d72436bb3be1bf0ef3740859315f7e985fe44a38cd529634b544d3f5169"
+        },
+        {
+          "path": "000018-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "5e6dfc3fa473a5fc5665a081daaba33e5f7e8341cbdaa0136da410ba456749c0"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "d10d0d72436bb3be1bf0ef3740859315f7e985fe44a38cd529634b544d3f5169",
+        "5e6dfc3fa473a5fc5665a081daaba33e5f7e8341cbdaa0136da410ba456749c0"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "bf071b1c08bdbcf98642da6325f1004fee9ba5b2d1f53406b8f948abb7dcb167",
+      "runtime_code_hash": "f65c814f085c6e31677485e9476490264417778fff07e224de0a1b832da933b7",
+      "runtime_code_size": 23797,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:cb7b70ed8e19ca169fd54263eb788e7979dac54a44757447d728e1fcaa7262b8",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:5e76093e3e64f7e2dc701e1c765be767228a89e5c18fd090705575f07e2c5c50",
+      "target_sha256": "c2d71d88d96f5366056ce716785ca9cc49baed8d8c0c4e5f4fe8821fa8772bed"
+    },
+    {
+      "base_state_result_sha256": "6289f9209b649e59c9fca39701b2cbbe37cc63c63f10233f95f6e344dfc3fb98",
+      "case_id": "xcarnival",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd7bc41f205679c3f056a1bd2857409e74baa03c6",
+      "derived_address": "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x61cc09b96b378dba4e6ffc38d28ffc9d927d9b8df72e01593e7b1a010d23fc3c",
+      "evidence_block_number": 14915041,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "e94e4539c6f8854b8260680952b7b6ff416b9ffee8ff5db988716af6b2017c88",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000019-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "cf568dd4e1f1ec10ca07904ce4178d5422cfa15861359137bd91144715739bea"
+        },
+        {
+          "path": "000020-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "3c11335636553efe4a978c5d4f69a41189bde3922fb98a19cd88624d3cbed296"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "cf568dd4e1f1ec10ca07904ce4178d5422cfa15861359137bd91144715739bea",
+        "3c11335636553efe4a978c5d4f69a41189bde3922fb98a19cd88624d3cbed296"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "371774ba5a3cb93889a5b9797d6b46658f9d400c496bb36d55169a0bda37f1c1",
+      "runtime_code_hash": "83865f68ccb3922f537cd4122d9250abade39fb5fbd2d56a6313ecada5344b15",
+      "runtime_code_size": 24502,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:173f3df7fb086005e7829f0985d4fdbeb6f06674bb3b5dd328b602ee15cf53a3",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:6e68dadc25a0a851008248898ce787096e823ca25e05dfad579aec66b0ac866a",
+      "target_sha256": "a36164b700d874c04c1a1b7304793f1a180652eba094b5fa20127f822e7d053d"
+    },
+    {
+      "base_state_result_sha256": "2dc3dac77f676fbc80eca9b56b90447582944076295baf9186b2dafc266b2f88",
+      "case_id": "pineprotocol",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x899f084adffae6387ec0244924342795afb0160a",
+      "derived_address": "0x3760415893f05e8009bf7d8f7817fdd94674a8f5",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x5aa836d122851235b4ec51a477d49fb820da8e2da3142cd2bc7c6421f73fb77c",
+      "evidence_block_number": 16392960,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "bbfc30c98af62accd40759e523708e58f5a2852398bd50ef986c6caf03ca51a6",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000021-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "61a27139759c052e0084859ddd180526760f08ddf40a95a2a83ac8ada349163e"
+        },
+        {
+          "path": "000022-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "83c640736393a62c80853cbd1216c8e2a0d81538b01e57b16fffde0f62bb49d9"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "61a27139759c052e0084859ddd180526760f08ddf40a95a2a83ac8ada349163e",
+        "83c640736393a62c80853cbd1216c8e2a0d81538b01e57b16fffde0f62bb49d9"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "60b53a85373fdc23cce0487bc515b61b706f3f19979316ea16b35292b59307de",
+      "runtime_code_hash": "ada36cb935afaabcbfeab2e6c716419c4dcf9055a64798b6d92dc1981e1ef339",
+      "runtime_code_size": 12192,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:f5c679082a16d53588b20660b1f65a0e3de7629a93aad0a7eb6dd903156f5675",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:73a65ee3300e28e7178cc921bd244921fcd69d5ebc7355da30dfc0aaa64a6d26",
+      "target_sha256": "c5ccbea3ca02a25024ee34aedbe30e271a455ea9d4e4a734e9bcf07cfa81b94c"
+    },
+    {
+      "base_state_result_sha256": "18695392a9ad51eef6a8f5d1693be2f4f019457c71406d3436255f0623213a41",
+      "case_id": "pawnfi",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x6732efaf6f39926346bef8b821a04b6361c4f3e5",
+      "derived_address": "0xce2b86550d3925c5588020ec003773bee38fd03c",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x28fc0e29f68e31c95559958c1070ab57c556d6ad4663ff1e0ceda95fcca27870",
+      "evidence_block_number": 17412133,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "892e9e768ef131feab6bb4cf30356fa79fb50192ecd228c896b3ccd9c4da1cfa",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000023-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "bb4930b941b355560db22696aa22e29b85729d03539d4837718aa57570a23715"
+        },
+        {
+          "path": "000024-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "6d4c05c6fdb5a7e46110fc624c6cfecc020f69b513444fe282ce2e4f356d6717"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "bb4930b941b355560db22696aa22e29b85729d03539d4837718aa57570a23715",
+        "6d4c05c6fdb5a7e46110fc624c6cfecc020f69b513444fe282ce2e4f356d6717"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "2533080b00a5039c9446ed0b6f27be3e3b6ff08afc3f32337590e2b335ac8093",
+      "runtime_code_hash": "fb81d80723dc8c116db224860250f61249a39d940b12154b6d7a8c7a340f6374",
+      "runtime_code_size": 12091,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:e326361cc70cf42e4c6b0eba2e49e5e13f768545591f8708403127da7d8a8367",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:7a53b2d1cf3f0d633b9116b466ebdd67695498f48626956e984bb8ea19ec037e",
+      "target_sha256": "e1e39eed5ccf428af3fb7589e7fd81a4f7bb0f037b1214f73774fccef71f1980"
+    },
+    {
+      "base_state_result_sha256": "596c2af303c42fe1be2c2dec2c96505bf381c2dbfe27acc51fc34e3dfd3926f8",
+      "case_id": "MyCoinMaster",
+      "chain": "bsc",
+      "chain_address": "bsc:0x23376a3d6494ca8286fc588d33d070e04e029893",
+      "derived_address": "0x5e2c8284c256f5a122073f9327a955d074efc58a",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xdd527242c447c2644e5bffe595ee0178cdbdcedd0d884d598378e7c48cd13964",
+      "evidence_block_number": 55370183,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "e217fc19b2d12d0b2380ab8437305320372f45528261af23e593899be9382cfb",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "nodereal",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000025-nodereal-bsc-eth_getCode-response.json",
+          "sha256": "88eb817553ddc31def9dc7418787798eb47a58660ffd38b90861ab5bef259417"
+        },
+        {
+          "path": "000026-quicknode-bsc-docs-demo-eth_getCode-response.json",
+          "sha256": "6eac65194efc43464bce06c22afcb3db0b15af1ae6ae50fce505777d5228034c"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "88eb817553ddc31def9dc7418787798eb47a58660ffd38b90861ab5bef259417",
+        "6eac65194efc43464bce06c22afcb3db0b15af1ae6ae50fce505777d5228034c"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "13ebb133c8af4f9f15c0f2220b88669d7540d04535048f731781f1c46bf27657",
+      "runtime_code_hash": "6ed7292b97dccd0ca3e885873e8a25597ee393d6b2f0c87741f946da20726c0e",
+      "runtime_code_size": 10921,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:d8216e1bc4d0251d771dfd13db0d68899e7f6ccbb81ed863f99c4a2660c721ed",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:7bb0dada56b9a8e4376a7f9c218fb9b158d09a75f266c3dc6978e611de9730ac",
+      "target_sha256": "bc8ecb4b410fca0f8c4c77f68843708175c1c1e2ea30c9654fdc2d4fef64e252"
+    },
+    {
+      "base_state_result_sha256": "750205fe4d95e6ffe572d8af0fc29b6fe96ffb2c954c5c201e4e40de76e5290e",
+      "case_id": "meta_pool",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x2e91342cb348301b8b6572df8dc4dd068fc6ed31",
+      "derived_address": "0x5bc2be2b32fc806e731ce5e14cf0fb6be3e0569d",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x85118b563460bfa8d9de0429caa284a8be221b202403ebf5df499039b1fc4902",
+      "evidence_block_number": 17694605,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "78aff20c6d0668db6aeedb95f758cce59ab2874cd0cb1418e75dbbf49a338c97",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000027-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "fe54a1dac33965bcbaca3a73e28ff62355260cd6b8c259ae64ca18c9b95ae5c2"
+        },
+        {
+          "path": "000028-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "f76841770aa5a6dcb248b500b6d20498f7ff37a1365404959f37702e4c737a83"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "fe54a1dac33965bcbaca3a73e28ff62355260cd6b8c259ae64ca18c9b95ae5c2",
+        "f76841770aa5a6dcb248b500b6d20498f7ff37a1365404959f37702e4c737a83"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "a276339fcc6e5d5dce5cd93f91ab89ea1b9585051e4633252c6e2e984b408823",
+      "runtime_code_hash": "497d47acb605b1daaa310aa26d567123f55a9270e2998f688c66815b7c7bb9f5",
+      "runtime_code_size": 2269,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:45f8c2db912b8cbc7c7838323267e0927f88b4f1b614006c72b744385762c176",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:7efcaedc49e14f670bd5324059f88340c7f3fe7218e3ed85e86743b8271077f6",
+      "target_sha256": "1ec1224d199bfe681f96a2f790155be2591f1007d24e5bed429a8d8c66b3c6ca"
+    },
+    {
+      "base_state_result_sha256": "518d02e0a28aa845529362277b4fa1524b8f76173642a2adf5af123713421a2a",
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0x339e1ab2d5a3ce2b36b0abb1729ff4c347f7a7dd",
+      "derived_address": "0xf2049f8e445c4bd4920668d992271a63acbad0a6",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+      "evidence_block_number": 87487255,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "83d0c2157e8dff74ebddd9df15f8d36ee3696368fb7bf146f146f06f1891504f",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "nodereal",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000029-nodereal-bsc-eth_getCode-response.json",
+          "sha256": "f6732f4ec791659f570cd804b497bbc721e1d49d12a64139e2ba6954ede3d417"
+        },
+        {
+          "path": "000030-quicknode-bsc-docs-demo-eth_getCode-response.json",
+          "sha256": "1a61c2383565680c42517c899bc4ffe0eb3c37c70a7832edb9e65f2c564ae9f1"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "f6732f4ec791659f570cd804b497bbc721e1d49d12a64139e2ba6954ede3d417",
+        "1a61c2383565680c42517c899bc4ffe0eb3c37c70a7832edb9e65f2c564ae9f1"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "53bbab88b0b71731f08b8b0c3adb2a9278e5809da5d557d37f1e9b8225fd365d",
+      "runtime_code_hash": "f0db98e3ea890e33f413805bb5a7b15249102cf9b918c78c9661927c13501a59",
+      "runtime_code_size": 9660,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:19390921b5dbe036ddc724f1818930f7d62d3620373b2d93621491d7eb9de16a",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:91899f148f68794b92c15087eb74ab2a065b933aa12476f8c5d1f08f18605f4a",
+      "target_sha256": "b214d8628c7263e58b8f494d47bf3f7830f3d7e2a429e3901087ad4804a33e44"
+    },
+    {
+      "base_state_result_sha256": "be96def74215f7faf3938357d898c6a59e3cdd0987fba37d86c6896bfce7ef69",
+      "case_id": "alkimiya_io",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x172918f0db81f89178542a66173902920db6996b",
+      "derived_address": "0x8046391acea805deaaad9e3cfbaac96cc17c053e",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xd1e10f48a420a607c602de6346008956dc021ff68b9533f91dbe5fc4cddfe6c0",
+      "evidence_block_number": 20314203,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "7b5e726719f9a99fea0602018d3c7dcdb14063ac98a64678250c3b71bcdd8a2b",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000031-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "4f7a3fae2a57a873f5edf5692b58fc62528949eac949d783a3766728be4e5a1a"
+        },
+        {
+          "path": "000032-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "09edee334979778c3d569a6ef3809a204756e2048cd289c9e35dd984cfd52ec2"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "4f7a3fae2a57a873f5edf5692b58fc62528949eac949d783a3766728be4e5a1a",
+        "09edee334979778c3d569a6ef3809a204756e2048cd289c9e35dd984cfd52ec2"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "db17fd47385182830b56d56c9f3a4127416d8bcb4c2efb6723ae12bcdc02738f",
+      "runtime_code_hash": "a5a341d51e9818f2a1cfd23dae1acf054fe5cf39f6758d14232ba5d42ab46fb8",
+      "runtime_code_size": 10559,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:0ab705d262af70a5d874dc2543b0ca687096dadafc1bf4a79a503e8b52ab94c5",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:b4125df39210e97c40e93f0f44203e6a7916e70f6ce24716bd44b67c95a16ba4",
+      "target_sha256": "9cf55409a269417c52b02cbc2265a3f1ab1d5d8e0be74c7b31b652e864ee9c3a"
+    },
+    {
+      "base_state_result_sha256": "8cdc1fcb4ec675bb2bc811952c004cd2459fcf2ac101a5bf873f78d6a323382a",
+      "case_id": "xwin",
+      "chain": "bsc",
+      "chain_address": "bsc:0x7fd7a7f515f11123203371377dcd95ec6f3ce707",
+      "derived_address": "0x18484279924218442f3a8aa61500f57270a3bf8b",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xe270599c7491801f3b56d376a229d2d6adffbbeba2f24a2f5d98cabecd93e0e1",
+      "evidence_block_number": 4930788,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "0b0e144fdae020e27cc489148968ece85179f09b6f95f91478399d3a7b58ad7e",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "nodereal",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000033-nodereal-bsc-eth_getCode-response.json",
+          "sha256": "510b27fc585005cd2c977c051af8eb4e47445096a8d25fd5a51f170aff2821c0"
+        },
+        {
+          "path": "000034-quicknode-bsc-docs-demo-eth_getCode-response.json",
+          "sha256": "1d42e3a58603f23a98bf787c9f0f2f33b7449d24d2b538ac03d8dc0c1d7ea6c8"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "510b27fc585005cd2c977c051af8eb4e47445096a8d25fd5a51f170aff2821c0",
+        "1d42e3a58603f23a98bf787c9f0f2f33b7449d24d2b538ac03d8dc0c1d7ea6c8"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "b15d430ceb4101e71963fbdd29cb6208b0ef743a9364875431459be198629789",
+      "runtime_code_hash": "79200d9dbc85232ac8219ffcd298c77900bf7748e3e5fbc45828d6ae5af86b83",
+      "runtime_code_size": 16133,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:e816dbfc7ece04fe77aaf6b897544d55224e5e330bdd57fbf0cdf04d9dadef44",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:b868e8c6e3ad97306a9238512a0b20eee6cb91c9d119fbfbf7e0eb24e130ad11",
+      "target_sha256": "96871d40abcd292ffca9ac4aa25aa32628a8cce8d475d3217b4bf3623b3ea309"
+    },
+    {
+      "base_state_result_sha256": "70853b5324a3968b41a7bd27a465904fdc22d2314d8c414f2b5f632c0ebb91df",
+      "case_id": "uwulend_second",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x7a7680767a4e41ace578470d8b0eb1ff97b0c023",
+      "derived_address": "0x55a37391aef427696216c140927f94d9d5a1328a",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xbe53597ee0ab6c24318b6344ca5ae261aab72f02de3c2629ffb9170da44718b5",
+      "evidence_block_number": 15576015,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "01f7c6652f87ff7fdf35acdc7a956461b7bad9fd9f8406dec2ce061f0f21d784",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000035-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "c44929950c90fe8ca1824c0959d1c0d6fad5824aef48aa5d069b4246ea3b7a29"
+        },
+        {
+          "path": "000036-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "b4391bec465c8fb38dfbb64af68dae6907c0dee1561225bfb5e261b06bb8a8f2"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "c44929950c90fe8ca1824c0959d1c0d6fad5824aef48aa5d069b4246ea3b7a29",
+        "b4391bec465c8fb38dfbb64af68dae6907c0dee1561225bfb5e261b06bb8a8f2"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "659f733968cc94f81b5e631133964b324a4483ce050fb0b1d1348f2242d1c097",
+      "runtime_code_hash": "8f770b9af1c36499c879b12e51aacf3d1ddbaf525e961d2cf10efc29897dd095",
+      "runtime_code_size": 19526,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:4d3687a19ee739c12ee43c2b5448a2660ad22f24b6c6d9bc6e46d6aea3cc5f8c",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:bc33f2c213b39328a162dbdfcb1818913a995475e2787ac70e6ca4a5dc1a5c05",
+      "target_sha256": "b64b4498cdb236cdfabda8929b7957959c0bf0feb3fbfa939a8deef8df452ce5"
+    },
+    {
+      "base_state_result_sha256": "1005a3103b050fae20957413822083a3118e11701972dd953348a537730cb13e",
+      "case_id": "onyxdao",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd2e4153c94e18efa03f5e3431d3b829983511a39",
+      "derived_address": "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x9f6ef0a54ed997199165f674d290ae05467d909f961bb1772d147758333b9ae8",
+      "evidence_block_number": 16734681,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "621218ed4bf0e215b3d477cd52aa2a62d13065f19ac247fca487b423b9a0bcce",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000037-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "2bb654c21a96a027066795366815472ac1374e1eb2657c601d5ffa802ecb9d07"
+        },
+        {
+          "path": "000038-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "e794f779bf367a7883eada2019d0b4da2d3aa30d59773a672bc385c220f12094"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "2bb654c21a96a027066795366815472ac1374e1eb2657c601d5ffa802ecb9d07",
+        "e794f779bf367a7883eada2019d0b4da2d3aa30d59773a672bc385c220f12094"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "e0bbf46eade27e902d167b745b628e50f28a5f9b1cc2472b78855461114e0892",
+      "runtime_code_hash": "f65c814f085c6e31677485e9476490264417778fff07e224de0a1b832da933b7",
+      "runtime_code_size": 23797,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:1a533ec7cb039b980bc4a29d95ccb899fc5b5c585313c761044c5db82226abf2",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:c06da8146baf6773d09bcf9b03688b3719f4369c5400afbb01996ad4058f2ff3",
+      "target_sha256": "d41d75684db9f761816ce0044d5ae66cebeaa07e16c7c5239d82cb9420d8da48"
+    },
+    {
+      "base_state_result_sha256": "2058c54fbe2d9e2c53794131e4bd0a146c6b0b718029ce53b48debcf7384aba0",
+      "case_id": "PegaBall",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xdd7380b0bd859a2d757a9e4371f9f0b9e48135de",
+      "derived_address": "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xe59e1b4f924bbf033a23e1f24e7a9c438c918db64cc7ed2d109555b401f41618",
+      "evidence_block_number": 19010400,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "db98d1776750a49d1f226c4329375818c88c52724923eda6550e570082c70bf1",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000039-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "8a12ff2289deb25d0f8f2de42c0d374269f6aa548644fdee80e709e018ebae00"
+        },
+        {
+          "path": "000040-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "bbc6d7309d8c593f9ac521aa14d7a74dfe927f67e0845575a14ff69f61cf3ac0"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "8a12ff2289deb25d0f8f2de42c0d374269f6aa548644fdee80e709e018ebae00",
+        "bbc6d7309d8c593f9ac521aa14d7a74dfe927f67e0845575a14ff69f61cf3ac0"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "4be2de19d2eaab69815ae75a93fcd2a2afd1a45c67d78b6fab28da7c09df4494",
+      "runtime_code_hash": "cf906da91c38bdb3f48fabbdc6705e40571193b97f5513dadd2e1b0234dc3d66",
+      "runtime_code_size": 24194,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:f1d3b72b4fdace03fe2f1306f5d92cccc239f3d95c89f3c67c4095a3ba5b7abf",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:c4c292cb310ccd9cf0a70f25bb1dd0bdbd91482ae35941a73309d754182bcdcc",
+      "target_sha256": "7b05e2a4dd357b6943c9615d28a1ac4dc63c6379212b5125d04283497063ee87"
+    },
+    {
+      "base_state_result_sha256": "399d70b39b1b70897dab54058eabd4e97a1be4c90712085ba21bae335a6053d8",
+      "case_id": "mimspell",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x6300feedb0f6c36f988980fe4130ec0f0b43c60a",
+      "derived_address": "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xbfde2dd85b8f7c510da715ec8a0f1b73f975f919e9adeb6c43682029170025c1",
+      "evidence_block_number": 16485793,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "621218ed4bf0e215b3d477cd52aa2a62d13065f19ac247fca487b423b9a0bcce",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000041-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "bfb28e129b4f3d9e890315e52452f91761ff5133ffa55cf2922acecd276f45b6"
+        },
+        {
+          "path": "000042-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "4a13226db525f127584ae6ff662fe97c9198b47370f8702ec0cfe71ae3c62355"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "bfb28e129b4f3d9e890315e52452f91761ff5133ffa55cf2922acecd276f45b6",
+        "4a13226db525f127584ae6ff662fe97c9198b47370f8702ec0cfe71ae3c62355"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "15c24a0ce868a4a35e5ca2f8af15774f2aedb189f2ceff28b71e2474745184c8",
+      "runtime_code_hash": "f65c814f085c6e31677485e9476490264417778fff07e224de0a1b832da933b7",
+      "runtime_code_size": 23797,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:f7c8b685b61f63b3e31fd3beeaa2da4663e3387fda4fb29e17948bcb1c24874b",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:ca0ad8d742d20e82adc244c5c9126b782f4bbae4e668869ace45a50d450b0f0e",
+      "target_sha256": "6d7ac35d04f7b10c2e559a86cc2a159dcd5254b944ac559a0a2ef0cc598747ba"
+    },
+    {
+      "base_state_result_sha256": "aeba005327a8790b1024d2aa134805a4b2d10673c31b50dbb6fb4c8a92cd7b9a",
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0xcf3941da9d7bb34f78b4d8917941c9af008eb479",
+      "derived_address": "0x7624c574bf993e74079daa58647b2e918ecaa79a",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+      "evidence_block_number": 87487255,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "51cfe36a06fbe6e2bf974272c750be7cd6b9e51e83845aeaa6265424e423c613",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "nodereal",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000043-nodereal-bsc-eth_getCode-response.json",
+          "sha256": "df4cea1ee4f200cec0bc8d14736e6490fb25f317a7bb8fcb900b41b72643a74a"
+        },
+        {
+          "path": "000044-quicknode-bsc-docs-demo-eth_getCode-response.json",
+          "sha256": "25c7739bbe0084260c8d2d7f400b1d036953f9a240c5a6856797e35e78dcfeb0"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "df4cea1ee4f200cec0bc8d14736e6490fb25f317a7bb8fcb900b41b72643a74a",
+        "25c7739bbe0084260c8d2d7f400b1d036953f9a240c5a6856797e35e78dcfeb0"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "f321bb3fa0bd1d128074473d36beb2e20bec47c4404962497f728c6c12f2c94d",
+      "runtime_code_hash": "673f4788cd3c2824d4668eea5b9fb65843934fd0109aa75da6ea6fc9d30b2726",
+      "runtime_code_size": 3403,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:d32dcf8a8854f19b136495b2f5fc8d0a956fb3c4458eb413f51f0d79648f0bd6",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:d2ad5be938f7d21594624ab09264a226db26367d8c6d79df712bb2633c60c560",
+      "target_sha256": "664ea715c789cb8316d313372feed239fd17fe124881bd6b0253f135722828e5"
+    },
+    {
+      "base_state_result_sha256": "6a480f893a0c2e1693d8c9659613711368f67ed5fcf41f52b60788b420690fe3",
+      "case_id": "upswing",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x39527b067b04d43c627fb741848ef2c3f8ead3fe",
+      "derived_address": "0x322401fff76dda9cea5595aaa90d062798907bde",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x70f5cb054053e7e85d62dabfa4c52be233591753d6ee68f4190cf024aef13f4d",
+      "evidence_block_number": 10958857,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "5984e610a03b5002f1a4c61eb5a64c306c9b7821f6af3d7023dd2258f176ed52",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000045-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "446865617e159fe613e6161b8058912ee0d9f64d1e09c19d42e4238490813249"
+        },
+        {
+          "path": "000046-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "40bcf7e16049a69dbfb5151f2e01220c760e969ddc4f1ad136623cbac1075eac"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "446865617e159fe613e6161b8058912ee0d9f64d1e09c19d42e4238490813249",
+        "40bcf7e16049a69dbfb5151f2e01220c760e969ddc4f1ad136623cbac1075eac"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "aa9fd26c0c50c5c5b762f6a5b25454ca086134fe3c9237d224e58520bfe51b1d",
+      "runtime_code_hash": "c282d3c7b3825af14163cb20ded417a1ad2dc6ad7270e4569aefc4f2cb7afabc",
+      "runtime_code_size": 20987,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:33d8851afd13d29495d144e20a861af993734b8882e3848c96d8d2596aa46a5d",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:d317508053aaa6aef9aa55d60d466cf6675e1a24f35c06a996487e0cf9fff690",
+      "target_sha256": "87441f143a46d01e98e9e4e86e6ba5cff968d483c01e378b12c244f36ff2149b"
+    },
+    {
+      "base_state_result_sha256": "f7724b6250c7587302c753c832d9430c58920436a3fc16a34cad5b8563a3704f",
+      "case_id": "barleyfinance",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd31f7c7c04e3288fbb88054adf552ffeb5f85616",
+      "derived_address": "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x407055826a1211c9b7baa1193962b23584089c9bd857bed2e494b1f99140f038",
+      "evidence_block_number": 19098045,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "db98d1776750a49d1f226c4329375818c88c52724923eda6550e570082c70bf1",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000047-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "af8037116b4d956e08cfe856ceeb980551776fd70c1b057802e8c838aa9ef6b4"
+        },
+        {
+          "path": "000048-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "08a12669684c30a5113efcf0c69d3f120b385cd9cfe20fac368813e82b7ac538"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "af8037116b4d956e08cfe856ceeb980551776fd70c1b057802e8c838aa9ef6b4",
+        "08a12669684c30a5113efcf0c69d3f120b385cd9cfe20fac368813e82b7ac538"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "58f4124b7efc0c0b776d89e2cc33bbb9b5cf21150ddeded5f547d963a0e37fc8",
+      "runtime_code_hash": "cf906da91c38bdb3f48fabbdc6705e40571193b97f5513dadd2e1b0234dc3d66",
+      "runtime_code_size": 24194,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:e1e1b25ad0fb7e109803f5b18e4e92aba79db6424c8ac1c8a0e4c9d3c40ddb83",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:d38c031f817a6825c33c734ab568e91d398ac0942f580aea5dd627efd0567b05",
+      "target_sha256": "a63f03c8152775354a140492d27586f8bb3480ae3a10288a6b83a8dbf760c105"
+    },
+    {
+      "base_state_result_sha256": "173497fe197fbc297c26c45b5bf48b8c210ca2d458ca2da71ee68e3a98d4cc83",
+      "case_id": "conic02",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x82035b909b8093433b1a07b0b81b14a016d1ee60",
+      "derived_address": "0xe9ff7ca11280553af56d04ecb8be6b8c4468dcb2",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0xc1691c5517fc694b03ef0b5467e50bdeb1cb63c99518e9ffe4c3e44b3f4ea691",
+      "evidence_block_number": 17445100,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "8afdf7f3be37c5b1aef2096bca909ad6cccbd69d59520bf071dfd2e9b993068f",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000049-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "6c475b9a6e7290b31a8b78def6b2c30ce9e6a9ac1e282c99b4d4b9f4a4fd4235"
+        },
+        {
+          "path": "000050-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "fd812736693ba3df3261a07e0653daefe02ce814db66796fe4c4601a833ba73b"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "6c475b9a6e7290b31a8b78def6b2c30ce9e6a9ac1e282c99b4d4b9f4a4fd4235",
+        "fd812736693ba3df3261a07e0653daefe02ce814db66796fe4c4601a833ba73b"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "ce6259a4ce945e67a642dc6b7be91dc796a2a5f94ef81eabedae0c3f03e3cbfb",
+      "runtime_code_hash": "ccfcfeee8b0d509f1efc37098d06e943c9898a3a9b90135d552fa81813d5b75b",
+      "runtime_code_size": 24560,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:3caf9297301d6ce1c3149f4aa5d4ddb16c0fe9f468914416b076a8034eb44077",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:d47d7ff59715ae2d287dc5528e9c6669012dd30e8767902057cd36110b354b1c",
+      "target_sha256": "c3e5764cec7443967bd66e5ca044e5cb7241af3e2cbaea7a0d2586c5499ee46a"
+    },
+    {
+      "base_state_result_sha256": "8acbc79300fd3f5029313881635c74d691eba3e96a1f3308f84efdba8c4c88f2",
+      "case_id": "MFT",
+      "chain": "bsc",
+      "chain_address": "bsc:0xe0d3325448c796ea645992c406809a1237772a23",
+      "derived_address": "0xac62f8998f52de38750502e77cd33f7d151a11a6",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x1f8689430cd5197ddc620c02f2498a0448492fb6a02bbeec9e16e9783cd0bf1f",
+      "evidence_block_number": 43907746,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "8fbbf80c3974228db429a780b6a351af7053d09b8bd0a7bc4fb798ee37e2b38c",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "nodereal",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000051-nodereal-bsc-eth_getCode-response.json",
+          "sha256": "39b0b76b3f280c84f99147bcdfc48012d51316ff23bc30c8654f204b8014f2b8"
+        },
+        {
+          "path": "000052-quicknode-bsc-docs-demo-eth_getCode-response.json",
+          "sha256": "0ca8846627041ac514c72788a35b053c5717c4f325ac2d5be0bd84760ab5d9ad"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "39b0b76b3f280c84f99147bcdfc48012d51316ff23bc30c8654f204b8014f2b8",
+        "0ca8846627041ac514c72788a35b053c5717c4f325ac2d5be0bd84760ab5d9ad"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "72e3dcb79a20cb2f3b4cef1c2f90eaa036c22eeb289cc99eafd7e281b379bf67",
+      "runtime_code_hash": "76f3e4b385a7f007ac83aa2666f60600a3dd8014e66c4cd32680ae7154ca39df",
+      "runtime_code_size": 5602,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:43ff5b75e8c21b986a46654f92210eeaf80ad061e84e1a20bd23ef72a90332f9",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:e5a006d8bc0e723bed922e4b5224565341be44b2e23235e42f462d632a61d10e",
+      "target_sha256": "0921d50e809ad1ab2c55bb54dc4ed51a99ed2fd7afca3e07b1814db408e4722f"
+    },
+    {
+      "base_state_result_sha256": "e25a914a1fb02a13ede84afefcb330261c4f20d60454bdf8d06caa2bb845fa14",
+      "case_id": "stepp2p",
+      "chain": "bsc",
+      "chain_address": "bsc:0x13028c36ec46007e2657f6eddad1c210f13328a4",
+      "derived_address": "0xa4c746125459bf5250a1f80b1e1431bae5c09dd1",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x1f885795ab503a7cdef943525def1843ede6e092cd415c710517476bc81b8cc8",
+      "evidence_block_number": 49310861,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "e93502d752c1ab611ca1be3c5d5af385e2d7d045a66fdc55def95cdc23f852eb",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "nodereal",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000053-nodereal-bsc-eth_getCode-response.json",
+          "sha256": "2a1301c3f64d928f230367676a7432c7120d350408e2467d0e433b8c2c06e44f"
+        },
+        {
+          "path": "000054-quicknode-bsc-docs-demo-eth_getCode-response.json",
+          "sha256": "1371dda4c0dff7a4fc0fa949ebeeabd7fc5be07863b7323397e19615c422f8a1"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "2a1301c3f64d928f230367676a7432c7120d350408e2467d0e433b8c2c06e44f",
+        "1371dda4c0dff7a4fc0fa949ebeeabd7fc5be07863b7323397e19615c422f8a1"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "46564ebff2f626a03c9928348c6fb62231b0e95c2f79bfddfbceb0b4fe8b6b22",
+      "runtime_code_hash": "ebf8621521ceaa40edc39417a91a7a95540527cf086b6ac0a882bc3ccac3c178",
+      "runtime_code_size": 16889,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:b2b7f30ecda86b1ce44f1847c86567051fdba9a765c7766154164d878706e113",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:e696c966067a7457030a0f954648e40fd24acd1f32f97c673268b10ca18a858f",
+      "target_sha256": "dada18f8b260ea0f039b0d8987de94acd47936efc533236f04c41bd325c543bc"
+    },
+    {
+      "base_state_result_sha256": "554dc342f482cde6f1cc9aead31e2fd58e411a8add192e9599a8526dedd6cb2c",
+      "case_id": "dexible",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x11db5eb043c7572a819edef35f51a4f4da906011",
+      "derived_address": "0x6bf5ed59de0e19999d264746843ff931c0133090",
+      "derived_role": "direct_implementation_runtime_code",
+      "disposition": "complete",
+      "eip1898_pinned": true,
+      "evidence_block_hash": "0x73ecd485b8f8097f5bba14f2f7e3e34e61956ea6012a9a684e7abcdf9b64f8bc",
+      "evidence_block_number": 16642799,
+      "metadata_status": "metadata_stripped",
+      "metadata_stripped_code_hash": "5053e3942ac7d9a951470d8201c7019c8f7c2b0de68e81e782a9f9afae97f1e0",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "provider_agreement": true,
+      "provider_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "qualification_authorized": false,
+      "raw_evidence": [
+        {
+          "path": "000055-drpc-ethereum-eth_getCode-response.json",
+          "sha256": "5fcc5893c4a84fcea95d7441c5feb66cef5b9a3d9d0c9c9f39df64429d3c678e"
+        },
+        {
+          "path": "000056-quicknode-ethereum-eth_getCode-response.json",
+          "sha256": "91cff4978d61eb80eb21d3c83f2618d9a3aaa688c9162f40e3401a3f56e41386"
+        }
+      ],
+      "raw_evidence_hashes": [
+        "5fcc5893c4a84fcea95d7441c5feb66cef5b9a3d9d0c9c9f39df64429d3c678e",
+        "91cff4978d61eb80eb21d3c83f2618d9a3aaa688c9162f40e3401a3f56e41386"
+      ],
+      "recovery3_mutation_authorized": false,
+      "result_sha256": "bcb83f3f9d5796b3b44947c4f6cde1fa44793f17f5cc0a146adf851e0fba6cc7",
+      "runtime_code_hash": "17235674742a07ede04d1475c26263c9fda27e315f7745e119c0030c96b23d34",
+      "runtime_code_size": 24575,
+      "schema_version": "stage2_control_derived_state_result.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:b2949598ed0825974c18a21f1a9936a7d9a08658720fb4a383c8a4bef8685949",
+      "stage_promotion_authorized": false,
+      "status": "complete",
+      "target_id": "derived-state:e92d62350dc9b6e80ef0a491276db2e082ff964d260912eef0dffca6abf26852",
+      "target_sha256": "0faf04c1cc86c898725bcb3b5c3bf4ea7a6c278bfeae04bdb61255b510c5f5fe"
+    }
+  ]
+}

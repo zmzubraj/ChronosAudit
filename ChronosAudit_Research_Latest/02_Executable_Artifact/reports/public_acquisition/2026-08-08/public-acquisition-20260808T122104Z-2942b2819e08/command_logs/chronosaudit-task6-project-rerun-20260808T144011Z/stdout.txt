@@ -1,0 +1,9 @@
+{
+  "command": "project",
+  "counter_artifact_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/public_acquisition_counters.json",
+  "counter_input_manifest_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/public_acquisition_counter_inputs.json",
+  "release_eligible_cases": 0,
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "status": "incomplete"
+}

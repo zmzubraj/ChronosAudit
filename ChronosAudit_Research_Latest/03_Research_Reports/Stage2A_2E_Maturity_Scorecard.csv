@@ -1,0 +1,6 @@
+stage,current_gate_state,verified_progress,remaining_blockers
+2A,PARTIAL_CLOSE,"historical snapshot authority 417/417","current public-RPC append-only ledger and raw receipts missing; external regeneration open"
+2B,PARTIAL,"408 exact identities; zero exact-identity crossings after grouping","source clone proxy implementation and library graphs incomplete"
+2C,BLOCKED,"AI-only track 417/417 with 143 adjudicated disagreements","human adjudications 0/417; AI reliability below 0.80; no high-confidence cases"
+2D,PARTIAL_CLOSE,"deployment denominator 20000/20000 with 5000 per chain; Recovery3 row authority bridged; control policy and preflight implemented","cutoff-safe covariate enrichment and follow-up horizon blocked; control candidates 0/4170; qualified controls 0/4170"
+2E,BLOCKED,"1000/1000 random splits leak exact identity; group-aware exact leakage zero","independent R5 blocks 0/120; release eligible cases 0"

@@ -1,0 +1,12 @@
+{
+  "command": "plan",
+  "input_sha256": "2942b2819e08d00d8eb23bee9815e9c644757421e92e3c1307a45b057e264cf1",
+  "offline": true,
+  "pilot_rows": 9,
+  "pilot_shortfall_audit_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/pilot_shortfall_audit.json",
+  "queue_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/processed/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/case_queue.csv",
+  "queue_rows": 417,
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "status": "complete"
+}

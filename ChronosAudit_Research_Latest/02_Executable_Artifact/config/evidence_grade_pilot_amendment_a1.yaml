@@ -1,0 +1,136 @@
+schema_version: chronosaudit-evidence-grade-pilot-amendment-v1
+amendment_id: evidence-grade-pilot-amendment-a1
+created_date: '2026-08-08'
+base_pilot_csv: processed/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/pilot_case_queue.csv
+base_pilot_sha256: 3f5678509736c8d7f175d00d4722902f2c7110a6bc4bcb383009b2ea7673f314
+canonical_program_case_count_unchanged: true
+cutoff_policy:
+  rule: first_canonical_block_at_or_after_deployment_timestamp_plus_24_hours
+  primary_landmark_hours: 24
+  minimum_incident_lead_hours: 1
+cutoff_landmarks:
+  treasuredao:
+    target_timestamp: 1643653911
+    previous_block:
+      number: 5289887
+      timestamp: 1643653824
+      hash: '0xeeac578f89991e4c993892be412c2a187ef34e81b050bf64f818e2c0ee6fe79c'
+    cutoff_block:
+      number: 5289888
+      timestamp: 1643653916
+      hash: '0x94797fe44d003add00e88d1bfb9c48c51ca863981046bb627707dd6f616b04b9'
+selection:
+  rule: >-
+    From the frozen 2022 DeFiHackLabs index, retain Arbitrum incidents having a
+    literal Arbitrum explorer transaction, an executable PoC, an exact target
+    address, and a PoC fork block; rank eligible rows deterministically without
+    consulting provider outcomes.
+  seed: chronosaudit-evidence-grade-pilot-amendment-a1
+  observed_provider_results_before_selection: false
+  no_replacement_after_provider_observation: true
+  frozen_incident_index: raw/external/defihacklabs/2022.md
+  frozen_incident_index_sha256: e7668ddd37e305db9052d4f208bb3b87d1e75956950739d5e9f1fd66f4c26267
+supplement:
+  case_id: supplement-treasuredao-2022
+  case_name: treasuredao
+  chain: arbitrum
+  chain_id: 42161
+  address: '0x812cda2181ed7c45a35a691e0c85e231d218e273'
+  incident_block: 7322695
+  exploit_tx_hash: '0x82a5ff772c186fb3f62bf9a8461aeadd8ea0904025c3330a4d247822ff34bc02'
+  poc_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/candidate_sources/TreasureDAO_exp.sol
+  poc_sha256: becd624c55818705761095a45115697e5bd384fbf5c5870feddfff08ebaf438f
+  deployment_block: 5254531
+  creation_tx_hash: '0x36b63fdaeae0abf4d4676d1cd50312be147039a069c96e05407aa6549c54e7ec'
+  creation_evidence_type: sourcify_deployment_enrichment_cross_checked_on_chain
+provider_families:
+  - family_id: sentio
+    operator_verified: true
+    operator_evidence:
+      - url: https://www.sentio.xyz/about/
+        captured_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/sentio_about.html
+        sha256: f209a28a5b7b788241bd303aef760b671a39078d4272d30ad8208445bcc89efa
+      - url: https://docs.sentio.xyz/docs/rpc-nodes
+        captured_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/sentio_rpc_nodes.html
+        sha256: 49b0c2392b3e236f090bada6764909750b270b021532f6165f05aadd6d7d71e9
+      - url: https://docs.sentio.xyz/docs/supported-network
+        captured_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/sentio_supported_networks.html
+        sha256: de868e019e72fa134943d446efc9fbf9b0be057d7ccc4e160b120501405ef476
+  - family_id: alchemy-blast
+    operator_verified: true
+    operator_evidence:
+      - url: https://blastapi.io/case-studies/rhino-fi
+        captured_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/blast_deprecation.html
+        sha256: 63daba10c1058f76fafdd79f704c1b6bdce854a7c651ba5a1ec406a9bc46f01c
+  - family_id: infura
+    operator_verified: true
+    operator_evidence:
+      - url: https://docs.infura.io/reference/arbitrum/json-rpc-methods/eth_getcode.md
+        captured_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/infura_arbitrum_eth_getcode.md
+        sha256: b4d967e0501224e7e32e3526d235cf533389a24da2edbcd716180eddc91a52c2
+      - url: https://docs.infura.io/reference/arbitrum/json-rpc-methods/eth_getstorageat.md
+        captured_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/infura_arbitrum_eth_getstorageat.md
+        sha256: 9e6480992a4115ba281f8ee09fce3dbc51755d81b8d192730e20a95b91f94cc9
+  - family_id: alchemy
+    operator_verified: true
+    operator_evidence:
+      - url: https://www.alchemy.com/docs/chains/arbitrum/arbitrum-api-endpoints/eth-get-code
+        captured_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/alchemy_arbitrum_eth_getcode.html
+        sha256: e30d1d320dfd4111349bcf65fd1237d58c7b334452b5bc9da917e3405f327654
+      - url: https://www.alchemy.com/docs/chains/arbitrum/arbitrum-api-endpoints/eth-get-storage-at
+        captured_path: raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/alchemy_arbitrum_eth_getstorageat.html
+        sha256: 62c900d9c35915522779493f086c9f8374a4ef0dabad4c329af9d4652d125a94
+providers:
+  ethereum:
+    sentio: https://mainnet.rpc.sentio.xyz
+    alchemy-blast: https://eth-mainnet.public.blastapi.io
+  bsc:
+    sentio: https://bsc.rpc.sentio.xyz
+    alchemy-blast: https://bsc-mainnet.public.blastapi.io
+  base:
+    sentio: https://base.rpc.sentio.xyz
+    alchemy-blast: https://base-mainnet.public.blastapi.io
+  arbitrum:
+    sentio: https://arbitrum-one.rpc.sentio.xyz
+    alchemy-blast: https://arbitrum-one.public.blastapi.io
+deployment_evidence:
+  futureswap:
+    deployment_block: 2191102
+    creation_tx_hash: null
+    creation_evidence_type: two_provider_first_code_transition_factory_creation
+  leetswap:
+    deployment_block: 1987097
+    creation_tx_hash: '0x19a4c10ea929ec9e7af8374955d5a3474b43c5f18bc7082d1471b5106ed6cd82'
+    creation_evidence_type: sourcify_deployment_enrichment_cross_checked_on_chain
+  carolprotocol:
+    deployment_block: 3652088
+    creation_tx_hash: '0x85a31ad4307807566f61e4c5b4fb05201de4ab8e706441d5c4fe9a824d6bf848'
+    creation_evidence_type: sourcify_deployment_enrichment_cross_checked_on_chain
+  shadowfi:
+    deployment_block: 20771762
+    creation_tx_hash: '0x121f3729666d5a1a231659553d701a2d33d00d032168853842b6ba966f9dd642'
+    creation_evidence_type: sourcify_deployment_enrichment_cross_checked_on_chain
+  bbox:
+    deployment_block: 16453625
+    creation_tx_hash: '0xc4ea13bd822631d03c929a255a9d064ce8d7dc1895e7cada34d3bafc9481eb10'
+    creation_evidence_type: two_provider_first_code_transition_and_top_level_receipt
+  vtf:
+    deployment_block: 22027989
+    creation_tx_hash: '0x66397e56747ba887a0bf1b04113a57bc2a56993cbcedae69afbb683999328562'
+    creation_evidence_type: sourcify_deployment_enrichment_cross_checked_on_chain
+  saddle:
+    deployment_block: 13806669
+    creation_tx_hash: '0x71373819ed7f3c14fe51759f006360ddb30d6275c8894690c80145b08d56e5a9'
+    creation_evidence_type: sourcify_deployment_enrichment_cross_checked_on_chain
+  uerii:
+    deployment_block: 13617431
+    creation_tx_hash: '0xb6a50ae378f9c95d40d985d2611ce91a6719fd1fcf0765dced0e2aef24c51db0'
+    creation_evidence_type: sourcify_deployment_enrichment_cross_checked_on_chain
+  88mph:
+    deployment_block: 11870901
+    creation_tx_hash: '0x16b2acf41be5474aca923cad1342614bea67820d0c3a9eb5a250d2ef9f9e769d'
+    creation_evidence_type: two_provider_first_code_transition_and_blockscout_creation_record
+  treasuredao:
+    deployment_block: 5254531
+    creation_tx_hash: '0x36b63fdaeae0abf4d4676d1cd50312be147039a069c96e05407aa6549c54e7ec'
+    creation_evidence_type: sourcify_deployment_enrichment_cross_checked_on_chain

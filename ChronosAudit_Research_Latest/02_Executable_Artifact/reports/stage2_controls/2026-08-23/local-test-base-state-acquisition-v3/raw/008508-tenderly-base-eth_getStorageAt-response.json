@@ -1,0 +1,23 @@
+{
+  "error": null,
+  "http_status": 200,
+  "method": "eth_getStorageAt",
+  "observed_at_unix": 1787428230,
+  "observed_at_utc": "2026-08-22T19:50:30Z",
+  "operator_family": "tenderly",
+  "params": [
+    "0x039a69f1159c32dc339aab86c393245921ee6361",
+    "0xa3f0ad74e5423aebfd80d3ef4346578335a9a72aeaee59ff6cb3582b35133d50",
+    {
+      "blockHash": "0x27cd005df4823121f894ce9407bbbfda6872e43ac30a910d5a5203d17c9ceaca",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "tenderly-base",
+  "result": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "schema_version": "stage2_control_cutoff_state_rpc_response.v1",
+  "sequence": 8508,
+  "target_id": "base-state:db8301f5c9b139291f227e058ba1c5bf044e503fab052c2f41317f50e2f3f699",
+  "transport_request_sha256": "926635bab419eaec573f558e7a6c0c623bf52b7bde310b7fe7e123688facbbd6",
+  "transport_response_sha256": "03eeba832ea35e4ad5f8f6f5ee499c42ca9440322d561dfea607806e95cb508f"
+}

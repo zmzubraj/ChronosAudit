@@ -1,0 +1,7 @@
+{
+  "command": "controls",
+  "reason": "positives missing columns: ['clone_family', 'code_size', 'deployment_time', 'follow_up_horizon', 'identity_group', 'prediction_cutoff_time', 'protocol_family', 'proxy_family', 'proxy_status', 'source_verified_at_cutoff']",
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "status": "scientifically_incomplete"
+}

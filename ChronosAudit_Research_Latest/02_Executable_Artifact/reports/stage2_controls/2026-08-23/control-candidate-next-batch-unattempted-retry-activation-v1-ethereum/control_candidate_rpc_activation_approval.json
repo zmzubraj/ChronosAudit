@@ -1,0 +1,49 @@
+{
+  "acquisition_authorized": false,
+  "activation_expires_utc": "2026-08-29T23:10:00Z",
+  "activation_start_utc": "2026-08-22T23:10:00Z",
+  "block_window_sha256": null,
+  "candidate_retry_manifest_sha256": "e77971f7988eccccfaa7d6b6400d42e978ef036f89d15e7c3480dab303b8106a",
+  "candidate_rpc_capability_verification_sha256": "016e5ca2d144c6a77b9501e48d2bcd185cee4726e0a1654de80cd1b4596521f1",
+  "decision": "ACTIVATE_FROZEN_CONTROL_CANDIDATE_QUEUE_RPC",
+  "hash_chained_no_repeat_ledger_required": true,
+  "maximum_rpc_requests": 22,
+  "provider_bindings": [
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "28273ebfce495a97c0075a0a6bea18b49a66bd9df91c420c2367ad9629023bb4",
+      "operator_evidence_sha256": "91437f6e40fe6e0be3ae81f2d07894ad954c192eb012617b52bd86453385a47c",
+      "operator_family": "drpc",
+      "provider_id": "drpc-ethereum",
+      "public_endpoint_identity_id": "078ddbb63a6abd3c9a5eb951895223315b3d0ba63d4f4c0c588ab34306bf6d79"
+    },
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "0aa30cd46fed972383066fe285d7377394d167d99cace7659aae08047adb0d8d",
+      "operator_evidence_sha256": "1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf",
+      "operator_family": "publicnode",
+      "provider_id": "publicnode-ethereum",
+      "public_endpoint_identity_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082"
+    }
+  ],
+  "provider_identity_verification_sha256": "3c135ee4fc804d8a0cbe09b97874bd3b350bd9673bb71cdb29ab6807601fc531",
+  "provider_registry_sha256": "f18c5146c76acf19edd8edc03fbe70d47e2fd0764c1b3be87b234a3a73e0371b",
+  "purpose": "CONTROL_CANDIDATE_DEPLOYMENT_VERIFICATION_ONLY",
+  "queue_manifest_sha256": "8e4b74626410894f35796db88a622780fe63798dd4962d539601d31f4840e87e",
+  "queue_sha256": "350239e5f3672c32ddca5e7eb070906da8830e70cb655be2b97917e6455b4d32",
+  "raw_request_response_receipts_required": true,
+  "recovery3_mutation_authorized": false,
+  "request_sha256": "65016bbeb411e1a8d89fe3bb0df3777000e0dae9782698204853f189d97f0376",
+  "rpc_authorized": true,
+  "rpc_methods": [
+    "eth_chainId",
+    "eth_getTransactionReceipt",
+    "eth_getBlockByHash"
+  ],
+  "schema_version": "chronosaudit.control_candidate_rpc_activation.v1",
+  "selection_authorized": false,
+  "signer_principal": "zmzubraj-local-test",
+  "source_request_ledger_sha256": "5d808949e1c480096976661d51be9344b16488768e436c24ddb62fccac9449a7",
+  "source_request_ledger_terminal_hash": "ae29cbf2571296fcd1e90c7abc900ae3784cdac1fd2c36b2a2011f777f26110b",
+  "stage_promotion_authorized": false
+}

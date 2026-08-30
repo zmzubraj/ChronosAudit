@@ -1,0 +1,13 @@
+{
+  "call_scope_sha256": "a0e44397542be415ef6ed2ddef27467c4151e60e25727a8460886956ab7d0f20",
+  "method": "eth_getBlockByNumber",
+  "operator_family": "drpc",
+  "params": [
+    "0x11d6afe",
+    false
+  ],
+  "provider_id": "drpc-ethereum",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 495,
+  "target_id": "base-state:0d6a34a8e3f75d6998d2ced9a6908e2673bbb7cdcfa055b212954ef3c60ab02f"
+}

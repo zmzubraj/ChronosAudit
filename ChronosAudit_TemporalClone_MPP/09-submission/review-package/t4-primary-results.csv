@@ -1,0 +1,10 @@
+section,metric,n,denominator,percent,wilson_95_low_percent,wilson_95_high_percent,interpretation
+temporal eligibility,eligible_1h,417,417,100.0,99.1,100.0,contract existed 1 hour before incident
+temporal eligibility,eligible_24h,417,417,100.0,99.1,100.0,contract existed 24 hours before incident
+temporal eligibility,eligible_7d,352,417,84.4,80.6,87.6,contract existed 7 days before incident
+temporal eligibility,eligible_30d,275,417,65.9,61.3,70.3,contract existed 30 days before incident
+proxy linkage,implementation_slot,54,417,12.9,10.1,16.5,non-null ERC-1967 implementation value
+proxy linkage,admin_slot,38,417,9.1,6.7,12.3,non-null ERC-1967 admin value; reported separately
+proxy linkage,beacon_slot,1,417,0.2,0.0,1.3,non-null ERC-1967 beacon value
+proxy linkage,eip1167_target,12,417,2.9,1.7,5.0,recognized ERC-1167 target
+proxy linkage,any_proxy_indicator,67,417,16.1,12.9,19.9,implementation or beacon or ERC-1167 target

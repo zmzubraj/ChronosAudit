@@ -1,0 +1,26 @@
+{
+  "all_fonts_embedded": true,
+  "checked_at_utc": "2026-08-28T20:12:47.528567+00:00",
+  "compile_passed": true,
+  "encrypted": false,
+  "fonts_embedded": true,
+  "human_rendered_page_review": "PENDING",
+  "limitations": [
+    "Rendered-page inspection was performed by the root integration owner, not an independent reviewer.",
+    "The PDF is not tagged for structural accessibility."
+  ],
+  "overfull_boxes": 0,
+  "page_size": "A4",
+  "pages": 8,
+  "pdf": "07-manuscript/main.pdf",
+  "pdf_path": "07-manuscript/main.pdf",
+  "pdf_sha256": "326f7c65b00dba8f98b816d83c7a03f2aad595843e5fcf9dab4dc8face25f909",
+  "pdfinfo_capture": "Title:           Auditing Temporal and Identity Dependence in SCONE-bench\nSubject:         \nKeywords:        \nAuthor:          \nCreator:         LaTeX with hyperref\nProducer:        pdfTeX-1.40.29\nCreationDate:    Sat Aug 29 02:01:04 2026 +06\nModDate:         Sat Aug 29 02:01:04 2026 +06\nCustom Metadata: yes\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           8\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       534644 bytes\nOptimized:       no\nPDF version:     1.7\n",
+  "rendered_pages_inspected": 8,
+  "run_id": "chronosaudit-temporalclone-mpp-20260828T193046Z-5c71be2f-7ac55a",
+  "sha256": "326f7c65b00dba8f98b816d83c7a03f2aad595843e5fcf9dab4dc8face25f909",
+  "tagged_pdf": false,
+  "undefined_citations_or_references": false,
+  "unresolved_references": false,
+  "warnings_disposition": "PASS"
+}

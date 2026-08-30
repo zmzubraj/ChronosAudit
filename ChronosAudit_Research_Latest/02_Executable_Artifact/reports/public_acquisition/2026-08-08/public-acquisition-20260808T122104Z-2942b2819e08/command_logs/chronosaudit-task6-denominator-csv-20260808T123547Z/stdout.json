@@ -1,0 +1,26 @@
+{
+  "audit_csv_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/denominator_audit.csv",
+  "audit_csv_sha256": "327ba7c3906f92f87a295df423b96d7d92d060b6c7e3b6f24c2b1dd9166930c2",
+  "command": "denominator",
+  "denominator_csv_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/processed/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/deployment_denominator.csv",
+  "denominator_csv_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "denominator_rows": 0,
+  "execute": true,
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "source_errors": [
+    {
+      "error": "invalid address: b'\\xc1\\xbd\\xc2w\\x96\\xd0\\xfak\\x96\\x87rk\\xde\\xd6o\\xfe\\x15\\x99m\\x9e'",
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/raw/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/denominator_sources/001-001-contract_deployments_43000000_44000000.csv"
+    }
+  ],
+  "sources": [
+    {
+      "chain": "all",
+      "format": "csv",
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/raw/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/denominator_sources/001-001-contract_deployments_43000000_44000000.csv",
+      "sha256": "c655add2be044f4062f3936891bd4e4d19c3dcffd1b1e127699efa7364d118a9"
+    }
+  ],
+  "status": "partial"
+}

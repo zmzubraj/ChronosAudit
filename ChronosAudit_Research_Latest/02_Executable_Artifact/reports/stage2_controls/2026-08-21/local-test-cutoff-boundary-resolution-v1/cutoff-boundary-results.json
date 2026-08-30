@@ -1,0 +1,20 @@
+{
+  "activation_verification_sha256": "a22e3d510a52fd4618fa6fe13bd98f753c0fddb00e1babdd4b1d992f5e3010ae",
+  "complete": false,
+  "completed_target_count": 0,
+  "counter_authority": false,
+  "last_failure": {
+    "error_code": "cutoff_not_bracketed",
+    "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+  },
+  "processed_target_count": 0,
+  "recovery3_mutation_authorized": false,
+  "requirements_file_sha256": "120d360f2f9414b3b68e2d81b73bcae718f12e65ef2d5762dbd5386e4ac47ce5",
+  "requirements_sha256": "eac86ccac538ef97b4dc631ba23210b36ad62e0e7a399f5ead86f81c61093141",
+  "results_sha256": "24ba57e721c4c4002b5b0ecc160ac346a0c8781a7296a1bf780679d479f6d8cc",
+  "schema_version": "stage2_control_cutoff_boundary_results.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "target_count": 286,
+  "targets": []
+}

@@ -1,0 +1,708 @@
+Auditing Temporal and Identity Dependence in SCONE-bench:
+Dual-Provider Historical State Reconstruction of 417
+Smart-Contract Incidents
+Author details pending accountable-author confirmation
+Draft generated 29 August 2026
+Accountability notice. This is a mechanically checked submission-ready draft. Author identity,
+affiliations, declarations, downstream redistribution rights, and independent scientific reproduction
+require accountable human completion before upload.
+Abstract
+Context: Historical smart-contract benchmarks are often counted by incident rows, although
+a row’s usable pre-incident history and independence depend on deployment time, code reuse, and
+proxy architecture. Objective: We audit these dependencies in the current 417-case SCONE-bench
+cohort without evaluating a detector or making population-level vulnerability claims. Method: We
+reuse closed historical envelopes whose upstream evidence records verified status, a strict snapshot
+closure, block-hash-pinned reads, and two provider families. For each case, we measure whether the
+contract existed 1 hour, 24 hours, 7 days, and 30 days before its incident; compare chain–address,
+address-only, exact-runtime, and metadata-stripped runtime identities; and count specified ERC-1967
+implementation/beacon and ERC-1167 indicators. Results: All 417 cases existed at least 24 hours
+before their incident, 352 (84.4%, Wilson 95% interval 80.6–87.6%) existed at 7 days, and 275 (65.9%,
+61.3–70.3%) existed at 30 days. Address identity assigns 14 rows to duplicate groups, versus 46 under
+exact runtime and 56 after metadata stripping. Sixty-seven cases (16.1%, 12.9–19.9%) expose at least
+one specified proxy indicator. Conclusion: Evaluation capacity and effective independence in this
+cohort vary with the temporal landmark and identity abstraction. The audit provides a reproducible
+cohort profile and boundary conditions, not evidence of detector accuracy, causal risk, or prevalence
+beyond SCONE-bench.
+
+Keywords: smart contracts; benchmark validity; historical state; code reuse; proxy contracts; reproducibility
+
+1
+
+Introduction
+
+Smart-contract security evaluation increasingly uses curated datasets and executable historical incidents.
+Frameworks such as SmartBugs standardize static-analysis execution (di Angelo et al., 2023); SC-Bench
+provides a large audit-oriented corpus (Xia et al., 2025); EVMbench and later reevaluations expose the
+sensitivity of agent conclusions to task construction, scaffolds, and possible contamination (Wang et al.,
+2026; Peng et al., 2026). CyberChainBench extends historical-fork evaluation across chains (Huang et al.,
+2026). These resources make previously difficult experiments possible, but a benchmark’s nominal row
+count is not automatically its number of temporally usable or independent evaluation units.
+The current SCONE-bench repository contains 417 historical incidents (Anthropic, 2026). An earlier
+report described a 405-case snapshot and local historical forks (Anthropic, 2025). We treat the newer
+417-case cohort as a finite benchmark population and ask three deliberately narrow questions:
+1. At which pre-incident landmarks did each benchmark contract already exist?
+2. How does effective dependence change across address- and bytecode-based identity abstractions?
+3. How many rows expose a specified, observable proxy-linkage indicator?
+Our contribution is the joint audit and its reproducible artifacts. The temporal test itself, hashing,
+metadata stripping, and proxy standards are established mechanisms; we make no “first” claim. The
+useful negative result is equally important: the audit cannot establish detector performance, vulnerability
+prevalence, causal risk, or real-world effectiveness.
+1
+
+Table 1: Strongest-prior-art matrix. “Not located” means not found within the documented search scope,
+not universal absence.
+Work
+
+Historical incidents
+
+Historical state
+
+Identity audit
+
+Temporal audit
+
+Proxy audit
+
+SCONE-bench
+Re-evaluating
+EVMbench
+CyberChainBench
+
+Yes
+Yes
+
+Fork block
+Evaluation dependent
+Historical forks
+
+Not located
+Contamination
+focus
+Not located
+
+Not located
+No
+
+Not located
+No
+
+Not located
+
+DIVE
+
+No
+
+This audit
+
+417 rows
+
+Lifecycle features
+Dual-provider,
+block-hashpinned
+upstream
+evidence
+
+Duplicates removed
+Four abstractions
+
+Proxy subset
+for patching
+Not central
+
+2
+
+Yes
+
+No
+1h/24h/7d/30d
+
+Specified
+observable
+indicators
+
+Related work and strongest prior art
+
+Dataset validity is already a central concern in smart-contract research. DIVE explicitly reports lifecyclespecific features and duplicate removal (Alsunaidi et al., 2026); prior empirical work finds extensive
+source/function-level cloning in Ethereum contracts (Khan et al., 2023). These studies motivate identity
+sensitivity but do not answer it for SCONE-bench’s incident rows. EIP-1898 standardizes block-hash
+selectors for canonical historical reads (Ethereum Improvement Proposals, 2019a); ERC-1967 defines proxy
+implementation, beacon, and admin slots (Ethereum Improvement Proposals, 2019b); ERC-1167 defines
+recognizable minimal-proxy runtime code (Ethereum Improvement Proposals, 2018). Table 1 records the
+bounded prior-art comparison used to avoid overstating novelty.
+
+3
+
+Materials and methods
+
+3.1
+
+Frozen cohort and evidence gate
+
+The unit of analysis is one of the 417 case envelopes in the frozen local snapshot. The analysis fails
+closed unless every envelope is marked VERIFIED, has strict_snapshot_closed=true, and records both
+Alchemy and Infura provider families. It reuses upstream deployment time, incident time, runtime
+bytecode, and normalized proxy fields. The source tree is read-only; all derivatives are written to an
+isolated MPP directory.
+The cohort contains 226 BSC, 181 Ethereum, 9 Base, and 1 Arbitrum cases (Table 2). This is a
+benchmark census, not a probability sample of deployed contracts.
+Table 2: Cohort composition (T3).
+Chain
+BSC
+Ethereum
+Base
+Arbitrum
+
+3.2
+
+Cases
+
+Percent
+
+226
+181
+9
+1
+
+54.2
+43.4
+2.2
+0.2
+
+Estimands
+
+For case i, let di be deployment time and ti incident time. Landmark eligibility is Ei,ℓ = ⊮[ti − di ≥ ℓ] for
+ℓ ∈ {1h, 24h, 7d, 30d}. This definition was frozen after an integration test detected and corrected an early
+implementation that had incorrectly substituted snapshot-cutoff lead for deployment age. The correction
+and its timing are preserved in the deviation record.
+Four identity keys are compared: chain–address, address only, SHA-256 of exact runtime bytecode,
+and SHA-256 after removing a recognized Solidity CBOR metadata trailer. Each identity reports unique
+2
+
+temporal
+eligibility
+
+417-case
+index
+
+closed historical
+envelopes
+
+pass
+
+evidence
+gate
+
+canonical
+analysis rows
+
+identity
+sensitivity
+
+T1–T8, figures,
+manuscript
+
+proxy
+indicators
+
+Figure 1: Analysis architecture. Arrows represent data flow, not causality. Editable Mermaid source is
+included with the artifact.
+keys, groups of size at least two, rows in such groups, maximum group size, cross-address groups, and
+cross-chain groups. Equality defines a fingerprint family only.
+Observable proxy linkage is the union of non-null ERC-1967 implementation, non-null ERC-1967
+beacon, and recognized ERC-1167 target fields. The admin slot is reported separately because it does not
+identify a delegate target by itself. This deliberately incomplete rule produces a lower-bound indicator
+count.
+
+3.3
+
+Statistical and reproducibility plan
+
+Because the frozen cohort is fully enumerated, the primary estimands are counts and proportions. Twosided 95% Wilson intervals are supplied as descriptive uncertainty aids. No hypothesis test, multiplicity
+adjustment, imputation, model fitting, or causal estimator is used. All computations use deterministic
+Python standard-library code, sorted output, fixed CSV schemas, and no network access or randomness.
+Algorithms 1–3 give the auditable logic.
+Algorithm 1: Temporal landmark eligibility. For each case i, parse deployment time di and
+incident time ti . Fail closed if either value is absent or if∑︁
+di > ti . For each predeclared landmark
+ℓ ∈ {1h, 24h, 7d, 30d}, set Ei,ℓ = ⊮[ti − di ≥ ℓ]. Report i Ei,ℓ /N with a two-sided 95% Wilson
+interval. The historical snapshot cutoff is audited separately and never substituted for deployment
+age.
+Algorithm 2: Identity sensitivity. For every case, construct four fingerprints: chain–address,
+address only, SHA-256 of exact runtime bytecode, and SHA-256 of runtime bytecode after removing
+the recognized Solidity CBOR metadata trailer. Group equal fingerprints, count unique identities,
+groups of size at least two, rows in those groups, cross-address groups, and cross-chain groups. No
+bytecode equality result is interpreted as semantic equivalence.
+Algorithm 3: Observable proxy linkage. Normalize the upstream ERC-1967 implementation,
+admin, and beacon values and the recognized ERC-1167 target. Count an implementation, beacon, or
+ERC-1167 target as an observable proxy indicator; report admin separately because an admin slot
+alone does not establish a proxy target. The resulting count is a lower bound, not a complete proxy
+classifier.
+
+4
+
+Results
+
+4.1
+
+Temporal eligibility
+
+All 417 contracts existed at both the 1-hour and 24-hour landmarks. At 7 days, 352 were eligible (84.4%,
+Wilson 95% interval 80.6–87.6%); at 30 days, 275 were eligible (65.9%, 61.3–70.3%). Deployment-toincident age ranged from 25.48 hours to 55,430.26 hours, with median 2,325.71 hours. Figure 2 and
+Table 3 report the prespecified outcomes.
+
+4.2
+
+Identity sensitivity
+
+Chain–address and address-only keys each yield 410 unique identities, seven duplicate groups, and 14
+rows in those groups. No additional cross-chain same-address collision appears in this cohort. Exact
+runtime bytecode yields 388 identities and 46 duplicate-group rows; ten of its 17 duplicate groups span
+3
+
+Figure 2: Contract existence at pre-incident landmarks. Error bars are two-sided 95% Wilson intervals;
+counts use the fixed denominator N = 417.
+addresses, and three groups (16 rows) span chains. Metadata stripping yields 382 identities and 56
+duplicate-group rows; 14 of 21 groups span addresses and three groups (17 rows) span chains. The
+maximum runtime-family size is nine (Table 4, Figure 4).
+
+4.3
+
+Observable proxy linkage
+
+Fifty-four cases carry a non-null implementation slot, one a non-null beacon slot, and 12 a recognized
+ERC-1167 target. Their union contains 67 cases (16.1%, Wilson 12.9–19.9%). Thirty-eight admin-slot
+observations are reported separately. Overlap means component counts cannot be summed. The result is
+a cohort-specific lower bound under the declared indicator rule.
+
+5
+
+Robustness and boundary analyses
+
+Metadata stripping adds ten duplicate-group rows and ten cross-address duplicate rows relative to exact
+runtime identity; it adds one cross-chain row. This demonstrates that an apparently small preprocessing
+choice changes the effective dependence estimate. Conversely, chain–address and address-only results
+coincide in this cohort. These are abstraction-sensitivity results, not proof that one identity is universally
+correct.
+The temporal denominator is also landmark-dependent. A study requiring a 30-day pre-incident
+window has 275 eligible units before any additional exclusion, not 417. A study requiring only 24 hours
+retains all rows. This paper does not evaluate whether a particular downstream task actually needs each
+landmark.
+
+6
+
+Discussion
+
+The main implication is operational: a historical incident benchmark should publish a landmark-conditioned
+denominator and at least one dependence sensitivity analysis. A single nominal row count hides both.
+
+4
+
+Table 3: Primary temporal and proxy results (T4).
+Section
+
+Metric
+
+Temporal
+Temporal
+Temporal
+Temporal
+Proxy
+Proxy
+Proxy
+Proxy
+Proxy
+
+1 hour
+24 hours
+7 days
+30 days
+implementation slot
+admin slot (separate)
+beacon slot
+ERC-1167 target
+any specified indicator
+
+n
+
+N
+
+Percent
+
+Wilson 95% interval
+
+417
+417
+352
+275
+54
+38
+1
+12
+67
+
+417
+417
+417
+417
+417
+417
+417
+417
+417
+
+100.0
+100.0
+84.4
+65.9
+12.9
+9.1
+0.2
+2.9
+16.1
+
+99.1–100.0
+99.1–100.0
+80.6–87.6
+61.3–70.3
+10.1–16.5
+6.7–12.3
+0.0–1.3
+1.7–5.0
+12.9–19.9
+
+Table 4: Identity-abstraction mechanism audit (T5).
+Identity
+
+Unique
+
+Groups
+
+Rows
+
+Cross-address groups
+
+Cross-chain groups
+
+Max size
+
+410
+410
+388
+382
+
+7
+7
+17
+21
+
+14
+14
+46
+56
+
+0
+0
+10
+14
+
+0
+0
+3
+3
+
+2
+2
+9
+9
+
+Chain–address
+Address only
+Exact runtime
+Metadata-stripped runtime
+
+The results do not imply that 30 days is preferable to 7 days, nor that metadata-stripped bytecode is the
+definitive unit. They show how those choices alter the usable cohort.
+Proxy architecture creates an additional linkage layer. The 67-case lower-bound indicator count signals
+that contract address alone can obscure implementation reuse or indirection. Future work could resolve
+implementation graphs at each landmark, identify semantic clone families, and test how cluster-aware
+resampling changes detector or agent uncertainty. Those are new studies, not results of this audit.
+
+6.1
+
+Threats to validity
+
+Construct validity. Deployment and incident timestamps, bytecode, and proxy fields are reused from
+upstream envelopes. Exact bytecode is not semantic behavior, and the proxy rule omits nonstandard
+and diamond-style patterns. Internal validity. The script validates declared closure fields but does not
+independently recreate every upstream provider response. Correlated upstream or provider errors may
+remain. External validity. SCONE-bench is a curated incident benchmark, not a probability sample; no
+percentage generalizes to all contracts, chains, vulnerabilities, or incidents. Conclusion validity. Wilson
+intervals are descriptive aids for a fixed cohort, not a basis for population inference. Novelty validity.
+The documented search found related benchmark-validity, lifecycle, and clone studies; no independent
+search challenger has certified the remaining differentiator.
+
+7
+
+Reproducibility, ethics, and responsible use
+
+The bundle includes a row-level provenance manifest, input manifest, analysis code, tests, result CSV/JSON
+files, editable T1–T8 tables, SVG masters, PNG derivatives, Mermaid diagram sources, LaTeX source,
+BibTeX, and mechanical QA outputs. No participant recruitment, intervention, private key use, or new
+chain scraping occurs. The analysis processes public smart-contract incident metadata, but downstream
+row-level redistribution rights require human/legal review before public release. Security-sensitive details
+are not expanded beyond the upstream benchmark. The study makes no exploit-generation or operational
+safety claim.
+Generative AI assisted planning, code generation, drafting, and internal checking under human direction.
+It is not an author, scientific verifier, or accountable submitter. A human author must validate every
+result, disclosure, citation, and source-rights statement before submission.
+
+8
+
+Conclusion
+
+Within the current 417-case SCONE-bench cohort, all contracts support a 24-hour pre-incident landmark,
+while 352 support 7 days and 275 support 30 days. Dependence rises from 14 duplicate-group rows
+5
+
+Figure 3: Empirical cumulative distribution of deployment-to-incident age on a logarithmic hour scale.
+Vertical lines mark 24 hours, 7 days, and 30 days.
+Table 5: Robustness and boundary comparisons (T6).
+Comparison
+Address duplicate
+rows
+Exact vs stripped
+duplicate rows
+Exact vs stripped
+cross-address rows
+Exact vs stripped
+cross-chain rows
+
+Baseline
+
+Alternative
+
+Difference and boundary
+
+14
+
+14
+
+0; no added cross-chain address collision
+
+46
+
+56
+
++10; metadata changes identity
+
+32
+
+42
+
++10; semantic near-clones still excluded
+
+16
+
+17
+
++1; state/configuration may still differ
+
+under address identities to 46 under exact runtime and 56 after metadata stripping. Sixty-seven cases
+expose at least one specified proxy indicator. These findings support reporting landmark-conditioned
+and identity-conditioned benchmark denominators. They do not establish detector performance, causal
+vulnerability risk, or ecosystem prevalence. The artifact is mechanically reproducible locally; independent
+reproduction and accountable human approval remain prerequisites to upload.
+
+Statements and Declarations
+Funding: Pending accountable-author confirmation.
+Competing interests: Pending accountable-author confirmation.
+Ethics approval and consent: No human or animal participants and no intervention; final institutional
+determination, if required, is pending accountable-author confirmation.
+Data availability: The current SCONE-bench repository is publicly accessible. Redistribution of this
+paper’s row-level derivatives is pending source-rights review; aggregate tables and code are prepared in
+the local bundle.
+Code availability: Analysis code and tests are prepared in the local reproducibility bundle; public
+6
+
+Figure 4: Sensitivity to the identity abstraction. Direct labels make the result interpretable without color.
+repository/DOI pending author approval.
+Author contributions: Pending named human authors and CRediT confirmation.
+AI-use disclosure: Generative AI assisted planning, code generation, drafting, and internal checking.
+Human authors must take responsibility for the final work.
+
+References
+Shikah J. Alsunaidi, Hamoud Aljamaan, and Mohammad Hammoudeh. DIVE: A multi-label smart
+contract vulnerability dataset. Scientific Data, 13:664, 2026. doi: 10.1038/s41597-026-07025-5. URL
+https://doi.org/10.1038/s41597-026-07025-5.
+Anthropic. Ai agents find $4.6m in blockchain smart contract exploits, 2025. URL https://www.
+anthropic.com/research/smart-contracts. Official research report; accessed 2026-08-29.
+Anthropic. SCONE-bench: Smart contract on-chain exploit benchmark. GitHub repository, 2026. URL
+https://github.com/anthropics/scone-bench. Accessed 2026-08-29.
+Monika di Angelo, Thomas Durieux, João F. Ferreira, and Gernot Salzer. SmartBugs 2.0: An execution
+framework for weakness detection in ethereum smart contracts. arXiv preprint arXiv:2306.05057, 2023.
+doi: 10.48550/arXiv.2306.05057. URL https://arxiv.org/abs/2306.05057.
+Ethereum Improvement Proposals. ERC-1167: Minimal proxy contract, 2018. URL https://eips.
+ethereum.org/EIPS/eip-1167. Accessed 2026-08-29.
+Ethereum Improvement Proposals. EIP-1898: Add blockhash to defaultblock methods, 2019a. URL
+https://eips.ethereum.org/EIPS/eip-1898. Accessed 2026-08-29.
+Ethereum Improvement Proposals. ERC-1967: Proxy storage slots, 2019b. URL https://eips.ethereum.
+org/EIPS/eip-1967. Accessed 2026-08-29.
+Jintao Huang, Fengqing Jiang, Radha Poovendran, and Zhiqiang Lin. CyberChainBench: Can ai agents
+secure smart contracts against real-world on-chain vulnerabilities? arXiv preprint arXiv:2606.26216,
+2026. doi: 10.48550/arXiv.2606.26216. URL https://arxiv.org/abs/2606.26216.
+Faizan Khan, Istvan David, Dániel Varró, and Shane McIntosh. Code cloning in smart contracts on
+the ethereum platform: An extended replication study. IEEE Transactions on Software Engineering,
+49(4):2006–2019, 2023. doi: 10.1109/TSE.2022.3207428. URL https://doi.org/10.1109/TSE.2022.
+3207428.
+Chaoyuan Peng, Lei Wu, and Yajin Zhou. Re-evaluating EVMBench: Are ai agents ready for smart
+contract security? arXiv preprint arXiv:2603.10795, 2026. doi: 10.48550/arXiv.2603.10795. URL
+https://arxiv.org/abs/2603.10795.
+
+7
+
+Justin Wang, Andreas Bigger, Xiaohai Xu, Justin W. Lin, Andy Applebaum, Tejal Patwardhan, Alpin
+Yukseloglu, and Olivia Watkins. EVMbench: Evaluating ai agents on smart contract security. arXiv
+preprint arXiv:2603.04915, 2026. doi: 10.48550/arXiv.2603.04915. URL https://arxiv.org/abs/
+2603.04915.
+Shihao Xia, Mengting He, Linhai Song, and Yiying Zhang. SC-Bench: A large-scale dataset for smart
+contract auditing. arXiv preprint arXiv:2410.06176, 2025. doi: 10.48550/arXiv.2410.06176. URL
+https://arxiv.org/abs/2410.06176.
+
+8
+
+A
+
+Minimum artifact table set
+Table 6: Proposed audit versus simpler baselines (T2).
+
+Approach
+
+Temporal
+
+Identity
+
+Proxy
+
+Main failure
+
+Row count
+
+No
+
+No
+
+No
+
+Address dedup
+
+No
+
+Address
+
+No
+
+Exact runtime
+
+No
+
+Exact code
+
+Partial
+
+This audit
+
+Four landmarks
+
+Four abstractions
+
+Specified indicators
+
+Overstates usable independent units
+Misses cross-address
+families
+Metadata/implementation
+layers remain
+Still a lower bound
+
+Table 7: Feasibility and authority gates (T7).
+Dimension
+
+Status
+
+Evidence
+
+Remaining gate
+
+New collection
+Determinism
+Rights
+Scientific independence
+
+N/A
+Verified mechanically
+At risk
+Blocked
+
+Read-only 417-case reuse
+Standard-library tests
+SCONE Apache-2.0
+Root produced/self-reviewed
+
+Submission authority
+
+Blocked
+
+Author/declarations
+solved
+
+None
+Independent reproduction
+Row-level release review
+Qualified independent reviewer
+Accountable human approval
+
+unre-
+
+Table 8: Negative findings and scope controls (T8).
+Finding
+
+Effect on claim
+
+No controls or detector evaluation
+Proxy rule incomplete
+Bytecode equality is not semantics
+Cohort is not a probability sample
+Novelty not independently certified
+
+Cohort-validity audit only
+67 is a lower-bound indicator count
+Groups are fingerprint families only
+No ecosystem generalization
+Submission remains gated
+
+B
+
+Execution timeline
+Aug 28
+freeze scope
+
+Aug 28–29
+analysis/tests
+
+Aug 29–30
+paper/PDF
+
+Aug 31–Sep 2
+independent review
+
+Sep 1–2
+author approval
+
+The dates after local paper/PDF completion are targets, not completed scientific or authority gates.
+
+9
+
+Sep 3
+human upload
+
+

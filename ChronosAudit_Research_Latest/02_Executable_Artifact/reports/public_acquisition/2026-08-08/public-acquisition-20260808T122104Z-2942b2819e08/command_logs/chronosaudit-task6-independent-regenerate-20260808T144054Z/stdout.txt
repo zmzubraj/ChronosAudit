@@ -1,0 +1,11 @@
+deterministic
+processed/stage2a_temporal_provenance.csv: PASS
+processed/stage2b_identity_lineage.csv: PASS
+processed/stage2c_adjudication_queue.csv: PASS
+processed/stage2d_control_collection_manifest.csv: PASS
+processed/stage2e_contamination_edges.csv: PASS
+processed/stage2e_release_cohort.csv: PASS
+raw/incident_evidence_enriched.csv: PASS
+reports/incident_matching_audit.csv: PASS
+reports/public_source_provenance.csv: PASS
+reports/stage2a_2e_audit.json: PASS

@@ -1,0 +1,9 @@
+claim_id,estimand,effect_estimate,uncertainty_interval,sample_size,analysis_status
+C004,eligible_1h_percent,100.0,"[99.1,100.0]",417,PRESPECIFIED_COMPLETE
+C004,eligible_24h_percent,100.0,"[99.1,100.0]",417,PRESPECIFIED_COMPLETE
+C004,eligible_7d_percent,84.4,"[80.6,87.6]",417,PRESPECIFIED_COMPLETE
+C004,eligible_30d_percent,65.9,"[61.3,70.3]",417,PRESPECIFIED_COMPLETE
+C005,address_duplicate_group_rows,14,"[14,14]",417,PRESPECIFIED_COMPLETE
+C005,exact_runtime_duplicate_group_rows,46,"[46,46]",417,PRESPECIFIED_COMPLETE
+C005,stripped_runtime_duplicate_group_rows,56,"[56,56]",417,PRESPECIFIED_COMPLETE
+C006,specified_proxy_indicator_percent,16.1,"[12.9,19.9]",417,PRESPECIFIED_COMPLETE

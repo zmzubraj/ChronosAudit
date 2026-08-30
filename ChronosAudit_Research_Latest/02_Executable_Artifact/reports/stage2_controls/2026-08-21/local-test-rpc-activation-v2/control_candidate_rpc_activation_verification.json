@@ -1,0 +1,88 @@
+{
+  "acquisition_authorized": false,
+  "activation_expires_utc": "2026-08-27T18:28:00Z",
+  "allowed_signers_sha256": "90c71679b39b079344c7521803e93c70bbe1566eab62fa8796a00b19a9f8eaf2",
+  "approval_sha256": "ef6ed63d17362001cbd03e8e15be461fe0882647e353cb9cab5037df4f6a5444",
+  "decision": "RPC_ACTIVATION_VERIFIED",
+  "hash_chained_no_repeat_ledger_required": true,
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_IDENTITY",
+  "maximum_rpc_requests": 139608,
+  "provider_bindings": [
+    {
+      "chain": "arbitrum",
+      "identity_evidence_sha256": "a412c7b383ed8e7570768bbb1077d9144a3df95ed06d1197c245f06f1b7e3618",
+      "operator_evidence_sha256": "e242303c90cb8e8b99b9450cf83379a08e049c33879bd21fb2e368b3cec7ed4d",
+      "operator_family": "arbitrum-official",
+      "provider_id": "arbitrum-official-arbitrum",
+      "public_endpoint_identity_id": "75dae0a9fdf900f37bfd5781d118014d8e7fd536bd7ea0f7abdcd740ea847202"
+    },
+    {
+      "chain": "arbitrum",
+      "identity_evidence_sha256": "8b5b0012f65b8899822e65dac3941304395e4ca0beb871a28117cf898bedde39",
+      "operator_evidence_sha256": "9f11899c5f9d4f63080b9c75135086b8a471dcd221773d2137dfe1af5c0e8341",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-arbitrum",
+      "public_endpoint_identity_id": "b7cbaed0f509c2c15f8f65e9cf40368bdf70b4d2204b32b524995fda71f962f6"
+    },
+    {
+      "chain": "base",
+      "identity_evidence_sha256": "eb1a94a1460e56b604cfd32ca109b087bfbf5216d947ecf460acc5bffb5e596a",
+      "operator_evidence_sha256": "12e85f3d1a499d0f8741dbed9cf8c967a044315b17397cea003aab9b92e255e0",
+      "operator_family": "base-official",
+      "provider_id": "base-official-base",
+      "public_endpoint_identity_id": "da1e4a0b726081a615f3a070f91579a54a9a7deb09de13f8c5f6687d4079cf27"
+    },
+    {
+      "chain": "base",
+      "identity_evidence_sha256": "bd57b04732cc63f6413f81698c2dae7492a0674b5495ed57a03f2c69fa83bebc",
+      "operator_evidence_sha256": "9f11899c5f9d4f63080b9c75135086b8a471dcd221773d2137dfe1af5c0e8341",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-base",
+      "public_endpoint_identity_id": "9725f76be0e39ec0a6357d2c978f49aab60da2ac81b88d6b207e3dd406424bfe"
+    },
+    {
+      "chain": "bsc",
+      "identity_evidence_sha256": "6729ae462c2e370d6146f819e6448ff6f6fb133481f64f40b59ee12661de3511",
+      "operator_evidence_sha256": "9f11899c5f9d4f63080b9c75135086b8a471dcd221773d2137dfe1af5c0e8341",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-bsc",
+      "public_endpoint_identity_id": "24c562d7bf48e723fbc228bb78887cf4c71247edcf9e608bf73e49a077903de0"
+    },
+    {
+      "chain": "bsc",
+      "identity_evidence_sha256": "107b28f502f1dfcaeb7c761454ef21be176e964eb83fe342a59fe244b52862ad",
+      "operator_evidence_sha256": "6f1a4dbf407ba8c48706c373f563c5ac7fd770cdcec83949194a22b9224c7f16",
+      "operator_family": "bnb-official",
+      "provider_id": "bnb-official-bsc",
+      "public_endpoint_identity_id": "2e478f4aa04134232f6ffd08cd94d1363cef63adc5f796c4a5dc0ec9db9034b9"
+    },
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "1adb587280c1892c9a14a7df044790336eed3b2225f9b27e2f4ad2c150c027f9",
+      "operator_evidence_sha256": "9f11899c5f9d4f63080b9c75135086b8a471dcd221773d2137dfe1af5c0e8341",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-ethereum",
+      "public_endpoint_identity_id": "6f14fe92d9f49650515871e797fc5500e128b4f0d754c6172485ca92a8c2dfab"
+    },
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "0aa30cd46fed972383066fe285d7377394d167d99cace7659aae08047adb0d8d",
+      "operator_evidence_sha256": "1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf",
+      "operator_family": "publicnode",
+      "provider_id": "publicnode-ethereum",
+      "public_endpoint_identity_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082"
+    }
+  ],
+  "queue_row_count": 34900,
+  "queue_sha256": "89057a27cb2fbaeba93cf74ba55b2133ab816b2d0b66d6a89e8a596ca1d21ec9",
+  "raw_request_response_receipts_required": true,
+  "recovery3_mutation_authorized": false,
+  "request_sha256": "50ccfaf597d79c0d74c9ba8ed9ace2c93974a7c9cff9815d4e76563af0643705",
+  "rpc_authorized": true,
+  "schema_version": "chronosaudit.control_candidate_rpc_activation_verification.v1",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-candidate-rpc-activation-v1",
+  "signature_sha256": "79b047cd72c3c26db97196f45c4e121fb26d775719392725a7d49865d778a50d",
+  "signer_principal": "zmzubraj-local-test",
+  "stage_promotion_authorized": false
+}

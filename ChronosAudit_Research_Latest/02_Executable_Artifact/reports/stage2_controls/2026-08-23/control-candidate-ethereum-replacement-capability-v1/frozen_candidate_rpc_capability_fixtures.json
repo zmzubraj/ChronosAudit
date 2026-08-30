@@ -1,0 +1,19 @@
+{
+  "schema_version": "stage2_control_candidate_rpc_capability_fixtures.v1",
+  "selection_rule": "For Ethereum provider replacement, reuse the exact lexicographically earliest prior complete dual-provider candidate fixture already frozen for the 3,349-row next batch.",
+  "source_fixture_sha256": "5e749b3c8279f2394889fa57686eab0fcbfc5982d9ec0c926d54f170c9986984",
+  "fixtures": [
+    {
+      "chain": "ethereum",
+      "chain_id": "0x1",
+      "transaction_hash": "0xf87a5b1e3c6c0f8808996ac3f9113c80928d7dc57e39024618beafdc3a450c27",
+      "block_hash": "0x43f11f546eff9cafb300f4de836812743ff4d02d228f85a789711302f3f60e8c",
+      "block_number": 14267406,
+      "reserve_assignment_sha256": "004f2176c0c87135d3a52228fb19fbe0a69fa55306140e8245b368c4d5302a06"
+    }
+  ],
+  "rpc_authorized": false,
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "recovery3_mutation_authorized": false
+}

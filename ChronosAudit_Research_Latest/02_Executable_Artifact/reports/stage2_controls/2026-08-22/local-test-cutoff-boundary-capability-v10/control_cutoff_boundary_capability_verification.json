@@ -1,0 +1,19 @@
+{
+  "capability_file_sha256": "1e7854170f9a62826a8a74e8c6449d5e9594784b3bf5c6fb644a52b992bf63ce",
+  "capability_sha256": "f684eb73eb5d0f14de6bd4092f5b7c27f48ea83959a1f83f5847bff06be5f0c7",
+  "chain_count": 4,
+  "complete": false,
+  "decision": "CUTOFF_BOUNDARY_CAPABILITY_NOT_VERIFIED",
+  "errors": [
+    "arbitrum:onfinality-arbitrum:block:2221911:rpc_error:eth_getBlockByNumber"
+  ],
+  "provider_registry_sha256": "24c2a13bc08ed92e4c81fdd0caa6a9f753664e08465a2125f50b8138ebda7a4f",
+  "raw_evidence_count": 48,
+  "recovery3_mutation_authorized": false,
+  "requirements_file_sha256": "d15f2ef4960b58ad975c6d430c01802f37ffcc641c7a455d52f9109b1e6cb00c",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_cutoff_boundary_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "bb553ea32feb6bf37ff307f784c45d7d60fbebe375da4d21e6d718746694f0f9"
+}

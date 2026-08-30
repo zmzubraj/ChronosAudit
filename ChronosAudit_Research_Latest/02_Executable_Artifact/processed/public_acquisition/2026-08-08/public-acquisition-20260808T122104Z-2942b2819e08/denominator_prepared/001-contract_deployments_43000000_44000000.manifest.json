@@ -1,0 +1,20 @@
+{
+  "prepared_columns": [
+    "chain_id",
+    "address",
+    "transaction_hash",
+    "block_number",
+    "created_at",
+    "creation_type",
+    "trace_proof"
+  ],
+  "prepared_csv_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/processed/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/denominator_prepared/001-contract_deployments_43000000_44000000.csv",
+  "prepared_csv_sha256": "c655add2be044f4062f3936891bd4e4d19c3dcffd1b1e127699efa7364d118a9",
+  "revision": "2026-08-08",
+  "row_count": 959738,
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "source_meta_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/raw/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/denominator_downloads/001-contract_deployments_43000000_44000000.meta.json",
+  "source_parquet_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/raw/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/denominator_downloads/001-contract_deployments_43000000_44000000.parquet",
+  "source_parquet_sha256": "f16b40e5dec4a5ecc735851f29335ffe8910b4b2ad55ebb7b02f8ef91fd8faa5",
+  "transform": "parquet_to_csv_for_cli_denominator_ingest"
+}

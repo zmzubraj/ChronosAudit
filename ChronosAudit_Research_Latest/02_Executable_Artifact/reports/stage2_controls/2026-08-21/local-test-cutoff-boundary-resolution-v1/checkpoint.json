@@ -1,0 +1,212 @@
+{
+  "activation_verification_sha256": "a22e3d510a52fd4618fa6fe13bd98f753c0fddb00e1babdd4b1d992f5e3010ae",
+  "checkpoint_sha256": "9e7d0966820ff9adcbfbe1994a4e4a8335321d4ce4d0731a8088a8bbf2908418",
+  "completed_target_count": 0,
+  "counter_authority": false,
+  "last_failure": {
+    "error_code": "cutoff_not_bracketed",
+    "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+  },
+  "processed_target_count": 0,
+  "processed_target_ids": [],
+  "recovery3_mutation_authorized": false,
+  "request_count": 18,
+  "request_evidence": [
+    {
+      "block_number": 17343376,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000001-publicnode-ethereum-17343376.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 1,
+      "sha256": "c1d95d8dce4d1b3ac3a2166f3a6996e67d2eac13ac68dfdc69cebab68147d829",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17398320,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000002-publicnode-ethereum-17398320.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 2,
+      "sha256": "4f242cab5cdf6b7c383e09404806f66838838861f3c34e2a94cab0f03c22763f",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17425792,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000003-publicnode-ethereum-17425792.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 3,
+      "sha256": "05f92065b35c5fbefa50fbddcc5c7aee9c2a0ed8945b0ee2ac48f0b0fdbe58a0",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17439528,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000004-publicnode-ethereum-17439528.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 4,
+      "sha256": "eb63cc9a8c355f5f3525c446911bdd8fbac1b99955e97ca827214f69dd478692",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17446396,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000005-publicnode-ethereum-17446396.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 5,
+      "sha256": "30ffa8ae803a6d00da7f1654194b5eb122b41a9abcfd59e1d21b9753526bef29",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17449830,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000006-publicnode-ethereum-17449830.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 6,
+      "sha256": "a78464966b826f3d504bdef42716a7bfd92998300771781936b803463dadfbcd",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17451547,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000007-publicnode-ethereum-17451547.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 7,
+      "sha256": "7c31ae0b69fc85aeb3375c68dd62964fe2493b5f2d73d09b30be4d402f9a6825",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17452405,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000008-publicnode-ethereum-17452405.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 8,
+      "sha256": "c4245b884440835595ef653f24c863cc579b5843f8e2c812ac16f1d380ddd127",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17452834,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000009-publicnode-ethereum-17452834.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 9,
+      "sha256": "e7e4f02e7281df537198352f09c2d14e8287de4658008483f83af81dce7c83d3",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17453049,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000010-publicnode-ethereum-17453049.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 10,
+      "sha256": "b870354e257fe970318bdf1c6d82c2421979e4dd88953b403e2138307c727da6",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17453156,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000011-publicnode-ethereum-17453156.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 11,
+      "sha256": "6578c865dbae778e3b7aff346ae8271758b5e38f99d9578f535f9bab9a6e792c",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17453210,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000012-publicnode-ethereum-17453210.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 12,
+      "sha256": "cfc95352f80d82bb3e303d655b10de269884ef361aaed0790ceb869733c39d72",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17453237,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000013-publicnode-ethereum-17453237.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 13,
+      "sha256": "f08efcf7c2d37612e0c0863587a62b65fee569b9104d9f9b503ecc51016245bb",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17453250,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000014-publicnode-ethereum-17453250.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 14,
+      "sha256": "b215e7c3eea900d5dec0d2b5f76019d69a3299053b136c8c1c46c1c699077d6c",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17453257,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000015-publicnode-ethereum-17453257.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 15,
+      "sha256": "588ac2d89f879b484b475596f84acb9506f3584b1b4c57828d3861e5693d23ac",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17453260,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000016-publicnode-ethereum-17453260.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 16,
+      "sha256": "a8666a6dbd674662289ea64fbee232d338780a87a1529dfb00f78f98b909b756",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17453262,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000017-publicnode-ethereum-17453262.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 17,
+      "sha256": "2ec917e08fa1423ab21185e632c042c0b2c03674eb83c75b19f9e94453d943e7",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    },
+    {
+      "block_number": 17453263,
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-cutoff-boundary-resolution-v1/raw/c448db199cbdd8c30960e0392c451d07143d601ae4df7503bb6e854dfb9c494a/000018-publicnode-ethereum-17453263.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence_number": 18,
+      "sha256": "1374b97b44e2f3e98af342a610704e09c04c9e9e55ae90fe5f8caa3602904f6f",
+      "succeeded": true,
+      "target_id": "cutoff-boundary:00f1a804f546aacaff98fc4bb40a1b308491529c2f914e0763618fe5f8164144"
+    }
+  ],
+  "request_evidence_count": 18,
+  "requirements_file_sha256": "120d360f2f9414b3b68e2d81b73bcae718f12e65ef2d5762dbd5386e4ac47ce5",
+  "requirements_sha256": "eac86ccac538ef97b4dc631ba23210b36ad62e0e7a399f5ead86f81c61093141",
+  "results_file_sha256": "a76ea87b6ad04dc12e3404ad1f12780fb71c4d0f4d76f4264186eba58a19bd91",
+  "results_sha256": "24ba57e721c4c4002b5b0ecc160ac346a0c8781a7296a1bf780679d479f6d8cc",
+  "schema_version": "stage2_control_cutoff_boundary_checkpoint.v1",
+  "scope_requests_used": {
+    "e0669bbdd499698242d3e001ac0be4734ba643464111341145a7950d597dfe05": 18
+  },
+  "selection_authorized": false,
+  "sequence": 18,
+  "stage_promotion_authorized": false,
+  "status": "PARTIAL_NON_AUTHORIZING",
+  "target_count": 286,
+  "used_sequences": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ]
+}

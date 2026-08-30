@@ -1,0 +1,95 @@
+schema_version: chronosaudit.stage2_control_selection_policy.v1
+frozen_at_utc: "2026-08-17T16:39:36Z"
+status: REDESIGN_REQUIRED_HISTORICAL_DENOMINATOR_EXPANSION_AND_DYNAMIC_HORIZON_SIGNATURE
+
+population:
+  positive_cases_required: 417
+  controls_per_positive: 10
+  control_rows_required: 4170
+  unique_control_contracts_required: 4170
+  replacement_across_positive_cases: false
+  source_population: counter-authorized four-chain deployment denominator
+
+selection:
+  positive_order: ascending_case_name_then_chain_stable
+  tie_break: sha256_case_name_pipe_lowercase_contract_address
+  same_chain: required
+  deployed_by_positive_cutoff: required
+  deployment_time_caliper_days: 30
+  code_size_ratio: {minimum: 0.5, maximum: 2.0}
+  proxy_status_exact_match: required
+  source_verified_at_cutoff_exact_match: required
+  post_cutoff_variables_in_selection: prohibited
+  underfilled_match_sets: preserve_as_shortfall_without_relaxation
+  denominator_covariates: pair_specific_at_positive_prediction_cutoff
+  flat_present_day_denominator_covariates: prohibited
+
+deployment_risk_set_feasibility:
+  assessed_at_utc: "2026-08-17"
+  authority_denominator_rows: 20000
+  deployment_window_days: 30
+  pair_edges: 2936
+  unique_control_identities: 1161
+  maximum_no_reuse_allocation: 680
+  maximum_flow_min_cut_verified: true
+  target_control_rows: 4170
+  exact_minimum_shortfall_before_additional_covariates: 3490
+  cases_fully_allocatable: 37
+  cases_with_shortfall: 380
+  disposition: REDESIGN_REQUIRED_INSUFFICIENT_DEPLOYMENT_RISK_SET
+  rule: historical_denominator_expansion_must_close_exact_no_reuse_flow_shortfall_before_covariate_acquisition_or_pilot
+  sufficiency: necessary_not_sufficient_before_code_proxy_source_clone_and_protocol_filters
+
+separation:
+  positive_addresses: exclude_all
+  identity_lineage: require_distinct
+  source_or_bytecode_clone_family: require_distinct
+  proxy_or_implementation_family: require_distinct
+  protocol_family: require_distinct
+  evidence_rule: each_comparison_must_bind_positive_and_denominator_record_hashes
+
+qualification:
+  conjunction: all_checks_and_independent_human_outcome_review
+  required_checks:
+    - maturity
+    - censoring
+    - temporal
+    - lineage
+    - clone
+    - proxy
+    - protocol
+    - mechanism_separation
+  check_evidence: pass_boolean_plus_sha256_required_for_every_check
+  investigated_negative_status: INVESTIGATED_NEGATIVE_MATURE
+  censoring_status: FROZEN_COMPLETE
+  independent_outcome_review_status: INDEPENDENT_HUMAN_REVIEW_COMPLETE
+  ai_or_public_labels_as_independent_review: prohibited
+  mechanism_separation_timing: qualification_only_after_frozen_selection
+  mechanism_selection_leakage: prohibited
+
+unresolved_prespecification:
+  primary_follow_up_horizon: DYNAMIC_HORIZON_V1
+  governance_label: AI_DESIGNED_USER_APPROVED
+  author_principal: zmzubraj
+  approval_statement: DYNAMIC_HORIZON_V1 approved
+  outcome_inspection_attestation: NO_CONTROL_OUTCOMES_INSPECTED_BEFORE_HORIZON_FREEZE
+  disposition: USER_APPROVED_IMPLEMENTATION_AND_SIGNATURE_PENDING
+  rule: dynamic_horizon_artifacts_and_offline_author_signature_must_verify_before_candidate_selection_or_outcome_inspection
+  consequence: no_candidate_or_qualified_control_counter_may_increment
+
+reference_latency_cohort:
+  identity_unit: chain_address
+  deduplication_policy: REFERENCE_IDENTITY_DEDUP_V1
+  risk_entry_rule: earliest_frozen_risk_entry
+  event_rule: first_qualifying_incident_strictly_after_risk_entry
+  deterministic_tie_break: ascending_case_id
+  cutoff_safe_feature_owner: earliest_risk_entry_row
+  unavailable_protocol_category: unknown
+  unavailable_proxy_category: unknown
+  unavailable_complexity_category: unknown
+  unestablished_source_verification: false
+  governance_label: USER_APPROVED_AI_IMPLEMENTED
+  approval_statement: "REFERENCE_IDENTITY_DEDUP_V1 approved: use one row per chain-address, the earliest frozen risk-entry, and the first qualifying incident strictly afterward; use the earliest case ID as the deterministic tie-break. Normalize unavailable cutoff-safe protocol/proxy/complexity fields to explicit UNKNOWN categories and unestablished source verification to false."
+  selection_authorized: false
+  qualification_authorized: false
+  counter_authority: false

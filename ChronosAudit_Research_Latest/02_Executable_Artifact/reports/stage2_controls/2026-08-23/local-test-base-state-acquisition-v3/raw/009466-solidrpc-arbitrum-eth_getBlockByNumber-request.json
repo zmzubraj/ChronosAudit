@@ -1,0 +1,13 @@
+{
+  "call_scope_sha256": "c327442e7ba1c971a5373b52faf427a63812524dc192d56334c04ed16ca8233c",
+  "method": "eth_getBlockByNumber",
+  "operator_family": "solidrpc",
+  "params": [
+    "0x21e721",
+    false
+  ],
+  "provider_id": "solidrpc-arbitrum",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 9466,
+  "target_id": "base-state:f945232320707d067090da35e7dccce08f0787091f763eb0104ddf19762200ad"
+}

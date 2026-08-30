@@ -1,0 +1,28 @@
+version: draft-0.4.0
+claim_boundary: Public incident types are seed labels only and never count as adjudicated root causes.
+protocol_family_evidence:
+  strongest:
+    - official deployment records
+    - governance or upgrade authority
+    - verified repository and release lineage
+  supporting:
+    - official documentation
+    - common deployer or multisig
+mechanism_fields:
+  primary_root_cause: required
+  exploit_techniques: list
+  contributing_conditions: list
+  evidence_references: required
+  confidence: [high, medium, low]
+review_process:
+  independent_reviewers: 2
+  blind_to_detector_predictions: true
+  third_reviewer_on_disagreement: true
+  blinded_rereview_fraction: 0.10
+  minimum_kappa_or_alpha: 0.80
+ai_only_track:
+  protocol_amendment: stage2-ai-only-internal-progression-v1
+  status: separate_non_human_analytic_track
+  independent_human_counter_effect: NONE
+  allowed_internal_use_after_own_gate_pass: [analysis, engineering, manuscript_draft_preparation]
+  external_disclosure_required: true

@@ -1,0 +1,14 @@
+version: 1.0.0-local-test-candidate
+providers:
+- provider_id: drpc-ethereum
+  chain: ethereum
+  endpoint: https://eth.drpc.org
+  operator_family: drpc
+  discovery_source: https://drpc.org/chainlist/ethereum-mainnet-rpc
+  tracking_enabled: true
+- provider_id: publicnode-ethereum
+  chain: ethereum
+  endpoint: https://ethereum-rpc.publicnode.com
+  operator_family: publicnode
+  discovery_source: https://ethereum.publicnode.com/
+  tracking_enabled: true

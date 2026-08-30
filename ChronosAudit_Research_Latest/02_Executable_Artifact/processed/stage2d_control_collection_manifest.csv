@@ -1,0 +1,5 @@
+chain,positive_seed_rows,matched_controls_required,stream_deployments_minimum,matching_variables,follow_up_horizon
+bsc,226,2260,10839,deployment_period; code_size; proxy_status; source_verified; activity; application_category,freeze_before_collection
+ethereum,181,1810,8681,deployment_period; code_size; proxy_status; source_verified; activity; application_category,freeze_before_collection
+base,9,90,1000,deployment_period; code_size; proxy_status; source_verified; activity; application_category,freeze_before_collection
+arbitrum,1,10,1000,deployment_period; code_size; proxy_status; source_verified; activity; application_category,freeze_before_collection

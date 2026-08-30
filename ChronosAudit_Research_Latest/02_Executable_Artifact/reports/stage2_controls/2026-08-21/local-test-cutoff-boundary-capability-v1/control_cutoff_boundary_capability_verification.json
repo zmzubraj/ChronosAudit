@@ -1,0 +1,22 @@
+{
+  "capability_file_sha256": "28fda9eaf44d5a6736324909534403371f576073fb38925aeb1e671482eaebb1",
+  "capability_sha256": "1f1b4bf6d25bda05c6be5ca3773bfb4f7d0d1ea3690f8f65f070152af72b9121",
+  "chain_count": 4,
+  "complete": false,
+  "decision": "CUTOFF_BOUNDARY_CAPABILITY_NOT_VERIFIED",
+  "errors": [
+    "base:blockreq-base:block:866491:rpc_error:eth_getBlockByNumber",
+    "base:blockreq-base:block:36775781:rpc_error:eth_getBlockByNumber",
+    "ethereum:blockreq-ethereum:block:9269608:rpc_error:eth_getBlockByNumber",
+    "ethereum:blockreq-ethereum:block:21748676:rpc_error:eth_getBlockByNumber"
+  ],
+  "provider_registry_sha256": "4f6ff9bf611c39f2d1c4585e88d7d9acebc168f7027388ce85e31f63b8cc201e",
+  "raw_evidence_count": 48,
+  "recovery3_mutation_authorized": false,
+  "requirements_file_sha256": "120d360f2f9414b3b68e2d81b73bcae718f12e65ef2d5762dbd5386e4ac47ce5",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_cutoff_boundary_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "cbecc7dbff739188afb4a029ebe039ef3e376f3492fd213a85ae5d3e64d09e1c"
+}

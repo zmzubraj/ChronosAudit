@@ -1,0 +1,24 @@
+{
+  "authorization": {
+    "authorized": true,
+    "range_scope_sha256": "f2247f04c0ab42775f009aed5e53aa14b5d20c2d0318559a0f094fe7e97f4d7c",
+    "remaining_request_count_after_call": 23264,
+    "remaining_scope_request_count_after_call": 42,
+    "request_sha256": "e89d6bc759010f4b9531c44d5863fd7cf7f34b0a727819e7e220a8e1b10869b7",
+    "sequence_number": 1396
+  },
+  "chain": "base",
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "method": "eth_getBlockByNumber",
+  "observed_at_unix": 1787274426,
+  "operator_family": "drpc",
+  "params": [
+    "0x1a36ab6",
+    false
+  ],
+  "provider_id": "drpc-base",
+  "result": null,
+  "schema_version": "stage2_control_cutoff_boundary_raw_rpc.v1",
+  "sequence_number": 1396,
+  "target_id": "cutoff-boundary:1b24369cc5e63d539bfc4cd92eaa7da088e3b89ec484252eccb4a75082f52c48"
+}

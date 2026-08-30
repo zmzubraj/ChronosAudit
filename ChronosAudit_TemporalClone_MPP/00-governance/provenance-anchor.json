@@ -1,0 +1,11 @@
+{
+  "schema_version": 4,
+  "anchored_ledgers": {
+    "00-governance/decision-ledger.jsonl": "e35fbbae581d73d41f50ff4009f53d3682f5b614f1f09b427e54c2f85bfead20",
+    "00-governance/verification-ledger.jsonl": "",
+    "00-governance/provenance-ledger.jsonl": "853631c1e39c11af876716c9ba9ac9cf4464d978396da34fb94fbfeb3537f4b1"
+  },
+  "anchor_hash": "d03c6f41b55ebc0d9563287e7c2bb05a2340305149f9e2cfe25b56c42faff60a",
+  "signing_key_id": "runtime-governance",
+  "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAghsaOqGbnBZbSE3b9HlPj9i9jXL\nOKc210baCnbiC/qk8AAAARcHJvdmVuYW5jZS1hbmNob3IAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAJmLnySw+FxwS33rUOwiHPe+a/kboQaMNeY6Zm4VB+SbDZO\npNxHksX21zDwuBDwSOp5TZLT8qDkw6M84a1haqBg==\n-----END SSH SIGNATURE-----\n"
+}

@@ -1,0 +1,47 @@
+{
+  "balanced_shuffled_kfold": {
+    "leaky_fraction": 1.0,
+    "leaky_splits": 1000,
+    "max_crossing": 9,
+    "mean_crossing_identity_groups": 7.231,
+    "min_crossing": 3
+  },
+  "chain_stratified_balanced_kfold": {
+    "leaky_fraction": 1.0,
+    "leaky_splits": 1000,
+    "max_crossing": 9,
+    "mean_crossing_identity_groups": 7.218,
+    "min_crossing": 2
+  },
+  "identity_group_kfold": {
+    "crossing_identity_groups": 0,
+    "leaky": false
+  },
+  "independent_random": {
+    "leaky_fraction": 1.0,
+    "leaky_splits": 1000,
+    "max_crossing": 9,
+    "mean_crossing_identity_groups": 7.146,
+    "min_crossing": 3
+  },
+  "k": 5,
+  "pair_only_theory": {
+    "expected_crossing_groups_independent_random": 7.2,
+    "probability_at_least_one_crossing_independent_random": 0.999999488
+  },
+  "repeated_group_sizes": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "repeated_identity_groups": 9,
+  "rows": 417,
+  "simulations": 1000,
+  "unique_identities": 408
+}

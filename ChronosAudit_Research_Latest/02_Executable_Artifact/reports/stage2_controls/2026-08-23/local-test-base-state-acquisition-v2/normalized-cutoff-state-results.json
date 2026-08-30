@@ -1,0 +1,42 @@
+{
+  "activation_verification_sha256": "76cd7f10a76b7828b277e0bd579314eb473d56263163cf79d3b71abaa1bad712",
+  "completed_target_count": 0,
+  "dispositions": {
+    "fixed_slot_disagreement": 1,
+    "runtime_code_disagreement": 1
+  },
+  "processed_target_count": 2,
+  "recovery3_mutation_authorized": false,
+  "results_sha256": "a0369ad2961153adffa7a38a849df4fcb21838012d5cd89c4a252cf72ac91f8a",
+  "schema_version": "stage2_control_cutoff_state_results.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "state_targets_sha256": "58670a94219f82d49537cab2e8e867e3c36b7a8217e729b5be43635d3ca79988",
+  "target_count": 808,
+  "targets": [
+    {
+      "case_id": "tifi",
+      "chain": "bsc",
+      "chain_address": "bsc:0x898cf93a32dcb05afca7d59a977b8e10d56129f9",
+      "disposition": "fixed_slot_disagreement",
+      "record_sha256": "3c986a23f77cdeded9c02c0a95862c6fb02f77a41cf8ae1b405eb0ce1f6748af",
+      "recovery3_mutation_authorized": false,
+      "selection_authorized": false,
+      "stage_promotion_authorized": false,
+      "target_id": "base-state:0009ac59240008047452ba49645ddd2e1882124356538d0481f599386a68d969",
+      "target_sha256": "bc70014c45d918ef78378634a49d1a08335d210b7220ad87edb08100b1ac8c1d"
+    },
+    {
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0x1485952a2ab0d26ff9c788d52e756010c14dc700",
+      "disposition": "runtime_code_disagreement",
+      "record_sha256": "7b3d395190deabeda244d0ef72c4c122954c4b44627b9c4cab0e729afcd42817",
+      "recovery3_mutation_authorized": false,
+      "selection_authorized": false,
+      "stage_promotion_authorized": false,
+      "target_id": "base-state:008d91fa52c1e08c722bc3e17e0133e55a7f1a45d2dd80c31127b902c4cc33a3",
+      "target_sha256": "ef2429f68b004daad63406e63b3ff6120f8905b46cd7cada1c544a97cf7be7ff"
+    }
+  ]
+}

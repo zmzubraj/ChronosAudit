@@ -1,0 +1,19 @@
+{
+  "schema_version": "chronosaudit.control_dynamic_horizon_reference_local_test_signature.v1",
+  "decision": "LOCAL_TEST_SIGNATURE_VERIFIED_NON_AUTHORIZING",
+  "principal": "zmzubraj-local-test",
+  "principal_role": "LOCAL_TEST_ONLY",
+  "signature_namespace": "chronosaudit-stage2-control-dynamic-horizon-reference-local-test-v1",
+  "public_key_fingerprint": "SHA256:K202Z0swEISOq8H+FpEoSQ7HGcaP6f8AeaJuY4MPslo",
+  "signed_artifact": "reference_package_manifest.json",
+  "signed_artifact_sha256": "7f2e100c4398edc08768c4cbc383b07cbccd4751c55158abeb7d7807a15ac9b7",
+  "signature_sha256": "9741e64bf1d5a2c671be738421f08ee2413c2cf40837c8488a0f95bb7038847f",
+  "allowed_signers_sha256": "90c71679b39b079344c7521803e93c70bbe1566eab62fa8796a00b19a9f8eaf2",
+  "private_key_repository_location": false,
+  "cryptographic_verification_passed": true,
+  "independent_human_review": false,
+  "production_authority": false,
+  "selection_authorized": false,
+  "qualification_authorized": false,
+  "counter_authority": false
+}

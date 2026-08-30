@@ -1,0 +1,15 @@
+{
+  "reason": "independent human review artifacts not yet bound",
+  "required_artifacts": [
+    "two distinct reviewer identities and accountable owners",
+    "conflict checks",
+    "review packet hashes",
+    "UTC review start and completion timestamps",
+    "confidence and decision hashes",
+    "agreement status",
+    "third-adjudicator evidence for disagreements",
+    "finalized adjudications bound to the case and all review inputs",
+    "handoff manifest artifact hashes"
+  ],
+  "status": "waiting_external"
+}

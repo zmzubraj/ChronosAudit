@@ -1,0 +1,5 @@
+{
+  "command": "rpc",
+  "error": "path outside run root: None",
+  "status": "error"
+}

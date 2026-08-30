@@ -1,0 +1,9 @@
+evidence_id,claim_ids,origin,maturity,scope,status,authorized,independent,source_artifact,notes
+E001,C002|C003|C004|C005|C006|C007,REAL_OBSERVED,V3 INTERNAL,INTERNAL,PARTIAL,yes,no,04-data/provenance-manifest.csv,Read-only frozen envelope reuse; no independent provider recreation in this run.
+E002,C002|C007,ANALYTIC,V3 INTERNAL,INTERNAL,SUPPORTED,yes,no,04-data/provenance-manifest.csv,Deterministic 417-file hash manifest.
+E003,C004|C006,ANALYTIC,V3 INTERNAL,INTERNAL,SUPPORTED,yes,no,05-analysis/results/primary-results.csv,Full-cohort temporal and proxy estimands.
+E004,C005,ANALYTIC,V3 INTERNAL,INTERNAL,SUPPORTED,yes,no,05-analysis/results/primary-results.csv,Deterministic identity-abstraction counts.
+E005,C001,EXPERT_JUDGMENT,V1 ANALYTIC,ANALYTIC,PARTIAL,yes,no,01-novelty/evidence-ledger.csv,Bounded public-source search; independent challenge pending.
+E006,C003,ANALYTIC,V3 INTERNAL,INTERNAL,PARTIAL,yes,no,07-manuscript/manuscript.md,Complete local manuscript and artifact bundle.
+E007,C003,INTERNAL_EXPERIMENT,V0 ASSERTED,ASSERTED,UNSUPPORTED,no,no,,"The unfinished 4,170 controls are excluded."
+E008,C003,EXPERT_JUDGMENT,V0 ASSERTED,ASSERTED,UNSUPPORTED,no,no,,Failed AI reliability evidence is excluded.

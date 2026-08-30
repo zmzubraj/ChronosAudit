@@ -1,0 +1,9 @@
+risk_id,risk,status,probability,impact,mitigation,stop_rule,owner
+R1,direct predecessor defeats joint novelty,AT_RISK,medium,high,independent search challenge and submission-time refresh,reframe as technical validation note if defeated,accountable author
+R2,landmark eligibility misdefined,MITIGATED,low,high,define existence using deployment-to-incident age and lock with tests,stop if timestamps do not satisfy monotone contract,root
+R3,bytecode equality overinterpreted,AT_RISK,medium,high,call it exact identity and disclose semantic limitations,remove authorship or behavioral-equivalence claims,root
+R4,proxy families undercounted,AT_RISK,high,medium,label indicators and lower-bound scope,do not claim exhaustive proxy detection,root
+R5,raw-envelope redistribution exceeds rights,AT_RISK,medium,high,separate aggregate/code release from raw files,withhold raw bundle pending rights review,accountable author
+R6,cohort treated as random population sample,AT_RISK,medium,high,restrict inference to frozen SCONE cohort,remove population-general claims,root
+R7,root review mistaken for independent verification,BLOCKED,high,high,explicitly require qualified external reviewer,no readiness certification without independent disposition,accountable author
+R8,author or venue declarations incomplete,BLOCKED,high,high,human completion checklist,no upload until resolved,accountable author

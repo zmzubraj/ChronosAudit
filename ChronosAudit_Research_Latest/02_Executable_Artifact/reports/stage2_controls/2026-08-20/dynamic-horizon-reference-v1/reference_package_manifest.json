@@ -1,0 +1,18 @@
+{
+  "artifact_sha256": {
+    "dynamic_horizon_model.json": "0434fd0808f9c0b96cd80c1f1becb77df78d8a182cb3b6359a044710f7e403de",
+    "reference_cohort_manifest.json": "ea1a57092d5d0e1cbe0638a69975dfedbe22553cc5fab5b3217296b158f21fe8",
+    "reference_latency_cohort.csv": "6fae5cc7cb34039383ed295549763848d9407255338513ebb8a28759a5ba1533"
+  },
+  "counter_authority": false,
+  "decision": "DYNAMIC_HORIZON_REFERENCE_PACKAGE_VERIFIED_NON_AUTHORIZING",
+  "deduplication_policy": "REFERENCE_IDENTITY_DEDUP_V1",
+  "event_observed_count": 410,
+  "local_test_signing_eligible": true,
+  "method": "DYNAMIC_HORIZON_V1",
+  "model_sha256": "1afd2b68c1f4db724e56ff136e99cc289d64420feac67740533e97dc664d6d6c",
+  "qualification_authorized": false,
+  "reference_row_count": 410,
+  "schema_version": "chronosaudit.control_dynamic_horizon_reference_package.v1",
+  "selection_authorized": false
+}

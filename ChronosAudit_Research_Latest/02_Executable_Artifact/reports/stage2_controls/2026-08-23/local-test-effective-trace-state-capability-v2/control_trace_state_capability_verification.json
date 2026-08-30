@@ -1,0 +1,20 @@
+{
+  "chain_count": 3,
+  "complete": false,
+  "errors": [
+    "base:base-official-base:trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 403: Forbidden\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}",
+    "base:tenderly-base:trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 429: Too Many Requests\",\"trace_transaction\":\"HTTPError: HTTP Error 429: Too Many Requests\"}",
+    "bsc:bnb-official-bsc:trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32000, \\\"message\\\": \\\"missing trie node\\\"}\",\"trace_transaction\":\"{\\\"code\\\": -32002, \\\"message\\\": \\\"the resource trace_transaction is not available.\\\"}\"}",
+    "ethereum:publicnode-ethereum:trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32601, \\\"message\\\": \\\"the method debug_traceTransaction does not exist/is not available\\\"}\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}"
+  ],
+  "provider_registry_verified": false,
+  "raw_evidence_count": 84,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "47fc7a13463a0ee3b04eaa3662262e7ffcd69f905ce6b1bed7adc6e6ec2c373b",
+  "report_sha256": "4d8305c76047d4f579f1ea15f7d004ac51ffd93ae05fface12076781f649ea8a",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "6e26da01c7f8f30073ebc07f00ab6750a3f347c1c0e84749b5c9af2f70edbc11"
+}

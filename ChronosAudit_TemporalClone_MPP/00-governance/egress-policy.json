@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "default": "DENY",
+  "allowed": [
+    "public bibliographic metadata queries",
+    "public official venue and standards pages",
+    "public source-license verification"
+  ],
+  "forbidden_without_explicit_new_authorization": [
+    "uploading raw case envelopes",
+    "uploading unpublished result tables or manuscript drafts to third-party services",
+    "external diagram rendering",
+    "external code execution"
+  ],
+  "notes": "Local analysis, figures, diagrams, LaTeX compilation, and PDF QA are preferred."
+}

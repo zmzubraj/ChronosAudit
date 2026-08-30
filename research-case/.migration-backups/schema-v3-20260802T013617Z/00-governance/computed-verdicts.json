@@ -1,0 +1,77 @@
+{
+  "schema_version": 3,
+  "solution_viability": {
+    "status": "ASSERTED_ONLY",
+    "basis": "Solution-viability inputs are not independently verified: 02-feasibility/evidence-maturity-ladder.csv, 02-feasibility/solution-viability-case.md"
+  },
+  "postdoctoral_audit": {
+    "status": "UNASSESSED",
+    "basis": "No postdoctoral audit artifact exists."
+  },
+  "acceptance_readiness": {
+    "status": "NOT_ASSESSABLE",
+    "basis": "No acceptance-readiness artifact exists."
+  },
+  "maturity_ceiling_summary": {
+    "Claim ID": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false
+    },
+    "C001": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false
+    },
+    "C002": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": true
+    },
+    "SV001": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false
+    },
+    "SV002": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false
+    },
+    "SV003": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false
+    },
+    "SV004": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false
+    },
+    "SV005": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false
+    },
+    "SV006": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false
+    },
+    "SV007": {
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "maturity_ceiling": "V0 ASSERTED",
+      "external_validation_required": false
+    }
+  }
+}

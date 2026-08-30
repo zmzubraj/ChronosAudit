@@ -1,0 +1,53 @@
+{
+  "acquisition_authorized": false,
+  "archive_capability_attestation": "NOT_ASSESSED_BY_IDENTITY_REVIEW",
+  "capture_index_sha256": "e263f2dd0ced1fb52ce5720e10457b6313b9a38a6b49ab6aeb2c7ebb49ebafd3",
+  "decision": "AWAITING_ACCOUNTABLE_PROVIDER_IDENTITY_SIGNATURE",
+  "identity_report_projection_authorized": false,
+  "operator_families": [
+    "drpc",
+    "publicnode"
+  ],
+  "provider_bindings": [
+    {
+      "api_key_env": null,
+      "capture_index_sha256": "e263f2dd0ced1fb52ce5720e10457b6313b9a38a6b49ab6aeb2c7ebb49ebafd3",
+      "chain": "ethereum",
+      "endpoint": "https://eth.drpc.org",
+      "endpoint_env": null,
+      "operator_evidence_sha256": "91437f6e40fe6e0be3ae81f2d07894ad954c192eb012617b52bd86453385a47c",
+      "operator_evidence_url": "https://drpc.org/chainlist/ethereum-mainnet-rpc",
+      "operator_family": "drpc",
+      "provider_id": "drpc-ethereum",
+      "public_endpoint_id": "078ddbb63a6abd3c9a5eb951895223315b3d0ba63d4f4c0c588ab34306bf6d79",
+      "source_id": "drpc-ethereum-mainnet-chainlist"
+    },
+    {
+      "api_key_env": null,
+      "capture_index_sha256": "e263f2dd0ced1fb52ce5720e10457b6313b9a38a6b49ab6aeb2c7ebb49ebafd3",
+      "chain": "ethereum",
+      "endpoint": "https://ethereum-rpc.publicnode.com",
+      "endpoint_env": null,
+      "operator_evidence_sha256": "1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf",
+      "operator_evidence_url": "https://ethereum.publicnode.com/",
+      "operator_family": "publicnode",
+      "provider_id": "publicnode-ethereum",
+      "public_endpoint_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082",
+      "source_id": "publicnode-ethereum-doc-2026-08-20"
+    }
+  ],
+  "provider_count": 2,
+  "provider_registry_sha256": "9c8e291d1fae496e91032f21cc974119599c47a5d18954f6ebfd7fc0fc285e21",
+  "purpose": "CONTROL_RPC_PROVIDER_IDENTITY_AND_INDEPENDENCE_REVIEW_ONLY",
+  "recovery3_mutation_authorized": false,
+  "registry_projection_authorized": false,
+  "request_sha256": "dfe7b2e5af9a3fb8c7e63703b9707fd79feaf54493e175c9ac8420dbc4c71efd",
+  "required_independence_attestation": "AT_LEAST_TWO_DISTINCT_VERIFIED_OPERATOR_FAMILIES_PER_CHAIN",
+  "required_operator_identity_attestation": "ACCOUNTABLE_REVIEW_VERIFIED_OFFICIAL_OPERATOR_BINDING",
+  "review_file_sha256": "09c761b91da06ced20133cd555f13490c57675d530796e4ce3b2787c1cd7ea93",
+  "review_payload_sha256": "1110b74d37535242f77afea09b0b75ba0bbb27de5715e22584b6f55665826d6f",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_approval_request.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

@@ -1,0 +1,109 @@
+{
+  "blockers": [
+    "independent_verified_provider_families_insufficient:arbitrum",
+    "independent_verified_provider_families_insufficient:base",
+    "independent_verified_provider_families_insufficient:bsc",
+    "independent_verified_provider_families_insufficient:ethereum",
+    "provider_evidence_incomplete:one-rpc-arbitrum",
+    "provider_evidence_incomplete:one-rpc-base",
+    "provider_evidence_incomplete:one-rpc-bsc",
+    "provider_evidence_incomplete:one-rpc-ethereum",
+    "provider_evidence_incomplete:publicnode-arbitrum",
+    "provider_evidence_incomplete:publicnode-base",
+    "provider_evidence_incomplete:publicnode-bsc",
+    "provider_evidence_incomplete:publicnode-ethereum",
+    "provider_identity_registry_mismatch:alchemy-arbitrum",
+    "provider_identity_registry_mismatch:alchemy-base",
+    "provider_identity_registry_mismatch:alchemy-bsc",
+    "provider_identity_registry_mismatch:alchemy-ethereum",
+    "provider_identity_registry_mismatch:infura-arbitrum",
+    "provider_identity_registry_mismatch:infura-base",
+    "provider_identity_registry_mismatch:infura-bsc",
+    "provider_identity_registry_mismatch:infura-ethereum",
+    "provider_identity_registry_mismatch:one-rpc-arbitrum",
+    "provider_identity_registry_mismatch:one-rpc-base",
+    "provider_identity_registry_mismatch:one-rpc-bsc",
+    "provider_identity_registry_mismatch:one-rpc-ethereum",
+    "provider_identity_registry_mismatch:publicnode-arbitrum",
+    "provider_identity_registry_mismatch:publicnode-base",
+    "provider_identity_registry_mismatch:publicnode-bsc",
+    "provider_identity_registry_mismatch:publicnode-ethereum",
+    "provider_not_verified:one-rpc-arbitrum",
+    "provider_not_verified:one-rpc-base",
+    "provider_not_verified:one-rpc-bsc",
+    "provider_not_verified:one-rpc-ethereum",
+    "provider_not_verified:publicnode-arbitrum",
+    "provider_not_verified:publicnode-base",
+    "provider_not_verified:publicnode-bsc",
+    "provider_not_verified:publicnode-ethereum"
+  ],
+  "chains": [
+    {
+      "chain": "arbitrum",
+      "fully_matching_operator_families": [],
+      "fully_matching_provider_ids": [],
+      "identity_report_provider_ids": [
+        "alchemy-arbitrum",
+        "infura-arbitrum"
+      ],
+      "registry_provider_ids": [
+        "one-rpc-arbitrum",
+        "publicnode-arbitrum"
+      ]
+    },
+    {
+      "chain": "base",
+      "fully_matching_operator_families": [],
+      "fully_matching_provider_ids": [],
+      "identity_report_provider_ids": [
+        "alchemy-base",
+        "infura-base"
+      ],
+      "registry_provider_ids": [
+        "one-rpc-base",
+        "publicnode-base"
+      ]
+    },
+    {
+      "chain": "bsc",
+      "fully_matching_operator_families": [],
+      "fully_matching_provider_ids": [],
+      "identity_report_provider_ids": [
+        "alchemy-bsc",
+        "infura-bsc"
+      ],
+      "registry_provider_ids": [
+        "one-rpc-bsc",
+        "publicnode-bsc"
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "fully_matching_operator_families": [],
+      "fully_matching_provider_ids": [],
+      "identity_report_provider_ids": [
+        "alchemy-ethereum",
+        "infura-ethereum"
+      ],
+      "registry_provider_ids": [
+        "one-rpc-ethereum",
+        "publicnode-ethereum"
+      ]
+    }
+  ],
+  "decision": "RPC_PROVIDER_IDENTITY_NOT_READY",
+  "provider_identity_verification_sha256": "a774b26ececa76ce2dec975eb7a01facc687847a85798baf07ec37ea1d4e866d",
+  "provider_registry_sha256": "b7c0472a89740e2eaa1e9f3261f152ef08526fe8caf078f5f3d10100c1b57914",
+  "readiness_report_sha256": "45c06037d2087bb6d3903ab52c25d212b643ba78758eac0aabd05149b277cae1",
+  "recovery3_mutation_authorized": false,
+  "required_chains": [
+    "arbitrum",
+    "base",
+    "bsc",
+    "ethereum"
+  ],
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_candidate_rpc_provider_readiness.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

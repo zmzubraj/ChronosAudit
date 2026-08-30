@@ -1,0 +1,636 @@
+{
+  "capability_sha256": "3c74fe1a93982065995e23661cb694299fcd0961c5490ebe26f55dfc4ebcc5f4",
+  "chain_count": 4,
+  "chains": [
+    {
+      "chain": "arbitrum",
+      "chain_id": 42161,
+      "complete": true,
+      "errors": [],
+      "maximum_upper_bound_block": 2221847,
+      "minimum_lower_bound_block": 738159,
+      "operator_families": [
+        "1rpc",
+        "publicnode"
+      ],
+      "probe_blocks": [
+        738159,
+        2221847
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "1rpc",
+          "probe_results": [
+            {
+              "hash": "0x224b39c0c9abbe670fe7a71c3b95636b26427241c274dff5146b438027802224",
+              "number": 738159,
+              "timestamp": 1631554033
+            },
+            {
+              "hash": "0x21b4bb9df0d3da20ec55f13b74037284ed1e6eff023ef7dfbb689d95eff1fe6f",
+              "number": 2221847,
+              "timestamp": 1634232400
+            }
+          ],
+          "provider_id": "one-rpc-arbitrum"
+        },
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "publicnode",
+          "probe_results": [
+            {
+              "hash": "0x224b39c0c9abbe670fe7a71c3b95636b26427241c274dff5146b438027802224",
+              "number": 738159,
+              "timestamp": 1631554033
+            },
+            {
+              "hash": "0x21b4bb9df0d3da20ec55f13b74037284ed1e6eff023ef7dfbb689d95eff1fe6f",
+              "number": 2221847,
+              "timestamp": 1634232400
+            }
+          ],
+          "provider_id": "publicnode-arbitrum"
+        }
+      ],
+      "target_count": 1
+    },
+    {
+      "chain": "base",
+      "chain_id": 8453,
+      "complete": true,
+      "errors": [],
+      "maximum_upper_bound_block": 36775781,
+      "minimum_lower_bound_block": 866491,
+      "operator_families": [
+        "base-official",
+        "publicnode"
+      ],
+      "probe_blocks": [
+        866491,
+        36775781
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "base-official",
+          "probe_results": [
+            {
+              "hash": "0x16f13c4e0c4a95c83e3a3026d93b720c2f79ae9abc8e7e1ab44d7f0c3c0c272c",
+              "number": 866491,
+              "timestamp": 1688522329
+            },
+            {
+              "hash": "0x5e712c2cc95330e2568ad7ed975e5a7ebeab4b8e8dad3e4fd1756a956a7bb20a",
+              "number": 36775781,
+              "timestamp": 1760340909
+            }
+          ],
+          "provider_id": "base-official-base"
+        },
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "publicnode",
+          "probe_results": [
+            {
+              "hash": "0x16f13c4e0c4a95c83e3a3026d93b720c2f79ae9abc8e7e1ab44d7f0c3c0c272c",
+              "number": 866491,
+              "timestamp": 1688522329
+            },
+            {
+              "hash": "0x5e712c2cc95330e2568ad7ed975e5a7ebeab4b8e8dad3e4fd1756a956a7bb20a",
+              "number": 36775781,
+              "timestamp": 1760340909
+            }
+          ],
+          "provider_id": "publicnode-base"
+        }
+      ],
+      "target_count": 8
+    },
+    {
+      "chain": "bsc",
+      "chain_id": 56,
+      "complete": false,
+      "errors": [
+        "bsc:one-rpc-bsc:block:1:historical_block_invalid",
+        "bsc:one-rpc-bsc:block:97004126:rpc_error:eth_getBlockByNumber"
+      ],
+      "maximum_upper_bound_block": 97004126,
+      "minimum_lower_bound_block": 1,
+      "operator_families": [
+        "1rpc",
+        "publicnode"
+      ],
+      "probe_blocks": [
+        1,
+        97004126
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "errors": [
+            "bsc:one-rpc-bsc:block:1:historical_block_invalid",
+            "bsc:one-rpc-bsc:block:97004126:rpc_error:eth_getBlockByNumber"
+          ],
+          "historical_block_by_number_verified": false,
+          "operator_family": "1rpc",
+          "probe_results": [],
+          "provider_id": "one-rpc-bsc"
+        },
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "publicnode",
+          "probe_results": [
+            {
+              "hash": "0x04055304e432294a65ff31069c4d3092ff8b58f009cdb50eba5351e0332ad0f6",
+              "number": 1,
+              "timestamp": 1598671449
+            },
+            {
+              "hash": "0x999ac2a43605522cb82c0c59d3f6a00cc5998eaa454fcafc1eb23d365fd662f1",
+              "number": 97004126,
+              "timestamp": 1778205471
+            }
+          ],
+          "provider_id": "publicnode-bsc"
+        }
+      ],
+      "target_count": 193
+    },
+    {
+      "chain": "ethereum",
+      "chain_id": 1,
+      "complete": true,
+      "errors": [],
+      "maximum_upper_bound_block": 21748676,
+      "minimum_lower_bound_block": 9269608,
+      "operator_families": [
+        "1rpc",
+        "publicnode"
+      ],
+      "probe_blocks": [
+        9269608,
+        21748676
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "1rpc",
+          "probe_results": [
+            {
+              "hash": "0x83affae3307fb529558e720bcce190fccb72c35a387ce0b0c4c49eaa1d585497",
+              "number": 9269608,
+              "timestamp": 1578878519
+            },
+            {
+              "hash": "0x2c977398383676d9c49423f94810b6f9347230078e2cecbcc5494018d2ddc43e",
+              "number": 21748676,
+              "timestamp": 1738376783
+            }
+          ],
+          "provider_id": "one-rpc-ethereum"
+        },
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "publicnode",
+          "probe_results": [
+            {
+              "hash": "0x83affae3307fb529558e720bcce190fccb72c35a387ce0b0c4c49eaa1d585497",
+              "number": 9269608,
+              "timestamp": 1578878519
+            },
+            {
+              "hash": "0x2c977398383676d9c49423f94810b6f9347230078e2cecbcc5494018d2ddc43e",
+              "number": 21748676,
+              "timestamp": 1738376783
+            }
+          ],
+          "provider_id": "publicnode-ethereum"
+        }
+      ],
+      "target_count": 84
+    }
+  ],
+  "complete": false,
+  "decision": "CUTOFF_BOUNDARY_CAPABILITY_INCOMPLETE",
+  "errors": [
+    "bsc:one-rpc-bsc:block:1:historical_block_invalid",
+    "bsc:one-rpc-bsc:block:97004126:rpc_error:eth_getBlockByNumber"
+  ],
+  "probe_method": "eth_getBlockByNumber",
+  "probe_policy": "MINIMUM_FROZEN_LOWER_AND_MAXIMUM_FROZEN_UPPER_PER_CHAIN_V1",
+  "provider_registry_sha256": "2fd1fcf955b8544251ee1592cac57595dabd16c1a28d7f4db6388f512e5b999d",
+  "raw_evidence": [
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00001-one-rpc-arbitrum-eth_chainId-request.json",
+      "provider_id": "one-rpc-arbitrum",
+      "sequence": 1,
+      "sha256": "d98a6f3a4ba76770b2519802e25017f90aaf6082a08b06708d1ff028820e2207"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00001-one-rpc-arbitrum-eth_chainId-response.json",
+      "provider_id": "one-rpc-arbitrum",
+      "sequence": 1,
+      "sha256": "c322f8bdafe1b9442abbe13544976c016c090baff8342387d3bad4f293ff96cf"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-one-rpc-arbitrum-eth_getBlockByNumber-request.json",
+      "provider_id": "one-rpc-arbitrum",
+      "sequence": 2,
+      "sha256": "d0d313c6826ff5c11aaa3893aa3b9bb60f9916fbfea4491ccd1f845a58a8c831"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-one-rpc-arbitrum-eth_getBlockByNumber-response.json",
+      "provider_id": "one-rpc-arbitrum",
+      "sequence": 2,
+      "sha256": "f83386fb0ee9b400cd750b36609c76bf574e8180336a23620eeb582d897dd387"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00003-one-rpc-arbitrum-eth_getBlockByNumber-request.json",
+      "provider_id": "one-rpc-arbitrum",
+      "sequence": 3,
+      "sha256": "35bb1b06cb611ec9931cf4b247881ae8ed7de071d63965cf7437ae67a1fe926e"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00003-one-rpc-arbitrum-eth_getBlockByNumber-response.json",
+      "provider_id": "one-rpc-arbitrum",
+      "sequence": 3,
+      "sha256": "dc1d909d93676799a3c0a32251cb4c82ccb6966fc5869c9956cd8798d02af9ee"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00004-publicnode-arbitrum-eth_chainId-request.json",
+      "provider_id": "publicnode-arbitrum",
+      "sequence": 4,
+      "sha256": "690f38f153203fa4a610707f66f8689e7116ab4e7db8111d142c35b3364f629c"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00004-publicnode-arbitrum-eth_chainId-response.json",
+      "provider_id": "publicnode-arbitrum",
+      "sequence": 4,
+      "sha256": "586dbc16adddb21a4069859638d9c70907bcf2a135c97a871363d8fc0ca03ec2"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00005-publicnode-arbitrum-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-arbitrum",
+      "sequence": 5,
+      "sha256": "cb69113172fd33d72e99f422d6f9fd69f2a53c9f3b3664ed53e105dd2605056f"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00005-publicnode-arbitrum-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-arbitrum",
+      "sequence": 5,
+      "sha256": "042f381bab57a35b27f1d2b6c02bb5bb10502ab83c4fb219f830f353fa5a90de"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00006-publicnode-arbitrum-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-arbitrum",
+      "sequence": 6,
+      "sha256": "11bd13b5ec1193c532d41ec579c4a3741a909f5d6b397295dcbb591b41b307a8"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00006-publicnode-arbitrum-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-arbitrum",
+      "sequence": 6,
+      "sha256": "1962cf0b08a49d0f87d8a702e2cb752282ce26c099bcce320d11ce8a65e6dec6"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00007-base-official-base-eth_chainId-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 7,
+      "sha256": "8ad2b2fafdcf8440a237370209bfeeaa5dfac364a1adf2a32dc147f5192490f8"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00007-base-official-base-eth_chainId-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 7,
+      "sha256": "afaf065b0a44a391ae197175d3b5d308df9b069ed8df130d1fa1506d3707d95f"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00008-base-official-base-eth_getBlockByNumber-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 8,
+      "sha256": "71075da78d35f6a56056ecacf0291cc00ca93ba8746a7b0a05c3a288bb154bb6"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00008-base-official-base-eth_getBlockByNumber-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 8,
+      "sha256": "0ebd8315c4315fb2d9caf9daf85537c7301911255e4e0de722237523130e5167"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00009-base-official-base-eth_getBlockByNumber-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 9,
+      "sha256": "ff5968370a587647cf82a048c845b482543ac964d528ac9a2d28bee3cace4d3b"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00009-base-official-base-eth_getBlockByNumber-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 9,
+      "sha256": "55b392e8b3acadf5dd9dfd85772c4d1d190b0c1b47574d47ff5b0042265e4ba8"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00010-publicnode-base-eth_chainId-request.json",
+      "provider_id": "publicnode-base",
+      "sequence": 10,
+      "sha256": "2899d3c6ab24e4d688faf729524308d31b614b5b903cd36667f10e50b6ab5c33"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00010-publicnode-base-eth_chainId-response.json",
+      "provider_id": "publicnode-base",
+      "sequence": 10,
+      "sha256": "1c6439d3f36854f3df86e7bfaa5f92efb469783de6ec9502af69cede8fdbde60"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00011-publicnode-base-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-base",
+      "sequence": 11,
+      "sha256": "f3bc754283a3b52adfd466f061dfd8e966d77334820ef47ae4d50d3703438ded"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00011-publicnode-base-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-base",
+      "sequence": 11,
+      "sha256": "68fa22eee3fe912f6978ca889972716c019a713d4d772fce68f446c0689a8336"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00012-publicnode-base-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-base",
+      "sequence": 12,
+      "sha256": "04b6ab377fc79f1844850bd67a98fa3e9ca071c30db2eb4b9e613b2803450279"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00012-publicnode-base-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-base",
+      "sequence": 12,
+      "sha256": "edaedc399ecf3e6996c28f4e3cb286aedfc2086d23d73783dc80992f9bf50ab7"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00013-one-rpc-bsc-eth_chainId-request.json",
+      "provider_id": "one-rpc-bsc",
+      "sequence": 13,
+      "sha256": "b4a97495649fdb71f0e74c96bec028dc149edcc8c5788e0f7b4a321c78c53773"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00013-one-rpc-bsc-eth_chainId-response.json",
+      "provider_id": "one-rpc-bsc",
+      "sequence": 13,
+      "sha256": "0dcd1c9366c1627c8ba23d2a7c33ff6c6def8938047275364d7e6a9cad09bd4f"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00014-one-rpc-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "one-rpc-bsc",
+      "sequence": 14,
+      "sha256": "d6b5c49aa6637fb134636269152057b94a42b3207cebaad2da4b27e73626bce2"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00014-one-rpc-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "one-rpc-bsc",
+      "sequence": 14,
+      "sha256": "0fc1d97d1bf763ee88fe9b465d78c7e94e6118a74afedac811f6c0ebdac43337"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00015-one-rpc-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "one-rpc-bsc",
+      "sequence": 15,
+      "sha256": "c869e0c1bfb07e74fa386dc8d6a156b85bf261bc048da5990c0ab34b49d204fa"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00015-one-rpc-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "one-rpc-bsc",
+      "sequence": 15,
+      "sha256": "cbd405a8536423be24c6110e06681943b9a5b563f8adad45b7086fed6f9cc9d1"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00016-publicnode-bsc-eth_chainId-request.json",
+      "provider_id": "publicnode-bsc",
+      "sequence": 16,
+      "sha256": "93f80893a9af654d0418ae20192e301bf36a8a0986af8bcfe55319cdca9a50a2"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00016-publicnode-bsc-eth_chainId-response.json",
+      "provider_id": "publicnode-bsc",
+      "sequence": 16,
+      "sha256": "91ef6008c8db299d4b3e254c04d33f69009e5a7a802c12c8ac45c064de739b0d"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00017-publicnode-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-bsc",
+      "sequence": 17,
+      "sha256": "b461a74e3d4192d9ea9fbbb55f53704a2ba4bf3d9809f2c759c1034d503727a0"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00017-publicnode-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-bsc",
+      "sequence": 17,
+      "sha256": "1a8dec5752154136199193a946d2f91a625a4ddabe658593cb724c30ec040fed"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00018-publicnode-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-bsc",
+      "sequence": 18,
+      "sha256": "07ce40a60387dd044a63e4cacd46fedeee3e2e0639240488da7a061f5f0d70de"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00018-publicnode-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-bsc",
+      "sequence": 18,
+      "sha256": "43b1d7fc0d2c6f7d06a298667f4fb32508fa897206a3057e738eea652acbac90"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00019-one-rpc-ethereum-eth_chainId-request.json",
+      "provider_id": "one-rpc-ethereum",
+      "sequence": 19,
+      "sha256": "29496d9ec3a00383660ada41d65fa7095acaac906ffd0e0f8a39dc9d62e0ff6e"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00019-one-rpc-ethereum-eth_chainId-response.json",
+      "provider_id": "one-rpc-ethereum",
+      "sequence": 19,
+      "sha256": "87a47101c82dea4f931d23713c4439e83f7b0db569c0ca2fd20a2846edd230df"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00020-one-rpc-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "one-rpc-ethereum",
+      "sequence": 20,
+      "sha256": "ff16e61bf4e902b8551195436c8f6716b89a161f2ad7fd2bb36886d627d039fd"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00020-one-rpc-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "one-rpc-ethereum",
+      "sequence": 20,
+      "sha256": "ac8487eadf6509948b417e37f187497259b7afe9181a17031eee6599dedac2d9"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00021-one-rpc-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "one-rpc-ethereum",
+      "sequence": 21,
+      "sha256": "a668f3d168f5fd54b7c0b9ab91866bae91f61a713f9bd28b6100affc7ad28223"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00021-one-rpc-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "one-rpc-ethereum",
+      "sequence": 21,
+      "sha256": "7bdffb1a253d750983b8a38dd531c778b10d7a35ce9fbd09bbaf314826634895"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00022-publicnode-ethereum-eth_chainId-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 22,
+      "sha256": "49c856e0bfb8dde436a1de94cb86fb7b8fbe55932f240e5525d2ad66995d7249"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00022-publicnode-ethereum-eth_chainId-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 22,
+      "sha256": "ddab64df127b07165a35e54d8ded082a5a28da5a70948514987fb9f40f1c0e0a"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00023-publicnode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 23,
+      "sha256": "d469d24849350412503cc76bbd6e1984a0f2559c5594ad70acaaee3e3d56e63a"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00023-publicnode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 23,
+      "sha256": "d1f2a42bd94cc7974ea5dbd8bb73f99e051c5fa69da000c10ad515362c40825a"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00024-publicnode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 24,
+      "sha256": "44d9710b5170b26a40a2a298b25aec52d42a365e519b98f5596f7537900d0dc6"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00024-publicnode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 24,
+      "sha256": "e49bf631ae76395f20d10aab201e6f8130342799427d22f1b848db81da07d571"
+    }
+  ],
+  "raw_evidence_count": 48,
+  "recovery3_mutation_authorized": false,
+  "requirements_file_sha256": "120d360f2f9414b3b68e2d81b73bcae718f12e65ef2d5762dbd5386e4ac47ce5",
+  "requirements_sha256": "eac86ccac538ef97b4dc631ba23210b36ad62e0e7a399f5ead86f81c61093141",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_cutoff_boundary_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

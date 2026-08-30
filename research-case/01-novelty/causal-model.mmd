@@ -1,0 +1,43 @@
+flowchart TD
+    A["Latent pre-incident vulnerability structure in contract population"] --> B["True detector capability on admissible information"]
+    B --> C["Operationally useful alerts under base-rate and workload constraints"]
+
+    D["Temporal leakage:
+    post-incident labels, writeups, patches, future artifacts"] --> H["Inflated retrospective benchmark score"]
+    E["Lineage leakage:
+    protocol/entity/factory/fork family transfer"] --> H
+    F["Clone leakage:
+    normalized source or bytecode near-duplicates"] --> H
+    G["Mechanism leakage:
+    repeated exploit-family signatures"] --> H
+    I["Attacker-side leakage:
+    attacker-contract or exploit-trace reuse"] --> H
+    J["Negative-sampling distortion:
+    easy negatives or unresolved cases forced negative"] --> H
+    K["Later validation risk outside Attempt-8 novelty:
+    post-freeze retrieval, tuning, or cohort drift"] --> L["Inflated prospective score"]
+
+    B --> M["Observed score under strict admissibility"]
+    H --> N["Observed score under weak controls"]
+    L --> O["Observed score in nominally prospective setting"]
+
+    P["Prediction-time admissibility manifest"] -. blocks .-> D
+    Q["Joint separation by time, lineage, clone, proxy, attacker, mechanism"] -. blocks .-> E
+    Q -. blocks .-> F
+    Q -. blocks .-> G
+    Q -. blocks .-> I
+    R["Censor-aware status:
+    positive / mature negative / unresolved right-censored"] -. corrects .-> J
+    S["Frozen model, retrieval, thresholds, and adjudication"] -. blocks .-> K
+    T["Calibration and selective-prediction policy"] --> C
+    T --> M
+
+    N --> U["Capability-survival ladder:
+    weak controls -> strict controls"]
+    M --> U
+    O --> V["Later sealed shadow-deployment validation verdict"]
+
+    U --> W["Key estimand:
+    performance decay attributable to contamination control"]
+    V --> X["Later validation estimand outside Attempt-8 novelty:
+    sustainable precision-coverage-workload trade-off"]

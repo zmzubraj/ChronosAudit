@@ -1,0 +1,70 @@
+{
+  "artifact_schema_version": "2026-08-08.task5",
+  "checks": [
+    {
+      "gate": "historical_snapshots",
+      "observed": 0,
+      "passed": false,
+      "required": 417
+    },
+    {
+      "gate": "independent_adjudications",
+      "observed": 0,
+      "passed": false,
+      "required": 417
+    },
+    {
+      "gate": "deployment_denominator",
+      "observed": 0,
+      "passed": false,
+      "required": 20000
+    },
+    {
+      "gate": "control_candidates",
+      "observed": 0,
+      "passed": false,
+      "required": 4170
+    },
+    {
+      "gate": "qualified_controls",
+      "observed": 0,
+      "passed": false,
+      "required": 4170
+    },
+    {
+      "gate": "independent_r5_blocks",
+      "observed": 0,
+      "passed": false,
+      "required": 120
+    },
+    {
+      "gate": "positive_case_review_packets",
+      "observed": 417,
+      "passed": true,
+      "required": 0
+    },
+    {
+      "gate": "control_review_packets",
+      "observed": 0,
+      "passed": true,
+      "required": 0
+    },
+    {
+      "gate": "finalized_positive_adjudications",
+      "observed": 0,
+      "passed": true,
+      "required": 0
+    },
+    {
+      "gate": "release_eligible_cases",
+      "observed": 0,
+      "passed": false,
+      "required": ">0 after full case-level conjunction"
+    }
+  ],
+  "counter_artifact_errors": [],
+  "counter_input_manifest_errors": [],
+  "production_qualification_exit": 3,
+  "qualification_semantics": "operational evidence required; packets, env counts, AI review, unhashed inputs, and self-reported digests never satisfy live gates",
+  "qualified": false
+}

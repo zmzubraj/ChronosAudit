@@ -1,0 +1,23 @@
+{
+  "error": null,
+  "http_status": 200,
+  "method": "eth_getStorageAt",
+  "observed_at_unix": 1787428210,
+  "observed_at_utc": "2026-08-22T19:50:10Z",
+  "operator_family": "drpc",
+  "params": [
+    "0x2e0445941339f9999372f6d9c4d6667abaeed53b",
+    "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+    {
+      "blockHash": "0xfdf4fd71056ee4b96b76aec1c997797f1752e8c7678f671dadc7cdb767683868",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "drpc-ethereum",
+  "result": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "schema_version": "stage2_control_cutoff_state_rpc_response.v1",
+  "sequence": 8469,
+  "target_id": "base-state:d9991fc7f9e780ca7c74c37e521acc050243fc80a270f98842fa33f201f69ba3",
+  "transport_request_sha256": "7eb6ca5f7c594d2baf55778ae422a50dec15a0755fb7736cde52e24bd688d17a",
+  "transport_response_sha256": "03eeba832ea35e4ad5f8f6f5ee499c42ca9440322d561dfea607806e95cb508f"
+}

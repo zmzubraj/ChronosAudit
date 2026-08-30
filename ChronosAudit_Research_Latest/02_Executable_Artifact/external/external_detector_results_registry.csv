@@ -1,0 +1,5 @@
+study,cases,systems,result,chronosaudit_use
+ICSE 2024 tools study,127,5 automated security tools,~8% of high-impact attacks judged preventable; all preventable cases reentrancy,external detector-effectiveness realism anchor
+ReEVMBench 2026,22,26 model/scaffold configurations,up to 65% vulnerability detection; 0 end-to-end exploit success across 110 agent-incident pairs,post-release contamination/scaffold sensitivity anchor
+CyberChainBench 2026,541,multiple agent-model configurations,"best reported 37.5% detection, 43.7% exploitation, 23.4% patching",historical real-incident end-to-end anchor
+DIVE 2026,22330,multiple vulnerability labels/tools,public large real-contract labeled corpus; warns duplicate opcode structures may cause leakage,denominator/control candidate frame and label triangulation

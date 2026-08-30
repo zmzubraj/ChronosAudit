@@ -1,0 +1,15 @@
+{
+  "checks": [
+    {
+      "gate": "canonical public acquisition counter artifact",
+      "observed": {
+        "missing_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition_counter_inputs.json"
+      },
+      "passed": false,
+      "required": "2026-08-08.task4"
+    }
+  ],
+  "production_qualification_exit": 3,
+  "qualification_semantics": "fail_closed_missing_counter_input_manifest",
+  "qualified": false
+}

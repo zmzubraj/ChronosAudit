@@ -1,0 +1,17 @@
+{
+  "call_scope_sha256": "3f337280aff58d5c23db215871dfe16b7ada5d85d9ceb99750409ad3e0ad55c4",
+  "method": "eth_getStorageAt",
+  "operator_family": "nodereal",
+  "params": [
+    "0x375f53c62cd99c04d32e502a757c1276c2a7b255",
+    "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103",
+    {
+      "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "nodereal-bsc",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 5279,
+  "target_id": "base-state:8b3817f8b6f4d539ea2722948d1d204640f0d5b3739c10d54a171d09bc317fb7"
+}

@@ -1,0 +1,1043 @@
+{
+  "schema_version": 4,
+  "run_id": "chronosaudit-20260801T105039Z-e7e2c21c-64e42a",
+  "system_name": "ChronosAudit",
+  "research_topic_name": "ChronosAudit: Leakage-Audited Prospective Benchmarking of Pre-Incident Smart-Contract Exploit Discovery",
+  "input_revision": 1,
+  "input_sha256": "e7e2c21c831851cf40b800af2b7ab3a3a621cf6b7820ba392604de18aa80e7f1",
+  "status": "ACTIVE",
+  "current_phase": "INTAKE",
+  "resume_from": "INTAKE",
+  "integration_owner": "root-integration-owner",
+  "novelty_status": "UNRESOLVED",
+  "feasibility_decision": "PILOT_FIRST",
+  "solution_viability_status": "ASSERTED_ONLY",
+  "acceptance_readiness": "NOT_ASSESSABLE",
+  "postdoctoral_ai_audit": "UNASSESSED",
+  "assurance_policy": {
+    "novelty": {
+      "mode": "EVIDENCE_BOUNDED",
+      "independent_search_challenge_required": true,
+      "known_item_and_citation_chaining_required": true,
+      "cross_surface_search_required": true,
+      "submission_refresh_required": true,
+      "universal_proof_allowed": false
+    },
+    "solution_viability": {
+      "claim_matched_evidence_ladder_required": true,
+      "failure_envelope_required": true,
+      "external_evidence_required_for_real_world_claims": true,
+      "simulation_may_support_only_matching_claim_scope": true
+    },
+    "acceptance": {
+      "readiness_audit_required": true,
+      "calibrated_forecast_allowed": true,
+      "forecast_requires_target_matched_data_and_uncertainty": true,
+      "guarantee_allowed": false,
+      "editorial_decision_is_external": true
+    },
+    "substitution": {
+      "simulation_and_synthetic_acceleration_allowed": true,
+      "ai_may_replace_empirical_evidence": false,
+      "ai_may_replace_ethics_authority": false,
+      "ai_may_replace_accountable_human": false,
+      "synthetic_or_simulated_evidence_must_be_labeled": true
+    },
+    "review": {
+      "postdoctoral_standard_ai_audit_required": true,
+      "independent_domain_human_disposition_required": true,
+      "universal_postdoctoral_acceptance_claim_allowed": false
+    }
+  },
+  "maturity_stage": "CONCEPT",
+  "validation_stage": "NOT_ASSESSABLE",
+  "last_gate_outcome": null,
+  "pilot_cycle": 5,
+  "phases": {
+    "INTAKE": {
+      "status": "IN_PROGRESS",
+      "attempt": 1,
+      "owner": "root-integration-owner",
+      "required_artifacts": [
+        "00-governance/intake-original.md",
+        "00-governance/intake.json",
+        "00-governance/program-charter.md",
+        "00-governance/study-profile.json"
+      ],
+      "gate_decision": "PROCEED",
+      "gate_evidence": [
+        "00-governance/intake-original.md",
+        "00-governance/intake.json",
+        "00-governance/program-charter.md"
+      ],
+      "started_at": "2026-08-01T10:50:39Z",
+      "completed_at": "2026-08-01T11:15:40Z"
+    },
+    "NOVELTY_AUDIT": {
+      "status": "PENDING",
+      "attempt": 8,
+      "owner": "root-integration-owner",
+      "required_artifacts": [
+        "01-novelty/problem-investigation.md",
+        "01-novelty/novelty-claim-specification.md",
+        "01-novelty/search-protocol.md",
+        "01-novelty/prior-art-query-log.json",
+        "01-novelty/prior-art-raw-snapshots.json",
+        "01-novelty/prior-art-dedup-report.json",
+        "01-novelty/search-coverage.csv",
+        "01-novelty/evidence-ledger.csv",
+        "01-novelty/independent-search-challenge.md",
+        "01-novelty/novelty-matrix.csv",
+        "01-novelty/citation-audit.md",
+        "01-novelty/causal-model.mmd",
+        "01-novelty/candidate-portfolio.md"
+      ],
+      "gate_decision": "NOVELTY_UNRESOLVED",
+      "gate_evidence": [
+        "01-novelty/citation-audit.md",
+        "01-novelty/independent-search-challenge.md",
+        "01-novelty/novelty-claim-specification.md",
+        "01-novelty/novelty-matrix.csv",
+        "01-novelty/search-coverage.csv",
+        "01-novelty/search-protocol.md"
+      ],
+      "started_at": "2026-08-01T21:16:21Z",
+      "completed_at": null
+    },
+    "FEASIBILITY_GATE": {
+      "status": "PENDING",
+      "attempt": 6,
+      "owner": "root-integration-owner",
+      "required_artifacts": [
+        "02-feasibility/solution-viability-case.md",
+        "02-feasibility/evidence-maturity-ladder.csv",
+        "02-feasibility/feasibility-report.md",
+        "02-feasibility/risk-register.csv",
+        "02-feasibility/progression-criteria.csv"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": "2026-08-01T19:40:04Z",
+      "completed_at": null
+    },
+    "STUDY_DESIGN": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "03-design/protocol.md",
+        "03-design/analysis-plan.md",
+        "03-design/power-or-precision.md",
+        "03-design/preregistration-and-deviations.md"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "AUTHORIZED_EXECUTION": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "04-data/provenance-manifest.csv",
+        "04-data/evidence-status.csv"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "ANALYSIS": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "05-analysis/results/exploratory-findings.csv",
+        "05-analysis/results/primary-results.csv",
+        "05-analysis/results/robustness-and-boundaries.csv",
+        "05-analysis/results/negative-findings.csv",
+        "05-analysis/external-validation/protocol.md",
+        "05-analysis/external-validation/results.csv",
+        "05-analysis/external-validation/real-world-validation-report.md",
+        "05-analysis/external-validation/challenge.md",
+        "05-analysis/reproducibility-report.md",
+        "06-visuals/tables/t2-proposed-vs-baselines.csv",
+        "06-visuals/tables/t3-data-or-conditions.csv",
+        "06-visuals/tables/t7-real-world-feasibility.csv"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "MANUSCRIPT": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "06-visuals/visual-ledger.csv",
+        "06-visuals/figures/figure-manifest.csv",
+        "06-visuals/diagrams/architecture.mmd",
+        "06-visuals/diagrams/workflow.mmd",
+        "07-manuscript/manuscript.md",
+        "07-manuscript/claim-evidence-matrix.csv",
+        "07-manuscript/source-manifest.json"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "ADVERSARIAL_QA": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "08-validation/reviews/editor.md",
+        "08-validation/reviews/novelty-domain.md",
+        "08-validation/reviews/methods-statistics.md",
+        "08-validation/reviews/real-world-ethics.md",
+        "08-validation/reviews/visual-reproducibility.md",
+        "08-validation/reviews/clarity-coherence.md",
+        "08-validation/postdoctoral-standards-audit.md",
+        "08-validation/killer-question-ledger.csv",
+        "08-validation/remediation-log.csv"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "SUBMISSION_QA": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "09-submission/venue-portfolio.csv",
+        "09-submission/venue-rules.md",
+        "09-submission/reporting-checklist.md",
+        "09-submission/submission-audit.md",
+        "09-submission/submission-gate-ledger.csv",
+        "09-submission/novelty-refresh.md",
+        "09-submission/acceptance-readiness.md",
+        "09-submission/human-final-review-brief.md"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    },
+    "HUMAN_APPROVAL": {
+      "status": "PENDING",
+      "attempt": 0,
+      "owner": "UNASSIGNED",
+      "required_artifacts": [
+        "09-submission/human-approval.md"
+      ],
+      "gate_decision": "UNASSESSED",
+      "gate_evidence": [],
+      "started_at": null,
+      "completed_at": null
+    }
+  },
+  "phase_history": [
+    {
+      "phase": "INTAKE",
+      "event": "STARTED",
+      "at": "2026-08-01T10:50:39Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "INTAKE",
+      "event": "PASSED",
+      "decision": "PROCEED",
+      "evidence": [
+        "00-governance/intake-original.md",
+        "00-governance/intake.json",
+        "00-governance/program-charter.md"
+      ],
+      "at": "2026-08-01T11:15:40Z",
+      "owner": "root-integration-owner",
+      "next_phase": "NOVELTY_AUDIT"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "INVALIDATED",
+      "reason": "NOVELTY_UNRESOLVED: The bounded search defeats most component-level novelty but leaves the joint-protocol claim only potentially differentiating. Required independent citation challenge could not complete after preserved model, non-productivity, and account-usage-limit failures; patent/standards and alternate-vocabulary coverage remain open. Do not advance.",
+      "at": "2026-08-01T16:13:49Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "GATE_OUTCOME",
+      "decision": "NOVELTY_UNRESOLVED",
+      "reason": "The bounded search defeats most component-level novelty but leaves the joint-protocol claim only potentially differentiating. Required independent citation challenge could not complete after preserved model, non-productivity, and account-usage-limit failures; patent/standards and alternate-vocabulary coverage remain open. Do not advance.",
+      "evidence": [
+        "01-novelty/causal-model.mmd",
+        "01-novelty/problem-investigation.md"
+      ],
+      "at": "2026-08-01T16:13:49Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "INVALIDATED",
+      "reason": "NOVELTY_UNRESOLVED: Attempt-2 independent citation challenge found one material overclaim (PA029), several metadata corrections, and unresolved patent/standards/proprietary coverage. Preserve only the narrow joint-protocol hypothesis and reopen novelty for targeted remediation and independent recheck.",
+      "at": "2026-08-01T16:29:33Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "GATE_OUTCOME",
+      "decision": "NOVELTY_UNRESOLVED",
+      "reason": "Attempt-2 independent citation challenge found one material overclaim (PA029), several metadata corrections, and unresolved patent/standards/proprietary coverage. Preserve only the narrow joint-protocol hypothesis and reopen novelty for targeted remediation and independent recheck.",
+      "evidence": [
+        "01-novelty/citation-audit.md"
+      ],
+      "at": "2026-08-01T16:29:33Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "INVALIDATED",
+      "reason": "NOVELTY_UNRESOLVED: Attempt-3 independent audit found the narrow joint hypothesis provisionally survives, but PA031 and PA032 misclassify standards as S8 prospective evidence and PA033 uses a dead URL with unsupported version-history wording. Correct and independently recheck before advancement.",
+      "at": "2026-08-01T16:46:04Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "GATE_OUTCOME",
+      "decision": "NOVELTY_UNRESOLVED",
+      "reason": "Attempt-3 independent audit found the narrow joint hypothesis provisionally survives, but PA031 and PA032 misclassify standards as S8 prospective evidence and PA033 uses a dead URL with unsupported version-history wording. Correct and independently recheck before advancement.",
+      "evidence": [
+        "01-novelty/citation-audit.md"
+      ],
+      "at": "2026-08-01T16:46:04Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "PASSED",
+      "decision": "NOVELTY_SURVIVES",
+      "evidence": [
+        "01-novelty/candidate-portfolio.md",
+        "01-novelty/causal-model.mmd",
+        "01-novelty/citation-audit.md",
+        "01-novelty/evidence-ledger.csv",
+        "01-novelty/novelty-matrix.csv",
+        "01-novelty/problem-investigation.md",
+        "01-novelty/search-protocol.md"
+      ],
+      "at": "2026-08-01T16:49:56Z",
+      "owner": "root-integration-owner",
+      "next_phase": "FEASIBILITY_GATE"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "INVALIDATED",
+      "reason": "PILOT_FIRST: Independent challenge FEAS-A2-INDEPENDENT-CHALLENGE-002 passes the remediated gate package. The retrospective benchmark core still lacks direct pilot evidence for admissibility-manifest rerunnability, source-rights coverage, maturity-rule operability, archival provenance, and frozen-baseline reproduction. The prospective extension remains blocked by authority, disclosure, adjudication, yield, freeze, and governance prerequisites. Pilot execution is not authorized by the current charter.",
+      "at": "2026-08-01T17:19:28Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "GATE_OUTCOME",
+      "decision": "PILOT_FIRST",
+      "reason": "Independent challenge FEAS-A2-INDEPENDENT-CHALLENGE-002 passes the remediated gate package. The retrospective benchmark core still lacks direct pilot evidence for admissibility-manifest rerunnability, source-rights coverage, maturity-rule operability, archival provenance, and frozen-baseline reproduction. The prospective extension remains blocked by authority, disclosure, adjudication, yield, freeze, and governance prerequisites. Pilot execution is not authorized by the current charter.",
+      "evidence": [
+        "02-feasibility/feasibility-report.md",
+        "02-feasibility/pilot-plan.md",
+        "02-feasibility/progression-criteria.csv",
+        "02-feasibility/risk-register.csv"
+      ],
+      "at": "2026-08-01T17:19:28Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "INVALIDATED",
+      "reason": "PILOT_FIRST: Executed public-data pilot cycle 1 demonstrates bounded benchmark-core feasibility but does not establish benchmark-core green: manifest completeness remains 0/5 for real observations, CA-P08 remains unresolved for mature-negative proof, and archival cost/access remains only partially measured. The prospective extension remains blocked by partner, adjudication, disclosure, freeze, and follow-up prerequisites.",
+      "at": "2026-08-01T17:58:52Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "GATE_OUTCOME",
+      "decision": "PILOT_FIRST",
+      "reason": "Executed public-data pilot cycle 1 demonstrates bounded benchmark-core feasibility but does not establish benchmark-core green: manifest completeness remains 0/5 for real observations, CA-P08 remains unresolved for mature-negative proof, and archival cost/access remains only partially measured. The prospective extension remains blocked by partner, adjudication, disclosure, freeze, and follow-up prerequisites.",
+      "evidence": [
+        "02-feasibility/feasibility-report.md",
+        "02-feasibility/pilot-plan.md",
+        "02-feasibility/pilot-results.md",
+        "02-feasibility/progression-criteria.csv",
+        "02-feasibility/risk-register.csv"
+      ],
+      "at": "2026-08-01T17:58:52Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "INVALIDATED",
+      "reason": "PILOT_FIRST: Pilot cycle 1 and independent challenge FEAS-A3 show bounded benchmark-core feasibility but not green: 0/5 real observations are split-eligible, CA-P08 remains right-censored unresolved in the independent packet, and archival access/cost remains only partially measured. The next cycle is limited to public prediction-time provenance, CA-P08 evidence binding, and measured archival access. The prospective extension remains blocked.",
+      "at": "2026-08-01T18:03:43Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "GATE_OUTCOME",
+      "decision": "PILOT_FIRST",
+      "reason": "Pilot cycle 1 and independent challenge FEAS-A3 show bounded benchmark-core feasibility but not green: 0/5 real observations are split-eligible, CA-P08 remains right-censored unresolved in the independent packet, and archival access/cost remains only partially measured. The next cycle is limited to public prediction-time provenance, CA-P08 evidence binding, and measured archival access. The prospective extension remains blocked.",
+      "evidence": [
+        "02-feasibility/feasibility-report.md",
+        "02-feasibility/pilot-plan.md",
+        "02-feasibility/pilot-results.md",
+        "02-feasibility/progression-criteria.csv",
+        "02-feasibility/risk-register.csv"
+      ],
+      "at": "2026-08-01T18:03:43Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "INVALIDATED",
+      "reason": "PILOT_FIRST: Pilot cycle 2 and independent recheck FEAS-A4-CYCLE2-REASSESSMENT-001 improve provenance specificity and bound archive-access options but do not establish benchmark-core green: 0/5 real observations remain split-eligible, CA-P08 is right-censored because the 0.6.8 proof does not exactly bind to the 0.6.11 deployed artifact and no follow-up was prospectively frozen, and all archive-provider routes remain unexecuted. The next cycle must complete one representative real-case manifest, exercise an authorized archive or equivalent public-data route, and independently test a genuinely prespecified mature-negative example. The prospective extension remains blocked.",
+      "at": "2026-08-01T18:31:00Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "GATE_OUTCOME",
+      "decision": "PILOT_FIRST",
+      "reason": "Pilot cycle 2 and independent recheck FEAS-A4-CYCLE2-REASSESSMENT-001 improve provenance specificity and bound archive-access options but do not establish benchmark-core green: 0/5 real observations remain split-eligible, CA-P08 is right-censored because the 0.6.8 proof does not exactly bind to the 0.6.11 deployed artifact and no follow-up was prospectively frozen, and all archive-provider routes remain unexecuted. The next cycle must complete one representative real-case manifest, exercise an authorized archive or equivalent public-data route, and independently test a genuinely prespecified mature-negative example. The prospective extension remains blocked.",
+      "evidence": [
+        "02-feasibility/feasibility-report.md",
+        "02-feasibility/pilot-results.md",
+        "02-feasibility/progression-criteria.csv"
+      ],
+      "at": "2026-08-01T18:31:00Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "INVALIDATED",
+      "reason": "PILOT_FIRST: Pilot cycle 3 and independent recheck FEAS-A5-CYCLE3-REASSESSMENT-001 replace unexecuted assumptions with direct but non-promoting evidence: the authorized CA-P04 two-read route failed DNS before any RPC response, 0/5 real incidents remain split-eligible, and CA-P09 is genuinely prespecified but remains right-censored until at least 2027-08-01 plus independent adjudication. Manifest completeness, mechanism/status operability, and operational cost/access remain AMBER; the prospective extension remains BLOCKED.",
+      "at": "2026-08-01T19:40:04Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "FEASIBILITY_GATE",
+      "event": "GATE_OUTCOME",
+      "decision": "PILOT_FIRST",
+      "reason": "Pilot cycle 3 and independent recheck FEAS-A5-CYCLE3-REASSESSMENT-001 replace unexecuted assumptions with direct but non-promoting evidence: the authorized CA-P04 two-read route failed DNS before any RPC response, 0/5 real incidents remain split-eligible, and CA-P09 is genuinely prespecified but remains right-censored until at least 2027-08-01 plus independent adjudication. Manifest completeness, mechanism/status operability, and operational cost/access remain AMBER; the prospective extension remains BLOCKED.",
+      "evidence": [
+        "02-feasibility/pilot-results.md",
+        "02-feasibility/support/admissibility-manifest-pilot-cycle3.csv",
+        "02-feasibility/support/independent-cycle3-gate-check-20260801.md",
+        "02-feasibility/support/mature-negative-trial-cycle3.md",
+        "02-feasibility/support/pilot-cycle3-archive-access.md"
+      ],
+      "at": "2026-08-01T19:40:04Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "INVALIDATED",
+      "reason": "Schema-v2 assurance migration requires an evidence-preserving, explicitly retrospective claim specification and search-coverage reconstruction plus a newly independent blinded search challenge. Existing feasibility evidence and CA-P09 remain preserved but cannot support downstream promotion until novelty assurance is rechecked.",
+      "at": "2026-08-01T19:53:39Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "INVALIDATED",
+      "reason": "NOVELTY_UNRESOLVED: Attempt-5 schema-v2 assurance cannot support progression. Two delegated discovery attempts failed with preserved recovery evidence; the successful specialist independently adjudicated only a root-authored six-query packet and explicitly could not certify independent search ownership. PA036-PA040 are verified new nonmaterial predecessors, and no equivalent joint protocol was found, so C001-JOINT remains POTENTIALLY_DIFFERENTIATING only as a bounded hypothesis. Historical screening counts and query attribution remain unreconstructable; citation-chain saturation, correction/retraction/contradictory-evidence search, patent-family, proprietary, subscription-index, and non-English coverage remain incomplete.",
+      "at": "2026-08-01T20:17:01Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "GATE_OUTCOME",
+      "decision": "NOVELTY_UNRESOLVED",
+      "reason": "Attempt-5 schema-v2 assurance cannot support progression. Two delegated discovery attempts failed with preserved recovery evidence; the successful specialist independently adjudicated only a root-authored six-query packet and explicitly could not certify independent search ownership. PA036-PA040 are verified new nonmaterial predecessors, and no equivalent joint protocol was found, so C001-JOINT remains POTENTIALLY_DIFFERENTIATING only as a bounded hypothesis. Historical screening counts and query attribution remain unreconstructable; citation-chain saturation, correction/retraction/contradictory-evidence search, patent-family, proprietary, subscription-index, and non-English coverage remain incomplete.",
+      "evidence": [
+        "01-novelty/citation-audit.md",
+        "01-novelty/evidence-ledger.csv",
+        "01-novelty/independent-search-challenge.md",
+        "01-novelty/novelty-claim-specification.md",
+        "01-novelty/novelty-matrix.csv",
+        "01-novelty/search-coverage.csv"
+      ],
+      "at": "2026-08-01T20:17:01Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "INVALIDATED",
+      "reason": "NOVELTY_UNRESOLVED: Attempt-7 completed the canonical independently owned five-query scholarly/patent challenge with immutable counts-or-UNAVAILABLE, screening and retention logs, ten known-item recoveries, two-seed citation/author traversal, and reconciliation against PA001-PA040. No single equivalent joint protocol was verified, but every major ingredient has strong public precedent, the obvious-recombination and joint-nonredundancy objections remain unresolved, A7Q2/A7Q3/A7Q5 yielded no direct predecessor from their exact phrasing, PA014 remains metadata/abstract-bounded, and formal correction/retraction, subscription citation, patent-family, non-English, private, and proprietary coverage remains incomplete. C001-JOINT therefore remains POTENTIALLY_DIFFERENTIATING only; NOVELTY_SURVIVES is not supported.",
+      "at": "2026-08-01T20:48:34Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "GATE_OUTCOME",
+      "decision": "NOVELTY_UNRESOLVED",
+      "reason": "Attempt-7 completed the canonical independently owned five-query scholarly/patent challenge with immutable counts-or-UNAVAILABLE, screening and retention logs, ten known-item recoveries, two-seed citation/author traversal, and reconciliation against PA001-PA040. No single equivalent joint protocol was verified, but every major ingredient has strong public precedent, the obvious-recombination and joint-nonredundancy objections remain unresolved, A7Q2/A7Q3/A7Q5 yielded no direct predecessor from their exact phrasing, PA014 remains metadata/abstract-bounded, and formal correction/retraction, subscription citation, patent-family, non-English, private, and proprietary coverage remains incomplete. C001-JOINT therefore remains POTENTIALLY_DIFFERENTIATING only; NOVELTY_SURVIVES is not supported.",
+      "evidence": [
+        "01-novelty/citation-audit.md",
+        "01-novelty/independent-search-challenge.md",
+        "01-novelty/search-coverage.csv",
+        "01-novelty/search-protocol.md"
+      ],
+      "at": "2026-08-01T20:48:34Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "INVALIDATED",
+      "reason": "NOVELTY_UNRESOLVED: Attempt-8 validly reframed C001 as a joint capability-survival measurement contribution and recovered no equivalent single predecessor, but the independently owned bounded audit failed its frozen reconstruction contract: query-level UTC/count/screened/retained/exclusion fields were missing, FinSurvival was unrecovered, one closest-work traversal and patent coverage were incomplete, and the pre-ledger freeze was not timestamped. Strong component precedents and obvious-recombination risk therefore remain. The prespecified stop rule prohibits another autonomous retry under this authorization.",
+      "at": "2026-08-01T21:16:21Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "NOVELTY_AUDIT",
+      "event": "GATE_OUTCOME",
+      "decision": "NOVELTY_UNRESOLVED",
+      "reason": "Attempt-8 validly reframed C001 as a joint capability-survival measurement contribution and recovered no equivalent single predecessor, but the independently owned bounded audit failed its frozen reconstruction contract: query-level UTC/count/screened/retained/exclusion fields were missing, FinSurvival was unrecovered, one closest-work traversal and patent coverage were incomplete, and the pre-ledger freeze was not timestamped. Strong component precedents and obvious-recombination risk therefore remain. The prespecified stop rule prohibits another autonomous retry under this authorization.",
+      "evidence": [
+        "01-novelty/citation-audit.md",
+        "01-novelty/independent-search-challenge.md",
+        "01-novelty/novelty-claim-specification.md",
+        "01-novelty/novelty-matrix.csv",
+        "01-novelty/search-coverage.csv",
+        "01-novelty/search-protocol.md"
+      ],
+      "at": "2026-08-01T21:16:21Z",
+      "owner": "root-integration-owner"
+    },
+    {
+      "phase": "INTAKE",
+      "event": "SCHEMA_V4_RECERTIFICATION_REQUIRED",
+      "at": "2026-08-02T01:36:17Z",
+      "owner": "migration-controller"
+    }
+  ],
+  "blockers": [],
+  "invalidation_queue": [],
+  "next_action": "Human review of the concept-only safe-route package is ready. Scientific phase advancement remains unavailable until the intake authority, independent-verifier, and required capability artifacts are independently signed and verified; empirical and prospective work remains NOT RUN.",
+  "created_at": "2026-08-01T10:50:39Z",
+  "updated_at": "2026-08-02T03:04:10Z",
+  "recovery_policy": {
+    "continue_until": "RESOLVED_OR_RESPONSIBLE_STOP",
+    "same_strategy_retry_limit": 1,
+    "strategy_change_required_after_failure": true,
+    "external_wait_requires_verified_resolution_evidence": true,
+    "busy_loop_prohibited": true
+  },
+  "recovery_queue": [
+    {
+      "recovery_id": "REC-f42be3719557",
+      "scope": "CELL",
+      "phase": "NOVELTY_AUDIT",
+      "cell_id": "prior_art_search_challenge",
+      "status": "RESOLVED",
+      "classification": "TOOLING",
+      "diagnosis": "Recovery attempt 2 produced no research artifact and answered the unrelated recommended-plugin catalog instead of the leased search task.",
+      "impact": "Root executes the six-query Stage-A search and freezes a compact result packet; a new bounded reviewer receives only that packet plus the claim specification for independent adjudication and canonical challenge drafting.",
+      "owner": "root-integration-owner",
+      "attempt": 2,
+      "mode": "REDESIGN",
+      "current_strategy": "Root freezes the already executed six-query public search as a non-independent packet; a fresh bounded research analyst receives only the claim specification, root packet, historical evidence ledger, novelty matrix, and search coverage, then independently adjudicates equivalence, obvious combination, new-candidate reconciliation, coverage defects, and the lowest defensible gate without performing or claiming a new search.",
+      "why_different": "This removes browser and broad discovery work from the delegate after two tool/context failures, sharply bounds the evidence surface, and separates discovery ownership from adversarial adjudication while explicitly downgrading the result from a fully independent search.",
+      "verification": "A canonical independent-search-challenge.md exists, names the limitation that the search packet is root-authored, reconciles all newly retained candidates against PA001-PA035, tests C001-JOINT and the strongest composite objection, lists unrepaired coverage gaps, gives one allowed novelty outcome, and returns a SHA-256 without claiming independent discovery.",
+      "required_evidence": [
+        "01-novelty/independent-search-challenge.md"
+      ],
+      "failed_strategies": [
+        "use a new search-specialist with no inherited history and a compact two-deliverable task: six exact stage-a public queries plus a concise stage-b reconciliation against the local ledger, writing only the canonical challenge."
+      ],
+      "checkpoint_id": "CP-db53028edd31",
+      "created_at": "2026-08-01T20:00:12Z",
+      "updated_at": "2026-08-01T20:14:52Z",
+      "resolved_at": "2026-08-01T20:14:52Z",
+      "history": [
+        {
+          "event": "OPENED",
+          "at": "2026-08-01T20:00:12Z",
+          "owner": "root-integration-owner",
+          "diagnosis": "Attempt-5 independent-search strategy failed before artifact production because the delegated model exhausted its context window.",
+          "evidence": [],
+          "checkpoint_id": "CP-ee8cfa918a3f"
+        },
+        {
+          "event": "PLANNED",
+          "at": "2026-08-01T20:00:35Z",
+          "owner": "root-integration-owner",
+          "classification": "TOOLING",
+          "mode": "REASSIGN",
+          "attempt": 1,
+          "strategy": "Use a new search-specialist with no inherited history and a compact two-deliverable task: six exact Stage-A public queries plus a concise Stage-B reconciliation against the local ledger, writing only the canonical challenge.",
+          "why_different": "The failed prompt was long and documentation-heavy; the replacement reduces context, query count, required prose, and role surface while preserving independence and evidence requirements.",
+          "verification": "The canonical challenge exists, records six exact queries and observed counts, verifies primary sources, reconciles PA001-PA035, issues a bounded gate outcome, and returns a SHA-256; the cell completes without context exhaustion."
+        },
+        {
+          "event": "ATTEMPT_STARTED",
+          "at": "2026-08-01T20:00:42Z",
+          "owner": "/root/chronosaudit_attempt5_search_recovery",
+          "attempt": 1,
+          "lease_id": "LEASE-eaa375f7bebe",
+          "strategy": "Use a new search-specialist with no inherited history and a compact two-deliverable task: six exact Stage-A public queries plus a concise Stage-B reconciliation against the local ledger, writing only the canonical challenge."
+        },
+        {
+          "event": "ATTEMPT_FAILED",
+          "at": "2026-08-01T20:02:06Z",
+          "owner": "prior_art_search_challenge",
+          "attempt": 1,
+          "lease_id": "LEASE-eaa375f7bebe",
+          "checkpoint_id": "CP-db53028edd31",
+          "strategy": "Use a new search-specialist with no inherited history and a compact two-deliverable task: six exact Stage-A public queries plus a concise Stage-B reconciliation against the local ledger, writing only the canonical challenge.",
+          "summary": "Recovery attempt 2 produced no research artifact and answered the unrelated recommended-plugin catalog instead of the leased search task."
+        },
+        {
+          "event": "PLANNED",
+          "at": "2026-08-01T20:05:41Z",
+          "owner": "root-integration-owner",
+          "classification": "TOOLING",
+          "mode": "REDESIGN",
+          "attempt": 2,
+          "strategy": "Root freezes the already executed six-query public search as a non-independent packet; a fresh bounded research analyst receives only the claim specification, root packet, historical evidence ledger, novelty matrix, and search coverage, then independently adjudicates equivalence, obvious combination, new-candidate reconciliation, coverage defects, and the lowest defensible gate without performing or claiming a new search.",
+          "why_different": "This removes browser and broad discovery work from the delegate after two tool/context failures, sharply bounds the evidence surface, and separates discovery ownership from adversarial adjudication while explicitly downgrading the result from a fully independent search.",
+          "verification": "A canonical independent-search-challenge.md exists, names the limitation that the search packet is root-authored, reconciles all newly retained candidates against PA001-PA035, tests C001-JOINT and the strongest composite objection, lists unrepaired coverage gaps, gives one allowed novelty outcome, and returns a SHA-256 without claiming independent discovery."
+        },
+        {
+          "event": "ATTEMPT_STARTED",
+          "at": "2026-08-01T20:05:46Z",
+          "owner": "/root/chronosaudit_attempt5_packet_adjudicator",
+          "attempt": 2,
+          "lease_id": "LEASE-eaf1f5e72b7f",
+          "strategy": "Root freezes the already executed six-query public search as a non-independent packet; a fresh bounded research analyst receives only the claim specification, root packet, historical evidence ledger, novelty matrix, and search coverage, then independently adjudicates equivalence, obvious combination, new-candidate reconciliation, coverage defects, and the lowest defensible gate without performing or claiming a new search."
+        },
+        {
+          "event": "RESOLVED",
+          "at": "2026-08-01T20:14:52Z",
+          "owner": "prior_art_search_challenge",
+          "attempt": 2,
+          "checkpoint_id": "CP-fee755702631",
+          "evidence": {
+            "01-novelty/independent-search-challenge.md": "f121d072fcb9993ee5f6d6e44a06e4f149a4236f183c7c3225889a6a4ed31c79"
+          }
+        }
+      ]
+    },
+    {
+      "recovery_id": "REC-69793bc9f23c",
+      "scope": "CELL",
+      "phase": "NOVELTY_AUDIT",
+      "cell_id": "prior_art_search",
+      "status": "RESOLVED",
+      "classification": "TOOLING",
+      "diagnosis": "Attempt-7 primary four-batch search failed before any evidence or artifact was returned because the delegated agent exhausted its context window. No query log, count, candidate, or source row was accepted.",
+      "impact": "Do not repeat broad primary-search delegation. Narrow the recovery to a single canonical independently owned challenge using an existing proven reviewer slot and a smaller immutable five-query contract; keep archive/RPC authority excluded.",
+      "owner": "root-integration-owner",
+      "attempt": 2,
+      "mode": "REDESIGN",
+      "current_strategy": "Use the already established independent reviewer environment at /root/chronosaudit_independent_assignment_rerun/pilot_assignment_independent_rerun for a single canonical blind challenge: five frozen scholarly/patent queries plus one standards traversal, immutable query and screening logs, known-item recovery, citation traversal, and reconciliation against PA001-PA040. After independent completion, root verifies the artifact, integrates only its evidenced deltas into canonical search artifacts, and closes the prior_art_search recovery.",
+      "why_different": "The failed attempt delegated a broad four-batch primary search to a new context-heavy agent. This strategy reuses a proven independent reviewer slot, reduces execution to five exact queries and one deliverable, separates independent discovery from root integration, and excludes archive/RPC work.",
+      "verification": "The independent-search-challenge artifact records exact issued queries, counts or explicit UNAVAILABLE values, screened and retained records, exclusions, known-item recovery, one standards traversal, citation-chain checks, PA001-PA040 reconciliation, access gaps, one allowed novelty outcome, attributable ownership, and a stable SHA-256. Root then verifies primary-source links and hashes, updates canonical ledgers without strengthening unsupported claims, completes the recovered prior_art_search cell, and reruns structural and strict case checks.",
+      "required_evidence": [
+        "00-governance/decision-log.md",
+        "01-novelty/search-protocol.md"
+      ],
+      "failed_strategies": [
+        "wait for a materially different independent-search execution path: either a qualified human or a separate bounded environment with reliable scholarly/patent search access must execute the frozen eight-family protocol and preserve exact issued queries, result counts or explicit unavailable fields, screening decisions, citation traversals, known-item recovery, and reconciliation against pa001-pa040."
+      ],
+      "checkpoint_id": "CP-57947071f7cd",
+      "created_at": "2026-08-01T20:19:49Z",
+      "updated_at": "2026-08-01T20:43:26Z",
+      "resolved_at": "2026-08-01T20:43:26Z",
+      "history": [
+        {
+          "event": "OPENED",
+          "at": "2026-08-01T20:19:49Z",
+          "owner": "root-integration-owner",
+          "diagnosis": "Attempt-6 genuinely blind eight-family public search failed before any evidence was returned because the delegated agent exhausted its context window. No search output, counts, candidates, or artifact were accepted.",
+          "evidence": [],
+          "checkpoint_id": "CP-267743c33d31"
+        },
+        {
+          "event": "PLANNED",
+          "at": "2026-08-01T20:20:12Z",
+          "owner": "root-integration-owner",
+          "classification": "TOOLING",
+          "mode": "WAIT_EXTERNAL",
+          "attempt": 0,
+          "strategy": "Wait for a materially different independent-search execution path: either a qualified human or a separate bounded environment with reliable scholarly/patent search access must execute the frozen eight-family protocol and preserve exact issued queries, result counts or explicit unavailable fields, screening decisions, citation traversals, known-item recovery, and reconciliation against PA001-PA040.",
+          "why_different": "Three delegated discovery attempts have now failed to return admissible search evidence because of context exhaustion or task noncompliance. A separately operated environment or human/database owner changes both the execution boundary and evidence capture mechanism instead of repeating the failed agent strategy.",
+          "verification": "Recovery may resume only when an independently owned immutable query log, screening ledger, retained-source packet, citation-chain record, known-item recovery table, access-gap statement, and signed or attributable adjudication are present and hash-verified; root-authored discovery alone is insufficient."
+        },
+        {
+          "event": "EXTERNAL_CONDITION_RESOLVED",
+          "at": "2026-08-01T20:24:29Z",
+          "owner": "root-integration-owner",
+          "attempt": 0,
+          "evidence_records": [
+            {
+              "path": "00-governance/decision-log.md",
+              "sha256": "fee81d7da39f0d2af49b4778c266edbc7a0acb95d40e99c9307d2795b899b550",
+              "verified_by": "user-authority",
+              "verification_id": "USER-AUTH-NOVELTY-SEARCH-20260801T202405Z"
+            }
+          ]
+        },
+        {
+          "event": "ATTEMPT_STARTED",
+          "at": "2026-08-01T20:24:43Z",
+          "owner": "/root/chronosaudit_attempt7_primary_search",
+          "attempt": 1,
+          "lease_id": "LEASE-1cf8054ef43c",
+          "strategy": "Wait for a materially different independent-search execution path: either a qualified human or a separate bounded environment with reliable scholarly/patent search access must execute the frozen eight-family protocol and preserve exact issued queries, result counts or explicit unavailable fields, screening decisions, citation traversals, known-item recovery, and reconciliation against PA001-PA040."
+        },
+        {
+          "event": "ATTEMPT_FAILED",
+          "at": "2026-08-01T20:26:14Z",
+          "owner": "prior_art_search",
+          "attempt": 1,
+          "lease_id": "LEASE-1cf8054ef43c",
+          "checkpoint_id": "CP-57947071f7cd",
+          "strategy": "Wait for a materially different independent-search execution path: either a qualified human or a separate bounded environment with reliable scholarly/patent search access must execute the frozen eight-family protocol and preserve exact issued queries, result counts or explicit unavailable fields, screening decisions, citation traversals, known-item recovery, and reconciliation against PA001-PA040.",
+          "summary": "Attempt-7 primary four-batch search failed before any evidence or artifact was returned because the delegated agent exhausted its context window. No query log, count, candidate, or source row was accepted."
+        },
+        {
+          "event": "PLANNED",
+          "at": "2026-08-01T20:28:22Z",
+          "owner": "root-integration-owner",
+          "classification": "TOOLING",
+          "mode": "REDESIGN",
+          "attempt": 2,
+          "strategy": "Use the already established independent reviewer environment at /root/chronosaudit_independent_assignment_rerun/pilot_assignment_independent_rerun for a single canonical blind challenge: five frozen scholarly/patent queries plus one standards traversal, immutable query and screening logs, known-item recovery, citation traversal, and reconciliation against PA001-PA040. After independent completion, root verifies the artifact, integrates only its evidenced deltas into canonical search artifacts, and closes the prior_art_search recovery.",
+          "why_different": "The failed attempt delegated a broad four-batch primary search to a new context-heavy agent. This strategy reuses a proven independent reviewer slot, reduces execution to five exact queries and one deliverable, separates independent discovery from root integration, and excludes archive/RPC work.",
+          "verification": "The independent-search-challenge artifact records exact issued queries, counts or explicit UNAVAILABLE values, screened and retained records, exclusions, known-item recovery, one standards traversal, citation-chain checks, PA001-PA040 reconciliation, access gaps, one allowed novelty outcome, attributable ownership, and a stable SHA-256. Root then verifies primary-source links and hashes, updates canonical ledgers without strengthening unsupported claims, completes the recovered prior_art_search cell, and reruns structural and strict case checks."
+        },
+        {
+          "event": "ATTEMPT_STARTED",
+          "at": "2026-08-01T20:42:02Z",
+          "owner": "root-integration-owner",
+          "attempt": 2,
+          "lease_id": "LEASE-976f51ea7620",
+          "strategy": "Use the already established independent reviewer environment at /root/chronosaudit_independent_assignment_rerun/pilot_assignment_independent_rerun for a single canonical blind challenge: five frozen scholarly/patent queries plus one standards traversal, immutable query and screening logs, known-item recovery, citation traversal, and reconciliation against PA001-PA040. After independent completion, root verifies the artifact, integrates only its evidenced deltas into canonical search artifacts, and closes the prior_art_search recovery."
+        },
+        {
+          "event": "RESOLVED",
+          "at": "2026-08-01T20:43:26Z",
+          "owner": "prior_art_search",
+          "attempt": 2,
+          "checkpoint_id": "CP-89661137c017",
+          "evidence": {
+            "01-novelty/search-protocol.md": "558d5a2306295496b7a0f5d8fae3894471432a5a82d7e6882a75485b8689ce19"
+          }
+        }
+      ]
+    },
+    {
+      "recovery_id": "REC-5f3a50baa0d3",
+      "scope": "CELL",
+      "phase": "NOVELTY_AUDIT",
+      "cell_id": "prior_art_search_challenge",
+      "status": "STOPPED",
+      "classification": "EVIDENCE_GAP",
+      "diagnosis": "Retry produced an Attempt-8 4+1 exact-query appendix and NOVELTY_UNRESOLVED verdict, but it did not recover FinSurvival and omitted reconstructable counts/screening/exclusion/timestamp fields required for full acceptance. No further autonomous retry is permitted by the recovery stop rule.",
+      "impact": "Do not retry autonomously. Preserve the incomplete audit as negative evidence, independently verify its fidelity and gaps, record NOVELTY_UNRESOLVED, and close the recovery/gate without archive or RPC work.",
+      "owner": "root-integration-owner",
+      "attempt": 1,
+      "mode": "STOP",
+      "current_strategy": "Stop autonomous exact-match search recovery and preserve the incomplete independent audit as negative evidence. Integrate only the verified gaps, record NOVELTY_UNRESOLVED for C001-MEASUREMENT, and rerun case validation.",
+      "why_different": "The prespecified retry stop rule has triggered; another agent search would repeat the same tooling failure pattern and would violate the bounded one-audit authorization.",
+      "verification": "A distinct verifier audits the challenge as faithful incomplete evidence; root records the specific missing fields and unresolved novelty decision, hash-binds the decision, and runs structural and strict checkers.",
+      "required_evidence": [
+        "01-novelty/independent-search-challenge.md"
+      ],
+      "failed_strategies": [
+        "reuse the same independent owner with a compressed four-query scholarly packet plus one patent query, fixed known anchors, two closest-predecessor traversals, and a short append-only deliverable. the owner must freeze its independent results before reading the prior ledger."
+      ],
+      "checkpoint_id": "CP-bd718fa668d5",
+      "created_at": "2026-08-01T21:07:06Z",
+      "updated_at": "2026-08-01T21:09:53Z",
+      "resolved_at": "2026-08-01T21:09:53Z",
+      "history": [
+        {
+          "event": "OPENED",
+          "at": "2026-08-01T21:07:06Z",
+          "owner": "root-integration-owner",
+          "diagnosis": "Attempt-8 independent worker returned no artifact or evidence because its context window was exhausted before completion; canonical challenge file remains unchanged at Attempt-7 hash ab58cf4f3d3f2192a6d640a7d24867e42d316869af63871043580e3d2551fccc.",
+          "evidence": [],
+          "checkpoint_id": "CP-e399c6186a58"
+        },
+        {
+          "event": "PLANNED",
+          "at": "2026-08-01T21:07:42Z",
+          "owner": "root-integration-owner",
+          "classification": "TOOLING",
+          "mode": "RETRY",
+          "attempt": 1,
+          "strategy": "Reuse the same independent owner with a compressed four-query scholarly packet plus one patent query, fixed known anchors, two closest-predecessor traversals, and a short append-only deliverable. The owner must freeze its independent results before reading the prior ledger.",
+          "why_different": "The failed task combined a broad instruction set and unconstrained evidence collection. The retry caps search to five exact queries, one canonical artifact, compact tables, and a 3,500-word ceiling while preserving the same claim, independence, and authority boundaries.",
+          "verification": "Root checks exact-query timestamps, counts or UNAVAILABLE, screening and exclusion rows, six known anchors, two traversal logs, verdict-rule compliance, direct URLs, file hash, and unchanged archive/RPC boundary; a distinct verifier then audits the resulting challenge before gate integration.",
+          "budget_policy": {
+            "max_attempts": 2,
+            "max_hours": 1.0,
+            "decision_value": "HIGH",
+            "ceiling_mode": "NARROW_CLAIM",
+            "stop_rule": "If the retry returns no admissible artifact or cannot complete the frozen known-item/traversal checks, record NOVELTY_UNRESOLVED and stop further autonomous search retries."
+          }
+        },
+        {
+          "event": "ATTEMPT_STARTED",
+          "at": "2026-08-01T21:07:54Z",
+          "owner": "/root/chronosaudit_attempt8_exact_match_search",
+          "attempt": 1,
+          "lease_id": "LEASE-8a566679e86c",
+          "strategy": "Reuse the same independent owner with a compressed four-query scholarly packet plus one patent query, fixed known anchors, two closest-predecessor traversals, and a short append-only deliverable. The owner must freeze its independent results before reading the prior ledger."
+        },
+        {
+          "event": "ATTEMPT_FAILED",
+          "at": "2026-08-01T21:09:26Z",
+          "owner": "prior_art_search_challenge",
+          "attempt": 1,
+          "lease_id": "LEASE-8a566679e86c",
+          "checkpoint_id": "CP-bd718fa668d5",
+          "strategy": "Reuse the same independent owner with a compressed four-query scholarly packet plus one patent query, fixed known anchors, two closest-predecessor traversals, and a short append-only deliverable. The owner must freeze its independent results before reading the prior ledger.",
+          "summary": "Retry produced an Attempt-8 4+1 exact-query appendix and NOVELTY_UNRESOLVED verdict, but it did not recover FinSurvival and omitted reconstructable counts/screening/exclusion/timestamp fields required for full acceptance. No further autonomous retry is permitted by the recovery stop rule."
+        },
+        {
+          "event": "PLANNED",
+          "at": "2026-08-01T21:09:53Z",
+          "owner": "root-integration-owner",
+          "classification": "EVIDENCE_GAP",
+          "mode": "STOP",
+          "attempt": 1,
+          "strategy": "Stop autonomous exact-match search recovery and preserve the incomplete independent audit as negative evidence. Integrate only the verified gaps, record NOVELTY_UNRESOLVED for C001-MEASUREMENT, and rerun case validation.",
+          "why_different": "The prespecified retry stop rule has triggered; another agent search would repeat the same tooling failure pattern and would violate the bounded one-audit authorization.",
+          "verification": "A distinct verifier audits the challenge as faithful incomplete evidence; root records the specific missing fields and unresolved novelty decision, hash-binds the decision, and runs structural and strict checkers.",
+          "budget_policy": {
+            "max_attempts": 1,
+            "max_hours": 0.1,
+            "decision_value": "HIGH",
+            "ceiling_mode": "STOP",
+            "stop_rule": "No further autonomous search retry. C001-MEASUREMENT remains NOVELTY_UNRESOLVED until a separately authorized, independently owned search supplies the missing reconstructable logs and FinSurvival/patent/citation coverage."
+          }
+        }
+      ],
+      "budget_policy": {
+        "max_attempts": 1,
+        "max_hours": 0.1,
+        "decision_value": "HIGH",
+        "ceiling_mode": "STOP",
+        "stop_rule": "No further autonomous search retry. C001-MEASUREMENT remains NOVELTY_UNRESOLVED until a separately authorized, independently owned search supplies the missing reconstructable logs and FinSurvival/patent/citation coverage."
+      }
+    },
+    {
+      "recovery_id": "REC-7601a088ae72",
+      "scope": "CELL",
+      "phase": "INTAKE",
+      "cell_id": "intake_integration",
+      "status": "RESOLVED",
+      "classification": "AUTHORITY",
+      "diagnosis": "Schema-v4 migration control-plane defects were repaired, the raw and normalized intake were mechanically recertified, the charter/profile were corrected to nonfinal draft scope, and both structural and strict checks pass. INTAKE cannot advance because program-charter.md and study-profile.json require an externally rooted independent verifier; the reporting route and accountable jurisdiction/ethics authority for later prospective work are not yet resolved.",
+      "impact": "An accountable registry administrator must bootstrap the run-bound external trust root outside the case, register a genuinely independent reviewer with out-of-band identity binding, resolve the study profile reporting route and current-phase authority, independently verify program-charter.md and study-profile.json, then complete schema-v4 semantic revalidation and rerun the INTAKE gate.",
+      "owner": "root-integration-owner",
+      "attempt": 1,
+      "mode": "NARROW_CLAIM",
+      "current_strategy": "Deliver a public-evidence methods and preregistered protocol manuscript centered on the retrospective capability-survival estimand. Preserve novelty as UNRESOLVED, treat all empirical and prospective outcomes as NOT RUN, exclude archive/RPC access, live target testing, private vulnerability handling, analyst-participant workload measurement, disclosure operations, and external submission, and inventory the external verifier and authority requirements in the final human-review brief.",
+      "why_different": "The revised route removes every claim and method that depends on an externally rooted scientific verifier, institutional authority, private data, live-chain execution, or prospective deployment; it does not pretend those dependencies were resolved.",
+      "verification": "Every retained claim resolves only to public or already authorized design-stage evidence, every empirical result is explicitly NOT RUN or N/A, novelty remains UNRESOLVED, the manuscript and human-final-review brief expose the governance and prospective-study dependencies, and no phase is scientifically promoted without independent signed evidence.",
+      "required_evidence": [
+        "00-governance/program-charter.md",
+        "00-governance/study-profile.json"
+      ],
+      "failed_strategies": [],
+      "checkpoint_id": "CP-9580abb40197",
+      "created_at": "2026-08-02T01:45:48Z",
+      "updated_at": "2026-08-02T03:04:10Z",
+      "resolved_at": "2026-08-02T03:04:10Z",
+      "history": [
+        {
+          "event": "OPENED",
+          "at": "2026-08-02T01:45:48Z",
+          "owner": "root-integration-owner",
+          "diagnosis": "Schema-v4 migration control-plane defects were repaired, the raw and normalized intake were mechanically recertified, the charter/profile were corrected to nonfinal draft scope, and both structural and strict checks pass. INTAKE cannot advance because program-charter.md and study-profile.json require an externally rooted independent verifier; the reporting route and accountable jurisdiction/ethics authority for later prospective work are not yet resolved.",
+          "evidence": [
+            "00-governance/program-charter.md",
+            "00-governance/study-profile.json"
+          ],
+          "checkpoint_id": "CP-9580abb40197"
+        },
+        {
+          "event": "PLANNED",
+          "at": "2026-08-02T01:46:10Z",
+          "owner": "root-integration-owner",
+          "classification": "AUTHORITY",
+          "mode": "WAIT_EXTERNAL",
+          "attempt": 0,
+          "strategy": "Obtain an externally held registry-admin trust root and independently held reviewer key with accountable out-of-band identity binding; resolve the current reporting route and authority boundaries; independently review and sign the schema-v4 charter and study profile; then complete migration revalidation.",
+          "why_different": "No internal retry can create accountable identity, scientific independence, institutional authority, or a resolved reporting route; the next valid strategy changes ownership to external accountable parties.",
+          "verification": "The externally rooted verifier registry validates; program-charter.md and study-profile.json have matching independent signed schema-v4 verification and provenance events; migrate_research_case.py --complete-semantic-revalidation succeeds; INTAKE advance checks pass without mechanical substitution.",
+          "budget_policy": {
+            "max_attempts": 1,
+            "max_hours": 24.0,
+            "max_cost_usd": 0.0,
+            "decision_value": "CRITICAL",
+            "ceiling_mode": "WAIT_EXTERNAL",
+            "stop_rule": "Remain waiting; do not advance, self-sign, mechanically bless decision-bearing artifacts, or dispatch downstream phases until canonical independently verified evidence exists."
+          }
+        },
+        {
+          "event": "EXTERNAL_ROUTE_ABANDONED_FOR_SAFE_DRAFT",
+          "at": "2026-08-02T02:47:04Z",
+          "owner": "root-integration-owner",
+          "mode": "NARROW_CLAIM",
+          "attempt": 1,
+          "strategy": "Deliver a public-evidence methods and preregistered protocol manuscript centered on the retrospective capability-survival estimand. Preserve novelty as UNRESOLVED, treat all empirical and prospective outcomes as NOT RUN, exclude archive/RPC access, live target testing, private vulnerability handling, analyst-participant workload measurement, disclosure operations, and external submission, and inventory the external verifier and authority requirements in the final human-review brief.",
+          "why_different": "The revised route removes every claim and method that depends on an externally rooted scientific verifier, institutional authority, private data, live-chain execution, or prospective deployment; it does not pretend those dependencies were resolved.",
+          "verification": "Every retained claim resolves only to public or already authorized design-stage evidence, every empirical result is explicitly NOT RUN or N/A, novelty remains UNRESOLVED, the manuscript and human-final-review brief expose the governance and prospective-study dependencies, and no phase is scientifically promoted without independent signed evidence.",
+          "external_dependency_status": "UNRESOLVED_NOT_BYPASSED"
+        },
+        {
+          "event": "ATTEMPT_STARTED",
+          "at": "2026-08-02T02:52:53Z",
+          "owner": "root-integration-owner",
+          "attempt": 1,
+          "lease_id": "LEASE-00adb2d3561b",
+          "strategy": "Deliver a public-evidence methods and preregistered protocol manuscript centered on the retrospective capability-survival estimand. Preserve novelty as UNRESOLVED, treat all empirical and prospective outcomes as NOT RUN, exclude archive/RPC access, live target testing, private vulnerability handling, analyst-participant workload measurement, disclosure operations, and external submission, and inventory the external verifier and authority requirements in the final human-review brief."
+        },
+        {
+          "event": "RESOLVED",
+          "at": "2026-08-02T03:04:10Z",
+          "owner": "intake_integration",
+          "attempt": 1,
+          "checkpoint_id": "CP-cd3d8f8be55c",
+          "evidence": {
+            "00-governance/program-charter.md": "755b1a454abd7d2a69739abda47d1a9ea87c6a44412e0065d7936cc96f443f9d",
+            "00-governance/study-profile.json": "15a3933f3c87b2537b0286cc062e55eb11cd7364b64381cbdba4e46dff58f324"
+          }
+        }
+      ],
+      "budget_policy": {
+        "max_attempts": 1,
+        "max_hours": 24.0,
+        "max_cost_usd": 0.0,
+        "decision_value": "CRITICAL",
+        "ceiling_mode": "WAIT_EXTERNAL",
+        "stop_rule": "Remain waiting; do not advance, self-sign, mechanically bless decision-bearing artifacts, or dispatch downstream phases until canonical independently verified evidence exists."
+      },
+      "external_dependency_abandoned_not_resolved": true,
+      "abandoned_external_route": {
+        "classification": "AUTHORITY",
+        "diagnosis": "Schema-v4 migration control-plane defects were repaired, the raw and normalized intake were mechanically recertified, the charter/profile were corrected to nonfinal draft scope, and both structural and strict checks pass. INTAKE cannot advance because program-charter.md and study-profile.json require an externally rooted independent verifier; the reporting route and accountable jurisdiction/ethics authority for later prospective work are not yet resolved.",
+        "prior_strategy": "Obtain an externally held registry-admin trust root and independently held reviewer key with accountable out-of-band identity binding; resolve the current reporting route and authority boundaries; independently review and sign the schema-v4 charter and study profile; then complete migration revalidation.",
+        "disposition": "UNRESOLVED_AND_EXCLUDED_FROM_THE_REVISED_CLAIM_AND_METHOD"
+      }
+    }
+  ],
+  "claim_graph_revision": 21,
+  "legacy_inference_flags": [
+    "v2_migration_bootstrap",
+    "v3_semantic_revalidation_completed",
+    "v3_migration_bootstrap"
+  ],
+  "computed_verdicts": {
+    "schema_version": 4,
+    "solution_viability": {
+      "status": "ASSERTED_ONLY",
+      "basis": "Solution-viability evidence is not independently signed and verified: 02-feasibility/evidence-maturity-ladder.csv, 02-feasibility/solution-viability-case.md, 04-data/evidence-status.csv"
+    },
+    "postdoctoral_audit": {
+      "status": "UNASSESSED",
+      "basis": "Structured postdoctoral audit inputs are not independently signed and verified: 08-validation/postdoctoral-standards-audit.md, 08-validation/killer-question-ledger.csv"
+    },
+    "acceptance_readiness": {
+      "status": "NOT_ASSESSABLE",
+      "basis": "Acceptance readiness is blocked until the structured postdoctoral audit passes."
+    },
+    "maturity_ceiling_summary": {
+      "C001": {
+        "required_maturity": "V0 ASSERTED",
+        "current_maturity": "V0 ASSERTED",
+        "maturity_ceiling": "V0 ASSERTED",
+        "external_validation_required": false,
+        "refuted": false,
+        "supports_claim": true
+      },
+      "C002": {
+        "required_maturity": "V0 ASSERTED",
+        "current_maturity": "V0 ASSERTED",
+        "maturity_ceiling": "V0 ASSERTED",
+        "external_validation_required": true,
+        "refuted": false,
+        "supports_claim": true
+      }
+    }
+  },
+  "migration_semantic_revalidation_required": true,
+  "verifier_registry_revision": 1,
+  "provenance_anchor_revision": 10,
+  "semantic_schema_revision": 1,
+  "migration_signed_revalidation_required": true,
+  "legacy_phase_before_migration": "NOVELTY_AUDIT",
+  "latest_anchor_hash": "b101e39dd67b67daa1ecaf7a41138310164ec3fd755074a2cbb0926b37669651",
+  "parallel_runtime": {
+    "phase_limits": {
+      "INTAKE": 1,
+      "NOVELTY_AUDIT": 3,
+      "FEASIBILITY_GATE": 2,
+      "STUDY_DESIGN": 2,
+      "AUTHORIZED_EXECUTION": 1,
+      "ANALYSIS": 3,
+      "MANUSCRIPT": 3,
+      "ADVERSARIAL_QA": 3,
+      "SUBMISSION_QA": 3,
+      "HUMAN_APPROVAL": 1
+    },
+    "default_max_parallel": 3,
+    "dependency_closure_required": true,
+    "disjoint_write_scope_required": true,
+    "first_valid_result_scope": "REDUNDANT_CANDIDATE_RETRIEVAL_ONLY",
+    "positive_novelty_requires_full_coverage_and_independent_challenge": true
+  },
+  "autonomy_policy": {
+    "identity_mode": "RUN_SCOPED_PSEUDONYM_WITH_ROOT_TRACEABILITY",
+    "root_may_auto_dispatch_dependency_ready_cells": true,
+    "root_may_auto_select_lower_cost_valid_strategy": true,
+    "root_may_auto_request_race_sibling_interrupt": true,
+    "root_may_auto_checkpoint_and_replan_internal_blocks": true,
+    "root_may_not_self_approve": [
+      "scientific_verification",
+      "novelty_survival",
+      "ethics_or_irb",
+      "data_or_participant_authority",
+      "accountable_human_approval",
+      "editorial_acceptance"
+    ],
+    "root_may_auto_reroute_external_blocks_to_safe_draft": true,
+    "root_may_not_request_intermediate_human_input": true
+  },
+  "delivery_policy": {
+    "mode": "ZERO_INTERACTION_DRAFT_TO_HUMAN_REVIEW",
+    "interaction_boundary": "FINAL_HUMAN_REVIEW_ONLY",
+    "target": "HUMAN_REVIEWABLE_RESEARCH_COPY",
+    "intermediate_human_prompts_allowed": false,
+    "external_dependency_rule": "Never bypass authority. If a route needs unavailable authority, abandon that route and automatically redesign or narrow to a nonrestricted evidence path.",
+    "safe_route_order": [
+      "AUTHORIZED_EXISTING_OR_PUBLIC_DATA",
+      "REPRODUCIBLE_PUBLIC_METADATA_OR_SYSTEMATIC_REVIEW",
+      "AUTHORIZED_SIMULATION",
+      "SYNTHETIC_DEMONSTRATION_LABELED_NON_EVIDENCE",
+      "PROTOCOL_METHODS_OR_PERSPECTIVE_ARTICLE",
+      "NEGATIVE_OR_FEASIBILITY_RESULT_WITH_NARROWED_CLAIMS"
+    ],
+    "scientific_gate_bypass_allowed": false,
+    "ethics_or_authority_bypass_allowed": false,
+    "fabricated_evidence_allowed": false,
+    "self_certification_allowed": false,
+    "submission_performed_by_automation": false
+  },
+  "delivery_status": "AUTONOMOUS_RESEARCH_ACTIVE"
+}

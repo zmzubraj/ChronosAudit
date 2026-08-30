@@ -1,0 +1,13 @@
+{
+  "acquisition_authorized": false,
+  "case_count": 380,
+  "decision": "QUERY_PLAN_VERIFIED_NON_AUTHORIZING",
+  "minimum_additional_distinct_slots": 3490,
+  "query_plan_file_sha256": "b976ca8ad83eaf4fa114a5b630b435b140c776562f5f5453d0f1212917a581cf",
+  "query_plan_internal_sha256": "8b01f60fa534d8a1219d364e0787e5f544aad2272ca854f7254aaadc6c0e1381",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_historical_expansion_query_plan_verification.v1",
+  "selection_authorized": false,
+  "source_object_count": 43,
+  "source_total_bytes": 5024970903
+}

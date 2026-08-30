@@ -1,0 +1,105 @@
+{
+  "chain_count": 3,
+  "chains": [
+    {
+      "chain": "base",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain": "base",
+          "complete": true,
+          "endpoint_template_sha256": "21c962a3a6320632e18a230eab2ddd595e50279d2475e1b730ddb2fbde172b22",
+          "identity_evidence_sha256": "501064509fcf2e0aaf93b7162123354f8984ae91d5b6d240b839b73254fa7e6c",
+          "provider_id": "alchemy-base",
+          "public_endpoint_identity_id": "21c962a3a6320632e18a230eab2ddd595e50279d2475e1b730ddb2fbde172b22",
+          "public_endpoint_identity_sha256": "1b529c075de9fc245449835701d7cf21788dca26bcc313cdf8bf6160c32c17ac",
+          "verified_operator_family": "alchemy"
+        },
+        {
+          "chain": "base",
+          "complete": true,
+          "endpoint_template_sha256": "5f911ff2482671dac55ef35d7639e301c568d802da35952781c57f0e1922ec71",
+          "identity_evidence_sha256": "6d6f4924ffca6eceba06698de5f07eba86f3e989bebb964be97447e727ff95fd",
+          "provider_id": "infura-base",
+          "public_endpoint_identity_id": "5f911ff2482671dac55ef35d7639e301c568d802da35952781c57f0e1922ec71",
+          "public_endpoint_identity_sha256": "96ee02644b3e51fabf1926911818160cc388b38a211223d5d66b97218e558b90",
+          "verified_operator_family": "infura"
+        }
+      ],
+      "verified_operator_families": [
+        "alchemy",
+        "infura"
+      ]
+    },
+    {
+      "chain": "bsc",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain": "bsc",
+          "complete": true,
+          "endpoint_template_sha256": "a6f0855206cfb3686a38e97dc650fa89a0c150182bbdc8efc15c34dbca936459",
+          "identity_evidence_sha256": "3ced924b2867b0313119ac95bc7ed5fea9ac5d4420212255cc2a8602ccb6b54f",
+          "provider_id": "alchemy-bsc",
+          "public_endpoint_identity_id": "a6f0855206cfb3686a38e97dc650fa89a0c150182bbdc8efc15c34dbca936459",
+          "public_endpoint_identity_sha256": "4ed39cc81b9ac2fea9d63666815bb78fb9a85b5c121869c1e4fc521cd0d17f7c",
+          "verified_operator_family": "alchemy"
+        },
+        {
+          "chain": "bsc",
+          "complete": true,
+          "endpoint_template_sha256": "970723d906c9cd65c9592abb8d4451e4cb2b9cb496e7f09dcb4555762c15722c",
+          "identity_evidence_sha256": "b50738c09c8bf21919c1380748ec1ec67aa2329f4bc6b27fc28b68a2b3268d6f",
+          "provider_id": "infura-bsc",
+          "public_endpoint_identity_id": "970723d906c9cd65c9592abb8d4451e4cb2b9cb496e7f09dcb4555762c15722c",
+          "public_endpoint_identity_sha256": "53be00fe4edb4620a65a3810c8f14b4b4a1b64e5229639c5633573d1b213606b",
+          "verified_operator_family": "infura"
+        }
+      ],
+      "verified_operator_families": [
+        "alchemy",
+        "infura"
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "complete": true,
+      "errors": [],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain": "ethereum",
+          "complete": true,
+          "endpoint_template_sha256": "876e383205c3d6aa2d156265a37bca3726c2fa9dd11e13586d374af456e43524",
+          "identity_evidence_sha256": "e2445f0f8e6e3e45b1c140c22b808d14bb377b596f07cec66b451bc833f9fc31",
+          "provider_id": "alchemy-ethereum",
+          "public_endpoint_identity_id": "876e383205c3d6aa2d156265a37bca3726c2fa9dd11e13586d374af456e43524",
+          "public_endpoint_identity_sha256": "dc0cabeb204911fbe298eb5b7ce2959a556e93a7b2bc593bfba3e6c71321f353",
+          "verified_operator_family": "alchemy"
+        },
+        {
+          "chain": "ethereum",
+          "complete": true,
+          "endpoint_template_sha256": "f4f002c664fbdc63dce348237b287e07383ecd07678f2623ac28b525d8e8847e",
+          "identity_evidence_sha256": "2ae081cd2be3b78b17bd7c7dae3ff09971b9387c5b0e560ad7c2d56c7e43304f",
+          "provider_id": "infura-ethereum",
+          "public_endpoint_identity_id": "f4f002c664fbdc63dce348237b287e07383ecd07678f2623ac28b525d8e8847e",
+          "public_endpoint_identity_sha256": "4bdba1cb75dfd1afecc9c740e65b4afa04f4ff7e8ed721d83b8cad587df028e0",
+          "verified_operator_family": "infura"
+        }
+      ],
+      "verified_operator_families": [
+        "alchemy",
+        "infura"
+      ]
+    }
+  ],
+  "complete": true,
+  "errors": [],
+  "report_sha256": "4a9d31002fd95dbe21a7ad3727901eada4ea9def404fef22ec2c2e37afb0f65d",
+  "schema_version": "historical_snapshot_provider_identity_verification.v1"
+}

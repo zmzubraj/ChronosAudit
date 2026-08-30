@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chronosaudit.org/schemas/provider-observation-0.3.json",
+  "title": "Historical provider observation",
+  "type": "object",
+  "required": ["provider_id", "chain", "method", "params", "observed_at_utc", "request_hash", "response_hash", "status"],
+  "properties": {
+    "provider_id": {"type": "string"},
+    "chain": {"type": "string"},
+    "method": {"type": "string"},
+    "params": {"type": "array"},
+    "observed_at_utc": {"type": "string", "format": "date-time"},
+    "request_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "response_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "status": {"enum": ["success", "error", "disputed"]},
+    "error": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}

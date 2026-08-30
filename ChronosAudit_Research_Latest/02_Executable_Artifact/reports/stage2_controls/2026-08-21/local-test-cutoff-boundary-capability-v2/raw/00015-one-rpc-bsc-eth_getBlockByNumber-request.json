@@ -1,0 +1,1 @@
+{"method":"eth_getBlockByNumber","params":["0x5c82a5e",false],"provider_family":"1rpc","provider_id":"one-rpc-bsc","schema_version":"stage2_control_cutoff_boundary_capability_request.v1"}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "stage2_control_trace_state_capability_fixtures.v1",
+  "selection_rule": "Exact BSC row projected from the frozen three-chain fixture solely for a non-authorizing provider diagnostic.",
+  "source_fixture_path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-trace-state-capability-v1/frozen_trace_state_fixtures.json",
+  "fixtures": [
+    {
+      "chain": "bsc",
+      "chain_id": "0x38",
+      "block_number": 91716206,
+      "block_hash": "0x7e3df2044a0d0e82d23a5ef91945d28e5f85d33d539f1e2afd0dd44075e8e976",
+      "transaction_hash": "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+      "created_address": "0x82d56e4d35d42ea2488ebf90bd8b6579e1af6eed",
+      "reserve_assignment_sha256": "0128fef8f1b807201486c18713d738ccd8683010bc767fd35f7d236da9f1a411"
+    }
+  ],
+  "rpc_authorized": false,
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "recovery3_mutation_authorized": false
+}

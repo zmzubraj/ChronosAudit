@@ -1,0 +1,17 @@
+{
+  "chain_count": 1,
+  "complete": false,
+  "errors": [
+    "ethereum:drpc-ethereum:rpc_error:eth_getStorageAt"
+  ],
+  "provider_registry_verified": false,
+  "raw_evidence_count": 32,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "4daffa16915d7c047772524f662817582d685c678c91ecfb2abfed638b0e5409",
+  "report_sha256": "ddc1996877df79eab2a8cf2a8cd8bf1eca2d162359f0d327483ecedb540356bd",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "3a56e769df5d962c06147c1e110c00cf8f9bae960fb2634ef70d9878fc1ab9ee"
+}

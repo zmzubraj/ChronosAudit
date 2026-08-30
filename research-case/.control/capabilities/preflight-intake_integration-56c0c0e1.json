@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-02T01:42:13Z",
+  "phase": "INTAKE",
+  "cell_id": "intake_integration",
+  "agent_type": "root-integration-owner",
+  "available_agent_types": [],
+  "available_tools": [],
+  "delegation_allowed": false,
+  "required_channels": [],
+  "egress_policy": {
+    "policy_version": 1,
+    "external_processing": "deny",
+    "allowed_channels": [],
+    "notes": "No explicit egress policy is present; fail closed for external work."
+  },
+  "capability_source": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/research-case/00-governance/capability-preflight.json",
+  "issues": [],
+  "ready_for_delegation": false,
+  "notes": "Python control-plane code cannot call Codex collaboration tools. Only the root model may choose a model-only collaboration action or direct root execution."
+}

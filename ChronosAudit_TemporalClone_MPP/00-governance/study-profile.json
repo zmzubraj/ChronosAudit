@@ -1,0 +1,18 @@
+{
+  "schema_version": 4,
+  "adapter_id": "generic_research_v1",
+  "field": "empirical software engineering; blockchain security; benchmark validity",
+  "study_type": "retrospective observational measurement study of a fixed public benchmark cohort",
+  "jurisdiction": "non-jurisdiction-specific public blockchain and open-source benchmark data; accountable author's institutional policy controls",
+  "jurisdiction_basis": "no human participants, intervention, private records, or live-chain experimentation in the MPP",
+  "ethics_category": "public non-human secondary data; institutional exemption or non-human-research confirmation pending if required",
+  "reporting_guidelines": [
+    "ACM Empirical Standards or venue-equivalent empirical reporting criteria",
+    "artifact and reproducibility checklist",
+    "cybersecurity dual-use disclosure"
+  ],
+  "evidence_standard": "hash-bound deterministic descriptive analysis with explicit uncertainty and no causal or predictive inference",
+  "article_type": "empirical measurement article and archival preprint",
+  "status": "RESOLVED_BY_ROOT_PENDING_INDEPENDENT_AND_ACCOUNTABLE_HUMAN_VERIFICATION",
+  "notes": "The profile is operationally resolved for drafting. Independent scientific verification and accountable-human ethics, authorship, and venue confirmation remain open."
+}

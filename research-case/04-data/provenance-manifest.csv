@@ -1,0 +1,6 @@
+asset_id,asset_type,source,authorization,acquired_at,sha256,processing,owner
+ASSET-LOCAL-PROBLEM,local_case_artifact,01-novelty/problem-investigation.md,PUBLIC_LOCAL_CASE,2026-08-01,,"read-only synthesis into concept draft",root-integration-owner
+ASSET-LOCAL-NOVELTY,local_case_artifact,01-novelty/novelty-matrix.csv,PUBLIC_LOCAL_CASE,2026-08-01,,"preserved as stale UNRESOLVED novelty evidence",root-integration-owner
+ASSET-LOCAL-FEASIBILITY,local_case_artifact,02-feasibility/feasibility-report.md,PUBLIC_LOCAL_CASE,2026-08-01,,"read-only synthesis preserving PILOT_FIRST",root-integration-owner
+ASSET-LOCAL-PILOT,local_case_artifact,02-feasibility/pilot-results.md,PUBLIC_LOCAL_CASE,2026-08-01,,"read-only synthesis as bounded pilot plumbing",root-integration-owner
+ASSET-LOCAL-VIABILITY,local_case_artifact,02-feasibility/solution-viability-case.md,PUBLIC_LOCAL_CASE,2026-08-01,,"read-only synthesis preserving ASSERTED_ONLY",root-integration-owner

@@ -1,0 +1,15 @@
+flowchart TD
+  P[Freeze 417-case cohort and claims] --> V[Validate every envelope]
+  V --> T[Compute deployment-age landmarks]
+  V --> I[Compute four identity abstractions]
+  V --> R[Extract specified proxy indicators]
+  T --> S[Descriptive summaries + Wilson intervals]
+  I --> S
+  R --> S
+  S --> Q[Robustness and boundary audit]
+  Q --> M[Generate tables, figures, algorithms]
+  M --> B[Build LaTeX and PDF]
+  B --> A[Adversarial + rendered-page QA]
+  A --> H{Accountable human approval?}
+  H -->|yes, after independent review| U[Upload to chosen venue]
+  H -->|not yet| W[Submission-ready draft; do not upload]

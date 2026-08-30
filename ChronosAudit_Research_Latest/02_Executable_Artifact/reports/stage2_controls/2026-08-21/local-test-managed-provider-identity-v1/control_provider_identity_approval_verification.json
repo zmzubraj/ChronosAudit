@@ -1,0 +1,25 @@
+{
+  "acquisition_authorized": false,
+  "allowed_signers_sha256": "71368416e721b0bc500d8af5b44adc9063d1c3689b5dc25dee1f1202411df089",
+  "approval_sha256": "3d36d658d11e8e0ed75de947cbc65c1fdabff38e1cdccf1ff293d0c643b32dff",
+  "archive_capability_limit": "NOT_ASSESSED_BY_IDENTITY_REVIEW",
+  "decision": "PROVIDER_IDENTITY_APPROVAL_VERIFIED",
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_REVIEWER_IDENTITY",
+  "identity_report_projection_authorized": true,
+  "operator_families": [
+    "alchemy",
+    "infura"
+  ],
+  "provider_count": 6,
+  "recovery3_mutation_authorized": false,
+  "registry_projection_authorized": true,
+  "request_sha256": "06f36c7bd72f5eaf03b7ae06dbb1a35181ec9ef15748d13cf00776efaa1b9965",
+  "review_expires_utc": "2026-08-28T04:00:00Z",
+  "reviewer_principal": "zmzubraj-local-test",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_approval_verification.v1",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-provider-identity-review-v1",
+  "signature_sha256": "cb4a44b933542dc33b2da89afb859a4b8cb5546a55fbd046f5d7ca5ba1be122f",
+  "stage_promotion_authorized": false
+}

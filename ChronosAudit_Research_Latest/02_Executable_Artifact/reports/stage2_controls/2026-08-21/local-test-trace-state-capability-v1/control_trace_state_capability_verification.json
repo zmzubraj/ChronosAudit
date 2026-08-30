@@ -1,0 +1,17 @@
+{
+  "chain_count": 3,
+  "complete": false,
+  "errors": [
+    "trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 403: Forbidden\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}"
+  ],
+  "provider_registry_verified": false,
+  "raw_evidence_count": 12,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "a2b46e16b709cf8744bd9552448d4e0a718b70dcbe4a9bc4bbb9206ee73c21e8",
+  "report_sha256": "2bd48895dfc00c049934939554bf990cf24cda35a2f5ac62471da9e10a69d345",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "3f34c8e03529f16381de334859b5974ad23a332f3524122f4b2f6426e28139f1"
+}

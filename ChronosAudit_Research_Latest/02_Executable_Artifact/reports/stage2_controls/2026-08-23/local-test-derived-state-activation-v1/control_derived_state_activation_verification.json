@@ -1,0 +1,1266 @@
+{
+  "acquisition_authorized": false,
+  "activation_expires_utc": "2026-08-29T20:07:00Z",
+  "activation_start_utc": "2026-08-22T20:07:00Z",
+  "allowed_signers_sha256": "90c71679b39b079344c7521803e93c70bbe1566eab62fa8796a00b19a9f8eaf2",
+  "approval_sha256": "c050e25eede7152e15ecee9463f96c7b215b0a68a593e46bf458e1d5da979013",
+  "base_state_results_sha256": "7e1302fbe0a5a1453fd1b5beb5d0f7af70f52ced7c6343b9f75a4c0a267f6096",
+  "capability_verification_file_sha256": "5977f831d7caf4c726876a7c2fb258f6ef8b923e806d7452369a6e525d20c996",
+  "capability_verification_sha256": "550e61baa1e93fdee4bacce35b86179d1b754f8f4efd2a325826c20cc78083e6",
+  "decision": "DERIVED_STATE_RPC_ACTIVATION_VERIFIED",
+  "derived_state_target_count": 28,
+  "derived_state_targets_file_sha256": "09fb450d6152facd03159e84d4312e725a74e2bc822da60a11d331fb67b3daeb",
+  "derived_state_targets_sha256": "345fd71b0d08511561e1c8fd81504d923d8fde8089cd0530667baf6bce6f5658",
+  "hash_chained_no_repeat_ledger_required": true,
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_IDENTITY",
+  "maximum_request_count": 168,
+  "provider_registry_sha256": "9788ad91ed55746ffff9144d3d79bf7077fa8618cc3ad810d63c9f183a8d5643",
+  "purpose": "CONTROL_CUTOFF_STATE_PHASE2_RESULT_BOUND_DERIVED_READS_ONLY",
+  "raw_request_response_receipts_required": true,
+  "recovery3_mutation_authorized": false,
+  "request_sha256": "e60e3e18e8666448b93f79d11a7aa7bc302f41a80ad2fa244b8246f67b4b5423",
+  "retry_limit": 2,
+  "rpc_authorized": true,
+  "rpc_call_scope_count": 56,
+  "rpc_call_scopes": [
+    {
+      "base_state_result_sha256": "60e150bbf2c50d059f102c0299c1f5210076455f684ffd41aff156037e1c7b61",
+      "call_scope_sha256": "eb74fef6801025efdc91f5faa928c83dcf79d46bbefcf579496a8c92578edc7f",
+      "case_id": "MEVBOTa47b",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x33a5308e8831ef208a0ac4dc583ac900f0f9e413",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+        {
+          "blockHash": "0x5bbf83f319fac8be18aef03546c0809fe4a40da6ad717052d927057ad136e037",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "8f16457d4ed3b71dc762967c223905f05273e32b64aa9c4b0233d8bcd561fe8c",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:0aeefbe4551e66afe6a18647e95b7c75b93e1f62992b1c5e20e48969579c58d0",
+      "target_sha256": "52683af77b9325c63870786dbb6c5d0c8d782facaea2bdcdf0d0f1faad1025fc",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "60e150bbf2c50d059f102c0299c1f5210076455f684ffd41aff156037e1c7b61",
+      "call_scope_sha256": "d3b48a80a8d2987c69213c5a42e1cb39315e34b8d8988a0ee43734caf0c1f53c",
+      "case_id": "MEVBOTa47b",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x33a5308e8831ef208a0ac4dc583ac900f0f9e413",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+        {
+          "blockHash": "0x5bbf83f319fac8be18aef03546c0809fe4a40da6ad717052d927057ad136e037",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "8f16457d4ed3b71dc762967c223905f05273e32b64aa9c4b0233d8bcd561fe8c",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:0aeefbe4551e66afe6a18647e95b7c75b93e1f62992b1c5e20e48969579c58d0",
+      "target_sha256": "52683af77b9325c63870786dbb6c5d0c8d782facaea2bdcdf0d0f1faad1025fc",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "bced88c7e74a110715f40814cea4637065899229eb00b39672a31221153a5e4a",
+      "call_scope_sha256": "26efd6a2ac44310c0b54026afa610f33e2fd50c1811ec67e16815f742a5e4c0b",
+      "case_id": "DLMC",
+      "chain": "bsc",
+      "chain_address": "bsc:0x9cdd2e39e72a207c1b961b0937501f563a40da07",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "nodereal",
+      "params": [
+        "0xd4eb7d0664f16225faeeb746e5eb753f0b64dd15",
+        {
+          "blockHash": "0xb26d6da7ad91354a9946f6b01a094d1db9578ad395e3689eb9d7b33b2a0a34b6",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "3825ab01da6582370473def0e48b98e2df5398f63dba0207d643b620049b70a7",
+      "provider_id": "nodereal-bsc",
+      "target_id": "derived-state:128c390ba6e778dd3bc547ede1e25e5296955d73c40d38c6ddacdb6dcc512f06",
+      "target_sha256": "5113ad1bfaf255eff8f1bea32f546bb108110aea8d0b6bb30db354deabe6a16e",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "bced88c7e74a110715f40814cea4637065899229eb00b39672a31221153a5e4a",
+      "call_scope_sha256": "bc6fff50ceeb4e39db8d98968b8a7638989c87b5b80aedf769cda06b322f4f73",
+      "case_id": "DLMC",
+      "chain": "bsc",
+      "chain_address": "bsc:0x9cdd2e39e72a207c1b961b0937501f563a40da07",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0xd4eb7d0664f16225faeeb746e5eb753f0b64dd15",
+        {
+          "blockHash": "0xb26d6da7ad91354a9946f6b01a094d1db9578ad395e3689eb9d7b33b2a0a34b6",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "3825ab01da6582370473def0e48b98e2df5398f63dba0207d643b620049b70a7",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "target_id": "derived-state:128c390ba6e778dd3bc547ede1e25e5296955d73c40d38c6ddacdb6dcc512f06",
+      "target_sha256": "5113ad1bfaf255eff8f1bea32f546bb108110aea8d0b6bb30db354deabe6a16e",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "6ff01c6be109ab1833ac6c37569cbca2300f6e736756a5e271f8b835020c0b2f",
+      "call_scope_sha256": "4309fd74dcbf0c7847a95e1a2e7ff8f3f9c88472a4ce638713ada285b5fbd8e6",
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0xb23d47c81449ae42e3286cb914df52b52a3a9230",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "nodereal",
+      "params": [
+        "0x5f1747499199e5720029bd49ec6a7188d221b31e",
+        {
+          "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "20b32901b85dca5351d95a0ba17c103d649e746dde7843653b6af75b40c5aa7d",
+      "provider_id": "nodereal-bsc",
+      "target_id": "derived-state:1d58378cbc92f305554f9cc095619ea85045ced87e160f99317a92d084c50a90",
+      "target_sha256": "1060d2e904f7ec79dfd30a862956502f2498809e36b3a75473d9f862bcf81803",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "6ff01c6be109ab1833ac6c37569cbca2300f6e736756a5e271f8b835020c0b2f",
+      "call_scope_sha256": "aa0731fcd2eadad355877768666bcfe5be355684c4f304a63408bed742ff9c9c",
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0xb23d47c81449ae42e3286cb914df52b52a3a9230",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x5f1747499199e5720029bd49ec6a7188d221b31e",
+        {
+          "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "20b32901b85dca5351d95a0ba17c103d649e746dde7843653b6af75b40c5aa7d",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "target_id": "derived-state:1d58378cbc92f305554f9cc095619ea85045ced87e160f99317a92d084c50a90",
+      "target_sha256": "1060d2e904f7ec79dfd30a862956502f2498809e36b3a75473d9f862bcf81803",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "63d75423f5978eef69274c2ff9a57d01116ec323bca640b101c840152e9b8498",
+      "call_scope_sha256": "c2063cbbe02814095ee65d8a35069a6b972a4bfb38bccb388bf4500551ae535f",
+      "case_id": "penpiexyzio",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x2f167f26f2b92ba6f58237eea26504a52ed86a3b",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0xc1e97d3fc2810577289ee35e895a4f0e59481700",
+        {
+          "blockHash": "0x625b2e0d0cdf6f7d33ec8eadc85f376efc49d9dfb80bda00e9796f0078ba36c7",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "b891e2b68e25c7628db8758a1f896ccaacc7336584535ea64d30f69c101d7e85",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:1daee581754f6ddff455160fdb64ab2d73a1a41c9740ce79cd92073629448431",
+      "target_sha256": "e2c365f93ef3d3c53e9bf31bea4c29cfe178ab9dde534b3a407b9d99d7f49111",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "63d75423f5978eef69274c2ff9a57d01116ec323bca640b101c840152e9b8498",
+      "call_scope_sha256": "d3e67606b45bebf7b83a6ca1518af238fa2692f08963f3fd3efffaa8bf3bd484",
+      "case_id": "penpiexyzio",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x2f167f26f2b92ba6f58237eea26504a52ed86a3b",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0xc1e97d3fc2810577289ee35e895a4f0e59481700",
+        {
+          "blockHash": "0x625b2e0d0cdf6f7d33ec8eadc85f376efc49d9dfb80bda00e9796f0078ba36c7",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "b891e2b68e25c7628db8758a1f896ccaacc7336584535ea64d30f69c101d7e85",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:1daee581754f6ddff455160fdb64ab2d73a1a41c9740ce79cd92073629448431",
+      "target_sha256": "e2c365f93ef3d3c53e9bf31bea4c29cfe178ab9dde534b3a407b9d99d7f49111",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "71f275931627078d5f139a7f85bb5d6cababef65fda9641250b352499af0ad88",
+      "call_scope_sha256": "3fa778cb1abfe9a16ef903fcebd4727e5ba03590da51e31ff6c9350e86de59da",
+      "case_id": "ZeroExSettler",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xcebf1a54a9ce703fc80967760b5a6cbdb4111099",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x45e039fa10c9540a6323f654484329775e7476fb",
+        {
+          "blockHash": "0x2c977398383676d9c49423f94810b6f9347230078e2cecbcc5494018d2ddc43e",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "56a99742dbb0f2e158a5d6ee453b25dd2a174d040e2b5a648bfb497873d673f7",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:3c19a86b8544b924c9bbee0e788ee6c38cdf82bb9226eda0a8fada558b4e6b4a",
+      "target_sha256": "736d031ee69411feae1ea1e48661db0a7435afbc42e0a50f9031c61b97a603de",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "71f275931627078d5f139a7f85bb5d6cababef65fda9641250b352499af0ad88",
+      "call_scope_sha256": "c8df3dfbb00e900c7ca8ca41156c7d847a6a81d3d643da628037b959a4bd1fd7",
+      "case_id": "ZeroExSettler",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xcebf1a54a9ce703fc80967760b5a6cbdb4111099",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x45e039fa10c9540a6323f654484329775e7476fb",
+        {
+          "blockHash": "0x2c977398383676d9c49423f94810b6f9347230078e2cecbcc5494018d2ddc43e",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "56a99742dbb0f2e158a5d6ee453b25dd2a174d040e2b5a648bfb497873d673f7",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:3c19a86b8544b924c9bbee0e788ee6c38cdf82bb9226eda0a8fada558b4e6b4a",
+      "target_sha256": "736d031ee69411feae1ea1e48661db0a7435afbc42e0a50f9031c61b97a603de",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "27f40df8ac79b57ae5759c33b9b06c927cd92f5a906c8c7633f770f1356a1353",
+      "call_scope_sha256": "de369c13f618317bf157a92d7cb83b2befb9d886d56e880b58d66802d6b46cd4",
+      "case_id": "affinedefi",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xe3a6f8aedc857c810ff3bcc70ae37da670e282b4",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x5c67531524201d0a774405827ba4c2de15781dd0",
+        {
+          "blockHash": "0x919c350b9bcc04569c7b3e5cd6a8bbcca3add8ea61323b3747c01dd2fedb1608",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "2ce44a6560be3ca678547a64781c6ee4926d91ecfc98abb6655a7ea26a24e5e5",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:4b1eed3f31dfda12dfbdce5441df5a877b8eb8e08e4b9978fc89957e2cd2058a",
+      "target_sha256": "d365221829c462d6bbe28a2e33f106457762202319758afe2ded36d4d0c1738b",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "27f40df8ac79b57ae5759c33b9b06c927cd92f5a906c8c7633f770f1356a1353",
+      "call_scope_sha256": "13ba340c62f67f132b392598487085fe714350db2228ae88dc0c636e40b9d8da",
+      "case_id": "affinedefi",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xe3a6f8aedc857c810ff3bcc70ae37da670e282b4",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x5c67531524201d0a774405827ba4c2de15781dd0",
+        {
+          "blockHash": "0x919c350b9bcc04569c7b3e5cd6a8bbcca3add8ea61323b3747c01dd2fedb1608",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "2ce44a6560be3ca678547a64781c6ee4926d91ecfc98abb6655a7ea26a24e5e5",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:4b1eed3f31dfda12dfbdce5441df5a877b8eb8e08e4b9978fc89957e2cd2058a",
+      "target_sha256": "d365221829c462d6bbe28a2e33f106457762202319758afe2ded36d4d0c1738b",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "328a5e6c779f245e27dd8095af5e7e6004c50556280fca518d7b7773f95a560f",
+      "call_scope_sha256": "a4278a1016f5dadd123309ef3d9c4bf1274d094e9afaf953ad398c58a0642d44",
+      "case_id": "dfx",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd92c2f734f6c25e2a3f1cc6a918080dd514e1c8a",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0xe4e4003afe3765aca8149a82fc064c0b125b9e5a",
+        {
+          "blockHash": "0xad5597626ba0916841f8a8cd06d39cb63ba6606a9d651c917dc5f9b79d35f860",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "029e61eb86b12e806339249c926348489a5fa2391792cbac60a4c3c06d7b893a",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:55a432de5a97af64e224ca3c52f4f0df308f0a5722e366852dd3100efe580ea2",
+      "target_sha256": "2578b32de4107f2c470d955b21a361401d974a7b3d068b5bd755c85df3e0a6c6",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "328a5e6c779f245e27dd8095af5e7e6004c50556280fca518d7b7773f95a560f",
+      "call_scope_sha256": "c59196e13f2f65bd734c02d9eb3bf3faaed5b45eeb3f67373896c06a9d3778e5",
+      "case_id": "dfx",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd92c2f734f6c25e2a3f1cc6a918080dd514e1c8a",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0xe4e4003afe3765aca8149a82fc064c0b125b9e5a",
+        {
+          "blockHash": "0xad5597626ba0916841f8a8cd06d39cb63ba6606a9d651c917dc5f9b79d35f860",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "029e61eb86b12e806339249c926348489a5fa2391792cbac60a4c3c06d7b893a",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:55a432de5a97af64e224ca3c52f4f0df308f0a5722e366852dd3100efe580ea2",
+      "target_sha256": "2578b32de4107f2c470d955b21a361401d974a7b3d068b5bd755c85df3e0a6c6",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "c4fa9391f0ccef5b3695c61fb3054c895f38d4ddcb4160955ffb1487b245cea1",
+      "call_scope_sha256": "7de67558b6feeb18ecf935a5c96177f7e7ed329938af14f5a8c1d1e24d4c2772",
+      "case_id": "BaseBebopSettlement",
+      "chain": "base",
+      "chain_address": "base:0xa7a32ad53653efd60f435303151ce6e9c5e9266b",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "base-official",
+      "params": [
+        "0x7071afcb26ee389681c0d9245ed11d670506aa24",
+        {
+          "blockHash": "0x27cd005df4823121f894ce9407bbbfda6872e43ac30a910d5a5203d17c9ceaca",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "1e1b864be0524f7c22a2a881daa73d46019fdbb8831ffc09b47f1988315f6bd1",
+      "provider_id": "base-official-base",
+      "target_id": "derived-state:588149b1b6d05090d70b5f0fc1109d3a04f50780c91a3e37f100dbc5ce188b0b",
+      "target_sha256": "3ae5262d4ade9fe40d6ed5dc38212318dca51cdc5432ac61570702cd12556dd9",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "c4fa9391f0ccef5b3695c61fb3054c895f38d4ddcb4160955ffb1487b245cea1",
+      "call_scope_sha256": "91c93e64e85a0d4f961716c38fa17cf5d46164dc935dbc90bcd6e187e79d2ac8",
+      "case_id": "BaseBebopSettlement",
+      "chain": "base",
+      "chain_address": "base:0xa7a32ad53653efd60f435303151ce6e9c5e9266b",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "tenderly",
+      "params": [
+        "0x7071afcb26ee389681c0d9245ed11d670506aa24",
+        {
+          "blockHash": "0x27cd005df4823121f894ce9407bbbfda6872e43ac30a910d5a5203d17c9ceaca",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "1e1b864be0524f7c22a2a881daa73d46019fdbb8831ffc09b47f1988315f6bd1",
+      "provider_id": "tenderly-base",
+      "target_id": "derived-state:588149b1b6d05090d70b5f0fc1109d3a04f50780c91a3e37f100dbc5ce188b0b",
+      "target_sha256": "3ae5262d4ade9fe40d6ed5dc38212318dca51cdc5432ac61570702cd12556dd9",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "2edb8c4d4fb6b8a7101ee794020f4ab2bcd77cc5497e738c1a64da9d6dba1069",
+      "call_scope_sha256": "1842cd81087c19060ab20af4797b217225ec195374d1c7b48e07ce75143f280e",
+      "case_id": "uwerx",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x80191508eb8113fe1320043c871dde0a5abc4633",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+        {
+          "blockHash": "0xaebcf1e44fa1774e2effaf182d9a7ca54ae9185d7f2b87c9f36621163319e8e9",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "8bafd2e8c75e9be499f1ac8ddafc89db7635e89aab1f271eb6f9c86849e0f0c3",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:5e76093e3e64f7e2dc701e1c765be767228a89e5c18fd090705575f07e2c5c50",
+      "target_sha256": "c2d71d88d96f5366056ce716785ca9cc49baed8d8c0c4e5f4fe8821fa8772bed",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "2edb8c4d4fb6b8a7101ee794020f4ab2bcd77cc5497e738c1a64da9d6dba1069",
+      "call_scope_sha256": "e50b4a1ef449115de63883ed7338b89848fa9c3a4074a1962248945b73741e68",
+      "case_id": "uwerx",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x80191508eb8113fe1320043c871dde0a5abc4633",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+        {
+          "blockHash": "0xaebcf1e44fa1774e2effaf182d9a7ca54ae9185d7f2b87c9f36621163319e8e9",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "8bafd2e8c75e9be499f1ac8ddafc89db7635e89aab1f271eb6f9c86849e0f0c3",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:5e76093e3e64f7e2dc701e1c765be767228a89e5c18fd090705575f07e2c5c50",
+      "target_sha256": "c2d71d88d96f5366056ce716785ca9cc49baed8d8c0c4e5f4fe8821fa8772bed",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "6289f9209b649e59c9fca39701b2cbbe37cc63c63f10233f95f6e344dfc3fb98",
+      "call_scope_sha256": "099ad34e0219afdba57133dcfaed63a05eef7fc7ec691a7aabe6e3eb5a479cbd",
+      "case_id": "xcarnival",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd7bc41f205679c3f056a1bd2857409e74baa03c6",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+        {
+          "blockHash": "0x61cc09b96b378dba4e6ffc38d28ffc9d927d9b8df72e01593e7b1a010d23fc3c",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "7d911eb34edd9d400afc376c910013e08b8012af7a8c3cc60c8ad54e8d6b2174",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:6e68dadc25a0a851008248898ce787096e823ca25e05dfad579aec66b0ac866a",
+      "target_sha256": "a36164b700d874c04c1a1b7304793f1a180652eba094b5fa20127f822e7d053d",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "6289f9209b649e59c9fca39701b2cbbe37cc63c63f10233f95f6e344dfc3fb98",
+      "call_scope_sha256": "53c6cbaa0dd24e81c54c8c061a62a80b08ed8508ffcd024ecad30f1f2c6ac80b",
+      "case_id": "xcarnival",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd7bc41f205679c3f056a1bd2857409e74baa03c6",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+        {
+          "blockHash": "0x61cc09b96b378dba4e6ffc38d28ffc9d927d9b8df72e01593e7b1a010d23fc3c",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "7d911eb34edd9d400afc376c910013e08b8012af7a8c3cc60c8ad54e8d6b2174",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:6e68dadc25a0a851008248898ce787096e823ca25e05dfad579aec66b0ac866a",
+      "target_sha256": "a36164b700d874c04c1a1b7304793f1a180652eba094b5fa20127f822e7d053d",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "2dc3dac77f676fbc80eca9b56b90447582944076295baf9186b2dafc266b2f88",
+      "call_scope_sha256": "6707b9fbb5112bab11b1dd28b6bb23ede6d840c43c03ab289c966cf668d2acaa",
+      "case_id": "pineprotocol",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x899f084adffae6387ec0244924342795afb0160a",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x3760415893f05e8009bf7d8f7817fdd94674a8f5",
+        {
+          "blockHash": "0x5aa836d122851235b4ec51a477d49fb820da8e2da3142cd2bc7c6421f73fb77c",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "5ade23ce01bb6e5ba399eafb699c5a4898036753dd5ca1ea76d952f2732df855",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:73a65ee3300e28e7178cc921bd244921fcd69d5ebc7355da30dfc0aaa64a6d26",
+      "target_sha256": "c5ccbea3ca02a25024ee34aedbe30e271a455ea9d4e4a734e9bcf07cfa81b94c",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "2dc3dac77f676fbc80eca9b56b90447582944076295baf9186b2dafc266b2f88",
+      "call_scope_sha256": "b043b8e575523ee83ddc00be06f2da5c84f111ed38dd1a4e723aee0c9eae6a66",
+      "case_id": "pineprotocol",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x899f084adffae6387ec0244924342795afb0160a",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x3760415893f05e8009bf7d8f7817fdd94674a8f5",
+        {
+          "blockHash": "0x5aa836d122851235b4ec51a477d49fb820da8e2da3142cd2bc7c6421f73fb77c",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "5ade23ce01bb6e5ba399eafb699c5a4898036753dd5ca1ea76d952f2732df855",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:73a65ee3300e28e7178cc921bd244921fcd69d5ebc7355da30dfc0aaa64a6d26",
+      "target_sha256": "c5ccbea3ca02a25024ee34aedbe30e271a455ea9d4e4a734e9bcf07cfa81b94c",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "18695392a9ad51eef6a8f5d1693be2f4f019457c71406d3436255f0623213a41",
+      "call_scope_sha256": "31bb130684e0c6915b6fbb60c0d627c0cdbc006c1cec96aaad64bfbf8e3b9574",
+      "case_id": "pawnfi",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x6732efaf6f39926346bef8b821a04b6361c4f3e5",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0xce2b86550d3925c5588020ec003773bee38fd03c",
+        {
+          "blockHash": "0x28fc0e29f68e31c95559958c1070ab57c556d6ad4663ff1e0ceda95fcca27870",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "1729436bc96c309116342eace5caf0dec05a3175c20c8c4ea1e17b38ad5dbae7",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:7a53b2d1cf3f0d633b9116b466ebdd67695498f48626956e984bb8ea19ec037e",
+      "target_sha256": "e1e39eed5ccf428af3fb7589e7fd81a4f7bb0f037b1214f73774fccef71f1980",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "18695392a9ad51eef6a8f5d1693be2f4f019457c71406d3436255f0623213a41",
+      "call_scope_sha256": "c581c8ba602d6ec890856a60ae8c015739d0fc99a0ea4b7e41a8b9818cf84412",
+      "case_id": "pawnfi",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x6732efaf6f39926346bef8b821a04b6361c4f3e5",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0xce2b86550d3925c5588020ec003773bee38fd03c",
+        {
+          "blockHash": "0x28fc0e29f68e31c95559958c1070ab57c556d6ad4663ff1e0ceda95fcca27870",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "1729436bc96c309116342eace5caf0dec05a3175c20c8c4ea1e17b38ad5dbae7",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:7a53b2d1cf3f0d633b9116b466ebdd67695498f48626956e984bb8ea19ec037e",
+      "target_sha256": "e1e39eed5ccf428af3fb7589e7fd81a4f7bb0f037b1214f73774fccef71f1980",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "596c2af303c42fe1be2c2dec2c96505bf381c2dbfe27acc51fc34e3dfd3926f8",
+      "call_scope_sha256": "3ebbcb6ea425379ad57eee4a5920966d04bef133d861e50f21dcb548a25e3fa7",
+      "case_id": "MyCoinMaster",
+      "chain": "bsc",
+      "chain_address": "bsc:0x23376a3d6494ca8286fc588d33d070e04e029893",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "nodereal",
+      "params": [
+        "0x5e2c8284c256f5a122073f9327a955d074efc58a",
+        {
+          "blockHash": "0xdd527242c447c2644e5bffe595ee0178cdbdcedd0d884d598378e7c48cd13964",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "ecee6e0742f045b817a5e02527e5d8b7f6b594203c0161a6d3f174327f36f9e3",
+      "provider_id": "nodereal-bsc",
+      "target_id": "derived-state:7bb0dada56b9a8e4376a7f9c218fb9b158d09a75f266c3dc6978e611de9730ac",
+      "target_sha256": "bc8ecb4b410fca0f8c4c77f68843708175c1c1e2ea30c9654fdc2d4fef64e252",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "596c2af303c42fe1be2c2dec2c96505bf381c2dbfe27acc51fc34e3dfd3926f8",
+      "call_scope_sha256": "74238c21e76c680eb81b77fc4e96452d511cd54221152703861bc6a179b5a87f",
+      "case_id": "MyCoinMaster",
+      "chain": "bsc",
+      "chain_address": "bsc:0x23376a3d6494ca8286fc588d33d070e04e029893",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x5e2c8284c256f5a122073f9327a955d074efc58a",
+        {
+          "blockHash": "0xdd527242c447c2644e5bffe595ee0178cdbdcedd0d884d598378e7c48cd13964",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "ecee6e0742f045b817a5e02527e5d8b7f6b594203c0161a6d3f174327f36f9e3",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "target_id": "derived-state:7bb0dada56b9a8e4376a7f9c218fb9b158d09a75f266c3dc6978e611de9730ac",
+      "target_sha256": "bc8ecb4b410fca0f8c4c77f68843708175c1c1e2ea30c9654fdc2d4fef64e252",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "750205fe4d95e6ffe572d8af0fc29b6fe96ffb2c954c5c201e4e40de76e5290e",
+      "call_scope_sha256": "0c4b9f76881bcbe241802251c5d7172cb9250c71c2510ab0d014bbd5718a3910",
+      "case_id": "meta_pool",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x2e91342cb348301b8b6572df8dc4dd068fc6ed31",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x5bc2be2b32fc806e731ce5e14cf0fb6be3e0569d",
+        {
+          "blockHash": "0x85118b563460bfa8d9de0429caa284a8be221b202403ebf5df499039b1fc4902",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "fe2a4b31820a047b22c727419942a964f5f45c2246699b128407b67713444388",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:7efcaedc49e14f670bd5324059f88340c7f3fe7218e3ed85e86743b8271077f6",
+      "target_sha256": "1ec1224d199bfe681f96a2f790155be2591f1007d24e5bed429a8d8c66b3c6ca",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "750205fe4d95e6ffe572d8af0fc29b6fe96ffb2c954c5c201e4e40de76e5290e",
+      "call_scope_sha256": "ccf3d7d1e4c39946c831d20fa64ee7ba5fb95d44970eacac9b3760f9d6a35cbc",
+      "case_id": "meta_pool",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x2e91342cb348301b8b6572df8dc4dd068fc6ed31",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x5bc2be2b32fc806e731ce5e14cf0fb6be3e0569d",
+        {
+          "blockHash": "0x85118b563460bfa8d9de0429caa284a8be221b202403ebf5df499039b1fc4902",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "fe2a4b31820a047b22c727419942a964f5f45c2246699b128407b67713444388",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:7efcaedc49e14f670bd5324059f88340c7f3fe7218e3ed85e86743b8271077f6",
+      "target_sha256": "1ec1224d199bfe681f96a2f790155be2591f1007d24e5bed429a8d8c66b3c6ca",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "518d02e0a28aa845529362277b4fa1524b8f76173642a2adf5af123713421a2a",
+      "call_scope_sha256": "fe49afdde2180198d8e48c5a5d05c4520dae149c3113eb980f1b763eb8c0ee73",
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0x339e1ab2d5a3ce2b36b0abb1729ff4c347f7a7dd",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "nodereal",
+      "params": [
+        "0xf2049f8e445c4bd4920668d992271a63acbad0a6",
+        {
+          "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "e427aca78e5d110478b87aa2a60cd7c4e22c13d03ad5391c4c38d226acaaf589",
+      "provider_id": "nodereal-bsc",
+      "target_id": "derived-state:91899f148f68794b92c15087eb74ab2a065b933aa12476f8c5d1f08f18605f4a",
+      "target_sha256": "b214d8628c7263e58b8f494d47bf3f7830f3d7e2a429e3901087ad4804a33e44",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "518d02e0a28aa845529362277b4fa1524b8f76173642a2adf5af123713421a2a",
+      "call_scope_sha256": "d10977b319756d34d645eaa57f98933a5b9809c22bd5b6054162646866fce216",
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0x339e1ab2d5a3ce2b36b0abb1729ff4c347f7a7dd",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0xf2049f8e445c4bd4920668d992271a63acbad0a6",
+        {
+          "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "e427aca78e5d110478b87aa2a60cd7c4e22c13d03ad5391c4c38d226acaaf589",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "target_id": "derived-state:91899f148f68794b92c15087eb74ab2a065b933aa12476f8c5d1f08f18605f4a",
+      "target_sha256": "b214d8628c7263e58b8f494d47bf3f7830f3d7e2a429e3901087ad4804a33e44",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "be96def74215f7faf3938357d898c6a59e3cdd0987fba37d86c6896bfce7ef69",
+      "call_scope_sha256": "374cd81888bb253b4ad20b379d805172a4a14c64c02ea97b6d7773409521fb89",
+      "case_id": "alkimiya_io",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x172918f0db81f89178542a66173902920db6996b",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x8046391acea805deaaad9e3cfbaac96cc17c053e",
+        {
+          "blockHash": "0xd1e10f48a420a607c602de6346008956dc021ff68b9533f91dbe5fc4cddfe6c0",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "da4e76d5a737d379078efd58fb9f0b6f5f37d588ef8ca7b7f21920f6690d11b4",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:b4125df39210e97c40e93f0f44203e6a7916e70f6ce24716bd44b67c95a16ba4",
+      "target_sha256": "9cf55409a269417c52b02cbc2265a3f1ab1d5d8e0be74c7b31b652e864ee9c3a",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "be96def74215f7faf3938357d898c6a59e3cdd0987fba37d86c6896bfce7ef69",
+      "call_scope_sha256": "2fc372bc09a254c0f2d2ea06255e118dc28cd9422354f69e84b26996beaa5a7f",
+      "case_id": "alkimiya_io",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x172918f0db81f89178542a66173902920db6996b",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x8046391acea805deaaad9e3cfbaac96cc17c053e",
+        {
+          "blockHash": "0xd1e10f48a420a607c602de6346008956dc021ff68b9533f91dbe5fc4cddfe6c0",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "da4e76d5a737d379078efd58fb9f0b6f5f37d588ef8ca7b7f21920f6690d11b4",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:b4125df39210e97c40e93f0f44203e6a7916e70f6ce24716bd44b67c95a16ba4",
+      "target_sha256": "9cf55409a269417c52b02cbc2265a3f1ab1d5d8e0be74c7b31b652e864ee9c3a",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "8cdc1fcb4ec675bb2bc811952c004cd2459fcf2ac101a5bf873f78d6a323382a",
+      "call_scope_sha256": "eebda92524248a3699af51b098abcb2c6847d7458cad851846350056edf003f7",
+      "case_id": "xwin",
+      "chain": "bsc",
+      "chain_address": "bsc:0x7fd7a7f515f11123203371377dcd95ec6f3ce707",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "nodereal",
+      "params": [
+        "0x18484279924218442f3a8aa61500f57270a3bf8b",
+        {
+          "blockHash": "0xe270599c7491801f3b56d376a229d2d6adffbbeba2f24a2f5d98cabecd93e0e1",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "3810736b81a13eef27b91bfccccbd6e142a1b83ced2b3d93b64383f6778c8fee",
+      "provider_id": "nodereal-bsc",
+      "target_id": "derived-state:b868e8c6e3ad97306a9238512a0b20eee6cb91c9d119fbfbf7e0eb24e130ad11",
+      "target_sha256": "96871d40abcd292ffca9ac4aa25aa32628a8cce8d475d3217b4bf3623b3ea309",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "8cdc1fcb4ec675bb2bc811952c004cd2459fcf2ac101a5bf873f78d6a323382a",
+      "call_scope_sha256": "39074a080a3b6acae2b2db34e0ebf9c3bd16021b1ec0fd72a0a815e0c4666c8c",
+      "case_id": "xwin",
+      "chain": "bsc",
+      "chain_address": "bsc:0x7fd7a7f515f11123203371377dcd95ec6f3ce707",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x18484279924218442f3a8aa61500f57270a3bf8b",
+        {
+          "blockHash": "0xe270599c7491801f3b56d376a229d2d6adffbbeba2f24a2f5d98cabecd93e0e1",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "3810736b81a13eef27b91bfccccbd6e142a1b83ced2b3d93b64383f6778c8fee",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "target_id": "derived-state:b868e8c6e3ad97306a9238512a0b20eee6cb91c9d119fbfbf7e0eb24e130ad11",
+      "target_sha256": "96871d40abcd292ffca9ac4aa25aa32628a8cce8d475d3217b4bf3623b3ea309",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "70853b5324a3968b41a7bd27a465904fdc22d2314d8c414f2b5f632c0ebb91df",
+      "call_scope_sha256": "520a0ba6d6559a82a42e29fbf7470fb1f0f647ae2fd8296e6d4789a2e6e14548",
+      "case_id": "uwulend_second",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x7a7680767a4e41ace578470d8b0eb1ff97b0c023",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x55a37391aef427696216c140927f94d9d5a1328a",
+        {
+          "blockHash": "0xbe53597ee0ab6c24318b6344ca5ae261aab72f02de3c2629ffb9170da44718b5",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "42abbcaa1306c4caeccaba41371ba9befa260c0497f99ef169f896ac04f247de",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:bc33f2c213b39328a162dbdfcb1818913a995475e2787ac70e6ca4a5dc1a5c05",
+      "target_sha256": "b64b4498cdb236cdfabda8929b7957959c0bf0feb3fbfa939a8deef8df452ce5",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "70853b5324a3968b41a7bd27a465904fdc22d2314d8c414f2b5f632c0ebb91df",
+      "call_scope_sha256": "6fe09a85556fbe1653462dbc3167274e33c3ac2f2b332cce9ba44da540d5de0b",
+      "case_id": "uwulend_second",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x7a7680767a4e41ace578470d8b0eb1ff97b0c023",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x55a37391aef427696216c140927f94d9d5a1328a",
+        {
+          "blockHash": "0xbe53597ee0ab6c24318b6344ca5ae261aab72f02de3c2629ffb9170da44718b5",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "42abbcaa1306c4caeccaba41371ba9befa260c0497f99ef169f896ac04f247de",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:bc33f2c213b39328a162dbdfcb1818913a995475e2787ac70e6ca4a5dc1a5c05",
+      "target_sha256": "b64b4498cdb236cdfabda8929b7957959c0bf0feb3fbfa939a8deef8df452ce5",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "1005a3103b050fae20957413822083a3118e11701972dd953348a537730cb13e",
+      "call_scope_sha256": "88ce45d80c6f8ca2c21894cccd0cc20ebfce3438baba2e110a3039d90ae3dede",
+      "case_id": "onyxdao",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd2e4153c94e18efa03f5e3431d3b829983511a39",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+        {
+          "blockHash": "0x9f6ef0a54ed997199165f674d290ae05467d909f961bb1772d147758333b9ae8",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "bf796607fa954f72d91d1856dccedb8731578e3dbb06b2917d36bdcd15acea36",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:c06da8146baf6773d09bcf9b03688b3719f4369c5400afbb01996ad4058f2ff3",
+      "target_sha256": "d41d75684db9f761816ce0044d5ae66cebeaa07e16c7c5239d82cb9420d8da48",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "1005a3103b050fae20957413822083a3118e11701972dd953348a537730cb13e",
+      "call_scope_sha256": "d37c625a0f5604966ceed2e8f1badb8a9f5be8adcfde5d3d7e81795cab553628",
+      "case_id": "onyxdao",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd2e4153c94e18efa03f5e3431d3b829983511a39",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+        {
+          "blockHash": "0x9f6ef0a54ed997199165f674d290ae05467d909f961bb1772d147758333b9ae8",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "bf796607fa954f72d91d1856dccedb8731578e3dbb06b2917d36bdcd15acea36",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:c06da8146baf6773d09bcf9b03688b3719f4369c5400afbb01996ad4058f2ff3",
+      "target_sha256": "d41d75684db9f761816ce0044d5ae66cebeaa07e16c7c5239d82cb9420d8da48",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "2058c54fbe2d9e2c53794131e4bd0a146c6b0b718029ce53b48debcf7384aba0",
+      "call_scope_sha256": "52f01b8f047472fb4939927e1d6c5bbda6e4683e7e7959da8af4949d9e257af5",
+      "case_id": "PegaBall",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xdd7380b0bd859a2d757a9e4371f9f0b9e48135de",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+        {
+          "blockHash": "0xe59e1b4f924bbf033a23e1f24e7a9c438c918db64cc7ed2d109555b401f41618",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "1ec4acdb10515bcad14f18c0635998fb2f4e8c2072fb309b6b25121bb874c502",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:c4c292cb310ccd9cf0a70f25bb1dd0bdbd91482ae35941a73309d754182bcdcc",
+      "target_sha256": "7b05e2a4dd357b6943c9615d28a1ac4dc63c6379212b5125d04283497063ee87",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "2058c54fbe2d9e2c53794131e4bd0a146c6b0b718029ce53b48debcf7384aba0",
+      "call_scope_sha256": "808203391844bc6159a7da27cd1359fb376bdcf2af9a83768e0a242eadf19dfd",
+      "case_id": "PegaBall",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xdd7380b0bd859a2d757a9e4371f9f0b9e48135de",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+        {
+          "blockHash": "0xe59e1b4f924bbf033a23e1f24e7a9c438c918db64cc7ed2d109555b401f41618",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "1ec4acdb10515bcad14f18c0635998fb2f4e8c2072fb309b6b25121bb874c502",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:c4c292cb310ccd9cf0a70f25bb1dd0bdbd91482ae35941a73309d754182bcdcc",
+      "target_sha256": "7b05e2a4dd357b6943c9615d28a1ac4dc63c6379212b5125d04283497063ee87",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "399d70b39b1b70897dab54058eabd4e97a1be4c90712085ba21bae335a6053d8",
+      "call_scope_sha256": "fe6c2df1c18bb74e25424360114055c1d0fccc717d35be22bf07cce285afa1dd",
+      "case_id": "mimspell",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x6300feedb0f6c36f988980fe4130ec0f0b43c60a",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+        {
+          "blockHash": "0xbfde2dd85b8f7c510da715ec8a0f1b73f975f919e9adeb6c43682029170025c1",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "89abc8398b1f0216527462ff77246047e385d8459b47bad239fe5348b49fa735",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:ca0ad8d742d20e82adc244c5c9126b782f4bbae4e668869ace45a50d450b0f0e",
+      "target_sha256": "6d7ac35d04f7b10c2e559a86cc2a159dcd5254b944ac559a0a2ef0cc598747ba",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "399d70b39b1b70897dab54058eabd4e97a1be4c90712085ba21bae335a6053d8",
+      "call_scope_sha256": "eb179fea852f6567ebdeb33fd642ebf28e73b00bdb2997302af3e0da9b2cf2e8",
+      "case_id": "mimspell",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x6300feedb0f6c36f988980fe4130ec0f0b43c60a",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+        {
+          "blockHash": "0xbfde2dd85b8f7c510da715ec8a0f1b73f975f919e9adeb6c43682029170025c1",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "89abc8398b1f0216527462ff77246047e385d8459b47bad239fe5348b49fa735",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:ca0ad8d742d20e82adc244c5c9126b782f4bbae4e668869ace45a50d450b0f0e",
+      "target_sha256": "6d7ac35d04f7b10c2e559a86cc2a159dcd5254b944ac559a0a2ef0cc598747ba",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "aeba005327a8790b1024d2aa134805a4b2d10673c31b50dbb6fb4c8a92cd7b9a",
+      "call_scope_sha256": "be9dfa7f4dccc5e5334e82a69dae4fad948fc06bdac86acb37996c37327ad2d7",
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0xcf3941da9d7bb34f78b4d8917941c9af008eb479",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "nodereal",
+      "params": [
+        "0x7624c574bf993e74079daa58647b2e918ecaa79a",
+        {
+          "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "3815843cb70c086eca821c9628915b4a4ab709d0612339937956e93b5a0288ed",
+      "provider_id": "nodereal-bsc",
+      "target_id": "derived-state:d2ad5be938f7d21594624ab09264a226db26367d8c6d79df712bb2633c60c560",
+      "target_sha256": "664ea715c789cb8316d313372feed239fd17fe124881bd6b0253f135722828e5",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "aeba005327a8790b1024d2aa134805a4b2d10673c31b50dbb6fb4c8a92cd7b9a",
+      "call_scope_sha256": "4185267fb116c04759d8ce63ffb4f96bf4e1dc5beccc3fe99f62f0bdd20d1182",
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0xcf3941da9d7bb34f78b4d8917941c9af008eb479",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x7624c574bf993e74079daa58647b2e918ecaa79a",
+        {
+          "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "3815843cb70c086eca821c9628915b4a4ab709d0612339937956e93b5a0288ed",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "target_id": "derived-state:d2ad5be938f7d21594624ab09264a226db26367d8c6d79df712bb2633c60c560",
+      "target_sha256": "664ea715c789cb8316d313372feed239fd17fe124881bd6b0253f135722828e5",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "6a480f893a0c2e1693d8c9659613711368f67ed5fcf41f52b60788b420690fe3",
+      "call_scope_sha256": "39ad1f3f52c4416c17af725ef63ae80bfdb6db28a9d9f84f17dd0d099fde1c06",
+      "case_id": "upswing",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x39527b067b04d43c627fb741848ef2c3f8ead3fe",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x322401fff76dda9cea5595aaa90d062798907bde",
+        {
+          "blockHash": "0x70f5cb054053e7e85d62dabfa4c52be233591753d6ee68f4190cf024aef13f4d",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "3ff307f756953d3b5521f20ea6dd2db1c9d9039a56f883c1cab5f517251d4ed6",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:d317508053aaa6aef9aa55d60d466cf6675e1a24f35c06a996487e0cf9fff690",
+      "target_sha256": "87441f143a46d01e98e9e4e86e6ba5cff968d483c01e378b12c244f36ff2149b",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "6a480f893a0c2e1693d8c9659613711368f67ed5fcf41f52b60788b420690fe3",
+      "call_scope_sha256": "334ac042b2ae937c0c1fa6ebbcdf76fa8e0b7070d2a84afa8990d10f646be483",
+      "case_id": "upswing",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x39527b067b04d43c627fb741848ef2c3f8ead3fe",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x322401fff76dda9cea5595aaa90d062798907bde",
+        {
+          "blockHash": "0x70f5cb054053e7e85d62dabfa4c52be233591753d6ee68f4190cf024aef13f4d",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "3ff307f756953d3b5521f20ea6dd2db1c9d9039a56f883c1cab5f517251d4ed6",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:d317508053aaa6aef9aa55d60d466cf6675e1a24f35c06a996487e0cf9fff690",
+      "target_sha256": "87441f143a46d01e98e9e4e86e6ba5cff968d483c01e378b12c244f36ff2149b",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "f7724b6250c7587302c753c832d9430c58920436a3fc16a34cad5b8563a3704f",
+      "call_scope_sha256": "5e3c0f03f5ac712a723b9fe56e0360f3e12c236f715dbb15215130083b648be3",
+      "case_id": "barleyfinance",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd31f7c7c04e3288fbb88054adf552ffeb5f85616",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+        {
+          "blockHash": "0x407055826a1211c9b7baa1193962b23584089c9bd857bed2e494b1f99140f038",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "34b977f5053c594541a6319143e847687c394695c82d1ef2afee9f8d10e18d78",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:d38c031f817a6825c33c734ab568e91d398ac0942f580aea5dd627efd0567b05",
+      "target_sha256": "a63f03c8152775354a140492d27586f8bb3480ae3a10288a6b83a8dbf760c105",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "f7724b6250c7587302c753c832d9430c58920436a3fc16a34cad5b8563a3704f",
+      "call_scope_sha256": "c62ad96d4463a891bfb9df1496b42edbc4f2d63b555d4a6e175062bf678a0b65",
+      "case_id": "barleyfinance",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd31f7c7c04e3288fbb88054adf552ffeb5f85616",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+        {
+          "blockHash": "0x407055826a1211c9b7baa1193962b23584089c9bd857bed2e494b1f99140f038",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "34b977f5053c594541a6319143e847687c394695c82d1ef2afee9f8d10e18d78",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:d38c031f817a6825c33c734ab568e91d398ac0942f580aea5dd627efd0567b05",
+      "target_sha256": "a63f03c8152775354a140492d27586f8bb3480ae3a10288a6b83a8dbf760c105",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "173497fe197fbc297c26c45b5bf48b8c210ca2d458ca2da71ee68e3a98d4cc83",
+      "call_scope_sha256": "68e1b9ceb4ca3d5c2bc9729b8a0e08d198d041b39cbb654910f9972ca978e697",
+      "case_id": "conic02",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x82035b909b8093433b1a07b0b81b14a016d1ee60",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0xe9ff7ca11280553af56d04ecb8be6b8c4468dcb2",
+        {
+          "blockHash": "0xc1691c5517fc694b03ef0b5467e50bdeb1cb63c99518e9ffe4c3e44b3f4ea691",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "6d660cb0b63acd3ebe97c1ba6d407fc922f8eea5a122dbe0c5432137cf7a757c",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:d47d7ff59715ae2d287dc5528e9c6669012dd30e8767902057cd36110b354b1c",
+      "target_sha256": "c3e5764cec7443967bd66e5ca044e5cb7241af3e2cbaea7a0d2586c5499ee46a",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "173497fe197fbc297c26c45b5bf48b8c210ca2d458ca2da71ee68e3a98d4cc83",
+      "call_scope_sha256": "e6d3e26e2d5f325bf0961d53b8e9a4711bc49ca8dfe8f1008492fc952b6103c0",
+      "case_id": "conic02",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x82035b909b8093433b1a07b0b81b14a016d1ee60",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0xe9ff7ca11280553af56d04ecb8be6b8c4468dcb2",
+        {
+          "blockHash": "0xc1691c5517fc694b03ef0b5467e50bdeb1cb63c99518e9ffe4c3e44b3f4ea691",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "6d660cb0b63acd3ebe97c1ba6d407fc922f8eea5a122dbe0c5432137cf7a757c",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:d47d7ff59715ae2d287dc5528e9c6669012dd30e8767902057cd36110b354b1c",
+      "target_sha256": "c3e5764cec7443967bd66e5ca044e5cb7241af3e2cbaea7a0d2586c5499ee46a",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "8acbc79300fd3f5029313881635c74d691eba3e96a1f3308f84efdba8c4c88f2",
+      "call_scope_sha256": "e480981cb6c52b78bc9b5d0e7cbb5f730513aba5fa32a3fdc0fa3fc16dae0cf0",
+      "case_id": "MFT",
+      "chain": "bsc",
+      "chain_address": "bsc:0xe0d3325448c796ea645992c406809a1237772a23",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "nodereal",
+      "params": [
+        "0xac62f8998f52de38750502e77cd33f7d151a11a6",
+        {
+          "blockHash": "0x1f8689430cd5197ddc620c02f2498a0448492fb6a02bbeec9e16e9783cd0bf1f",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "0bf620a99c93a4d06e239f5192dbcdd65e3a83dfa4ac3d5eb631cce9111a9c99",
+      "provider_id": "nodereal-bsc",
+      "target_id": "derived-state:e5a006d8bc0e723bed922e4b5224565341be44b2e23235e42f462d632a61d10e",
+      "target_sha256": "0921d50e809ad1ab2c55bb54dc4ed51a99ed2fd7afca3e07b1814db408e4722f",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "8acbc79300fd3f5029313881635c74d691eba3e96a1f3308f84efdba8c4c88f2",
+      "call_scope_sha256": "aa6184279e5057bab28bbcd25dc6b6cda24c79387577853287a90c055ba76bdb",
+      "case_id": "MFT",
+      "chain": "bsc",
+      "chain_address": "bsc:0xe0d3325448c796ea645992c406809a1237772a23",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0xac62f8998f52de38750502e77cd33f7d151a11a6",
+        {
+          "blockHash": "0x1f8689430cd5197ddc620c02f2498a0448492fb6a02bbeec9e16e9783cd0bf1f",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "0bf620a99c93a4d06e239f5192dbcdd65e3a83dfa4ac3d5eb631cce9111a9c99",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "target_id": "derived-state:e5a006d8bc0e723bed922e4b5224565341be44b2e23235e42f462d632a61d10e",
+      "target_sha256": "0921d50e809ad1ab2c55bb54dc4ed51a99ed2fd7afca3e07b1814db408e4722f",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "e25a914a1fb02a13ede84afefcb330261c4f20d60454bdf8d06caa2bb845fa14",
+      "call_scope_sha256": "fde31fbc77f1989184ad2081869f5231eb24efeb446a4e0d2546c3d78c03300e",
+      "case_id": "stepp2p",
+      "chain": "bsc",
+      "chain_address": "bsc:0x13028c36ec46007e2657f6eddad1c210f13328a4",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "nodereal",
+      "params": [
+        "0xa4c746125459bf5250a1f80b1e1431bae5c09dd1",
+        {
+          "blockHash": "0x1f885795ab503a7cdef943525def1843ede6e092cd415c710517476bc81b8cc8",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "c42d82034cecfe24d23055a3a4db207a4df059c37f5892d009f1f39e1e60d1bb",
+      "provider_id": "nodereal-bsc",
+      "target_id": "derived-state:e696c966067a7457030a0f954648e40fd24acd1f32f97c673268b10ca18a858f",
+      "target_sha256": "dada18f8b260ea0f039b0d8987de94acd47936efc533236f04c41bd325c543bc",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "e25a914a1fb02a13ede84afefcb330261c4f20d60454bdf8d06caa2bb845fa14",
+      "call_scope_sha256": "df5099fdf9ead54f2d43f768def88061697226b834b3e5cf0d90866427372359",
+      "case_id": "stepp2p",
+      "chain": "bsc",
+      "chain_address": "bsc:0x13028c36ec46007e2657f6eddad1c210f13328a4",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0xa4c746125459bf5250a1f80b1e1431bae5c09dd1",
+        {
+          "blockHash": "0x1f885795ab503a7cdef943525def1843ede6e092cd415c710517476bc81b8cc8",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "c42d82034cecfe24d23055a3a4db207a4df059c37f5892d009f1f39e1e60d1bb",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "target_id": "derived-state:e696c966067a7457030a0f954648e40fd24acd1f32f97c673268b10ca18a858f",
+      "target_sha256": "dada18f8b260ea0f039b0d8987de94acd47936efc533236f04c41bd325c543bc",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "554dc342f482cde6f1cc9aead31e2fd58e411a8add192e9599a8526dedd6cb2c",
+      "call_scope_sha256": "f9832a51688e05ef3b878b9f482223ff28c2192197d55bdd95245bf594ad3ac8",
+      "case_id": "dexible",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x11db5eb043c7572a819edef35f51a4f4da906011",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "drpc",
+      "params": [
+        "0x6bf5ed59de0e19999d264746843ff931c0133090",
+        {
+          "blockHash": "0x73ecd485b8f8097f5bba14f2f7e3e34e61956ea6012a9a684e7abcdf9b64f8bc",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "b66672fc214e685ff21db9bdaa5b3b6027d6ae7311b448e674740a8118fc5f41",
+      "provider_id": "drpc-ethereum",
+      "target_id": "derived-state:e92d62350dc9b6e80ef0a491276db2e082ff964d260912eef0dffca6abf26852",
+      "target_sha256": "0faf04c1cc86c898725bcb3b5c3bf4ea7a6c278bfeae04bdb61255b510c5f5fe",
+      "target_type": "derived_state"
+    },
+    {
+      "base_state_result_sha256": "554dc342f482cde6f1cc9aead31e2fd58e411a8add192e9599a8526dedd6cb2c",
+      "call_scope_sha256": "9bfcbc8f150041bd4f537082713f5ab05846bdd667ab661862588a0a0f8f7302",
+      "case_id": "dexible",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x11db5eb043c7572a819edef35f51a4f4da906011",
+      "derived_role": "direct_implementation_runtime_code",
+      "method": "eth_getCode",
+      "operator_family": "quicknode",
+      "params": [
+        "0x6bf5ed59de0e19999d264746843ff931c0133090",
+        {
+          "blockHash": "0x73ecd485b8f8097f5bba14f2f7e3e34e61956ea6012a9a684e7abcdf9b64f8bc",
+          "requireCanonical": true
+        }
+      ],
+      "params_sha256": "b66672fc214e685ff21db9bdaa5b3b6027d6ae7311b448e674740a8118fc5f41",
+      "provider_id": "quicknode-ethereum",
+      "target_id": "derived-state:e92d62350dc9b6e80ef0a491276db2e082ff964d260912eef0dffca6abf26852",
+      "target_sha256": "0faf04c1cc86c898725bcb3b5c3bf4ea7a6c278bfeae04bdb61255b510c5f5fe",
+      "target_type": "derived_state"
+    }
+  ],
+  "schema_version": "stage2_control_derived_state_activation_verification.v1",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-derived-state-activation-v1",
+  "signature_sha256": "b0ce831cce2c3636b3732c28fc2c0290dfe64f7ef3e7ae25d2354aefa2d5a60c",
+  "signer_principal": "zmzubraj-local-test",
+  "stage_promotion_authorized": false,
+  "verification_sha256": "a167370a42c08c8a6696714b2adc08dbd96ccfe3917a09b51df4577e2d9332bd"
+}

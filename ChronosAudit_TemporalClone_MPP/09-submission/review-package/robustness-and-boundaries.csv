@@ -1,0 +1,5 @@
+comparison,quantity,baseline,alternative,difference,boundary
+chain-address vs address-only,duplicate_rows,14,14,0,same address on different chains is not observed as an added collision here
+exact vs metadata-stripped runtime,duplicate_rows,46,56,10,metadata stripping can merge otherwise distinct exact runtimes
+exact vs metadata-stripped runtime,cross_address_duplicate_rows,32,42,10,still excludes semantic near-clones
+exact vs metadata-stripped runtime,cross_chain_duplicate_rows,16,17,1,chain-specific state and configuration can differ

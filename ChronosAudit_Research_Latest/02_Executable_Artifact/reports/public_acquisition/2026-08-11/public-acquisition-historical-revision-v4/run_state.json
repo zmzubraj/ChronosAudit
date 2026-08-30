@@ -1,0 +1,100 @@
+{
+  "cells": {
+    "ai-adjudication-track": {
+      "details": {
+        "case_count": 417,
+        "claim_authority": "ANALYTIC_ONLY_NON_HUMAN",
+        "command": "ai-adjudication-track",
+        "evidence_sufficiency": "PINNED_DIRECT_SOURCE_357_OF_417;REMAINDER_MUST_USE_UNKNOWN_IF_PACKET_EVIDENCE_IS_INADEQUATE",
+        "human_independent_adjudication_counter_effect": "NONE",
+        "manifest_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/ai_only_adjudication/ai_adjudication_manifest.json",
+        "revision": "2026-08-11",
+        "run_id": "public-acquisition-historical-revision-v4",
+        "status": "READY_NOT_EXECUTED",
+        "track_name": "AI_ONLY_TRIANGULATION_V1"
+      },
+      "status": "ready_not_executed",
+      "updated_at_utc": "2026-08-17T05:41:26Z"
+    },
+    "controls": {
+      "details": {
+        "command": "controls",
+        "reason": "No columns to parse from file",
+        "revision": "2026-08-11",
+        "run_id": "public-acquisition-historical-revision-v4",
+        "status": "scientifically_incomplete"
+      },
+      "status": "scientifically_incomplete",
+      "updated_at_utc": "2026-08-10T20:13:00Z"
+    },
+    "denominator": {
+      "details": {
+        "audit_csv_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/denominator_audit.csv",
+        "audit_csv_sha256": "8ca8d717dd6eebfa35e0d0e2fe3df403f4dda5dcb0632e8c33813b7a59c04b5d",
+        "command": "denominator",
+        "denominator_csv_path": "processed/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/deployment_denominator.csv",
+        "denominator_csv_sha256": "566d3080ebe8eaf0483ab349270e2eec8ac2aa406b8356245376c38b4cb1d503",
+        "denominator_rows": 20000,
+        "execute": true,
+        "revision": "2026-08-11",
+        "run_id": "public-acquisition-historical-revision-v4",
+        "source_errors": [],
+        "sources": [
+          {
+            "chain": "all",
+            "format": "csv",
+            "path": "raw/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/denominator_sources/001-002-contract_deployments_43000000_44000000-targetchains-hex.csv",
+            "sha256": "fce364f85d89175528d1186e461091b82e718d1b04c3ac9bbfc32d5c740ef9a5"
+          }
+        ],
+        "status": "complete"
+      },
+      "status": "complete",
+      "updated_at_utc": "2026-08-11T03:55:09Z"
+    },
+    "plan": {
+      "details": {
+        "offline": true,
+        "pilot_rows": 9,
+        "pilot_shortfall_audit_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/pilot_shortfall_audit.json",
+        "queue_manifest_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/case_queue_manifest.json",
+        "queue_rows": 417
+      },
+      "status": "complete",
+      "updated_at_utc": "2026-08-10T20:12:59Z"
+    },
+    "project": {
+      "details": {
+        "command": "project",
+        "counter_artifact_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/public_acquisition_counters.json",
+        "counter_input_manifest_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/public_acquisition_counter_inputs.json",
+        "release_eligible_cases": 0,
+        "revision": "2026-08-11",
+        "run_id": "public-acquisition-historical-revision-v4",
+        "status": "incomplete"
+      },
+      "status": "incomplete",
+      "updated_at_utc": "2026-08-17T05:11:29Z"
+    },
+    "review-packets": {
+      "details": {
+        "command": "review-packets",
+        "control_packets": 0,
+        "human_adjudication_handoff_manifest_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/human_adjudication_handoff_manifest.json",
+        "positive_packets": 417,
+        "reviewer_independence_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/reviewer_independence.json",
+        "revision": "2026-08-11",
+        "run_id": "public-acquisition-historical-revision-v4",
+        "status": "complete"
+      },
+      "status": "complete",
+      "updated_at_utc": "2026-08-17T05:11:06Z"
+    }
+  },
+  "created_at_utc": "2026-08-10T20:12:59Z",
+  "input_sha256": "8d6ec4a40298f0aaafa443e3418048ce095137a8cc405057b454adf3dfc39089",
+  "revision": "2026-08-11",
+  "run_id": "public-acquisition-historical-revision-v4",
+  "scientific_ledger_path": "raw/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/acquisition_events.jsonl",
+  "updated_at_utc": "2026-08-17T05:41:26Z"
+}

@@ -1,0 +1,194 @@
+{
+  "acquisition_authorized": false,
+  "case_overlap_count": 0,
+  "cases_requiring_expansion": 380,
+  "chunk_count": 16,
+  "chunks": [
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0001-b559431afb94",
+      "chunk_scope_sha256": "b559431afb94fb1d8b976ded7def89f0316012196768dcbf3d6c2a50134e82f7",
+      "chunk_sequence": 1,
+      "minimum_additional_distinct_slots": 178,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0002-478c700dfda3",
+      "chunk_scope_sha256": "478c700dfda3c14a8a2d3caec80de062d2fda77997e6643ae6511ebfc5d7c25c",
+      "chunk_sequence": 2,
+      "minimum_additional_distinct_slots": 171,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0003-7440bf5f50c7",
+      "chunk_scope_sha256": "7440bf5f50c78319454e07fbbb77288e012384af10e7c6aa971ab5c79cebb25a",
+      "chunk_sequence": 3,
+      "minimum_additional_distinct_slots": 213,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0004-58e30588ff0f",
+      "chunk_scope_sha256": "58e30588ff0fc874e5396d157178390c08486a8f87bcb2617bb18b921b2115fa",
+      "chunk_sequence": 4,
+      "minimum_additional_distinct_slots": 222,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0005-4f132d2a0260",
+      "chunk_scope_sha256": "4f132d2a02603364a3b600d3bda7253788b77facdb7cacdac6069fa9a5513a9a",
+      "chunk_sequence": 5,
+      "minimum_additional_distinct_slots": 220,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0006-e53e36407bd2",
+      "chunk_scope_sha256": "e53e36407bd2f14f7de3fd7503afe9b45af89d04a5edb1f498c3cb718bd555b8",
+      "chunk_sequence": 6,
+      "minimum_additional_distinct_slots": 237,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0007-b73428a97b4c",
+      "chunk_scope_sha256": "b73428a97b4c1497aed4b310a7e1cf021c2265a8ae93a7bbf2cf9847a3eaa06a",
+      "chunk_sequence": 7,
+      "minimum_additional_distinct_slots": 231,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0008-5617aeaaf943",
+      "chunk_scope_sha256": "5617aeaaf94304dd2518a6ed537991578be5593a10d746da8781b9184511a165",
+      "chunk_sequence": 8,
+      "minimum_additional_distinct_slots": 236,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0009-fb4d8cad57e2",
+      "chunk_scope_sha256": "fb4d8cad57e2f2f68158ebc1a8bf7c05a931f5993a9de9f5038abccadcb689d0",
+      "chunk_sequence": 9,
+      "minimum_additional_distinct_slots": 244,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0010-b1d212fb081f",
+      "chunk_scope_sha256": "b1d212fb081f7793135340d08fffa5c54c8b1ee6593dfeafba9c920a1a273042",
+      "chunk_sequence": 10,
+      "minimum_additional_distinct_slots": 243,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0011-e09a8f3eb680",
+      "chunk_scope_sha256": "e09a8f3eb680baf45e0967a8d5b78b97ccf8b22fee83dc48de67bb48d6e5d5a9",
+      "chunk_sequence": 11,
+      "minimum_additional_distinct_slots": 249,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0012-ca31698daf20",
+      "chunk_scope_sha256": "ca31698daf207484463d36170fd4c53a28826563f2c474134b5f4777f9753947",
+      "chunk_sequence": 12,
+      "minimum_additional_distinct_slots": 248,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0013-1f6e1bd80478",
+      "chunk_scope_sha256": "1f6e1bd80478de6637a7eb8e471f47cb61a79c563937c35b3bf0b91822945f72",
+      "chunk_sequence": 13,
+      "minimum_additional_distinct_slots": 249,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0014-37b6e562b383",
+      "chunk_scope_sha256": "37b6e562b383312482dc184507faafc9abacee15c60672375e44de305ad6ccc0",
+      "chunk_sequence": 14,
+      "minimum_additional_distinct_slots": 249,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 25,
+      "chunk_id": "stage2-expansion-0015-057cbf143d8e",
+      "chunk_scope_sha256": "057cbf143d8ea47407beafa71550477218b432f48b11691297f7f3da38c744c2",
+      "chunk_sequence": 15,
+      "minimum_additional_distinct_slots": 250,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    },
+    {
+      "acquisition_authorized": false,
+      "case_count": 5,
+      "chunk_id": "stage2-expansion-0016-7279bd009f03",
+      "chunk_scope_sha256": "7279bd009f03bc950f30c0f1be80196716abf507579cecbc8aaa4b27b78d1b0a",
+      "chunk_sequence": 16,
+      "minimum_additional_distinct_slots": 50,
+      "rpc_authorized": false,
+      "selection_authorized": false
+    }
+  ],
+  "decision": "BOUNDED_EXPANSION_PLAN_AWAITS_ACCOUNTABLE_ACQUISITION_APPROVAL",
+  "inputs": {
+    "authority_projection_sha256": "a574b5a865b02d4628b0f35768c7e7cb78878b1bd051260f3c787a320cbbf870",
+    "expansion_ledger_sha256": "b20780e7e4dd3a7a0410d9df66bd57cfcd341ab65e273b1ef7bb3e8b3efe82dc",
+    "pair_scope_manifest_sha256": "8d5288b7195eb77423a5e141910eb5e55c626d6ca724861d7accdd9353c40c04",
+    "policy_sha256": "4603d85139483db1b69c374c84603cfb83dabc2a93b6e310cab2f4226cebf871"
+  },
+  "max_cases_per_chunk": 25,
+  "minimum_additional_distinct_slots": 3490,
+  "output": {
+    "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/processed/stage2_controls/2026-08-17/expansion-chunks/control_denominator_expansion_chunk_plan.csv",
+    "sha256": "42fe130de9af198ad9208fc7c7cf42cb43a9f4548357bcedb4bd628759a385eb"
+  },
+  "plan_no_repeat_sha256": "e9658ef00d6c387b3366fdafc0605c81261c63dc9bb59f54bb7e7eda9464ccc7",
+  "records_sha256": "5e56f760640f24b84c0d72e73f0acf9493ee104e0fbbe503c8c34ab2eea9a419",
+  "requirement_overlap_count": 0,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_denominator_expansion_chunk_plan.v1",
+  "selection_authorized": false,
+  "source_paths": {
+    "authority_projection": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/processed/stage2_controls/2026-08-17/recovery3-authority-bridge/control_denominator_authority_projection.csv",
+    "expansion_requirements": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/processed/stage2_controls/2026-08-17/pair-scope/control_denominator_expansion_requirements.csv",
+    "pair_scope_manifest": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/stage2_controls/2026-08-17/pair-scope/control_pair_acquisition_scope_manifest.json",
+    "policy": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/config/stage2_control_selection_policy_v1.yaml"
+  },
+  "warning": "This artifact partitions minimum acquisition requirements only. It authorizes neither RPC acquisition nor control selection, and covariate exclusions can increase the final acquisition volume."
+}

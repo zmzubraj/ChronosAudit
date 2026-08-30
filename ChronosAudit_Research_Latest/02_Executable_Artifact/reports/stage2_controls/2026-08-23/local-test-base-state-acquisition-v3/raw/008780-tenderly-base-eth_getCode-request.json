@@ -1,0 +1,16 @@
+{
+  "call_scope_sha256": "c77467df152edddf442d3e73d2a02c5f4dd3e1f75235e3948c6d1aa27b108475",
+  "method": "eth_getCode",
+  "operator_family": "tenderly",
+  "params": [
+    "0xe38a21853218f8f12a89e7d41fbae0e28f0d6059",
+    {
+      "blockHash": "0x299a9d90a266d6ab5f5521558c1ec3fd11679a0727b674e4dae1fd25a32797f2",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "tenderly-base",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 8780,
+  "target_id": "base-state:e3e9cbb5a5b95f0fff5ef46c48de848b18a00be57022c7d8e6bfcd298960df23"
+}

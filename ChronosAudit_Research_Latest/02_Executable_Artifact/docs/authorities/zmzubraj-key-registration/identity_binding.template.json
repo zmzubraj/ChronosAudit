@@ -1,0 +1,19 @@
+{
+  "schema_version": "chronosaudit.accountable_signer_identity_binding.v1",
+  "status": "UNREGISTERED_TEMPLATE",
+  "principal": "zmzubraj",
+  "principal_role": "AUTHOR_AND_METHODS_OWNER",
+  "public_key_algorithm": "ssh-ed25519",
+  "public_key_fingerprint_sha256": "[PUBLIC_SSH_FINGERPRINT_SHA256]",
+  "public_key_file_sha256": "[PUBLIC_KEY_FILE_SHA256]",
+  "identity_review_method": "[OUT_OF_BAND_METHOD]",
+  "identity_reviewed_by": "[ACCOUNTABLE_REGISTRY_REVIEWER]",
+  "identity_reviewed_at_utc": "[YYYY-MM-DDTHH:MM:SSZ]",
+  "valid_from_utc": "[YYYY-MM-DDTHH:MM:SSZ]",
+  "valid_until_utc": "[YYYY-MM-DDTHH:MM:SSZ]",
+  "key_possession_proves_real_world_identity": false,
+  "private_key_location_recorded": false,
+  "private_key_disclosed": false,
+  "registration_decision": "[APPROVED_OR_REJECTED]"
+}
+

@@ -1,0 +1,1 @@
+{"method":"eth_getBlockByNumber","params":["0x240a16c",false],"provider_family":"nodereal","provider_id":"nodereal-bsc","schema_version":"stage2_control_base_state_capability_request.v1"}

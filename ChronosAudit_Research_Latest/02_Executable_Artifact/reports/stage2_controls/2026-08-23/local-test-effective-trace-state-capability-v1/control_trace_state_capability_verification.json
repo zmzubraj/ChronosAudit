@@ -1,0 +1,17 @@
+{
+  "chain_count": 3,
+  "complete": false,
+  "errors": [
+    "required managed provider environment variable is missing: CHRONOS_QUICKNODE_ETHEREUM_URL"
+  ],
+  "provider_registry_verified": false,
+  "raw_evidence_count": 0,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "33ad0ddb99e4138d048aecc5308131445644235e48290f42e394338ad09b6c9c",
+  "report_sha256": "6a1b88d1e4815772019e4e71c71acbddc97b2fcecb5d22132c148e624d8c8cca",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "d602061e794d525e572765acba9a58b69b1f01662f4c9d7d388f8919d98382a0"
+}

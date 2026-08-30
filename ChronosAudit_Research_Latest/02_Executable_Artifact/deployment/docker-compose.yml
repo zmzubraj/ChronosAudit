@@ -1,0 +1,19 @@
+services:
+  stage2:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m
+    volumes:
+      - ../raw:/app/raw:ro
+      - ../processed:/app/processed:rw
+      - ../reports:/app/reports:rw
+    environment:
+      - PYTHONHASHSEED=0
+    pids_limit: 128
+    mem_limit: 2g

@@ -1,0 +1,229 @@
+{
+  "capture_index_sha256": "01bfbaaae27ef260abd1405f0c4dbca40adfa88d1cd66ecb878535a08b270c5d",
+  "captures": [
+    {
+      "captured_at_utc": "2026-08-20T18:24:49Z",
+      "captured_path": "2026-08-21-capability-v5/arbitrum_chain_info.html",
+      "content_sha256": "e242303c90cb8e8b99b9450cf83379a08e049c33879bd21fb2e368b3cec7ed4d",
+      "final_url": "https://docs.arbitrum.io/for-devs/dev-tools-and-resources/chain-info",
+      "http_status": 200,
+      "operator_family": "arbitrum-official",
+      "source_id": "arbitrum-official-chain-info-doc-2026-08-21",
+      "source_url": "https://docs.arbitrum.io/for-devs/dev-tools-and-resources/chain-info",
+      "supported_provider_ids": [
+        "arbitrum-official-arbitrum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T18:18:39Z",
+      "captured_path": "2026-08-21-base-official-v2/base_connecting.html",
+      "content_sha256": "12e85f3d1a499d0f8741dbed9cf8c967a044315b17397cea003aab9b92e255e0",
+      "final_url": "https://docs.base.org/base-chain/quickstart/connecting-to-base",
+      "http_status": 200,
+      "operator_family": "base-official",
+      "source_id": "base-official-connection-doc-2026-08-21",
+      "source_url": "https://docs.base.org/base-chain/quickstart/connecting-to-base",
+      "supported_provider_ids": [
+        "base-official-base"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T18:24:49Z",
+      "captured_path": "2026-08-21-capability-v5/bnb_json_rpc_endpoints.html",
+      "content_sha256": "6f1a4dbf407ba8c48706c373f563c5ac7fd770cdcec83949194a22b9224c7f16",
+      "final_url": "https://docs.bnbchain.org/bnb-smart-chain/developers/json_rpc/json-rpc-endpoint/",
+      "http_status": 200,
+      "operator_family": "bnb-official",
+      "source_id": "bnb-official-json-rpc-doc-2026-08-21",
+      "source_url": "https://docs.bnbchain.org/bnb-smart-chain/developers/json_rpc/json-rpc-endpoint/",
+      "supported_provider_ids": [
+        "bnb-official-bsc"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T18:27:36Z",
+      "captured_path": "2026-08-21-capability-v5/drpc_arbitrum_api.html",
+      "content_sha256": "18b80a193aff5c490d9c0ee015ec89e6cc65125d29ce4d975ff02d6b9a88650f",
+      "final_url": "https://drpc.org/docs/arbitrum-api",
+      "http_status": 200,
+      "operator_family": "drpc",
+      "source_id": "drpc-arbitrum-api-doc-2026-08-21",
+      "source_url": "https://drpc.org/docs/arbitrum-api",
+      "supported_provider_ids": [
+        "drpc-arbitrum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T18:36:57Z",
+      "captured_path": "2026-08-21-capability-v5/nodereal_api_overview.html",
+      "content_sha256": "3e1362ee4577a136ff2f8c20080b983b7e6e8ae36e9433c06f639b2379025171",
+      "final_url": "https://docs.nodereal.io/reference/getting-started-with-your-api",
+      "http_status": 200,
+      "operator_family": "nodereal",
+      "source_id": "nodereal-api-overview-doc-2026-08-21",
+      "source_url": "https://docs.nodereal.io/reference/getting-started-with-your-api",
+      "supported_provider_ids": [
+        "nodereal-bsc"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T14:12:06Z",
+      "captured_path": "2026-08-21-base-official-v2/publicnode_ethereum.html",
+      "content_sha256": "1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf",
+      "final_url": "https://ethereum.publicnode.com/",
+      "http_status": 200,
+      "operator_family": "publicnode",
+      "source_id": "publicnode-ethereum-doc-2026-08-20",
+      "source_url": "https://ethereum.publicnode.com/",
+      "supported_provider_ids": [
+        "publicnode-ethereum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T22:12:40Z",
+      "captured_path": "2026-08-21-quicknode-chainstack-ethereum-v1/quicknode_ethereum_endpoints.md",
+      "content_sha256": "fb5619b49be135eb0dbd6539d3db8d457a01bad95e2751c90dce618605e608e4",
+      "final_url": "https://www.quicknode.com/docs/ethereum/endpoints.md",
+      "http_status": 200,
+      "operator_family": "quicknode",
+      "source_id": "quicknode-ethereum-endpoints-doc",
+      "source_url": "https://www.quicknode.com/docs/ethereum/endpoints.md",
+      "supported_provider_ids": [
+        "quicknode-ethereum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-21T01:31:58Z",
+      "captured_path": "2026-08-21-capability-v8/tenderly_base_production_node_excerpt.html",
+      "content_sha256": "ad518b1fef0d7c13bd9eafea65ef2a6e6e15874b402d56e977382c0b648cc4ae",
+      "final_url": "https://tenderly.co/blog/changelog/tenderly-now-supports-base-mainnet-goerli-testnet/",
+      "http_status": 200,
+      "operator_family": "tenderly",
+      "source_id": "tenderly-base-production-node-excerpt-2026-08-21",
+      "source_url": "https://tenderly.co/blog/changelog/tenderly-now-supports-base-mainnet-goerli-testnet/",
+      "supported_provider_ids": [
+        "tenderly-base"
+      ]
+    }
+  ],
+  "decision": "EVIDENCE_CAPTURED_AWAITING_ACCOUNTABLE_PROVIDER_IDENTITY_REVIEW",
+  "operator_verified": false,
+  "provider_count": 8,
+  "provider_identity_verified": false,
+  "provider_ids": [
+    "arbitrum-official-arbitrum",
+    "base-official-base",
+    "bnb-official-bsc",
+    "drpc-arbitrum",
+    "nodereal-bsc",
+    "publicnode-ethereum",
+    "quicknode-ethereum",
+    "tenderly-base"
+  ],
+  "provider_registry_sha256": "588fd0f6c6cac1e3b5ec577df6d9746ddc56c200699ede54668cfd8372c43ba7",
+  "providers": [
+    {
+      "api_key_env": null,
+      "chain": "arbitrum",
+      "endpoint_env": null,
+      "operator_family": "arbitrum-official",
+      "provider_id": "arbitrum-official-arbitrum",
+      "public_endpoint": "https://arb1.arbitrum.io/rpc",
+      "public_endpoint_id": "75dae0a9fdf900f37bfd5781d118014d8e7fd536bd7ea0f7abdcd740ea847202",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "arbitrum-official-chain-info-doc-2026-08-21"
+    },
+    {
+      "api_key_env": null,
+      "chain": "base",
+      "endpoint_env": null,
+      "operator_family": "base-official",
+      "provider_id": "base-official-base",
+      "public_endpoint": "https://mainnet.base.org",
+      "public_endpoint_id": "da1e4a0b726081a615f3a070f91579a54a9a7deb09de13f8c5f6687d4079cf27",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "base-official-connection-doc-2026-08-21"
+    },
+    {
+      "api_key_env": null,
+      "chain": "bsc",
+      "endpoint_env": null,
+      "operator_family": "bnb-official",
+      "provider_id": "bnb-official-bsc",
+      "public_endpoint": "https://bsc-dataseed.bnbchain.org",
+      "public_endpoint_id": "2e478f4aa04134232f6ffd08cd94d1363cef63adc5f796c4a5dc0ec9db9034b9",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "bnb-official-json-rpc-doc-2026-08-21"
+    },
+    {
+      "api_key_env": null,
+      "chain": "arbitrum",
+      "endpoint_env": null,
+      "operator_family": "drpc",
+      "provider_id": "drpc-arbitrum",
+      "public_endpoint": "https://arbitrum.drpc.org",
+      "public_endpoint_id": "c0eba922677da2d734ba833cc433f70871367497512dba49a9dee240d4facc7d",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "drpc-arbitrum-api-doc-2026-08-21"
+    },
+    {
+      "api_key_env": null,
+      "chain": "bsc",
+      "endpoint_env": null,
+      "operator_family": "nodereal",
+      "provider_id": "nodereal-bsc",
+      "public_endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+      "public_endpoint_id": "c09f8c4270313cade4929fe441dcb8d173095240917e70637231b904192e7792",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "nodereal-api-overview-doc-2026-08-21"
+    },
+    {
+      "api_key_env": null,
+      "chain": "ethereum",
+      "endpoint_env": null,
+      "operator_family": "publicnode",
+      "provider_id": "publicnode-ethereum",
+      "public_endpoint": "https://ethereum-rpc.publicnode.com",
+      "public_endpoint_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "publicnode-ethereum-doc-2026-08-20"
+    },
+    {
+      "api_key_env": null,
+      "chain": "ethereum",
+      "endpoint_env": "CHRONOS_QUICKNODE_ETHEREUM_URL",
+      "operator_family": "quicknode",
+      "provider_id": "quicknode-ethereum",
+      "public_endpoint": "https://quiknode.pro/",
+      "public_endpoint_id": "7bf448bc7def61e82096fd61a4d9eee23adbc8cff2263df8d7b2b2aa582a969c",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "quicknode-ethereum-endpoints-doc"
+    },
+    {
+      "api_key_env": null,
+      "chain": "base",
+      "endpoint_env": null,
+      "operator_family": "tenderly",
+      "provider_id": "tenderly-base",
+      "public_endpoint": "https://base.gateway.tenderly.co",
+      "public_endpoint_id": "23560d214f658f9fd995c835b8ddce1f7947b075fd6e4f72c4c90d4369875de8",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "tenderly-base-production-node-excerpt-2026-08-21"
+    }
+  ],
+  "recovery3_mutation_authorized": false,
+  "review_payload_sha256": "5e4a5628f2da9a0aa2a40c6513bd7be1613a198c1e6d5525c135f6707126b82f",
+  "reviewer_signature_required": true,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_evidence_review.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

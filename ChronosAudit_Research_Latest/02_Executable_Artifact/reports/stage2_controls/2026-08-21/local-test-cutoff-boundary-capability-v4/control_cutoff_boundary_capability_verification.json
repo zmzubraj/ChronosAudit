@@ -1,0 +1,19 @@
+{
+  "capability_file_sha256": "7880c68d277385accc76da29bd0e4b6e3e7139f0b8d165126557b5ef68323594",
+  "capability_sha256": "86476fba44678e03e757dd720c3818c85fe4bd826dc5bc424ed3c059f7d639e5",
+  "chain_count": 4,
+  "complete": false,
+  "decision": "CUTOFF_BOUNDARY_CAPABILITY_NOT_VERIFIED",
+  "errors": [
+    "base:drpc-base:rpc_error:eth_chainId"
+  ],
+  "provider_registry_sha256": "4364eb6fa74118f02b648d970e0baf6804d99549a7c25d56ffea7140f68ac3cb",
+  "raw_evidence_count": 44,
+  "recovery3_mutation_authorized": false,
+  "requirements_file_sha256": "120d360f2f9414b3b68e2d81b73bcae718f12e65ef2d5762dbd5386e4ac47ce5",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_cutoff_boundary_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "4360afd65625b990e544d174ef671f6147386bc02871e8a2cad9638b719f9d5f"
+}

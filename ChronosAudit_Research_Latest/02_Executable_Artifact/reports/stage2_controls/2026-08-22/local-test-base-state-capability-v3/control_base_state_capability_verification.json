@@ -1,0 +1,18 @@
+{
+  "base_state_targets_file_sha256": "58670a94219f82d49537cab2e8e867e3c36b7a8217e729b5be43635d3ca79988",
+  "base_state_targets_sha256": "9f1fcc9df2cfd6805bc89cd8197f16e1f6ef8bd4ba73e46c9df76bbd689a22c7",
+  "capability_file_sha256": "822c98c8d82a7943ff4c990dded09cbc48f486cbc284860fccc5b8a7fa7f9df8",
+  "capability_sha256": "3ffc2f27fb690af0318fa88ad59b469b13678f8ac95bf6dc1042fd5b34259191",
+  "complete": true,
+  "counter_authority": false,
+  "decision": "BASE_STATE_CAPABILITY_VERIFIED_NON_AUTHORIZING",
+  "probe_target_count": 8,
+  "provider_registry_sha256": "24c2a13bc08ed92e4c81fdd0caa6a9f753664e08465a2125f50b8138ebda7a4f",
+  "raw_evidence_count": 208,
+  "recovery3_mutation_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_base_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "f80b97be8e021a302d8432b1116235feacbee31aac754afdb5b7954b113bce05"
+}

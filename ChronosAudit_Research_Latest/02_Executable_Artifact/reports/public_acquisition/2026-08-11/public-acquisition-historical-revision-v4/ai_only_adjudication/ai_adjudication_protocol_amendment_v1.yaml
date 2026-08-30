@@ -1,0 +1,111 @@
+amendment_id: stage2-ai-only-internal-progression-v1
+version: 1.1.0
+effective_date: 2026-08-17
+authorization_basis: USER_DIRECTIVE_IN_CURRENT_CODEX_TASK
+purpose: >-
+  Add a separately named AI-only adjudication track that may support an internal
+  progression gate for analysis, engineering, and manuscript-draft preparation
+  after its own evidence, reliability, and accountable-author sign-off gates pass.
+research_integrity_boundaries:
+  track_name: AI_ONLY_TRIANGULATION_V1
+  claim_authority: ANALYTIC_ONLY_NON_HUMAN
+  human_independent_adjudication_counter_effect: NONE
+  independent_human_adjudications_remain: 0/417 until real eligible human reviews exist
+  external_disclosure_required: true
+  prohibited_claims:
+    - AI outputs are human adjudications
+    - AI model diversity proves human or institutional independence
+    - internal progression proves release eligibility
+    - internal progression proves submission readiness or venue compliance
+internal_progression:
+  permitted_after_gate_pass:
+    - internal analysis
+    - engineering
+    - manuscript-draft preparation
+  required_gates:
+    - all 417 cases have two valid blinded frozen primary AI decisions
+    - all disagreements have a valid distinct third-model adjudication
+    - packet, prompt, model, run, decision, timestamp, confidence, and final bindings verify
+    - protocol and mechanism raw agreement are each at least 0.80
+    - sensitivity results and limitations are recorded
+    - accountable author signs the hash-bound protocol, results, and summary
+  does_not_permit:
+    - independent-human-adjudication counter promotion
+    - external release claim
+    - final submission readiness claim
+    - waiver of target venue requirements
+frozen_runs:
+  primary_a:
+    role: primary_a
+    run_id: stage2-ai-primary-a-v1
+    provider: openai
+    model_id: gpt-5.6-sol
+    model_version: gpt-5.6-sol
+    prompt_id: stage2-root-cause-baseline-v1
+    temperature: 0
+    seed: 41701
+    blind_to_peer_decisions: true
+    prompt_text: >-
+      Using only the supplied packet evidence and reviewer codebook, return one
+      protocol family and one primary root cause, a concise evidence-bound
+      rationale, evidence references, and high, medium, or low confidence.
+      Do not infer from another model, detector prediction, final benchmark label,
+      or post-incident model output. Preserve unknown when evidence is inadequate.
+  primary_b:
+    role: primary_b
+    run_id: stage2-ai-primary-b-v1
+    provider: openai
+    model_id: gpt-5.6-terra
+    model_version: gpt-5.6-terra
+    prompt_id: stage2-root-cause-baseline-v1
+    temperature: 0
+    seed: 41702
+    blind_to_peer_decisions: true
+    prompt_text: >-
+      Using only the supplied packet evidence and reviewer codebook, return one
+      protocol family and one primary root cause, a concise evidence-bound
+      rationale, evidence references, and high, medium, or low confidence.
+      Do not infer from another model, detector prediction, final benchmark label,
+      or post-incident model output. Preserve unknown when evidence is inadequate.
+  adjudicator:
+    role: adjudicator
+    run_id: stage2-ai-adjudicator-c-v1
+    provider: openai
+    model_id: gpt-5.6-luna
+    model_version: gpt-5.6-luna
+    prompt_id: stage2-root-cause-adjudicator-v1
+    temperature: 0
+    seed: 41703
+    blind_to_peer_decisions: false
+    prompt_text: >-
+      Review the packet evidence and the two already frozen primary AI decisions.
+      Resolve only genuine protocol-family or primary-root-cause disagreement,
+      explain the evidence basis, preserve uncertainty, and return high, medium,
+      or low confidence. Do not treat model agreement as proof of truth.
+  sensitivity:
+    role: sensitivity
+    run_id: stage2-ai-sensitivity-c-v1
+    provider: openai
+    model_id: gpt-5.6-luna
+    model_version: gpt-5.6-luna
+    prompt_id: stage2-root-cause-alternate-v1
+    temperature: 0
+    seed: 41704
+    blind_to_peer_decisions: true
+    prompt_text: >-
+      Independently regenerate the classification using only the supplied packet.
+      First identify the earliest evidenced causal failure and distinguish it from
+      downstream exploit actions; then return one protocol family, one primary
+      root cause, rationale, evidence references, and confidence. Preserve
+      UNKNOWN_INSUFFICIENT_EVIDENCE when the packet cannot support a label.
+model_version_limitation: >-
+  The frozen identifiers are runtime model aliases. Before any decision-bearing
+  execution, preserve any provider-resolved immutable snapshot or fingerprint
+  exposed by the runtime; otherwise disclose alias drift as a reproducibility limit.
+evidence_sufficiency_rule: >-
+  Identifier-only packets are insufficient for defensible root-cause decisions.
+  A definitive root-cause decision is prohibited unless the packet includes
+  hash-bound incident evidence adequate to apply the reviewer codebook without
+  importing final seed labels. A completed review may instead return the explicit
+  UNKNOWN_INSUFFICIENT_EVIDENCE disposition; such rows count as processed AI
+  adjudications but do not establish a protocol-family or root-cause label.

@@ -1,0 +1,67 @@
+{
+  "arxiv_source_files": [
+    "main.tex",
+    "references.bib",
+    "algorithms.tex",
+    "main.bbl",
+    "figure1-temporal-eligibility.png",
+    "figure2-identity-sensitivity.png",
+    "figure3-deployment-age-ecdf.png"
+  ],
+  "dry_run": false,
+  "execute": true,
+  "generated_at_utc": "2026-08-28T20:12:47.528567+00:00",
+  "manifest_sha256": "9d010265e2e02638f098be64fc94ad6773d262c80837f3729e3541cf0c7a45e0",
+  "open_gates": [
+    "accountable author metadata and declarations",
+    "downstream rights and license",
+    "independent novelty challenge",
+    "independent clean-machine reproduction",
+    "human PDF and portal-preview approval"
+  ],
+  "packages": [
+    {
+      "bytes": 167028,
+      "path": "09-submission/ChronosAudit_TemporalClone_arxiv-source.zip",
+      "sha256": "0ccd0a06f90f76d7f9f7013637e1a41d0b6ada51fd8edabcd45ba04a68750fdd"
+    },
+    {
+      "bytes": 674654,
+      "path": "09-submission/ChronosAudit_TemporalClone_review-package.zip",
+      "sha256": "581b641d48489012e6a6efbad1d4015142975d5cd35ef74784f5ae318252f491"
+    },
+    {
+      "bytes": 534644,
+      "path": "09-submission/ChronosAudit_TemporalClone_MPP_draft.pdf",
+      "sha256": "326f7c65b00dba8f98b816d83c7a03f2aad595843e5fcf9dab4dc8face25f909"
+    }
+  ],
+  "pdf_sha256": "326f7c65b00dba8f98b816d83c7a03f2aad595843e5fcf9dab4dc8face25f909",
+  "public_release_authorized": false,
+  "review_package_files": [
+    "main.tex",
+    "references.bib",
+    "algorithms.tex",
+    "main.bbl",
+    "manuscript.md",
+    "claim-evidence-matrix.csv",
+    "figure1-temporal-eligibility.png",
+    "figure2-identity-sensitivity.png",
+    "figure3-deployment-age-ecdf.png",
+    "main.pdf",
+    "results-summary.json",
+    "primary-results.csv",
+    "robustness-and-boundaries.csv",
+    "negative-findings.csv",
+    "t1-strongest-prior-art.csv",
+    "t2-proposed-vs-baselines.csv",
+    "t3-data-or-conditions.csv",
+    "t4-primary-results.csv",
+    "t5-ablation-or-mechanism.csv",
+    "t6-robustness-and-boundaries.csv",
+    "t7-real-world-feasibility.csv",
+    "t8-negative-findings.csv"
+  ],
+  "row_level_derivatives_included": false,
+  "run_id": "chronosaudit-temporalclone-mpp-20260828T193046Z-5c71be2f-7ac55a"
+}

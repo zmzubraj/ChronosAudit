@@ -1,0 +1,1 @@
+{"method":"eth_getCode","params":["0xa6d770eab92d1fc0ce04e899ee4cbf6e9faf7534",{"blockHash":"0xbedde9abf97ddce048d034ae9735e169be8ddcc0a0aac166a8ee5022df00a466","requireCanonical":true}],"provider_family":"quicknode","provider_id":"quicknode-bsc-docs-demo","schema_version":"stage2_control_base_state_capability_request.v1"}

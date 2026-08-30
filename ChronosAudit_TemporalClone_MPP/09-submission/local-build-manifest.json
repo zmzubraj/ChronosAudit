@@ -1,0 +1,18 @@
+{
+  "built_at_utc": "2026-08-28T20:12:47.528567+00:00",
+  "command": [
+    "latexmk",
+    "-pdf",
+    "-interaction=nonstopmode",
+    "-halt-on-error",
+    "-file-line-error",
+    "main.tex"
+  ],
+  "hermetic": false,
+  "independent": false,
+  "limitations": "Local deterministic build; digest-pinned container replay remains open.",
+  "output": "07-manuscript/main.pdf",
+  "output_sha256": "326f7c65b00dba8f98b816d83c7a03f2aad595843e5fcf9dab4dc8face25f909",
+  "source_manifest": "07-manuscript/source-manifest.json",
+  "working_directory": "07-manuscript"
+}

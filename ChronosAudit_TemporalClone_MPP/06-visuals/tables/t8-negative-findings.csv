@@ -1,0 +1,6 @@
+finding,evidence,effect_on_claim
+No predictive or causal conclusion,no controls or detector evaluation in scope,paper is a cohort-validity audit only
+Proxy detection is incomplete by construction,only specified ERC-1967/beacon/ERC-1167 indicators,67 cases is a lower-bound indicator count
+Bytecode equality is not semantic equivalence,no normalized control flow or behavioral analysis,duplicate groups are exact fingerprint families
+Cohort is not a probability sample,historical exploited tasks selected by benchmark builders,no generalization to all contracts
+Novelty not independently certified,hostile challenge was performed by root,readiness remains blocked pending independent search

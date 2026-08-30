@@ -1,0 +1,56 @@
+{
+  "chain_count": 1,
+  "chains": [
+    {
+      "chain": "ethereum",
+      "complete": true,
+      "providers": [
+        {
+          "provider_family": "blockreq",
+          "provider_id": "blockreq-ethereum",
+          "semantic_sha256": "ad4884574649706390eb9f56f92de4bba956b9182725625c1d06e58fe42b7737"
+        },
+        {
+          "provider_family": "publicnode",
+          "provider_id": "publicnode-ethereum",
+          "semantic_sha256": "ad4884574649706390eb9f56f92de4bba956b9182725625c1d06e58fe42b7737"
+        }
+      ]
+    }
+  ],
+  "complete": true,
+  "errors": [],
+  "raw_evidence": [
+    {
+      "path": "ethereum-blockreq-ethereum-eth_chainId-a95fe01e1676039833877b012de743ea3ce4459820fae91d8d732bd6a5f2493f.json",
+      "sha256": "b523ca242a0898c3ef1c6733737fb621c07cb2cdb1f6e04d57b197afb79ad150"
+    },
+    {
+      "path": "ethereum-blockreq-ethereum-eth_getTransactionReceipt-89d3cb0f9ec86366359ef4642aba66694e108a883816b8079387514afa201531.json",
+      "sha256": "5a9ea8d31a4e15fea7a258bd3ebb0cdccf934bc49feb54372f08bf1eb879c0f6"
+    },
+    {
+      "path": "ethereum-blockreq-ethereum-eth_getBlockByHash-6c6450d04adc22d503427a8fab7d92f86d30c356b7bfd0ca4b64e981fa0976db.json",
+      "sha256": "fdc7661dd021a47f37e8801cfc50a60a7fca4cc2a455b1abf61309f5f2cecd12"
+    },
+    {
+      "path": "ethereum-publicnode-ethereum-eth_chainId-0968e4cbcff830fd6b74f17a68196f5b8f41c6611c23a3372a0ce59a87539cf2.json",
+      "sha256": "d72bf5c1491cc2f26c6dbb5fb2ddc03b2b66c3fca94bd318a8b7720b189e3be7"
+    },
+    {
+      "path": "ethereum-publicnode-ethereum-eth_getTransactionReceipt-1e478f1222e2f8c50b71d331ba63d1c9819af883200e6510778c62e114345e4e.json",
+      "sha256": "29b7636d87f034c0b707136b906c89f500c0880d21c4c667609d82e62b48ecdb"
+    },
+    {
+      "path": "ethereum-publicnode-ethereum-eth_getBlockByHash-4f59488e7faeeed891932a261efb718250730a524df377482f2e916383fe8b2c.json",
+      "sha256": "de1b3c45034dda80851e1a78150a9586eb0cfb700a7d26d9e8b7875065924875"
+    }
+  ],
+  "raw_evidence_count": 6,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "fc9e825bce2c125b9c329bf1bca0a9fc23e9fb59a4edccf229ef9a117ac780d2",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_candidate_rpc_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

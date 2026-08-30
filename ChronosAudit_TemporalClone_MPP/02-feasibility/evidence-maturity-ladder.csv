@@ -1,0 +1,8 @@
+claim_id,required_maturity,current_maturity,status,direct_evidence,independence,scope_ceiling,next_gate
+C001,V4 EXTERNAL,V1 ANALYTIC,BLOCKED,01-novelty/novelty-matrix.csv,no,ANALYTIC,independent search challenge
+C002,V3 INTERNAL,V3 INTERNAL,PARTIAL,04-data/provenance-manifest.csv,no,INTERNAL,rights and authority review
+C003,V4 EXTERNAL,V3 INTERNAL,PARTIAL,07-manuscript/manuscript.md,no,INTERNAL,independent reproduction and author approval
+C004,V3 INTERNAL,V3 INTERNAL,SUPPORTED,05-analysis/results/primary-results.csv,no,INTERNAL,independent timestamp review
+C005,V3 INTERNAL,V3 INTERNAL,SUPPORTED,05-analysis/results/primary-results.csv,no,INTERNAL,independent edge-case review
+C006,V3 INTERNAL,V3 INTERNAL,SUPPORTED,05-analysis/results/primary-results.csv,no,INTERNAL,independent proxy semantic review
+C007,V4 EXTERNAL,V3 INTERNAL,PARTIAL,04-data/provenance-manifest.csv,no,INTERNAL,clean-machine manifest reproduction

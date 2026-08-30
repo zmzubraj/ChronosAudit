@@ -1,0 +1,19 @@
+{
+  "schema_version": 4,
+  "run_id": "chronosaudit-temporalclone-mpp-20260828T193046Z-5c71be2f-7ac55a",
+  "input_revision": 1,
+  "raw_sha256": "5c71be2f9037ceb1a2c7c26af8cf9def6d5528cbd2058b2ebb82e29d2213ef20",
+  "captured_at": "2026-08-28T19:30:46Z",
+  "fields": {
+    "system_name": "ChronosAudit TemporalClone MPP",
+    "research_topic_name": "Outcome-independent historical on-chain state reconstruction, temporal landmark eligibility, and clone/proxy linkage auditing in a benchmark of 417 real-world EVM smart-contract exploit incidents across Ethereum, BSC, Base, and Arbitrum.",
+    "core_research_question": "Among the 417 counter-authorized historical exploit cases, how do prespecified pre-incident temporal landmarks and progressively stronger contract-identity abstractions (chain-address, exact runtime bytecode, metadata-stripped runtime bytecode, and observable proxy linkage) change usable-case coverage and measured benchmark dependence?",
+    "novelty_statement": "The asserted material difference is a reproducible benchmark-validity audit that jointly binds outcome-independent historical cutoffs, dual-provider EIP-1898 state reconstruction, landmark-specific eligibility, and cross-address clone/proxy dependency analysis; neither historical execution nor smart-contract clone detection alone is claimed as novel.",
+    "target_contribution": "A minimum publishable measurement and artifact contribution comprising a frozen 417-case manifest, deterministic analysis pipeline, editable result tables, quantitative figures, reviewed algorithms and diagrams, an evidence-bounded manuscript, and a reproducible submission package; it explicitly excludes exploit prediction, matched-control effectiveness, causal risk estimation, production readiness, and R0-R5 detector claims.",
+    "possible_feasibility": "Existing local evidence includes 417 counter-authorized strict historical snapshots with a 20,000-deployment denominator available only as contextual provenance, dual-provider observations, cutoff/deployment/incident times, runtime bytecode, metadata-stripped bytecode, and proxy indicators. The MPP will reuse these read-only artifacts without new RPC collection, recruitment, intervention, or external sharing. A focused 7-10 working-day implementation and writing sprint is plausible, subject to frozen-result reproduction, prior-art challenge, licensing and data-sharing review, qualified human scientific review, current venue verification, and final human submission approval."
+  },
+  "assertion_policy": {
+    "novelty_statement": "E1 ASSERTED; novelty remains UNRESOLVED",
+    "possible_feasibility": "E1 ASSERTED; feasibility remains UNASSESSED"
+  }
+}

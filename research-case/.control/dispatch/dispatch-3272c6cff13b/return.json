@@ -1,0 +1,15 @@
+{
+  "status": "blocked",
+  "lease_id": "LEASE-62f860fba97b",
+  "worker_alias": "worker-55281e56a8",
+  "executor_identity": "/root",
+  "artifacts": [
+    "00-governance/program-charter.md",
+    "00-governance/study-profile.json"
+  ],
+  "summary": "Schema-v4 migration control-plane defects were repaired, the raw and normalized intake were mechanically recertified, the charter/profile were corrected to nonfinal draft scope, and both structural and strict checks pass. INTAKE cannot advance because program-charter.md and study-profile.json require an externally rooted independent verifier; the reporting route and accountable jurisdiction/ethics authority for later prospective work are not yet resolved.",
+  "diagnosis": "The case has only the runtime-governance mechanical identity. Mechanical verification may prove syntax, schema, and hashes but cannot independently verify the decision-bearing charter or study profile.",
+  "attempted_strategy": "Preserve migration history, regenerate canonical schema-v4 policies and cells, quarantine the stale schema-v3 dispatch, normalize registry contracts and evidence-maturity syntax, mechanically recertify intake identity/hash, and obtain two bounded read-only specialist audits without manufacturing scientific authority.",
+  "impact": "The serial program remains at INTAKE. NOVELTY_AUDIT and all downstream phases are ineligible for schema-v4 promotion until externally rooted revalidation completes.",
+  "resume_instruction": "An accountable registry administrator must bootstrap the run-bound external trust root outside the case, register a genuinely independent reviewer with out-of-band identity binding, resolve the study profile reporting route and current-phase authority, independently verify program-charter.md and study-profile.json, then complete schema-v4 semantic revalidation and rerun the INTAKE gate."
+}

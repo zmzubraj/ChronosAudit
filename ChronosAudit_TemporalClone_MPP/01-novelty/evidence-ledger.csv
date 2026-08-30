@@ -1,0 +1,11 @@
+evidence_id,source_id,claim_supported,claim_qualified,evidence_type,status,url
+E-PA-001,PA-SCONE,current cohort contains 417 historical incidents and is Apache-2.0,,official repository,VERIFIED,https://github.com/anthropics/scone-bench
+E-PA-002,PA-ANTHROPIC-2025,SCONE uses historical forked state,official report covers 405 rather than current 417,official research report,VERIFIED,https://www.anthropic.com/research/smart-contracts
+E-PA-003,PA-EVMBENCH,smart-contract agent benchmarks use curated historical vulnerabilities,uses fresh local chain rather than mainnet history,preprint,VERIFIED,https://arxiv.org/abs/2603.04915
+E-PA-004,PA-REEVMBENCH,benchmark conclusions can change under contamination-free and scaffold-sensitive reevaluation,,preprint,VERIFIED,https://arxiv.org/abs/2603.10795
+E-PA-005,PA-CYBERCHAIN,historical-state multi-chain incident benchmarks exist,,preprint,VERIFIED,https://arxiv.org/abs/2606.26216
+E-PA-006,PA-DIVE,dataset papers treat duplicates and lifecycle stages as validity concerns,different vulnerability-label corpus,peer-reviewed paper,VERIFIED,https://doi.org/10.1038/s41597-026-07025-5
+E-PA-007,PA-CLONES,code cloning is prevalent in Ethereum contracts,source/function-level study does not audit SCONE row dependence,peer-reviewed paper,VERIFIED,https://doi.org/10.1109/TSE.2022.3207428
+E-PA-008,PA-EIP1898,block-hash-pinned historical JSON-RPC reads are standardized,,standard,VERIFIED,https://eips.ethereum.org/EIPS/eip-1898
+E-PA-009,PA-ERC1967,implementation beacon and admin slots are standardized,,standard,VERIFIED,https://eips.ethereum.org/EIPS/eip-1967
+E-PA-010,PA-ERC1167,minimal-proxy target can be discovered from standard bytecode,,standard,VERIFIED,https://eips.ethereum.org/EIPS/eip-1167

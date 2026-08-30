@@ -1,0 +1,17 @@
+{
+  "chain_count": 1,
+  "complete": false,
+  "errors": [
+    "ethereum:chainstack-ethereum:rpc_error:eth_getBlockByNumber"
+  ],
+  "provider_registry_verified": false,
+  "raw_evidence_count": 22,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "56403af75517f07d43f11a4bda7544594cf5a7ee7833b0385b98a58615897907",
+  "report_sha256": "bec35c0be675aa5368cbfe5d6717ccbe6b0065c9b530125cb83e97214dab6ff4",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "3f2ced976257ae01bf87933908e5299de691c9583900679e02e5cec18864fa99"
+}

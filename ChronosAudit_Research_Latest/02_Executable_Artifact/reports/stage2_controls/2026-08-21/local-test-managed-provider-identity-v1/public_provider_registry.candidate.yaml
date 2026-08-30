@@ -1,0 +1,62 @@
+version: 1.3.0-local-test-managed-provider-candidate
+providers:
+  - provider_id: alchemy-base
+    chain: base
+    endpoint: https://base-mainnet.g.alchemy.com/v2/{api_key}
+    api_key_env: CHRONOS_ALCHEMY_API_KEY
+    operator_family: alchemy
+    discovery_source: https://www.alchemy.com/docs/reference/node-supported-chains
+    tracking_enabled: true
+    operator_evidence_url: https://www.alchemy.com/docs/reference/node-supported-chains
+    operator_evidence_sha256: 2204e7184737f92dd753ae32e3f071350d8bf415faea316231bcc0377cc427ae
+    operator_verified: false
+  - provider_id: alchemy-bsc
+    chain: bsc
+    endpoint: https://bnb-mainnet.g.alchemy.com/v2/{api_key}
+    api_key_env: CHRONOS_ALCHEMY_API_KEY
+    operator_family: alchemy
+    discovery_source: https://www.alchemy.com/docs/reference/node-supported-chains
+    tracking_enabled: true
+    operator_evidence_url: https://www.alchemy.com/docs/reference/node-supported-chains
+    operator_evidence_sha256: 2204e7184737f92dd753ae32e3f071350d8bf415faea316231bcc0377cc427ae
+    operator_verified: false
+  - provider_id: alchemy-ethereum
+    chain: ethereum
+    endpoint: https://eth-mainnet.g.alchemy.com/v2/{api_key}
+    api_key_env: CHRONOS_ALCHEMY_API_KEY
+    operator_family: alchemy
+    discovery_source: https://www.alchemy.com/docs/reference/node-supported-chains
+    tracking_enabled: true
+    operator_evidence_url: https://www.alchemy.com/docs/reference/node-supported-chains
+    operator_evidence_sha256: 2204e7184737f92dd753ae32e3f071350d8bf415faea316231bcc0377cc427ae
+    operator_verified: false
+  - provider_id: infura-base
+    chain: base
+    endpoint: https://base-mainnet.infura.io/v3/{api_key}
+    api_key_env: CHRONOS_INFURA_API_KEY
+    operator_family: infura
+    discovery_source: https://docs.infura.io/get-started/endpoints/
+    tracking_enabled: true
+    operator_evidence_url: https://docs.infura.io/get-started/endpoints/
+    operator_evidence_sha256: 2c4c563bc34ebb4d1eebc7cbb90b72c1e4bc4c87eef8938bf6a8131fe9595acb
+    operator_verified: false
+  - provider_id: infura-bsc
+    chain: bsc
+    endpoint: https://bsc-mainnet.infura.io/v3/{api_key}
+    api_key_env: CHRONOS_INFURA_API_KEY
+    operator_family: infura
+    discovery_source: https://docs.infura.io/get-started/endpoints/
+    tracking_enabled: true
+    operator_evidence_url: https://docs.infura.io/get-started/endpoints/
+    operator_evidence_sha256: 2c4c563bc34ebb4d1eebc7cbb90b72c1e4bc4c87eef8938bf6a8131fe9595acb
+    operator_verified: false
+  - provider_id: infura-ethereum
+    chain: ethereum
+    endpoint: https://mainnet.infura.io/v3/{api_key}
+    api_key_env: CHRONOS_INFURA_API_KEY
+    operator_family: infura
+    discovery_source: https://docs.infura.io/get-started/endpoints/
+    tracking_enabled: true
+    operator_evidence_url: https://docs.infura.io/get-started/endpoints/
+    operator_evidence_sha256: 2c4c563bc34ebb4d1eebc7cbb90b72c1e4bc4c87eef8938bf6a8131fe9595acb
+    operator_verified: false

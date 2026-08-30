@@ -1,0 +1,23 @@
+{
+  "schema_version": "chronosaudit.accountable_signer_registration_request.v1",
+  "status": "AWAITING_OFFLINE_KEY_GENERATION_AND_PUBLIC_REGISTRATION",
+  "principal": "zmzubraj",
+  "principal_role": "AUTHOR_AND_METHODS_OWNER",
+  "governance_label": "AI_DESIGNED_USER_APPROVED",
+  "requested_signature_namespaces": [
+    "chronosaudit-stage2-control-dynamic-horizon-v1",
+    "chronosaudit-stage2-control-provider-identity-review-v1",
+    "chronosaudit-stage2-control-source-acquisition-v2",
+    "chronosaudit-stage2-control-candidate-rpc-activation-v1",
+    "chronosaudit-stage2-control-qualification-v1"
+  ],
+  "private_key_generated_by_codex": false,
+  "private_key_stored_in_repository": false,
+  "private_key_disclosure_prohibited": true,
+  "out_of_band_identity_binding_required": true,
+  "key_possession_proves_real_world_identity": false,
+  "registration_grants_blanket_authority": false,
+  "independent_human_counter_authority": false,
+  "recovery3_mutation_authorized": false
+}
+

@@ -1,0 +1,20 @@
+{
+  "amended_case_count": 10,
+  "amended_csv_path": "processed/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/pilot_case_queue_amended.csv",
+  "amended_csv_sha256": "c0945e82f87173c26eb738a080c7ef72b1bb26ff2bcf026eea175f1533cc0ac1",
+  "amended_manifest_sha256": "3420ed525a824c798684ce02514fc0aebf5420ee1eb5bd387dda3085e9939945",
+  "amendment_id": "evidence-grade-pilot-amendment-a1",
+  "amendment_type": "postfreeze_pilot_shortfall_only",
+  "base_manifest_sha256": "3f5678509736c8d7f175d00d4722902f2c7110a6bc4bcb383009b2ea7673f314",
+  "canonical_program_case_count_unchanged": true,
+  "config_path": "config/evidence_grade_pilot_amendment_a1.yaml",
+  "config_sha256": "afad3ef2b6adadc3d79d4bddedf3d0aee12cc321cd260e0910df32f751f7c2bc",
+  "created_at_utc": "2026-08-08T18:27:05Z",
+  "eligible_candidate_count": 1,
+  "original_case_count": 9,
+  "original_shortfall_preserved": true,
+  "selected_case_id": "supplement-treasuredao-2022",
+  "selected_rank_sha256": "daf5747f8833896c87a142ce26a7939639f9fc2bfb933986176ed9fe012164f0",
+  "selection_observed_provider_results": false,
+  "selection_seed": "chronosaudit-evidence-grade-pilot-amendment-a1"
+}

@@ -1,0 +1,50 @@
+{
+  "acquisition_authorized": false,
+  "activation_expires_utc": "2026-08-29T22:40:05Z",
+  "allowed_signers_sha256": "90c71679b39b079344c7521803e93c70bbe1566eab62fa8796a00b19a9f8eaf2",
+  "approval_sha256": "2f09474ed00f05a1dd748ec987858375a1e8c2891630b79d3ed88dfc6a51a4c5",
+  "candidate_retry_manifest_sha256": "af5a88510ecc98354e1f8af4b109f5c441244d4ee5d02aefe5b2e3ee89ca4adb",
+  "candidate_rpc_capability_verification_sha256": "56b69db90356d40b1dc47fd6fdd3222cac9b264c48d72b7a5dba8b161ef063f0",
+  "decision": "RPC_ACTIVATION_VERIFIED",
+  "hash_chained_no_repeat_ledger_required": true,
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_IDENTITY",
+  "maximum_rpc_requests": 250,
+  "provider_bindings": [
+    {
+      "chain": "bsc",
+      "identity_evidence_sha256": "107b28f502f1dfcaeb7c761454ef21be176e964eb83fe342a59fe244b52862ad",
+      "operator_evidence_sha256": "6f1a4dbf407ba8c48706c373f563c5ac7fd770cdcec83949194a22b9224c7f16",
+      "operator_family": "bnb-official",
+      "provider_id": "bnb-official-bsc",
+      "public_endpoint_identity_id": "2e478f4aa04134232f6ffd08cd94d1363cef63adc5f796c4a5dc0ec9db9034b9"
+    },
+    {
+      "chain": "bsc",
+      "identity_evidence_sha256": "943523c78c1308e0b72207887a5782e74c4ff3e3222de61d02eefce6db964076",
+      "operator_evidence_sha256": "3e1362ee4577a136ff2f8c20080b983b7e6e8ae36e9433c06f639b2379025171",
+      "operator_family": "nodereal",
+      "provider_id": "nodereal-bsc",
+      "public_endpoint_identity_id": "c09f8c4270313cade4929fe441dcb8d173095240917e70637231b904192e7792"
+    }
+  ],
+  "provider_registry_sha256": "4364eb6fa74118f02b648d970e0baf6804d99549a7c25d56ffea7140f68ac3cb",
+  "queue_row_count": 62,
+  "queue_sha256": "d54f68ce85fcf7be35f7a61b8daf602194727d803edaff7580d7d73eb000e17b",
+  "raw_request_response_receipts_required": true,
+  "recovery3_mutation_authorized": false,
+  "request_sha256": "0b8087a443caa58185a0ef50f6a5f9a21cd725bd6e219d5387c6bf6fa5ffdaac",
+  "rpc_authorized": true,
+  "rpc_methods": [
+    "eth_chainId",
+    "eth_getTransactionReceipt",
+    "eth_getBlockByHash"
+  ],
+  "schema_version": "chronosaudit.control_candidate_rpc_activation_verification.v1",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-candidate-rpc-activation-v1",
+  "signature_sha256": "abd4162d6a1f099e0f8d3caf1e48e8f56dd59ec4bf914c5d0c4be256b10c90bb",
+  "signer_principal": "zmzubraj-local-test",
+  "source_request_ledger_sha256": "fca6398dc2418378c4910ec3bc5e9af4f9494ab573d24d8bbed64472c78278b6",
+  "source_request_ledger_terminal_hash": "687244a1c883718e12ffe6910a1f8b2d9228cd18c18e0449294292587c1c561b",
+  "stage_promotion_authorized": false
+}

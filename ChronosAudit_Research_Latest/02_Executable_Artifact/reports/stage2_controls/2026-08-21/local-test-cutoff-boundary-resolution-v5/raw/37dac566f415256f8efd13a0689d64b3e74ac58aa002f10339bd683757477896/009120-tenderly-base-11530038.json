@@ -1,0 +1,56 @@
+{
+  "authorization": {
+    "authorized": true,
+    "range_scope_sha256": "dc1a0baa850d51465318696b349c89a9153676b601dc358f7e7afee1f13befa1",
+    "remaining_request_count_after_call": 15540,
+    "remaining_scope_request_count_after_call": 30,
+    "request_sha256": "d3956a6439019dae69f9e5209a0b43b49185d169952752f9ea31a9236e14ba02",
+    "sequence_number": 9120
+  },
+  "chain": "base",
+  "error": null,
+  "method": "eth_getBlockByNumber",
+  "observed_at_unix": 1787281414,
+  "operator_family": "tenderly",
+  "params": [
+    "0xafef36",
+    false
+  ],
+  "provider_id": "tenderly-base",
+  "result": {
+    "baseFeePerGas": "0x117",
+    "difficulty": "0x0",
+    "extraData": "0x",
+    "gasLimit": "0x1c9c380",
+    "gasUsed": "0x19091e",
+    "hash": "0x9a202bf7929fe8a505a6ae637ed1d1ec4a5f33e9503fd9015527b4faa784ca68",
+    "logsBloom": "0x002004001004040001830000800000240002028000000100088c80000002020040080000020080400000101010053000000200408000200000000400002000001800001808040248002040080020002000101104010908400080008c8021281800801042420c02008000910000000c0088010200040000000000005000080000001200000000000100000000400008010400040100200008009200620003000022200802600000001080010000208000001008400020208004000008200001040a404006000001002000002046000000010000140000041000000000008020000030008000000000000800000005000080001000005000448000000000000000",
+    "miner": "0x4200000000000000000000000000000000000011",
+    "mixHash": "0xebe74e8fb7244e14b78739d55228b5fd14058f683a554e34fe49afed2dab44e7",
+    "nonce": "0x0000000000000000",
+    "number": "0xafef36",
+    "parentHash": "0x83f924f8f18e329efe6a96b7c4aefcd7a0aba0d40db473fcfee75d84aea9a90e",
+    "receiptsRoot": "0x486b4ca05c4cc9775f4cadb41745a540b13ac01bbbe2a6b90dc4bbf54bcf2af2",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0xeeb",
+    "stateRoot": "0x5d87949a2f229c46ce1086ec83a2099eef6966b5b6ee7f45b398a29cc7de6835",
+    "timestamp": "0x65ea3b4f",
+    "transactions": [
+      "0x35f3baff52c9b308c87bd257cef08c791c343389a34394adb258dcbaa0a9bbdf",
+      "0x903a4c26acf5bfb1e47380de16cf7a29db981505d649fea67ce11055781511da",
+      "0x6df2fe94842a3ff491b5fb258848a3eccb9fa2db281aa7f85ed0e57a85203c59",
+      "0x83a2798d9ae5cfda379bd1732bec0a53a19a4c64993e3d3711c75e98f40878a8",
+      "0xd1d2ffe3506b11480aadc9800aaa4eab95f88e4e4bb4d59a4a9de31afe427ba5",
+      "0x813678d27b8f897fd1872582e2e418e3a0401e211c2d47716ee321a21be5ced8",
+      "0xb341fe747160b7c25a3c41a3591f93f26e17d2bd561d45d21587b25b331287d5",
+      "0xce39d7c205bf73f3e64bef86b7a7f07dd8a51288b8eefedeca471548ccaaf19d"
+    ],
+    "transactionsRoot": "0x325c12a38fe54dc7f17740ea51484d20de1a3f41dfbe9899bf5c95b431d7ef41",
+    "uncles": [],
+    "withdrawals": [],
+    "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+  },
+  "schema_version": "stage2_control_cutoff_boundary_raw_rpc.v1",
+  "sequence_number": 9120,
+  "target_id": "cutoff-boundary:c9737bc3f9d358784a08b9c14fe5d1b7e23d4559e5ee1f33d3c04c49c9090f0d"
+}

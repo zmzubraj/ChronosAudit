@@ -1,0 +1,749 @@
+{
+  "schema_version": 4,
+  "allowed_relation_types": [
+    "SUPPORTS",
+    "REFUTES",
+    "QUALIFIES",
+    "REQUIRES",
+    "REPLICATES",
+    "CONTRADICTS",
+    "LIMITS_SCOPE",
+    "DERIVED_FROM"
+  ],
+  "claims": {
+    "C001": {
+      "claim_id": "C001",
+      "exact_claim": "A preregistered measurement study testing how much apparent exploit-detection capability survives the joint application of temporal, lineage, clone-family, mechanism-family, censoring, and operational-workload controls.",
+      "claim_type": "novelty hypothesis",
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "status": "UNRESOLVED",
+      "excluded_generality": "",
+      "evidence_ids": [
+        "E-LOCAL-PROBLEM",
+        "E-LOCAL-NOVELTY",
+        "E-LOCAL-VIABILITY"
+      ],
+      "artifact_paths": [
+        "01-novelty/problem-investigation.md",
+        "01-novelty/novelty-matrix.csv",
+        "02-feasibility/solution-viability-case.md"
+      ],
+      "claim_scope": "PUBLIC-EVIDENCE METHODS AND PREREGISTRATION CONCEPT ONLY",
+      "central": true,
+      "refuted": false,
+      "maturity_ceiling_rank": 0,
+      "maturity_ceiling": "V0 ASSERTED",
+      "scope_ceiling_rank": 0,
+      "scope_ceiling": "ASSERTED",
+      "required_maturity_rank": 0,
+      "supports_claim": true,
+      "external_validation_required": false
+    },
+    "C002": {
+      "claim_id": "C002",
+      "exact_claim": "The overall assessment is CONDITIONAL GO. The research-design feasibility is high because the central contribution is a protocol, benchmark and measurement study rather than a requirement to invent a breakthrough detector; its critical dependency is a formal and reproducible definition of admissibility, clone lineage and exploit-mechanism families. Data-construction feasibility is medium because historical chain state, public incident records and open-source analysis tools support a staged corpus; critical dependencies include trustworthy provenance timestamps, proxy resolution, archival-chain access, label adjudication and data rights. Reference-auditor feasibility is medium–high because MANDO-LLM can serve as an existing structural baseline and first-stage ranker, reducing the need to construct every component from zero; this depends on reliable reproduction, a stable adapter interface and fair frozen-model evaluation. Prospective-study feasibility is medium because a shadow deployment is operationally possible without publicly exposing exploit details; it requires sufficient follow-up time, an adequate incident rate, a responsible-disclosure partner and independent evaluators. Top-tier novelty is conditional because the unified evaluation protocol appears differentiated from detector-centric work, but requires reproducible evidence that no prior benchmark jointly implements the complete protocol. A minimum benchmark-science paper appears achievable before a full production auditor, provided the project maintains benchmark-first scope discipline and preregisters explicit progression and stop conditions. Available resources include public incident records, historical chain data, archival-node access where obtainable, open-source smart-contract analysis tools, reproducible compute containers and an existing MANDO-LLM baseline. Remaining constraints include data rights, provenance quality, compute and archival-access costs, specialist expertise, independent adjudication, disclosure coordination, follow-up duration and any required institutional, legal or ethics approvals.",
+      "claim_type": "feasibility hypothesis",
+      "required_maturity": "V0 ASSERTED",
+      "current_maturity": "V0 ASSERTED",
+      "status": "BLOCKED",
+      "excluded_generality": "",
+      "evidence_ids": [
+        "E-LOCAL-FEASIBILITY",
+        "E-LOCAL-PILOT",
+        "E-LOCAL-VIABILITY"
+      ],
+      "artifact_paths": [
+        "02-feasibility/feasibility-report.md",
+        "02-feasibility/pilot-results.md",
+        "02-feasibility/solution-viability-case.md"
+      ],
+      "claim_scope": "BOUNDED DESIGN-STAGE FEASIBILITY OBSERVATIONS ONLY",
+      "central": true,
+      "refuted": false,
+      "maturity_ceiling_rank": 0,
+      "maturity_ceiling": "V0 ASSERTED",
+      "scope_ceiling_rank": 0,
+      "scope_ceiling": "ASSERTED",
+      "required_maturity_rank": 0,
+      "supports_claim": true,
+      "external_validation_required": true
+    }
+  },
+  "evidence": {
+    "E-LOCAL-PROBLEM": {
+      "evidence_id": "E-LOCAL-PROBLEM",
+      "claim_ids": [
+        "C001"
+      ],
+      "origin": "ANALYTIC",
+      "maturity": "V0 ASSERTED",
+      "scope": "ASSERTED",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "01-novelty/problem-investigation.md",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "E-LOCAL-NOVELTY": {
+      "evidence_id": "E-LOCAL-NOVELTY",
+      "claim_ids": [
+        "C001"
+      ],
+      "origin": "EXPERT_JUDGMENT",
+      "maturity": "V0 ASSERTED",
+      "scope": "ASSERTED",
+      "status": "UNKNOWN",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "01-novelty/novelty-matrix.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "E-LOCAL-FEASIBILITY": {
+      "evidence_id": "E-LOCAL-FEASIBILITY",
+      "claim_ids": [
+        "C002"
+      ],
+      "origin": "REAL_OBSERVED",
+      "maturity": "V0 ASSERTED",
+      "scope": "ASSERTED",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "02-feasibility/feasibility-report.md",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "E-LOCAL-PILOT": {
+      "evidence_id": "E-LOCAL-PILOT",
+      "claim_ids": [
+        "C002"
+      ],
+      "origin": "REAL_EXPERIMENTAL",
+      "maturity": "V0 ASSERTED",
+      "scope": "ASSERTED",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "02-feasibility/pilot-results.md",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "E-LOCAL-VIABILITY": {
+      "evidence_id": "E-LOCAL-VIABILITY",
+      "claim_ids": [
+        "C001",
+        "C002"
+      ],
+      "origin": "EXPERT_JUDGMENT",
+      "maturity": "V0 ASSERTED",
+      "scope": "ASSERTED",
+      "status": "UNSUPPORTED",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "02-feasibility/solution-viability-case.md",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    }
+  },
+  "artifact_to_claims": {
+    "01-novelty/problem-investigation.md": [
+      "C001"
+    ],
+    "01-novelty/novelty-matrix.csv": [
+      "C001"
+    ],
+    "02-feasibility/feasibility-report.md": [
+      "C002"
+    ],
+    "02-feasibility/pilot-results.md": [
+      "C002"
+    ],
+    "02-feasibility/solution-viability-case.md": [
+      "C001",
+      "C002"
+    ]
+  },
+  "evidence_to_claims": {
+    "E-LOCAL-PROBLEM": [
+      "C001"
+    ],
+    "E-LOCAL-NOVELTY": [
+      "C001"
+    ],
+    "E-LOCAL-FEASIBILITY": [
+      "C002"
+    ],
+    "E-LOCAL-PILOT": [
+      "C002"
+    ],
+    "E-LOCAL-VIABILITY": [
+      "C001",
+      "C002"
+    ]
+  },
+  "edges": [
+    {
+      "edge_id": "EDGE-requires-C001-E-LOCAL-PROBLEM",
+      "source": "claim:C001",
+      "target": "evidence:E-LOCAL-PROBLEM",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-E-LOCAL-PROBLEM-C001",
+      "source": "evidence:E-LOCAL-PROBLEM",
+      "target": "claim:C001",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-E-LOCAL-PROBLEM-C001",
+      "source": "evidence:E-LOCAL-PROBLEM",
+      "target": "claim:C001",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-E-LOCAL-PROBLEM",
+      "source": "evidence:E-LOCAL-PROBLEM",
+      "target": "artifact:01-novelty/problem-investigation.md",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C001-E-LOCAL-NOVELTY",
+      "source": "claim:C001",
+      "target": "evidence:E-LOCAL-NOVELTY",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-E-LOCAL-NOVELTY-C001",
+      "source": "evidence:E-LOCAL-NOVELTY",
+      "target": "claim:C001",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-E-LOCAL-NOVELTY-C001",
+      "source": "evidence:E-LOCAL-NOVELTY",
+      "target": "claim:C001",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-E-LOCAL-NOVELTY",
+      "source": "evidence:E-LOCAL-NOVELTY",
+      "target": "artifact:01-novelty/novelty-matrix.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C002-E-LOCAL-FEASIBILITY",
+      "source": "claim:C002",
+      "target": "evidence:E-LOCAL-FEASIBILITY",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-E-LOCAL-FEASIBILITY-C002",
+      "source": "evidence:E-LOCAL-FEASIBILITY",
+      "target": "claim:C002",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-E-LOCAL-FEASIBILITY-C002",
+      "source": "evidence:E-LOCAL-FEASIBILITY",
+      "target": "claim:C002",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-E-LOCAL-FEASIBILITY",
+      "source": "evidence:E-LOCAL-FEASIBILITY",
+      "target": "artifact:02-feasibility/feasibility-report.md",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C002-E-LOCAL-PILOT",
+      "source": "claim:C002",
+      "target": "evidence:E-LOCAL-PILOT",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-E-LOCAL-PILOT-C002",
+      "source": "evidence:E-LOCAL-PILOT",
+      "target": "claim:C002",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-E-LOCAL-PILOT-C002",
+      "source": "evidence:E-LOCAL-PILOT",
+      "target": "claim:C002",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-E-LOCAL-PILOT",
+      "source": "evidence:E-LOCAL-PILOT",
+      "target": "artifact:02-feasibility/pilot-results.md",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C001-E-LOCAL-VIABILITY",
+      "source": "claim:C001",
+      "target": "evidence:E-LOCAL-VIABILITY",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-E-LOCAL-VIABILITY-C001",
+      "source": "evidence:E-LOCAL-VIABILITY",
+      "target": "claim:C001",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-E-LOCAL-VIABILITY-C001",
+      "source": "evidence:E-LOCAL-VIABILITY",
+      "target": "claim:C001",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-E-LOCAL-VIABILITY",
+      "source": "evidence:E-LOCAL-VIABILITY",
+      "target": "artifact:02-feasibility/solution-viability-case.md",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C002-E-LOCAL-VIABILITY",
+      "source": "claim:C002",
+      "target": "evidence:E-LOCAL-VIABILITY",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-E-LOCAL-VIABILITY-C002",
+      "source": "evidence:E-LOCAL-VIABILITY",
+      "target": "claim:C002",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-E-LOCAL-VIABILITY-C002",
+      "source": "evidence:E-LOCAL-VIABILITY",
+      "target": "claim:C002",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-E-LOCAL-VIABILITY",
+      "source": "evidence:E-LOCAL-VIABILITY",
+      "target": "artifact:02-feasibility/solution-viability-case.md",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-qualifies-C001",
+      "source": "artifact:07-manuscript/claim-evidence-matrix.csv",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Claim uncertainty or alternative explanation narrows interpretation."
+    },
+    {
+      "edge_id": "EDGE-qualifies-C002",
+      "source": "artifact:07-manuscript/claim-evidence-matrix.csv",
+      "target": "claim:C002",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Claim uncertainty or alternative explanation narrows interpretation."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA013;PA012;PA010;PA004;PA039;PA040",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA013;PA012;PA010;PA004;PA039;PA040",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "PA013 and PA012 already use large real-incident corpora; PA010, PA004, PA039, and PA040 show reproducible public benchmark packaging and real-contract datasets."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA013;PA012;PA010;PA004;PA039;PA040",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "PA013 and PA012 already use large real-incident corpora; PA010, PA004, PA039, and PA040 show reproducible public benchmark packaging and real-contract datasets."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA013;PA010;PA012;PA018;PA003;PA039",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA013;PA010;PA012;PA018;PA003;PA039",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "PA013 reconstructs exploits on historical forks; PA010 and PA012 use executable grading; PA039 adds differential-replay checkpoints; PA018 and PA003 are earlier evidence-generation precursors."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA013;PA010;PA012;PA018;PA003;PA039",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "PA013 reconstructs exploits on historical forks; PA010 and PA012 use executable grading; PA039 adds differential-replay checkpoints; PA018 and PA003 are earlier evidence-generation precursors."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA011;PA012",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA011;PA012",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "PA011 directly defeats novelty of post-cutoff evaluation alone; PA012 also includes a post-knowledge-cutoff subset."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA011;PA012",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "PA011 directly defeats novelty of post-cutoff evaluation alone; PA012 also includes a post-knowledge-cutoff subset."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA013;PA011;PA014",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA013;PA011;PA014",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "No reviewed predecessor was verified to implement protocol/entity-lineage separation as part of a complete admissibility policy."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA013;PA011;PA014",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "No reviewed predecessor was verified to implement protocol/entity-lineage separation as part of a complete admissibility policy."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA014;PA015;PA016;PA017",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA014;PA015;PA016;PA017",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "PA014 directly defeats novelty of overlap-free splitting alone; PA015-PA017 show clone benchmarking and large-scale clone prevalence."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA014;PA015;PA016;PA017",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "PA014 directly defeats novelty of overlap-free splitting alone; PA015-PA017 show clone benchmarking and large-scale clone prevalence."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA013;PA021;PA031;PA034;PA035;PA038",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA013;PA021;PA031;PA034;PA035;PA038",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "PA031 defeats novelty of proxy-aware security controls; PA038 defeats novelty of minimal-proxy family recognition; PA034 defeats attacker-contract-aware detection; PA035 defeats novelty of exploit reuse, campaign dependence, and trace clustering."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA013;PA021;PA031;PA034;PA035;PA038",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "PA031 defeats novelty of proxy-aware security controls; PA038 defeats novelty of minimal-proxy family recognition; PA034 defeats attacker-contract-aware detection; PA035 defeats novelty of exploit reuse, campaign dependence, and trace clustering."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA007;PA021;PA004;PA036;PA037;PA040",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA007;PA021;PA004;PA036;PA037;PA040",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "PA007 and PA021 defeat novelty of mechanism-family thinking; PA036 and PA037 add broad current taxonomies; PA040 adds large-scale auditing-rule violations."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA007;PA021;PA004;PA036;PA037;PA040",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "PA007 and PA021 defeat novelty of mechanism-family thinking; PA036 and PA037 add broad current taxonomies; PA040 adds large-scale auditing-rule violations."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA026;PA027;PA008;PA022;PA037",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA026;PA027;PA008;PA022;PA037",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "PA026 and PA027 defeat novelty of right-censored temporal Web3 benchmarks; PA008 and PA022 defeat novelty of the open-world and base-rate motivation; PA037 adds fixed-version negative evaluation but not mature-negative follow-up."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA026;PA027;PA008;PA022;PA037",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "PA026 and PA027 defeat novelty of right-censored temporal Web3 benchmarks; PA008 and PA022 defeat novelty of the open-world and base-rate motivation; PA037 adds fixed-version negative evaluation but not mature-negative follow-up."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA011;PA014;PA013",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA011;PA014;PA013",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "No reviewed predecessor was verified to present the full random-to-joint-independence-to-prospective survival ladder."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA011;PA014;PA013",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "No reviewed predecessor was verified to present the full random-to-joint-independence-to-prospective survival ladder."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA012;PA023;PA024;PA025;PA022;PA008;PA033;PA036;PA037",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA012;PA023;PA024;PA025;PA022;PA008;PA033;PA036;PA037",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "PA012 defeats novelty of smart-contract scan cost accounting; PA023-PA025 defeat methods novelty; PA033 defeats broad claims for operational exploit-probability prioritization; PA036-PA037 strengthen false-positive evaluation precedent; PA008 and PA022 defeat base-rate motivation novelty."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA012;PA023;PA024;PA025;PA022;PA008;PA033;PA036;PA037",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "PA012 defeats novelty of smart-contract scan cost accounting; PA023-PA025 defeat methods novelty; PA033 defeats broad claims for operational exploit-probability prioritization; PA036-PA037 strengthen false-positive evaluation precedent; PA008 and PA022 defeat base-rate motivation novelty."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA012;PA011",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA012;PA011",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "PA012 defeats novelty of a prospective recent-contract zero-day scan, realistic mostly-negative cohort, cost accounting, and disclosure coordination."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA012;PA011",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "PA012 defeats novelty of a prospective recent-contract zero-day scan, realistic mostly-negative cohort, cost accounting, and disclosure coordination."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA012;PA013;PA011;PA014;PA015;PA016;PA026;PA027;PA028;PA029;PA031;PA032;PA033;PA034;PA035;PA036;PA037;PA038;PA039;PA040",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA012;PA013;PA011;PA014;PA015;PA016;PA026;PA027;PA028;PA029;PA031;PA032;PA033;PA034;PA035;PA036;PA037;PA038;PA039;PA040",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "The targeted search defeats novelty of real incidents, executable grading, post-release testing, duplicate filtering, right-censoring, pre-outcome exploit probability, workload prioritization, proxy checklists and clone recognition, attacker-contract analysis, campaign clustering, one-time prospective scanning, and disclosure coordination as individual ingredients."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA012;PA013;PA011;PA014;PA015;PA016;PA026;PA027;PA028;PA029;PA031;PA032;PA033;PA034;PA035;PA036;PA037;PA038;PA039;PA040",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "The targeted search defeats novelty of real incidents, executable grading, post-release testing, duplicate filtering, right-censoring, pre-outcome exploit probability, workload prioritization, proxy checklists and clone recognition, attacker-contract analysis, campaign clustering, one-time prospective scanning, and disclosure coordination as individual ingredients."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA028;PA029;PA030;PA031;PA032",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA028;PA029;PA030;PA031;PA032",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "A patent family, non-English claim, other standard, or private operational workflow could contain a closer benchmark contract than the targeted search exposed."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA028;PA029;PA030;PA031;PA032",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "A patent family, non-English claim, other standard, or private operational workflow could contain a closer benchmark contract than the targeted search exposed."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA010;PA011;PA012;PA013;PA014;PA026;PA027;PA033",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA010;PA011;PA012;PA013;PA014;PA026;PA027;PA033",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "An equivalent predecessor need only prespecify and measure temporal plus lineage/clone and mechanism/censoring/workload degradation with an interaction or decision consequence; identical tooling is unnecessary."
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA010;PA011;PA012;PA013;PA014;PA026;PA027;PA033",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "An equivalent predecessor need only prespecify and measure temporal plus lineage/clone and mechanism/censoring/workload degradation with an interaction or decision consequence; identical tooling is unnecessary."
+    },
+    {
+      "edge_id": "EDGE-limits-scope-C001",
+      "source": "claim:C001",
+      "target": "claim:C001",
+      "relation_type": "LIMITS_SCOPE",
+      "active": false,
+      "basis": "Scope ceiling recorded."
+    },
+    {
+      "edge_id": "EDGE-limits-scope-C002",
+      "source": "claim:C002",
+      "target": "claim:C002",
+      "relation_type": "LIMITS_SCOPE",
+      "active": false,
+      "basis": "Scope ceiling recorded."
+    }
+  ]
+}

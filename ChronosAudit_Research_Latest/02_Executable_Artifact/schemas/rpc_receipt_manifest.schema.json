@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chronosaudit.org/schemas/rpc-receipt-manifest-v1.json",
+  "title": "ChronosAudit RPC Receipt Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "receipt_count",
+    "total_bytes",
+    "all_content_addresses_valid",
+    "invalid_paths",
+    "entries",
+    "created_at_utc",
+    "manifest_sha256_without_self_hash"
+  ],
+  "properties": {
+    "schema_version": { "const": "chronosaudit-rpc-receipt-manifest-v1" },
+    "receipt_count": { "type": "integer", "minimum": 0 },
+    "total_bytes": { "type": "integer", "minimum": 0 },
+    "all_content_addresses_valid": { "type": "boolean" },
+    "invalid_paths": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256", "bytes", "content_address_valid"],
+        "properties": {
+          "path": { "type": "string", "minLength": 1 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "bytes": { "type": "integer", "minimum": 0 },
+          "content_address_valid": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "created_at_utc": { "type": "string", "format": "date-time" },
+    "manifest_sha256_without_self_hash": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+  },
+  "additionalProperties": false
+}

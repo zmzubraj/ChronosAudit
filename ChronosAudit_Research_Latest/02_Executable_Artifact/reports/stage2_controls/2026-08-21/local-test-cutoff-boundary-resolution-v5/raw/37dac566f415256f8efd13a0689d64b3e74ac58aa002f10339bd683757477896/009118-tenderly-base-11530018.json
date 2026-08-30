@@ -1,0 +1,55 @@
+{
+  "authorization": {
+    "authorized": true,
+    "range_scope_sha256": "dc1a0baa850d51465318696b349c89a9153676b601dc358f7e7afee1f13befa1",
+    "remaining_request_count_after_call": 15542,
+    "remaining_scope_request_count_after_call": 32,
+    "request_sha256": "de7cc72cf9e25811af4d5d1c9133b91ebbc66dcc34515febb5277be45e7c176e",
+    "sequence_number": 9118
+  },
+  "chain": "base",
+  "error": null,
+  "method": "eth_getBlockByNumber",
+  "observed_at_unix": 1787281413,
+  "operator_family": "tenderly",
+  "params": [
+    "0xafef22",
+    false
+  ],
+  "provider_id": "tenderly-base",
+  "result": {
+    "baseFeePerGas": "0x116",
+    "difficulty": "0x0",
+    "extraData": "0x",
+    "gasLimit": "0x1c9c380",
+    "gasUsed": "0xef9fc",
+    "hash": "0x799dd773cbb9b87b67d1042ac8753e17fe37803e42d860ac5efcaa1c1dd5c510",
+    "logsBloom": "0x20240400100000000081200080000400000002000000000000045000000000000000000000010001000000180000100000020004000000000400c0004020000000004118080100400000000c000000200080010000480000000001008020000000800408000802008000100000000400800000000100050102000110000000010002000000000001400000004008080104000001002000880080104020000000022008002000000021000280008000002000004000082000100000002090000080020012000000002000000000300000040000180000001000050002008200000010000000000000200004000000400000001000001000440000000000000000",
+    "miner": "0x4200000000000000000000000000000000000011",
+    "mixHash": "0x3fa539d938b48497569536f887cdee5b1f27e63e0889ec264914f57ce55e25ca",
+    "nonce": "0x0000000000000000",
+    "number": "0xafef22",
+    "parentHash": "0xff941d6cea26b3ff9ecea2068d0114cb1d925b262c5a9524e0309f1b7d17ddd1",
+    "receiptsRoot": "0x92435570bf47c61c6a42760e8caff2dfa1247bcb0f14d4656511ba392262a21c",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x1204",
+    "stateRoot": "0x2f83bb2e72a44f63ef1dd2cdee68285492b24c32dbe50243c14d505f2e5fc417",
+    "timestamp": "0x65ea3b27",
+    "transactions": [
+      "0x33dc361b5f76d02a5cef1b7ff776a35d1744c073ba656ecdec4ef93430e75873",
+      "0xab418c126861790abbae03d2afcb4b80f7c463e42d83e2b3e898abfb41acf221",
+      "0xc3ce89eac09446a10043e965f4226e42248214f7bae467d3ab06f55bc146622d",
+      "0x87000143cd2d4dd44c9a4a22aaf439367d5ada6f718dfc61b4bf2e4fc6db143a",
+      "0x7c1c1fbf2e60df38abcc92706c01b2058aafddb2d4670b407591fb669a69be32",
+      "0xc3de627266fd39aa759331a51fe452f02dce39ab63c5c6c2f17ebd8764fab9ac",
+      "0x65365e7580e7c76b8eb9247a3c999caf916d6822308571b25a7b0cb8aafc2fa2"
+    ],
+    "transactionsRoot": "0x1f55dd6cfa1379d6af39bd02873cd5e92e194e79519c642fcf5c84cc7d233828",
+    "uncles": [],
+    "withdrawals": [],
+    "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+  },
+  "schema_version": "stage2_control_cutoff_boundary_raw_rpc.v1",
+  "sequence_number": 9118,
+  "target_id": "cutoff-boundary:c9737bc3f9d358784a08b9c14fe5d1b7e23d4559e5ee1f33d3c04c49c9090f0d"
+}

@@ -1,0 +1,22 @@
+version: 1.3.0-local-test-full-url-environment-binding
+providers:
+  - provider_id: quicknode-ethereum
+    chain: ethereum
+    endpoint: https://quiknode.pro/
+    endpoint_env: CHRONOS_QUICKNODE_ETHEREUM_URL
+    operator_family: quicknode
+    discovery_source: https://www.quicknode.com/docs/ethereum/endpoints.md
+    tracking_enabled: true
+    operator_evidence_url: null
+    operator_evidence_sha256: null
+    operator_verified: false
+  - provider_id: chainstack-ethereum
+    chain: ethereum
+    endpoint: https://ethereum-mainnet.core.chainstack.com/
+    endpoint_env: CHRONOS_CHAINSTACK_ETHEREUM_URL
+    operator_family: chainstack
+    discovery_source: https://docs.chainstack.com/docs/authentication-methods-for-different-scenarios.md
+    tracking_enabled: true
+    operator_evidence_url: null
+    operator_evidence_sha256: null
+    operator_verified: false

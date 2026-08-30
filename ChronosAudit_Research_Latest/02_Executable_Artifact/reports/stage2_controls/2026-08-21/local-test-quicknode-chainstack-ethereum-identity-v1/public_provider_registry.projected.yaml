@@ -1,0 +1,29 @@
+version: 1.2.0-accountable-provider-review-projection
+projection_provenance:
+  request_sha256: 854e05159328d6984af4a9cf13fbb282d74dced49c713e10c3b1d9af92d3d9e7
+  review_payload_sha256: d036443d599bed4ad8ee696dd2c2d9c02b3eb6dc449721e54e901fb227454e5a
+  reviewer_principal: zmzubraj-local-test
+  review_expires_utc: '2026-08-27T22:15:00Z'
+  rpc_authorized: false
+  selection_authorized: false
+providers:
+- provider_id: chainstack-ethereum
+  chain: ethereum
+  endpoint: https://ethereum-mainnet.core.chainstack.com/
+  operator_family: chainstack
+  discovery_source: https://docs.chainstack.com/docs/authentication-methods-for-different-scenarios.md
+  tracking_enabled: true
+  operator_evidence_url: https://docs.chainstack.com/docs/authentication-methods-for-different-scenarios.md
+  operator_evidence_sha256: 6ce399da50bbef3265a67d6931a4702bd9da9469f23307ddbe9c184c43a31a51
+  operator_verified: true
+  endpoint_env: CHRONOS_CHAINSTACK_ETHEREUM_URL
+- provider_id: quicknode-ethereum
+  chain: ethereum
+  endpoint: https://quiknode.pro/
+  operator_family: quicknode
+  discovery_source: https://www.quicknode.com/docs/ethereum/endpoints.md
+  tracking_enabled: true
+  operator_evidence_url: https://www.quicknode.com/docs/ethereum/endpoints.md
+  operator_evidence_sha256: fb5619b49be135eb0dbd6539d3db8d457a01bad95e2751c90dce618605e608e4
+  operator_verified: true
+  endpoint_env: CHRONOS_QUICKNODE_ETHEREUM_URL

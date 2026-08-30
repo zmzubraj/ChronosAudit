@@ -1,0 +1,17 @@
+{
+  "chain_count": 3,
+  "complete": false,
+  "errors": [
+    "base:drpc-base:trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 408: Request Timeout\",\"trace_transaction\":\"HTTPError: HTTP Error 408: Request Timeout\"}"
+  ],
+  "provider_registry_verified": false,
+  "raw_evidence_count": 102,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "e2adea08197ae9f05ff25b22a0f63f1c899cc7c45ca304998e697518a0eeb2f8",
+  "report_sha256": "a8656973f9afdad1cea136fb74b8ef4ac39757dd49c7c1580c77817c33db9b0c",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "0f409a1a061706d4595acff5ec3f74013f38b1209f06f3e784117e7606127eb6"
+}

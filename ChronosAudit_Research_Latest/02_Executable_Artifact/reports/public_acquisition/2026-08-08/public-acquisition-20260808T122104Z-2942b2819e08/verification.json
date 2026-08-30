@@ -1,0 +1,128 @@
+{
+  "checks": [
+    {
+      "name": "queue_rows",
+      "observed": 417,
+      "passed": true,
+      "required": 417
+    },
+    {
+      "name": "pilot_rows",
+      "observed": 9,
+      "passed": true,
+      "required": 9
+    },
+    {
+      "name": "queue_recomputed",
+      "observed": false,
+      "passed": false,
+      "required": true
+    },
+    {
+      "name": "pilot_recomputed",
+      "observed": false,
+      "passed": false,
+      "required": true
+    },
+    {
+      "name": "arbitrum_shortfall_preserved",
+      "observed": true,
+      "passed": true,
+      "required": true
+    },
+    {
+      "name": "evidence_grade_pilot_amendment_a2",
+      "observed": {
+        "amendment_id": "evidence-grade-pilot-amendment-a2",
+        "cases_attempted": 10,
+        "chain_counts": {
+          "arbitrum": 3,
+          "base": 1,
+          "bsc": 3,
+          "ethereum": 3
+        },
+        "disposition": "COMPLETE",
+        "pilot_case_count": 10,
+        "present": true,
+        "queue_rows": 10,
+        "release_eligible": false,
+        "status": "complete",
+        "strict_snapshots_closed": 10
+      },
+      "passed": true,
+      "required": "complete 10-case A2 pilot with chain allocation {'arbitrum': 3, 'base': 1, 'bsc': 3, 'ethereum': 3}"
+    },
+    {
+      "name": "acquisition_ledger",
+      "observed": 7506,
+      "passed": true,
+      "required": "schema-valid append-only hash chain"
+    },
+    {
+      "name": "rpc_cases_preserved",
+      "observed": 417,
+      "passed": true,
+      "required": "attempt/failure/terminal rows with explicit closure"
+    },
+    {
+      "name": "rpc_receipts",
+      "observed": 2362,
+      "passed": true,
+      "required": "manifest-bound raw response receipts"
+    },
+    {
+      "name": "deployment_denominator",
+      "observed": 0,
+      "passed": true,
+      "required": "manifest-bound denominator without duplicate identities"
+    },
+    {
+      "name": "control_candidates",
+      "observed": "empty",
+      "passed": true,
+      "required": "deterministic control row revalidation"
+    },
+    {
+      "name": "positive_review_packets",
+      "observed": "positive_case_review_packets packet payload differs from deterministic bundle",
+      "passed": false,
+      "required": "deterministic positive packet bundle"
+    },
+    {
+      "name": "control_review_packets",
+      "observed": 0,
+      "passed": true,
+      "required": "deterministic control packet bundle"
+    },
+    {
+      "name": "reviewer_independence",
+      "observed": "waiting_external",
+      "passed": true,
+      "required": "strict accountable reviewer artifacts"
+    },
+    {
+      "name": "counter_projection",
+      "observed": "counter artifact differs from deterministic regeneration",
+      "passed": false,
+      "required": "manifest-bound deterministic counter artifact"
+    }
+  ],
+  "integrity_failures": [
+    "case_queue differs from deterministic recomputation",
+    "pilot_case_queue differs from deterministic recomputation",
+    "positive review packet verification failed: positive_case_review_packets packet payload differs from deterministic bundle",
+    "counter artifact verification failed: counter artifact differs from deterministic regeneration"
+  ],
+  "release_ready": false,
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "scientific_gaps": [
+    "public RPC acquisition remains incomplete for at least one pilot case",
+    "deployment denominator shortfall remains unresolved across one or more chains",
+    "control candidate generation remains scientifically incomplete",
+    "reviewer independence artifacts are still waiting on external human review",
+    "AI-only adjudication protocol amendment is missing"
+  ],
+  "scientifically_complete": false,
+  "structure_valid": false
+}

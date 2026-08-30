@@ -1,0 +1,29 @@
+Name                                            Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------------
+src/chronosaudit_stage2/__init__.py                 2      0   100%
+src/chronosaudit_stage2/control_matching.py        65      4    94%   56, 73, 75, 87
+src/chronosaudit_stage2/cutoff_policy.py           19      0   100%
+src/chronosaudit_stage2/deployment_stream.py       92      6    93%   20-23, 60, 78
+src/chronosaudit_stage2/evidence_sources.py       155      7    95%   130-133, 232, 259-277
+src/chronosaudit_stage2/external_evidence.py       39      4    90%   133-136
+src/chronosaudit_stage2/killer_catalog.py         108      0   100%
+src/chronosaudit_stage2/mechanism_taxonomy.py      26      0   100%
+src/chronosaudit_stage2/onchain.py                175     59    66%   32-37, 40-74, 79, 86, 93, 101, 103, 115-117, 138, 145, 163, 166-168, 174, 195-197, 211, 216, 238, 247, 262
+src/chronosaudit_stage2/pipeline.py               267     67    75%   74, 79, 90-99, 285-344
+src/chronosaudit_stage2/review_workflow.py        227     40    82%   21, 27, 46, 56, 73, 82, 84, 86, 94, 97, 99, 117, 131, 137, 154, 160, 234, 238, 259, 261, 289, 293, 319-320, 323, 347-365
+src/chronosaudit_stage2/source_history.py         206     26    87%   36-39, 50, 77-78, 111-112, 127-128, 189-190, 211, 220, 245, 249-250, 316, 324, 339-344
+src/chronosaudit_stage2/split_audit.py            110      3    97%   136, 147, 167
+src/chronosaudit_stage2/statistics.py              63     14    78%   16-26, 29-31
+tests/test_control_matching.py                     16      0   100%
+tests/test_cutoff_policy.py                         6      0   100%
+tests/test_deployment_stream_full.py               36      3    92%   27-29
+tests/test_external_stage2_focus.py                49      0   100%
+tests/test_full_program_public_evidence.py         30      0   100%
+tests/test_onchain.py                              52      1    98%   70
+tests/test_public_evidence.py                      29      0   100%
+tests/test_source_history_adapters.py              18      0   100%
+tests/test_split_audit.py                           7      0   100%
+tests/test_stage2.py                               43      2    95%   23-24
+tests/test_stage2_upgrade.py                       36      0   100%
+-----------------------------------------------------------------------------
+TOTAL                                            1876    236    87%

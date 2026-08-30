@@ -1,0 +1,14 @@
+{
+  "bindable_response_receipt_count": 2348,
+  "command": "rpc_receipt_recovery",
+  "nested_observation_count": 2362,
+  "post_recovery_rpc_case_results_sha256": "5579fc2d7e35ae0edf6e0e20da786199c7a8d2661e228b9b2a5ffd15a011164c",
+  "post_recovery_rpc_receipts_sha256": "737d4968fe8c49eec13f697f01b5b0c1fcad6e3ec95b6efe6d039030e88f24b3",
+  "pre_recovery_rpc_case_results_sha256": "d70f0f96c7eeba5dcf454d1a51d49cc271fb29016e4cbcbb7565d32726e2f09e",
+  "recovered_at_utc": "2026-08-08T14:43:06Z",
+  "recovered_receipt_count": 2362,
+  "request_only_error_receipt_count": 14,
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "status": "complete"
+}

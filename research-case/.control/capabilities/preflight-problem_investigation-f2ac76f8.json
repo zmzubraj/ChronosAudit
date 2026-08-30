@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-08-01T21:01:56Z",
+  "phase": "NOVELTY_AUDIT",
+  "cell_id": "problem_investigation",
+  "agent_type": "research-analyst",
+  "available_agent_types": [],
+  "available_tools": [],
+  "delegation_allowed": false,
+  "required_channels": [],
+  "egress_policy": {
+    "policy_version": 1,
+    "external_processing": "deny",
+    "allowed_channels": [],
+    "notes": "No explicit egress policy is present; fail closed for external work."
+  },
+  "capability_source": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/research-case/00-governance/capability-preflight.json",
+  "issues": [
+    "Missing agent_type capability: research-analyst"
+  ],
+  "ready_for_delegation": false,
+  "notes": "This Python driver emits work for the root agent. It does not call Codex collaboration tools itself."
+}

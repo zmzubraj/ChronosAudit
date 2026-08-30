@@ -1,0 +1,50 @@
+{
+  "counter_authority": false,
+  "decision": "LEGACY_ALIAS_REGISTRY_FRAGMENT_VERIFIED_LOCAL_TEST_ONLY",
+  "fragment_sha256": "f1400c179a938a9ea723127b64bcb90ad250761f51fe36d0846a3e3b46f24fad",
+  "provider_count": 3,
+  "providers": [
+    {
+      "chain": "base",
+      "endpoint": "https://base.merkle.io",
+      "endpoint_template_sha256": "a3b19db19ae00facfd632cdba27ae7b7a2ed985d999168a60c2c4e20e7b28b29",
+      "identity_scope": "LOCAL_TEST_LEGACY_ALIAS_ONLY",
+      "operator_family": "merkle",
+      "operator_identity_family": "merkle_blink",
+      "operator_verified": true,
+      "provider_id": "merkle-base",
+      "review_expires_utc": "2026-08-30T02:05:00Z",
+      "rpc_authorized": false
+    },
+    {
+      "chain": "bsc",
+      "endpoint": "https://bsc.merkle.io",
+      "endpoint_template_sha256": "c48f7ab856707cccb318dd965cc172759cde78998f507512500789f7d95e4782",
+      "identity_scope": "LOCAL_TEST_LEGACY_ALIAS_ONLY",
+      "operator_family": "merkle",
+      "operator_identity_family": "merkle_blink",
+      "operator_verified": true,
+      "provider_id": "merkle-bsc",
+      "review_expires_utc": "2026-08-30T02:05:00Z",
+      "rpc_authorized": false
+    },
+    {
+      "chain": "ethereum",
+      "endpoint": "https://eth.merkle.io",
+      "endpoint_template_sha256": "dba2d6bf58efcecbcc3e1e49412db682d89d3cf17bef4c2ac96c997b704f8850",
+      "identity_scope": "LOCAL_TEST_LEGACY_ALIAS_ONLY",
+      "operator_family": "merkle",
+      "operator_identity_family": "merkle_blink",
+      "operator_verified": true,
+      "provider_id": "merkle-ethereum",
+      "review_expires_utc": "2026-08-30T02:05:00Z",
+      "rpc_authorized": false
+    }
+  ],
+  "review_expires_utc": "2026-08-30T02:05:00Z",
+  "reviewer_principal": "zmzubraj",
+  "revision_request_sha256": "26dd2120f823d97bfa60112949eba678d386aaac696a818df4f89cac3c7a2cb0",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_legacy_alias_registry_fragment.v1",
+  "selection_authorized": false
+}

@@ -1,0 +1,70 @@
+{
+  "blockers": [
+    "positive_missing_columns",
+    "denominator_missing_columns"
+  ],
+  "controls_per_positive": 10,
+  "decision": "BLOCKED_INPUT_ENRICHMENT_REQUIRED",
+  "denominator_inputs": {
+    "duplicate_chain_address_identities": 0,
+    "hash_errors": 0,
+    "incomplete_value_counts": {
+      "chain": 0,
+      "contract_address": 0,
+      "counter_authority": 0,
+      "deployment_time": 0,
+      "source_manifest_sha256": 0,
+      "source_record_sha256": 0
+    },
+    "missing_columns": [
+      "clone_family",
+      "code_size",
+      "identity_group",
+      "mechanism_family",
+      "protocol_family",
+      "proxy_family",
+      "proxy_status",
+      "source_verified_at_cutoff"
+    ],
+    "observed_rows": 20000,
+    "required_rows": 20000,
+    "unauthorized_rows": 0
+  },
+  "inputs": {
+    "denominator": {
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/processed/stage2_controls/2026-08-17/recovery3-authority-bridge/control_denominator_authority_projection.csv",
+      "sha256": "a574b5a865b02d4628b0f35768c7e7cb78878b1bd051260f3c787a320cbbf870"
+    },
+    "positives": {
+      "path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v4/inputs/positive_cases_snapshot.csv",
+      "sha256": "5164a40ccdef04f3edb1555758b133cc28fec89571858c1bdacbba542962e824"
+    }
+  },
+  "positive_inputs": {
+    "duplicate_case_names": 0,
+    "hash_errors": 0,
+    "incomplete_value_counts": {
+      "case_name": 0,
+      "chain": 0,
+      "target_contract_address": 0
+    },
+    "missing_columns": [
+      "clone_family",
+      "code_size",
+      "deployment_time",
+      "follow_up_horizon",
+      "identity_group",
+      "mechanism_family",
+      "positive_record_sha256",
+      "prediction_cutoff_time",
+      "protocol_family",
+      "proxy_family",
+      "proxy_status",
+      "source_verified_at_cutoff"
+    ],
+    "observed_rows": 417,
+    "required_rows": 417
+  },
+  "schema_version": "chronosaudit.control_input_preflight.v1",
+  "target_control_rows": 4170
+}

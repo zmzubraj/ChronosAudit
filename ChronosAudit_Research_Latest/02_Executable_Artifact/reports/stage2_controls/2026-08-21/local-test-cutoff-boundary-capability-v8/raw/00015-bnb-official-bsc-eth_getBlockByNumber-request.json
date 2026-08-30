@@ -1,0 +1,1 @@
+{"method":"eth_getBlockByNumber","params":["0x5c82a9e",false],"provider_family":"bnb-official","provider_id":"bnb-official-bsc","schema_version":"stage2_control_cutoff_boundary_capability_request.v1"}

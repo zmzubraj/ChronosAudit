@@ -1,0 +1,96 @@
+{
+  "acquisition_authorized": false,
+  "activation_expires_utc": "2026-08-29T18:00:00Z",
+  "allowed_signers_sha256": "90c71679b39b079344c7521803e93c70bbe1566eab62fa8796a00b19a9f8eaf2",
+  "approval_sha256": "06b8d61a5d6c3dcf67af6ab2466ee4f114ef58236bd3adfd525442a3229d0a39",
+  "candidate_rpc_capability_verification_sha256": "824af69635267833d8899b33bbfcb02ef7539e9bc976d145173638968269f497",
+  "decision": "RPC_ACTIVATION_VERIFIED",
+  "hash_chained_no_repeat_ledger_required": true,
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_IDENTITY",
+  "maximum_rpc_requests": 4392,
+  "next_batch_manifest_sha256": "9650f945628ce911837fd4e55225ec063df1818b1673cf8e928355c07f3b5055",
+  "provider_bindings": [
+    {
+      "chain": "arbitrum",
+      "identity_evidence_sha256": "ebe9014b8e2047ab8404949d956ec84cb112fe4574b76f7055d0b77d00c504fc",
+      "operator_evidence_sha256": "3d980cb86f593e8808a0522632f6365f21b9e8e14dca22d7247364e3958f8626",
+      "operator_family": "quicknode",
+      "provider_id": "quicknode-arbitrum-docs-demo",
+      "public_endpoint_identity_id": "57d675f7d58181f163a0d54948c973aa6ec3b5de227da7ffa491c9c11c370bd0"
+    },
+    {
+      "chain": "arbitrum",
+      "identity_evidence_sha256": "598c27385622b376d29ef53c86c5c6c4b838f244c0ee831c5bd79e42b2cc1cde",
+      "operator_evidence_sha256": "55223c7cc2c353211a96bd4c3cb7d25af4ccc3c5097f9ee9af418fc6ccb6b549",
+      "operator_family": "solidrpc",
+      "provider_id": "solidrpc-arbitrum",
+      "public_endpoint_identity_id": "9e5456174be2f979683944f70b7096d09348b8021d1bd1e0b7d8799af2179d9e"
+    },
+    {
+      "chain": "base",
+      "identity_evidence_sha256": "eb1a94a1460e56b604cfd32ca109b087bfbf5216d947ecf460acc5bffb5e596a",
+      "operator_evidence_sha256": "12e85f3d1a499d0f8741dbed9cf8c967a044315b17397cea003aab9b92e255e0",
+      "operator_family": "base-official",
+      "provider_id": "base-official-base",
+      "public_endpoint_identity_id": "da1e4a0b726081a615f3a070f91579a54a9a7deb09de13f8c5f6687d4079cf27"
+    },
+    {
+      "chain": "base",
+      "identity_evidence_sha256": "9fe16dac3579b7b06c2a32ce6f11f67f1aaf6fe38afa7b11c3ccd5ba6c427099",
+      "operator_evidence_sha256": "ad518b1fef0d7c13bd9eafea65ef2a6e6e15874b402d56e977382c0b648cc4ae",
+      "operator_family": "tenderly",
+      "provider_id": "tenderly-base",
+      "public_endpoint_identity_id": "23560d214f658f9fd995c835b8ddce1f7947b075fd6e4f72c4c90d4369875de8"
+    },
+    {
+      "chain": "bsc",
+      "identity_evidence_sha256": "943523c78c1308e0b72207887a5782e74c4ff3e3222de61d02eefce6db964076",
+      "operator_evidence_sha256": "3e1362ee4577a136ff2f8c20080b983b7e6e8ae36e9433c06f639b2379025171",
+      "operator_family": "nodereal",
+      "provider_id": "nodereal-bsc",
+      "public_endpoint_identity_id": "c09f8c4270313cade4929fe441dcb8d173095240917e70637231b904192e7792"
+    },
+    {
+      "chain": "bsc",
+      "identity_evidence_sha256": "a98beb5c9e2506616568432a9de1dbd371358d30ed6e6871fc581a4fafaf3331",
+      "operator_evidence_sha256": "5ec5ac6f27ccde2214c75de4d0794c98931de4e27bab22bedfd78618794cd030",
+      "operator_family": "quicknode",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "public_endpoint_identity_id": "f4e79348e230a03d14b602b021b32aaef4bed83c501a0debc1e62cff217a9b93"
+    },
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "28273ebfce495a97c0075a0a6bea18b49a66bd9df91c420c2367ad9629023bb4",
+      "operator_evidence_sha256": "91437f6e40fe6e0be3ae81f2d07894ad954c192eb012617b52bd86453385a47c",
+      "operator_family": "drpc",
+      "provider_id": "drpc-ethereum",
+      "public_endpoint_identity_id": "078ddbb63a6abd3c9a5eb951895223315b3d0ba63d4f4c0c588ab34306bf6d79"
+    },
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "0dfbe9b45e5947b573cc04fec817446a860f4450dfc1d3695b66b074a43b13cd",
+      "operator_evidence_sha256": "fb5619b49be135eb0dbd6539d3db8d457a01bad95e2751c90dce618605e608e4",
+      "operator_family": "quicknode",
+      "provider_id": "quicknode-ethereum",
+      "public_endpoint_identity_id": "7bf448bc7def61e82096fd61a4d9eee23adbc8cff2263df8d7b2b2aa582a969c"
+    }
+  ],
+  "provider_registry_sha256": "9788ad91ed55746ffff9144d3d79bf7077fa8618cc3ad810d63c9f183a8d5643",
+  "queue_row_count": 1096,
+  "queue_sha256": "730d1218fae15c7096558369145895351713e95c504ac52666b9739da649bd25",
+  "raw_request_response_receipts_required": true,
+  "recovery3_mutation_authorized": false,
+  "request_sha256": "f9153ba276d86e77090144a52da3cc9b21fdca019b2f69ba3f68cdeffba11598",
+  "rpc_authorized": true,
+  "rpc_methods": [
+    "eth_chainId",
+    "eth_getTransactionReceipt",
+    "eth_getBlockByHash"
+  ],
+  "schema_version": "chronosaudit.control_candidate_rpc_activation_verification.v1",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-candidate-rpc-activation-v1",
+  "signature_sha256": "51bd42664207c7f554fe828f1257bb6bdb1895044089f428914de7ad0ad7f7cf",
+  "signer_principal": "zmzubraj-local-test",
+  "stage_promotion_authorized": false
+}

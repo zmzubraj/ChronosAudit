@@ -1,0 +1,90 @@
+{
+  "checked_at_utc": "2026-08-08T18:42:24Z",
+  "complete": true,
+  "families": [
+    {
+      "complete": true,
+      "evidence": [
+        {
+          "actual_sha256": "f209a28a5b7b788241bd303aef760b671a39078d4272d30ad8208445bcc89efa",
+          "captured_path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/sentio_about.html",
+          "sha256": "f209a28a5b7b788241bd303aef760b671a39078d4272d30ad8208445bcc89efa",
+          "url": "https://www.sentio.xyz/about/",
+          "valid": true
+        },
+        {
+          "actual_sha256": "49b0c2392b3e236f090bada6764909750b270b021532f6165f05aadd6d7d71e9",
+          "captured_path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/sentio_rpc_nodes.html",
+          "sha256": "49b0c2392b3e236f090bada6764909750b270b021532f6165f05aadd6d7d71e9",
+          "url": "https://docs.sentio.xyz/docs/rpc-nodes",
+          "valid": true
+        },
+        {
+          "actual_sha256": "de868e019e72fa134943d446efc9fbf9b0be057d7ccc4e160b120501405ef476",
+          "captured_path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/sentio_supported_networks.html",
+          "sha256": "de868e019e72fa134943d446efc9fbf9b0be057d7ccc4e160b120501405ef476",
+          "url": "https://docs.sentio.xyz/docs/supported-network",
+          "valid": true
+        }
+      ],
+      "family_id": "sentio",
+      "operator_verified": true
+    },
+    {
+      "complete": true,
+      "evidence": [
+        {
+          "actual_sha256": "63daba10c1058f76fafdd79f704c1b6bdce854a7c651ba5a1ec406a9bc46f01c",
+          "captured_path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/blast_deprecation.html",
+          "sha256": "63daba10c1058f76fafdd79f704c1b6bdce854a7c651ba5a1ec406a9bc46f01c",
+          "url": "https://blastapi.io/case-studies/rhino-fi",
+          "valid": true
+        }
+      ],
+      "family_id": "alchemy-blast",
+      "operator_verified": true
+    },
+    {
+      "complete": true,
+      "evidence": [
+        {
+          "actual_sha256": "b4d967e0501224e7e32e3526d235cf533389a24da2edbcd716180eddc91a52c2",
+          "captured_path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/infura_arbitrum_eth_getcode.md",
+          "sha256": "b4d967e0501224e7e32e3526d235cf533389a24da2edbcd716180eddc91a52c2",
+          "url": "https://docs.infura.io/reference/arbitrum/json-rpc-methods/eth_getcode.md",
+          "valid": true
+        },
+        {
+          "actual_sha256": "9e6480992a4115ba281f8ee09fce3dbc51755d81b8d192730e20a95b91f94cc9",
+          "captured_path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/infura_arbitrum_eth_getstorageat.md",
+          "sha256": "9e6480992a4115ba281f8ee09fce3dbc51755d81b8d192730e20a95b91f94cc9",
+          "url": "https://docs.infura.io/reference/arbitrum/json-rpc-methods/eth_getstorageat.md",
+          "valid": true
+        }
+      ],
+      "family_id": "infura",
+      "operator_verified": true
+    },
+    {
+      "complete": true,
+      "evidence": [
+        {
+          "actual_sha256": "e30d1d320dfd4111349bcf65fd1237d58c7b334452b5bc9da917e3405f327654",
+          "captured_path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/alchemy_arbitrum_eth_getcode.html",
+          "sha256": "e30d1d320dfd4111349bcf65fd1237d58c7b334452b5bc9da917e3405f327654",
+          "url": "https://www.alchemy.com/docs/chains/arbitrum/arbitrum-api-endpoints/eth-get-code",
+          "valid": true
+        },
+        {
+          "actual_sha256": "62c900d9c35915522779493f086c9f8374a4ef0dabad4c329af9d4652d125a94",
+          "captured_path": "raw/public_acquisition/2026-08-08/evidence-grade-pilot-amendment-a1/provider_identity/alchemy_arbitrum_eth_getstorageat.html",
+          "sha256": "62c900d9c35915522779493f086c9f8374a4ef0dabad4c329af9d4652d125a94",
+          "url": "https://www.alchemy.com/docs/chains/arbitrum/arbitrum-api-endpoints/eth-get-storage-at",
+          "valid": true
+        }
+      ],
+      "family_id": "alchemy",
+      "operator_verified": true
+    }
+  ]
+}

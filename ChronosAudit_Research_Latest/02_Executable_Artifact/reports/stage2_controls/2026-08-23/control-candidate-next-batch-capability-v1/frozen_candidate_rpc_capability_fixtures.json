@@ -1,0 +1,43 @@
+{
+  "schema_version": "stage2_control_candidate_rpc_capability_fixtures.v1",
+  "selection_rule": "For each chain in the 3,349-row frozen next batch, use the lexicographically earliest prior complete dual-provider candidate result having a deployment block hash.",
+  "source_candidate_root": "02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/candidates",
+  "fixtures": [
+    {
+      "chain": "arbitrum",
+      "chain_id": "0xa4b1",
+      "transaction_hash": "0x973320db979be0d9aaf5de5af3b8861eccaf9727fd977594996da7b184b92a22",
+      "block_hash": "0x952d5ae634da1fe3e0f9f299b1bcadf5ec8362b8b1597c3710580fe0957eea60",
+      "block_number": 1038261,
+      "reserve_assignment_sha256": "7d170e01bcbf2201bc47ca19ea21fc2ba8e7c67c559c14008d90b892a18fe9de"
+    },
+    {
+      "chain": "base",
+      "chain_id": "0x2105",
+      "transaction_hash": "0xeaf1b6cf6408dc3780d844e4943e24db78f5f4c1ab936ee8f35216a9017eb464",
+      "block_hash": "0x56027df2370b28336b4998cea9b0f92092f68586b4eb12f45c31f94a719d7674",
+      "block_number": 23357227,
+      "reserve_assignment_sha256": "01f44c490f7e7295022e4c6e981ce8568563668a3255f57f1520bc50ed87c179"
+    },
+    {
+      "chain": "bsc",
+      "chain_id": "0x38",
+      "transaction_hash": "0x30508c5ebe5507f410b9f6140a73062ce12e8b14a92dff1fa17de91e5082b93b",
+      "block_hash": "0x95d6e3a7bed4f5ae41bf827fc4129133b67b756883ea03e45f28fd19174b17c3",
+      "block_number": 19085590,
+      "reserve_assignment_sha256": "00c2be9f65deca512bc0c1eee4483a2080d5dd5add4b39995f1578fae68eeae4"
+    },
+    {
+      "chain": "ethereum",
+      "chain_id": "0x1",
+      "transaction_hash": "0xf87a5b1e3c6c0f8808996ac3f9113c80928d7dc57e39024618beafdc3a450c27",
+      "block_hash": "0x43f11f546eff9cafb300f4de836812743ff4d02d228f85a789711302f3f60e8c",
+      "block_number": 14267406,
+      "reserve_assignment_sha256": "004f2176c0c87135d3a52228fb19fbe0a69fa55306140e8245b368c4d5302a06"
+    }
+  ],
+  "rpc_authorized": false,
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "recovery3_mutation_authorized": false
+}

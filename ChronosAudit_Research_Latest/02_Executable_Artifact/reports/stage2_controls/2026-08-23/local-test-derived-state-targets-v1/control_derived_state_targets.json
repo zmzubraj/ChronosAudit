@@ -1,0 +1,1391 @@
+{
+  "base_state_results_file_sha256": "18a113a5b0c21c66951c44468f178a175b9f02743413eb62962ad32f73da8252",
+  "base_state_results_sha256": "7e1302fbe0a5a1453fd1b5beb5d0f7af70f52ced7c6343b9f75a4c0a267f6096",
+  "call_count": 56,
+  "complete": true,
+  "counter_authority": false,
+  "decision": "DERIVED_STATE_TARGETS_FROZEN_AWAITING_EXACT_ACTIVATION",
+  "provider_registry_file_sha256": "9788ad91ed55746ffff9144d3d79bf7077fa8618cc3ad810d63c9f183a8d5643",
+  "recovery3_mutation_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_derived_state_targets.v1",
+  "selection_authorized": false,
+  "source_base_state_target_count": 808,
+  "stage_promotion_authorized": false,
+  "target_count": 28,
+  "targets": [
+    {
+      "base_state_result_sha256": "6ff01c6be109ab1833ac6c37569cbca2300f6e736756a5e271f8b835020c0b2f",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "nodereal",
+          "params": [
+            "0x5f1747499199e5720029bd49ec6a7188d221b31e",
+            {
+              "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "nodereal-bsc"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x5f1747499199e5720029bd49ec6a7188d221b31e",
+            {
+              "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-bsc-docs-demo"
+        }
+      ],
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0xb23d47c81449ae42e3286cb914df52b52a3a9230",
+      "cutoff_timestamp": 1773917803,
+      "denominator_record_sha256": "56044c09e455ae0b2647949002fbe11bb8f20aa35cda72a447fcc9293191b2e0",
+      "derived_address": "0x5f1747499199e5720029bd49ec6a7188d221b31e",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+      "evidence_block_number": 87487255,
+      "pair_scope_record_sha256": "48dfa14ec8e0725f20f78030ce03b34d8873c6a422931bb53b49e0a0c21e05c5",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:1eacfd52474028ffb0090fa34b2b1bc5aff0841802c00fb4e1cdc267fbbec63b",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:1d58378cbc92f305554f9cc095619ea85045ced87e160f99317a92d084c50a90",
+      "target_sha256": "1060d2e904f7ec79dfd30a862956502f2498809e36b3a75473d9f862bcf81803"
+    },
+    {
+      "base_state_result_sha256": "aeba005327a8790b1024d2aa134805a4b2d10673c31b50dbb6fb4c8a92cd7b9a",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "nodereal",
+          "params": [
+            "0x7624c574bf993e74079daa58647b2e918ecaa79a",
+            {
+              "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "nodereal-bsc"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x7624c574bf993e74079daa58647b2e918ecaa79a",
+            {
+              "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-bsc-docs-demo"
+        }
+      ],
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0xcf3941da9d7bb34f78b4d8917941c9af008eb479",
+      "cutoff_timestamp": 1773917803,
+      "denominator_record_sha256": "019bd15e868213cbeee1caf64fc9d7bf3bd98daac16ced130511b1f3c1f6fef2",
+      "derived_address": "0x7624c574bf993e74079daa58647b2e918ecaa79a",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+      "evidence_block_number": 87487255,
+      "pair_scope_record_sha256": "9e9e739a3ce1e01b27c9e67311ab7a41a172f768d541c8b7dfb2bafa99583312",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:d32dcf8a8854f19b136495b2f5fc8d0a956fb3c4458eb413f51f0d79648f0bd6",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:d2ad5be938f7d21594624ab09264a226db26367d8c6d79df712bb2633c60c560",
+      "target_sha256": "664ea715c789cb8316d313372feed239fd17fe124881bd6b0253f135722828e5"
+    },
+    {
+      "base_state_result_sha256": "518d02e0a28aa845529362277b4fa1524b8f76173642a2adf5af123713421a2a",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "nodereal",
+          "params": [
+            "0xf2049f8e445c4bd4920668d992271a63acbad0a6",
+            {
+              "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "nodereal-bsc"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0xf2049f8e445c4bd4920668d992271a63acbad0a6",
+            {
+              "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-bsc-docs-demo"
+        }
+      ],
+      "case_id": "ATMBlindBox",
+      "chain": "bsc",
+      "chain_address": "bsc:0x339e1ab2d5a3ce2b36b0abb1729ff4c347f7a7dd",
+      "cutoff_timestamp": 1773917803,
+      "denominator_record_sha256": "c9aa62d1feb66935ce7e5a8e33a67cfbea39895d2e1f27c4b9092c0cacb99564",
+      "derived_address": "0xf2049f8e445c4bd4920668d992271a63acbad0a6",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+      "evidence_block_number": 87487255,
+      "pair_scope_record_sha256": "14670cb9c6a000cefacb91671333ce003787e79a583d2f8b717ca7c6f805f88a",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:19390921b5dbe036ddc724f1818930f7d62d3620373b2d93621491d7eb9de16a",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:91899f148f68794b92c15087eb74ab2a065b933aa12476f8c5d1f08f18605f4a",
+      "target_sha256": "b214d8628c7263e58b8f494d47bf3f7830f3d7e2a429e3901087ad4804a33e44"
+    },
+    {
+      "base_state_result_sha256": "c4fa9391f0ccef5b3695c61fb3054c895f38d4ddcb4160955ffb1487b245cea1",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "base-official",
+          "params": [
+            "0x7071afcb26ee389681c0d9245ed11d670506aa24",
+            {
+              "blockHash": "0x27cd005df4823121f894ce9407bbbfda6872e43ac30a910d5a5203d17c9ceaca",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "base-official-base"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "tenderly",
+          "params": [
+            "0x7071afcb26ee389681c0d9245ed11d670506aa24",
+            {
+              "blockHash": "0x27cd005df4823121f894ce9407bbbfda6872e43ac30a910d5a5203d17c9ceaca",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "tenderly-base"
+        }
+      ],
+      "case_id": "BaseBebopSettlement",
+      "chain": "base",
+      "chain_address": "base:0xa7a32ad53653efd60f435303151ce6e9c5e9266b",
+      "cutoff_timestamp": 1734713391,
+      "denominator_record_sha256": "3b6bf0ab04162143d9001ca81c1af7609d90beb59c0d6020d030cde11a2b7ada",
+      "derived_address": "0x7071afcb26ee389681c0d9245ed11d670506aa24",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x27cd005df4823121f894ce9407bbbfda6872e43ac30a910d5a5203d17c9ceaca",
+      "evidence_block_number": 23962022,
+      "pair_scope_record_sha256": "5c5325f0d01b5c1822f5360e33c92392243ebf503951b41c0542d6bb7e771d24",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:5963af213b48d13c59cadfa7a04c68bde32f91a51f4dc93f64a0119bb8f4bfd0",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:588149b1b6d05090d70b5f0fc1109d3a04f50780c91a3e37f100dbc5ce188b0b",
+      "target_sha256": "3ae5262d4ade9fe40d6ed5dc38212318dca51cdc5432ac61570702cd12556dd9"
+    },
+    {
+      "base_state_result_sha256": "bced88c7e74a110715f40814cea4637065899229eb00b39672a31221153a5e4a",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "nodereal",
+          "params": [
+            "0xd4eb7d0664f16225faeeb746e5eb753f0b64dd15",
+            {
+              "blockHash": "0xb26d6da7ad91354a9946f6b01a094d1db9578ad395e3689eb9d7b33b2a0a34b6",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "nodereal-bsc"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0xd4eb7d0664f16225faeeb746e5eb753f0b64dd15",
+            {
+              "blockHash": "0xb26d6da7ad91354a9946f6b01a094d1db9578ad395e3689eb9d7b33b2a0a34b6",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-bsc-docs-demo"
+        }
+      ],
+      "case_id": "DLMC",
+      "chain": "bsc",
+      "chain_address": "bsc:0x9cdd2e39e72a207c1b961b0937501f563a40da07",
+      "cutoff_timestamp": 1777382332,
+      "denominator_record_sha256": "eb433716c3a8449e81940da1b21111efd0d4cd874f6c65401c37cdd11a81cde1",
+      "derived_address": "0xd4eb7d0664f16225faeeb746e5eb753f0b64dd15",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xb26d6da7ad91354a9946f6b01a094d1db9578ad395e3689eb9d7b33b2a0a34b6",
+      "evidence_block_number": 95177359,
+      "pair_scope_record_sha256": "bdc268792d0431f6781815058b1fe812c49aa22a8e6b1a594960b6232174243c",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:f849fc177620e79dbdc641a917eef0346df6bd09d08539d8ca43681d8e4c913c",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:128c390ba6e778dd3bc547ede1e25e5296955d73c40d38c6ddacdb6dcc512f06",
+      "target_sha256": "5113ad1bfaf255eff8f1bea32f546bb108110aea8d0b6bb30db354deabe6a16e"
+    },
+    {
+      "base_state_result_sha256": "60e150bbf2c50d059f102c0299c1f5210076455f684ffd41aff156037e1c7b61",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+            {
+              "blockHash": "0x5bbf83f319fac8be18aef03546c0809fe4a40da6ad717052d927057ad136e037",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+            {
+              "blockHash": "0x5bbf83f319fac8be18aef03546c0809fe4a40da6ad717052d927057ad136e037",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "MEVBOTa47b",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x33a5308e8831ef208a0ac4dc583ac900f0f9e413",
+      "cutoff_timestamp": 1648897184,
+      "denominator_record_sha256": "7a87f21366e22b6e22f977474dcb1ee25dbefbdaeeb9b02dbe9d941c0e2968bd",
+      "derived_address": "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x5bbf83f319fac8be18aef03546c0809fe4a40da6ad717052d927057ad136e037",
+      "evidence_block_number": 14506342,
+      "pair_scope_record_sha256": "d925fee61dab0ea2cae7547ce0ba728fa0ab45c8432521e5c46fb59a14345b21",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:b5ab0968ae88782bb3aefef8f307b720494e4f3b53d7880f0d2d2240ae916a36",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:0aeefbe4551e66afe6a18647e95b7c75b93e1f62992b1c5e20e48969579c58d0",
+      "target_sha256": "52683af77b9325c63870786dbb6c5d0c8d782facaea2bdcdf0d0f1faad1025fc"
+    },
+    {
+      "base_state_result_sha256": "8acbc79300fd3f5029313881635c74d691eba3e96a1f3308f84efdba8c4c88f2",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "nodereal",
+          "params": [
+            "0xac62f8998f52de38750502e77cd33f7d151a11a6",
+            {
+              "blockHash": "0x1f8689430cd5197ddc620c02f2498a0448492fb6a02bbeec9e16e9783cd0bf1f",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "nodereal-bsc"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0xac62f8998f52de38750502e77cd33f7d151a11a6",
+            {
+              "blockHash": "0x1f8689430cd5197ddc620c02f2498a0448492fb6a02bbeec9e16e9783cd0bf1f",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-bsc-docs-demo"
+        }
+      ],
+      "case_id": "MFT",
+      "chain": "bsc",
+      "chain_address": "bsc:0xe0d3325448c796ea645992c406809a1237772a23",
+      "cutoff_timestamp": 1731303960,
+      "denominator_record_sha256": "5519a701c68dbbd6a073d4a9ef354ae0dfc8a8101537661173630eaaf2c595a9",
+      "derived_address": "0xac62f8998f52de38750502e77cd33f7d151a11a6",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x1f8689430cd5197ddc620c02f2498a0448492fb6a02bbeec9e16e9783cd0bf1f",
+      "evidence_block_number": 43907746,
+      "pair_scope_record_sha256": "7b65c76f41e0b17cae52df9374154847d81d3d5f47f0664981a40d925cf20ff8",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:43ff5b75e8c21b986a46654f92210eeaf80ad061e84e1a20bd23ef72a90332f9",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:e5a006d8bc0e723bed922e4b5224565341be44b2e23235e42f462d632a61d10e",
+      "target_sha256": "0921d50e809ad1ab2c55bb54dc4ed51a99ed2fd7afca3e07b1814db408e4722f"
+    },
+    {
+      "base_state_result_sha256": "596c2af303c42fe1be2c2dec2c96505bf381c2dbfe27acc51fc34e3dfd3926f8",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "nodereal",
+          "params": [
+            "0x5e2c8284c256f5a122073f9327a955d074efc58a",
+            {
+              "blockHash": "0xdd527242c447c2644e5bffe595ee0178cdbdcedd0d884d598378e7c48cd13964",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "nodereal-bsc"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x5e2c8284c256f5a122073f9327a955d074efc58a",
+            {
+              "blockHash": "0xdd527242c447c2644e5bffe595ee0178cdbdcedd0d884d598378e7c48cd13964",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-bsc-docs-demo"
+        }
+      ],
+      "case_id": "MyCoinMaster",
+      "chain": "bsc",
+      "chain_address": "bsc:0x23376a3d6494ca8286fc588d33d070e04e029893",
+      "cutoff_timestamp": 1753525601,
+      "denominator_record_sha256": "6c1ad99c3f026cdf15af86de9d679e69ab27355989796d15d078f2bf7f8ff1c9",
+      "derived_address": "0x5e2c8284c256f5a122073f9327a955d074efc58a",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xdd527242c447c2644e5bffe595ee0178cdbdcedd0d884d598378e7c48cd13964",
+      "evidence_block_number": 55370183,
+      "pair_scope_record_sha256": "3d2e17310d62f028ff2f5789b067f582c087aae55d95df25e809898663cea4a2",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:d8216e1bc4d0251d771dfd13db0d68899e7f6ccbb81ed863f99c4a2660c721ed",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:7bb0dada56b9a8e4376a7f9c218fb9b158d09a75f266c3dc6978e611de9730ac",
+      "target_sha256": "bc8ecb4b410fca0f8c4c77f68843708175c1c1e2ea30c9654fdc2d4fef64e252"
+    },
+    {
+      "base_state_result_sha256": "2058c54fbe2d9e2c53794131e4bd0a146c6b0b718029ce53b48debcf7384aba0",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+            {
+              "blockHash": "0xe59e1b4f924bbf033a23e1f24e7a9c438c918db64cc7ed2d109555b401f41618",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+            {
+              "blockHash": "0xe59e1b4f924bbf033a23e1f24e7a9c438c918db64cc7ed2d109555b401f41618",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "PegaBall",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xdd7380b0bd859a2d757a9e4371f9f0b9e48135de",
+      "cutoff_timestamp": 1705298951,
+      "denominator_record_sha256": "2728d96c05540205c30a1ca1899a222dc703be0cbd10bfcb1b897b8849899591",
+      "derived_address": "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xe59e1b4f924bbf033a23e1f24e7a9c438c918db64cc7ed2d109555b401f41618",
+      "evidence_block_number": 19010400,
+      "pair_scope_record_sha256": "a6a4865ea957792ee86d3ac5f92422d027b4b704921a62cc7e8a78da9b0ae080",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:f1d3b72b4fdace03fe2f1306f5d92cccc239f3d95c89f3c67c4095a3ba5b7abf",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:c4c292cb310ccd9cf0a70f25bb1dd0bdbd91482ae35941a73309d754182bcdcc",
+      "target_sha256": "7b05e2a4dd357b6943c9615d28a1ac4dc63c6379212b5125d04283497063ee87"
+    },
+    {
+      "base_state_result_sha256": "71f275931627078d5f139a7f85bb5d6cababef65fda9641250b352499af0ad88",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x45e039fa10c9540a6323f654484329775e7476fb",
+            {
+              "blockHash": "0x2c977398383676d9c49423f94810b6f9347230078e2cecbcc5494018d2ddc43e",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x45e039fa10c9540a6323f654484329775e7476fb",
+            {
+              "blockHash": "0x2c977398383676d9c49423f94810b6f9347230078e2cecbcc5494018d2ddc43e",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "ZeroExSettler",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xcebf1a54a9ce703fc80967760b5a6cbdb4111099",
+      "cutoff_timestamp": 1738376783,
+      "denominator_record_sha256": "e807dbcb6c56dd7110366812baa6a4fd829782bf557a4154593600dd82b0af20",
+      "derived_address": "0x45e039fa10c9540a6323f654484329775e7476fb",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x2c977398383676d9c49423f94810b6f9347230078e2cecbcc5494018d2ddc43e",
+      "evidence_block_number": 21748676,
+      "pair_scope_record_sha256": "d52998ad74c583d22839271ef53ddac6d51067e673a15518fe2c73d8d2284fe3",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:5102d41642ff8dd6afd6c261fc436723b292dac0426b96bc894cff96413cb094",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:3c19a86b8544b924c9bbee0e788ee6c38cdf82bb9226eda0a8fada558b4e6b4a",
+      "target_sha256": "736d031ee69411feae1ea1e48661db0a7435afbc42e0a50f9031c61b97a603de"
+    },
+    {
+      "base_state_result_sha256": "27f40df8ac79b57ae5759c33b9b06c927cd92f5a906c8c7633f770f1356a1353",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x5c67531524201d0a774405827ba4c2de15781dd0",
+            {
+              "blockHash": "0x919c350b9bcc04569c7b3e5cd6a8bbcca3add8ea61323b3747c01dd2fedb1608",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x5c67531524201d0a774405827ba4c2de15781dd0",
+            {
+              "blockHash": "0x919c350b9bcc04569c7b3e5cd6a8bbcca3add8ea61323b3747c01dd2fedb1608",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "affinedefi",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xe3a6f8aedc857c810ff3bcc70ae37da670e282b4",
+      "cutoff_timestamp": 1701597851,
+      "denominator_record_sha256": "6827d506305ef2705a2a0339e872d7b7d827b30d2b37c10be15ac7ce5333c541",
+      "derived_address": "0x5c67531524201d0a774405827ba4c2de15781dd0",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x919c350b9bcc04569c7b3e5cd6a8bbcca3add8ea61323b3747c01dd2fedb1608",
+      "evidence_block_number": 18705149,
+      "pair_scope_record_sha256": "7143bb67d8b02a750837ad184040ffc45a6aa458b890a40ff329c2c7ab49cbc8",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:ac8063c7299ef62b5019b1ad2344a0a9ebeaa091d95dadc4022fc48f3cc71425",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:4b1eed3f31dfda12dfbdce5441df5a877b8eb8e08e4b9978fc89957e2cd2058a",
+      "target_sha256": "d365221829c462d6bbe28a2e33f106457762202319758afe2ded36d4d0c1738b"
+    },
+    {
+      "base_state_result_sha256": "be96def74215f7faf3938357d898c6a59e3cdd0987fba37d86c6896bfce7ef69",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x8046391acea805deaaad9e3cfbaac96cc17c053e",
+            {
+              "blockHash": "0xd1e10f48a420a607c602de6346008956dc021ff68b9533f91dbe5fc4cddfe6c0",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x8046391acea805deaaad9e3cfbaac96cc17c053e",
+            {
+              "blockHash": "0xd1e10f48a420a607c602de6346008956dc021ff68b9533f91dbe5fc4cddfe6c0",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "alkimiya_io",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x172918f0db81f89178542a66173902920db6996b",
+      "cutoff_timestamp": 1721074163,
+      "denominator_record_sha256": "69ac577e16426f54b471a7dab3d4c64aca3bbec84fa73d953bc91f89770a2230",
+      "derived_address": "0x8046391acea805deaaad9e3cfbaac96cc17c053e",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xd1e10f48a420a607c602de6346008956dc021ff68b9533f91dbe5fc4cddfe6c0",
+      "evidence_block_number": 20314203,
+      "pair_scope_record_sha256": "c338453b7b1de2ef319729c878163570fe14c0a2ab7ef867b94c8b0d141496de",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:0ab705d262af70a5d874dc2543b0ca687096dadafc1bf4a79a503e8b52ab94c5",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:b4125df39210e97c40e93f0f44203e6a7916e70f6ce24716bd44b67c95a16ba4",
+      "target_sha256": "9cf55409a269417c52b02cbc2265a3f1ab1d5d8e0be74c7b31b652e864ee9c3a"
+    },
+    {
+      "base_state_result_sha256": "f7724b6250c7587302c753c832d9430c58920436a3fc16a34cad5b8563a3704f",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+            {
+              "blockHash": "0x407055826a1211c9b7baa1193962b23584089c9bd857bed2e494b1f99140f038",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+            {
+              "blockHash": "0x407055826a1211c9b7baa1193962b23584089c9bd857bed2e494b1f99140f038",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "barleyfinance",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd31f7c7c04e3288fbb88054adf552ffeb5f85616",
+      "cutoff_timestamp": 1706360075,
+      "denominator_record_sha256": "f779cffa3ba30df64e9e77a75c90c9b19b440b557dd83ca78ad5b8e748b8e446",
+      "derived_address": "0x5133522ea5a0494ecb83f26311a095ddd7a9d4b6",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x407055826a1211c9b7baa1193962b23584089c9bd857bed2e494b1f99140f038",
+      "evidence_block_number": 19098045,
+      "pair_scope_record_sha256": "f409f6d38a109bf7d5ae2055c08c41af3fbefebdeb118d50f413762f409c5dfb",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:e1e1b25ad0fb7e109803f5b18e4e92aba79db6424c8ac1c8a0e4c9d3c40ddb83",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:d38c031f817a6825c33c734ab568e91d398ac0942f580aea5dd627efd0567b05",
+      "target_sha256": "a63f03c8152775354a140492d27586f8bb3480ae3a10288a6b83a8dbf760c105"
+    },
+    {
+      "base_state_result_sha256": "173497fe197fbc297c26c45b5bf48b8c210ca2d458ca2da71ee68e3a98d4cc83",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0xe9ff7ca11280553af56d04ecb8be6b8c4468dcb2",
+            {
+              "blockHash": "0xc1691c5517fc694b03ef0b5467e50bdeb1cb63c99518e9ffe4c3e44b3f4ea691",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0xe9ff7ca11280553af56d04ecb8be6b8c4468dcb2",
+            {
+              "blockHash": "0xc1691c5517fc694b03ef0b5467e50bdeb1cb63c99518e9ffe4c3e44b3f4ea691",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "conic02",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x82035b909b8093433b1a07b0b81b14a016d1ee60",
+      "cutoff_timestamp": 1686343259,
+      "denominator_record_sha256": "5af4a93c499a000ea73fb2beb2739a935066f13606b1c25300ca5d9f663e7472",
+      "derived_address": "0xe9ff7ca11280553af56d04ecb8be6b8c4468dcb2",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xc1691c5517fc694b03ef0b5467e50bdeb1cb63c99518e9ffe4c3e44b3f4ea691",
+      "evidence_block_number": 17445100,
+      "pair_scope_record_sha256": "f98909ec8c196a08b9262dea35bc0ec9b11980891f9c8874edb90e0db6c926cd",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:3caf9297301d6ce1c3149f4aa5d4ddb16c0fe9f468914416b076a8034eb44077",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:d47d7ff59715ae2d287dc5528e9c6669012dd30e8767902057cd36110b354b1c",
+      "target_sha256": "c3e5764cec7443967bd66e5ca044e5cb7241af3e2cbaea7a0d2586c5499ee46a"
+    },
+    {
+      "base_state_result_sha256": "554dc342f482cde6f1cc9aead31e2fd58e411a8add192e9599a8526dedd6cb2c",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x6bf5ed59de0e19999d264746843ff931c0133090",
+            {
+              "blockHash": "0x73ecd485b8f8097f5bba14f2f7e3e34e61956ea6012a9a684e7abcdf9b64f8bc",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x6bf5ed59de0e19999d264746843ff931c0133090",
+            {
+              "blockHash": "0x73ecd485b8f8097f5bba14f2f7e3e34e61956ea6012a9a684e7abcdf9b64f8bc",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "dexible",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x11db5eb043c7572a819edef35f51a4f4da906011",
+      "cutoff_timestamp": 1676568707,
+      "denominator_record_sha256": "ce41bda43f6e93ae4f90de10623643a4f733ca7d61bb3d8129a38a8240d12fa2",
+      "derived_address": "0x6bf5ed59de0e19999d264746843ff931c0133090",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x73ecd485b8f8097f5bba14f2f7e3e34e61956ea6012a9a684e7abcdf9b64f8bc",
+      "evidence_block_number": 16642799,
+      "pair_scope_record_sha256": "5f0d93f7fc6d901b25d22981ed0d3ebd072e5baa906d330cdcfd17d7a225067a",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:b2949598ed0825974c18a21f1a9936a7d9a08658720fb4a383c8a4bef8685949",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:e92d62350dc9b6e80ef0a491276db2e082ff964d260912eef0dffca6abf26852",
+      "target_sha256": "0faf04c1cc86c898725bcb3b5c3bf4ea7a6c278bfeae04bdb61255b510c5f5fe"
+    },
+    {
+      "base_state_result_sha256": "328a5e6c779f245e27dd8095af5e7e6004c50556280fca518d7b7773f95a560f",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0xe4e4003afe3765aca8149a82fc064c0b125b9e5a",
+            {
+              "blockHash": "0xad5597626ba0916841f8a8cd06d39cb63ba6606a9d651c917dc5f9b79d35f860",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0xe4e4003afe3765aca8149a82fc064c0b125b9e5a",
+            {
+              "blockHash": "0xad5597626ba0916841f8a8cd06d39cb63ba6606a9d651c917dc5f9b79d35f860",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "dfx",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd92c2f734f6c25e2a3f1cc6a918080dd514e1c8a",
+      "cutoff_timestamp": 1665852287,
+      "denominator_record_sha256": "0e71e90a01cef27110e731ec38fa71680cf22602e6c4d2d37a6ee7f69cd23f61",
+      "derived_address": "0xe4e4003afe3765aca8149a82fc064c0b125b9e5a",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xad5597626ba0916841f8a8cd06d39cb63ba6606a9d651c917dc5f9b79d35f860",
+      "evidence_block_number": 15754794,
+      "pair_scope_record_sha256": "d73ba6994f9c2c9b5d277ab04a315438e3b8c621873bfc6b1605768df8e5c393",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:130742614ea86d4287e432367bc208171163e405dbec8a29a43e0ce3420f79f8",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:55a432de5a97af64e224ca3c52f4f0df308f0a5722e366852dd3100efe580ea2",
+      "target_sha256": "2578b32de4107f2c470d955b21a361401d974a7b3d068b5bd755c85df3e0a6c6"
+    },
+    {
+      "base_state_result_sha256": "750205fe4d95e6ffe572d8af0fc29b6fe96ffb2c954c5c201e4e40de76e5290e",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x5bc2be2b32fc806e731ce5e14cf0fb6be3e0569d",
+            {
+              "blockHash": "0x85118b563460bfa8d9de0429caa284a8be221b202403ebf5df499039b1fc4902",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x5bc2be2b32fc806e731ce5e14cf0fb6be3e0569d",
+            {
+              "blockHash": "0x85118b563460bfa8d9de0429caa284a8be221b202403ebf5df499039b1fc4902",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "meta_pool",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x2e91342cb348301b8b6572df8dc4dd068fc6ed31",
+      "cutoff_timestamp": 1689373031,
+      "denominator_record_sha256": "ee93091d2e264f4a2c8bd3355ed89135ab11eec2be72316dfa8251e1974ec080",
+      "derived_address": "0x5bc2be2b32fc806e731ce5e14cf0fb6be3e0569d",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x85118b563460bfa8d9de0429caa284a8be221b202403ebf5df499039b1fc4902",
+      "evidence_block_number": 17694605,
+      "pair_scope_record_sha256": "c57000a2897481847bb0938a27d657595f22e72b2ce508e8934d8faa997f4610",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:45f8c2db912b8cbc7c7838323267e0927f88b4f1b614006c72b744385762c176",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:7efcaedc49e14f670bd5324059f88340c7f3fe7218e3ed85e86743b8271077f6",
+      "target_sha256": "1ec1224d199bfe681f96a2f790155be2591f1007d24e5bed429a8d8c66b3c6ca"
+    },
+    {
+      "base_state_result_sha256": "399d70b39b1b70897dab54058eabd4e97a1be4c90712085ba21bae335a6053d8",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+            {
+              "blockHash": "0xbfde2dd85b8f7c510da715ec8a0f1b73f975f919e9adeb6c43682029170025c1",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+            {
+              "blockHash": "0xbfde2dd85b8f7c510da715ec8a0f1b73f975f919e9adeb6c43682029170025c1",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "mimspell",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x6300feedb0f6c36f988980fe4130ec0f0b43c60a",
+      "cutoff_timestamp": 1674673331,
+      "denominator_record_sha256": "9a527fe6d8f5af10a8ba190c3600f792ec01e7ab314db01230605afabfb289df",
+      "derived_address": "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xbfde2dd85b8f7c510da715ec8a0f1b73f975f919e9adeb6c43682029170025c1",
+      "evidence_block_number": 16485793,
+      "pair_scope_record_sha256": "50d41923dfc0d51a813618e8e43a5fd068d91ae71c6b72661f340b5d02e99f11",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:f7c8b685b61f63b3e31fd3beeaa2da4663e3387fda4fb29e17948bcb1c24874b",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:ca0ad8d742d20e82adc244c5c9126b782f4bbae4e668869ace45a50d450b0f0e",
+      "target_sha256": "6d7ac35d04f7b10c2e559a86cc2a159dcd5254b944ac559a0a2ef0cc598747ba"
+    },
+    {
+      "base_state_result_sha256": "1005a3103b050fae20957413822083a3118e11701972dd953348a537730cb13e",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+            {
+              "blockHash": "0x9f6ef0a54ed997199165f674d290ae05467d909f961bb1772d147758333b9ae8",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+            {
+              "blockHash": "0x9f6ef0a54ed997199165f674d290ae05467d909f961bb1772d147758333b9ae8",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "onyxdao",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd2e4153c94e18efa03f5e3431d3b829983511a39",
+      "cutoff_timestamp": 1677684779,
+      "denominator_record_sha256": "160453a625dd2bbb71acb6718fff2cad3888ea548feb5fc9efee1f6612e750d6",
+      "derived_address": "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x9f6ef0a54ed997199165f674d290ae05467d909f961bb1772d147758333b9ae8",
+      "evidence_block_number": 16734681,
+      "pair_scope_record_sha256": "5f1e40f3628838c335f70f3c122197a54137aace1884f9533c9c3fc6b00790d3",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:1a533ec7cb039b980bc4a29d95ccb899fc5b5c585313c761044c5db82226abf2",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:c06da8146baf6773d09bcf9b03688b3719f4369c5400afbb01996ad4058f2ff3",
+      "target_sha256": "d41d75684db9f761816ce0044d5ae66cebeaa07e16c7c5239d82cb9420d8da48"
+    },
+    {
+      "base_state_result_sha256": "18695392a9ad51eef6a8f5d1693be2f4f019457c71406d3436255f0623213a41",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0xce2b86550d3925c5588020ec003773bee38fd03c",
+            {
+              "blockHash": "0x28fc0e29f68e31c95559958c1070ab57c556d6ad4663ff1e0ceda95fcca27870",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0xce2b86550d3925c5588020ec003773bee38fd03c",
+            {
+              "blockHash": "0x28fc0e29f68e31c95559958c1070ab57c556d6ad4663ff1e0ceda95fcca27870",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "pawnfi",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x6732efaf6f39926346bef8b821a04b6361c4f3e5",
+      "cutoff_timestamp": 1685941415,
+      "denominator_record_sha256": "bc24fba6419d6ae07fdbf693e5d14d859a0eba03eec804bb95833b9cf445e0f6",
+      "derived_address": "0xce2b86550d3925c5588020ec003773bee38fd03c",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x28fc0e29f68e31c95559958c1070ab57c556d6ad4663ff1e0ceda95fcca27870",
+      "evidence_block_number": 17412133,
+      "pair_scope_record_sha256": "6eb13b8e97203ebd9ed3e99040c6bd6a66be523f8b9815be39fd896bacf9ef58",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:e326361cc70cf42e4c6b0eba2e49e5e13f768545591f8708403127da7d8a8367",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:7a53b2d1cf3f0d633b9116b466ebdd67695498f48626956e984bb8ea19ec037e",
+      "target_sha256": "e1e39eed5ccf428af3fb7589e7fd81a4f7bb0f037b1214f73774fccef71f1980"
+    },
+    {
+      "base_state_result_sha256": "63d75423f5978eef69274c2ff9a57d01116ec323bca640b101c840152e9b8498",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0xc1e97d3fc2810577289ee35e895a4f0e59481700",
+            {
+              "blockHash": "0x625b2e0d0cdf6f7d33ec8eadc85f376efc49d9dfb80bda00e9796f0078ba36c7",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0xc1e97d3fc2810577289ee35e895a4f0e59481700",
+            {
+              "blockHash": "0x625b2e0d0cdf6f7d33ec8eadc85f376efc49d9dfb80bda00e9796f0078ba36c7",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "penpiexyzio",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x2f167f26f2b92ba6f58237eea26504a52ed86a3b",
+      "cutoff_timestamp": 1685962259,
+      "denominator_record_sha256": "935b70768d3464d5cd5114d0b0d9773e4106c89a22339ecd81b65f850a92fef6",
+      "derived_address": "0xc1e97d3fc2810577289ee35e895a4f0e59481700",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x625b2e0d0cdf6f7d33ec8eadc85f376efc49d9dfb80bda00e9796f0078ba36c7",
+      "evidence_block_number": 17413840,
+      "pair_scope_record_sha256": "0953e386f66d0bc87dfafe9d1cf356e4d1530c06757c189555cb695ac1bcb1c3",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:8095b94a8bdf66139491fa3a6ee5c4801ad6c35c6ee848e0f56a07d6c31da380",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:1daee581754f6ddff455160fdb64ab2d73a1a41c9740ce79cd92073629448431",
+      "target_sha256": "e2c365f93ef3d3c53e9bf31bea4c29cfe178ab9dde534b3a407b9d99d7f49111"
+    },
+    {
+      "base_state_result_sha256": "2dc3dac77f676fbc80eca9b56b90447582944076295baf9186b2dafc266b2f88",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x3760415893f05e8009bf7d8f7817fdd94674a8f5",
+            {
+              "blockHash": "0x5aa836d122851235b4ec51a477d49fb820da8e2da3142cd2bc7c6421f73fb77c",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x3760415893f05e8009bf7d8f7817fdd94674a8f5",
+            {
+              "blockHash": "0x5aa836d122851235b4ec51a477d49fb820da8e2da3142cd2bc7c6421f73fb77c",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "pineprotocol",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x899f084adffae6387ec0244924342795afb0160a",
+      "cutoff_timestamp": 1673553563,
+      "denominator_record_sha256": "d419b73a519c0377e7263903362f9c854df75b8bab743eec0ca6d102d66139e1",
+      "derived_address": "0x3760415893f05e8009bf7d8f7817fdd94674a8f5",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x5aa836d122851235b4ec51a477d49fb820da8e2da3142cd2bc7c6421f73fb77c",
+      "evidence_block_number": 16392960,
+      "pair_scope_record_sha256": "65f5fbb60b574e87dfc30112a74601dc50aea7c6dca1cdf913eb6fa3376f644c",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:f5c679082a16d53588b20660b1f65a0e3de7629a93aad0a7eb6dd903156f5675",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:73a65ee3300e28e7178cc921bd244921fcd69d5ebc7355da30dfc0aaa64a6d26",
+      "target_sha256": "c5ccbea3ca02a25024ee34aedbe30e271a455ea9d4e4a734e9bcf07cfa81b94c"
+    },
+    {
+      "base_state_result_sha256": "e25a914a1fb02a13ede84afefcb330261c4f20d60454bdf8d06caa2bb845fa14",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "nodereal",
+          "params": [
+            "0xa4c746125459bf5250a1f80b1e1431bae5c09dd1",
+            {
+              "blockHash": "0x1f885795ab503a7cdef943525def1843ede6e092cd415c710517476bc81b8cc8",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "nodereal-bsc"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0xa4c746125459bf5250a1f80b1e1431bae5c09dd1",
+            {
+              "blockHash": "0x1f885795ab503a7cdef943525def1843ede6e092cd415c710517476bc81b8cc8",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-bsc-docs-demo"
+        }
+      ],
+      "case_id": "stepp2p",
+      "chain": "bsc",
+      "chain_address": "bsc:0x13028c36ec46007e2657f6eddad1c210f13328a4",
+      "cutoff_timestamp": 1746709434,
+      "denominator_record_sha256": "2ef595d7b1fafad2dd3beb262c69833477ab5a2bbf487c06e1d5b7b608879cc1",
+      "derived_address": "0xa4c746125459bf5250a1f80b1e1431bae5c09dd1",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x1f885795ab503a7cdef943525def1843ede6e092cd415c710517476bc81b8cc8",
+      "evidence_block_number": 49310861,
+      "pair_scope_record_sha256": "c5fecb6a6cee5116c6ae693df0f8086d82d1153fed8b8f46d9796c59a65c145d",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:b2b7f30ecda86b1ce44f1847c86567051fdba9a765c7766154164d878706e113",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:e696c966067a7457030a0f954648e40fd24acd1f32f97c673268b10ca18a858f",
+      "target_sha256": "dada18f8b260ea0f039b0d8987de94acd47936efc533236f04c41bd325c543bc"
+    },
+    {
+      "base_state_result_sha256": "6a480f893a0c2e1693d8c9659613711368f67ed5fcf41f52b60788b420690fe3",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x322401fff76dda9cea5595aaa90d062798907bde",
+            {
+              "blockHash": "0x70f5cb054053e7e85d62dabfa4c52be233591753d6ee68f4190cf024aef13f4d",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x322401fff76dda9cea5595aaa90d062798907bde",
+            {
+              "blockHash": "0x70f5cb054053e7e85d62dabfa4c52be233591753d6ee68f4190cf024aef13f4d",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "upswing",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x39527b067b04d43c627fb741848ef2c3f8ead3fe",
+      "cutoff_timestamp": 1601402696,
+      "denominator_record_sha256": "87c0ccb54f47c342f6b58133719b2484a655e7f20bda647251929482970a2298",
+      "derived_address": "0x322401fff76dda9cea5595aaa90d062798907bde",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x70f5cb054053e7e85d62dabfa4c52be233591753d6ee68f4190cf024aef13f4d",
+      "evidence_block_number": 10958857,
+      "pair_scope_record_sha256": "0d28b946f7aa1449f7973df54e31613e427a102e829a9e5766d6801f96a602c4",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:33d8851afd13d29495d144e20a861af993734b8882e3848c96d8d2596aa46a5d",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:d317508053aaa6aef9aa55d60d466cf6675e1a24f35c06a996487e0cf9fff690",
+      "target_sha256": "87441f143a46d01e98e9e4e86e6ba5cff968d483c01e378b12c244f36ff2149b"
+    },
+    {
+      "base_state_result_sha256": "2edb8c4d4fb6b8a7101ee794020f4ab2bcd77cc5497e738c1a64da9d6dba1069",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+            {
+              "blockHash": "0xaebcf1e44fa1774e2effaf182d9a7ca54ae9185d7f2b87c9f36621163319e8e9",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+            {
+              "blockHash": "0xaebcf1e44fa1774e2effaf182d9a7ca54ae9185d7f2b87c9f36621163319e8e9",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "uwerx",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x80191508eb8113fe1320043c871dde0a5abc4633",
+      "cutoff_timestamp": 1675873163,
+      "denominator_record_sha256": "5319e574061f5a75b3618e84666ca607cd7258d00ec0f5fd4041f4d7f1950d1e",
+      "derived_address": "0x2d3fc875de7fe7da43ad0afa0e7023c9b91d06b1",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xaebcf1e44fa1774e2effaf182d9a7ca54ae9185d7f2b87c9f36621163319e8e9",
+      "evidence_block_number": 16585205,
+      "pair_scope_record_sha256": "c9958d120c71f43c009aeb7b4ec4a7df8200c9a3794ce48c31c355c846d623cb",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:cb7b70ed8e19ca169fd54263eb788e7979dac54a44757447d728e1fcaa7262b8",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:5e76093e3e64f7e2dc701e1c765be767228a89e5c18fd090705575f07e2c5c50",
+      "target_sha256": "c2d71d88d96f5366056ce716785ca9cc49baed8d8c0c4e5f4fe8821fa8772bed"
+    },
+    {
+      "base_state_result_sha256": "70853b5324a3968b41a7bd27a465904fdc22d2314d8c414f2b5f632c0ebb91df",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x55a37391aef427696216c140927f94d9d5a1328a",
+            {
+              "blockHash": "0xbe53597ee0ab6c24318b6344ca5ae261aab72f02de3c2629ffb9170da44718b5",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x55a37391aef427696216c140927f94d9d5a1328a",
+            {
+              "blockHash": "0xbe53597ee0ab6c24318b6344ca5ae261aab72f02de3c2629ffb9170da44718b5",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "uwulend_second",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0x7a7680767a4e41ace578470d8b0eb1ff97b0c023",
+      "cutoff_timestamp": 1663692947,
+      "denominator_record_sha256": "27471b27736ae529479b4ef0cf669f7e8188874f1c0c4d265b4cf404c1d26104",
+      "derived_address": "0x55a37391aef427696216c140927f94d9d5a1328a",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xbe53597ee0ab6c24318b6344ca5ae261aab72f02de3c2629ffb9170da44718b5",
+      "evidence_block_number": 15576015,
+      "pair_scope_record_sha256": "bf4507de8ce482cdd29e4cc4d6b42a63d57906c4a9d124c1f409ec9ba3c0d471",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:4d3687a19ee739c12ee43c2b5448a2660ad22f24b6c6d9bc6e46d6aea3cc5f8c",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:bc33f2c213b39328a162dbdfcb1818913a995475e2787ac70e6ca4a5dc1a5c05",
+      "target_sha256": "b64b4498cdb236cdfabda8929b7957959c0bf0feb3fbfa939a8deef8df452ce5"
+    },
+    {
+      "base_state_result_sha256": "6289f9209b649e59c9fca39701b2cbbe37cc63c63f10233f95f6e344dfc3fb98",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "drpc",
+          "params": [
+            "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+            {
+              "blockHash": "0x61cc09b96b378dba4e6ffc38d28ffc9d927d9b8df72e01593e7b1a010d23fc3c",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+            {
+              "blockHash": "0x61cc09b96b378dba4e6ffc38d28ffc9d927d9b8df72e01593e7b1a010d23fc3c",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "case_id": "xcarnival",
+      "chain": "ethereum",
+      "chain_address": "ethereum:0xd7bc41f205679c3f056a1bd2857409e74baa03c6",
+      "cutoff_timestamp": 1654519437,
+      "denominator_record_sha256": "a49b92063559842014328be228d48986e18fb2ad99be6fb2b51e380c73372bd9",
+      "derived_address": "0x142fd5b9d67721efda3a5e2e9be47a96c9b724a4",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0x61cc09b96b378dba4e6ffc38d28ffc9d927d9b8df72e01593e7b1a010d23fc3c",
+      "evidence_block_number": 14915041,
+      "pair_scope_record_sha256": "ac9a8eb5bc11ac484d96579675cb379711c4bb9d0280dc92be2aacaaf1e9a929",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:173f3df7fb086005e7829f0985d4fdbeb6f06674bb3b5dd328b602ee15cf53a3",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:6e68dadc25a0a851008248898ce787096e823ca25e05dfad579aec66b0ac866a",
+      "target_sha256": "a36164b700d874c04c1a1b7304793f1a180652eba094b5fa20127f822e7d053d"
+    },
+    {
+      "base_state_result_sha256": "8cdc1fcb4ec675bb2bc811952c004cd2459fcf2ac101a5bf873f78d6a323382a",
+      "call_count": 2,
+      "calls": [
+        {
+          "method": "eth_getCode",
+          "operator_family": "nodereal",
+          "params": [
+            "0x18484279924218442f3a8aa61500f57270a3bf8b",
+            {
+              "blockHash": "0xe270599c7491801f3b56d376a229d2d6adffbbeba2f24a2f5d98cabecd93e0e1",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "nodereal-bsc"
+        },
+        {
+          "method": "eth_getCode",
+          "operator_family": "quicknode",
+          "params": [
+            "0x18484279924218442f3a8aa61500f57270a3bf8b",
+            {
+              "blockHash": "0xe270599c7491801f3b56d376a229d2d6adffbbeba2f24a2f5d98cabecd93e0e1",
+              "requireCanonical": true
+            }
+          ],
+          "provider_id": "quicknode-bsc-docs-demo"
+        }
+      ],
+      "case_id": "xwin",
+      "chain": "bsc",
+      "chain_address": "bsc:0x7fd7a7f515f11123203371377dcd95ec6f3ce707",
+      "cutoff_timestamp": 1613478145,
+      "denominator_record_sha256": "12ce9c418febac75af1479ac7ae81549973d9c766902bf3f8b2dfef0d0e9708d",
+      "derived_address": "0x18484279924218442f3a8aa61500f57270a3bf8b",
+      "derived_role": "direct_implementation_runtime_code",
+      "evidence_block_hash": "0xe270599c7491801f3b56d376a229d2d6adffbbeba2f24a2f5d98cabecd93e0e1",
+      "evidence_block_number": 4930788,
+      "pair_scope_record_sha256": "e9c4b7b25db484975e24879a79e5c5e0e4b4b37ab0c6163c13cb9952cfa32ec8",
+      "phase": "RESULT_BOUND_DERIVED_STATE_READS_ONLY",
+      "recovery3_mutation_authorized": false,
+      "rpc_authorized": false,
+      "schema_version": "stage2_control_derived_state_target.v1",
+      "selection_authorized": false,
+      "source_base_state_target_id": "base-state:e816dbfc7ece04fe77aaf6b897544d55224e5e330bdd57fbf0cdf04d9dadef44",
+      "stage_promotion_authorized": false,
+      "target_id": "derived-state:b868e8c6e3ad97306a9238512a0b20eee6cb91c9d119fbfbf7e0eb24e130ad11",
+      "target_sha256": "96871d40abcd292ffca9ac4aa25aa32628a8cce8d475d3217b4bf3623b3ea309"
+    }
+  ],
+  "targets_sha256": "345fd71b0d08511561e1c8fd81504d923d8fde8089cd0530667baf6bce6f5658"
+}

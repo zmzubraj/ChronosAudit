@@ -1,0 +1,17 @@
+{
+  "chain_count": 1,
+  "complete": false,
+  "errors": [
+    "bsc:bnb-official-bsc:trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32000, \\\"message\\\": \\\"missing trie node\\\"}\",\"trace_transaction\":\"{\\\"code\\\": -32002, \\\"message\\\": \\\"the resource trace_transaction is not available.\\\"}\"}"
+  ],
+  "provider_registry_verified": false,
+  "raw_evidence_count": 30,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "dddc301bd9431b5df839cf4f5dee31b29ed8ecea0fc3511f6add91c471327dc4",
+  "report_sha256": "b4eb53346d9691eb75a9028818feba2269720f31e3530c644b2cea8c60ef0389",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "60ae30ccff5bf8a8c32d957dcd9824a12ec4a2d90dcd59babe99be7e5e047e41"
+}

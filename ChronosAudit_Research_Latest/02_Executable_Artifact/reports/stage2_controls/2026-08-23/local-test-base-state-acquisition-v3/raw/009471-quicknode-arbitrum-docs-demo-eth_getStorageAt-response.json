@@ -1,0 +1,23 @@
+{
+  "error": null,
+  "http_status": 200,
+  "method": "eth_getStorageAt",
+  "observed_at_unix": 1787428752,
+  "observed_at_utc": "2026-08-22T19:59:12Z",
+  "operator_family": "quicknode",
+  "params": [
+    "0xafb1ddbe0423f0706778195b407889942fb8244f",
+    "0xa3f0ad74e5423aebfd80d3ef4346578335a9a72aeaee59ff6cb3582b35133d50",
+    {
+      "blockHash": "0xdfe040eca00dd63657d418882af42746a544f1478edf83c1ae199cfd35533e89",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "quicknode-arbitrum-docs-demo",
+  "result": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "schema_version": "stage2_control_cutoff_state_rpc_response.v1",
+  "sequence": 9471,
+  "target_id": "base-state:f945232320707d067090da35e7dccce08f0787091f763eb0104ddf19762200ad",
+  "transport_request_sha256": "a2a07ad582fea34b865c2d8b599465dd030d1fdee41805b6a584e809eb7369f3",
+  "transport_response_sha256": "29e9e2984794042a7b032aaced108b942d1809d049bfe9e0e2be92749d7bbe17"
+}

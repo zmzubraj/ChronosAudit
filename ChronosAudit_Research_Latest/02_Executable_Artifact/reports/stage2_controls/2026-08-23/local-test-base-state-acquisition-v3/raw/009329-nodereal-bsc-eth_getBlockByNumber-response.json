@@ -1,0 +1,19 @@
+{
+  "error": "TimeoutError: [Errno 60] Operation timed out",
+  "http_status": null,
+  "method": "eth_getBlockByNumber",
+  "observed_at_unix": 1787428645,
+  "observed_at_utc": "2026-08-22T19:57:25Z",
+  "operator_family": "nodereal",
+  "params": [
+    "0x240a16c",
+    false
+  ],
+  "provider_id": "nodereal-bsc",
+  "result": null,
+  "schema_version": "stage2_control_cutoff_state_rpc_response.v1",
+  "sequence": 9329,
+  "target_id": "base-state:f6e427336c8ebc4e9309c3eb7cbcf8e702dd05bdc272dada0ae0edce2ea013c4",
+  "transport_request_sha256": "204958e42ac9cb3d8cffc8c1d2611522f4021949768907341b0acf5ec4e4d545",
+  "transport_response_sha256": null
+}

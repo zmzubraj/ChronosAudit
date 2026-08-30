@@ -1,0 +1,7 @@
+visual_id,type,source_data,source_code,claim_supported,status,accessibility_note
+F1,figure,05-analysis/results/results-summary.json,05-analysis/code/build_figures.py,CLAIM-TEMPORAL,DRAFT,Counts plus Wilson intervals are printed and color is nonessential
+F2,figure,05-analysis/results/results-summary.json,05-analysis/code/build_figures.py,CLAIM-IDENTITY,DRAFT,Two panels and direct value labels avoid color-only encoding
+F3,figure,05-analysis/results/analysis_cases.csv,05-analysis/code/build_figures.py,CLAIM-TEMPORAL,DRAFT,Landmarks use labels and distinct dash patterns
+D1,diagram,04-data/provenance-manifest.csv,06-visuals/diagrams/architecture.mmd,CLAIM-PROVENANCE,DRAFT,Text source and long description provided
+D2,diagram,03-design/protocol.md,06-visuals/diagrams/workflow.mmd,CLAIM-METHOD,DRAFT,Text source and ordered narrative provided
+D3,diagram,MPP_EXECUTION_PLAN.md,06-visuals/diagrams/timeline.mmd,CLAIM-PLAN,DRAFT,Dates and status are encoded as text

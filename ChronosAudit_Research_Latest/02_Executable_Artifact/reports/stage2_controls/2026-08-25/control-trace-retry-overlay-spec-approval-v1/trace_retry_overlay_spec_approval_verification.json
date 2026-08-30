@@ -1,0 +1,21 @@
+{
+  "approval_file_sha256": "64973d8d084cffe2a2379f6dca151539093ed306a06125dde2f5425fbc19b3e4",
+  "approval_record_sha256": "c1e20cd825c5c8ba35dc1b1887c4e4746a80548ef9474a53f7f233964c261e83",
+  "counter_authority": false,
+  "decision": "TRACE_RETRY_OVERLAY_SPEC_APPROVAL_VERIFIED",
+  "denominator_admission_authorized": false,
+  "implementation_authorized": true,
+  "independent_review_established": false,
+  "publication_authorized": false,
+  "qualification_authorized": false,
+  "r5_authorized": false,
+  "recovery3_mutation_authorized": false,
+  "release_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_trace_retry_overlay_spec_approval_verification.v1",
+  "selection_authorized": false,
+  "specification_file_sha256": "ddc8d91165640469f3d7d5abb883c32d4ed4ac6f717e69150c8eb6c7671e5877",
+  "stage_promotion_authorized": false,
+  "verification_sha256": "4effc80b8d85428be37b05013470ab5ad193f950424735624cfcf78ee8e11aa5",
+  "verified": true
+}

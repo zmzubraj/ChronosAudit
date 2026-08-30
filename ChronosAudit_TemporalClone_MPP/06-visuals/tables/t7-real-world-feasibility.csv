@@ -1,0 +1,6 @@
+dimension,status,evidence,remaining_gate
+new data collection,N/A,read-only reuse of 417 closed snapshots,none
+deterministic execution,VERIFIED,standard-library script and passing tests,independent reproduction
+rights,AT RISK,SCONE Apache-2.0; downstream row-level rights incomplete,human/legal release review
+scientific independence,BLOCKED,root produced and self-reviewed analysis,qualified independent reviewer
+submission authority,BLOCKED,author and declarations unresolved,accountable human approval

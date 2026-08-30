@@ -1,0 +1,23 @@
+{
+  "error": null,
+  "http_status": 200,
+  "method": "eth_getStorageAt",
+  "observed_at_unix": 1787427218,
+  "observed_at_utc": "2026-08-22T19:33:38Z",
+  "operator_family": "nodereal",
+  "params": [
+    "0x04ea21c299c42519a7e4b92c0d4bc26526d06219",
+    "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103",
+    {
+      "blockHash": "0x3f85cbc7e23806f37cbd6e4cb5f80dbdfb5f119babcfc6fb67ae8a9e815b41e5",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "nodereal-bsc",
+  "result": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "schema_version": "stage2_control_cutoff_state_rpc_response.v1",
+  "sequence": 6539,
+  "target_id": "base-state:a79447259f6f74f6f83a6846607a2b66bc4253a119fcd2217802097de6d9848d",
+  "transport_request_sha256": "aab4acd1fe705e8f7d44a05b02184a748c4b48d1d76fb689aead8b6d29c4c2f8",
+  "transport_response_sha256": "d6270a96c74e698681cb7c0012a25d17a018228bca3a631fd19a384e561ca22a"
+}

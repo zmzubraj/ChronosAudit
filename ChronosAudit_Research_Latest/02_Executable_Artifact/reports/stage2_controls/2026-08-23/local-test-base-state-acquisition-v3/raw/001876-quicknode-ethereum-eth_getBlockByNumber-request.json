@@ -1,0 +1,13 @@
+{
+  "call_scope_sha256": "24347c9393a6ddd43f98df7aa54a4ba0fea6fc514bfc3fad4f6bc90778397a24",
+  "method": "eth_getBlockByNumber",
+  "operator_family": "quicknode",
+  "params": [
+    "0xa09aab",
+    false
+  ],
+  "provider_id": "quicknode-ethereum",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 1876,
+  "target_id": "base-state:30fe90405bf329af37884e08cd3c85402401177107bdd325d001402ec94a934a"
+}

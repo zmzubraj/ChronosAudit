@@ -1,0 +1,5 @@
+identity_abstraction,cross_address_duplicate_groups,cross_address_duplicate_rows,cross_chain_duplicate_groups,cross_chain_duplicate_rows,duplicate_groups,duplicate_rows,maximum_group_size,unique_identities
+chain_address,0,0,0,0,7,14,2,410
+address_only,0,0,0,0,7,14,2,410
+runtime_bytecode,10,32,3,16,17,46,9,388
+metadata_stripped_bytecode,14,42,3,17,21,56,9,382

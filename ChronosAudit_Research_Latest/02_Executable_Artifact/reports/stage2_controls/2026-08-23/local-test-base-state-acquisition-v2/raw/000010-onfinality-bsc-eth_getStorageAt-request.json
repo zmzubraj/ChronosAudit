@@ -1,0 +1,17 @@
+{
+  "call_scope_sha256": "9447f14399e765298aa27c54c165c51959c62b8a378e6ecff1b4fbe3e4832db2",
+  "method": "eth_getStorageAt",
+  "operator_family": "onfinality",
+  "params": [
+    "0x898cf93a32dcb05afca7d59a977b8e10d56129f9",
+    "0xa3f0ad74e5423aebfd80d3ef4346578335a9a72aeaee59ff6cb3582b35133d50",
+    {
+      "blockHash": "0xb03a8b041e89ecb7d5473808b236033b7f297d0031ac9abec2939a976fe00cc6",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "onfinality-bsc",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 10,
+  "target_id": "base-state:0009ac59240008047452ba49645ddd2e1882124356538d0481f599386a68d969"
+}

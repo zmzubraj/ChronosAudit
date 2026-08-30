@@ -1,0 +1,32 @@
+version: 1.0.0
+policy:
+  minimum_independent_archive_providers_per_chain: 2
+  require_block_hash_consensus: true
+  require_eip1898_block_hash_pinning: true
+  preserve_raw_response_hashes: true
+  public_chainlist_endpoints_are_discovery_only: true
+  public_endpoint_alone_satisfies_archive_gate: false
+chains:
+  ethereum:
+    chain_id: 1
+    environment_variable: CHRONOS_ETHEREUM_ARCHIVE_RPC_URLS
+    recommended_managed_families: [quicknode, chainstack]
+    independent_index_crosscheck: google_cloud_blockchain_analytics
+  bsc:
+    chain_id: 56
+    environment_variable: CHRONOS_BSC_ARCHIVE_RPC_URLS
+    recommended_managed_families: [quicknode, chainstack]
+    independent_index_crosscheck: none_configured
+  base:
+    chain_id: 8453
+    environment_variable: CHRONOS_BASE_ARCHIVE_RPC_URLS
+    recommended_managed_families: [quicknode, chainstack]
+    independent_index_crosscheck: none_configured
+  arbitrum:
+    chain_id: 42161
+    environment_variable: CHRONOS_ARBITRUM_ARCHIVE_RPC_URLS
+    recommended_managed_families: [quicknode, chainstack]
+    independent_index_crosscheck: google_cloud_blockchain_analytics
+notes:
+  - Chainlist endpoints may be used to discover/test RPCs but are not accepted as production archival evidence without capability verification.
+  - Provider independence is evaluated by vendor/operator family, not merely by different URLs.

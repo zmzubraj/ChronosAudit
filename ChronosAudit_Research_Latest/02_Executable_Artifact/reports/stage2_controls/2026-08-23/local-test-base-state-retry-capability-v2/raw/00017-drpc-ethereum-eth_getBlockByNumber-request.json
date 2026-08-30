@@ -1,0 +1,1 @@
+{"method":"eth_getBlockByNumber","params":["0xa985cf",false],"provider_family":"drpc","provider_id":"drpc-ethereum","schema_version":"stage2_control_base_state_capability_request.v1"}

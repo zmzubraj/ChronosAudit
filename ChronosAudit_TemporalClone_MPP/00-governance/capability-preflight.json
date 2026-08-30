@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "analysis_runtime": "Python standard library available",
+  "figure_runtime": "bundled Codex Python with Matplotlib available",
+  "latex_runtime": "TeX Live 2026 available under /Users/rainbow/.local/texlive/2026",
+  "pdf_qa": "pdfinfo, pdffonts, pdftotext and local rendering available",
+  "mermaid_export": "local mmdc not found; preserve validated source and use a local alternative for manuscript rendering",
+  "network_boundary": "public literature and venue metadata only",
+  "subagent_boundary": "not used; active instructions did not authorize delegation",
+  "independence_limit": "root self-review cannot satisfy independently signed scientific verification"
+}

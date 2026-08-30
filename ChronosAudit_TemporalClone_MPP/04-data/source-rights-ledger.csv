@@ -1,0 +1,5 @@
+source,canonical_url,license,local_evidence,release_scope,status,required_action
+SCONE-bench,https://github.com/anthropics/scone-bench,Apache-2.0,upstream source-rights ledger and repository,benchmark CSV and derived aggregate facts,PLAUSIBLE,retain attribution and NOTICE
+DeFiHackLabs-derived incident metadata,https://github.com/SunWeb3Sec/DeFiHackLabs,check exact upstream license in final release review,upstream ChronosAudit provenance,aggregate incident-derived measurements,AT_RISK,qualified license review before row-level release
+public blockchain state,chain-specific public ledgers,publicly observable subject to provider terms,local hash-bound snapshots,aggregate measurements,PLAUSIBLE,do not redistribute provider responses without terms review
+ChronosAudit derived envelopes,local research artifact,authorship and release terms unresolved,417-file provenance manifest,local analysis only,AT_RISK,accountable author chooses repository license and release subset

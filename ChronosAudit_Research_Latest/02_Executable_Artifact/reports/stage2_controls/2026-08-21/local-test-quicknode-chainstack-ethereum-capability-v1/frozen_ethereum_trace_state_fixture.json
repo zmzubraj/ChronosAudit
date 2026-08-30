@@ -1,0 +1,21 @@
+{
+  "schema_version": "stage2_control_trace_state_capability_fixtures.v1",
+  "selection_rule": "Exact Ethereum row projected from the frozen three-chain fixture solely for a non-authorizing provider diagnostic.",
+  "source_fixture_path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-trace-state-capability-v1/frozen_trace_state_fixtures.json",
+  "source_fixture_file_sha256": "b1e37310c1ad0d0345387c4c8fed95a30af81a13f3aacadad4213d7fe490408f",
+  "fixtures": [
+    {
+      "chain": "ethereum",
+      "chain_id": "0x1",
+      "block_number": 14267406,
+      "block_hash": "0x43f11f546eff9cafb300f4de836812743ff4d02d228f85a789711302f3f60e8c",
+      "transaction_hash": "0xf87a5b1e3c6c0f8808996ac3f9113c80928d7dc57e39024618beafdc3a450c27",
+      "created_address": "0x1fa61c33522ba3e393ed7cc279e22fa462ab3927",
+      "reserve_assignment_sha256": "004f2176c0c87135d3a52228fb19fbe0a69fa55306140e8245b368c4d5302a06"
+    }
+  ],
+  "rpc_authorized": false,
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "recovery3_mutation_authorized": false
+}

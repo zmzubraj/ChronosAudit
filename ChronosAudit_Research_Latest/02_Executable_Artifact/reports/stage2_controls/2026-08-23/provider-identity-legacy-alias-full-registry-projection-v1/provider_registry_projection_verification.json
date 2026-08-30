@@ -1,0 +1,22 @@
+{
+  "chain_count": 3,
+  "counter_authority": false,
+  "decision": "LEGACY_ALIAS_FULL_PROVIDER_REGISTRY_PROJECTED_LOCAL_TEST_ONLY",
+  "denominator_admission_authorized": false,
+  "independent_review_established": false,
+  "provider_count": 6,
+  "provider_registry_sha256": "d7504dc31fe6911cdcf8b185a987c31841ad51ec1a76f5f332e593fdc6d16293",
+  "provider_registry_verified": true,
+  "publication_authorized": false,
+  "qualification_authorized": false,
+  "r5_authorized": false,
+  "recovery3_mutation_authorized": false,
+  "release_authorized": false,
+  "revision_request_sha256": "26dd2120f823d97bfa60112949eba678d386aaac696a818df4f89cac3c7a2cb0",
+  "row_admission_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_legacy_alias_full_registry_projection_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "e7700d5b7d633a3dbe23fce9d21a18545ab8e8710bc6bec9fb65dd8eb77f5798"
+}

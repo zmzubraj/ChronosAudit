@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-08-10T19:49:57Z",
+  "expected_pilot_rows": 10,
+  "full_case_target": 417,
+  "input_sha256": "8d6ec4a40298f0aaafa443e3418048ce095137a8cc405057b454adf3dfc39089",
+  "pilot_csv_path": "processed/public_acquisition/2026-08-11/public-acquisition-historical-revision-v2/pilot_case_queue.csv",
+  "pilot_csv_sha256": "e46a382ce5546e74a06b7f55dade1bbfe8edbb0c1aca68e76d2ca169c4c3421a",
+  "pilot_rows": 9,
+  "policy_sha256": "4093c31acd9ae01f1cfaa5f1080095ccd637c442bdc265d06889d978aa24e9d9",
+  "policy_snapshot_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v2/inputs/public_acquisition_policy.yaml",
+  "policy_snapshot_sha256": "b37079d48196cb4b1982b25ce06bcd6a394c47bce6df2ee8f5179b241341fff0",
+  "positive_snapshot_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v2/inputs/positive_cases_snapshot.csv",
+  "positive_snapshot_sha256": "5164a40ccdef04f3edb1555758b133cc28fec89571858c1bdacbba542962e824",
+  "queue_csv_path": "processed/public_acquisition/2026-08-11/public-acquisition-historical-revision-v2/case_queue.csv",
+  "queue_csv_sha256": "6de227a567327d31209ba31d1684019177cab607c9cdfa3705c0b6e4269e46c8",
+  "queue_rows": 417,
+  "queue_sha256": "86381eac65c176b93ed02781a94c59b8ae14b61d4b1effd25cb9ab93345fdfb7",
+  "revision": "2026-08-11",
+  "run_id": "public-acquisition-historical-revision-v2",
+  "source_snapshot_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v2/inputs/case_queue_source_snapshot.csv",
+  "source_snapshot_sha256": "8d6ec4a40298f0aaafa443e3418048ce095137a8cc405057b454adf3dfc39089"
+}

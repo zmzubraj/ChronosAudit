@@ -1,0 +1,21 @@
+{
+  "base_state_targets_file_sha256": "7e62d513cc2023bc7a0421fa0889acd4590e2e35d786104ae4da5f65924e7d1f",
+  "capability_file_sha256": "d789ac0b2c2fad4bf9278bac77bb4d66b57fe711dbe26e9e46618bcb10d4a52e",
+  "capability_sha256": "958b043ec1a8e0c5bbf264fcce02ccd207efca3827569b5340f24c1026ebe182",
+  "complete": false,
+  "counter_authority": false,
+  "decision": "BASE_STATE_CAPABILITY_NOT_VERIFIED",
+  "errors": [
+    "arbitrum:onfinality-arbitrum:base-state:7b76a03d65dca3ee88793a01cc1238ceab0637a0f7e51504e2f7f0fd162ceb64:eth_getCode:rpc_error:eth_getCode",
+    "arbitrum:onfinality-arbitrum:base-state:f945232320707d067090da35e7dccce08f0787091f763eb0104ddf19762200ad:eth_getStorageAt:rpc_error:eth_getStorageAt"
+  ],
+  "probe_target_count": 8,
+  "provider_registry_sha256": "abdd6a851c4befe9424da2e788979e2551c62fa34e2819ab499b6e8d03e0aa20",
+  "raw_evidence_count": 208,
+  "recovery3_mutation_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_base_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "5ce919e879212f1e8a9fad4736697c044abdeb49deb0fcbf0bb17c8aaebb54be"
+}

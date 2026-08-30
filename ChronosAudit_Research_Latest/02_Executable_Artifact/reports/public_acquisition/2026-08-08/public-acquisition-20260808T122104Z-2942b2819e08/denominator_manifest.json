@@ -1,0 +1,21 @@
+{
+  "audit_csv_path": "reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/denominator_audit.csv",
+  "audit_csv_sha256": "ca57ebbf196a5ea4a2f138fb9390ad89f2c2c265e9c01be1d20580e5c3fe54fd",
+  "command": "denominator",
+  "denominator_csv_path": "processed/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/deployment_denominator.csv",
+  "denominator_csv_sha256": "3ed7b4e17e3d4df35272c612f5d9fb19a2010a048e41b869b19c105b198839c8",
+  "denominator_rows": 0,
+  "execute": true,
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "source_errors": [],
+  "sources": [
+    {
+      "chain": "all",
+      "format": "csv",
+      "path": "raw/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/denominator_sources/001-002-contract_deployments_43000000_44000000-targetchains-hex.csv",
+      "sha256": "fce364f85d89175528d1186e461091b82e718d1b04c3ac9bbfc32d5c740ef9a5"
+    }
+  ],
+  "status": "partial"
+}

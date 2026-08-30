@@ -1,0 +1,27 @@
+version: 1.2.0-accountable-provider-review-projection
+projection_provenance:
+  request_sha256: dfe7b2e5af9a3fb8c7e63703b9707fd79feaf54493e175c9ac8420dbc4c71efd
+  review_payload_sha256: 1110b74d37535242f77afea09b0b75ba0bbb27de5715e22584b6f55665826d6f
+  reviewer_principal: zmzubraj-local-test
+  review_expires_utc: '2026-08-29T22:51:15Z'
+  rpc_authorized: false
+  selection_authorized: false
+providers:
+- provider_id: drpc-ethereum
+  chain: ethereum
+  endpoint: https://eth.drpc.org
+  operator_family: drpc
+  discovery_source: https://drpc.org/chainlist/ethereum-mainnet-rpc
+  tracking_enabled: true
+  operator_evidence_url: https://drpc.org/chainlist/ethereum-mainnet-rpc
+  operator_evidence_sha256: 91437f6e40fe6e0be3ae81f2d07894ad954c192eb012617b52bd86453385a47c
+  operator_verified: true
+- provider_id: publicnode-ethereum
+  chain: ethereum
+  endpoint: https://ethereum-rpc.publicnode.com
+  operator_family: publicnode
+  discovery_source: https://ethereum.publicnode.com/
+  tracking_enabled: true
+  operator_evidence_url: https://ethereum.publicnode.com/
+  operator_evidence_sha256: 1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf
+  operator_verified: true

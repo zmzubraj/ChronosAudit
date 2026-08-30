@@ -1,0 +1,6 @@
+asset,source,license,redistributed,status,notes
+SCONE-bench cohort CSV,https://github.com/anthropics/scone-bench,Apache-2.0,yes,PASS,Repository states Apache-2.0; dataset is part of repository.
+DeFiHackLabs frozen README snapshots,https://github.com/SunWeb3Sec/DeFiHackLabs,Apache-2.0,yes,PASS,Repository exposes Apache-2.0 license; snapshots are hashed and attribution is retained.
+Sourcify API responses,https://sourcify.dev,provider/open-data terms,no-current-responses,NOT_YET_APPLICABLE,Future response bytes are hashed; redistribution review remains per retrieved artifact.
+Etherscan API responses,https://etherscan.io,service terms,no-current-responses,NOT_YET_APPLICABLE,Used as cross-check; API terms must be respected and raw responses need not be redistributed.
+Google Cloud Blockchain Analytics query results,https://cloud.google.com/blockchain-analytics,Google Cloud terms / dataset policy,no-current-results,NOT_YET_APPLICABLE,Only query-derived cohort rows should be released under applicable terms.

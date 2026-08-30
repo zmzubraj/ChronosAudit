@@ -1,0 +1,1 @@
+{"method":"eth_getBlockByNumber","params":["0x14bdc04",false],"provider_family":"quicknode","provider_id":"quicknode-ethereum","schema_version":"stage2_control_cutoff_boundary_capability_request.v1"}

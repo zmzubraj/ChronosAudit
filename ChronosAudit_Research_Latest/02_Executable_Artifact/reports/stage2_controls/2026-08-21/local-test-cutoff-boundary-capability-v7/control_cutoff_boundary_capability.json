@@ -1,0 +1,638 @@
+{
+  "capability_sha256": "323a3ede8bbde3ebdc8efb3ba09a81462c03533cb00489eb90a9202dcf9390f1",
+  "chain_count": 4,
+  "chains": [
+    {
+      "chain": "arbitrum",
+      "chain_id": 42161,
+      "complete": true,
+      "errors": [],
+      "maximum_upper_bound_block": 2221848,
+      "minimum_lower_bound_block": 738159,
+      "operator_families": [
+        "arbitrum-official",
+        "drpc"
+      ],
+      "probe_blocks": [
+        738159,
+        2221848
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "arbitrum-official",
+          "probe_results": [
+            {
+              "hash": "0x224b39c0c9abbe670fe7a71c3b95636b26427241c274dff5146b438027802224",
+              "number": 738159,
+              "timestamp": 1631554033
+            },
+            {
+              "hash": "0xcb0569228a78fb72c09e66702b699ea18bee8c7e0de50219c523db4d02e22e47",
+              "number": 2221848,
+              "timestamp": 1634232400
+            }
+          ],
+          "provider_id": "arbitrum-official-arbitrum"
+        },
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "drpc",
+          "probe_results": [
+            {
+              "hash": "0x224b39c0c9abbe670fe7a71c3b95636b26427241c274dff5146b438027802224",
+              "number": 738159,
+              "timestamp": 1631554033
+            },
+            {
+              "hash": "0xcb0569228a78fb72c09e66702b699ea18bee8c7e0de50219c523db4d02e22e47",
+              "number": 2221848,
+              "timestamp": 1634232400
+            }
+          ],
+          "provider_id": "drpc-arbitrum"
+        }
+      ],
+      "target_count": 1
+    },
+    {
+      "chain": "base",
+      "chain_id": 8453,
+      "complete": true,
+      "errors": [],
+      "maximum_upper_bound_block": 36775782,
+      "minimum_lower_bound_block": 866491,
+      "operator_families": [
+        "base-official",
+        "drpc"
+      ],
+      "probe_blocks": [
+        866491,
+        36775782
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "base-official",
+          "probe_results": [
+            {
+              "hash": "0x16f13c4e0c4a95c83e3a3026d93b720c2f79ae9abc8e7e1ab44d7f0c3c0c272c",
+              "number": 866491,
+              "timestamp": 1688522329
+            },
+            {
+              "hash": "0xe45192f7f72fb409f32363c43bc4d164dba4c133615e80637b6c47d4a6fef90f",
+              "number": 36775782,
+              "timestamp": 1760340911
+            }
+          ],
+          "provider_id": "base-official-base"
+        },
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "drpc",
+          "probe_results": [
+            {
+              "hash": "0x16f13c4e0c4a95c83e3a3026d93b720c2f79ae9abc8e7e1ab44d7f0c3c0c272c",
+              "number": 866491,
+              "timestamp": 1688522329
+            },
+            {
+              "hash": "0xe45192f7f72fb409f32363c43bc4d164dba4c133615e80637b6c47d4a6fef90f",
+              "number": 36775782,
+              "timestamp": 1760340911
+            }
+          ],
+          "provider_id": "drpc-base"
+        }
+      ],
+      "target_count": 8
+    },
+    {
+      "chain": "bsc",
+      "chain_id": 56,
+      "complete": true,
+      "errors": [],
+      "maximum_upper_bound_block": 97004127,
+      "minimum_lower_bound_block": 1,
+      "operator_families": [
+        "bnb-official",
+        "nodereal"
+      ],
+      "probe_blocks": [
+        1,
+        97004127
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "bnb-official",
+          "probe_results": [
+            {
+              "hash": "0x04055304e432294a65ff31069c4d3092ff8b58f009cdb50eba5351e0332ad0f6",
+              "number": 1,
+              "timestamp": 1598671449
+            },
+            {
+              "hash": "0xbcea438a5a1d654f406ebce6c4279a2d91c19e614bedcd4a8cb82c4146e56a34",
+              "number": 97004127,
+              "timestamp": 1778205471
+            }
+          ],
+          "provider_id": "bnb-official-bsc"
+        },
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "nodereal",
+          "probe_results": [
+            {
+              "hash": "0x04055304e432294a65ff31069c4d3092ff8b58f009cdb50eba5351e0332ad0f6",
+              "number": 1,
+              "timestamp": 1598671449
+            },
+            {
+              "hash": "0xbcea438a5a1d654f406ebce6c4279a2d91c19e614bedcd4a8cb82c4146e56a34",
+              "number": 97004127,
+              "timestamp": 1778205471
+            }
+          ],
+          "provider_id": "nodereal-bsc"
+        }
+      ],
+      "target_count": 193
+    },
+    {
+      "chain": "ethereum",
+      "chain_id": 1,
+      "complete": true,
+      "errors": [],
+      "maximum_upper_bound_block": 21748677,
+      "minimum_lower_bound_block": 9269608,
+      "operator_families": [
+        "publicnode",
+        "quicknode"
+      ],
+      "probe_blocks": [
+        9269608,
+        21748677
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "publicnode",
+          "probe_results": [
+            {
+              "hash": "0x83affae3307fb529558e720bcce190fccb72c35a387ce0b0c4c49eaa1d585497",
+              "number": 9269608,
+              "timestamp": 1578878519
+            },
+            {
+              "hash": "0x48bf8809cd4d1cf0ed21106230a5bd19f97aaff228c6988b72cb67dea8a37e23",
+              "number": 21748677,
+              "timestamp": 1738376795
+            }
+          ],
+          "provider_id": "publicnode-ethereum"
+        },
+        {
+          "chain_id_verified": true,
+          "errors": [],
+          "historical_block_by_number_verified": true,
+          "operator_family": "quicknode",
+          "probe_results": [
+            {
+              "hash": "0x83affae3307fb529558e720bcce190fccb72c35a387ce0b0c4c49eaa1d585497",
+              "number": 9269608,
+              "timestamp": 1578878519
+            },
+            {
+              "hash": "0x48bf8809cd4d1cf0ed21106230a5bd19f97aaff228c6988b72cb67dea8a37e23",
+              "number": 21748677,
+              "timestamp": 1738376795
+            }
+          ],
+          "provider_id": "quicknode-ethereum"
+        }
+      ],
+      "target_count": 84
+    }
+  ],
+  "complete": true,
+  "decision": "DUAL_PROVIDER_CUTOFF_BOUNDARY_CAPABILITY_VERIFIED",
+  "errors": [],
+  "probe_method": "eth_getBlockByNumber",
+  "probe_policy": "MINIMUM_FROZEN_LOWER_AND_MAXIMUM_FROZEN_UPPER_PER_CHAIN_V1",
+  "provider_registry_sha256": "4364eb6fa74118f02b648d970e0baf6804d99549a7c25d56ffea7140f68ac3cb",
+  "raw_evidence": [
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00001-arbitrum-official-arbitrum-eth_chainId-request.json",
+      "provider_id": "arbitrum-official-arbitrum",
+      "sequence": 1,
+      "sha256": "cafddee4e043b3d678dfb2fb2ff69f26371482eaac4508f7200209910fe5cc5b"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00001-arbitrum-official-arbitrum-eth_chainId-response.json",
+      "provider_id": "arbitrum-official-arbitrum",
+      "sequence": 1,
+      "sha256": "db9fde3e088ee00dfbdec4e459e142fa0d11d6a40380794d0187d1898a6d44fa"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-arbitrum-official-arbitrum-eth_getBlockByNumber-request.json",
+      "provider_id": "arbitrum-official-arbitrum",
+      "sequence": 2,
+      "sha256": "7cf4c0ea1bd78d65177b11700c6ef2c85c6c0e5c76fb011bde252015b3d083dc"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-arbitrum-official-arbitrum-eth_getBlockByNumber-response.json",
+      "provider_id": "arbitrum-official-arbitrum",
+      "sequence": 2,
+      "sha256": "4e46b7373106b2d6f0f4cab304b0154e77e905044f97f8b3861e148347dd0a5b"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00003-arbitrum-official-arbitrum-eth_getBlockByNumber-request.json",
+      "provider_id": "arbitrum-official-arbitrum",
+      "sequence": 3,
+      "sha256": "dcb016a30e6a70a23995b514d845179c5ba6ee8fe0c553323e8053401f6180fc"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00003-arbitrum-official-arbitrum-eth_getBlockByNumber-response.json",
+      "provider_id": "arbitrum-official-arbitrum",
+      "sequence": 3,
+      "sha256": "20effd3ad5ba6c15d6f331c199418ac0571d5d5b0de99f1efe979af4ec9c084b"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00004-drpc-arbitrum-eth_chainId-request.json",
+      "provider_id": "drpc-arbitrum",
+      "sequence": 4,
+      "sha256": "d9e25f6d470202faaa6d5be110d6c703924e825903bac14af8d141e5e7cd27d5"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00004-drpc-arbitrum-eth_chainId-response.json",
+      "provider_id": "drpc-arbitrum",
+      "sequence": 4,
+      "sha256": "91f704f6d8f0e8b5b134d88783f949d2e37675e5cd8eb9e5cf5343faf13af85c"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00005-drpc-arbitrum-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-arbitrum",
+      "sequence": 5,
+      "sha256": "9fa2e7b8c52c5fb1525f90de242d8ffb2ca21cf199136322cf72159b2192fc72"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00005-drpc-arbitrum-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-arbitrum",
+      "sequence": 5,
+      "sha256": "76112f9e7874146055b60a6bea19f859a93c702972be55e2c96ef63e368d3f58"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00006-drpc-arbitrum-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-arbitrum",
+      "sequence": 6,
+      "sha256": "c87f370b9370fd1c2197bfdbd0d65cc45ef366d0e3f0e587df63aebfafb74b53"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00006-drpc-arbitrum-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-arbitrum",
+      "sequence": 6,
+      "sha256": "6c577d250b500e86d79989ef852a8844135ebad3ec8c4ad476429bc555c3e25b"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00007-base-official-base-eth_chainId-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 7,
+      "sha256": "8ad2b2fafdcf8440a237370209bfeeaa5dfac364a1adf2a32dc147f5192490f8"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00007-base-official-base-eth_chainId-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 7,
+      "sha256": "aa4e78bd4480ed0c47cb04bb79d738333066e324df33c905007733c2b663bdcc"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00008-base-official-base-eth_getBlockByNumber-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 8,
+      "sha256": "71075da78d35f6a56056ecacf0291cc00ca93ba8746a7b0a05c3a288bb154bb6"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00008-base-official-base-eth_getBlockByNumber-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 8,
+      "sha256": "1e5c28b5d81949e25a93d2d1e29257820db8b3ade9f266e5dd86aaadd91d3204"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00009-base-official-base-eth_getBlockByNumber-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 9,
+      "sha256": "953446492a5e04c98c917f128aa86d9ba55f8e9d34bf4d60c04e65ff97524ec8"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00009-base-official-base-eth_getBlockByNumber-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 9,
+      "sha256": "2686a9b45826ca40f852cdfc20be190a855c96c5f005c260cde486259aef3da1"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00010-drpc-base-eth_chainId-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 10,
+      "sha256": "3d32781be7f7dd0f7b91ba59482d0e90a237bcdb0ba5670861dedfadea73d4fc"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00010-drpc-base-eth_chainId-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 10,
+      "sha256": "319879b60ad616cc5894eafeb1515fe7d6a831c41b223e9e0c927088676b213c"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00011-drpc-base-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 11,
+      "sha256": "d2c48a6e912a649f6f440eca19d639411cbd3973a47efa21fe1b761ed4a1d441"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00011-drpc-base-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 11,
+      "sha256": "dafbe4340286833ab873bac06ebe88a537e202b0723876993661ebf39f15f8c3"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00012-drpc-base-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 12,
+      "sha256": "e354c2d0f84c43d92ad6ae9660ae19bfd7120a6f27ed8ea45a262aac557b064a"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00012-drpc-base-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 12,
+      "sha256": "6387ed4f1bdf6a6137d9c87df4f985ae689f2808c7b5e4f0c02fc1a2a208a97e"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00013-bnb-official-bsc-eth_chainId-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 13,
+      "sha256": "217172ca27c2c23cfd6524426a43509ca9acff07309c394888c2ce8b2da04959"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00013-bnb-official-bsc-eth_chainId-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 13,
+      "sha256": "18c023c46985ec6a413265664911547ef2460c4dfe5905049ee318e15ee15299"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00014-bnb-official-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 14,
+      "sha256": "3e25920dbcb25f37748976b3e85cfe16cdc66302e9560d879ddf012da01e7688"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00014-bnb-official-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 14,
+      "sha256": "6a78736d14a4c2bd4115fe253e6236632bec316e23d3c468a43138fa5c1450b3"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00015-bnb-official-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 15,
+      "sha256": "576926819aa72ea7d988cf61d249890e6ffe38334d937f523a90288772971bf7"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00015-bnb-official-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 15,
+      "sha256": "2824fb6ffcb40c32e59bfc37dfad48e60f335d526a552b88c44b0f71e1b967f4"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00016-nodereal-bsc-eth_chainId-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 16,
+      "sha256": "455d57c986d847bfdaf7bc6aebd2f5cd3fc0278ddb0894ac2f5fbe5725332fa1"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00016-nodereal-bsc-eth_chainId-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 16,
+      "sha256": "122bb9e38d8c26606ebeea0110dd3a65edfbfff5e0d723f5d82d906e95451d8f"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00017-nodereal-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 17,
+      "sha256": "b503869d45d3ad0c49e4c871042dea2796c0926af14d62164d11d7ce776ba328"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00017-nodereal-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 17,
+      "sha256": "666b1a3674b0c0aeac9061b5ce4bf85debcd0cdcaa6e325cc7409f9b8e7c12c3"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00018-nodereal-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 18,
+      "sha256": "8ca1ea4507871878e53ff2f2ee1b06e61498135a4c963168792199d5ec824b51"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00018-nodereal-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 18,
+      "sha256": "c44b64e876e44c09c89ce6860b4a60b22720015f90f377b16763acfa2a2c6680"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00019-publicnode-ethereum-eth_chainId-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 19,
+      "sha256": "49c856e0bfb8dde436a1de94cb86fb7b8fbe55932f240e5525d2ad66995d7249"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00019-publicnode-ethereum-eth_chainId-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 19,
+      "sha256": "abf1619e0cef39b0ebe0b25267f2e0b8f0e51b546d33be1ca131d9d196015187"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00020-publicnode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 20,
+      "sha256": "d469d24849350412503cc76bbd6e1984a0f2559c5594ad70acaaee3e3d56e63a"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00020-publicnode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 20,
+      "sha256": "042aaf56ccbc76dfa1ee2bb6031ce60fd543d2795cf7e11e6b27ba4507e057b3"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00021-publicnode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 21,
+      "sha256": "981bf6bfa2a17852334d826e9d2ab99fb12a4bdfd685efd654b516a7fb1516ab"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00021-publicnode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 21,
+      "sha256": "1716efc32e644459e058694725374f8cab219c8a49669c47af439137d354e3e3"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00022-quicknode-ethereum-eth_chainId-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 22,
+      "sha256": "511448c9b5c1921a4ed13adbd42f1b6e09d4ba5b1a28fcbe7edfa5a737d20f30"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00022-quicknode-ethereum-eth_chainId-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 22,
+      "sha256": "0ca9b83cc70b733f61db33d4b403db7ad27c5e7b8f08b5a118d0be579286ba16"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00023-quicknode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 23,
+      "sha256": "994c04a075c8ecca129ef205d329740fa0998be63f7273ca528dd4a2c1713ac0"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00023-quicknode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 23,
+      "sha256": "c5ea21fe01dfa7eaeea9aa1de6300232e9eb0d6d9ac300a8c03fdc6b3b5a14a5"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00024-quicknode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 24,
+      "sha256": "cd8c5e6fd813d1bf9776b16c395b35c98c56c41c74d14106dace2e6209c6bdc9"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00024-quicknode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 24,
+      "sha256": "c36c65251991868b04a7b50aed69cbf616842d105f3fe06b817898eee7cb9c7c"
+    }
+  ],
+  "raw_evidence_count": 48,
+  "recovery3_mutation_authorized": false,
+  "requirements_file_sha256": "e6d1cf1a09a090679b41948989dbfc9abe8b679e6faddea63dca947eb08f86d7",
+  "requirements_sha256": "88e5b2d911debc2cd569a7cf23653dec862f0a7af81ff442bc17eae61caffb24",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_cutoff_boundary_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

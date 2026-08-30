@@ -1,0 +1,72 @@
+{
+  "chain_identity_evidence": {
+    "arbitrum": [
+      {
+        "provider_id": "arbitrum-official-arbitrum",
+        "rpc_envelope_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/rpc/7b/7b87774d652fef1118691aee759e552e316d2e192ccb10ec4c4b5bc05378e0fd.json",
+        "rpc_envelope_sha256": "7b87774d652fef1118691aee759e552e316d2e192ccb10ec4c4b5bc05378e0fd"
+      },
+      {
+        "provider_id": "drpc-arbitrum",
+        "rpc_envelope_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/rpc/5f/5f8c352d26c74e26e3f881be7e3d556f96f4460678049406ab8b2a08316598e8.json",
+        "rpc_envelope_sha256": "5f8c352d26c74e26e3f881be7e3d556f96f4460678049406ab8b2a08316598e8"
+      }
+    ],
+    "base": [
+      {
+        "provider_id": "base-official-base",
+        "rpc_envelope_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/rpc/69/69d06fceffbf5ddff46644f97e895b342b3009500863ad943a206b5c1fa1ec37.json",
+        "rpc_envelope_sha256": "69d06fceffbf5ddff46644f97e895b342b3009500863ad943a206b5c1fa1ec37"
+      },
+      {
+        "provider_id": "blockreq-base",
+        "rpc_envelope_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/rpc/9d/9d528725c0f18da563e96e39497622c837bcb12c6ee369fbfd6df1c2bcc5a634.json",
+        "rpc_envelope_sha256": "9d528725c0f18da563e96e39497622c837bcb12c6ee369fbfd6df1c2bcc5a634"
+      }
+    ],
+    "bsc": [
+      {
+        "provider_id": "bnb-official-bsc",
+        "rpc_envelope_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/rpc/e2/e26faf141cd4a913ad9c6a88f06c66b42f9eff7a943d86353538b530bdcc4477.json",
+        "rpc_envelope_sha256": "e26faf141cd4a913ad9c6a88f06c66b42f9eff7a943d86353538b530bdcc4477"
+      },
+      {
+        "provider_id": "nodereal-bsc",
+        "rpc_envelope_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/rpc/92/92aa7225962ea793e51c6ae3c843144e34648851540d32b4ad351d2cb468eed2.json",
+        "rpc_envelope_sha256": "92aa7225962ea793e51c6ae3c843144e34648851540d32b4ad351d2cb468eed2"
+      }
+    ],
+    "ethereum": [
+      {
+        "provider_id": "blockreq-ethereum",
+        "rpc_envelope_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/rpc/e7/e76ff3db3323a179c17b23018bd690c6bbc11c44ba9fb2044617b432b9a97ce4.json",
+        "rpc_envelope_sha256": "e76ff3db3323a179c17b23018bd690c6bbc11c44ba9fb2044617b432b9a97ce4"
+      },
+      {
+        "provider_id": "publicnode-ethereum",
+        "rpc_envelope_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/raw/stage2_controls/2026-08-21/control-candidate-rpc-acquisition-v1/rpc/b0/b09be347b66cdf58bc41bb7cfbe6e58c6b60c8f7322076d1a678d7d5cd11aa76.json",
+        "rpc_envelope_sha256": "b09be347b66cdf58bc41bb7cfbe6e58c6b60c8f7322076d1a678d7d5cd11aa76"
+      }
+    ]
+  },
+  "completed_case_count": 380,
+  "completed_count": 1366,
+  "ledger_status_counts": {
+    "COMPLETE": 1366,
+    "PARTIAL": 690
+  },
+  "new_complete_count": 0,
+  "new_partial_count": 0,
+  "new_terminal_rejected_count": 0,
+  "queue_row_count": 34900,
+  "recovery3_mutation_authorized": false,
+  "remaining_count": 33534,
+  "rpc_classification_complete_count": 808,
+  "run_binding_sha256": "6b79a0bb6132cbe7bf3c12d5ecba16225ee718db2c9d95baf348f4e574cef2b1",
+  "schema_version": "chronosaudit.control_candidate_rpc_acquisition_summary.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "summary_sha256": "8ec2ca66aeaed6187b0b668c2a41e181d49b27617506ec19e8d0ec907b76b954",
+  "terminal_rejected_count": 0,
+  "trace_required_count": 558
+}

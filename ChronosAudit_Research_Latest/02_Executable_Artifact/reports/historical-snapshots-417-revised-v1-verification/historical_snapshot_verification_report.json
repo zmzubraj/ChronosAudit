@@ -1,0 +1,44 @@
+{
+  "authoritative_input_hashes": {
+    "aggregate_hashes": {
+      "blocker_ledger": "90552fe9e2d06d3a498808d667fa43eb83032bf4f4803e4e8e38ffb1012b3ada",
+      "case_qualification": "cf0a4d3e94fc58c8111a163eb80ac305ae6bd2e160fd335d42bd8f4b2a578330",
+      "historical_snapshot_closure_report": "607e51cd4cb619f91c9d05f4d16dd6bdaf18e749c04bcf3c8a192651c8f5e0e5",
+      "provider_identity_verification": "a774b26ececa76ce2dec975eb7a01facc687847a85798baf07ec37ea1d4e866d",
+      "rpc_receipt_manifest": "4fa5a6ac5cb6f9c6b17d3ae941b5bae54489ea1a62b1b873863963bda5b89ce9"
+    },
+    "binding_sha256": "c45e9f8c219329cefda5f9fbda97ef4e964c7a74f439f61a07ebaf2a755e5d65",
+    "frozen_inputs_sha256": "9ff42c19cdb52a24005d5b0f28cb4bdf1d8f736bef937639d4196e934e758607"
+  },
+  "chain_counts": {
+    "verified_by_chain": {
+      "arbitrum": 0,
+      "base": 0,
+      "bsc": 0,
+      "ethereum": 0
+    }
+  },
+  "counter_authority": false,
+  "integrity_errors": [
+    "blocker_ledger_mismatch",
+    "case_qualification_candidate_closed_mismatch",
+    "closure_report_mismatch"
+  ],
+  "observed": 0,
+  "operational_metadata": {
+    "independently_derived": false,
+    "verified_via_manifest_binding_only": [
+      "resumed",
+      "quarantined",
+      "retried"
+    ]
+  },
+  "passed": false,
+  "projection_path": "historical_snapshot_verified_projection.csv",
+  "projection_sha256": "064803d86a9ba90e13eae865a7eabd9c88dde8f29507ef72c08327f7f7395c44",
+  "report_sha256": "e893723606f57efe6ab0e6f9d711683f75e40eaf72f08a210eb9693cb5672f95",
+  "required": 417,
+  "schema_version": "historical_snapshot_verification_report.v1",
+  "scientific_blockers": [],
+  "selected_case_count": 417
+}

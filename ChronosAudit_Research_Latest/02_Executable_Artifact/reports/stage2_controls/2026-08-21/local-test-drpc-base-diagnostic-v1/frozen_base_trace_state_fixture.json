@@ -1,0 +1,20 @@
+{
+  "schema_version": "stage2_control_trace_state_capability_fixtures.v1",
+  "selection_rule": "Exact Base row projected from the frozen three-chain fixture solely for a non-authorizing provider diagnostic.",
+  "source_fixture_path": "02_Executable_Artifact/reports/stage2_controls/2026-08-21/local-test-trace-state-capability-v1/frozen_trace_state_fixtures.json",
+  "fixtures": [
+    {
+      "chain": "base",
+      "chain_id": "0x2105",
+      "block_number": 22872356,
+      "block_hash": "0xa794af5bd141e73f370afdb271aee998539a791afd60904ce9641d74e5995e89",
+      "transaction_hash": "0x0a37d237118ec6fc8d6f562074fef307db207e5b44040fe6b112373fafe0ec33",
+      "created_address": "0x83cb4349a796528cab56f536d6f9ad8f1cddd43a",
+      "reserve_assignment_sha256": "02525a549ce1887ae185b18c0bd00061a93f84b3b15558561ced5cf6484e2f2a"
+    }
+  ],
+  "rpc_authorized": false,
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "recovery3_mutation_authorized": false
+}

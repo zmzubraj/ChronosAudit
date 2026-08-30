@@ -1,0 +1,7 @@
+id,date,finding,action,evidence,status
+R01,2026-08-29,Early landmark implementation substituted snapshot cutoff for deployment age,Corrected eligibility to incident minus deployment timestamp and added regression tests,03-design/preregistration-and-deviations.md; test_derive_mpp_results.py,CLOSED
+R02,2026-08-29,Transparent PNG preview appeared dark in one viewer,Verified canonical SVG and PDF render on white background and retained direct labels,07-manuscript/rendered-final/,CLOSED
+R03,2026-08-29,Initial LaTeX build had table and source integration errors,Corrected table source and compiled through latexmk,07-manuscript/main.log,CLOSED
+R04,2026-08-29,Two small overfull boxes remained,Shortened labels and introduced a legal line-break point,07-manuscript/main.log,CLOSED
+R05,2026-08-29,Author and declaration fields are unknown,Kept explicit placeholders and upload-blocking notice,07-manuscript/main.tex,OPEN_HUMAN
+R06,2026-08-29,Independent novelty and reproduction are unavailable,Recorded non-compensating UNKNOWN/PARTIAL gates,08-validation/killer-question-ledger.csv,OPEN_EXTERNAL

@@ -1,0 +1,59 @@
+{
+  "command": "migrate-paths",
+  "execute": true,
+  "files": [
+    {
+      "after_sha256": "3246b19585c64a2bbaa0935b6a110fffdeb236f4055a424f67a269759c11dbaf",
+      "before_sha256": "05a7f947b0207eb93fe0fbca8b6b70d149bc3f0e0740260cec139381e5f89606",
+      "path": "reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/case_queue_manifest.json",
+      "replacement_count": 5
+    },
+    {
+      "after_sha256": "e7f1e401b1c20766b080912798d48b0a8ea461b5dc088eb2e12a832aa2097875",
+      "before_sha256": "0ac009443b37f97bc40234d1f7c7249eb4cbe1598faeff2370889c6737bf8115",
+      "path": "reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/inventory_manifest.json",
+      "replacement_count": 35
+    },
+    {
+      "after_sha256": "412cec00b87c7e8006cb3d8b066cca1bd5a033b54688ba7a5137ebf27342d6fa",
+      "before_sha256": "4c28b968fffe3c6de9b26c27d9cd755041f628640ef38a365d921a88d2d82be7",
+      "path": "reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/denominator_manifest.json",
+      "replacement_count": 3
+    },
+    {
+      "after_sha256": "5579fc2d7e35ae0edf6e0e20da786199c7a8d2661e228b9b2a5ffd15a011164c",
+      "before_sha256": "dbc6ac922f07f1e87270ec9e5d5c67cd5f0f260b029d5232819f73a7907d0e46",
+      "path": "reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/rpc_case_results.json",
+      "replacement_count": 2349
+    },
+    {
+      "after_sha256": "737d4968fe8c49eec13f697f01b5b0c1fcad6e3ec95b6efe6d039030e88f24b3",
+      "before_sha256": "5ecb5fa1acf300d40bf0b5301bb29c196ca1d3d65507be8c9ee753d0cb78ae00",
+      "path": "reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/rpc_receipts.json",
+      "replacement_count": 4711
+    },
+    {
+      "after_sha256": "c7e96bab5bc00e91897e0221ea7060f4165bab5d6f01bcddba34acb66b95e82b",
+      "before_sha256": "9018bbb793c6ce778fafdc6934680549aa84d7b79506f23736b7b61df0e85f7b",
+      "path": "reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/run_state.json",
+      "replacement_count": 45
+    }
+  ],
+  "legacy_roots": [
+    "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact"
+  ],
+  "project_regeneration": {
+    "command": "project",
+    "counter_artifact_path": "reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/public_acquisition_counters.json",
+    "counter_input_manifest_path": "reports/public_acquisition/2026-08-08/public-acquisition-20260808T122104Z-2942b2819e08/public_acquisition_counter_inputs.json",
+    "release_eligible_cases": 0,
+    "revision": "2026-08-08",
+    "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+    "status": "incomplete"
+  },
+  "replacement_count": 7148,
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122104Z-2942b2819e08",
+  "semantics": "path-reference-only migration; referenced evidence bytes and scientific counters are not upgraded",
+  "status": "complete"
+}

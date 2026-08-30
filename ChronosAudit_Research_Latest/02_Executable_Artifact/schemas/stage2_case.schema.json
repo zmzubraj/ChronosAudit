@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chronosaudit.org/schemas/stage2-case-0.3.json",
+  "title": "ChronosAudit Stage-2 contract-at-cutoff case",
+  "type": "object",
+  "required": ["case_id", "chain", "contract_address", "prediction_cutoff", "detector_artifacts", "evaluator_metadata", "eligibility"],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^ca2-[0-9a-f]{20}$"},
+    "chain": {"type": "string", "minLength": 1},
+    "contract_address": {"type": "string", "pattern": "^0x[0-9a-f]{40}$"},
+    "prediction_cutoff": {
+      "type": "object",
+      "required": ["block_number", "block_hash", "timestamp_utc"],
+      "properties": {
+        "block_number": {"type": "integer", "minimum": 0},
+        "block_hash": {"type": "string", "pattern": "^0x[0-9a-f]{64}$"},
+        "timestamp_utc": {"type": "string", "format": "date-time"}
+      },
+      "additionalProperties": false
+    },
+    "detector_artifacts": {"type": "array", "items": {"$ref": "#/$defs/artifact"}},
+    "evaluator_metadata": {"type": "object"},
+    "eligibility": {
+      "type": "object",
+      "required": ["status", "reason_codes"],
+      "properties": {
+        "status": {"enum": ["eligible", "blocked", "excluded"]},
+        "reason_codes": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "required": ["artifact_id", "kind", "first_available_at", "sha256", "provenance_status", "lawful_use_status"],
+      "properties": {
+        "artifact_id": {"type": "string"},
+        "kind": {"type": "string"},
+        "first_available_at": {"type": "string", "format": "date-time"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "provenance_status": {"enum": ["verified", "disputed", "unverified"]},
+        "lawful_use_status": {"enum": ["approved", "restricted", "blocked", "pending"]}
+      }
+    }
+  }
+}

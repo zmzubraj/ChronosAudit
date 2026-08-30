@@ -1,0 +1,15 @@
+flowchart TD
+    A["Freeze protocol and authority boundary"] --> B{"Critical manifest fields complete?"}
+    B -- "No" --> X["Hold, exclude, redesign, or stop"]
+    B -- "Yes" --> C["Assign joint independence blocks"]
+    C --> D{"Independent rerun stable?"}
+    D -- "No" --> X
+    D -- "Yes" --> E["Freeze cohort, baselines, scorer, retrieval, and thresholds"]
+    E --> F["Evaluate R0 random through R4 joint"]
+    F --> G["Preserve unresolved cases as right-censored"]
+    G --> H["Estimate survival profile and uncertainty"]
+    H --> I{"Operational claim requested?"}
+    I -- "No" --> J["Bound retrospective conclusion"]
+    I -- "Yes" --> K{"Separate prospective authority and sealed cohort available?"}
+    K -- "No" --> L["Exclude operational claim"]
+    K -- "Yes" --> M["Run separately preregistered shadow validation"]

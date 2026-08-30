@@ -1,0 +1,326 @@
+{
+  "authoritative_input_hashes": {
+    "aggregate_hashes": {
+      "blocker_ledger": "2168d380239e13c8c10e1b802089f541f6b455d2f26e512d749271b34a6f546e",
+      "case_qualification": "5d2904c4f043b7eb300188a6a7cbb4eb6cc1c1a902866cd733adc815594431ea",
+      "historical_snapshot_closure_report": "22e53a16761807b6ca0eeec9b8be246701d8f8460164e5ef971421911f1dbe14",
+      "provider_identity_verification": "a774b26ececa76ce2dec975eb7a01facc687847a85798baf07ec37ea1d4e866d",
+      "rpc_receipt_manifest": "a6b9b33e152a7bea269ff97868171ce952fb7c28addbcdb1d75352aaa4507a64"
+    },
+    "binding_sha256": "094c44b7cf32740407e692696425228f2b59341735462fb6d75c5cc9d7c685a5",
+    "frozen_inputs_sha256": "296750e19cab01cc3c735c4b66a58461872d0ecc57569c200c3f9b802d2ee878"
+  },
+  "chain_counts": {
+    "verified_by_chain": {
+      "arbitrum": 1,
+      "base": 6,
+      "bsc": 188,
+      "ethereum": 165
+    }
+  },
+  "counter_authority": true,
+  "integrity_errors": [],
+  "observed": 360,
+  "operational_metadata": {
+    "independently_derived": false,
+    "verified_via_manifest_binding_only": [
+      "resumed",
+      "quarantined",
+      "retried"
+    ]
+  },
+  "passed": false,
+  "projection_path": "historical_snapshot_verified_projection.csv",
+  "projection_sha256": "524b8d4addde599e88cdb13fd3877c3b18b29f2483335b28e73c3f839cdbf2f6",
+  "report_sha256": "f602f63006f271832e0b55feb3695f2f0a23c4b05fe8a1c515cc2fa60d8d21c2",
+  "required": 417,
+  "schema_version": "historical_snapshot_verification_report.v1",
+  "scientific_blockers": [
+    {
+      "case_id": "ca2-5283fda6a42b6b876dbb",
+      "chain": "base",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-8fc93c5fa8fffa0c5fa4",
+      "chain": "base",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-d5e2d826f6d08f10011e",
+      "chain": "base",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-001604d480f953df5322",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-04c30f824141f500c195",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-0727c8432700660b91c2",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-0b66d50e994cba1798e2",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-10778b0afde298700715",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-197017d8b5918b4ce2c0",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-2204bc187116e38ab9eb",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-30c70897da96155884e4",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-30fa2f4b25bbff890f55",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-399010b287f06a594153",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-3e63d905e3ed3178d5fb",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-41967b2b5f0bb253dcc3",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-5844befdcedaeb2de0d2",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-63262288a02b8ba46129",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-645b4941b3f47a925ccb",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-69618eefef4fa57c795c",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-70b6e2354548bbf8e66c",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-7727ada64ae1e882eaac",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-7a7cf3302259e6efdd08",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-8025fde6af4409634631",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-8ce9d12a815961338519",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-8cfe2ca57c523f31600e",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-8dd7451bbe256eb45bfb",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-997649be77b639049862",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-998d669aa57d9c873e3e",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-9afe6d86753053b06534",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-a04834244778519abaa1",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-a04b6477783c9f312b9f",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-a315156294181711e836",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-b6847d12944e5dba551b",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-bdda6e92a5771cd2e1b7",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-bef5f7af9a50d2f1687c",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-c0d0113d3c9a4aa47402",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-c68ae49271ecb40a17be",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-d936d709679fed1fbeae",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-efd162261d7f42c2343b",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-f1d9fe96345245fcc08f",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-fff564d4ebd90a3fa837",
+      "chain": "bsc",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-0fa9395ce4552eadc7fb",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-1d880dd41ec2f04c67b7",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-3ec8cb61677cb453af73",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-45e513227d9f7b4e1381",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-4bda3ef104b3f057c7fd",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-55172a38bf64b74d8fd2",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-59a4716d84aaff033fae",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-5c37ff6ef20c8e1183dd",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-7a492e8008e940fab9d5",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-8c2839dc60456ec95380",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-a4270f1ffef2f72b2237",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-a5a309e0af5cc1aa7b9b",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-d52c28a988ebe002c21b",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-d5a550e862cee1efa2a8",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-d5c35ace73f1e0970aba",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    },
+    {
+      "case_id": "ca2-f85fa30e6947a150b2f8",
+      "chain": "ethereum",
+      "code": "insufficient_incident_lead_time"
+    }
+  ],
+  "selected_case_count": 417
+}

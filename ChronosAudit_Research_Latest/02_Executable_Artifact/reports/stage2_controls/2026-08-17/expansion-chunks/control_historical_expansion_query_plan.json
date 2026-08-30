@@ -1,0 +1,457 @@
+{
+  "acquisition_authorized": false,
+  "candidate_queue_rules": {
+    "allocation_algorithm": "deterministic_capacity_dinic_v1",
+    "candidate_identity": "chain_id:lower(address)",
+    "candidate_identity_capacity": 1,
+    "overflow_disposition": "REPLAN_REQUIRED",
+    "per_case_edge_scan_ceiling": 1000,
+    "queue_hash_required_before_rpc": true,
+    "reserve_multiplier": 10,
+    "reserve_target_rule": "minimum_additional_distinct_slots*reserve_multiplier"
+  },
+  "case_count": 380,
+  "chunk_manifest_sha256": "511206fabb669f2a8584fb641d52a04ba9a8ab65fa1210eb98649e48efa54aa3",
+  "chunk_plan_sha256": "42fe130de9af198ad9208fc7c7cf42cb43a9f4548357bcedb4bd628759a385eb",
+  "decision": "FROZEN_QUERY_PLAN_AWAITS_ACCOUNTABLE_SIGNED_APPROVAL",
+  "download_rules": {
+    "adaptive_object_discovery": false,
+    "capture_response_headers_and_sha256": true,
+    "exact_object_allowlist_only": true,
+    "maximum_download_bytes": 5024970903,
+    "ordinary_files_only": true
+  },
+  "historical_object_range": [
+    0,
+    43000000
+  ],
+  "inventory_manifest_sha256": "e615262679de5918602884518bc75006323b942059a6dff5a1558dcd18b095be",
+  "inventory_sha256": "3dc81b5bb7a032035a5d67a8a4e8f2396f1d82076c0876b62aa074d2fbb3f22c",
+  "local_transform_rules": {
+    "case_bound_window_filter": true,
+    "deduplicate_chain_address": true,
+    "deterministic_rank": "sha256(chain_id,address,transaction_hash,block_number,created_at)",
+    "exclude_positive_chain_address": true,
+    "exclude_recovery3_chain_address": true,
+    "outcome_blind": true,
+    "require_deployed_by_positive_cutoff": true,
+    "target_chain_ids": [
+      1,
+      56,
+      8453,
+      42161
+    ]
+  },
+  "minimum_additional_distinct_slots": 3490,
+  "purpose": "HISTORICAL_DENOMINATOR_EXPANSION_ONLY",
+  "query_plan_sha256": "8b01f60fa534d8a1219d364e0787e5f544aad2272ca854f7254aaadc6c0e1381",
+  "recovery3_mutation_authorized": false,
+  "rpc_authorized": false,
+  "rpc_methods": [
+    "eth_chainId",
+    "eth_getTransactionReceipt",
+    "eth_getBlockByHash"
+  ],
+  "rpc_rules": {
+    "block_hash_and_timestamp_match_required": true,
+    "candidate_queue_must_be_hash_frozen_before_rpc": true,
+    "creation_receipt_contract_address_match_required": true,
+    "internal_or_create2_requires_separate_creation_evidence": true,
+    "provider_registry_binding_required": true,
+    "raw_request_and_response_receipts_required": true
+  },
+  "schema_version": "chronosaudit.control_historical_expansion_query_plan.v1",
+  "selection_authorized": false,
+  "source_object_count": 43,
+  "source_objects": [
+    {
+      "end": 1000000,
+      "etag": "fde895911225fcff3ffda46cd38608c3",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_0_1000000.parquet",
+      "last_modified": "2026-01-06T03:01:12.853Z",
+      "size": 118067729,
+      "start": 0
+    },
+    {
+      "end": 2000000,
+      "etag": "f58e2770c27313244912c2e2ab0b1316",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_1000000_2000000.parquet",
+      "last_modified": "2026-01-06T03:02:36.184Z",
+      "size": 120854909,
+      "start": 1000000
+    },
+    {
+      "end": 3000000,
+      "etag": "c7d6239c383084bd172e3cc34e7f5da4",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_2000000_3000000.parquet",
+      "last_modified": "2026-01-06T03:04:11.718Z",
+      "size": 117854715,
+      "start": 2000000
+    },
+    {
+      "end": 4000000,
+      "etag": "1e32d5bc883be38d801ada3012366f7b",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_3000000_4000000.parquet",
+      "last_modified": "2026-01-06T03:05:30.328Z",
+      "size": 109159275,
+      "start": 3000000
+    },
+    {
+      "end": 5000000,
+      "etag": "cbc96ccc5c2254b18fb3d0bee3574e9e",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_4000000_5000000.parquet",
+      "last_modified": "2026-01-06T03:06:40.401Z",
+      "size": 83629077,
+      "start": 4000000
+    },
+    {
+      "end": 6000000,
+      "etag": "22efa62436e39da5225f1bcde610e90f",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_5000000_6000000.parquet",
+      "last_modified": "2026-01-06T03:07:56.446Z",
+      "size": 118545051,
+      "start": 5000000
+    },
+    {
+      "end": 7000000,
+      "etag": "31a326f7196e7296018fa779c8ae4af7",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_6000000_7000000.parquet",
+      "last_modified": "2026-01-06T03:09:10.032Z",
+      "size": 125602642,
+      "start": 6000000
+    },
+    {
+      "end": 8000000,
+      "etag": "f749865234c26c814bd9e63d8c8b4eda",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_7000000_8000000.parquet",
+      "last_modified": "2026-01-06T03:10:21.253Z",
+      "size": 117740561,
+      "start": 7000000
+    },
+    {
+      "end": 9000000,
+      "etag": "877ef10568d9065f758c7b7e458790f8",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_8000000_9000000.parquet",
+      "last_modified": "2026-01-06T03:11:36.895Z",
+      "size": 105230246,
+      "start": 8000000
+    },
+    {
+      "end": 10000000,
+      "etag": "54b51361e0d3f46ab286d34db3c1e520",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_9000000_10000000.parquet",
+      "last_modified": "2026-01-06T03:12:50.949Z",
+      "size": 112453853,
+      "start": 9000000
+    },
+    {
+      "end": 11000000,
+      "etag": "775167d703ead6a5623340c58f873d73",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_10000000_11000000.parquet",
+      "last_modified": "2026-01-06T03:14:06.375Z",
+      "size": 118009303,
+      "start": 10000000
+    },
+    {
+      "end": 12000000,
+      "etag": "036e93ae80e19b8351b97ffb8608db04",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_11000000_12000000.parquet",
+      "last_modified": "2026-01-06T03:15:19.827Z",
+      "size": 103355793,
+      "start": 11000000
+    },
+    {
+      "end": 13000000,
+      "etag": "0efe1a83b4bf86aed1dce97c2bcbd160",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_12000000_13000000.parquet",
+      "last_modified": "2026-01-06T03:16:35.033Z",
+      "size": 111219483,
+      "start": 12000000
+    },
+    {
+      "end": 14000000,
+      "etag": "2c326a9f8ca751caca8869f77e389a26",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_13000000_14000000.parquet",
+      "last_modified": "2026-01-16T02:05:35.137Z",
+      "size": 117073088,
+      "start": 13000000
+    },
+    {
+      "end": 15000000,
+      "etag": "2bb440649fc68280a8b32f52411bbab2",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_14000000_15000000.parquet",
+      "last_modified": "2026-01-24T02:06:16.254Z",
+      "size": 118063854,
+      "start": 14000000
+    },
+    {
+      "end": 16000000,
+      "etag": "f097b9d7d52059efd1f4a03afb7874c1",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_15000000_16000000.parquet",
+      "last_modified": "2026-01-31T02:06:03.445Z",
+      "size": 113342696,
+      "start": 15000000
+    },
+    {
+      "end": 17000000,
+      "etag": "afa633556dfcd34923b4f3dd73a4d1d8",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_16000000_17000000.parquet",
+      "last_modified": "2026-02-05T02:05:44.912Z",
+      "size": 111561190,
+      "start": 16000000
+    },
+    {
+      "end": 18000000,
+      "etag": "4fc6b7d6ef68fc3ce4b1485068e7338c",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_17000000_18000000.parquet",
+      "last_modified": "2026-02-11T02:04:45.333Z",
+      "size": 114966694,
+      "start": 17000000
+    },
+    {
+      "end": 19000000,
+      "etag": "ff3fde51983b7d03c88c737ba68a1c13",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_18000000_19000000.parquet",
+      "last_modified": "2026-02-15T02:04:50.132Z",
+      "size": 115388667,
+      "start": 18000000
+    },
+    {
+      "end": 20000000,
+      "etag": "a54446eee32a91d615cde6e7d1d1ea9c",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_19000000_20000000.parquet",
+      "last_modified": "2026-02-21T02:06:46.064Z",
+      "size": 115876354,
+      "start": 19000000
+    },
+    {
+      "end": 21000000,
+      "etag": "e80c49e41c2dbdeb9d063f8118810e7f",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_20000000_21000000.parquet",
+      "last_modified": "2026-03-01T02:09:42.462Z",
+      "size": 117010680,
+      "start": 20000000
+    },
+    {
+      "end": 22000000,
+      "etag": "f589ecdddfc4ccbe5d9c8a1f986a7c42",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_21000000_22000000.parquet",
+      "last_modified": "2026-03-09T02:07:12.412Z",
+      "size": 109702010,
+      "start": 21000000
+    },
+    {
+      "end": 23000000,
+      "etag": "0302ec2e8935bdd508e373ddeaae3b9b",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_22000000_23000000.parquet",
+      "last_modified": "2026-03-13T02:06:43.459Z",
+      "size": 117269801,
+      "start": 22000000
+    },
+    {
+      "end": 24000000,
+      "etag": "346d8e85be6193ad450a1658401b04e7",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_23000000_24000000.parquet",
+      "last_modified": "2026-03-15T02:06:27.401Z",
+      "size": 109077097,
+      "start": 23000000
+    },
+    {
+      "end": 25000000,
+      "etag": "c29a264da2045c6cab087453e184973b",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_24000000_25000000.parquet",
+      "last_modified": "2026-03-22T02:06:10.589Z",
+      "size": 104565527,
+      "start": 24000000
+    },
+    {
+      "end": 26000000,
+      "etag": "1fc3fa0a5e3fb5849c51eaf531aa3eed",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_25000000_26000000.parquet",
+      "last_modified": "2026-03-24T02:08:50.833Z",
+      "size": 116763312,
+      "start": 25000000
+    },
+    {
+      "end": 27000000,
+      "etag": "60455c9dfcab26dec4d6d6cc74d59a84",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_26000000_27000000.parquet",
+      "last_modified": "2026-03-25T02:07:05.390Z",
+      "size": 122121575,
+      "start": 26000000
+    },
+    {
+      "end": 28000000,
+      "etag": "f0282724671359001c015891b437219c",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_27000000_28000000.parquet",
+      "last_modified": "2026-04-06T02:07:01.006Z",
+      "size": 116485655,
+      "start": 27000000
+    },
+    {
+      "end": 29000000,
+      "etag": "23f2e49b749d3df980c3906a4837896b",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_28000000_29000000.parquet",
+      "last_modified": "2026-05-08T02:28:37.476Z",
+      "size": 108644622,
+      "start": 28000000
+    },
+    {
+      "end": 30000000,
+      "etag": "fd21a92839b742194fb12e1d8e979019",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_29000000_30000000.parquet",
+      "last_modified": "2026-05-22T02:08:07.750Z",
+      "size": 130184905,
+      "start": 29000000
+    },
+    {
+      "end": 31000000,
+      "etag": "e8f3ef0d4187635af9f34fe0dcae5f14",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_30000000_31000000.parquet",
+      "last_modified": "2026-06-04T02:15:49.840Z",
+      "size": 129398307,
+      "start": 30000000
+    },
+    {
+      "end": 32000000,
+      "etag": "633a7ff308b440c819001d3f31d59636",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_31000000_32000000.parquet",
+      "last_modified": "2026-06-09T02:07:57.115Z",
+      "size": 127179362,
+      "start": 31000000
+    },
+    {
+      "end": 33000000,
+      "etag": "2c971e3b2b03e6d1e46baf2666e90d58",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_32000000_33000000.parquet",
+      "last_modified": "2026-06-19T02:12:54.081Z",
+      "size": 121385739,
+      "start": 32000000
+    },
+    {
+      "end": 34000000,
+      "etag": "b4b1e3b0d0a6245e5903630b8d689d79",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_33000000_34000000.parquet",
+      "last_modified": "2026-06-22T02:15:28.960Z",
+      "size": 126156748,
+      "start": 33000000
+    },
+    {
+      "end": 35000000,
+      "etag": "ee0590d1acaebf8cae274dcd031212ce",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_34000000_35000000.parquet",
+      "last_modified": "2026-06-24T02:21:54.680Z",
+      "size": 127372380,
+      "start": 34000000
+    },
+    {
+      "end": 36000000,
+      "etag": "5d50a117ecf3a5ce913d68aeea410316",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_35000000_36000000.parquet",
+      "last_modified": "2026-06-25T02:19:33.051Z",
+      "size": 128174268,
+      "start": 35000000
+    },
+    {
+      "end": 37000000,
+      "etag": "33c9ecc43ea631fc88ab22ef4456aab7",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_36000000_37000000.parquet",
+      "last_modified": "2026-06-26T02:14:58.880Z",
+      "size": 126565736,
+      "start": 36000000
+    },
+    {
+      "end": 38000000,
+      "etag": "c549c37007efd9f66b5f17333dcc77c4",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_37000000_38000000.parquet",
+      "last_modified": "2026-06-28T02:29:10.652Z",
+      "size": 127200405,
+      "start": 37000000
+    },
+    {
+      "end": 39000000,
+      "etag": "916e6f83323e8a4be601e2fed0687fd3",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_38000000_39000000.parquet",
+      "last_modified": "2026-06-30T02:16:50.613Z",
+      "size": 128439251,
+      "start": 38000000
+    },
+    {
+      "end": 40000000,
+      "etag": "ff3b5b65d15381250a5b403cd25f735d",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_39000000_40000000.parquet",
+      "last_modified": "2026-07-01T02:14:44.514Z",
+      "size": 128102062,
+      "start": 39000000
+    },
+    {
+      "end": 41000000,
+      "etag": "6fb0c3aa3faf0b8fa73de025a6afc22e",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_40000000_41000000.parquet",
+      "last_modified": "2026-07-09T02:09:46.807Z",
+      "size": 123537830,
+      "start": 40000000
+    },
+    {
+      "end": 42000000,
+      "etag": "3e9959f922541682e5dba86b80a5f231",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_41000000_42000000.parquet",
+      "last_modified": "2026-07-13T02:06:46.638Z",
+      "size": 114708820,
+      "start": 41000000
+    },
+    {
+      "end": 43000000,
+      "etag": "f7d2c48ccd394eca7b4c1c26744a8103",
+      "inventory_page_sha256": "9970b62219598924b2b99097561eee9bd036f34def6c0418b6c84b5d26250165",
+      "key": "v2/contract_deployments/contract_deployments_42000000_43000000.parquet",
+      "last_modified": "2026-07-17T02:10:45.080Z",
+      "size": 96929631,
+      "start": 42000000
+    }
+  ],
+  "source_total_bytes": 5024970903,
+  "stage_promotion_authorized": false
+}

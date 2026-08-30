@@ -1,0 +1,728 @@
+{
+  "base_state_targets_file_sha256": "9270a5b55ed1adb0a9aeb86d7b48ef9293a8a479ec85679e5e91c841e8ec24ec",
+  "base_state_targets_sha256": "7c406c4f4bb389a875508de80b4e5bf1a263d14da4d0e14041c6dc4b1be2d9f3",
+  "capability_sha256": "9badbac047387a6d3b1b54bebef9fcb88041e0e5fdb52187e033ac8029fec0bb",
+  "chain_count": 2,
+  "chains": [
+    {
+      "chain": "bsc",
+      "complete": true,
+      "errors": [],
+      "operator_families": [
+        "nodereal",
+        "quicknode"
+      ],
+      "probe_target_count": 1,
+      "probe_target_ids": [
+        "base-state:f6e427336c8ebc4e9309c3eb7cbcf8e702dd05bdc272dada0ae0edce2ea013c4"
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "complete": true,
+          "errors": [],
+          "exact_probe_call_count": 6,
+          "operator_family": "nodereal",
+          "provider_id": "nodereal-bsc"
+        },
+        {
+          "chain_id_verified": true,
+          "complete": true,
+          "errors": [],
+          "exact_probe_call_count": 6,
+          "operator_family": "quicknode",
+          "provider_id": "quicknode-bsc-docs-demo"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "complete": true,
+      "errors": [],
+      "operator_families": [
+        "drpc",
+        "quicknode"
+      ],
+      "probe_target_count": 2,
+      "probe_target_ids": [
+        "base-state:ed2e0f983c2ae55aef12082bf17ad10b838ccb8e3419f691b6cfa0004d3e02bc",
+        "base-state:d6e622307cbcc95f46f960475fbaeebde0c4eb4889e5b9d56b58c542cdd7cbf3"
+      ],
+      "provider_count": 2,
+      "providers": [
+        {
+          "chain_id_verified": true,
+          "complete": true,
+          "errors": [],
+          "exact_probe_call_count": 12,
+          "operator_family": "drpc",
+          "provider_id": "drpc-ethereum"
+        },
+        {
+          "chain_id_verified": true,
+          "complete": true,
+          "errors": [],
+          "exact_probe_call_count": 12,
+          "operator_family": "quicknode",
+          "provider_id": "quicknode-ethereum"
+        }
+      ]
+    }
+  ],
+  "complete": true,
+  "counter_authority": false,
+  "decision": "DUAL_PROVIDER_BASE_STATE_CAPABILITY_VERIFIED",
+  "errors": [],
+  "probe_policy": "OLDEST_AND_NEWEST_EXACT_PHASE1_TARGET_PER_CHAIN_V1",
+  "probe_target_count": 3,
+  "provider_registry_sha256": "9788ad91ed55746ffff9144d3d79bf7077fa8618cc3ad810d63c9f183a8d5643",
+  "raw_evidence": [
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00001-nodereal-bsc-eth_chainId-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 1,
+      "sha256": "7d95d7f1672d6bfd7be2d55a168b04510d3b0b65629592df53a4dfb5266e28d4"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00001-nodereal-bsc-eth_chainId-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 1,
+      "sha256": "b306b91aec53d968e41162d8083da2cd65a9d04e5e5f55e2bbeea8437d802b2d"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-nodereal-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 2,
+      "sha256": "de7052abe0862c211b0f33afe88551a277a113507048d05c4a8e94950160e1db"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-nodereal-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 2,
+      "sha256": "223b06c81e7520d9afdd31c55ee7d9e5d44958915509d41e021920d788f7f4d3"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00003-nodereal-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 3,
+      "sha256": "d3de39b09297c1def545c753909d6e8117f6ad3d9fac067bdbf5da163bf6406d"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00003-nodereal-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 3,
+      "sha256": "340b55bed92d2761385e8fb9c2515083c409450ea9076956a087e39378715d76"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00004-nodereal-bsc-eth_getCode-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 4,
+      "sha256": "16a049a7c64cfc0a3230289d8d6690b18899a6222eeaa84c58aaaf78047d71aa"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00004-nodereal-bsc-eth_getCode-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 4,
+      "sha256": "7a266c925046624430a7de0c27219e3cf9a2e6baffa376f5f66a29110823cbb8"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00005-nodereal-bsc-eth_getStorageAt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 5,
+      "sha256": "52006d749d2821c23532ec327bed9e7751f2fa6248255c7f3ba44fe2fe205092"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00005-nodereal-bsc-eth_getStorageAt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 5,
+      "sha256": "1d6cd02fd850a2bf41be12fe6b7f0085a42476ab6f08073e3149b1b9f2495204"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00006-nodereal-bsc-eth_getStorageAt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 6,
+      "sha256": "09abdddfe7ab512276bad1bd6240daf1326d4d4b26ec0b2842859189cb63d091"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00006-nodereal-bsc-eth_getStorageAt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 6,
+      "sha256": "69d6c98559969a0824982eddc355ef3fc63d36acc9335bf824cb7d617585bb84"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00007-nodereal-bsc-eth_getStorageAt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 7,
+      "sha256": "0726099f2cf7686e9d0366f0d479628c151da7ef2b95b76a802561f74cebb61f"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00007-nodereal-bsc-eth_getStorageAt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 7,
+      "sha256": "83d75568ba86142ae5628f5debb12fe9020378d39880b1a5c325c719a869e92a"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00008-quicknode-bsc-docs-demo-eth_chainId-request.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 8,
+      "sha256": "055605750ad8d53c492ed9b17afc35c44191091d50ff0e9e4f1752e31e70ca92"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00008-quicknode-bsc-docs-demo-eth_chainId-response.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 8,
+      "sha256": "3ed492b156b13b55aea45fc2710482c18dd76b5a76ebbf3da78a9ed18739eee7"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00009-quicknode-bsc-docs-demo-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 9,
+      "sha256": "622bf102d16bcec2d4c777a441e03101b503994afc1aa2415a194abd5840369e"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00009-quicknode-bsc-docs-demo-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 9,
+      "sha256": "c8b26f4723e341fa6243d1c6d0547bd71e92f090a62635b56c8ae35a0fe1d00c"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00010-quicknode-bsc-docs-demo-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 10,
+      "sha256": "b75dee4bef47f15342f5644481c8f56127784596610b4b61211d0a91421c9324"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00010-quicknode-bsc-docs-demo-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 10,
+      "sha256": "db7fb01fa4586b700fa84823030bb2cdfd44f2ebd80486e3c3430e3ec9998a65"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00011-quicknode-bsc-docs-demo-eth_getCode-request.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 11,
+      "sha256": "185bd4796a09654f085a47e65552a1107ad90b198824cc86df5feae1245b298f"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00011-quicknode-bsc-docs-demo-eth_getCode-response.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 11,
+      "sha256": "ab501561a9fa68cea9e94c1308df2d4f28810a02699c0448bd226d41628d33cf"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00012-quicknode-bsc-docs-demo-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 12,
+      "sha256": "f9c6d8d03ebee5267f6425144728518615e87ba3544f3e869ed0755dcede0ca3"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00012-quicknode-bsc-docs-demo-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 12,
+      "sha256": "aea8df6b3d04e13ec81cf4f17c53399eb25d1006c85bb0f4c615e47b259c77a8"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00013-quicknode-bsc-docs-demo-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 13,
+      "sha256": "cf96f8ba8c5ca4b56f35d71bf9bd00d1194e3f29b961da11b90018fcb50834cf"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00013-quicknode-bsc-docs-demo-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 13,
+      "sha256": "f88319595493f5bb152dd4d625d91e29005e9c159d76479a16e6223529a5f536"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00014-quicknode-bsc-docs-demo-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 14,
+      "sha256": "9de641240171fb4a5ceccae2cfd2bc97eea20c335744e525134793a86df9316a"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00014-quicknode-bsc-docs-demo-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-bsc-docs-demo",
+      "sequence": 14,
+      "sha256": "75a5ea7b04cc27c3af13d30403d4eab17fab23b642df530891e981b29653284e"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00015-drpc-ethereum-eth_chainId-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 15,
+      "sha256": "8e259c86ba4833eb162c27db41ddd5d4ed11ff9ca732c95a5ee30852dcab4a7e"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00015-drpc-ethereum-eth_chainId-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 15,
+      "sha256": "272dd7998ea809e9255fc43f1b4c2ad5862e4be46571bac39084b6542eae3e8e"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00016-drpc-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 16,
+      "sha256": "658461ce752a6334a13c28c2a80ce55e40e53a976ccc444ed98ab40a714c36c0"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00016-drpc-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 16,
+      "sha256": "189eada48d1d249219f665ad1d3e6314bfea37387a988f2c4f568547bb7fae30"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00017-drpc-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 17,
+      "sha256": "b3335ddb7d6e6500f2cb7bb9abf5fc99f161dabb0780d4ff894cff3346d60054"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00017-drpc-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 17,
+      "sha256": "2b795f73737ac7d97916fb2f18b26691dd6b670ad5a54b5d35fd3793d93235ef"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00018-drpc-ethereum-eth_getCode-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 18,
+      "sha256": "b02b7bb5bf462c17457c7929ec3fdf78b1e3ce1c3e9cfbd3527db435249d6a5d"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00018-drpc-ethereum-eth_getCode-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 18,
+      "sha256": "7657a61e3e8d8a433ce8a04643c90f3fad61975b05e60053a1e2ed45ad93b1b9"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00019-drpc-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 19,
+      "sha256": "f5e16e78c99d96490027dfeeb7d92b3892de129dbcff25d38c9b8a953c098ad1"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00019-drpc-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 19,
+      "sha256": "872e88f114d79ff6138ce44006d99182c595d8fc48bf332d15c10fda5c9c2844"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00020-drpc-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 20,
+      "sha256": "9445c142ab1092b7ad05580fe0a759419db4a37fbb2bba2ee4067e2625472b24"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00020-drpc-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 20,
+      "sha256": "a40ef935f69df2a6ba76826721184760361078e72e60e76bf5a868233a78a347"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00021-drpc-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 21,
+      "sha256": "ea2370e85563b52e71143426298045ed37e139e0aa9720f44edd27165baabfee"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00021-drpc-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 21,
+      "sha256": "d8056ab5ea28e7d0e4fb2b28c30538e67ea62fc92a828e30253acd142f3266dc"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00022-drpc-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 22,
+      "sha256": "0ea08c48e59d9d3d55e321f312e1702e64c8da61ccb0e1adcb5ed168da4f8faa"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00022-drpc-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 22,
+      "sha256": "75b4e52ca7f9712d04b40269a37926892387199a6df615f29e3a6aa0fd7925d2"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00023-drpc-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 23,
+      "sha256": "48ecfbd02e870f547ee73e6f42b62a5699cb88c0f0303c8ac7b32210f6248ee9"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00023-drpc-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 23,
+      "sha256": "91ef1a557c9cc3ae56fe2ed1f6e51fb11401c985220bb33a6db65c0c0c4abcd2"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00024-drpc-ethereum-eth_getCode-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 24,
+      "sha256": "4a216cbf4717aa3144724cbd80b7cd0c3204d349a83d1ccd8ff5dde3ec160ffe"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00024-drpc-ethereum-eth_getCode-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 24,
+      "sha256": "c5fcdd4f31cf468292906c37f65f5e520622d8bb7bcd5287efdacabdd3c9b272"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00025-drpc-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 25,
+      "sha256": "4e464978f00cf0ac8bd120357a7a7451cc246b31dee8037f0ed2978f26639ec4"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00025-drpc-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 25,
+      "sha256": "997e550a4888e2ae620cfdccdcf23821bde09bbb1e7c53ae6de5631e906fff77"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00026-drpc-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 26,
+      "sha256": "b535712bd6ac65fb7e456af767b3abc8c65dff36d4eb37ceb5a63f0da6650ff6"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00026-drpc-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 26,
+      "sha256": "c819a163b6f99aecbf6b747020328cc4623b0ccd52ba2c70c74799290967f861"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00027-drpc-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 27,
+      "sha256": "cde03a25df7601a3b0238432b0d064043b80b229a7e1a9ef01f645d7c6e7c4ce"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00027-drpc-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "drpc-ethereum",
+      "sequence": 27,
+      "sha256": "4bc71a51902028d306791199ac2337bd4c2c982f53933502f21fa75f25269f83"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00028-quicknode-ethereum-eth_chainId-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 28,
+      "sha256": "4ce7a951aa48024a6bdf6c775ce6fe48240692b3906178f70cf90dcfabdb25de"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00028-quicknode-ethereum-eth_chainId-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 28,
+      "sha256": "04ec21d6b3e4f556b6ff50c976657e1bb9182b79040cd5fbacf8c2bd0aa446c8"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00029-quicknode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 29,
+      "sha256": "0f4c3814362c97bcae8ff3e7997e27f5b55329cdb45f00cae044fbfe762415a6"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00029-quicknode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 29,
+      "sha256": "3ec80e509d17217a6f90d30f2bc4974a4be3cec4ffdb76a415897e1a4becf680"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00030-quicknode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 30,
+      "sha256": "9d38c81572ba9c7e232b7232c10d51430c0c2b0d831a6b22ef8740758ef214ef"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00030-quicknode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 30,
+      "sha256": "7f2705336e174e09797a01ba436ff49c26c2b1e7c68f30fcd99d2acda1ca6a13"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00031-quicknode-ethereum-eth_getCode-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 31,
+      "sha256": "b771c46dda51fd0d1a77884788350d4b9171a5fb42a866fb1e35b7e4597ee7e2"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00031-quicknode-ethereum-eth_getCode-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 31,
+      "sha256": "a782612a8000f667497affe8b64153eca988e89510e69152906b5bf20513f8dd"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00032-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 32,
+      "sha256": "7c0ea47d170c96027f95653c5e95f1107e686a77ac040534e82e7bbc3376ec97"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00032-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 32,
+      "sha256": "ce76882261cd3729e9f09c8e85b71cf4aa75093f9b3fa0fda9eb67ea658c5481"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00033-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 33,
+      "sha256": "b222a7404ab0d85dacf16ccc5cf1c5cf092f0e278a5b334170e0a5c39d578ddd"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00033-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 33,
+      "sha256": "1f38d86ef90670c85837600187e2baeb773b4a67fd6e24a271ba44a5987a96f4"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00034-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 34,
+      "sha256": "b2563a8138ab4e9133b570e84a8e8e7c61f61c70a12bb6e400d047cc98684b85"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00034-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 34,
+      "sha256": "d0bda6679d321e5038eeb220860a185bb4c1ae6b3b8434c97a94a83ceaf25e92"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00035-quicknode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 35,
+      "sha256": "71c6c2af4146dcd40f8d1dd714f4ea36c7271bd29be308aabcae89aa6b02d10a"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00035-quicknode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 35,
+      "sha256": "6196c7eec5e52117723a958d076510eb472e5c40eab743b82c00495359649066"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00036-quicknode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 36,
+      "sha256": "d1d378379f753c3b055e7a96d1a6f7f3b5a48bd487634e71c32901f6e27aa2bb"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00036-quicknode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 36,
+      "sha256": "856b7ffb0ca167626e6affef40a4b6be16f3561c4f63639e301328ee38f032ce"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00037-quicknode-ethereum-eth_getCode-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 37,
+      "sha256": "7de770be967fd04e7f57aee668e177045e2d55104255576891f2d5b35cc8b59b"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00037-quicknode-ethereum-eth_getCode-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 37,
+      "sha256": "01ee219970743fef7bdbfc6a949489ae88b282ff79a75fe78a37dbf0acd28995"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00038-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 38,
+      "sha256": "45c115e7daddc6768fd7b68d1baeace6996d2ac8dc5f92de862fc093a17269ce"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00038-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 38,
+      "sha256": "d1acee5bdd3da4303402c249eed949c32d015770b803ed16f823d3df1a68acb0"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00039-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 39,
+      "sha256": "19d9bebe6e384c1c78b630fbdab1625c541602a0e801ece693a8ea8ee53d10e7"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00039-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 39,
+      "sha256": "2bd188dcd2549569f3c855c1c5463f509e11c797550c91b71baad1fc60a6df41"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00040-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 40,
+      "sha256": "50c451888426e6a95c90b76282af95c32baada493e2cc59c4a48d5ee74e1a40e"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00040-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 40,
+      "sha256": "bb7d600817e8ec104d7a36fe31b6ff3915553af4ae76f9e8a840c1ce5c7e1e2b"
+    }
+  ],
+  "raw_evidence_count": 80,
+  "recovery3_mutation_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_base_state_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

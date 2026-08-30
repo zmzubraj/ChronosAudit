@@ -1,0 +1,10 @@
+{
+  "reason": "independent human review artifacts not yet bound",
+  "required_artifacts": [
+    "two distinct reviewer identities",
+    "conflict checks",
+    "decision hashes",
+    "finalized adjudications"
+  ],
+  "status": "waiting_external"
+}

@@ -1,0 +1,16 @@
+{
+  "policy_version": 1,
+  "external_processing": "allow-approved",
+  "allowed_channels": [
+    "public_web"
+  ],
+  "prohibited_content": [
+    "private keys",
+    "credentials",
+    "unpublished exploit details",
+    "participant or customer data",
+    "proprietary source code"
+  ],
+  "authorization_basis": "The user requested autonomous continuation and the governing research baseline requires current public-source novelty verification. Only public, non-confidential research metadata and official guidance may leave the local case.",
+  "notes": "Fail closed for every channel not explicitly listed. Image generation, proprietary databases, authenticated private sources, disclosure coordination, and external submission are not authorized by this policy."
+}

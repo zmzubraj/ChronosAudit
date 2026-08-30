@@ -1,0 +1,28 @@
+version: 1.2.0-accountable-provider-review-projection
+projection_provenance:
+  request_sha256: 0f1d375727ada10635eab2bba328b651329e78a4af0f8e94c517870e62fcd204
+  review_payload_sha256: bbdbaf65bd43b9c4935d24ccc2bf24457fb05226e51073b161c0ae2117909179
+  reviewer_principal: zmzubraj-local-test
+  review_expires_utc: '2026-08-27T22:22:00Z'
+  rpc_authorized: false
+  selection_authorized: false
+providers:
+- provider_id: drpc-ethereum
+  chain: ethereum
+  endpoint: https://eth.drpc.org
+  operator_family: drpc
+  discovery_source: https://drpc.org/chainlist/ethereum-mainnet-rpc
+  tracking_enabled: true
+  operator_evidence_url: https://drpc.org/chainlist/ethereum-mainnet-rpc
+  operator_evidence_sha256: 91437f6e40fe6e0be3ae81f2d07894ad954c192eb012617b52bd86453385a47c
+  operator_verified: true
+- provider_id: quicknode-ethereum
+  chain: ethereum
+  endpoint: https://quiknode.pro/
+  operator_family: quicknode
+  discovery_source: https://www.quicknode.com/docs/ethereum/endpoints.md
+  tracking_enabled: true
+  operator_evidence_url: https://www.quicknode.com/docs/ethereum/endpoints.md
+  operator_evidence_sha256: fb5619b49be135eb0dbd6539d3db8d457a01bad95e2751c90dce618605e608e4
+  operator_verified: true
+  endpoint_env: CHRONOS_QUICKNODE_ETHEREUM_URL

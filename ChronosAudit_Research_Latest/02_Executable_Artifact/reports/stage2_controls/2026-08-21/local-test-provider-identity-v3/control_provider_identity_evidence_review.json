@@ -1,0 +1,177 @@
+{
+  "capture_index_sha256": "73e1cfb39b908685aad5078fd38405760534fd095fabbc499fb4c439f497357d",
+  "captures": [
+    {
+      "captured_at_utc": "2026-08-20T18:24:49Z",
+      "captured_path": "arbitrum_chain_info.html",
+      "content_sha256": "e242303c90cb8e8b99b9450cf83379a08e049c33879bd21fb2e368b3cec7ed4d",
+      "final_url": "https://docs.arbitrum.io/for-devs/dev-tools-and-resources/chain-info",
+      "http_status": 200,
+      "operator_family": "arbitrum-official",
+      "source_id": "arbitrum-official-chain-info-doc-2026-08-21",
+      "source_url": "https://docs.arbitrum.io/for-devs/dev-tools-and-resources/chain-info",
+      "supported_provider_ids": [
+        "arbitrum-official-arbitrum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T18:18:39Z",
+      "captured_path": "base_connecting.html",
+      "content_sha256": "12e85f3d1a499d0f8741dbed9cf8c967a044315b17397cea003aab9b92e255e0",
+      "final_url": "https://docs.base.org/base-chain/quickstart/connecting-to-base",
+      "http_status": 200,
+      "operator_family": "base-official",
+      "source_id": "base-official-connection-doc-2026-08-21",
+      "source_url": "https://docs.base.org/base-chain/quickstart/connecting-to-base",
+      "supported_provider_ids": [
+        "base-official-base"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T18:24:49Z",
+      "captured_path": "blockreq_public_endpoints.html",
+      "content_sha256": "9f11899c5f9d4f63080b9c75135086b8a471dcd221773d2137dfe1af5c0e8341",
+      "final_url": "https://docs.blockreq.com/build/public-endpoints/",
+      "http_status": 200,
+      "operator_family": "blockreq",
+      "source_id": "blockreq-public-endpoints-doc-2026-08-21",
+      "source_url": "https://docs.blockreq.com/build/public-endpoints/",
+      "supported_provider_ids": [
+        "blockreq-arbitrum",
+        "blockreq-base",
+        "blockreq-bsc",
+        "blockreq-ethereum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T18:24:49Z",
+      "captured_path": "bnb_json_rpc_endpoints.html",
+      "content_sha256": "6f1a4dbf407ba8c48706c373f563c5ac7fd770cdcec83949194a22b9224c7f16",
+      "final_url": "https://docs.bnbchain.org/bnb-smart-chain/developers/json_rpc/json-rpc-endpoint/",
+      "http_status": 200,
+      "operator_family": "bnb-official",
+      "source_id": "bnb-official-json-rpc-doc-2026-08-21",
+      "source_url": "https://docs.bnbchain.org/bnb-smart-chain/developers/json_rpc/json-rpc-endpoint/",
+      "supported_provider_ids": [
+        "bnb-official-bsc"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T14:12:06Z",
+      "captured_path": "publicnode_ethereum.html",
+      "content_sha256": "1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf",
+      "final_url": "https://ethereum.publicnode.com/",
+      "http_status": 200,
+      "operator_family": "publicnode",
+      "source_id": "publicnode-ethereum-doc-2026-08-20",
+      "source_url": "https://ethereum.publicnode.com/",
+      "supported_provider_ids": [
+        "publicnode-ethereum"
+      ]
+    }
+  ],
+  "decision": "EVIDENCE_CAPTURED_AWAITING_ACCOUNTABLE_PROVIDER_IDENTITY_REVIEW",
+  "operator_verified": false,
+  "provider_count": 8,
+  "provider_identity_verified": false,
+  "provider_ids": [
+    "arbitrum-official-arbitrum",
+    "base-official-base",
+    "blockreq-arbitrum",
+    "blockreq-base",
+    "blockreq-bsc",
+    "blockreq-ethereum",
+    "bnb-official-bsc",
+    "publicnode-ethereum"
+  ],
+  "provider_registry_sha256": "c6d9233e7035765b2a1a3bbeb60d2c4dc53d03f02c9399155755a9840616805e",
+  "providers": [
+    {
+      "chain": "arbitrum",
+      "operator_family": "arbitrum-official",
+      "provider_id": "arbitrum-official-arbitrum",
+      "public_endpoint": "https://arb1.arbitrum.io/rpc",
+      "public_endpoint_id": "75dae0a9fdf900f37bfd5781d118014d8e7fd536bd7ea0f7abdcd740ea847202",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "arbitrum-official-chain-info-doc-2026-08-21"
+    },
+    {
+      "chain": "base",
+      "operator_family": "base-official",
+      "provider_id": "base-official-base",
+      "public_endpoint": "https://mainnet.base.org",
+      "public_endpoint_id": "da1e4a0b726081a615f3a070f91579a54a9a7deb09de13f8c5f6687d4079cf27",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "base-official-connection-doc-2026-08-21"
+    },
+    {
+      "chain": "arbitrum",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-arbitrum",
+      "public_endpoint": "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public",
+      "public_endpoint_id": "b7cbaed0f509c2c15f8f65e9cf40368bdf70b4d2204b32b524995fda71f962f6",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "blockreq-public-endpoints-doc-2026-08-21"
+    },
+    {
+      "chain": "base",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-base",
+      "public_endpoint": "https://base-rpc.blockreq.com/v1/rpc/public",
+      "public_endpoint_id": "9725f76be0e39ec0a6357d2c978f49aab60da2ac81b88d6b207e3dd406424bfe",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "blockreq-public-endpoints-doc-2026-08-21"
+    },
+    {
+      "chain": "bsc",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-bsc",
+      "public_endpoint": "https://bsc-rpc.blockreq.com/v1/rpc/public",
+      "public_endpoint_id": "24c562d7bf48e723fbc228bb78887cf4c71247edcf9e608bf73e49a077903de0",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "blockreq-public-endpoints-doc-2026-08-21"
+    },
+    {
+      "chain": "ethereum",
+      "operator_family": "blockreq",
+      "provider_id": "blockreq-ethereum",
+      "public_endpoint": "https://ethereum-rpc.blockreq.com/v1/rpc/public",
+      "public_endpoint_id": "6f14fe92d9f49650515871e797fc5500e128b4f0d754c6172485ca92a8c2dfab",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "blockreq-public-endpoints-doc-2026-08-21"
+    },
+    {
+      "chain": "bsc",
+      "operator_family": "bnb-official",
+      "provider_id": "bnb-official-bsc",
+      "public_endpoint": "https://bsc-dataseed.bnbchain.org",
+      "public_endpoint_id": "2e478f4aa04134232f6ffd08cd94d1363cef63adc5f796c4a5dc0ec9db9034b9",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "bnb-official-json-rpc-doc-2026-08-21"
+    },
+    {
+      "chain": "ethereum",
+      "operator_family": "publicnode",
+      "provider_id": "publicnode-ethereum",
+      "public_endpoint": "https://ethereum-rpc.publicnode.com",
+      "public_endpoint_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "publicnode-ethereum-doc-2026-08-20"
+    }
+  ],
+  "recovery3_mutation_authorized": false,
+  "review_payload_sha256": "3bf11acc03354665bdc81e71a432959239c075d7523027e3894d2224e4675ccf",
+  "reviewer_signature_required": true,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_evidence_review.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

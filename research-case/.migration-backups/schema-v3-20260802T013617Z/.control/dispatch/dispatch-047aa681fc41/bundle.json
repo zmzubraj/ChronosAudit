@@ -1,0 +1,103 @@
+{
+  "dispatch_id": "dispatch-047aa681fc41",
+  "run_id": "chronosaudit-20260801T105039Z-e7e2c21c-64e42a",
+  "phase": "NOVELTY_AUDIT",
+  "cell_id": "problem_investigation",
+  "lease_id": "LEASE-bf4230f19b05",
+  "agent_type": "research-analyst",
+  "owned_scope": [
+    "01-novelty/problem-investigation.md",
+    "01-novelty/causal-model.mmd"
+  ],
+  "forbidden_scope": [
+    "program-state.json",
+    "artifact-registry.csv",
+    "orchestration-plan.json"
+  ],
+  "dependencies": [
+    "intake_integration"
+  ],
+  "status": "EMITTED",
+  "execution_mode": "manual_root_task",
+  "generated_at": "2026-08-01T21:01:56Z",
+  "control_hashes": {
+    "program-state.json": "8d248e1f0d024e61282e000a7169f727ea9fed7241927a26330bda1c449bef17",
+    "artifact-registry.csv": "b728035e891e6e92bbc9875483ed2c677ca875e1e746332fff16089149b5a221",
+    "orchestration-plan.json": "df941991af55828d24679129ea2cc042d88f9afd2f75f0809b824acdda7774a0",
+    "agent-registry.csv": "87f411397b964647a326373ff887c77448437b8becd60771f068e9b7b3543e36"
+  },
+  "study_context": {
+    "adapter_id": "benchmark_prospective_v1",
+    "adapter_label": "Computational benchmark or prospective evaluation",
+    "study_type": "prospective_benchmark",
+    "article_type": "benchmark and methods resource article; target venue undecided",
+    "reporting_guideline": "DOMAIN_BENCHMARK_REPORTING_STANDARD_REQUIRED",
+    "submission_checklist_hint": "Verify current benchmark, dataset, leakage, compute, and reproducibility requirements.",
+    "preferred_source": "latex",
+    "latex_required": false,
+    "requires_external_validation": "required_for_generality_or_deployment_claims",
+    "pilot_policy": "freeze splits, metrics, baselines, leakage controls, and compute budget before confirmation",
+    "default_egress_policy": "deny_external_without_explicit_authority",
+    "default_egress_channels": [],
+    "profile": {
+      "adapter_id": "benchmark_prospective_v1",
+      "study_type": "prospective_benchmark",
+      "article_type": "benchmark and methods resource article; target venue undecided",
+      "manuscript_source": "auto",
+      "profile_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/research-case/00-governance/study-profile.json",
+      "raw": {
+        "schema_version": 3,
+        "adapter_id": "benchmark_prospective_v1",
+        "field": "smart-contract security benchmark science and prospective exploit-detection evaluation",
+        "study_type": "prospective_benchmark",
+        "jurisdiction": "current phase limited to public-source computational research with no live-chain intervention or human-participant activity; deployment-specific jurisdiction is outside current authority",
+        "jurisdiction_basis": "The authorized novelty recovery uses public scholarly, patent-discovery, and standards records only. Archive/RPC access, live target testing, external disclosure operations, partner data, analyst-participant studies, and prospective deployment require separate authorization plus the applicable institutional and legal determination before execution.",
+        "ethics_category": "public_data_non_interventional_cybersecurity_dual_use",
+        "reporting_guidelines": [
+          "DOMAIN_BENCHMARK_REPORTING_STANDARD_REQUIRED",
+          "current target-venue benchmark, dataset, leakage, compute, and reproducibility checklist once a venue is selected"
+        ],
+        "evidence_standard": "claim-matched, provenance-audited, machine-verifiable benchmark evidence; operational, generality, or deployment claims require preregistered sealed prospective validation and independent adjudication",
+        "article_type": "benchmark and methods resource article; target venue undecided",
+        "manuscript_source": "auto",
+        "status": "RESOLVED_FOR_CURRENT_PUBLIC_DATA_PHASE_WITH_PROSPECTIVE_EXTENSION_BLOCKED",
+        "notes": "This profile resolves routing for the authorized public-data research phase only. It does not authorize archive/RPC access, prospective deployment, human-participant workload studies, private vulnerability handling, or submission, and it does not substitute for venue, institutional, legal, ethics, or responsible-disclosure review."
+      }
+    },
+    "adapter": {
+      "adapter_id": "benchmark_prospective_v1",
+      "label": "Computational benchmark or prospective evaluation",
+      "study_types": [
+        "benchmark",
+        "computational_benchmark",
+        "prospective_benchmark"
+      ],
+      "reporting": {
+        "guideline": "DOMAIN_BENCHMARK_REPORTING_STANDARD_REQUIRED",
+        "submission_checklist_hint": "Verify current benchmark, dataset, leakage, compute, and reproducibility requirements."
+      },
+      "manuscript": {
+        "preferred_source": "latex",
+        "latex_required": false
+      },
+      "execution": {
+        "requires_external_validation": "required_for_generality_or_deployment_claims",
+        "pilot_policy": "freeze splits, metrics, baselines, leakage controls, and compute budget before confirmation"
+      },
+      "egress": {
+        "default_policy": "deny_external_without_explicit_authority",
+        "default_channels": []
+      }
+    }
+  },
+  "egress_policy": {
+    "policy_version": 1,
+    "external_processing": "deny",
+    "allowed_channels": [],
+    "notes": "No explicit egress policy is present; fail closed for external work."
+  },
+  "preflight_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/research-case/.control/capabilities/preflight-problem_investigation-f2ac76f8.json",
+  "notes": "The root agent must perform any Codex collaboration action itself.",
+  "collect_command": "python3 research_root_driver.py collect /Users/rainbow/Documents/ZTech/Research/ChronosAudit/research-case --dispatch-id dispatch-047aa681fc41",
+  "dispatch_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/research-case/.control/dispatch/dispatch-047aa681fc41"
+}

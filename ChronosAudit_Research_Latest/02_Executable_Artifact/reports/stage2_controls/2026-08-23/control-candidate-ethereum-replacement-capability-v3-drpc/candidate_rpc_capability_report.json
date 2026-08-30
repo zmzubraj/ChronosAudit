@@ -1,0 +1,56 @@
+{
+  "chain_count": 1,
+  "chains": [
+    {
+      "chain": "ethereum",
+      "complete": true,
+      "providers": [
+        {
+          "provider_family": "drpc",
+          "provider_id": "drpc-ethereum",
+          "semantic_sha256": "ad4884574649706390eb9f56f92de4bba956b9182725625c1d06e58fe42b7737"
+        },
+        {
+          "provider_family": "publicnode",
+          "provider_id": "publicnode-ethereum",
+          "semantic_sha256": "ad4884574649706390eb9f56f92de4bba956b9182725625c1d06e58fe42b7737"
+        }
+      ]
+    }
+  ],
+  "complete": true,
+  "errors": [],
+  "raw_evidence": [
+    {
+      "path": "ethereum-drpc-ethereum-eth_chainId-06fb04e5134ae6c417a94a929c9b2093c541ddf30cc2772d8f30ddd70dbd41b7.json",
+      "sha256": "8e5b6ae520c220014b8f2e275d8a958f101c7727f81e5f46daf65957d5fbc2bb"
+    },
+    {
+      "path": "ethereum-drpc-ethereum-eth_getTransactionReceipt-0161489ec6d825fd4d5d257e9ab361a4e10d0afbc4df2cff0142742be936dee2.json",
+      "sha256": "f097261a77e448237f0ad58f4781e8fa6da20871d5c60a13465662434f0f5253"
+    },
+    {
+      "path": "ethereum-drpc-ethereum-eth_getBlockByHash-26b0970612769706088fa71bd9feb8380a23cb6472d3761ab9ab2a4384b9c6e6.json",
+      "sha256": "7ad6c8336f7529388d62d805acd7730bf7c2d9455db1b21ba9c6bd5728df8799"
+    },
+    {
+      "path": "ethereum-publicnode-ethereum-eth_chainId-b57f0f17a71ff7b872ea0483ff7cf8cc3759e2a0361d3c1905b3bdba7a50b881.json",
+      "sha256": "5cf557cf83f7d9ddf71e83de7f488f5b33093856fabace617161fdcb289be941"
+    },
+    {
+      "path": "ethereum-publicnode-ethereum-eth_getTransactionReceipt-499048b31c80c2d7131fe91c13e863b85e2375c8a4d4d3d39d183a6305625da3.json",
+      "sha256": "c4113e4be95f731032b507eeae0a119f896bcd82dcd92c76af1304207037bdd9"
+    },
+    {
+      "path": "ethereum-publicnode-ethereum-eth_getBlockByHash-2734bea189ad490ced6bec486d362a5ed8af91c9a98dfc8c0d238da666204eac.json",
+      "sha256": "8f131738ed632d2d956c8d25688acbe6c5f2dfa903b13e5a72c014ddd205d2a3"
+    }
+  ],
+  "raw_evidence_count": 6,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "d2d73874da23729283943a49c81d99d9cccd228c6c190b6297e382068aa24f4b",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_candidate_rpc_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

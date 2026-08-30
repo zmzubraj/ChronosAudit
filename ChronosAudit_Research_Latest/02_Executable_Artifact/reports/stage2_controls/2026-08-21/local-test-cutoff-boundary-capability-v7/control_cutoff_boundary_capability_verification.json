@@ -1,0 +1,17 @@
+{
+  "capability_file_sha256": "d404b9b7d959b3f4135763fd6f4e84c8d4f532e64f8e6ed777d783c09ca89533",
+  "capability_sha256": "323a3ede8bbde3ebdc8efb3ba09a81462c03533cb00489eb90a9202dcf9390f1",
+  "chain_count": 4,
+  "complete": true,
+  "decision": "CUTOFF_BOUNDARY_CAPABILITY_VERIFIED_NON_AUTHORIZING",
+  "errors": [],
+  "provider_registry_sha256": "4364eb6fa74118f02b648d970e0baf6804d99549a7c25d56ffea7140f68ac3cb",
+  "raw_evidence_count": 48,
+  "recovery3_mutation_authorized": false,
+  "requirements_file_sha256": "e6d1cf1a09a090679b41948989dbfc9abe8b679e6faddea63dca947eb08f86d7",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_cutoff_boundary_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "1cf38ccd5270915c7882762ef6df6ec2507453c00a5c6719bb0c9b4bced511e4"
+}

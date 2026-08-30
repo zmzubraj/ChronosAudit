@@ -1,0 +1,1 @@
+{"event_id": "DECISION-BOOTSTRAP", "phase": "INTAKE", "decision": "BOOTSTRAP", "owner": "root-integration-owner", "evidence": [], "consequence": "Initialized chained decision ledger.", "created_at": "2026-08-28T19:30:46Z", "sequence": 1, "prev_hash": "", "entry_hash": "e35fbbae581d73d41f50ff4009f53d3682f5b614f1f09b427e54c2f85bfead20"}

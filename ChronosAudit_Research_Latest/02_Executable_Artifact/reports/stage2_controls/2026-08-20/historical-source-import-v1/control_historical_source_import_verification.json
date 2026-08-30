@@ -1,0 +1,14 @@
+{
+  "acquisition_authorized": false,
+  "decision": "SOURCE_BATCH_VERIFIED_FOR_LOCAL_TRANSFORM",
+  "import_manifest_sha256": "987e1cddf1021535c76f9023b41c3452ec61bc5aae5afd55ecb4cb1e7e241f5f",
+  "query_plan_file_sha256": "b976ca8ad83eaf4fa114a5b630b435b140c776562f5f5453d0f1212917a581cf",
+  "recovery3_mutation_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_historical_source_import_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verified_object_count": 43,
+  "verified_objects_sha256": "c7894d94280a7c4e2af2eb62bfb7e1ee3dd7b7568df0b81515d364d77a682dad",
+  "verified_total_bytes": 5024970903
+}

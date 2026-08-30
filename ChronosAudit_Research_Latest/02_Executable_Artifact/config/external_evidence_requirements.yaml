@@ -1,0 +1,42 @@
+version: 0.5.0
+archive_rpc:
+  minimum_independent_providers_per_chain: 2
+  explicit_url_environment_variables:
+    ethereum: CHRONOS_ETHEREUM_ARCHIVE_RPC_URLS
+    bsc: CHRONOS_BSC_ARCHIVE_RPC_URLS
+    arbitrum: CHRONOS_ARBITRUM_ARCHIVE_RPC_URLS
+    base: CHRONOS_BASE_ARCHIVE_RPC_URLS
+  explicit_provider_family_environment_variables:
+    ethereum: CHRONOS_ETHEREUM_ARCHIVE_RPC_PROVIDER_FAMILIES
+    bsc: CHRONOS_BSC_ARCHIVE_RPC_PROVIDER_FAMILIES
+    arbitrum: CHRONOS_ARBITRUM_ARCHIVE_RPC_PROVIDER_FAMILIES
+    base: CHRONOS_BASE_ARCHIVE_RPC_PROVIDER_FAMILIES
+  managed_api_key_environment_variables:
+    - CHRONOS_ALCHEMY_API_KEY
+    - CHRONOS_INFURA_API_KEY
+  identity_policy:
+    explicit_urls_require_matching_family_list: true
+    minimum_distinct_verified_operator_families: 2
+    same_family_endpoints_do_not_count_as_independent: true
+    url_only_configuration: rejected_migrate_to_matching_family_list_or_managed_keys
+explorer_and_source_history:
+  required:
+    - contract_creation_transaction
+    - verified_source_snapshot
+    - first_defensible_source_availability_time
+    - compiler_version_and_settings
+    - license_or_terms_status
+reviewers:
+  protocol_reviewers: 2
+  mechanism_reviewers: 2
+  outcome_reviewers: 2
+  third_adjudicator: 1
+  minimum_agreement: 0.80
+controls:
+  matched_controls_per_positive: 10
+  prevalence_stream_minimum: 20000
+  follow_up_horizon: must_be_preregistered
+release:
+  minimum_independent_r5_blocks: 120
+  minimum_positive_r5_blocks: 40
+  minimum_control_r5_blocks: 40

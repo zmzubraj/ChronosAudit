@@ -1,0 +1,28 @@
+{
+  "run_id": "chronosaudit-20260801T105039Z-e7e2c21c-64e42a",
+  "pilot_cycle": 3,
+  "case_id": "CA-P04",
+  "attempted_at_utc": "2026-08-01T19:25:47Z",
+  "endpoint": "https://web3-trial.cloudflare-eth.com/v1/mainnet",
+  "request": {
+    "jsonrpc": "2.0",
+    "method": "eth_getCode",
+    "params": [
+      "0xBEc591De75b8699A3Ba52F073428822d0Bfc0D7e",
+      "0x3db416"
+    ],
+    "id": "chronosaudit-ca-p04-cutoff"
+  },
+  "transport_result": {
+    "http_status": "000",
+    "curl_exit_code": 6,
+    "stderr": "curl: (6) Could not resolve host: web3-trial.cloudflare-eth.com",
+    "response_body": null
+  },
+  "interpretation": "DNS resolution failed before an HTTP or JSON-RPC response; historical bytecode was not retrieved.",
+  "source_basis": [
+    "https://developers.cloudflare.com/web3/how-to/use-ethereum-gateway/",
+    "https://developers.cloudflare.com/web3/ethereum-gateway/concepts/node-types/",
+    "https://ethereum.org/developers/docs/apis/json-rpc/"
+  ]
+}

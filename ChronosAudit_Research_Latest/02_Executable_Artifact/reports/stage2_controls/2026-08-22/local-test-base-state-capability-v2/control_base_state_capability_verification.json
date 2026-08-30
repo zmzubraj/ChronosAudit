@@ -1,0 +1,22 @@
+{
+  "base_state_targets_file_sha256": "58670a94219f82d49537cab2e8e867e3c36b7a8217e729b5be43635d3ca79988",
+  "capability_file_sha256": "b63c12482e333ed7673945b8bdd81ff4fbe3a3334b345877f1eb02c8867fa61d",
+  "capability_sha256": "b3b51a512d7087750b5aa99f73c9f23b1e644f5d33ce1636b23c47abbeeaea30",
+  "complete": false,
+  "counter_authority": false,
+  "decision": "BASE_STATE_CAPABILITY_NOT_VERIFIED",
+  "errors": [
+    "arbitrum:onfinality-arbitrum:base-state:7b76a03d65dca3ee88793a01cc1238ceab0637a0f7e51504e2f7f0fd162ceb64:eth_getStorageAt:rpc_error:eth_getStorageAt",
+    "arbitrum:onfinality-arbitrum:base-state:f945232320707d067090da35e7dccce08f0787091f763eb0104ddf19762200ad:eth_getBlockByNumber:rpc_error:eth_getBlockByNumber",
+    "arbitrum:onfinality-arbitrum:base-state:f945232320707d067090da35e7dccce08f0787091f763eb0104ddf19762200ad:eth_getStorageAt:rpc_error:eth_getStorageAt"
+  ],
+  "probe_target_count": 8,
+  "provider_registry_sha256": "24c2a13bc08ed92e4c81fdd0caa6a9f753664e08465a2125f50b8138ebda7a4f",
+  "raw_evidence_count": 208,
+  "recovery3_mutation_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_base_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "7017beb237abf05ec8f5b4a57a107121a7b3c28abed87af8aeb6eb1c0ebf0fdc"
+}

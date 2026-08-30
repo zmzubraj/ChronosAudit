@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT_NOT_HUMAN_VERIFIED",
+  "sources": [
+    {"evidence_id":"E-LOCAL-PROBLEM","type":"local_case_artifact","path":"01-novelty/problem-investigation.md","verification":"legacy_case_artifact; current schema-v4 independent verification unavailable"},
+    {"evidence_id":"E-LOCAL-NOVELTY","type":"local_case_artifact","path":"01-novelty/novelty-matrix.csv","verification":"stale after schema-v4 migration; novelty UNRESOLVED"},
+    {"evidence_id":"E-LOCAL-FEASIBILITY","type":"local_case_artifact","path":"02-feasibility/feasibility-report.md","verification":"legacy case artifact; decision PILOT_FIRST"},
+    {"evidence_id":"E-LOCAL-PILOT","type":"local_case_artifact","path":"02-feasibility/pilot-results.md","verification":"legacy bounded pilot artifact; not detector-performance evidence"},
+    {"evidence_id":"E-LOCAL-VIABILITY","type":"local_case_artifact","path":"02-feasibility/solution-viability-case.md","verification":"legacy case artifact; solution viability ASSERTED_ONLY"},
+    {"evidence_id":"E-PA010","type":"prior_art_record","title":"EVMbench: Evaluating AI Agents on Smart Contract Security","url":"https://arxiv.org/abs/2603.04915","verification":"metadata recorded in legacy evidence ledger; human source verification required"},
+    {"evidence_id":"E-PA012","type":"prior_art_record","title":"AI agents find $4.6M in blockchain smart contract exploits / SCONE-bench","url":"https://www.anthropic.com/research/smart-contracts","verification":"official page recorded in legacy evidence ledger; human source verification required"},
+    {"evidence_id":"E-PA013","type":"prior_art_record","title":"CyberChainBench","url":"https://arxiv.org/abs/2606.26216","verification":"metadata recorded in legacy evidence ledger; human source verification required"},
+    {"evidence_id":"E-PA014","type":"prior_art_record","title":"When Datasets Deceive: Exposing Overlap in Smart Contract Vulnerability Detection","url":"https://www.sciencedirect.com/science/article/pii/S2405959526000238","verification":"abstract-level legacy record; full methods not independently checked"},
+    {"evidence_id":"E-PA026","type":"prior_art_record","title":"FinSurvival: A Suite of Large Scale Survival Modeling Tasks from Finance","url":"https://arxiv.org/abs/2507.14160","verification":"legacy record; failed known-item recovery in bounded attempt-8 challenge must be disclosed"}
+  ]
+}

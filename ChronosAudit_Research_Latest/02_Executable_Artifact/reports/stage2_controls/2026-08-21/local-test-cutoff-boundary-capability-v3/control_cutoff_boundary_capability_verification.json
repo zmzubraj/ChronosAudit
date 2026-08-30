@@ -1,0 +1,21 @@
+{
+  "capability_file_sha256": "ff76e1d29065fc550c65d4999be8d340fd33bd0c2ffb1342bd74952f062f2f50",
+  "capability_sha256": "27950d62e1d618181c38c33ed86c90732b3845595e4668bfc18f22038916e3e7",
+  "chain_count": 4,
+  "complete": false,
+  "decision": "CUTOFF_BOUNDARY_CAPABILITY_NOT_VERIFIED",
+  "errors": [
+    "base:publicnode-base:block:866491:rpc_error:eth_getBlockByNumber",
+    "base:publicnode-base:block:36775781:rpc_error:eth_getBlockByNumber",
+    "ethereum:one-rpc-ethereum:block:9269608:rpc_error:eth_getBlockByNumber"
+  ],
+  "provider_registry_sha256": "407a1afb5812900b6f6bae37462b881a1ecf7239ad2dbd94d37165ec7bcc0208",
+  "raw_evidence_count": 48,
+  "recovery3_mutation_authorized": false,
+  "requirements_file_sha256": "120d360f2f9414b3b68e2d81b73bcae718f12e65ef2d5762dbd5386e4ac47ce5",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_cutoff_boundary_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "a0b4b9b1a9e675101c0ecd959209adc09f5cdc9ee4914a41cad48cb60f8efdf0"
+}

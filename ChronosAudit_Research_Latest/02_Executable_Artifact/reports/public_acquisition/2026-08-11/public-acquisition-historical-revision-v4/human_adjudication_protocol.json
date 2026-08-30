@@ -1,0 +1,21 @@
+{
+  "allowed_confidence": [
+    "high",
+    "very_high"
+  ],
+  "artifact_schema_version": "2026-08-17.human-adjudication-handoff.v1",
+  "case_count": 417,
+  "counter_rule": "A case counts only after two distinct conflict-cleared human reviewers under different accountable owners complete packet-bound decisions.",
+  "final_output": "finalized_positive_adjudications.json",
+  "final_status": "FINALIZED_INDEPENDENT_ADJUDICATION",
+  "reviewer_rules": [
+    "Reviewers must be real accountable humans; AI, public labels, and generated packets are ineligible as reviewers.",
+    "Reviewer A and reviewer B must have distinct identities and distinct accountable owners.",
+    "Each reviewer must record UTC start and completion times, a conflict statement, decision, rationale, evidence references, confidence, and decision SHA-256.",
+    "Both reviewer packet hashes must equal the deterministic packet hash for the same case.",
+    "Reviewer decisions must be frozen before comparison.",
+    "Agreement may finalize as REVIEWER_CONSENSUS only after both frozen decisions match.",
+    "Every disagreement requires a third conflict-cleared human adjudicator under an owner distinct from both reviewers, with separate time, packet, decision, confidence, and hash evidence.",
+    "The finalized row must bind all reviewer, packet, decision, timing, agreement, and third-adjudicator inputs."
+  ]
+}

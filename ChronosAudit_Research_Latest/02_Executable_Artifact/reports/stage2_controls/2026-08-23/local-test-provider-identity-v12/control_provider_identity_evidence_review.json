@@ -1,0 +1,73 @@
+{
+  "capture_index_sha256": "e263f2dd0ced1fb52ce5720e10457b6313b9a38a6b49ab6aeb2c7ebb49ebafd3",
+  "captures": [
+    {
+      "captured_at_utc": "2026-08-20T22:21:53Z",
+      "captured_path": "drpc_ethereum_mainnet.html",
+      "content_sha256": "91437f6e40fe6e0be3ae81f2d07894ad954c192eb012617b52bd86453385a47c",
+      "final_url": "https://drpc.org/chainlist/ethereum-mainnet-rpc",
+      "http_status": 200,
+      "operator_family": "drpc",
+      "source_id": "drpc-ethereum-mainnet-chainlist",
+      "source_url": "https://drpc.org/chainlist/ethereum-mainnet-rpc",
+      "supported_provider_ids": [
+        "drpc-ethereum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-20T14:12:06Z",
+      "captured_path": "publicnode_ethereum.html",
+      "content_sha256": "1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf",
+      "final_url": "https://ethereum.publicnode.com/",
+      "http_status": 200,
+      "operator_family": "publicnode",
+      "source_id": "publicnode-ethereum-doc-2026-08-20",
+      "source_url": "https://ethereum.publicnode.com/",
+      "supported_provider_ids": [
+        "publicnode-ethereum"
+      ]
+    }
+  ],
+  "decision": "EVIDENCE_CAPTURED_AWAITING_ACCOUNTABLE_PROVIDER_IDENTITY_REVIEW",
+  "operator_verified": false,
+  "provider_count": 2,
+  "provider_identity_verified": false,
+  "provider_ids": [
+    "drpc-ethereum",
+    "publicnode-ethereum"
+  ],
+  "provider_registry_sha256": "9c8e291d1fae496e91032f21cc974119599c47a5d18954f6ebfd7fc0fc285e21",
+  "providers": [
+    {
+      "api_key_env": null,
+      "chain": "ethereum",
+      "endpoint_env": null,
+      "operator_family": "drpc",
+      "provider_id": "drpc-ethereum",
+      "public_endpoint": "https://eth.drpc.org",
+      "public_endpoint_id": "078ddbb63a6abd3c9a5eb951895223315b3d0ba63d4f4c0c588ab34306bf6d79",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "drpc-ethereum-mainnet-chainlist"
+    },
+    {
+      "api_key_env": null,
+      "chain": "ethereum",
+      "endpoint_env": null,
+      "operator_family": "publicnode",
+      "provider_id": "publicnode-ethereum",
+      "public_endpoint": "https://ethereum-rpc.publicnode.com",
+      "public_endpoint_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "publicnode-ethereum-doc-2026-08-20"
+    }
+  ],
+  "recovery3_mutation_authorized": false,
+  "review_payload_sha256": "1110b74d37535242f77afea09b0b75ba0bbb27de5715e22584b6f55665826d6f",
+  "reviewer_signature_required": true,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_evidence_review.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

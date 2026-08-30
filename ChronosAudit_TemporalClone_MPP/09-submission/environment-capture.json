@@ -1,0 +1,16 @@
+{
+  "captured_at_utc": "2026-08-28T20:12:47.528567+00:00",
+  "latexmk": [
+    "Latexmk, John Collins, 9 March 2026. Version 4.88"
+  ],
+  "network_used_by_analysis": false,
+  "pandoc": "pandoc 3.10.1",
+  "pdflatex": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+  "platform": "macOS-15.1-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "randomness_used_by_analysis": false,
+  "run_id": "chronosaudit-temporalclone-mpp-20260828T193046Z-5c71be2f-7ac55a",
+  "study_adapter_id": "EMPIRICAL_SOFTWARE_REPOSITORY_STUDY_V1",
+  "tool_versions": {},
+  "toolchain": "local TeX Live 2026 plus Python standard library"
+}

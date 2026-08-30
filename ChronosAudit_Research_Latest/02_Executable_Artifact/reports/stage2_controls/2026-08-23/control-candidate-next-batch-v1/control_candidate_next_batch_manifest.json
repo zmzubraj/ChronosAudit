@@ -1,0 +1,38 @@
+{
+  "assumption": "EVERY_PREFIX_ROW_RETURNS_VALID_DISTINCT_DEPLOYMENT_EVIDENCE",
+  "case_count": 417,
+  "controls_per_positive": 10,
+  "counter_authority": false,
+  "current_maximum_assignable_controls": 1579,
+  "current_total_shortfall": 2591,
+  "decision": "MINIMUM_FROZEN_PENDING_PREFIX_IF_ALL_ROWS_ARE_VALID",
+  "denominator_admission_authorized": false,
+  "input_sha256": {
+    "acquisition_events": "fbf759c6d7419e5eb88b710018f87cfa153246ef02b99df5d1baae5f2a0e24cf",
+    "acquisition_summary": "6e58bfd4d090fdd14ba82ab9d3ed66a26dc8418d869e247bfad147c8a942e651",
+    "expansion_requirements": "b20780e7e4dd3a7a0410d9df66bd57cfcd341ab65e273b1ef7bb3e8b3efe82dc",
+    "full_queue": "89057a27cb2fbaeba93cf74ba55b2133ab816b2d0b66d6a89e8a596ca1d21ec9",
+    "original_pair_scope": "5650fd11486d7ff7c26142e9af052b0882cefa9507821d44aa110ee2310dfc41"
+  },
+  "manifest_sha256": "7d270eeb70f10473933d85e6b037863d4cbbdf82c34a1afa3154ba1b8d562a1c",
+  "minimum_pending_prefix_row_count": 3349,
+  "output_queue_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/02_Executable_Artifact/processed/stage2_controls/2026-08-23/control-candidate-next-batch-v1/control_candidate_next_batch.csv",
+  "output_queue_sha256": "c9d5f008a75ca61b5f4a4e68be0e39d85135d1f2b4c8592ac642d290ae6bfa94",
+  "output_records_sha256": "3d9551efb6824715e699723865f50d0c70aa06f660b6ecc242d71d941625f29b",
+  "pending_row_count": 33534,
+  "previous_prefix_maximum_assignable_controls": 4169,
+  "projected_maximum_assignable_controls_if_all_valid": 4170,
+  "qualification_authorized": false,
+  "recovery3_mutation_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_candidate_next_batch.v1",
+  "selection_authorized": false,
+  "source_bindings": {
+    "acquisition_event_terminal_hash": "c0641bd1ce2c719dde8d97fdee9bdd559d70fb06c2064b2974b188e113cdb0ae",
+    "acquisition_run_binding_sha256": "6b79a0bb6132cbe7bf3c12d5ecba16225ee718db2c9d95baf348f4e574cef2b1",
+    "acquisition_summary_sha256": "8ec2ca66aeaed6187b0b668c2a41e181d49b27617506ec19e8d0ec907b76b954"
+  },
+  "stage_promotion_authorized": false,
+  "target_control_rows": 4170,
+  "warning": "Qualification attrition can require a larger acquisition batch."
+}

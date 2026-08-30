@@ -1,0 +1,21 @@
+{
+  "audit_csv_path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v2/denominator_audit.csv",
+  "audit_csv_sha256": "327ba7c3906f92f87a295df423b96d7d92d060b6c7e3b6f24c2b1dd9166930c2",
+  "command": "denominator",
+  "denominator_csv_path": "processed/public_acquisition/2026-08-11/public-acquisition-historical-revision-v2/deployment_denominator.csv",
+  "denominator_csv_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "denominator_rows": 0,
+  "execute": true,
+  "revision": "2026-08-11",
+  "run_id": "public-acquisition-historical-revision-v2",
+  "source_errors": [],
+  "sources": [
+    {
+      "chain": "all",
+      "format": "csv",
+      "path": "raw/public_acquisition/2026-08-11/public-acquisition-historical-revision-v2/denominator_sources/001-deployment_denominator.csv",
+      "sha256": "3ed7b4e17e3d4df35272c612f5d9fb19a2010a048e41b869b19c105b198839c8"
+    }
+  ],
+  "status": "partial"
+}

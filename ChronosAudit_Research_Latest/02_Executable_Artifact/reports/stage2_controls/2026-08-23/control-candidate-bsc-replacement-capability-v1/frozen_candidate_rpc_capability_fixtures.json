@@ -1,0 +1,19 @@
+{
+  "schema_version": "stage2_control_candidate_rpc_capability_fixtures.v1",
+  "selection_rule": "For BSC provider replacement, reuse the exact lexicographically earliest prior complete dual-provider candidate fixture already frozen for the 3,349-row next batch.",
+  "source_fixture_sha256": "5e749b3c8279f2394889fa57686eab0fcbfc5982d9ec0c926d54f170c9986984",
+  "fixtures": [
+    {
+      "chain": "bsc",
+      "chain_id": "0x38",
+      "transaction_hash": "0x30508c5ebe5507f410b9f6140a73062ce12e8b14a92dff1fa17de91e5082b93b",
+      "block_hash": "0x95d6e3a7bed4f5ae41bf827fc4129133b67b756883ea03e45f28fd19174b17c3",
+      "block_number": 19085590,
+      "reserve_assignment_sha256": "00c2be9f65deca512bc0c1eee4483a2080d5dd5add4b39995f1578fae68eeae4"
+    }
+  ],
+  "rpc_authorized": false,
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "recovery3_mutation_authorized": false
+}

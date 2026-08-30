@@ -1,0 +1,53 @@
+version: 1.1.0
+seed_cases: 417
+mandatory_temporal_fields:
+  - deployment_block
+  - incident_block_or_time
+  - prediction_cutoff_block
+  - source_availability_time
+  - runtime_bytecode_hash_at_cutoff
+  - outcome_adjudication_id
+prediction_cutoff:
+  primary_landmark_hours_after_deployment: 24
+  minimum_lead_hours_before_incident: 1
+  sensitivity_landmarks_hours_after_deployment: [1, 168, 720]
+  outcome_independent: true
+admissibility:
+  require_provenance: true
+  require_sha256: true
+  reject_postincident_detector_inputs: true
+  require_lawful_use: true
+identity:
+  primary_chain_address: true
+  require_runtime_bytecode_at_cutoff: true
+  require_proxy_implementation_at_cutoff: true
+adjudication:
+  required_reviewers: 2
+  minimum_kappa: 0.80
+ai_only_internal_progression:
+  protocol_amendment: stage2-ai-only-internal-progression-v1
+  track_name: AI_ONLY_TRIANGULATION_V1
+  separate_counter: independently_ai_adjudicated
+  claim_authority: ANALYTIC_ONLY_NON_HUMAN
+  human_independent_adjudication_counter_effect: NONE
+  permitted_after_gate_pass: [internal_analysis, engineering, manuscript_draft_preparation]
+  required_primary_runs: 2
+  require_blinded_primary_runs: true
+  require_frozen_model_prompt_run_bindings: true
+  require_distinct_third_model_on_disagreement: true
+  require_reliability_and_sensitivity_analysis: true
+  require_hash_bound_accountable_author_signoff: true
+  external_disclosure_required: true
+  prohibited_claims: [human_adjudication, external_release_eligibility, submission_readiness]
+controls:
+  matched_per_positive: 10
+  prevalence_stream_minimum: 20000
+  design_rationale: "20000 deployments gives approximately +/-0.14 percentage-point 95% Wilson precision around a 1% alert rate; 10:1 matching gives 4170 controls, approximately +/-0.31 percentage-point precision around a 1% false-positive rate before clustering adjustment."
+  preserve_unresolved: true
+release:
+  exact_identity_leakage_max: 0
+  clone_leakage_max: 0
+  proxy_leakage_max: 0
+  protocol_leakage_max: 0
+  mechanism_leakage_max: 0
+  minimum_independent_r5_blocks: 120

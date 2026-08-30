@@ -1,0 +1,23 @@
+{
+  "approval_source": "CODEX_CHAT_EXACT_USER_TOKEN",
+  "approval_text": "APPROVE_WRITTEN_TRACE_RETRY_OVERLAY_V1_SPEC_SHA256: ddc8d91165640469f3d7d5abb883c32d4ed4ac6f717e69150c8eb6c7671e5877",
+  "approved_at_date": "2026-08-25",
+  "approved_by_principal": "zmzubraj",
+  "counter_authority": false,
+  "decision": "APPROVE_WRITTEN_TRACE_RETRY_OVERLAY_V1_SPEC_SHA256",
+  "denominator_admission_authorized": false,
+  "implementation_authorized": true,
+  "independent_review_established": false,
+  "publication_authorized": false,
+  "qualification_authorized": false,
+  "r5_authorized": false,
+  "record_sha256": "c1e20cd825c5c8ba35dc1b1887c4e4746a80548ef9474a53f7f233964c261e83",
+  "recovery3_mutation_authorized": false,
+  "release_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_trace_retry_overlay_spec_approval.v1",
+  "selection_authorized": false,
+  "specification_file_sha256": "ddc8d91165640469f3d7d5abb883c32d4ed4ac6f717e69150c8eb6c7671e5877",
+  "specification_path": "docs/superpowers/specs/2026-08-25-stage2-trace-retry-overlay-v1-design.md",
+  "stage_promotion_authorized": false
+}

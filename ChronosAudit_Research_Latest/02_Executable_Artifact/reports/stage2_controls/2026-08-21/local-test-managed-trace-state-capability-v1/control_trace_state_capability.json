@@ -1,0 +1,17 @@
+{
+  "chain_count": 3,
+  "chains": [],
+  "complete": false,
+  "errors": [
+    "required managed provider environment variable is missing: CHRONOS_ALCHEMY_API_KEY"
+  ],
+  "fixture_count": 3,
+  "raw_evidence": [],
+  "raw_evidence_count": 0,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "3d214ee930e9b4f80b399d766d38bbdd0f503f81ded2594022afa15252636dcf",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

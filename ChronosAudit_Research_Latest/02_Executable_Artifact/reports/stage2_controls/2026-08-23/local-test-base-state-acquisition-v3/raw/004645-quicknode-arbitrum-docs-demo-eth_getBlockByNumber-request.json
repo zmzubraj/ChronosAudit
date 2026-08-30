@@ -1,0 +1,13 @@
+{
+  "call_scope_sha256": "764f2c60c6bc235036c28319427d1ebb428d7f63ad1e57df3b634f62766f861b",
+  "method": "eth_getBlockByNumber",
+  "operator_family": "quicknode",
+  "params": [
+    "0x21e720",
+    false
+  ],
+  "provider_id": "quicknode-arbitrum-docs-demo",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 4645,
+  "target_id": "base-state:7b76a03d65dca3ee88793a01cc1238ceab0637a0f7e51504e2f7f0fd162ceb64"
+}

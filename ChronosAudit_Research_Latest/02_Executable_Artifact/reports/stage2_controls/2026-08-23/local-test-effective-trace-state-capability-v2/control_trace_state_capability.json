@@ -1,0 +1,917 @@
+{
+  "chain_count": 3,
+  "chains": [
+    {
+      "chain": "base",
+      "complete": false,
+      "errors": [
+        "base:base-official-base:trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 403: Forbidden\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}",
+        "base:tenderly-base:trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 429: Too Many Requests\",\"trace_transaction\":\"HTTPError: HTTP Error 429: Too Many Requests\"}"
+      ],
+      "known_creation_recovered_by_both": false,
+      "provider_count": 2,
+      "providers": [
+        {
+          "complete": false,
+          "errors": [
+            "trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 403: Forbidden\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}"
+          ],
+          "provider_family": "base-official",
+          "provider_id": "base-official-base"
+        },
+        {
+          "complete": false,
+          "errors": [
+            "trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 429: Too Many Requests\",\"trace_transaction\":\"HTTPError: HTTP Error 429: Too Many Requests\"}"
+          ],
+          "provider_family": "tenderly",
+          "provider_id": "tenderly-base"
+        }
+      ],
+      "verified_operator_families": [
+        "base-official",
+        "tenderly"
+      ]
+    },
+    {
+      "chain": "bsc",
+      "complete": false,
+      "errors": [
+        "bsc:bnb-official-bsc:trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32000, \\\"message\\\": \\\"missing trie node\\\"}\",\"trace_transaction\":\"{\\\"code\\\": -32002, \\\"message\\\": \\\"the resource trace_transaction is not available.\\\"}\"}"
+      ],
+      "known_creation_recovered_by_both": false,
+      "provider_count": 2,
+      "providers": [
+        {
+          "complete": false,
+          "errors": [
+            "trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32000, \\\"message\\\": \\\"missing trie node\\\"}\",\"trace_transaction\":\"{\\\"code\\\": -32002, \\\"message\\\": \\\"the resource trace_transaction is not available.\\\"}\"}"
+          ],
+          "provider_family": "bnb-official",
+          "provider_id": "bnb-official-bsc"
+        },
+        {
+          "beacon_implementation": null,
+          "block_hash": "0x7e3df2044a0d0e82d23a5ef91945d28e5f85d33d539f1e2afd0dd44075e8e976",
+          "block_number": 91716206,
+          "block_timestamp": 1775822579,
+          "chain_id": "0x38",
+          "creation_set": [
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x06d532adf67274c217386dfa0b4e722d438850ba",
+              "internal_create",
+              "0x7a70e4812f0a4bab8e009abd86f1eeed3f1dcb57",
+              "[1,0,1,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x267e404f4978f9c171ecc36cc62adee12ec734b6",
+              "internal_create",
+              "0x83219a335951da1758907868e1406034380123a3",
+              "[0,0,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x3befbc6ed7f2639f4168de898845cfed1b8f1021",
+              "internal_create",
+              "0xab4be815efcd9c27852f191f5fb4a464a4ffcca1",
+              "[1,0,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x4122fd4262343b94abdec24308a3485fa4dcdf47",
+              "internal_create",
+              "0x1366e354c39747cf66f3ccfba6908e5d230c41ef",
+              "[2,0,1]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x4a482c4960c4ca859220c046e2155248fad07ce3",
+              "internal_create",
+              "0x0ec97061549e31d75bc95c32b5b03cf2c187128b",
+              "[3,0,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x4c9b174c577960af81a44e87deb294b6a9d24137",
+              "internal_create",
+              "0x83219a335951da1758907868e1406034380123a3",
+              "[0,0,1]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x64494779ecdc35f9130c112c57b1734ce1a996e6",
+              "internal_create",
+              "0x4122fd4262343b94abdec24308a3485fa4dcdf47",
+              "[2,0,1,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x7a70e4812f0a4bab8e009abd86f1eeed3f1dcb57",
+              "internal_create",
+              "0xab4be815efcd9c27852f191f5fb4a464a4ffcca1",
+              "[1,0,1]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0x82d56e4d35d42ea2488ebf90bd8b6579e1af6eed",
+              "internal_create",
+              "0x0ec97061549e31d75bc95c32b5b03cf2c187128b",
+              "[3,0,1]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0xb6037b6f2e46a130bd7fa51f10be3e27cad738c0",
+              "internal_create",
+              "0x1366e354c39747cf66f3ccfba6908e5d230c41ef",
+              "[2,0,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0xb72c11537b9c2b5d58a1ba49c4c8f05917d74f26",
+              "internal_create",
+              "0x4c9b174c577960af81a44e87deb294b6a9d24137",
+              "[0,0,1,0]"
+            ],
+            [
+              "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be",
+              "0xdb54339a5e75749c75d268e67c8cea66d426a0e7",
+              "internal_create",
+              "0x82d56e4d35d42ea2488ebf90bd8b6579e1af6eed",
+              "[3,0,1,0]"
+            ]
+          ],
+          "known_creation_recovered": true,
+          "provider_family": "nodereal",
+          "provider_id": "nodereal-bsc",
+          "runtime_code": "0x6080604052337f000000000000000000000000db54339a5e75749c75d268e67c8cea66d426a0e76001600160a01b031603610069576000356001600160e01b03191663278f794360e11b1461005f576334ad5dbb60e21b60005260046000fd5b610067610113565b005b7f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc5460009081906001600160a01b0316368280378136915af43d6000803e156100b1573d6000f35b3d6000fd5b634e487b7160e01b600052604160045260246000fd5b6040519190601f01601f1916820167ffffffffffffffff8111838210176100f257604052565b6100b6565b67ffffffffffffffff81116100f257601f01601f191660200190565b3660041161019d57604036600319011261019d576004356001600160a01b0381169081900361019d576024359067ffffffffffffffff821161019d573660238301121561019d5781600401359061017161016c836100f7565b6100cc565b91808352366024828601011161019d57602081600092602461019b970183870137840101526101a2565b565b600080fd5b90813b15610239577f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc80546001600160a01b0319166001600160a01b0384169081179091557fbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b600080a280511561021f5761021c9161025b565b50565b50503461022857565b63b398979f60e01b60005260046000fd5b50634c9c8ce360e01b60009081526001600160a01b0391909116600452602490fd5b60008061028f93602081519101845af43d15610292573d9161027f61016c846100f7565b9283523d6000602085013e610296565b90565b6060915b906102bc57508051156102ab57602081519101fd5b63d6bda27560e01b60005260046000fd5b815115806102ee575b6102cd575090565b639996b31560e01b60009081526001600160a01b0391909116600452602490fd5b50803b156102c556fea2646970667358221220202fe99aaa89cd90f9bcdeb7ca809a19477b94c0b8483a68766f3dd35d27019564736f6c634300081a0033",
+          "storage_slots": {
+            "admin": "0x000000000000000000000000db54339a5e75749c75d268e67c8cea66d426a0e7",
+            "beacon": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "implementation": "0x0000000000000000000000004a482c4960c4ca859220c046e2155248fad07ce3"
+          },
+          "trace_method": "trace_transaction",
+          "transaction_hash": "0x9611b8cd6a395ee41e7b2f7bffcc88b511eadac9f09e867f4bd5e7b5606a90be"
+        }
+      ],
+      "verified_operator_families": [
+        "bnb-official",
+        "nodereal"
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "complete": false,
+      "errors": [
+        "ethereum:publicnode-ethereum:trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32601, \\\"message\\\": \\\"the method debug_traceTransaction does not exist/is not available\\\"}\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}"
+      ],
+      "known_creation_recovered_by_both": false,
+      "provider_count": 2,
+      "providers": [
+        {
+          "complete": false,
+          "errors": [
+            "trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32601, \\\"message\\\": \\\"the method debug_traceTransaction does not exist/is not available\\\"}\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}"
+          ],
+          "provider_family": "publicnode",
+          "provider_id": "publicnode-ethereum"
+        },
+        {
+          "beacon_implementation": null,
+          "block_hash": "0x43f11f546eff9cafb300f4de836812743ff4d02d228f85a789711302f3f60e8c",
+          "block_number": 14267406,
+          "block_timestamp": 1645687131,
+          "chain_id": "0x1",
+          "creation_set": [
+            [
+              "0xf87a5b1e3c6c0f8808996ac3f9113c80928d7dc57e39024618beafdc3a450c27",
+              "0x1fa61c33522ba3e393ed7cc279e22fa462ab3927",
+              "internal_create",
+              "0xa5409ec958c83c3f309868babaca7c86dcb077c1",
+              "[0]"
+            ]
+          ],
+          "known_creation_recovered": true,
+          "provider_family": "quicknode",
+          "provider_id": "quicknode-ethereum",
+          "runtime_code": "0x6080604052600436106100825763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663025313a281146100c85780633659cfe6146100f95780634555d5c91461011c5780634f1ef286146101435780635c60da1b1461019d5780636fde8202146101b2578063f1739cae146101c7575b600061008c6101e8565b9050600160a060020a03811615156100a357600080fd5b60405136600082376000803683855af43d806000843e8180156100c4578184f35b8184fd5b3480156100d457600080fd5b506100dd6101f7565b60408051600160a060020a039092168252519081900360200190f35b34801561010557600080fd5b5061011a600160a060020a0360043516610206565b005b34801561012857600080fd5b50610131610239565b60408051918252519081900360200190f35b60408051602060046024803582810135601f810185900485028601850190965285855261011a958335600160a060020a031695369560449491939091019190819084018382808284375094975061023e9650505050505050565b3480156101a957600080fd5b506100dd6101e8565b3480156101be57600080fd5b506100dd6102f2565b3480156101d357600080fd5b5061011a600160a060020a0360043516610301565b600054600160a060020a031690565b60006102016102f2565b905090565b61020e6101f7565b600160a060020a031633600160a060020a031614151561022d57600080fd5b61023681610391565b50565b600290565b6102466101f7565b600160a060020a031633600160a060020a031614151561026557600080fd5b61026e82610206565b30600160a060020a03168160405180828051906020019080838360005b838110156102a357818101518382015260200161028b565b50505050905090810190601f1680156102d05780820380516001836020036101000a031916815260200191505b50915050600060405180830381855af491505015156102ee57600080fd5b5050565b600154600160a060020a031690565b6103096101f7565b600160a060020a031633600160a060020a031614151561032857600080fd5b600160a060020a038116151561033d57600080fd5b7f5a3e66efaa1e445ebd894728a69d6959842ea1e97bd79b892797106e270efcd96103666101f7565b60408051600160a060020a03928316815291841660208301528051918290030190a161023681610401565b600054600160a060020a03828116911614156103ac57600080fd5b6000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a038316908117825560405190917fbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b91a250565b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a723058205f26049bbc794226b505f589b2ee1130db54310d79dd8a635c6f6c61e305a7770029",
+          "storage_slots": {
+            "admin": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "beacon": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "implementation": "0x0000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "trace_method": "trace_transaction",
+          "transaction_hash": "0xf87a5b1e3c6c0f8808996ac3f9113c80928d7dc57e39024618beafdc3a450c27"
+        }
+      ],
+      "verified_operator_families": [
+        "publicnode",
+        "quicknode"
+      ]
+    }
+  ],
+  "complete": false,
+  "errors": [
+    "base:base-official-base:trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 403: Forbidden\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}",
+    "base:tenderly-base:trace_method_unsupported:{\"debug_traceTransaction\":\"HTTPError: HTTP Error 429: Too Many Requests\",\"trace_transaction\":\"HTTPError: HTTP Error 429: Too Many Requests\"}",
+    "bsc:bnb-official-bsc:trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32000, \\\"message\\\": \\\"missing trie node\\\"}\",\"trace_transaction\":\"{\\\"code\\\": -32002, \\\"message\\\": \\\"the resource trace_transaction is not available.\\\"}\"}",
+    "ethereum:publicnode-ethereum:trace_method_unsupported:{\"debug_traceTransaction\":\"{\\\"code\\\": -32601, \\\"message\\\": \\\"the method debug_traceTransaction does not exist/is not available\\\"}\",\"trace_transaction\":\"HTTPError: HTTP Error 403: Forbidden\"}"
+  ],
+  "fixture_count": 3,
+  "raw_evidence": [
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00001-base-official-base-eth_chainId-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 1,
+      "sha256": "bd8c012a334174cee82ee9261a4184ffa7b68b3508ba3dba5128b400c6361176"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00001-base-official-base-eth_chainId-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 1,
+      "sha256": "03ef4aee0f122461329da1ab7ba5a5fe6418e4a061fb8f8e9d5080c258753b9d"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-base-official-base-eth_getBlockByNumber-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 2,
+      "sha256": "1ab558641935a1239e4ada0d55a37815bea3768a7f5f5f56ac4ab0e95be46679"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-base-official-base-eth_getBlockByNumber-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 2,
+      "sha256": "670a93f5804f719f53bdd3d9f1c038491fb63b4785edc2792a237a1eb8a077bf"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00003-base-official-base-eth_getBlockByHash-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 3,
+      "sha256": "68c9b9f6ba85c0fc8a0fe9848e8333da29f1846c6f956a561f5bc92d31d44466"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00003-base-official-base-eth_getBlockByHash-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 3,
+      "sha256": "7a38e8fe33010621a1f717d191be484ceafd8d542af02d7864e9dd4e953a9716"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00004-base-official-base-eth_getTransactionReceipt-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 4,
+      "sha256": "af9fa9154539aaa9c5ed90cc3488ab7fb9ef6b95790d592ec54c82c5a4576e2b"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00004-base-official-base-eth_getTransactionReceipt-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 4,
+      "sha256": "3358ccaffe80b46009a3d4d113f6718deb91f66b6453f89f276ff496ca390af6"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00005-base-official-base-trace_transaction-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 5,
+      "sha256": "5e48a5ae6ba8d0aaffe1dfe213c37328c544eb3bc7eaffb0a6449998fcf4ea92"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00005-base-official-base-trace_transaction-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 5,
+      "sha256": "19a84a73a77bbbd52b4b9b3138a18ffd11e9f6acfbd5dd8e070eedee44f37afe"
+    },
+    {
+      "kind": "request",
+      "method": "debug_traceTransaction",
+      "path": "00006-base-official-base-debug_traceTransaction-request.json",
+      "provider_id": "base-official-base",
+      "sequence": 6,
+      "sha256": "c8db1e7c02308cf332cb709f7f3d1e8bed2faf1dbbce6b96f5e504c3c7d91743"
+    },
+    {
+      "kind": "response",
+      "method": "debug_traceTransaction",
+      "path": "00006-base-official-base-debug_traceTransaction-response.json",
+      "provider_id": "base-official-base",
+      "sequence": 6,
+      "sha256": "99a0c6dce8d0f0228bedc50fd1a669d62cfdfc1a096f2c15ac9fbdc4a7e0f1bd"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00007-tenderly-base-eth_chainId-request.json",
+      "provider_id": "tenderly-base",
+      "sequence": 7,
+      "sha256": "d3e9a8006dc86e56674eaeedb366b5e46adb6b9f29db5adf69cab4b9700ad426"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00007-tenderly-base-eth_chainId-response.json",
+      "provider_id": "tenderly-base",
+      "sequence": 7,
+      "sha256": "38c2120bf18787f8f346d449155894d8c2f7ce3e015b2d3e4f82fa517c917adb"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00008-tenderly-base-eth_getBlockByNumber-request.json",
+      "provider_id": "tenderly-base",
+      "sequence": 8,
+      "sha256": "28533d77491e5a2e8346dbf8e22fc6b935f3f447ad03ed1c6330cc888ee59135"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00008-tenderly-base-eth_getBlockByNumber-response.json",
+      "provider_id": "tenderly-base",
+      "sequence": 8,
+      "sha256": "488c42b9cff1dbe11efae0a2c438c696b4543563bc65719911b7d026dda8771b"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00009-tenderly-base-eth_getBlockByHash-request.json",
+      "provider_id": "tenderly-base",
+      "sequence": 9,
+      "sha256": "dd8826acd6eb8c0140a9ec4266ace49a1ce9b722682d71b991495688aab4f336"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00009-tenderly-base-eth_getBlockByHash-response.json",
+      "provider_id": "tenderly-base",
+      "sequence": 9,
+      "sha256": "f71fa2c5af0c5777bc940fa6dafe13b493cb4c1010bec53c936d9c01da229870"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00010-tenderly-base-eth_getTransactionReceipt-request.json",
+      "provider_id": "tenderly-base",
+      "sequence": 10,
+      "sha256": "44986ffa8731d237501cba98ddc19961641a1a363a90d80454391d4cdf01c112"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00010-tenderly-base-eth_getTransactionReceipt-response.json",
+      "provider_id": "tenderly-base",
+      "sequence": 10,
+      "sha256": "cec808a1b39693377e6f9b02132dcc05e1b3fd9a3f54798dea1d1ec53d35e744"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00011-tenderly-base-trace_transaction-request.json",
+      "provider_id": "tenderly-base",
+      "sequence": 11,
+      "sha256": "9f957bfab6d0a132094ac500beabb2a6fbc593dc50930231f6ea10fd5ba36669"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00011-tenderly-base-trace_transaction-response.json",
+      "provider_id": "tenderly-base",
+      "sequence": 11,
+      "sha256": "4f3dc4c4a5aff2c2ac607cdff7088d250778cffa7676a0d0e33face571638d8e"
+    },
+    {
+      "kind": "request",
+      "method": "debug_traceTransaction",
+      "path": "00012-tenderly-base-debug_traceTransaction-request.json",
+      "provider_id": "tenderly-base",
+      "sequence": 12,
+      "sha256": "0a48c258033510d8f0e25fb4d1cd279ae75f12a5446fa8ec2922c618fcf1fe7b"
+    },
+    {
+      "kind": "response",
+      "method": "debug_traceTransaction",
+      "path": "00012-tenderly-base-debug_traceTransaction-response.json",
+      "provider_id": "tenderly-base",
+      "sequence": 12,
+      "sha256": "8437da8547360938444be018dc38fdc278b434d41a0b5760f1d202819c2ac79a"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00013-bnb-official-bsc-eth_chainId-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 13,
+      "sha256": "a48e4f18c866304b6fee07d183ecac116cd46c27f043c815b0b6d2ff13805e5e"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00013-bnb-official-bsc-eth_chainId-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 13,
+      "sha256": "d1d119d3c995e9db6fd0cf82245c060b50a5539b091d5e8ebcf4baba4c559ed8"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00014-bnb-official-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 14,
+      "sha256": "27f4c95db7cf19fa766b8227cfa4017eb818db9fc0773ac13645e7b7586e9216"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00014-bnb-official-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 14,
+      "sha256": "7c0a06631e04c5624ce0eae5c2ee7dc50cb7a098ddc6cf0df8dbe4eaeba1c324"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00015-bnb-official-bsc-eth_getBlockByHash-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 15,
+      "sha256": "690ccff951c0c89161858d1046d136c9d9de95c065b31e5b1d0cceb9f78c4cfc"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00015-bnb-official-bsc-eth_getBlockByHash-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 15,
+      "sha256": "7b47d3b9a2263e76cb847069777863877e38f63ab87702893a8a51fe813f5583"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00016-bnb-official-bsc-eth_getTransactionReceipt-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 16,
+      "sha256": "86b1b456eac70ac9911d8405e9c6829488af1f194e1ff84d246c3c9530f4102a"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00016-bnb-official-bsc-eth_getTransactionReceipt-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 16,
+      "sha256": "b08ab55668fe2fd78439bb450593416d1fac359861b51e993a11a6e6d83f5428"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00017-bnb-official-bsc-trace_transaction-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 17,
+      "sha256": "bc03dcd177b6318075504437b27ef467f0ce27c61a3fe5cd4d1892dc4832604f"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00017-bnb-official-bsc-trace_transaction-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 17,
+      "sha256": "cd4a25b91e31cd60a8623909d0b2738420241f064d705debca10f5e159304438"
+    },
+    {
+      "kind": "request",
+      "method": "debug_traceTransaction",
+      "path": "00018-bnb-official-bsc-debug_traceTransaction-request.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 18,
+      "sha256": "962e9fa286a60eed02a86c6f9b0fa0a08d0cbd9c9e19db2da67fdff7078edad8"
+    },
+    {
+      "kind": "response",
+      "method": "debug_traceTransaction",
+      "path": "00018-bnb-official-bsc-debug_traceTransaction-response.json",
+      "provider_id": "bnb-official-bsc",
+      "sequence": 18,
+      "sha256": "1e280c8a7d0a8581c988ee6e88078906dad8c4b7e6cfbdace7e3180fcf628219"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00019-nodereal-bsc-eth_chainId-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 19,
+      "sha256": "651e5b9e01e8ff95a2e7fd06e3ae618136838b2c92dd438a33a580d8993e4282"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00019-nodereal-bsc-eth_chainId-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 19,
+      "sha256": "e0fc2c9d6abd04b8e27c6b18f3f7647cfa602568e656d9b965e3a708c92b49a9"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00020-nodereal-bsc-eth_getBlockByNumber-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 20,
+      "sha256": "929e8dd2962c3bc73b8b8fa44ee28234fb4ab38edc6cbeedaa689ba43bb2fd53"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00020-nodereal-bsc-eth_getBlockByNumber-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 20,
+      "sha256": "9665a93421578df7ea32b2dab2c9b5c1e2045e9f9b68e077e4b2612b7d1a2daa"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00021-nodereal-bsc-eth_getBlockByHash-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 21,
+      "sha256": "dff6af8d8d94001db714fd8e37c589ad30d99ce6f97c872b2b50d0868593b403"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00021-nodereal-bsc-eth_getBlockByHash-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 21,
+      "sha256": "3e3e2782c57947899a196d133e99fafe08ed0cf1e7142ac008ab440987158b7e"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00022-nodereal-bsc-eth_getTransactionReceipt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 22,
+      "sha256": "e92545b81dd3d5f54bf19332b76970597e20d4d40999ff51ef11ccfb1923532d"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00022-nodereal-bsc-eth_getTransactionReceipt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 22,
+      "sha256": "3eabe82a289bc5a9564d4cfdcfb88fbd5a368b529d764e7b79fe52f1bdb0a125"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00023-nodereal-bsc-trace_transaction-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 23,
+      "sha256": "70e432578eebd7d8dab4d172588e0f4e8a5ab57e9f90287a43330522b6c82df1"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00023-nodereal-bsc-trace_transaction-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 23,
+      "sha256": "3d5d3721b986e539571ba16ac1d5af035fe8342fe87b387c8fcf290f85c0e7a3"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00024-nodereal-bsc-eth_getCode-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 24,
+      "sha256": "2e6e2a31781d23d2c3f3d8d7d95159024ae0c409e5aa3692e97af6be924fa03d"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00024-nodereal-bsc-eth_getCode-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 24,
+      "sha256": "a4891475d1c2462eb327a9743d933160f915ff87d74f33248d12d84f75c0d1ce"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00025-nodereal-bsc-eth_getStorageAt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 25,
+      "sha256": "fc9db3de149e2fca08c6edd21d8589e355d7217df6f660d4c2779cd54223f319"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00025-nodereal-bsc-eth_getStorageAt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 25,
+      "sha256": "f35a0e8b7b90c607c58220191a56e6f038abe933da12a236bf3d4728043dc8b2"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00026-nodereal-bsc-eth_getStorageAt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 26,
+      "sha256": "43c7817653e0764a3c44ad48f86c7e936dc21bf147cf47476a775ad1c3ca44cc"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00026-nodereal-bsc-eth_getStorageAt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 26,
+      "sha256": "34c207dee96e8ab110d8274813aa9f47d147c37bdd597b10d1901d01a33843ed"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00027-nodereal-bsc-eth_getStorageAt-request.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 27,
+      "sha256": "3ffb060674e9e6040835d4b6117b70ee14f00d13c0905447454e3590c2382915"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00027-nodereal-bsc-eth_getStorageAt-response.json",
+      "provider_id": "nodereal-bsc",
+      "sequence": 27,
+      "sha256": "cd753a11f9a9627744c96c139fa26d78d751682da789648da7db232fd3406732"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00028-publicnode-ethereum-eth_chainId-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 28,
+      "sha256": "1602be6cbdb382beadde8c6b057f2ba42672458d19d02e989c0059e59bc893dd"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00028-publicnode-ethereum-eth_chainId-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 28,
+      "sha256": "e7313a51c833b0d613409ce62260208423065cc8dcce65966b5809648c17b369"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00029-publicnode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 29,
+      "sha256": "cdf7cc3f15340fb39a496fc3ba47841cbeb37aae16950af940bf4d9a6bd6a4af"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00029-publicnode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 29,
+      "sha256": "c54282dab2c4e82b9c20035fa9bc892731eeb8cf7690a67eb43e4f59cf1edf4a"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00030-publicnode-ethereum-eth_getBlockByHash-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 30,
+      "sha256": "1f2091072b1f1403d159b69c5bc93774b3657571375ffb689d81d1c37893e4d3"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00030-publicnode-ethereum-eth_getBlockByHash-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 30,
+      "sha256": "ae4a6e7f625f196e0bcd9c8657cfd32524a8d1d741a034991a0238743ef8b94b"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00031-publicnode-ethereum-eth_getTransactionReceipt-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 31,
+      "sha256": "9e3cdf42f2e6a9655d6c635c5b5cbdb5725591568a426255fb1f2c296ea30165"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00031-publicnode-ethereum-eth_getTransactionReceipt-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 31,
+      "sha256": "82696d6534c6de423aebd2297df6210c3ecb70df238cfcc4b9152ce09d716a36"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00032-publicnode-ethereum-trace_transaction-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 32,
+      "sha256": "b4b72cf353fe851333eb89bbbadbffccf66b8b6b04f49d6326fc52068c45ec31"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00032-publicnode-ethereum-trace_transaction-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 32,
+      "sha256": "3a276ef9b0ce5a4d35b06d4eb78829c01ef81722880b96e3261c7ae48ffad717"
+    },
+    {
+      "kind": "request",
+      "method": "debug_traceTransaction",
+      "path": "00033-publicnode-ethereum-debug_traceTransaction-request.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 33,
+      "sha256": "b9b0e0fe4fc3004297e960698c2e258cc576c0416adf089b5e82f45685dd8b82"
+    },
+    {
+      "kind": "response",
+      "method": "debug_traceTransaction",
+      "path": "00033-publicnode-ethereum-debug_traceTransaction-response.json",
+      "provider_id": "publicnode-ethereum",
+      "sequence": 33,
+      "sha256": "0e5976a2c80ec36f21295562b4b86c9199898c3d728bb6c7f4899210450950ea"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00034-quicknode-ethereum-eth_chainId-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 34,
+      "sha256": "cdbd61cdc0d83c62f35e98fa9510d647c2821c14c52986fd9d148e262dc38670"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00034-quicknode-ethereum-eth_chainId-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 34,
+      "sha256": "df9ff093d18c8946eb7c1835b9d1473945a4643c941db10efe4d4c4c655129ce"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00035-quicknode-ethereum-eth_getBlockByNumber-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 35,
+      "sha256": "95a3a57a3985c60572298d066b261ece8c5730b920d4a6cfc7609f7c30215e6f"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00035-quicknode-ethereum-eth_getBlockByNumber-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 35,
+      "sha256": "60089616c463b07be79caf03a68cf2d91f024cb684b3a3da559864f328d0a485"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00036-quicknode-ethereum-eth_getBlockByHash-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 36,
+      "sha256": "4a6677cd812f53113682e989d472968b575169071cd901a1165747e2d29616c6"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00036-quicknode-ethereum-eth_getBlockByHash-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 36,
+      "sha256": "32687ea9998a6111fad7878688e9db34e79a88ef7f53ad4bdbaa149e65d2671c"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00037-quicknode-ethereum-eth_getTransactionReceipt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 37,
+      "sha256": "f8b5017511b9a0fb77dc2bbabf8722a1a6e8924e8a63dc954fac96cb4f4fa586"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00037-quicknode-ethereum-eth_getTransactionReceipt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 37,
+      "sha256": "f38ca488d66d656f5e6e5c9f6e7e75734421915118ecaedc5ca5c39487fa5777"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00038-quicknode-ethereum-trace_transaction-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 38,
+      "sha256": "6b12cfcd64bd4c6da401a6faccd42ee3ecbeddffc686cc443b2d62c758aa2f96"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00038-quicknode-ethereum-trace_transaction-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 38,
+      "sha256": "0ed52818adf49ac6c8725e8d9da41e1b835db30333e48d6e4dd09e0a04764293"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00039-quicknode-ethereum-eth_getCode-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 39,
+      "sha256": "8ce702523539ddb94f4cd3d9859bea1eea9fdd24147c4b52e3a61f7a1b44aff3"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00039-quicknode-ethereum-eth_getCode-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 39,
+      "sha256": "b218e64b23be512c77d528e4dd794ee36c3c934fc09d7c1cc01b88ea2ee47e13"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00040-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 40,
+      "sha256": "fc28d8cd75a86d9c3fce4b500a02be3b4061b01ac0b0e37ee826d8029d574b2f"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00040-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 40,
+      "sha256": "1fe0c0eb508d006bb97e4ec1810720818cb9001456672bd9aef38e75b2a06556"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00041-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 41,
+      "sha256": "d5ebbcfdcfb4ae51c8225ffa36c49d3b34435af87f1e235d17abdae0020086c5"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00041-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 41,
+      "sha256": "1f41334cda88ba0e0074674ee954d693a7ab306bc996e5bb261f212a0510bf0e"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00042-quicknode-ethereum-eth_getStorageAt-request.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 42,
+      "sha256": "da4d80276496f014ca1fcb2d39ec2e79d60f4897cb7ba93e9ed8a15a39bb21cb"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00042-quicknode-ethereum-eth_getStorageAt-response.json",
+      "provider_id": "quicknode-ethereum",
+      "sequence": 42,
+      "sha256": "5673a108f342c83fda08fb3900d6c63a61fc84780c823590aa5ebc066b671ac2"
+    }
+  ],
+  "raw_evidence_count": 84,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "4d8305c76047d4f579f1ea15f7d004ac51ffd93ae05fface12076781f649ea8a",
+  "required_methods": [
+    "eth_chainId",
+    "eth_getBlockByHash",
+    "eth_getBlockByNumber",
+    "eth_getTransactionReceipt",
+    "eth_getCode",
+    "eth_getStorageAt"
+  ],
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "trace_method_candidates": [
+    "trace_transaction",
+    "debug_traceTransaction",
+    "trace_block",
+    "debug_traceBlockByNumber"
+  ]
+}

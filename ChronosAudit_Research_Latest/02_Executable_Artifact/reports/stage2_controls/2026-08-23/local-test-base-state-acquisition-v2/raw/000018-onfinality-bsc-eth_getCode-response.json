@@ -1,0 +1,22 @@
+{
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "http_status": 429,
+  "method": "eth_getCode",
+  "observed_at_unix": 1787422458,
+  "observed_at_utc": "2026-08-22T18:14:18Z",
+  "operator_family": "onfinality",
+  "params": [
+    "0x1485952a2ab0d26ff9c788d52e756010c14dc700",
+    {
+      "blockHash": "0x99af28d698e9b6157daf695779254f5af2861628649d73da0507799fa35e21e5",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "onfinality-bsc",
+  "result": null,
+  "schema_version": "stage2_control_cutoff_state_rpc_response.v1",
+  "sequence": 18,
+  "target_id": "base-state:008d91fa52c1e08c722bc3e17e0133e55a7f1a45d2dd80c31127b902c4cc33a3",
+  "transport_request_sha256": "77cf55e84722374a62357a66f2ffe9367360d7409cec5d993d5ad65e2afef333",
+  "transport_response_sha256": null
+}

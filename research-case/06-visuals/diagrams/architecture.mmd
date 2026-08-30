@@ -1,0 +1,11 @@
+flowchart LR
+    A["Public pre-cutoff artifacts"] --> B["Case-level admissibility manifest"]
+    B --> C["Family assignment: lineage, clones, proxy, attacker, mechanism"]
+    C --> D["Split ladder R0 to R4"]
+    D --> E["Frozen detector and retrieval policy"]
+    E --> F["Selective predictions and abstentions"]
+    F --> G["Outcome states: positive, mature negative, right-censored"]
+    G --> H["Capability-survival, calibration, and workload analysis"]
+    I["Post-incident evidence"] --> G
+    I -. "label-only; never prediction input" .-> B
+    J["Prospective shadow extension"] -. "blocked; separate authority required" .-> H

@@ -1,0 +1,65 @@
+{
+  "artifact_schema_version": "2026-08-08.task5",
+  "counter_targets": {
+    "control_candidates_required": 4170,
+    "deployment_denominator_per_chain": {
+      "arbitrum": 5000,
+      "base": 5000,
+      "bsc": 5000,
+      "ethereum": 5000
+    },
+    "deployment_denominator_required": 20000,
+    "independent_r5_blocks_required": 120,
+    "qualified_controls_required": 4170
+  },
+  "historical_snapshot_verification": {
+    "counter_authority": true,
+    "observed": 417,
+    "projection": {
+      "format": "csv",
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v3/historical_snapshot_verification/historical_snapshot_verified_projection.csv",
+      "sha256": "3cd8d671965366572011c0f03f2c8e5961d20f7a666f75fd8ba232cb1c165131"
+    },
+    "report": {
+      "format": "json",
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v3/historical_snapshot_verification/historical_snapshot_verification_report.json",
+      "sha256": "4042b7bfc3021aaeb14a133e00aa5e3625348f434e2263396f1d4c86fe9bfafd"
+    },
+    "required": 417,
+    "run_root": "raw/historical_snapshots/2026-08-11/historical-snapshots-417-revised-v3"
+  },
+  "input_manifest_sha256": "067a5fdb07536025b5b1632da91afd18f9e3383604b5d342884b53155b23bb86",
+  "inputs": {
+    "control_review_packets": {
+      "format": "json",
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v3/control_review_packets.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "control_rows": {
+      "format": "csv",
+      "path": "processed/public_acquisition/2026-08-11/public-acquisition-historical-revision-v3/control_candidates.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "deployment_denominator": {
+      "format": "csv",
+      "path": "processed/public_acquisition/2026-08-11/public-acquisition-historical-revision-v3/deployment_denominator.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "finalized_positive_adjudications": {
+      "format": "json",
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v3/finalized_positive_adjudications.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "positive_case_review_packets": {
+      "format": "json",
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v3/positive_case_review_packets.json",
+      "sha256": "86df68c65e5e09bf2991e29a6725d557819fa9c7e656dd08650cb8ac956448ff"
+    },
+    "positive_cases": {
+      "format": "csv",
+      "path": "reports/public_acquisition/2026-08-11/public-acquisition-historical-revision-v3/inputs/positive_cases_snapshot.csv",
+      "sha256": "5164a40ccdef04f3edb1555758b133cc28fec89571858c1bdacbba542962e824"
+    }
+  },
+  "minimum_independent_r5_blocks": 120
+}

@@ -1,0 +1,1 @@
+{"method":"eth_getBlockByNumber","params":["0x2312765",false],"provider_family":"base-official","provider_id":"base-official-base","schema_version":"stage2_control_cutoff_boundary_capability_request.v1"}

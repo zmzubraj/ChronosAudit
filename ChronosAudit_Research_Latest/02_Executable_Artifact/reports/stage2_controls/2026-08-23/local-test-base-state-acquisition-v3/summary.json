@@ -1,0 +1,18 @@
+{
+  "checkpoint_sha256": "65e9c19c2f5a69ee8270ac7ddc207217c710f35587fe0cf1ad61245336e9f8b2",
+  "completed_target_count": 802,
+  "dispositions": {
+    "complete": 802,
+    "evidence_block_disagreement": 1,
+    "fixed_slot_disagreement": 3,
+    "next_block_disagreement": 1,
+    "runtime_code_disagreement": 1
+  },
+  "recovery3_mutation_authorized": false,
+  "schema_version": "stage2_control_cutoff_state_acquisition_summary.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "status": "PARTIAL_NON_AUTHORIZING",
+  "summary_sha256": "723c1becf6f76e3d07ab7d884dc8687a3387baa102d0e5dd05fe74a924048fe9",
+  "target_count": 808
+}

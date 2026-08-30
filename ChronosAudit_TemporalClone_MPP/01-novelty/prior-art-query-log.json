@@ -1,0 +1,46 @@
+{
+  "adapter_id": "MANUAL_PUBLIC_WEB_V1",
+  "live_network_permitted": false,
+  "may_assert_novelty": false,
+  "offline_only": false,
+  "queries": [
+    {
+      "query": "smart contract exploit benchmark historical state reconstruction EVM benchmark bytecode clone proxy",
+      "query_id": "Q001",
+      "raw_path": "01-novelty/prior-art-raw-snapshots.json",
+      "request_url": "manual-web-search",
+      "response_sha256": "manual-snapshot-not-hash-bound",
+      "searched_at": "2026-08-29",
+      "surface": "arXiv and web"
+    },
+    {
+      "query": "SCONE-bench 417 historical incidents dataset",
+      "query_id": "Q002",
+      "raw_path": "01-novelty/prior-art-raw-snapshots.json",
+      "request_url": "manual-official-source-search",
+      "response_sha256": "manual-snapshot-not-hash-bound",
+      "searched_at": "2026-08-29",
+      "surface": "Anthropic and GitHub"
+    },
+    {
+      "query": "smart contract benchmark duplicate contracts bytecode metadata stripping dataset leakage",
+      "query_id": "Q003",
+      "raw_path": "01-novelty/prior-art-raw-snapshots.json",
+      "request_url": "manual-scholar-search",
+      "response_sha256": "manual-snapshot-not-hash-bound",
+      "searched_at": "2026-08-29",
+      "surface": "publisher and scholarly web"
+    },
+    {
+      "query": "EIP-1898 EIP-1967 EIP-1167",
+      "query_id": "Q004",
+      "raw_path": "01-novelty/prior-art-raw-snapshots.json",
+      "request_url": "manual-eip-search",
+      "response_sha256": "manual-snapshot-not-hash-bound",
+      "searched_at": "2026-08-29",
+      "surface": "EIP repository"
+    }
+  ],
+  "run_id": "chronosaudit-temporalclone-mpp-20260828T193046Z-5c71be2f-7ac55a",
+  "schema_version": 4
+}

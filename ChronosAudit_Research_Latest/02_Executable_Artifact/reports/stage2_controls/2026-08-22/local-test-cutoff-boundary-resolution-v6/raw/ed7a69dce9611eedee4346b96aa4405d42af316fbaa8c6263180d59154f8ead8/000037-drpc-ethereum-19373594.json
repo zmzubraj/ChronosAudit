@@ -1,0 +1,24 @@
+{
+  "authorization": {
+    "authorized": true,
+    "range_scope_sha256": "992e835fe5a0826afe794d75525fb872d9929eb65a2bb8b5851114f72e4f01a2",
+    "remaining_request_count_after_call": 36953,
+    "remaining_scope_request_count_after_call": 59,
+    "request_sha256": "2a7464a8ae1e9a84e7cc4e59aa65581444076d329346b92aff565df5cd28a527",
+    "sequence_number": 37
+  },
+  "chain": "ethereum",
+  "error": "HTTPError: HTTP Error 429: Too Many Requests",
+  "method": "eth_getBlockByNumber",
+  "observed_at_unix": 1787421022,
+  "operator_family": "drpc",
+  "params": [
+    "0x1279e1a",
+    false
+  ],
+  "provider_id": "drpc-ethereum",
+  "result": null,
+  "schema_version": "stage2_control_cutoff_boundary_raw_rpc.v1",
+  "sequence_number": 37,
+  "target_id": "cutoff-boundary:0207adabc746dc1f6c34c748ad76510198b0c22fd9c8ff9bf10fcf7c1a8bb66e"
+}

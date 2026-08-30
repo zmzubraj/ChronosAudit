@@ -1,0 +1,9 @@
+remediation_id,question_id,claim_ids,action,owner,status,evidence,verified_by
+REM-P0-01,KQ01,C001,"Bootstrap accountable external trust and independently revalidate charter and study profile",accountable-human,BLOCKED,"00-governance/program-charter.md|00-governance/study-profile.json",UNAVAILABLE
+REM-P0-02,KQ02,C001,"Run a reconstructable strongest-prior-art audit with current source verification",independent-search-owner,BLOCKED,"01-novelty/independent-search-challenge.md",UNAVAILABLE
+REM-P1-01,KQ05,C001,"Complete one lawful representative real-case manifest end to end",future-data-owner,BLOCKED,"02-feasibility/pilot-results.md",UNAVAILABLE
+REM-P1-02,KQ06,C001,"Complete and independently adjudicate a frozen mature-negative example",future-domain-reviewer,BLOCKED,"02-feasibility/pilot-results.md",UNAVAILABLE
+REM-P1-03,KQ07,C001,"Freeze and reproduce a fair strong baseline portfolio",future-technical-owner,BLOCKED,"02-feasibility/solution-viability-case.md",UNAVAILABLE
+REM-P1-04,KQ16,C002,"Close the source-rights and redistribution ledger",accountable-human,BLOCKED,"02-feasibility/risk-register.csv",UNAVAILABLE
+REM-P2-01,KQ11,C001,"Human-review and freeze the draft protocol and analysis plan",accountable-methods-owner,PENDING,"03-design/protocol.md|03-design/analysis-plan.md",UNAVAILABLE
+REM-P3-01,KQ23,C001|C002,"Resolve authorship declarations conflicts funding and AI disclosure",accountable-authors,PENDING,"07-manuscript/manuscript.md",UNAVAILABLE

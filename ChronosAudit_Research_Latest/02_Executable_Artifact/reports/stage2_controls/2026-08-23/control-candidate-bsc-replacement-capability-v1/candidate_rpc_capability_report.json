@@ -1,0 +1,56 @@
+{
+  "chain_count": 1,
+  "chains": [
+    {
+      "chain": "bsc",
+      "complete": true,
+      "providers": [
+        {
+          "provider_family": "bnb-official",
+          "provider_id": "bnb-official-bsc",
+          "semantic_sha256": "d760bfd49e6c873b51594baf73ce5c7d4cd9301a6a9616103a96ed4405601fbc"
+        },
+        {
+          "provider_family": "nodereal",
+          "provider_id": "nodereal-bsc",
+          "semantic_sha256": "d760bfd49e6c873b51594baf73ce5c7d4cd9301a6a9616103a96ed4405601fbc"
+        }
+      ]
+    }
+  ],
+  "complete": true,
+  "errors": [],
+  "raw_evidence": [
+    {
+      "path": "bsc-bnb-official-bsc-eth_chainId-dbd3eeaf374f3b1c54c94301601e6cbb20a04163dce1839c475d4501b7314eb8.json",
+      "sha256": "2aff5985980b7757ad361835f47ab4169af1ab190c764b71f4c6c9faf7507caa"
+    },
+    {
+      "path": "bsc-bnb-official-bsc-eth_getTransactionReceipt-c0e984c19b234216a39ff4636bba77fe2eb29a5e4a5adb22a3905d93f5730d5e.json",
+      "sha256": "541a13558a7525d1bfaab6d9cea17dae940964e0ec1eae9e61575d2318fcd600"
+    },
+    {
+      "path": "bsc-bnb-official-bsc-eth_getBlockByHash-18b996811c8c62e0bca391663c1537e0e4c74a3228ec3fdfdc85922c6c21bbfb.json",
+      "sha256": "ec56f321f52b3adc2a1c6435f864736f5780ce027456a20cbecd95e461b9caaf"
+    },
+    {
+      "path": "bsc-nodereal-bsc-eth_chainId-eea9552f5c2d145d4f58f92976eadef19bef82842eb2a88540522da3d575b880.json",
+      "sha256": "82af8c96d6d0df15908ccd489124e82d1a0f2d2f809d2368f9cdd0842b005a86"
+    },
+    {
+      "path": "bsc-nodereal-bsc-eth_getTransactionReceipt-839e7454ad32113348a8a3bedc41f00d31a9d63a18cf302411517b5ba5b5969c.json",
+      "sha256": "86c0abe0a7e64213d3e0f9af6da244a285254e3138a8aa5489122bb80b7c1c1b"
+    },
+    {
+      "path": "bsc-nodereal-bsc-eth_getBlockByHash-6ab399b8f32ee13e5ee84237c34b49835692cdab9b4927a88679ae3e79374ef6.json",
+      "sha256": "07ec73079a278f593bcea20dc7dd5f5564b850ba313353d71c8613e37d5d1f95"
+    }
+  ],
+  "raw_evidence_count": 6,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "842a6ece85ec9f3b20c938ccc63508f4e5d4c4a4c9aa531a94212752dfacc710",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_candidate_rpc_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

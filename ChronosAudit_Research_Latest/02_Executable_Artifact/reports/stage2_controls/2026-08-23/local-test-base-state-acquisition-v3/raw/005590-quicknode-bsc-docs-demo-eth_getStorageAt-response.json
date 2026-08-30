@@ -1,0 +1,23 @@
+{
+  "error": null,
+  "http_status": 200,
+  "method": "eth_getStorageAt",
+  "observed_at_unix": 1787426694,
+  "observed_at_utc": "2026-08-22T19:24:54Z",
+  "operator_family": "quicknode",
+  "params": [
+    "0xca01b77d7f5c6a2eb15735a16a8b9baac6d4c3b6",
+    "0xa3f0ad74e5423aebfd80d3ef4346578335a9a72aeaee59ff6cb3582b35133d50",
+    {
+      "blockHash": "0x04ec0c560e85a50d1d7993a973bf2b5afdc92e5bd7cdb7100666eee7fcd2506e",
+      "requireCanonical": true
+    }
+  ],
+  "provider_id": "quicknode-bsc-docs-demo",
+  "result": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "schema_version": "stage2_control_cutoff_state_rpc_response.v1",
+  "sequence": 5590,
+  "target_id": "base-state:925a721e3f90a05d8f208538c0790a457a193303e630ebdf2ff441c293ba683f",
+  "transport_request_sha256": "102980eb91ed330ddf4d869554f6fe745674b5c83ef8178c0c15e88051ae0012",
+  "transport_response_sha256": "d6270a96c74e698681cb7c0012a25d17a018228bca3a631fd19a384e561ca22a"
+}

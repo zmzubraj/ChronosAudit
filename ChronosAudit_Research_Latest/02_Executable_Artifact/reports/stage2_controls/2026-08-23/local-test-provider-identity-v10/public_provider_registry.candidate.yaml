@@ -1,0 +1,75 @@
+version: 1.10.0-local-test-cutoff-state
+providers:
+  - provider_id: quicknode-ethereum
+    chain: ethereum
+    endpoint: https://quiknode.pro/
+    endpoint_env: CHRONOS_QUICKNODE_ETHEREUM_URL
+    operator_family: quicknode
+    discovery_source: https://www.quicknode.com/docs/ethereum/endpoints.md
+    tracking_enabled: true
+    operator_evidence_url: https://www.quicknode.com/docs/ethereum/endpoints.md
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: drpc-ethereum
+    chain: ethereum
+    endpoint: https://eth.drpc.org
+    operator_family: drpc
+    discovery_source: https://drpc.org/chainlist/ethereum-mainnet-rpc
+    tracking_enabled: true
+    operator_evidence_url: https://drpc.org/chainlist/ethereum-mainnet-rpc
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: nodereal-bsc
+    chain: bsc
+    endpoint: https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3
+    operator_family: nodereal
+    discovery_source: https://docs.nodereal.io/reference/getting-started-with-your-api
+    tracking_enabled: true
+    operator_evidence_url: https://docs.nodereal.io/reference/getting-started-with-your-api
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: quicknode-bsc-docs-demo
+    chain: bsc
+    endpoint: https://docs-demo.bsc.quiknode.pro/
+    operator_family: quicknode
+    discovery_source: https://www.quicknode.com/docs/bnb-smart-chain/net_version
+    tracking_enabled: true
+    operator_evidence_url: https://www.quicknode.com/docs/bnb-smart-chain/net_version
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: base-official-base
+    chain: base
+    endpoint: https://mainnet.base.org
+    operator_family: base-official
+    discovery_source: https://docs.base.org/base-chain/quickstart/connecting-to-base
+    tracking_enabled: true
+    operator_evidence_url: https://docs.base.org/base-chain/quickstart/connecting-to-base
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: tenderly-base
+    chain: base
+    endpoint: https://base.gateway.tenderly.co
+    operator_family: tenderly
+    discovery_source: https://tenderly.co/blog/changelog/tenderly-now-supports-base-mainnet-goerli-testnet/
+    tracking_enabled: true
+    operator_evidence_url: https://tenderly.co/blog/changelog/tenderly-now-supports-base-mainnet-goerli-testnet/
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: onfinality-arbitrum
+    chain: arbitrum
+    endpoint: https://arbitrum.api.onfinality.io/public
+    operator_family: onfinality
+    discovery_source: https://onfinality.io/en/networks/arbitrum
+    tracking_enabled: true
+    operator_evidence_url: https://onfinality.io/en/networks/arbitrum
+    operator_evidence_sha256:
+    operator_verified: false
+  - provider_id: solidrpc-arbitrum
+    chain: arbitrum
+    endpoint: https://rpc.solidrpc.io/public/evm/42161
+    operator_family: solidrpc
+    discovery_source: https://solidrpc.io/docs/public-rpc
+    tracking_enabled: true
+    operator_evidence_url: https://solidrpc.io/docs/public-rpc
+    operator_evidence_sha256:
+    operator_verified: false

@@ -1,0 +1,52 @@
+{
+  "artifact_schema_version": "2026-08-08.task5",
+  "counters": {
+    "control_candidates": {
+      "observed": 0,
+      "passed": false,
+      "required": 4170
+    },
+    "control_review_packets": {
+      "observed": 0,
+      "passed": true,
+      "required": 0
+    },
+    "deployment_denominator": {
+      "observed": 0,
+      "passed": false,
+      "required": 20000
+    },
+    "finalized_positive_adjudications": {
+      "observed": 0,
+      "passed": true,
+      "required": 0
+    },
+    "historical_snapshots": {
+      "observed": 417,
+      "passed": true,
+      "required": 417
+    },
+    "independent_adjudications": {
+      "observed": 0,
+      "passed": false,
+      "required": 417
+    },
+    "independent_r5_blocks": {
+      "observed": 0,
+      "passed": false,
+      "required": 120
+    },
+    "positive_case_review_packets": {
+      "observed": 417,
+      "passed": true,
+      "required": 0
+    },
+    "qualified_controls": {
+      "observed": 0,
+      "passed": false,
+      "required": 4170
+    },
+    "release_eligible_cases": 0
+  },
+  "input_manifest_sha256": "067a5fdb07536025b5b1632da91afd18f9e3383604b5d342884b53155b23bb86"
+}

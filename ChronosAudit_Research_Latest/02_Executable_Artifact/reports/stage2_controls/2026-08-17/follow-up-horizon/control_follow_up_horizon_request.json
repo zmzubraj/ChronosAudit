@@ -1,0 +1,18 @@
+{
+  "control_rows_required": 4170,
+  "controls_per_positive": 10,
+  "counter_authority": false,
+  "decision": "AWAITING_ACCOUNTABLE_METHODS_OWNER_DECISION",
+  "latest_positive_cutoff_utc": "2026-05-27T16:20:45Z",
+  "outcome_inspection_before_freeze_prohibited": true,
+  "policy_sha256": "4603d85139483db1b69c374c84603cfb83dabc2a93b6e310cab2f4226cebf871",
+  "positive_case_count": 417,
+  "positive_projection_sha256": "412e3ad2681ebf54f2c2cd9f6a5bf4f088c09171c9cf70a1eec4795edc40161d",
+  "qualification_authorized": false,
+  "request_sha256": "d0767943d23fae55b25e6077e2c5332d1d3d2f13b772fcb114cc18448a7b17e3",
+  "required_censoring_status": "FROZEN_COMPLETE",
+  "required_horizon_model": "FIXED_DURATION",
+  "required_maturity_status": "INVESTIGATED_NEGATIVE_MATURE",
+  "schema_version": "chronosaudit.control_follow_up_horizon_request.v1",
+  "selection_authorized": false
+}

@@ -1,0 +1,17 @@
+{
+  "chain_count": 1,
+  "complete": false,
+  "errors": [
+    "rpc_error:eth_getBlockByNumber"
+  ],
+  "provider_registry_verified": false,
+  "raw_evidence_count": 4,
+  "recovery3_mutation_authorized": false,
+  "report_file_sha256": "6ffeb14d24b0b0509f31eb4ad01e7c9e319a98cc21f403204c9d46a0b41b4318",
+  "report_sha256": "994a0f41c7a64acdd3efdc08d5258c51f667d982e42b5a98085c393dbd85f203",
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability_verification.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "verification_sha256": "00042611d779a9746f3a749f86cf1403553184ea03ad9a79da966aa4cff82f78"
+}

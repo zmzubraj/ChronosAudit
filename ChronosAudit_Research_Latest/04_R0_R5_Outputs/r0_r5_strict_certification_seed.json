@@ -1,0 +1,65 @@
+{
+  "rows": 417,
+  "levels": {
+    "R0": {
+      "required_columns": [],
+      "missing_columns": [],
+      "null_or_blank_counts": {},
+      "evidence_complete": true
+    },
+    "R1": {
+      "required_columns": [
+        "chain",
+        "target_contract_address"
+      ],
+      "missing_columns": [],
+      "null_or_blank_counts": {
+        "chain": 0,
+        "target_contract_address": 0
+      },
+      "evidence_complete": true,
+      "crossing_identity_groups": 0
+    },
+    "R2": {
+      "required_columns": [
+        "prediction_cutoff_time"
+      ],
+      "missing_columns": [
+        "prediction_cutoff_time"
+      ],
+      "null_or_blank_counts": {},
+      "evidence_complete": false
+    },
+    "R3": {
+      "required_columns": [
+        "protocol_family"
+      ],
+      "missing_columns": [
+        "protocol_family"
+      ],
+      "null_or_blank_counts": {},
+      "evidence_complete": false
+    },
+    "R4": {
+      "required_columns": [
+        "implementation_family"
+      ],
+      "missing_columns": [
+        "implementation_family"
+      ],
+      "null_or_blank_counts": {},
+      "evidence_complete": false
+    },
+    "R5": {
+      "required_columns": [
+        "mechanism_family"
+      ],
+      "missing_columns": [
+        "mechanism_family"
+      ],
+      "null_or_blank_counts": {},
+      "evidence_complete": false
+    }
+  },
+  "highest_certified_level": "R1"
+}

@@ -1,0 +1,1 @@
+{"method":"eth_getBlockByNumber","params":["0x2312765",false],"provider_family":"publicnode","provider_id":"publicnode-base","schema_version":"stage2_control_cutoff_boundary_capability_request.v1"}

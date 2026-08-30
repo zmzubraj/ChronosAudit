@@ -1,0 +1,3 @@
+venue,article_type,rank_basis,official_url,checked_at,fit_rationale,priority,status,next_gate
+arXiv cs.CR,Preprint,Immediate public dissemination route; not peer review,https://info.arxiv.org/help/submit/index.html,2026-08-29,Security benchmark validity and reproducible artifact,1,PREPARED_NOT_UPLOADED,author rights license preview and approval
+Empirical Software Engineering,Original Paper,Peer-reviewed venue selected by thematic fit not asserted prestige rank,https://link.springer.com/journal/10664/submission-guidelines,2026-08-29,Empirical methodology and reproducible benchmark study,2,PREPARED_NOT_SUBMITTED,independent review author metadata declarations and portal QA

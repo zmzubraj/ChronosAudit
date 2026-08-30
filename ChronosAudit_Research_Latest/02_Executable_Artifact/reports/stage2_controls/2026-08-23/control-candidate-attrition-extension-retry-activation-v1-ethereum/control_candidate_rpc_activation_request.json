@@ -1,0 +1,51 @@
+{
+  "acquisition_authorized": false,
+  "block_window_sha256": null,
+  "candidate_retry_manifest_sha256": "478c69619c8e7285b77215fa056765ed5752db9d34b7f32399ac62ca1e9a937f",
+  "candidate_rpc_capability_verification_sha256": "016e5ca2d144c6a77b9501e48d2bcd185cee4726e0a1654de80cd1b4596521f1",
+  "chain_candidate_counts": {
+    "ethereum": 11
+  },
+  "decision": "AWAITING_ACCOUNTABLE_RPC_ACTIVATION_SIGNATURE",
+  "hash_chained_no_repeat_ledger_required": true,
+  "maximum_rpc_requests": 46,
+  "provider_bindings": [
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "28273ebfce495a97c0075a0a6bea18b49a66bd9df91c420c2367ad9629023bb4",
+      "operator_evidence_sha256": "91437f6e40fe6e0be3ae81f2d07894ad954c192eb012617b52bd86453385a47c",
+      "operator_family": "drpc",
+      "provider_id": "drpc-ethereum",
+      "public_endpoint_identity_id": "078ddbb63a6abd3c9a5eb951895223315b3d0ba63d4f4c0c588ab34306bf6d79"
+    },
+    {
+      "chain": "ethereum",
+      "identity_evidence_sha256": "0aa30cd46fed972383066fe285d7377394d167d99cace7659aae08047adb0d8d",
+      "operator_evidence_sha256": "1796b6fb5e3170ae1934d42d60452da558ddd016f76781d980e0ba5fd8061ccf",
+      "operator_family": "publicnode",
+      "provider_id": "publicnode-ethereum",
+      "public_endpoint_identity_id": "4ddd4e4d3f7c1886073d04ada948acfb376a131d23f431c052d1b40d434c5082"
+    }
+  ],
+  "provider_identity_verification_sha256": "3c135ee4fc804d8a0cbe09b97874bd3b350bd9673bb71cdb29ab6807601fc531",
+  "provider_registry_sha256": "f18c5146c76acf19edd8edc03fbe70d47e2fd0764c1b3be87b234a3a73e0371b",
+  "purpose": "CONTROL_CANDIDATE_DEPLOYMENT_VERIFICATION_ONLY",
+  "queue_manifest_sha256": "829d8894cad6b4204546574fc48e545c419f43a7c343d526a1eebc9a1d9ac865",
+  "queue_row_count": 11,
+  "queue_sha256": "f6262f9afe9b38e52cc80ad8936e9509b692d04554655da89a67ac44b6753925",
+  "raw_request_response_receipts_required": true,
+  "recovery3_mutation_authorized": false,
+  "request_count_formula": "sum(chain_candidates*2_providers*2_candidate_methods+2_chain_identity_calls_per_chain)",
+  "request_sha256": "531ff29ee369f4f88eae9006d5a2917a50f3a0c8c8b26db8ee5a6ae2261fea0a",
+  "rpc_authorized": false,
+  "rpc_methods": [
+    "eth_chainId",
+    "eth_getTransactionReceipt",
+    "eth_getBlockByHash"
+  ],
+  "schema_version": "chronosaudit.control_candidate_rpc_activation_request.v1",
+  "selection_authorized": false,
+  "source_request_ledger_sha256": "e9fb5738e1cfff125e9b47c44bf6621f6e222c91b18f56918bbfe6b0b3aa2f9c",
+  "source_request_ledger_terminal_hash": "f24440c3605a1b9103ed26aeb52625a3668dad5818013ea4aaaa18a61e46ebef",
+  "stage_promotion_authorized": false
+}

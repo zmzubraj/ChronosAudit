@@ -1,0 +1,85 @@
+{
+  "counter_authority": false,
+  "decision": "APPROVE_LOCAL_TEST_LEGACY_ALIAS_PROVIDER_IDENTITY_REVISION",
+  "denominator_admission_authorized": false,
+  "evidence_packet_sha256": "6b25ea9037d82b9b94d10d75501c3dadc914d5dfde870be36b7da1244bba4576",
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_REVIEWER_IDENTITY",
+  "identity_report_projection_authorized": true,
+  "independent_review_established": false,
+  "legacy_provider_bindings": [
+    {
+      "chain": "base",
+      "endpoint": "https://base.merkle.io",
+      "endpoint_template_sha256": "a3b19db19ae00facfd632cdba27ae7b7a2ed985d999168a60c2c4e20e7b28b29",
+      "environment": "LOCAL_TEST_ONLY",
+      "identity_status": "AWAITING_ACCOUNTABLE_REVISION_SIGNATURE",
+      "operator_family": "merkle",
+      "operator_identity_family": "merkle_blink",
+      "provider_id": "merkle-base"
+    },
+    {
+      "chain": "bsc",
+      "endpoint": "https://bsc.merkle.io",
+      "endpoint_template_sha256": "c48f7ab856707cccb318dd965cc172759cde78998f507512500789f7d95e4782",
+      "environment": "LOCAL_TEST_ONLY",
+      "identity_status": "AWAITING_ACCOUNTABLE_REVISION_SIGNATURE",
+      "operator_family": "merkle",
+      "operator_identity_family": "merkle_blink",
+      "provider_id": "merkle-bsc"
+    },
+    {
+      "chain": "ethereum",
+      "endpoint": "https://eth.merkle.io",
+      "endpoint_template_sha256": "dba2d6bf58efcecbcc3e1e49412db682d89d3cf17bef4c2ac96c997b704f8850",
+      "environment": "LOCAL_TEST_ONLY",
+      "identity_status": "AWAITING_ACCOUNTABLE_REVISION_SIGNATURE",
+      "operator_family": "merkle",
+      "operator_identity_family": "merkle_blink",
+      "provider_id": "merkle-ethereum"
+    }
+  ],
+  "method_approval_record_sha256": "0df65b1f2ffe926c6bcdf6372e0290d5befbe86e1466b8a4edc70d8b44f95302",
+  "method_request_sha256": "b1a5d55ced44afb153aee9f9f257e973b9c4f2236a20ceae77dda3305602a806",
+  "paired_provider_bindings": [
+    {
+      "chain": "base",
+      "identity_status": "SEPARATE_EXACT_PUBLICATION_REVIEW_REQUIRED",
+      "operator_family": "drpc",
+      "provider_id": "drpc-base"
+    },
+    {
+      "chain": "bsc",
+      "identity_status": "SEPARATE_EXACT_PUBLICATION_REVIEW_REQUIRED",
+      "operator_family": "nodereal",
+      "provider_id": "nodereal-bsc"
+    },
+    {
+      "chain": "ethereum",
+      "identity_status": "SEPARATE_EXACT_PUBLICATION_REVIEW_REQUIRED",
+      "operator_family": "quicknode",
+      "provider_id": "quicknode-ethereum"
+    }
+  ],
+  "provider_identity_revision_authorized": true,
+  "publication_authorized": false,
+  "purpose": "LOCAL_TEST_LEGACY_ALIAS_PROVIDER_IDENTITY_REVISION_ONLY",
+  "qualification_authorized": false,
+  "r5_authorized": false,
+  "recovery3_mutation_authorized": false,
+  "registry_fragment_projection_authorized": true,
+  "release_authorized": false,
+  "review_expires_utc": "2026-08-30T02:05:00Z",
+  "review_start_utc": "2026-08-23T02:05:00Z",
+  "reviewer_principal": "zmzubraj",
+  "revision_request_file_sha256": "791f24f2e21028c7ee6514136f2771e7c11647609cb5ee2e89e569b0da13b949",
+  "revision_request_sha256": "26dd2120f823d97bfa60112949eba678d386aaac696a818df4f89cac3c7a2cb0",
+  "revision_verification_file_sha256": "01f86ff93e579af7c680efd772d23845e5e21467d758bc1ee889e9bb9e897508",
+  "revision_verification_sha256": "c404dbf724cbdb7ee085756b91d8ba2f0ec5402c30e7bb24bfb35b54febc36d3",
+  "row_admission_authorized": false,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_legacy_alias_revision_approval.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "target_identities_sha256": "971f0ddaf3251327dcb790875923007269954cfc69220fe663664f0d06b9d8de",
+  "trace_targets_sha256": "19605da2e7ebf8e82d54938b3e060aec870de773ec02c637effea99e20dd00e9"
+}

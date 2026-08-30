@@ -1,0 +1,10 @@
+src,dst,edge_type,confidence
+sheepfarm2,sheepfarm,same_chain_address,verified
+ulme,ulme_2,same_chain_address,verified
+babydogecoin,babydogecoin02,same_chain_address,verified
+res,res_2,same_chain_address,verified
+conic,conic_2,same_chain_address,verified
+steamswap,minestm,same_chain_address,verified
+shido_2,shido,same_chain_address,verified
+uwulend_first,uwulend_second,same_chain_address,verified
+wiselending02,wiselending03,same_chain_address,verified

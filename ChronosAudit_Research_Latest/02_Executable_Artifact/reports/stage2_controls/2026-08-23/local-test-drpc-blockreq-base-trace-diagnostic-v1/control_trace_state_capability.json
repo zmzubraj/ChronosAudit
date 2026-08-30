@@ -1,0 +1,258 @@
+{
+  "chain_count": 1,
+  "chains": [
+    {
+      "chain": "base",
+      "complete": false,
+      "errors": [
+        "base:blockreq-base:rpc_error:eth_getBlockByNumber",
+        "base:drpc-base:rpc_error:eth_getStorageAt"
+      ],
+      "known_creation_recovered_by_both": false,
+      "provider_count": 2,
+      "providers": [
+        {
+          "complete": false,
+          "errors": [
+            "rpc_error:eth_getBlockByNumber"
+          ],
+          "provider_family": "blockreq",
+          "provider_id": "blockreq-base"
+        },
+        {
+          "complete": false,
+          "errors": [
+            "rpc_error:eth_getStorageAt"
+          ],
+          "provider_family": "drpc",
+          "provider_id": "drpc-base"
+        }
+      ],
+      "verified_operator_families": [
+        "blockreq",
+        "drpc"
+      ]
+    }
+  ],
+  "complete": false,
+  "errors": [
+    "base:blockreq-base:rpc_error:eth_getBlockByNumber",
+    "base:drpc-base:rpc_error:eth_getStorageAt"
+  ],
+  "fixture_count": 1,
+  "raw_evidence": [
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00001-blockreq-base-eth_chainId-request.json",
+      "provider_id": "blockreq-base",
+      "sequence": 1,
+      "sha256": "00e957b441e735694e965bc3ff5b685e9f692d6393a3267ad3ead1d641173105"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00001-blockreq-base-eth_chainId-response.json",
+      "provider_id": "blockreq-base",
+      "sequence": 1,
+      "sha256": "4a5cdd7812021cedaf021d81bde20cf29f89c8224e36d379015598f66fa5ab65"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-blockreq-base-eth_getBlockByNumber-request.json",
+      "provider_id": "blockreq-base",
+      "sequence": 2,
+      "sha256": "79de944eef0d4bf6947d7592716aec36d60aa47bfb539ee623389b45de774176"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00002-blockreq-base-eth_getBlockByNumber-response.json",
+      "provider_id": "blockreq-base",
+      "sequence": 2,
+      "sha256": "931c057a78f1cd4828c14ec60b948c5f03f3888b071931f4baa0fa72b94fe555"
+    },
+    {
+      "kind": "request",
+      "method": "eth_chainId",
+      "path": "00003-drpc-base-eth_chainId-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 3,
+      "sha256": "c977035a922122b7923db160ceb52a43849060776791e2a5ad03757582778680"
+    },
+    {
+      "kind": "response",
+      "method": "eth_chainId",
+      "path": "00003-drpc-base-eth_chainId-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 3,
+      "sha256": "6e531e755b4fb6e7df2b2e07c47a4a8e9c4957488b66d8009609812c404b99b9"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByNumber",
+      "path": "00004-drpc-base-eth_getBlockByNumber-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 4,
+      "sha256": "e3c7a7142e3d5360b115c18f81f3895f3029a2e8ba5d3aca611ceb015fe2151b"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByNumber",
+      "path": "00004-drpc-base-eth_getBlockByNumber-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 4,
+      "sha256": "ef5ce02cab5a406eb5df2525211dcc4c8f6c63478b95aaf26d985051614e21e7"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getBlockByHash",
+      "path": "00005-drpc-base-eth_getBlockByHash-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 5,
+      "sha256": "4fb392786e7849680bf5bbf5c61958c861124822c134cb7750778b0b477822ee"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getBlockByHash",
+      "path": "00005-drpc-base-eth_getBlockByHash-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 5,
+      "sha256": "03adcbbf6a4d3375664741bd074912381add09afe34066aaf120288e8566c262"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getTransactionReceipt",
+      "path": "00006-drpc-base-eth_getTransactionReceipt-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 6,
+      "sha256": "1ebaae79dd370df54b82f5a8fe71b7476aaabb27d0cfa4947447aaa4b8103658"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getTransactionReceipt",
+      "path": "00006-drpc-base-eth_getTransactionReceipt-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 6,
+      "sha256": "c1301a90be929e6a0afbba1f850121700ef08125cc2e7717676710c52da94d62"
+    },
+    {
+      "kind": "request",
+      "method": "trace_transaction",
+      "path": "00007-drpc-base-trace_transaction-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 7,
+      "sha256": "9a3e59dafa02cc5e5ee27427de12a6a9ea42cdaedffb816da3ee6290cdb53524"
+    },
+    {
+      "kind": "response",
+      "method": "trace_transaction",
+      "path": "00007-drpc-base-trace_transaction-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 7,
+      "sha256": "d700ace2eebdf2d27c39d520e4165e3207728bb6a4c3eb2ee24070ee38755b8c"
+    },
+    {
+      "kind": "request",
+      "method": "debug_traceTransaction",
+      "path": "00008-drpc-base-debug_traceTransaction-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 8,
+      "sha256": "649d267bc65dda246b7c8bce58bf0b61c57276652e386e63210262e8708430ad"
+    },
+    {
+      "kind": "response",
+      "method": "debug_traceTransaction",
+      "path": "00008-drpc-base-debug_traceTransaction-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 8,
+      "sha256": "0b132bef2ddcc00e602e330fb238de3d7028f0a4d9ef2306161d2b471a0ff575"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getCode",
+      "path": "00009-drpc-base-eth_getCode-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 9,
+      "sha256": "1aab402fd053be560e2c03d333e7ed21ca3868f86b4491bef68dcbe93b70e346"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getCode",
+      "path": "00009-drpc-base-eth_getCode-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 9,
+      "sha256": "20a9a8fc46410320b6675936b99a8cbceb85df9fef7f3ea9f7deb2994883a797"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00010-drpc-base-eth_getStorageAt-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 10,
+      "sha256": "643c0de3915f8cb9658e78dfae066005d7ca28ea4433050484a811a27bfbbfd3"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00010-drpc-base-eth_getStorageAt-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 10,
+      "sha256": "73424f3a81326cf7f509d5eff2650e21538d260f1649c60e822123d7deeab582"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00011-drpc-base-eth_getStorageAt-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 11,
+      "sha256": "f9d3866478e0c9210a32108287ca4e3d925bdef2d424f3ffa60c06cc8e0d4dc6"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00011-drpc-base-eth_getStorageAt-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 11,
+      "sha256": "c744b8f1289f4806b9e0e6488b69c1db3109b48123fb104ecb9692bbb3032f5d"
+    },
+    {
+      "kind": "request",
+      "method": "eth_getStorageAt",
+      "path": "00012-drpc-base-eth_getStorageAt-request.json",
+      "provider_id": "drpc-base",
+      "sequence": 12,
+      "sha256": "f11aec6f2aab83a1f1decd6c89a87f04354d023cb1d444d6a2f98a4e5856c413"
+    },
+    {
+      "kind": "response",
+      "method": "eth_getStorageAt",
+      "path": "00012-drpc-base-eth_getStorageAt-response.json",
+      "provider_id": "drpc-base",
+      "sequence": 12,
+      "sha256": "297f758fff783aed409ef5acc1d7b7aba33bd8d6c96c218e3aa2b2841cee533c"
+    }
+  ],
+  "raw_evidence_count": 24,
+  "recovery3_mutation_authorized": false,
+  "report_sha256": "0b1feb9629bf31d2f4192317243b8186e9265f0d794d2ed0c324f828d2817142",
+  "required_methods": [
+    "eth_chainId",
+    "eth_getBlockByHash",
+    "eth_getBlockByNumber",
+    "eth_getTransactionReceipt",
+    "eth_getCode",
+    "eth_getStorageAt"
+  ],
+  "rpc_authorized": false,
+  "schema_version": "stage2_control_trace_state_capability.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false,
+  "trace_method_candidates": [
+    "trace_transaction",
+    "debug_traceTransaction",
+    "trace_block",
+    "debug_traceBlockByNumber"
+  ]
+}

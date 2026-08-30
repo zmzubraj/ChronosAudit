@@ -1,0 +1,123 @@
+{
+  "capture_index_sha256": "ce68beda78465404e694c212fed97dbaeb1e0dca63056e67e5cf46b592685fc1",
+  "captures": [
+    {
+      "captured_at_utc": "2026-08-21T03:57:00Z",
+      "captured_path": "alchemy_supported_chains.md",
+      "content_sha256": "2204e7184737f92dd753ae32e3f071350d8bf415faea316231bcc0377cc427ae",
+      "final_url": "https://www.alchemy.com/docs/reference/node-supported-chains",
+      "http_status": 200,
+      "operator_family": "alchemy",
+      "source_id": "alchemy-supported-chains-doc-2026-08-21",
+      "source_url": "https://www.alchemy.com/docs/reference/node-supported-chains",
+      "supported_provider_ids": [
+        "alchemy-base",
+        "alchemy-bsc",
+        "alchemy-ethereum"
+      ]
+    },
+    {
+      "captured_at_utc": "2026-08-21T03:57:00Z",
+      "captured_path": "infura_all_endpoints.md",
+      "content_sha256": "2c4c563bc34ebb4d1eebc7cbb90b72c1e4bc4c87eef8938bf6a8131fe9595acb",
+      "final_url": "https://docs.infura.io/get-started/endpoints/",
+      "http_status": 200,
+      "operator_family": "infura",
+      "source_id": "infura-all-endpoints-doc-2026-08-21",
+      "source_url": "https://docs.infura.io/get-started/endpoints/",
+      "supported_provider_ids": [
+        "infura-base",
+        "infura-bsc",
+        "infura-ethereum"
+      ]
+    }
+  ],
+  "decision": "EVIDENCE_CAPTURED_AWAITING_ACCOUNTABLE_PROVIDER_IDENTITY_REVIEW",
+  "operator_verified": false,
+  "provider_count": 6,
+  "provider_identity_verified": false,
+  "provider_ids": [
+    "alchemy-base",
+    "alchemy-bsc",
+    "alchemy-ethereum",
+    "infura-base",
+    "infura-bsc",
+    "infura-ethereum"
+  ],
+  "provider_registry_sha256": "9335b3fbca4c3ad211e5458f3b3b96d4ce1b56b695f55190363fc15be0cb388f",
+  "providers": [
+    {
+      "api_key_env": "CHRONOS_ALCHEMY_API_KEY",
+      "chain": "base",
+      "operator_family": "alchemy",
+      "provider_id": "alchemy-base",
+      "public_endpoint": "https://base-mainnet.g.alchemy.com/v2/{api_key}",
+      "public_endpoint_id": "21c962a3a6320632e18a230eab2ddd595e50279d2475e1b730ddb2fbde172b22",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "alchemy-supported-chains-doc-2026-08-21"
+    },
+    {
+      "api_key_env": "CHRONOS_ALCHEMY_API_KEY",
+      "chain": "bsc",
+      "operator_family": "alchemy",
+      "provider_id": "alchemy-bsc",
+      "public_endpoint": "https://bnb-mainnet.g.alchemy.com/v2/{api_key}",
+      "public_endpoint_id": "a6f0855206cfb3686a38e97dc650fa89a0c150182bbdc8efc15c34dbca936459",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "alchemy-supported-chains-doc-2026-08-21"
+    },
+    {
+      "api_key_env": "CHRONOS_ALCHEMY_API_KEY",
+      "chain": "ethereum",
+      "operator_family": "alchemy",
+      "provider_id": "alchemy-ethereum",
+      "public_endpoint": "https://eth-mainnet.g.alchemy.com/v2/{api_key}",
+      "public_endpoint_id": "876e383205c3d6aa2d156265a37bca3726c2fa9dd11e13586d374af456e43524",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "alchemy-supported-chains-doc-2026-08-21"
+    },
+    {
+      "api_key_env": "CHRONOS_INFURA_API_KEY",
+      "chain": "base",
+      "operator_family": "infura",
+      "provider_id": "infura-base",
+      "public_endpoint": "https://base-mainnet.infura.io/v3/{api_key}",
+      "public_endpoint_id": "5f911ff2482671dac55ef35d7639e301c568d802da35952781c57f0e1922ec71",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "infura-all-endpoints-doc-2026-08-21"
+    },
+    {
+      "api_key_env": "CHRONOS_INFURA_API_KEY",
+      "chain": "bsc",
+      "operator_family": "infura",
+      "provider_id": "infura-bsc",
+      "public_endpoint": "https://bsc-mainnet.infura.io/v3/{api_key}",
+      "public_endpoint_id": "970723d906c9cd65c9592abb8d4451e4cb2b9cb496e7f09dcb4555762c15722c",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "infura-all-endpoints-doc-2026-08-21"
+    },
+    {
+      "api_key_env": "CHRONOS_INFURA_API_KEY",
+      "chain": "ethereum",
+      "operator_family": "infura",
+      "provider_id": "infura-ethereum",
+      "public_endpoint": "https://mainnet.infura.io/v3/{api_key}",
+      "public_endpoint_id": "f4f002c664fbdc63dce348237b287e07383ecd07678f2623ac28b525d8e8847e",
+      "registry_operator_verified": false,
+      "review_operator_verified": false,
+      "source_id": "infura-all-endpoints-doc-2026-08-21"
+    }
+  ],
+  "recovery3_mutation_authorized": false,
+  "review_payload_sha256": "74d89379d64aacfa497ec061724100fcdfb23ec23d1d2fb861933c34dd15bbd3",
+  "reviewer_signature_required": true,
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_provider_identity_evidence_review.v1",
+  "selection_authorized": false,
+  "stage_promotion_authorized": false
+}

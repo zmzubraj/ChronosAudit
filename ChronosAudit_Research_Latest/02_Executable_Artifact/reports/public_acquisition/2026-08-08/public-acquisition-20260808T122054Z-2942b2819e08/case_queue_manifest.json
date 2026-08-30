@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-08-08T12:20:54Z",
+  "expected_pilot_rows": 10,
+  "full_case_target": 417,
+  "input_sha256": "2942b2819e08d00d8eb23bee9815e9c644757421e92e3c1307a45b057e264cf1",
+  "pilot_csv_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/processed/public_acquisition/2026-08-08/public-acquisition-20260808T122054Z-2942b2819e08/pilot_case_queue.csv",
+  "pilot_csv_sha256": "3f5678509736c8d7f175d00d4722902f2c7110a6bc4bcb383009b2ea7673f314",
+  "pilot_rows": 9,
+  "policy_sha256": "60494f0bea76eef89f0a8b74dd5235092888bbedf7781d982a527ba3528996ad",
+  "policy_snapshot_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition/2026-08-08/public-acquisition-20260808T122054Z-2942b2819e08/inputs/public_acquisition_policy.yaml",
+  "policy_snapshot_sha256": "099203714ccdda86d12ea9c44d538a84daf033ec5d69646991ea45795fb71297",
+  "positive_snapshot_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition/2026-08-08/public-acquisition-20260808T122054Z-2942b2819e08/inputs/positive_cases_snapshot.csv",
+  "positive_snapshot_sha256": "0b3c94f1b0b96d00b898c8f7a72f9cbb97905cb02b9e47f53ce499d886b74fcf",
+  "queue_csv_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/processed/public_acquisition/2026-08-08/public-acquisition-20260808T122054Z-2942b2819e08/case_queue.csv",
+  "queue_csv_sha256": "30b23e54336425b759422fe65a59f021932a5e502b3dc04890c160e870c6591e",
+  "queue_rows": 417,
+  "queue_sha256": "05ed12a61b9c1ea958e2cd47aba15354039220e7e24f03d370682eddb0e87cdd",
+  "revision": "2026-08-08",
+  "run_id": "public-acquisition-20260808T122054Z-2942b2819e08",
+  "source_snapshot_path": "/Users/rainbow/Documents/ZTech/Research/ChronosAudit/ChronosAudit_Research_Latest/.worktrees/public-evidence-acquisition/02_Executable_Artifact/reports/public_acquisition/2026-08-08/public-acquisition-20260808T122054Z-2942b2819e08/inputs/case_queue_source_snapshot.csv",
+  "source_snapshot_sha256": "2942b2819e08d00d8eb23bee9815e9c644757421e92e3c1307a45b057e264cf1"
+}

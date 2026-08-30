@@ -1,0 +1,13 @@
+{
+  "call_scope_sha256": "5c730e780e7127df8cb03cdd20b916437a649269ba1999cd816a17a2a9857dd2",
+  "method": "eth_getBlockByNumber",
+  "operator_family": "onfinality",
+  "params": [
+    "0x536f318",
+    false
+  ],
+  "provider_id": "onfinality-bsc",
+  "schema_version": "stage2_control_cutoff_state_rpc_request.v1",
+  "sequence": 16,
+  "target_id": "base-state:008d91fa52c1e08c722bc3e17e0133e55a7f1a45d2dd80c31127b902c4cc33a3"
+}

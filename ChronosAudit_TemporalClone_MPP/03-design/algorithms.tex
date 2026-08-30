@@ -1,0 +1,30 @@
+\begin{minipage}{0.96\linewidth}
+\textbf{Algorithm 1: Temporal landmark eligibility.}
+For each case $i$, parse deployment time $d_i$ and incident time $t_i$.
+Fail closed if either value is absent or if $d_i>t_i$.
+For each predeclared landmark $\ell\in\{1\mathrm{h},24\mathrm{h},7\mathrm{d},30\mathrm{d}\}$,
+set $E_{i,\ell}=\mathbb{1}[t_i-d_i\geq\ell]$.
+Report $\sum_i E_{i,\ell}/N$ with a two-sided 95\% Wilson interval.
+The historical snapshot cutoff is audited separately and never substituted for deployment age.
+\end{minipage}
+
+\vspace{0.8em}
+\begin{minipage}{0.96\linewidth}
+\textbf{Algorithm 2: Identity sensitivity.}
+For every case, construct four fingerprints: chain--address,
+address only, SHA-256 of exact runtime bytecode, and SHA-256 of runtime bytecode
+after removing the recognized Solidity CBOR metadata trailer.
+Group equal fingerprints, count unique identities, groups of size at least two,
+rows in those groups, cross-address groups, and cross-chain groups.
+No bytecode equality result is interpreted as semantic equivalence.
+\end{minipage}
+
+\vspace{0.8em}
+\begin{minipage}{0.96\linewidth}
+\textbf{Algorithm 3: Observable proxy linkage.}
+Normalize the upstream ERC-1967 implementation, admin, and beacon values and the
+recognized ERC-1167 target. Count an implementation, beacon, or ERC-1167 target
+as an observable proxy indicator; report admin separately because an admin slot
+alone does not establish a proxy target. The resulting count is a lower bound,
+not a complete proxy classifier.
+\end{minipage}

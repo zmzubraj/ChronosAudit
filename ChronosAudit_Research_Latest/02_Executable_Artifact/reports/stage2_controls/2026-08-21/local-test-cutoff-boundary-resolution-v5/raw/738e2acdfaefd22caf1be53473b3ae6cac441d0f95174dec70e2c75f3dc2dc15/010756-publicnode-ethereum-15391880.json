@@ -1,0 +1,45 @@
+{
+  "authorization": {
+    "authorized": true,
+    "range_scope_sha256": "252da8bada3e7f793a91e6c020d595a921e0ca8c3ea29251afb1bbbe4505ad25",
+    "remaining_request_count_after_call": 13904,
+    "remaining_scope_request_count_after_call": 34,
+    "request_sha256": "e0dbf276476d2b6b15720f5edbacfcca5134951a0c4e7911c1495d3abe194300",
+    "sequence_number": 10756
+  },
+  "chain": "ethereum",
+  "error": null,
+  "method": "eth_getBlockByNumber",
+  "observed_at_unix": 1787282337,
+  "operator_family": "publicnode",
+  "params": [
+    "0xeadc88",
+    false
+  ],
+  "provider_id": "publicnode-ethereum",
+  "result": {
+    "baseFeePerGas": "0x3f5c1dc76",
+    "difficulty": "0x2a288308f5e71e",
+    "extraData": "0x53424943727970746f2e636f6d20506f6f6c28657529",
+    "gasLimit": "0x1ca3529",
+    "gasUsed": "0x0",
+    "hash": "0x2a0a486d664f54310c664ed4b440171c595b820a623810dd83896b2e0aa7a7ad",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "miner": "0x8b4de256180cfec54c436a470af50f9ee2813dbb",
+    "mixHash": "0x35e3f3c81d8e9847d13dde0d27dfd59cdd7dbd0648cfa982d06101324a2fb86b",
+    "nonce": "0xe98b626baec0722f",
+    "number": "0xeadc88",
+    "parentHash": "0x41919e4e4062670cf02d8bdbc0ff8146a179805e319b28b4de538ec2d22912bc",
+    "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x223",
+    "stateRoot": "0x03d0b2e4ac3af4d1e2e2dc118065ad23d3584a781eab530fb2a9f9d1475335b7",
+    "timestamp": "0x6303cb6e",
+    "transactions": [],
+    "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+    "uncles": []
+  },
+  "schema_version": "stage2_control_cutoff_boundary_raw_rpc.v1",
+  "sequence_number": 10756,
+  "target_id": "cutoff-boundary:f217e9bdec13833a9de6b6b5fb2fe35eb36530f51f084ec30e52870fcbcb147e"
+}

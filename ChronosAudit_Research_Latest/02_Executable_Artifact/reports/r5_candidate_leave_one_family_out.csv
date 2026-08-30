@@ -1,0 +1,17 @@
+held_out,train_rows,test_rows
+arithmetic_or_precision_failure,379,38
+authorization_failure,372,45
+availability_failure,415,2
+business_logic_failure,313,104
+cross_domain_validation_failure,416,1
+economic_constraint_failure,406,11
+economic_state_manipulation,403,14
+oracle_or_market_manipulation,345,72
+randomness_failure,414,3
+reentrancy,389,28
+signature_or_replay_failure,416,1
+storage_or_upgrade_failure,416,1
+token_semantics_mismatch,392,25
+transaction_ordering_or_mev,414,3
+unclassified_public_label,385,32
+validation_failure,380,37

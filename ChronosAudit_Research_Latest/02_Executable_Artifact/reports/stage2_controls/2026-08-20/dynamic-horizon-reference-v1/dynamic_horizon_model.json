@@ -1,0 +1,3717 @@
+{
+  "bootstrap_minimum_usable_replicates": 900,
+  "bootstrap_replicates": 1000,
+  "counter_authority": false,
+  "decision": "DYNAMIC_HORIZON_MODEL_FITTED",
+  "global_bound_bootstrap_usable_replicates": 1000,
+  "global_lower_bound_method": "POOLED_KM_Q80",
+  "global_lower_bound_seconds": 48544308,
+  "global_upper_bound_method": "POOLED_KM_Q99_PLUS_ONE_SIDED_95_BOOTSTRAP_ALLOWANCE",
+  "global_upper_bound_seconds": 185547217,
+  "hierarchy": [
+    "EXACT",
+    "ARCHITECTURE_PROTOCOL",
+    "CHAIN",
+    "GLOBAL"
+  ],
+  "method": "KAPLAN_MEIER_HIERARCHICAL_QUANTILE",
+  "minimum_stratum_events": 20,
+  "minimum_stratum_rows": 30,
+  "model_sha256": "1afd2b68c1f4db724e56ff136e99cc289d64420feac67740533e97dc664d6d6c",
+  "qualification_authorized": false,
+  "quantile_probability": 0.95,
+  "reference_records_sha256": "18d8ff048ac11ee8997d19b78c3b299df5592a774da48bd4bb74b55f48cfff1c",
+  "schema_version": "chronosaudit.control_dynamic_horizon_model.v1",
+  "selection_authorized": false,
+  "strata": [
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0xde71b24fe56358cc0adfd6f2e0f6d8ed9e2cf634",
+        "mechanism_family": "access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x381aef9eac247760473d305d31c1605d1c03d0bb",
+        "mechanism_family": "access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xb112841c67d94d9536d356631224340e2ef27b39",
+        "mechanism_family": "access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 8,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 8,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "access control & price oracle manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x0500f0ac1280d2b70e8775729b50d2b8c24a8cae",
+        "mechanism_family": "accesscontrol",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "any token is destroyed",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x3bbd5136122818c7a6dc2022e014e426dbf16f09",
+        "mechanism_family": "arbitrage",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "arbitrary call",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "arbitrary external call",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x45e15d1e4f92f28a916f4f2971ad9adc278e148b",
+        "mechanism_family": "arbitrary external call vulnerability",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 6,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "arbitrary external call vulnerability",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 6,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "arbitrary yul calldata",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "arbitrary-call",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "bad access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "bad function implementation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "bad healthfactor check",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "borrowbehalf + donation attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x79fc1d290aa81338f377f6271c499662d6301e65",
+        "mechanism_family": "bridge address(0).safetransferfrom() does not revert",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "broken access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x1d591ba6ae10a6eb4050e1acbbb2d0be899e61f2",
+        "mechanism_family": "business logic",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "business logic",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x4cb4e3d9e2032e4561ae93ec4815126371bbd0ce",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x01f521187169e19c519e09e24638bca927def30a",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x02a4b53926bad267df700ff8e9f5d4a2516bb1fc",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x2bcc7bf861eced9c64d0ea239bbf00036babf7b3",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x36b05531e42231956793faa42541923a056bdfaa",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x464120b7104a99c8fec863e8643bbaca93e7ac64",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xa9f08c2df8e09b32eefa85f5ec459c040248b06c",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xaff18b43dfb44d9b56c2b88e8569b3b0880c2a56",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xe468b43b4ae4d750cd6a5d7edacc1a751302c99c",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xeb3e6e2a30b2c23ac3442fbb25d6fe2fe495e3c3",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 1000,
+      "event_count": 50,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": 83462494,
+      "row_count": 50,
+      "status": "ESTIMABLE",
+      "uncertainty_allowance_seconds": 15535254
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "business logic flaw & access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "business logic flaw : incorrect acceptable merkle-root checks",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "business logic flaw : incorrect recipient balance check, did not check sender!=recipient in transfer",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "business logic flaw : missing check for number of nft to mint",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x5e70f7acb8ec0231c00220d11c74dc2b23187103",
+        "mechanism_family": "bypassed insolvency check",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "calculation issues during liquidity migration",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "claim rewards without protection",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "compoundv2 inflation attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "cross contract reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x3a6d9bf8286a4ada77c15ecf82d4c0c0af95be74",
+        "mechanism_family": "div precision loss",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "doesn\u2019t burn shares",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "donate inflation exchangerate & rounding error",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "donate inflation exchangerate && rounding error",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "erc777 reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "fake market",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "fault logic",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "faulty oracle",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flash loan",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xd8cd8896d333acac3a0c155ccdb630660b4d03d3",
+        "mechanism_family": "flashloan & price oracle manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 3,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan & price oracle manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 3,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan & reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan + scaledbalanceof manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan + token migrate flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x2bbd66fc4898242bdbd2583bbe1d76e8b8f71445",
+        "mechanism_family": "flashloan attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x9b3be0cc5dd26fd0254088d03d8206792715588b",
+        "mechanism_family": "flashloan attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 3,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan attack + reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 3,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan attack and smart contract vulnerability",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan manipulate price",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x93dafd75f3f809d6a940e3971d401cfcc78f328c",
+        "mechanism_family": "flashloan price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xfdded988f34d9fd2f8d79234b145be104a913dec",
+        "mechanism_family": "flashloan price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 7,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloan price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 7,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x35afc46f5392304eab8e57ecfc4a93170db415e2",
+        "mechanism_family": "flashloans & price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashloans & price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "flashmint receive error",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x94290106d2a32bc89be9f1c3a3f3394f64578aa6",
+        "mechanism_family": "incorrect access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect burn logic",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 4,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect calculation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 4,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect calculation via cached data",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect dividends",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect dividends calculation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect fee logic",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x47c69e8c909ce626af73c955a5e34a20b7c71f19",
+        "mechanism_family": "incorrect input validation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x51bdbfcd7656e2c25ad1bc8037f70572b7142ecc",
+        "mechanism_family": "incorrect input validation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 4,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect input validation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 4,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xf4d903941d2682b218ddb2281e64550fba130d9b",
+        "mechanism_family": "incorrect logic check",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect logic check",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect parameter setting",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 6,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect reward calculation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 6,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect signature verification",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect token burn mechanism",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect transfer",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "incorrect-access-control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "infinite number of loans",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "inflation attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "insufficient access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "insufficient token validation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x364b7e2d5b11b9d2016d232fa271d89d5e6065f1",
+        "mechanism_family": "insufficient validation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xa15f6044660735914b3740f76be8f5573944d0ca",
+        "mechanism_family": "insufficient validation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 3,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "insufficient validation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 3,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "insufficient validation + flashloan",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "insufficient validation + reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "integer overflow",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "invalid emergency withdraw mechanism",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 3,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "lack of access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 3,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "lack of calldata validation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x4a10354b8e1928c38cc6a738cd2748fa1c818cea",
+        "mechanism_family": "lack of input validation & reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x084646db9177f19913462c388ee5b18bb135229f",
+        "mechanism_family": "lack of msg.sender address verification",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "lack of permission check",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "lack of slippage control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "lack of slippage protection",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "lack of validation data",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "lack of validation dst address",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "lack of validation userdata",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 3,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "lack slippage protection",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 3,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xd4745c03d9b9d5bbeabb952cd5ad3f97ca64c675",
+        "mechanism_family": "liquidity migration exploit",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0xc86d2555f8c360d3c5e8e4364f42c1f2d169330e",
+        "mechanism_family": "logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xc60c6854d10c034718aca198fe92d73eb83b744c",
+        "mechanism_family": "logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 16,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 16,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "loss of precision",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "malicious proposal mint & transfer ownership",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "manipulating price",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "manipulation of funds through fluctuations in the amount of exchangeable assets",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "mathematical flaw + reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "miscalculation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x89f795740c3f7cfe465fa854d330dd89fad6770d",
+        "mechanism_family": "miscalculation on \\_spendallowance",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "misconfiguration",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "msgvalue in loop",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x1e62cdcdc1807b7eb703b47908c42955999b4320",
+        "mechanism_family": "no input parameter check",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "no input validation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "oracle bad price",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "oracle price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "outdated global variable",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xc186e6f0163e21be057e95aa135edd52508d14d3",
+        "mechanism_family": "overflow",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "overflow",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "overpriced asset in oracle",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x539d54074e052ae82de4936ae6bb213ab773559e",
+        "mechanism_family": "pair balance manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "pair manipulate",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "parameter access control",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "pool manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "precision truncation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0xc4113ae18e0d3213c6a06947a2ffc70ad3517c77",
+        "mechanism_family": "precission loss",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "precission loss vulnerability",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "precission-loss",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "predicting random numbers",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x44d1c6b94b282c678c95b7f4b18de5a53ea4fa9f",
+        "mechanism_family": "price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x05bfa9157e92690b179033ca2f6dd1e86b25ea4d",
+        "mechanism_family": "price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x678fd96fd3d057a30ab1569bfe72e51446d8dfc1",
+        "mechanism_family": "price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xa1fba7f2079131acb3e2073563ec53c8d43bc144",
+        "mechanism_family": "price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 21,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 21,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "price manipulation attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "price manipulation via reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "beacon:0x06147e073b854521c7b778280e7d7dbafb2d4898",
+        "mechanism_family": "price oracle manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xcbc6f8dfbb439a8adc863251b656c1cd89ccbd1e",
+        "mechanism_family": "price oracle manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "price out of date",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x4a9cb5d0b755275fd188f87c0a8df531b0c7c7d2",
+        "mechanism_family": "price-caching design defect",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "price-manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "protocol token incompatible",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "public functioncall",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x1eabb7b90fac3b4143c551a02b41e741f7457efa",
+        "mechanism_family": "public internal function",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x6b75a3b072369bee8f873477266ac168beb73dab",
+        "mechanism_family": "read-only-reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "read-only-reentrancy && misconfiguration",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 4,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "rebasing logic issue",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 4,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x574027c70abd7b25953b2cd060ed7827fd2c7b03",
+        "mechanism_family": "reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x5966e2a40e65954d229f020e989be296ec116746",
+        "mechanism_family": "reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 13,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "reentrancy",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 13,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x72469eb66de133f2a39573867809ed64b9b1739f",
+        "mechanism_family": "reentrancy and reward manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 9,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "reflection token",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 9,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "reflection tokens",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x0df9d225ccfaa21ceb0b2ab6855b13dffa78d253",
+        "mechanism_family": "replacement_candidate",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x13dc7f825e5b97be1f53b7db4253a7c73b5068d6",
+        "mechanism_family": "replacement_candidate",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x683280fe34c4f99c63c8c779867a1d67a572fb23",
+        "mechanism_family": "replacement_candidate",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x88e05c0dd235cfff7d128194ca70327c95074975",
+        "mechanism_family": "replacement_candidate",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xd377919fa87120584b21279a491f82d5265a139c",
+        "mechanism_family": "replacement_candidate",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 1000,
+      "event_count": 52,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "replacement_candidate",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": 129193206,
+      "row_count": 52,
+      "status": "ESTIMABLE",
+      "uncertainty_allowance_seconds": 56354011
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "reward calculation error",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "reward distribution problem",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "rounding error && business logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "rug pull",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "sandwich ack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "sandwich attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "share price manipulation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x0d116ed40831fef8e21ece57c8455ae3b1e4041b",
+        "mechanism_family": "signature replay",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "skim token balance",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "slippage proection absent",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x21dbe7debd0ab102508cf03a055ece9056872e09",
+        "mechanism_family": "storage collision",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x35dd16dfa4ea1522c29ddd087e8f076cad0ae5e8",
+        "mechanism_family": "storage collision & malicious proposal",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "subscription-incentive-mechanism",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x317b8e2739616c9ea30c4f7e51c1d48c47876ef6",
+        "mechanism_family": "swap eth/btc 1/1 in mint function",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0xf642f2a626a8b732619606c493abfc2433dd2d35",
+        "mechanism_family": "swap metapool attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "swap metapool attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "token incompatible",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "transfer logic flaw",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "unauthorized transferfrom",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "unchecked user input",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "underflow",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "uniswap skim() token balance attack",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x9bbc2890239bd144dd6f6f0b65cda56c597fb88b",
+        "mechanism_family": "unit mismatch",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xc39c54868a4f842b02a99339f4a57a44efc310b8",
+        "mechanism_family": "unprotected function",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "unsafecast",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 2,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "verify flashloan callback",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 2,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "vulnerable price dependency",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "mechanism_family": "wrong price calculation",
+        "protocol_family": "unknown"
+      },
+      "level": "EXACT",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "beacon:0x06147e073b854521c7b778280e7d7dbafb2d4898",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x2bbd66fc4898242bdbd2583bbe1d76e8b8f71445",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x364b7e2d5b11b9d2016d232fa271d89d5e6065f1",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x44d1c6b94b282c678c95b7f4b18de5a53ea4fa9f",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x45e15d1e4f92f28a916f4f2971ad9adc278e148b",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x4a9cb5d0b755275fd188f87c0a8df531b0c7c7d2",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x4cb4e3d9e2032e4561ae93ec4815126371bbd0ce",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x539d54074e052ae82de4936ae6bb213ab773559e",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0x5e70f7acb8ec0231c00220d11c74dc2b23187103",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0xc4113ae18e0d3213c6a06947a2ffc70ad3517c77",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0xc86d2555f8c360d3c5e8e4364f42c1f2d169330e",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0xde71b24fe56358cc0adfd6f2e0f6d8ed9e2cf634",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1167:0xf642f2a626a8b732619606c493abfc2433dd2d35",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x01f521187169e19c519e09e24638bca927def30a",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x02a4b53926bad267df700ff8e9f5d4a2516bb1fc",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x0500f0ac1280d2b70e8775729b50d2b8c24a8cae",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x05bfa9157e92690b179033ca2f6dd1e86b25ea4d",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x084646db9177f19913462c388ee5b18bb135229f",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x0d116ed40831fef8e21ece57c8455ae3b1e4041b",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x0df9d225ccfaa21ceb0b2ab6855b13dffa78d253",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x13dc7f825e5b97be1f53b7db4253a7c73b5068d6",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x1d591ba6ae10a6eb4050e1acbbb2d0be899e61f2",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x1e62cdcdc1807b7eb703b47908c42955999b4320",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x1eabb7b90fac3b4143c551a02b41e741f7457efa",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x21dbe7debd0ab102508cf03a055ece9056872e09",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x2bcc7bf861eced9c64d0ea239bbf00036babf7b3",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x317b8e2739616c9ea30c4f7e51c1d48c47876ef6",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x35afc46f5392304eab8e57ecfc4a93170db415e2",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x35dd16dfa4ea1522c29ddd087e8f076cad0ae5e8",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x36b05531e42231956793faa42541923a056bdfaa",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x381aef9eac247760473d305d31c1605d1c03d0bb",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x3a6d9bf8286a4ada77c15ecf82d4c0c0af95be74",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x3bbd5136122818c7a6dc2022e014e426dbf16f09",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x464120b7104a99c8fec863e8643bbaca93e7ac64",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x47c69e8c909ce626af73c955a5e34a20b7c71f19",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x4a10354b8e1928c38cc6a738cd2748fa1c818cea",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x51bdbfcd7656e2c25ad1bc8037f70572b7142ecc",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x574027c70abd7b25953b2cd060ed7827fd2c7b03",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x5966e2a40e65954d229f020e989be296ec116746",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x678fd96fd3d057a30ab1569bfe72e51446d8dfc1",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x683280fe34c4f99c63c8c779867a1d67a572fb23",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x6b75a3b072369bee8f873477266ac168beb73dab",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x72469eb66de133f2a39573867809ed64b9b1739f",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x79fc1d290aa81338f377f6271c499662d6301e65",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x88e05c0dd235cfff7d128194ca70327c95074975",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x89f795740c3f7cfe465fa854d330dd89fad6770d",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x93dafd75f3f809d6a940e3971d401cfcc78f328c",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x94290106d2a32bc89be9f1c3a3f3394f64578aa6",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x9b3be0cc5dd26fd0254088d03d8206792715588b",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0x9bbc2890239bd144dd6f6f0b65cda56c597fb88b",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xa15f6044660735914b3740f76be8f5573944d0ca",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xa1fba7f2079131acb3e2073563ec53c8d43bc144",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xa9f08c2df8e09b32eefa85f5ec459c040248b06c",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xaff18b43dfb44d9b56c2b88e8569b3b0880c2a56",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xb112841c67d94d9536d356631224340e2ef27b39",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xc186e6f0163e21be057e95aa135edd52508d14d3",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xc39c54868a4f842b02a99339f4a57a44efc310b8",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xc60c6854d10c034718aca198fe92d73eb83b744c",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xcbc6f8dfbb439a8adc863251b656c1cd89ccbd1e",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xd377919fa87120584b21279a491f82d5265a139c",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xd4745c03d9b9d5bbeabb952cd5ad3f97ca64c675",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xd8cd8896d333acac3a0c155ccdb630660b4d03d3",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xe468b43b4ae4d750cd6a5d7edacc1a751302c99c",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xeb3e6e2a30b2c23ac3442fbb25d6fe2fe495e3c3",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xf4d903941d2682b218ddb2281e64550fba130d9b",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "architecture_proxy_pattern": "eip1967:0xfdded988f34d9fd2f8d79234b145be104a913dec",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 1000,
+      "event_count": 344,
+      "key": {
+        "architecture_proxy_pattern": "unknown",
+        "protocol_family": "unknown"
+      },
+      "level": "ARCHITECTURE_PROTOCOL",
+      "quantile_seconds": 109880557,
+      "row_count": 344,
+      "status": "ESTIMABLE",
+      "uncertainty_allowance_seconds": 10472812
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 1,
+      "key": {
+        "chain": "arbitrum"
+      },
+      "level": "CHAIN",
+      "quantile_seconds": null,
+      "row_count": 1,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 0,
+      "event_count": 9,
+      "key": {
+        "chain": "base"
+      },
+      "level": "CHAIN",
+      "quantile_seconds": null,
+      "row_count": 9,
+      "status": "INSUFFICIENT_REFERENCE_EVIDENCE",
+      "uncertainty_allowance_seconds": null
+    },
+    {
+      "bootstrap_usable_replicates": 1000,
+      "event_count": 222,
+      "key": {
+        "chain": "bsc"
+      },
+      "level": "CHAIN",
+      "quantile_seconds": 108745896,
+      "row_count": 222,
+      "status": "ESTIMABLE",
+      "uncertainty_allowance_seconds": 4030167
+    },
+    {
+      "bootstrap_usable_replicates": 1000,
+      "event_count": 178,
+      "key": {
+        "chain": "ethereum"
+      },
+      "level": "CHAIN",
+      "quantile_seconds": 117172614,
+      "row_count": 178,
+      "status": "ESTIMABLE",
+      "uncertainty_allowance_seconds": 27806088
+    },
+    {
+      "bootstrap_usable_replicates": 1000,
+      "event_count": 410,
+      "key": {},
+      "level": "GLOBAL",
+      "quantile_seconds": 109880557,
+      "row_count": 410,
+      "status": "ESTIMABLE",
+      "uncertainty_allowance_seconds": 10472812
+    }
+  ],
+  "uncertainty_method": "NONPARAMETRIC_ROW_BOOTSTRAP_PCG64",
+  "uncertainty_upper_probability": 0.95
+}

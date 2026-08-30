@@ -1,0 +1,22 @@
+{
+  "accepted_import_ledger_required": true,
+  "acquisition_authorized": true,
+  "allowed_signers_sha256": "90c71679b39b079344c7521803e93c70bbe1566eab62fa8796a00b19a9f8eaf2",
+  "approval_expires_utc": "2026-08-27T16:30:38Z",
+  "approval_sha256": "182a9fb558435c431c672caabeb05483f3c0f9b2e33f695b2d5c00f3b22e8354",
+  "approved_chunk_count": 16,
+  "decision": "SOURCE_ACQUISITION_APPROVAL_VERIFIED",
+  "identity_binding_limit": "KEY_POSSESSION_DOES_NOT_PROVE_REAL_WORLD_IDENTITY",
+  "maximum_download_bytes": 5024970903,
+  "raw_receipts_required": true,
+  "recovery3_mutation_authorized": false,
+  "request_sha256": "0cccdc430c3ba18127bbca13ba17ed6dd42e95a3fbbc50e0bb06da8ed005e38e",
+  "rpc_authorized": false,
+  "schema_version": "chronosaudit.control_source_acquisition_approval_verification.v2",
+  "selection_authorized": false,
+  "signature_namespace": "chronosaudit-stage2-control-source-acquisition-v2",
+  "signature_sha256": "8413dbab35afdae6cbc38d7ff9606c62e94588ec0d240c948bfd0b82189b7dbb",
+  "signer_principal": "zmzubraj-local-test",
+  "source_object_count": 43,
+  "stage_promotion_authorized": false
+}
