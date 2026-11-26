@@ -4,6 +4,8 @@ ChronosAudit is an evidence-gated research program for pre-incident smart-contra
 
 This public umbrella repository captures the current full GitHub-compatible research workspace as of 30 August 2026. It preserves the active source, tests, configurations, manuscripts, reports, figures, QA records, provenance, processed evidence that fits GitHub limits, the TemporalClone Minimum Publishable Prototype (MPP), and the original research-case materials.
 
+Author: **Zubaer Mahmood Zubraj** (ORCID [0009-0004-3251-3385](https://orcid.org/0009-0004-3251-3385)).
+
 Repository owner, research-program maintainer, and public-release authority:
 **Zubaer Mahmood Zubraj** ([`@zmzubraj`](https://github.com/zmzubraj)).
 The owner authorized this GitHub-compatible snapshot to remain publicly
@@ -49,7 +51,7 @@ flowchart LR
 
 The local ChronosAudit workspace is approximately 49 GB. Raw RPC/provider acquisitions, local credentials, virtual environments, worktrees, inaccessible legacy pre-fix records, credential-bearing provider logs, and files exceeding the repository's 90 MiB export ceiling are intentionally excluded. Canonical manifests, hashes, processed results, reports, and reconstruction instructions are retained where GitHub-compatible.
 
-No repository-wide reuse licence is granted by public hosting. Public visibility is owner-authorized; copying, redistribution, or relicensing beyond applicable platform permissions still requires the recorded rights review, licence selection, and accountable human approval.
+The repository is public and released under the MIT License (see [Licence](#licence)). Raw provider data excluded above is not part of the release.
 
 ## Snapshot provenance
 
@@ -58,3 +60,7 @@ No repository-wide reuse licence is granted by public hosting. Public visibility
 - Source `HEAD`: `59f0935b98e2524b2b7a70c5a5f4de3189161706`
 - Snapshot state: current working tree, including 55 modified/deleted tracked entries and 322 untracked paths present at export time
 - Export policy: preserve current relevant files without modifying the source checkout; omit only the boundaries documented in `EXPORT_SCOPE.md`
+
+## Licence
+
+Licensed under the [MIT License](LICENSE), copyright (c) 2026 Zubaer Mahmood Zubraj. Third-party datasets, papers and tools referenced here keep their original terms and are not relicensed.

@@ -69,4 +69,4 @@ The row-level upstream case envelopes are referenced by the provenance manifest 
 
 The analysis, manuscript, figures, tables, algorithms, PDF, DOCX, and submission bundles are mechanically complete. The research program intentionally remains at `INTAKE`, and the package is not yet authorized for public release or journal submission. Independent novelty challenge, independent clean-machine reproduction, author metadata and declarations, redistribution-rights review, license selection, and accountable human approval remain open. See [acceptance readiness](09-submission/acceptance-readiness.md) for the authoritative disposition.
 
-No repository-wide reuse licence is granted by public hosting. Public visibility is owner-authorized; a reuse licence must be selected only after the recorded rights review and accountable-author approval.
+Released under the MIT License (see the repository root [LICENSE](../LICENSE)). SCONE-bench incident data and provider responses keep their original terms.
